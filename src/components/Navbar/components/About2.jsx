@@ -1,6 +1,6 @@
 import React from 'react'
 import './About2.css'
-import OutsideClickHandler from 'react-outside-click-handler-lite';
+import OutsideClickHandler from 'react-outside-click-wrapper';
 
 
 const About2 = ({menuId, showAbout2, setShowAbout2}) => {

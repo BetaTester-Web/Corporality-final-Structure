@@ -1,7 +1,7 @@
 .services-container{
     position: fixed;
     top: 80px;
-    background-color: #fff;
+    background-color: #fff !important;
     /* left: 55px;
     right: 55px; */
     left: 50%;

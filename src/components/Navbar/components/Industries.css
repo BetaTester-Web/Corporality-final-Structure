@@ -1,7 +1,7 @@
 .industries-container{
     position: fixed;
     top: 80px;
-    background-color: #fff;
+    background-color: #fff !important;
     /* to center the container */
     left: 50%;
     transform: translateX(-50%);

@@ -21,6 +21,7 @@
     z-index: 1000;
     transform: translateX(0%);
     transition: all 0.3s ease-in-out;
+    background-color: #fff !important;
 }
 
 .about-sub-menu-show{
@@ -37,6 +38,7 @@
     border-bottom: 1px solid #e0e0e0;
     height: 43px;
     font-weight: 600;
+    color: #31647c;
 }
 .about-sub-menu-list{
     display: flex;
@@ -53,6 +55,7 @@
     border-bottom: 1px solid #e0e0e0;
     width: 100%;
     position: relative;
+    color: #31647c;
 }
 
 .about-sub-menu-list-items:hover{
@@ -64,7 +67,7 @@
     padding: 0px;
     font-size: 14px;
     font-weight: 400;
-    color: rgb(20, 20, 20);
+    color: #31647c;
 }
 .about-sub-menu-list-items:hover h6{
     font-weight: 600;

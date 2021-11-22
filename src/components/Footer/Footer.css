@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.share-container {
+    height: auto;
+    /* height: 150px !important; */
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.share-card {
+    position: relative;
+    height: 170px;
+    width: 170px;
+}
+
+.share-card .content {
+    display: block;
+    height: 45px;
+    width: 45px;
+    top: 61px;
+    left: 63px;
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 5px gray;
+    border-radius: 50%;
+    position: relative;
+    z-index: 10 !important;
+    cursor: pointer
+}
+
+.share-card .content i {
+    color: #31647C;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 30px;
+}
+
+.share-card .social {
+    color: #31647C;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s;
+    position: absolute;
+    top: 3px
+}
+
+.share-card .social span:nth-child(1) {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 5px gray;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s
+}
+
+.share-card:hover .social span:nth-child(1) {
+    position: absolute;
+    top: 10px;
+    left: 85px;
+}
+
+.share-card .social span:nth-child(2) {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 5px gray;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    transition-delay: 0.2s
+}
+
+.share-card:hover .social span:nth-child(2) {
+    position: absolute;
+    top: 50px;
+    left: 120px;
+}
+
+.share-card .social span:nth-child(3) {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 5px gray;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    transition-delay: 0.3s
+}
+
+.share-card:hover .social span:nth-child(3) {
+    position: absolute;
+    top: 100px;
+    left: 105px
+}
+
+.share-card .social span:nth-child(4) {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 5px gray;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    transition-delay: 0.1s
+}
+
+.share-card:hover .social span:nth-child(4) {
+    position: absolute;
+    top: 115px;
+    left: 50px
+}
+
+.share-card .social span:nth-child(5) {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 5px gray;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    transition-delay: 0.2s
+}
+
+.share-card:hover .social span:nth-child(5) {
+    position: absolute;
+    top: 70px !important;
+    left: 10px;
+}
+
+.share-card .social span:nth-child(6) {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 5px gray;
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.5s;
+    cursor: pointer;
+    transition-delay: 0.1s
+}
+
+.share-card:hover .social span:nth-child(6) {
+    position: absolute;
+    top: 18px;
+    left: 29px;
+}
+
+.arrow-icon-container{
+    margin-top: 100px;
+    padding: 0px;
+    width: 40px;
+    position: relative;
+}
+.arrow-icon-wrapper{
+    background-color: #F2F2F2;
+    box-shadow: 1px 1px 5px gray;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    position:absolute;
+    -webkit-animation: updown 1s infinite;
+    animation: updown 1s ease-in-out infinite;
+}
+
+.arrow-icon-wrapper i{
+    color: #31647C;
+}
+
+@keyframes updown {
+    0% {
+        top: 0px;
+      /* transform: translateY(-10px) !important; */
+    }
+
+    25% {
+        top: 3px;
+    }
+  
+    50% {
+        top : 6px;
+      /* transform: translateY(10px) !important; */
+    }
+
+    75% {
+        top : 3px; 
+    }
+  
+    100% {
+        top: 0px;
+      /* transform: translateY(-10px) !important; */
+    }
+  }
+
+.footer-container{
+    box-shadow: -2px -2px 10px #e3e3e3;
+}
