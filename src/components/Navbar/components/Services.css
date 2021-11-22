@@ -1,0 +1,135 @@
+.services-container{
+    position: fixed;
+    top: 80px;
+    background-color: #fff;
+    /* left: 55px;
+    right: 55px; */
+    left: 50%;
+    transform: translateX(-50%);
+    height: 228px;
+    box-shadow: 2px 5px 10px #cccccc;
+    padding: 20px 0px;
+    color: #31647C;
+    transition: all 0.5s ease-in-out;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url(../assets/r-vector.png) right bottom no-repeat, url(../assets/l-vector.png) left top no-repeat;
+    background-origin: content-box;
+    background-size: 85px 85px ;
+    display: flex;
+    flex-direction: row;
+    /* width: calc(100vw - 120px); */
+    min-width: 1266px;
+}
+
+.services-section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.services-section:first-child{
+    margin-left: 90px;
+}
+
+.services-section-items{
+    position: relative;
+    color: #31647C;
+    text-decoration: none;
+}
+
+.services-section-items::after{
+    bottom: -4px;
+    position: absolute;
+    right: 0px;
+    content: " ";
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    background-color: #e0e0e0;
+    transform: rotate(45deg);
+}
+
+.services-section-items:hover::after{
+    background-color: #a06db0;
+}
+
+.services-section-items h6{
+    font-weight: 400;
+    font-size: 16px;
+    padding: 15px 10px;
+    margin: 0px;
+    color: #31647C;
+}
+.services-section-items:hover h6{
+    font-weight: 600;
+}
+
+.services-section-items .diamond-line{
+    width: 210px;
+}
+
+.services-section-items:hover .diamond-line{
+    background-color: #a06db0;
+}
+
+.services-container .diamond-line{
+    width: 225px;
+    height: 1px;
+    background-color: #e0e0e0;
+    position: relative;
+}
+
+.strategic-consultancy{
+    position: absolute;
+    height: 228px;
+    top: 0px;
+    right: 35px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .services-container{
+        all : unset;
+        flex-direction: column;
+        /* position: absolute; */
+        top: 54px;
+        left: 0px;
+        transform: translate(0%);
+        background: none;
+        width: 300px;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+        /* margin-bottom: 100px; */
+        /* background-color: red; */
+    }
+    .services-container .services-section{
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px;
+        /* border-top: 1px solid #e0e0e0; */
+        /* border-bottom: 1px solid #e0e0e0; */
+    }
+    .services-container .diamond-line{
+        /* display: none; */
+        width: 100%;
+    }
+    .services-section-items:hover::after{
+        /* display: none; */
+        display: block;
+    }
+    .services-section-items::after{
+        /* display: none; */
+        right: 2px !important;
+        /* border-bottom: 1px solid #e0e0e0; */
+    }
+    .services-section-items h6{
+        color: #31647c;
+        padding: 14px 15px 14px 20px;
+        font-size: 14px;
+    }
+    .strategic-consultancy{
+        display: none;
+    }
+}
