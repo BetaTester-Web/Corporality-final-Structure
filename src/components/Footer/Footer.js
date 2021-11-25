@@ -1,6 +1,5 @@
 import React from "react";
 import "./Footer.css";
-import diamond_arrow_coloured from "./img/diamond_arrow_coloured.png";
 
 export default function Footer() {
   const topHandle = () => {
@@ -17,7 +16,7 @@ export default function Footer() {
           <div className="row">
             {/* col-1 */}
             <div className=" container p-0 col-lg-3 col-md-4 col-sm-12 logo-column">
-              <img className="company-logo-footer" src="./img/logo_1.png" />
+              <img className="company-logo-footer" src="./img/Footer/img/logo 1.png" />
               {/* share animation div */}
               <div class="share-container">
                 <div class="share-card">
@@ -89,85 +88,80 @@ export default function Footer() {
               <h1 className="footer-heading">Our Frame Work</h1>
               <hr className="line-below-footer-heading" />
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
                 What is Corporality Effect?
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
                 Why Corporality Effect?
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
                 Culturally Conditioned
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
                 Corporality Striker
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
                 Inbound Shifting
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
                 Video Library
               </p>
             </div>
 
             {/* col-3 */}
             <div className="col-lg-3 col-md-4  col-sm-4">
-              <h1 className="footer-heading">Our Service</h1>
+              <h1 className="footer-heading">Service</h1>
               <hr size="5" className="line-below-footer-heading" />
-
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Website Blueprint
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                Go-to-Marketing
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Digital Media Marketing
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                Digital Media Markeing
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                Strategic Consulting
+              </p>
+              <p className="text-links">
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                Corporate Level Strategy
+              </p>
+              <p className="text-links">
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
                 Product Strategy
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Marketing Strategy for 2021
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                Brand Positioning
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Corporate Strategy
-              </p>
-              <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Professional Practices Strategy
-              </p>
-              <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Lead Gen & Sales Strategy demo
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                Outsourced CXO
               </p>
             </div>
 
             {/* col-4 */}
             <div className="col-lg-2 col-md-4  col-sm-4">
-              <h1 className="footer-heading">About Us</h1>
+              <h1 className="footer-heading">About</h1>
               <hr size="5" className="line-below-footer-heading" />
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Corporality Citizenship
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                Who we are
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Our Team
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                How we’re Organised
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
+                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
                 Careers
-              </p>
-              <p className="text-links">
-                <img className="poligon-image" src="/img/polygon 12.png" />
-                Insights
               </p>
             </div>
 

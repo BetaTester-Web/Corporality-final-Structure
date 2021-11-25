@@ -38,21 +38,56 @@ function Library() {
     <>
       <div className="main_container">
         <div className="content_side">
-          <div className="text1 text_active" onClick={showimage1}>
+          <div
+            className="text1 text_active aos-init"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-offset="0"
+            onClick={showimage1}
+          >
             Industry Research
           </div>
-          <div className="text1" onClick={showimage2}>
+          <div
+            className="text1  aos-init"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-offset="0"
+            onClick={showimage2}
+          >
             Video Library
           </div>
-          <div className="text1" onClick={showimage3}>
+          <div
+            className="text1  aos-init"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-offset="0"
+            onClick={showimage3}
+          >
             Blog
           </div>
-          <div className="text1" onClick={showimage4}>
+          <div
+            className="text1  aos-init"
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-offset="0"
+            onClick={showimage4}
+          >
             Download Resources
           </div>
         </div>
 
-        <div className="image_side" id="image1">
+        <div
+          className="image_side  aos-init"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-offset="0"
+          id="image1"
+        >
           <div className="upper_image">
             <img src={img1} alt="" />
           </div>
@@ -65,7 +100,14 @@ function Library() {
             </div>
           </div>
         </div>
-        <div className="image_side image_side_2" id="image2">
+        <div
+          className="image_side image_side_2  aos-init"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-offset="0"
+          id="image2"
+        >
           <div className="upper_image">
             <img src={img2} alt="" />
           </div>
@@ -79,7 +121,14 @@ function Library() {
           </div>
         </div>
 
-        <div className="image_side image_side_3" id="image3">
+        <div
+          className="image_side image_side_3  aos-init"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-offset="0"
+          id="image3"
+        >
           <div className="upper_image">
             <img src={img3} alt="" />
           </div>
@@ -93,7 +142,14 @@ function Library() {
           </div>
         </div>
 
-        <div className="image_side image_side_4" id="image4">
+        <div
+          className="image_side image_side_4  aos-init"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-offset="0"
+          id="image4"
+        >
           <div className="upper_image">
             <img src={img4} alt="" />
           </div>

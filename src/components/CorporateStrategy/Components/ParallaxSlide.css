@@ -1,0 +1,35 @@
+.parralax {
+  background-image: url("./images/Corporality_Glob_2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 601px;
+  position: relative;
+  margin-top: 200px !important;
+  margin-bottom: 140px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .parralax {
+    margin-top: 550px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .parralax {
+    margin-top: 550px !important;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .parralax {
+    margin-top: 350px !important;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .parralax {
+    margin-top: 300px !important;
+  }
+}

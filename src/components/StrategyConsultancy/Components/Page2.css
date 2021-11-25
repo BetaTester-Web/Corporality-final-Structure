@@ -1,0 +1,50 @@
+.page-2{
+    margin: 100px 0;
+}
+
+.pag-cont{
+    margin: auto;
+    width: 68%;
+}
+
+.pag-cont > h2{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 37px;
+/* identical to box height, or 116% */
+
+text-transform: uppercase;
+
+color: #33657E;
+}
+
+.pag-cont > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+text-align: center;
+
+color: #757575;
+
+}
+
+.gradbox{
+    transform: translate(0px,130px);
+}
+
+.box-1{
+    position: absolute;
+    z-index: 1;
+}
+
+.box-2{
+    /* position: relative; */
+    /* transform: translate(-90px,0px); */
+    z-index: 0;
+}

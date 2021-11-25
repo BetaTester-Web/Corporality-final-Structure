@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.objectives_main {
+  margin: 40px 30px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.objectives_text {
+  margin-right: 25px;
+}
+
+.objectives_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* or 137% */
+
+  text-transform: uppercase;
+
+  color: #33657e;
+}
+
+.objectives_button {
+  background: linear-gradient(95.12deg, #eed979 0%, #6ca0bc 83.42%);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 17px !important;
+  margin-top: 25px !important;
+  border: none;
+  cursor: pointer;
+}
+
+.objectives_button:hover {
+  background: linear-gradient(95.12deg, #6ca0bc 0%, #e5cd60 83.42%);
+}
+
+.objectivesbtn_text {
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 10px !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  text-align: center;
+  color: #ffffff;
+}
+
+.objectives_heading2 {
+  margin-top: 60px !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  /* identical to box height, or 137% */
+
+  text-transform: uppercase;
+
+  color: #33657e;
+}
+
+.objectives_description {
+  margin-top: 15px !important;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  color: #757575;
+}
+
+@media only screen and (max-width: 1500px) {
+  .objectives_image img {
+    height: 400px !important;
+    width: 600px !important;
+  }
+}
+
+@media only screen and (max-width: 1139px) {
+  .objectives_image img {
+    height: 280px !important;
+    width: 380px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .objectives_main {
+    flex-direction: column;
+  }
+
+  .objectives_image img {
+    margin-top: 10px !important;
+    height: 300px !important;
+    width: 500px !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .objectives_heading2 {
+    margin-top: 10px !important;
+  }
+
+  .objectives_image img {
+    margin-top: 50px !important;
+    height: 300px !important;
+    width: 400px !important;
+    margin-left: -30px !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .objectives_heading,
+  .objectives_heading2 {
+    font-size: 25px;
+  }
+
+  .objectives_description {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  .objectives_image img {
+    margin-top: 10px !important;
+    margin-left: -30px !important;
+    height: 250px !important;
+    width: 350px !important;
+  }
+}

@@ -7,7 +7,7 @@ export default function Navbar() {
 <div class="container">
   <div class="row navbar-row">
     <div class="col-lg-3 col-md-12 ">
-      <img class="nav-bar-logo" src="./img/logo 1.png"/>
+      <img class="nav-bar-logo" src="../img/Footer/img/logo 1.png"/>
     </div>
 
     <div class="col-lg-1 col-md-1">

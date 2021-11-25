@@ -7,11 +7,11 @@
     transform: translateX(-50%);
     height: 324px;
     box-shadow: 2px 5px 10px #cccccc;
-    padding: 20px 0px;
+    padding: 20px 0px !important;
     color: #31647C;
     transition: all 0.5s ease-in-out;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     background: url(../assets/r-vector.png) right bottom no-repeat, url(../assets/l-vector.png) left top no-repeat;
     background-origin: content-box;
     background-size: 85px 85px ;
@@ -27,17 +27,17 @@
     flex-direction: column;
     justify-content: flex-start;
     height: calc(100% - 127px);
-    margin-top: 24px;
+    margin-top: 24px !important;
     /* margin-bottom: 15px; */
-    margin-left: 50px;
+    margin-left: 50px !important;
 }
 
 .industries-section:first-child{
-    margin-left: 90px;
+    margin-left: 90px !important;
 }
 
 .industries-section:last-child{
-    margin-right: 90px;
+    margin-right: 90px !important;
 }
 
 .industries-section .industries-item{
@@ -54,15 +54,15 @@
     display: inline-block;
     height: 10px;
     width: 10px;
-    background-color: #e0e0e0;
+    background-color: #e1e2e2;
     transform: rotate(45deg);
 }
 
 .industries-item-content{
     font-weight: 400;
     font-size: 16px;
-    padding: 15px 10px;
-    margin: 0px;
+    padding: 15px 10px !important;
+    margin: 0px !important;
     width: 225px;
 }
 
@@ -81,7 +81,7 @@
 .industries-item .diamond-line{
     width: 100%;
     height: 1px;
-    background-color: #e0e0e0;
+    background-color: #e1e2e2;
     /* position: relative; */
 }
 
@@ -96,18 +96,18 @@
         background: none;
         width: 300px;
         height: auto;
-        margin: 0px;
-        padding: 0px;
+        margin: 0px !important;
+        padding: 0px !important;
         /* margin-bottom: 100px; */
         /* background-color: red; */
     }
     .industries-container .industries-section{
         flex-direction: column;
-        margin: 0px;
-        padding: 0px;
+        margin: 0px !important;
+        padding: 0px !important;
         height: auto;
-        /* border-top: 1px solid #e0e0e0; */
-        /* border-bottom: 1px solid #e0e0e0; */
+        /* border-top: 1px solid #e1e2e2; */
+        /* border-bottom: 1px solid #e1e2e2; */
     }
     .industries-section .diamond-line{
         /* display: none; */
@@ -119,15 +119,18 @@
     }
     .industries-item::after{
         /* display: none; */
-        right: 2px !important;
+        right: 1px !important;
+        height: 7px;
+        width: 7px;
+        bottom: -3px;
     }
     .industries-item{
-        /* border-bottom: 1px solid #e0e0e0; */
+        /* border-bottom: 1px solid #e1e2e2; */
         /* background-color: red; */
     }
     .industries-item-content{
         color: #31647c;
-        padding: 14px 15px 14px 20px;
+        padding: 14px 15px 14px 20px !important;
         font-size: 14px;
         margin: 0px !important;
     }

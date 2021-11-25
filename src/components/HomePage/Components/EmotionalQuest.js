@@ -29,17 +29,25 @@ function EmotionalQuest() {
         </div>
         <div className="text_side col-lg-6">
           <div className="text_heading">Our Emotional Quest</div>
-          <div className="text_description">
-            Are you ready to adopt the virtual work culture and go global?
-            Making business human-to-human has never been easier. Train,
-            educate, share, and enhance your customer experience by connecting
-            with us online. With Corporality, you can learn how to utilise
-            Google AdWords, maximize SEO, capture audiences with Video
-            Marketing, and most of all, generate leads and enhance
-            profitability. Sign up for our mailing list and we’ll make sure
-            you’re always in touch with a willing business collaborator who will
-            listen to your pains – and ready to turn them into gains. Wherever
-            you are in the world, Corporality is just one click away.
+          <div
+            data-aos="fade-left aos-init aos-animate"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+            data-aos-offset="0"
+          >
+            <div className="text_description">
+              Are you ready to adopt the virtual work culture and go global?
+              Making business human-to-human has never been easier. Train,
+              educate, share, and enhance your customer experience by connecting
+              with us online. With Corporality, you can learn how to utilise
+              Google AdWords, maximize SEO, capture audiences with Video
+              Marketing, and most of all, generate leads and enhance
+              profitability. Sign up for our mailing list and we’ll make sure
+              you’re always in touch with a willing business collaborator who
+              will listen to your pains – and ready to turn them into gains.
+              Wherever you are in the world, Corporality is just one click away.
+            </div>
           </div>
         </div>
       </div>

@@ -1,0 +1,108 @@
+.page1{
+    background: url('../Images/background1.png') no-repeat center center;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-bottom: 50px ;
+
+  /* height: 100vh; */
+}
+
+.page1{
+    -top: 300px;
+}
+
+.grad-1 > img{
+   transform: translate(1200px,-400px);
+}
+
+
+.page1-content > h3{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 1000;
+font-size: 32px;
+line-height: 40px;
+margin-top: 100px;
+/* or 125% */
+
+text-transform: uppercase;
+
+color: #33657E;
+}
+
+.page1-content > p{
+    margin-bottom: 100px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+color: #757575;
+
+}
+
+.page1-img{
+
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.15);
+    width: 75%;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 28px;
+/* identical to box height, or 127% */
+
+text-align: center;
+
+color: #31647C;
+
+}
+
+
+.footer-button{
+    background: linear-gradient(95.12deg, #E5CD60 0%, #6CA0BC 83.42%);
+    transform: rotate(-180deg);
+    width: 155px;
+    height: 42px;
+    border-radius: 0%;
+    border: 0px;
+  }
+  
+  .footer-button:hover {
+    background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
+  }
+  
+  .footer-button-text{
+    transform: rotate(-180deg);
+    padding-bottom: 4%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+.youtubebox{
+    /* width: 50%; */
+    margin-left: 10%;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 780px){
+
+    .page1-content > h3{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        margin-top: 100px;
+    }
+
+
+  
+}

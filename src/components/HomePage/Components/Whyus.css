@@ -46,8 +46,8 @@
 }
 
 .main_content {
-  top: 140px;
-  left: -110px;
+  top: 150px;
+  left: 50px;
   font-weight: 300;
   letter-spacing: 1px;
   line-height: 28px;
@@ -468,11 +468,11 @@
   .main_content {
     font-size: 8px;
     line-height: 10px;
-    top: 70px;
-    left: -130px;
+    top: 80px;
+    left: 0px;
     font-weight: 500;
-    padding-left: 80px !important;
-    padding-right: 80px !important;
+    /* padding-left: 80px !important; */
+    /* padding-right: 80px !important; */
   }
 
   .box_top_1,

@@ -1,0 +1,247 @@
+.main_services_container {
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* padding: 40px !important; */
+  padding: 40px 0 !important;
+}
+
+.container_padding {
+  padding: 10px !important;
+}
+
+#content_points_2,
+#content_points_3,
+#content_points_4,
+#content_points_5,
+#content_points_6,
+#content_points_7 {
+  display: none;
+}
+
+.services_heading {
+  position: relative;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 34px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #33657e;
+  margin-bottom: 50px !important;
+}
+
+.services_heading:after {
+  content: "";
+  position: absolute;
+  background-color: #a06daf;
+  width: 80px;
+  height: 5px;
+  left: 25%;
+  bottom: -20px;
+}
+
+.button_list {
+  display: flex;
+  margin-top: 10px !important;
+  margin-bottom: 18px !important;
+  /* padding: 0 100px !important; */
+  overflow-x: auto !important;
+}
+
+.button_main {
+  background-color: white;
+  margin-right: 20px !important;
+  padding: 14px 10px !important;
+  border-radius: 30px;
+  color: #5f8298;
+  cursor: pointer;
+  min-width: 200px !important;
+  text-align: center;
+}
+
+.button_list::-webkit-scrollbar {
+  display: none;
+}
+
+.button_active {
+  background-color: #5f8298;
+  color: white;
+}
+
+.button_main:active {
+  background-color: #5f8298;
+  color: white;
+}
+
+.main_content_container {
+  margin-top: 30px !important;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between !important; */
+  background: linear-gradient(
+    180deg,
+    rgba(51, 101, 126, 0.8) 0%,
+    rgba(160, 109, 175, 0.8) 51.56%,
+    rgba(51, 101, 126, 0.8) 100%
+  );
+  box-shadow: 0px 20px 40px rgba(13, 18, 24, 0.25);
+  width: 100%;
+}
+
+.picture_side {
+  background: url("./images/Rectangle\ 126.png");
+  width: 200px;
+  height: 400px;
+}
+
+.right_content_side {
+  padding: 30px !important;
+  margin-left: 30px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right_content_heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.right_content_text {
+  margin-top: 15px !important;
+}
+
+.right_content_text ul {
+  list-style-image: url("./images/vector_1.png");
+}
+
+.right_content_info_points {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.right_content_button {
+  display: flex;
+  align-items: center;
+}
+
+.bottom_button_text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #9ea5be;
+}
+
+.right_content_button {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 803px) {
+  .picture_side {
+    height: 350px;
+  }
+
+  .main_services_container {
+    padding: 20px 0 !important;
+  }
+
+  .right_content_side {
+    margin-left: 10px !important;
+  }
+
+  .container_padding {
+    padding: 0px !important;
+  }
+
+  .right_content_side {
+    padding: 10px 20px !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .picture_side {
+    width: 150px;
+  }
+
+  .right_content_heading {
+    font-size: 24px;
+    line-height: 25px;
+  }
+
+  .right_content_info_points {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 439px) {
+  .picture_side {
+    width: 150px;
+    height: 300px;
+  }
+
+  .right_content_side {
+    padding: 8px 2px !important;
+    margin-left: 5px !important;
+  }
+
+  .right_content_heading {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .right_content_button {
+    margin-top: -15px !important;
+  }
+}
+
+@media only screen and (max-width: 391px) {
+  .picture_side {
+    width: 100px;
+    height: 260px;
+  }
+
+  .right_content_side {
+    padding: 2px 2px !important;
+    margin-left: 2px !important;
+  }
+
+  .right_content_heading {
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 0 !important;
+  }
+
+  .right_content_info_points {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .right_content_button {
+    margin-top: 0 !important;
+  }
+
+  .bottom_button_text {
+    font-size: 14px;
+  }
+
+  .bottom_button_circle img {
+    width: 80%;
+    height: 80%;
+  }
+}

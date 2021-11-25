@@ -1,0 +1,301 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.fullSection{
+  background: linear-gradient(255.47deg, #EEDFF2 2.24%, #E1EDF3 17.92%, #FFFFFF 48.34%);
+  /* background-image: url("./media/Group 1252.png");
+  background-repeat: no-repeat; */
+}
+
+.landingPage{
+  height: 37.5em;
+}
+.snakes{
+  width: 62.5%;
+}
+.mediumD1{
+  width: 4%;
+  margin-top: 6.5%;
+  margin-right: 15%;
+}
+.mediumD2{
+  width: 4%;
+  margin-bottom: 0%;
+  margin-right: 2%;
+}
+.brandPara{
+  height: 38%;
+  width: 38.5%;
+}
+.paraHead{
+  font-size: 1.45em;
+  color: #33657E;
+}
+.paraText{
+  font-size: 0.9em;
+  color: #757575;
+  text-align: justify;
+}
+.art{
+  height: 100%;
+  width: 58%;
+}
+.imprvdCompBlock{
+  margin-top: 6%;
+  margin-right: 19%;
+  width: 25%;
+  height: 15%;
+}
+.imprvdCompImg{
+  width: 70%;
+}
+.imprvdCompText{
+  font-size: 0.6em;
+  padding-left: 10%;
+  width: 51%;
+  color: #33657E;
+  font-weight: normal;
+}
+.relatableIDBlock{
+  margin-bottom: -4.5%;
+  margin-right: 14%;
+  width: 26%;
+  height: 16%;
+}
+.relatableIDImg{
+  width: 70%;
+}
+.relatableIDText{
+  font-size: 0.62em;
+  padding-left: 10%;
+  width: 51%;
+  color: #33657E;
+  font-weight: normal;
+}
+.custLoyaltyBlock{
+  margin-top: 6%;
+  margin-left: 23%;
+  width: 29%;
+  height: 18.5%;
+}
+.custLoyaltyImg{
+  width: 70%;
+}
+.custLoyaltyText{
+  font-size: 0.72em;
+  padding-left: 10%;
+  width: 51%;
+  color: #33657E;
+  font-weight: normal;
+}
+.omniBlock{
+  margin-top: 7%;
+  margin-left: -5.5%;
+  width: 29%;
+  height: 18.5%;
+}
+.omniImg{
+  width: 70%;
+}
+.omniText{
+  font-size: 0.7em;
+  padding-left: 10%;
+  width: 51%;
+  color: #33657E;
+  font-weight: normal;
+}
+.phnbtn{
+  width: 6%;
+  margin-right: 3%;
+  margin-bottom: 11%;
+}
+.littleD1{
+  width: 5%;
+  margin-top: 13%;
+  margin-right: 11%;
+}
+.littleD2{
+  width: 5%;
+  margin-left: 39%;
+  margin-bottom: 19%;
+}
+.textD{
+  width: 35%;
+  margin-left: 8%;
+  margin-bottom: 4%;
+}
+.social{
+  width: 4%;
+  height: 35%;
+}
+@media only screen and (max-width :1024px){
+  .snakes{
+    width: 69%;
+  }
+  .imprvdCompText{
+    font-size: 0.55em;
+    padding-left: 5%;
+  }
+  .mediumD2{
+    margin-bottom: 7%;
+    margin-right: 8%;
+  }
+  .textD{
+    margin-left: -2%;
+    margin-bottom: 17%;
+  }
+  .omniBlock{
+    margin-left: -15%;
+    margin-top: 3%;
+  }
+  .custLoyaltyBlock{
+    margin-bottom: 3%;
+    margin-left: 15%;
+    width: 29%;
+    height: 17.5%;
+  }
+  .imprvdCompBlock{
+    margin-top: 7%;
+  margin-right: 26%;
+  width: 25%;
+  height: 15%;
+  }
+  .littleD2{
+    margin-left: 35%;
+    margin-bottom: 22%;
+  }
+  .relatableIDBlock{
+    margin-bottom: -1%;
+    margin-right: 21%;
+    width: 26%;
+    height: 16%;
+  }
+}
+@media only screen and (max-width :992px){
+  .landingPage{
+    height: 31.9em;
+  }
+  .paraHead{
+    font-size: 0.9em;
+  }
+  .paraText{
+    font-size: 0.7em;
+  }
+  .imprvdCompText{
+    font-size: 0.45em;
+    padding-left: 0%;
+  }
+  .relatableIDText{
+    font-size: 0.6em;
+  padding-left: 5%;
+  }
+  .mediumD2{
+    margin-bottom: 16%;
+    margin-right: 7%;
+  }
+  .textD{
+    margin-left: -3%;
+    margin-bottom: 34%;
+  }
+  .custLoyaltyBlock{
+    margin-bottom: 11%;
+    margin-left: 14%;
+    height: 16%;
+  }
+  .custLoyaltyText{
+    font-size: 0.7em;
+  }
+  .littleD2{
+    margin-left: 32%;
+  margin-bottom: 34%;
+  }
+  .omniText{
+    font-size: 0.5em;
+    padding-left: 5%;
+  }
+  .relatableIDBlock{
+    margin-bottom: 4.5%;
+    margin-right: 21%;
+    width: 27%;
+    height: 16%;
+  }
+}
+@media only screen and (max-width :576px){
+  .landingPage{
+    height: 17.5em;
+  }
+  .paraHead{
+    font-size: 0.5em;
+  }
+  .paraText{
+    font-size: 0.3em;
+  }
+  .brandPara{
+    width: 29%;
+    margin-top: -5%;
+  }
+  .mediumD2{
+    margin-bottom: 25%;
+    margin-right: 7%;
+  }
+  .littleD2{
+    margin-left: 29%;
+  margin-bottom: 33%;
+  }
+  .textD{
+    width: 28%;
+    margin-left: 1%;
+    margin-bottom: 51%;
+  }
+  .imprvdCompBlock{
+    width: 26%;
+    height: 14%;
+  }
+  .imprvdCompText{
+    font-size: 0.25em;
+    padding-left: 1%;
+    width: 51%;
+  }
+  .relatableIDBlock{
+    margin-bottom: 16%;
+    margin-right: 23%;
+    width: 25%;
+    height: 13%;
+  }
+  .relatableIDText{
+    font-size: 0.3em;
+    padding-left: 0%;
+  }
+  .custLoyaltyBlock{
+    margin-bottom: 20%;
+    margin-left: 13.5%;
+    width: 27%;
+    height: 12%;
+  }
+  .custLoyaltyText{
+    font-size: 0.3em;
+    padding-left: 3.5%;
+    width: 51%;
+  }
+  .omniBlock{
+    margin-top: -15%;
+    width: 28%;
+    height: 11%;
+  }
+  .omniText{
+    font-size: 0.2em;
+    padding-left: 1.5%;
+    width: 51%;
+    color: #33657E;
+  }
+}

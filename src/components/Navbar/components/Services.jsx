@@ -3,6 +3,7 @@ import './Services.css'
 import servicesImage from '../assets/services-strategies.jpg'
 import OutsideClickHandler from 'react-outside-click-wrapper';
 
+import StrategyConsultancy from '../../StrategyConsultancy/StrategyConsultancy'
 
 const Services = ({setShowServices, showServices, isLargeScreen}) => {
 
@@ -14,11 +15,11 @@ const Services = ({setShowServices, showServices, isLargeScreen}) => {
                     <h6>Go to Marketing Strategy</h6>
                     <div className="diamond-line"></div>
                 </a>
-                <a href="#" className="services-section-items">
+                <a href="/BrandPositioning" className="services-section-items">
                     <h6>Brand Positioning</h6>
                     <div className="diamond-line"></div>
                 </a>
-                <a href="#" className="services-section-items">
+                <a href="/CorporateStrategy" className="services-section-items">
                     <h6>Corporate Strategy</h6>
                     <div className="diamond-line"></div>
                 </a>
@@ -28,17 +29,17 @@ const Services = ({setShowServices, showServices, isLargeScreen}) => {
                     <h6>Digital Media Marketing</h6>
                     <div className="diamond-line"></div>
                 </a>
-                <a href="#" className="services-section-items">
+                <a href="/IntractiveBluePrint" className="services-section-items">
                     <h6>Interactive Blueprint</h6>
                     <div className="diamond-line"></div>
                 </a>
             </div>
             <div className="services-section">
-                <a href="#" className="services-section-items">
+                <a href="/StrategyConsultancy" className="services-section-items">
                     <h6>Strategic Consultancy</h6>
                     <div className="diamond-line"></div>
                 </a>
-                <a href="#" className="services-section-items">
+                <a href="/CxoStrategy" className="services-section-items">
                     <h6>Outsourced CXO</h6>
                     <div className="diamond-line"></div>
                 </a>

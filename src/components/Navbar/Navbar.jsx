@@ -29,7 +29,9 @@ const Navbar = () => {
                     <span className={`nav-icon-line ${navClicked? "nav-icon-clicked" : ""}`}></span>
                 </div>
                 <div className="navbar-container">
-                    <img src={logo} className="corporality-logo" alt="logo" />
+                    <a href="/">
+                        <img src={logo} className="corporality-logo" alt="logo" />
+                    </a>
                     <About2 showAbout2={showAbout2} setShowAbout2={setShowAbout2} menuId={menuId} />
                     <div className={`nav-items ${navClicked? "nav-items-hidden" : ""}`} >
                         <div className={`nav-item about ${(showAbout && isLargeScreen)? "nav-item-hover" : ""}`} onClick={()=>{setShowAbout(!showAbout)}} onMouseOver={() => {if(isLargeScreen)setShowAbout(true)}} onMouseLeave={()=>{if(isLargeScreen)setShowAbout(false)}} >
