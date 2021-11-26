@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import upArrow from './img/upArrow.png'
 
 export default function Footer() {
   const topHandle = () => {
@@ -11,61 +12,51 @@ export default function Footer() {
     <>
       {/* footer */}
 
-      <div className=" footer-container">
-        <div className="container">
-          <div className="row">
+      <div className=" footerContainer">
+        {/* <div className="container"> */}
+          <div className="row footerRow">
             {/* col-1 */}
-            <div className=" container p-0 col-lg-3 col-md-4 col-sm-12 logo-column">
+            <div className="column1">
               <img className="company-logo-footer" src="./img/Footer/img/logo 1.png" />
-              {/* share animation div */}
-              <div class="share-container">
-                <div class="share-card">
-                  <div class="content">
-                    <i class="fa fa-share-alt"></i>
-                  </div>
-                  <div class="social">
-                    <span>
-                      <i class="fa fa-instagram"></i>
-                    </span>
-                    <span>
-                      <i class="fa fa-facebook-f"></i>
-                    </span>
-                    <span>
-                      <i class="fa fa-pinterest"></i>
-                    </span>
-                    <span>
-                      <i class="fa fa-twitter"></i>
-                    </span>
-                    <span>
-                      <i class="fa fa-linkedin"></i>
-                    </span>
-                    <span>
-                      <i class="fa fa-youtube"></i>
-                    </span>
-                  </div>
-                </div>
+              {/* share animation start */}
+              <div className="foot-c">
+                  <nav className="menu">
+                    <input type="checkbox" href="#" className="menu-open" name="menu-open" id="menu-open" />
+                    <label className="menu-open-button" style={{backgroundColor: '#f2f2f2', color: '#31647c'}} htmlFor="menu-open">
+                      <i className="fa fa-share-alt" style={{marginTop: '-9.2px', marginLeft: '-13.5px', fontSize: 'large', top : "50%"}} />
+                    </label>
+                    <a href="https://www.instagram.com/corporalityg/" className="menu-item instagram"> <i className="fa fa-instagram" style={{marginTop: '-12px', marginLeft: '-12.5px'}} />
+                    </a>
+                    <a href="https://www.facebook.com/CorporalityG/" className="menu-item facebook"> <i className="fa fa-facebook-f" style={{marginTop: '-12px', marginLeft: '-13px'}} />
+                    </a>
+                    <a href="https://in.pinterest.com/CorporalityG/" className="menu-item pinterest"> <i className="fa fa-pinterest" style={{marginTop: '-12px', marginLeft: '-12.5px'}} />
+                    </a>
+                    <a href="https://twitter.com/corporalityg/" className="menu-item twitter"> <i className="fa fa-twitter" style={{marginTop: '-12px', marginLeft: '-12.5px'}} />
+                    </a>
+                    <a href="https://www.linkedin.com/company/corporality/" className="menu-item linkedin">
+                      <i className="fa fa-linkedin" style={{marginTop: '-12px', marginLeft: '-12.5px'}} />
+                    </a>
+                    <a href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg/" className="menu-item youtube"> <i className="fa fa-youtube" style={{marginTop: '-12px', marginLeft: '-14.5px'}} /> </a>
+                  </nav>
               </div>
               {/* share animation div - end */}
-
-              <div class="container first-colum">
-                <div class="form-floating mb-3 ">
+              <div class="emailDivWrapper">
                   <input
                     type="email"
-                    class="form-control email-space"
+                    class="email-space "
                     id="floatingInput"
-                    placeholder="name@example.com"
+                    placeholder="Email Id"
                   />
-                  <label for="floatingInput">Email ID</label>
-                </div>
+                  {/* <label for="floatingInput">Email ID</label> */}
 
-                <div class="row">
+                <div class="row checkBox">
                   <div class="col-1">
                     <input
                       class="form-check-input"
                       type="checkbox"
                       value=""
                       id="flexCheckIndeterminate"
-                    ></input>
+                    />
                   </div>
                   <div class="col-10">
                     <p class="text-above-button">
@@ -75,16 +66,16 @@ export default function Footer() {
                     </p>
                   </div>
                 </div>
-
-                <button type="button" class="footer-button">
-                  {" "}
-                  <p class="footer-button-text">Subscribe</p>
-                </button>
+                <div className="footer-button-wrapper">
+                  <button type="button" class="footerButton">
+                    Subscribe
+                  </button>
+                </div>
               </div>
             </div>
 
             {/* col-2 */}
-            <div className="col-lg-3 col-md-4  col-sm-4">
+            <div className="column2">
               <h1 className="footer-heading">Our Frame Work</h1>
               <hr className="line-below-footer-heading" />
               <p className="text-links">
@@ -114,7 +105,7 @@ export default function Footer() {
             </div>
 
             {/* col-3 */}
-            <div className="col-lg-3 col-md-4  col-sm-4">
+            <div className="column3">
               <h1 className="footer-heading">Service</h1>
               <hr size="5" className="line-below-footer-heading" />
               <p className="text-links">
@@ -148,7 +139,7 @@ export default function Footer() {
             </div>
 
             {/* col-4 */}
-            <div className="col-lg-2 col-md-4  col-sm-4">
+            <div className="column4">
               <h1 className="footer-heading">About</h1>
               <hr size="5" className="line-below-footer-heading" />
               <p className="text-links">
@@ -166,32 +157,26 @@ export default function Footer() {
             </div>
 
             {/* col-5 */}
-            <div className="col-lg-1 col-md-1 d-flex flex-column justify-content-start align-items-center arrow-icon-container">
-              <div className="arrow-icon-wrapper d-flex justify-content-center align-items-center">
-                <i onClick={topHandle} className="fa fa-arrow-up"></i>
-              </div>
+            <div className="arrow-icon-container">
+                <div onClick={topHandle} className="arrow-icon-wrapper d-flex justify-content-center align-items-center">
+                  <img src={upArrow} />
+                </div>
             </div>
           </div>
-        </div>
+        {/* </div> */}
       </div>
 
       {/* <hr ></hr> */}
 
       {/* 2nd last lower section with 3 links */}
-      <div class="footer-container">
-        <div class="row footer-lower-row">
-          <div class="col text-center footer-text">Privacy Policy</div>
-          <div class="col text-center footer-text">Terms and Conditions</div>
-          <div class="col text-center footer-text">Sitemap</div>
+      <div class="footerContainer">
+        <div class="row1">
+          <div class="footer-text">Privacy Policy</div>
+          <div class="footer-text">Terms and Conditions</div>
+          <div class="footer-text">Sitemap</div>
         </div>
-      </div>
-
-      {/* lowest section with tnc statement */}
-      <div class="footer-tnc-section">
-        <div class="row footer-lower-row">
-          <div class="col text-center footer-text ">
-            Copyright © 2021 Corporality
-          </div>
+        <div className="row2">
+          Copyright © 2021 Corporality
         </div>
       </div>
     </>
