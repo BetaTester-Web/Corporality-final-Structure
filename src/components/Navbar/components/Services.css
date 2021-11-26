@@ -35,7 +35,7 @@
 .services-section-items{
     position: relative;
     color: #31647C;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .services-section-items::after{

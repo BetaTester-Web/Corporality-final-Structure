@@ -13,7 +13,7 @@
     top: 80px;
     left: -300px;
     width: 300px;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 80px);
     justify-content: start;
     align-items: start;
     border-right: 1px solid #e1e2e2;
@@ -45,12 +45,12 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 80px);
     overflow-y: none;
 }
 
 .about-sub-menu-list-items{
-    text-decoration: none;
+    text-decoration: none !important;
     padding: 14px 0px 14px 20px !important;
     border-bottom: 1px solid #e1e2e2;
     width: 100%;
@@ -59,7 +59,7 @@
 }
 
 .about-sub-menu-list-items:hover{
-    border-bottom:  1px solid #a06db0;
+    border-bottom: 1px solid #a06db0;
 }
 
 .about-sub-menu-list-items h6{
