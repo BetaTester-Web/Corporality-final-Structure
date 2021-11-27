@@ -62,6 +62,7 @@
 
 .bottom_button button:hover {
   background: linear-gradient(95.12deg, #eed979 0%, #6ca0bc 83.42%);
+  border: none;
   color: white;
 }
 

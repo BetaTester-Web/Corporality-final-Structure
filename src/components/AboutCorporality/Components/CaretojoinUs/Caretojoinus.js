@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./Caretojoinus.css";
 import right_image from "./images/right_image.png";
 import bottom from "./images/bottom.png";
@@ -9,12 +11,21 @@ import middle from "./images/middle.png";
 import rectangle from "./images/rectangle.png";
 
 function Caretojoinus() {
+  useEffect(() => {
+    Aos.init();
+  });
+
   return (
     <div className="caretojoinus_main">
       <div className="left_wall">
         <img src={wall} alt="" />
       </div>
-      <div className="caretojoinus_text">
+      <div
+        className="caretojoinus_text aos-init aos-animate"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+      >
         <div className="caretojoinus_heading">Care to Join us?</div>
         <div className="caretojoinus_description">
           Join a team of exceptional minds committed to creating brilliance.
@@ -36,7 +47,13 @@ function Caretojoinus() {
       <div className="top_rectangle">
         <img src={top} alt="" />
       </div>
-      <div className="caretojoinus_image">
+
+      <div
+        className="caretojoinus_image aos-init aos-animate"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+      >
         <div className="right_image_container">
           <img src={right_image} alt="" />
         </div>

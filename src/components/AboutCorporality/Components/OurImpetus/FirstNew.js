@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import main from "../OurImpetus/main.png";
 import backimg from "../OurImpetus/back.png";
 import wall from "../OurImpetus/wall.png";
@@ -7,9 +9,19 @@ import rect from "../OurImpetus/rect.png";
 import "./First.css";
 
 function FirstNew() {
+  useEffect(() => {
+    Aos.init();
+  });
+
   return (
     <div className="upper_container">
-      <div className="left_content">
+      <div
+        className="left_content aos-init aos-animate"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        data-aos-offset="0"
+      >
         <div className="impetus_heading">OUR IMPETUS</div>
         <div className="impetus_text">
           TO DELIVER THE BEST IN DIGITAL MARKETING AND SALES SOLUTIONS USING
@@ -20,7 +32,13 @@ function FirstNew() {
           quickly altering marketing scenarios
         </div>
       </div>
-      <div className="right_image">
+      <div
+        className="right_image aos-init aos-animate"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+        data-aos-offset="0"
+      >
         <div className="container">
           <img src={wall} alt="" className="wall_img" />
           <img src={main} alt="" className="main_img" />
