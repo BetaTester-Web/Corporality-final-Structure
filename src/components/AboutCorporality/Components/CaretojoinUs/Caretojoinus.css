@@ -1,0 +1,310 @@
+.caretojoinus_main {
+  padding: 30px 60px !important;
+  align-items: center;
+  display: flex;
+  position: relative;
+  background: #6ca0bc;
+}
+
+.caretojoinus_text {
+  margin-left: 0px !important;
+  padding-top: 10px !important;
+  padding-left: 160px !important;
+  padding-right: 50px !important;
+  padding-bottom: 10px !important;
+}
+
+.caretojoinus_heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  margin-bottom: 10px !important;
+}
+
+.caretojoinus_description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-bottom: 20px !important;
+}
+
+.caretojoinus_button button {
+  box-shadow: 0px 4px 10px rgba(34, 59, 72, 0.2);
+  background: linear-gradient(95.12deg, #e5cd60 0%, #33657e 83.42%), #e5cc5c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 30px !important;
+  margin-top: 30px !important;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.caretojoinus_button button:hover {
+  background: linear-gradient(95.12deg, #33657e 0%, #e5cd60 83.42%), #33657e;
+}
+
+.left_wall {
+  position: absolute;
+  top: 60px;
+  left: 0;
+}
+
+.bottom_rectangle {
+  position: absolute;
+  bottom: 0;
+  left: 450px;
+}
+
+.center_rectangle {
+  position: absolute;
+  top: 230px;
+  left: 650px;
+}
+
+.middle_rectangle {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+}
+
+.top_rectangle {
+  position: absolute;
+  top: 0;
+  left: 650px;
+}
+
+.caretojoinus_image {
+  position: relative;
+}
+
+.caretojoinus_image {
+  margin-right: 80px !important;
+  z-index: 2;
+}
+
+.back_image {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  z-index: -1;
+}
+
+@media only screen and (max-width: 1180px) {
+  .bottom_rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 300px;
+  }
+
+  .center_rectangle {
+    position: absolute;
+    top: 230px;
+    left: 450px;
+  }
+
+  .middle_rectangle {
+    position: absolute;
+    top: 30px;
+    right: 120px;
+  }
+
+  .top_rectangle {
+    position: absolute;
+    top: 0;
+    left: 500px;
+  }
+}
+
+@media only screen and (max-width: 1038px) {
+  .caretojoinus_image {
+    margin-right: 20px !important;
+  }
+
+  .middle_rectangle {
+    right: 80px;
+  }
+}
+
+@media only screen and (max-width: 930px) {
+  .caretojoinus_main {
+    padding-right: 40px !important;
+  }
+  .caretojoinus_text {
+    padding-left: 70px !important;
+    margin-left: 50px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .caretojoinus_main {
+    flex-direction: column;
+  }
+
+  .caretojoinus_text {
+    padding-left: 100px !important;
+  }
+
+  .bottom_rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+  }
+
+  .center_rectangle {
+    position: absolute;
+    top: 180px;
+    left: 500px;
+  }
+
+  .middle_rectangle {
+    position: absolute;
+    right: 200px;
+    top: 500px;
+  }
+
+  .top_rectangle img {
+    height: 70px;
+    width: 90px;
+  }
+
+  .top_rectangle {
+    position: absolute;
+    top: 0;
+    left: 450px;
+  }
+}
+@media only screen and (max-width: 698px) {
+  .bottom_rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+  }
+
+  .center_rectangle {
+    position: absolute;
+    top: 150px;
+    left: 400px;
+  }
+
+  .middle_rectangle {
+    position: absolute;
+    top: 500px;
+    right: 400px;
+  }
+
+  .top_rectangle {
+    position: absolute;
+    top: 0;
+    left: 350px;
+  }
+}
+@media only screen and (max-width: 627px) {
+  .caretojoinus_main {
+    padding-right: 0 !important;
+  }
+  .caretojoinus_text {
+    padding-left: 20px !important;
+    padding-right: 5px !important;
+  }
+
+  .caretojoinus_heading {
+    font-size: 22px;
+    margin-bottom: 5px !important;
+  }
+
+  .caretojoinus_description {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .caretojoinus_button {
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .caretojoinus_image {
+    margin-right: 80px !important;
+  }
+
+  .left_wall img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .bottom_rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+  }
+
+  .center_rectangle {
+    display: none;
+  }
+
+  .middle_rectangle {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+  }
+
+  .top_rectangle {
+    position: absolute;
+    top: 0;
+    left: 350px;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .caretojoinus_image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .back_image img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .bottom_rectangle {
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+  }
+
+  .middle_rectangle {
+    position: absolute;
+    top: 150px;
+    right: 30px;
+  }
+
+  .top_rectangle {
+    position: absolute;
+    top: 0;
+    left: 260px;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .back_image {
+    left: 20px;
+  }
+}
