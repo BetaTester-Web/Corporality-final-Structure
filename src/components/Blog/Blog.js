@@ -2,13 +2,13 @@ import Navbar from "../Navbar/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css"
 import 'bootstrap/dist/js/bootstrap.min.js'
 import "./Blog.css"
+import $ from 'jquery';
 import Input from "./components/Input"
 import Button from "./components/Button";
 import thumbnail from "./img/thumbnail.png";
-
-function truncate(text, size) {
-    return text?.length > size ? text.substr(0, size - 1) + "..." : text;
-}
+import rightArrow from "./img/rightArrow.png";
+import leftArrow from "./img/leftArrow.png";
+import BlogCard from "./components/BlogCard";
 
 function Blog() {
     return (
@@ -41,6 +41,10 @@ function Blog() {
             <div className="image3"></div>
             <div className="image4"></div>
             <div className="image5"></div>
+            <div className="image6"></div>
+            <div className="image7"></div>
+            <div className="image8"></div>
+            <div className="image9"></div>
             <div className="container mx-auto blog-container-2">
                 <div className="row">
                     <div className="col-6 col-lg-5">
@@ -85,22 +89,48 @@ function Blog() {
             </div>
             <div className="container mx-auto blog-container-4">
                 <div className="row justify-content-between">
-                    <div className="col-5 blogCard shadow">
-                        <div className="row">
-                            <div className="col-12 blogThumbnailDiv">
-                                <img src={thumbnail} className="blogThumbnail" alt="blog thumbnail" />
-                            </div>
-                            <div className="col-12 blogContent">
-                                <h2 className="blogHeading">{truncate("ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium", 120)}</h2>
-                                <div className="blogDescription">
-                                    {truncate("amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh", 300)}
-                                    <a href="/">Read more...</a>
-                                </div>
-                                
-                            </div>
-                            <div className="col-12 blogInformation">
-                                lore sdkjfjasjd klfasdfklasjdfasfs fas fasdf
-                            </div>
+                    <div className="dividerLine"></div>
+                    <div className="col-lg-5 col-10 mx-lg-0 mx-auto">
+                        <BlogCard thumbnail={thumbnail}
+                            heading='ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium'
+                            description="amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh"
+                            date="July 26, 2021"
+                            comments="2" />
+                    </div>
+                    <div className="col-lg-5 col-10 mx-lg-0 mx-auto">
+                        <BlogCard thumbnail={thumbnail}
+                            heading='ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium'
+                            description="amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh"
+                            date="July 26, 2021"
+                            comments="2" />
+                    </div>
+                    <div className="col-lg-5 col-10 mx-lg-0 mx-auto">
+                        <BlogCard thumbnail={thumbnail}
+                            heading='ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium'
+                            description="amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh"
+                            date="July 26, 2021"
+                            comments="2" />
+                    </div>
+                    <div className="col-lg-5 col-10 mx-lg-0 mx-auto">
+                        <BlogCard thumbnail={thumbnail}
+                            heading='ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio eu feugiat pretium'
+                            description="amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac ut consequat semper viverra nam libero justo laoreet sit amet cursus sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices dui sapien eget mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue quisque egestas diam in arcu cursus euismod quis viverra nibh"
+                            date="July 26, 2021"
+                            comments="2" />
+                    </div>
+                </div>
+                <div className="row justify-content-between">
+                    <div className="col-4 mx-auto pagination d-flex flex-row justify-content-evenly align-items-center">
+                        <div href="/" className="leftArrow d-flex flex-row justify-content-evenly align-items-center">
+                            <img src={leftArrow} alt="" />
+                        </div>
+                        <div className="paginationNumber active">1</div>
+                        <div className="paginationNumber">2</div>
+                        <div className="paginationNumber">3</div>
+                        <div className="paginationNumber">4</div>
+                        <div className="paginationNumber">5</div>
+                        <div className="rightArrow d-flex flex-row justify-content-evenly align-items-center">
+                            <img src={rightArrow} alt="" />
                         </div>
                     </div>
                 </div>
