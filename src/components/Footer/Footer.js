@@ -36,7 +36,7 @@ export default function Footer() {
                     <a href="https://www.linkedin.com/company/corporality/" className="menu-item linkedin">
                       <i className="fa fa-linkedin" style={{marginTop: '-12px', marginLeft: '-12.5px'}} />
                     </a>
-                    <a href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg/" className="menu-item youtube"> <i className="fa fa-youtube" style={{marginTop: '-12px', marginLeft: '-14.5px'}} /> </a>
+                    <a href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg/" className="menu-item youtube"> <i className="fa fa-youtube-play" style={{marginTop: '-12px', marginLeft: '-14.5px'}} /> </a>
                   </nav>
               </div>
               {/* share animation div - end */}
@@ -49,22 +49,18 @@ export default function Footer() {
                   />
                   {/* <label for="floatingInput">Email ID</label> */}
 
-                <div class="row checkBox">
-                  <div class="col-1">
-                    <input
-                      class="form-check-input"
-                      type="checkbox"
-                      value=""
-                      id="flexCheckIndeterminate"
-                    />
-                  </div>
-                  <div class="col-10">
-                    <p class="text-above-button">
-                      I agree to have my personal data stored, processed and
-                      analysed by Corporality as outlined in this Privacy
-                      Policy.*
-                    </p>
-                  </div>
+                <div className="checkBox">
+                  <input
+                    className="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckIndeterminate"
+                  />
+                  <p class="text-above-button">
+                    I agree to have my personal data stored, processed and
+                    analysed by Corporality as outlined in this Privacy
+                    Policy.*
+                  </p>
                 </div>
                 <div className="footer-button-wrapper">
                   <button type="button" class="footerButton">
