@@ -1,17 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
-* {
-  margin: 0 !important;
-  padding: 0 !important;
-  box-sizing: border-box;
-  margin-bottom: 1000px;
-}
-
 .clientfirstapprocah_main {
-  margin: 40px 40px !important;
+  margin: 40px 0px !important;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 0 !important;
 }
 
 .clientfirstapproach_text {
@@ -199,39 +193,39 @@
 
   .geartop1 {
     position: absolute;
-    top: 55px;
-    left: 720px;
+    top: -130px;
+    left: 0px;
   }
 
   .geartop2 {
     position: absolute;
-    top: 110px;
-    left: 1030px;
+    top: -80px;
+    left: 310px;
   }
 
   .gear_center {
     position: absolute;
-    top: 140px;
-    left: 780px;
+    top: -50px;
+    left: 60px;
   }
 
   .ellipse_center {
     position: absolute;
-    top: 236px;
-    left: 908px;
+    top: 45px;
+    left: 190px;
     display: flex;
   }
 
   .gearbottom1 {
     position: absolute;
-    top: 360px;
-    left: 710px;
+    top: 170px;
+    left: -10px;
   }
 
   .gearbottom2 {
     position: absolute;
-    top: 330px;
-    left: 1020px;
+    top: 140px;
+    left: 300px;
   }
 
   .geartop1 p {
@@ -290,39 +284,39 @@
 
   .geartop1 {
     position: absolute;
-    top: 55px;
-    left: 620px;
+    top: -130px;
+    left: 0px;
   }
 
   .geartop2 {
     position: absolute;
-    top: 110px;
-    left: 930px;
+    top: -80px;
+    left: 310px;
   }
 
   .gear_center {
     position: absolute;
-    top: 140px;
-    left: 680px;
+    top: -50px;
+    left: 60px;
   }
 
   .ellipse_center {
     position: absolute;
-    top: 236px;
-    left: 808px;
+    top: 45px;
+    left: 190px;
     display: flex;
   }
 
   .gearbottom1 {
     position: absolute;
-    top: 360px;
-    left: 610px;
+    top: 170px;
+    left: -10px;
   }
 
   .gearbottom2 {
     position: absolute;
-    top: 330px;
-    left: 920px;
+    top: 140px;
+    left: 300px;
   }
 
   .geartop1 p {
@@ -383,43 +377,6 @@
     height: 124px;
   }
 
-  .geartop1 {
-    position: absolute;
-    top: 55px;
-    left: 500px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 110px;
-    left: 820px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 140px;
-    left: 580px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 236px;
-    left: 708px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 360px;
-    left: 500px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 330px;
-    left: 810px;
-  }
-
   .geartop1 p {
     top: 65px;
     left: 80px;
@@ -456,9 +413,46 @@
   }
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1099px) {
   .clientfirstapprocah_main {
     margin-top: 0px !important;
+  }
+
+  .geartop1 {
+    position: absolute;
+    top: -120px;
+    left: -30px;
+  }
+
+  .geartop2 {
+    position: absolute;
+    top: -70px;
+    left: 240px;
+  }
+
+  .gear_center {
+    position: absolute;
+    top: -50px;
+    left: 10px;
+  }
+
+  .ellipse_center {
+    position: absolute;
+    top: 45px;
+    left: 130px !important;
+    display: flex;
+  }
+
+  .gearbottom1 {
+    position: absolute;
+    top: 160px;
+    left: -40px;
+  }
+
+  .gearbottom2 {
+    position: absolute;
+    top: 130px;
+    left: 230px;
   }
 
   .geartop1 img,
@@ -478,41 +472,9 @@
     height: 110px;
   }
 
-  .geartop1 {
-    position: absolute;
-    top: 80px;
-    left: 510px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 130px;
-    left: 790px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 150px;
-    left: 560px;
-  }
-
   .ellipse_center {
-    position: absolute;
-    top: 240px;
-    left: 678px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 360px;
-    left: 500px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 330px;
-    left: 780px;
+    top: 40px;
+    left: 180px;
   }
 
   .geartop1 p {
@@ -551,101 +513,6 @@
   }
 }
 
-/* @media only screen and (max-width: 992px) {
-  .clientfirstapprocah_main {
-    margin-top: 0px !important;
-  }
-
-  .geartop1 img,
-  .geartop2 img,
-  .gearbottom1 img,
-  .gearbottom2 img {
-    width: 217.22px;
-    height: 165px;
-  }
-
-  .gear_center img {
-    width: 357px;
-  }
-
-  .ellipse_center img {
-    width: 124px;
-    height: 124px;
-  }
-
-  .geartop1 {
-    position: absolute;
-    top: 55px;
-    left: 420px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 110px;
-    left: 740px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 140px;
-    left: 490px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 236px;
-    left: 618px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 360px;
-    left: 420px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 330px;
-    left: 730px;
-  }
-
-  .geartop1 p {
-    top: 65px;
-    left: 80px;
-    font-size: 12px;
-    line-height: 14px;
-  }
-
-  .geartop2 p {
-    top: 58px;
-    left: 85px;
-    font-size: 12px;
-    line-height: 14px;
-  }
-
-  .ellipse_center p {
-    top: 45px;
-    left: 10px;
-    font-size: 16px;
-    line-height: 14px;
-  }
-
-  .gearbottom1 p {
-    top: 60px;
-    left: 85px;
-    font-size: 12px;
-    line-height: 14px;
-  }
-
-  .gearbottom2 p {
-    top: 70px;
-    left: 88px;
-    font-size: 12px;
-    line-height: 14px;
-  }
-} */
-
 @media only screen and (max-width: 992px) {
   .clientfirstapproach_text {
     margin-top: 10px !important;
@@ -657,45 +524,82 @@
 
   .geartop1 {
     position: absolute;
-    top: 280px;
-    left: 160px;
+    top: 130px;
+    left: -330px;
   }
 
   .geartop2 {
     position: absolute;
-    top: 325px;
-    left: 435px;
+    top: 180px;
+    left: -55px;
   }
 
   .gear_center {
     position: absolute;
-    top: 350px;
-    left: 205px;
+    top: 200px;
+    left: -285px;
   }
 
   .ellipse_center {
     position: absolute;
-    top: 440px;
-    left: 324px;
+    top: 290px;
+    left: -165px !important;
     display: flex;
   }
 
   .gearbottom1 {
     position: absolute;
-    top: 550px;
-    left: 150px;
+    top: 410px;
+    left: -340px;
   }
 
   .gearbottom2 {
     position: absolute;
-    top: 530px;
-    left: 430px;
+    top: 380px;
+    left: -60px;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .clientfirstapproach_description {
     width: 150% !important;
+  }
+
+  .geartop1 {
+    position: absolute;
+    top: 170px;
+    left: -330px;
+  }
+
+  .geartop2 {
+    position: absolute;
+    top: 220px;
+    left: -25px;
+  }
+
+  .gear_center {
+    position: absolute;
+    top: 250px;
+    left: -275px;
+  }
+
+  .ellipse_center {
+    position: absolute;
+    top: 345px;
+    left: -145px !important;
+    display: flex;
+  }
+
+  .gearbottom1 {
+    position: absolute;
+    top: 480px;
+    left: -350px;
+  }
+
+  .gearbottom2 {
+    position: absolute;
+    top: 440px;
+    left: -30px;
   }
 
   .geartop1 img,
@@ -713,43 +617,6 @@
   .ellipse_center img {
     width: 124px;
     height: 124px;
-  }
-
-  .geartop1 {
-    position: absolute;
-    top: 300px;
-    left: 60px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 360px;
-    left: 370px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 390px;
-    left: 125px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 488px;
-    left: 253px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 610px;
-    left: 55px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 590px;
-    left: 370px;
   }
 
   .geartop1 p {
@@ -788,7 +655,7 @@
   }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 767px) {
   .clientfirstapproach_description {
     width: 100% !important;
   }
@@ -812,39 +679,39 @@
 
   .geartop1 {
     position: absolute;
-    top: 400px;
-    left: 10px;
+    top: 30px;
+    left: -60px;
   }
 
   .geartop2 {
     position: absolute;
-    top: 450px;
-    left: 310px;
+    top: 80px;
+    left: 250px;
   }
 
   .gear_center {
     position: absolute;
-    top: 480px;
-    left: 65px;
+    top: 110px;
+    left: 0px;
   }
 
   .ellipse_center {
     position: absolute;
-    top: 578px;
-    left: 194px;
+    top: 205px;
+    left: 125px !important;
     display: flex;
   }
 
   .gearbottom1 {
     position: absolute;
-    top: 700px;
-    left: -5px;
+    top: 340px;
+    left: -70px;
   }
 
   .gearbottom2 {
     position: absolute;
-    top: 670px;
-    left: 300px;
+    top: 300px;
+    left: 240px;
   }
 }
 
@@ -862,6 +729,43 @@
     line-height: 20px;
   }
 
+  .geartop1 {
+    position: absolute;
+    top: 10px;
+    left: -20px;
+  }
+
+  .geartop2 {
+    position: absolute;
+    top: 40px;
+    left: 155px;
+  }
+
+  .gear_center {
+    position: absolute;
+    top: 55px;
+    left: 30px;
+  }
+
+  .ellipse_center {
+    position: absolute;
+    top: 102px;
+    left: 93px !important;
+    display: flex;
+  }
+
+  .gearbottom1 {
+    position: absolute;
+    top: 175px;
+    left: -20px;
+  }
+
+  .gearbottom2 {
+    position: absolute;
+    top: 155px;
+    left: 145px;
+  }
+
   .geartop1 img,
   .geartop2 img,
   .gearbottom1 img,
@@ -877,43 +781,6 @@
   .ellipse_center img {
     width: 66px;
     height: 66px;
-  }
-
-  .geartop1 {
-    position: absolute;
-    top: 375px;
-    left: 77px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 405px;
-    left: 240px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 415px;
-    left: 120px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 463px;
-    left: 183px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 530px;
-    left: 70px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 515px;
-    left: 235px;
   }
 
   .geartop1 p {
@@ -983,43 +850,6 @@
     height: 66px;
   }
 
-  .geartop1 {
-    position: absolute;
-    top: 405px;
-    left: 77px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 435px;
-    left: 240px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 445px;
-    left: 120px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 493px;
-    left: 183px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 560px;
-    left: 70px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 545px;
-    left: 235px;
-  }
-
   .geartop1 p {
     top: 30px;
     left: 48px;
@@ -1087,43 +917,6 @@
     height: 66px;
   }
 
-  .geartop1 {
-    position: absolute;
-    top: 455px;
-    left: 77px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 485px;
-    left: 240px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 495px;
-    left: 120px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 543px;
-    left: 183px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 610px;
-    left: 70px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 595px;
-    left: 235px;
-  }
-
   .geartop1 p {
     top: 30px;
     left: 48px;
@@ -1161,43 +954,6 @@
 }
 
 @media only screen and (max-width: 415px) {
-  .geartop1 {
-    position: absolute;
-    top: 505px;
-    left: 47px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 535px;
-    left: 210px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 545px;
-    left: 90px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 593px;
-    left: 153px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 660px;
-    left: 40px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 645px;
-    left: 205px;
-  }
-
   .geartop1 p {
     top: 30px;
     left: 48px;
@@ -1235,43 +991,6 @@
 }
 
 @media only screen and (max-width: 400px) {
-  .geartop1 {
-    position: absolute;
-    top: 505px;
-    left: 47px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 535px;
-    left: 210px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 545px;
-    left: 90px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 593px;
-    left: 153px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 660px;
-    left: 40px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 645px;
-    left: 205px;
-  }
-
   .geartop1 p {
     top: 30px;
     left: 48px;
@@ -1333,117 +1052,6 @@
   .ellipse_center img {
     width: 66px;
     height: 66px;
-  }
-
-  .geartop1 {
-    position: absolute;
-    top: 365px;
-    left: 17px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 395px;
-    left: 180px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 405px;
-    left: 60px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 453px;
-    left: 123px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 520px;
-    left: 10px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 505px;
-    left: 175px;
-  }
-
-  .geartop1 p {
-    top: 30px;
-    left: 48px;
-    font-size: 6px;
-    line-height: 6px;
-  }
-
-  .geartop2 p {
-    top: 27px;
-    left: 52px;
-    font-size: 6px;
-    line-height: 6px;
-  }
-
-  .ellipse_center p {
-    top: 20px;
-    left: 7px;
-    font-size: 8px;
-    line-height: 10px;
-  }
-
-  .gearbottom1 p {
-    top: 30px;
-    left: 50px;
-    font-size: 6px;
-    line-height: 6px;
-  }
-
-  .gearbottom2 p {
-    top: 33px;
-    left: 54px;
-    font-size: 6px;
-    line-height: 6px;
-  }
-}
-
-@media only screen and (max-width: 340px) {
-  .geartop1 {
-    position: absolute;
-    top: 405px;
-    left: 17px;
-  }
-
-  .geartop2 {
-    position: absolute;
-    top: 435px;
-    left: 180px;
-  }
-
-  .gear_center {
-    position: absolute;
-    top: 445px;
-    left: 60px;
-  }
-
-  .ellipse_center {
-    position: absolute;
-    top: 493px;
-    left: 123px;
-    display: flex;
-  }
-
-  .gearbottom1 {
-    position: absolute;
-    top: 560px;
-    left: 10px;
-  }
-
-  .gearbottom2 {
-    position: absolute;
-    top: 545px;
-    left: 175px;
   }
 
   .geartop1 p {
