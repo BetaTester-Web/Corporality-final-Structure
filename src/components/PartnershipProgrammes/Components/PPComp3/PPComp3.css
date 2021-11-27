@@ -1,0 +1,34 @@
+.ppc3Container{
+    min-height: 378px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/img3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ppc3Heading{
+    text-transform: capitalize;
+}
+
+.ppcPara{
+    width: 60%;
+    text-align: center;
+}
+
+.ppc3Button{
+    width: 155px;
+    height: 42px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%);
+    border-image-slice: 1;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
