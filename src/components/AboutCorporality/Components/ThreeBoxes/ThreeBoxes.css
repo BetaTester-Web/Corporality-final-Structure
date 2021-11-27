@@ -20,6 +20,7 @@
   padding: 10px 20px !important;
   /* justify-content: space-around; */
 }
+
 .threeboxes_second {
   grid-area: 1 / 2 / 2 / 3;
   display: flex;
@@ -48,6 +49,8 @@
   border: 1px solid #ebebeb;
   box-sizing: border-box;
   box-shadow: 0px 12px 20px rgba(10, 17, 21, 0.1);
+  transition: ease 0.6s !important;
+  padding-bottom: 20px !important;
 }
 
 .first_box_text,

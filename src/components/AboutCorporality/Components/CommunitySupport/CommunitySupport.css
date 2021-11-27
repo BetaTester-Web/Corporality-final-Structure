@@ -1,3 +1,17 @@
+@keyframes ideation-slide {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(10px, 0);
+  }
+}
+.community_first_heading_arrow,
+.community_second_heading_arrow {
+  animation: ideation-slide 2s ease-in-out infinite;
+}
+
 .community_support_main {
   padding: 50px 100px !important;
   margin-top: 100px !important;

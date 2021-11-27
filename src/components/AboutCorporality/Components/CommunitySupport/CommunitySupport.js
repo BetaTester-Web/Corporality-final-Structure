@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./CommunitySupport.css";
 import top_image from "./images/top_image.png";
 import top_back from "./images/top_back.png";
@@ -10,9 +12,18 @@ import heading_1_arrow from "./images/heading_1_arrow.png";
 import heading_2_arrow from "./images/heading_2_arrow.png";
 
 function CommunitySupport() {
+  useEffect(() => {
+    Aos.init();
+  });
+
   return (
     <div className="community_support_main">
-      <div className="community_support_first">
+      <div
+        className="community_support_first aos-init aos-animate"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+      >
         <div className="community_first_heading">
           <div className="community_first_heading_text">Community Support</div>
           <div className="community_first_heading_arrow">
@@ -34,7 +45,12 @@ function CommunitySupport() {
           <img src={top_rectangle} alt="" />
         </div>
       </div>
-      <div className="community_support_second">
+      <div
+        className="community_support_second  aos-init aos-animate"
+        data-aos="fade-left"
+        data-aos-duration="2000"
+        data-aos-easing="ease-in-out"
+      >
         <div className="community_second_heading">
           <div className="community_second_heading_text">
             Corporate Social Responsibility
