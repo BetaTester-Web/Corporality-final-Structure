@@ -6,11 +6,12 @@
     height: calc(100vh - 80px); 
 }
 .ppc1Rec9{
-    position: absolute;
+    position: relative;
     width: 30px;
     height: 30px;
-    left: 417px;
-    top: 421.45px;
+    left: 331px;
+    top: -36.55px;
+    transform: rotate(-25deg);
 }
 
 .ppcHeading{
@@ -58,3 +59,17 @@
     align-items: flex-end;
 }
 
+.ppc1Wall{
+    position: relative;
+    top: -705.19px;
+    right: 446.88px;
+    z-index: -1;
+}
+
+.ppc1Rec8{
+    position: relative;
+    width: 45px;
+    top: -715.19px;
+    right: 345.88px;
+    z-index: -1;
+}

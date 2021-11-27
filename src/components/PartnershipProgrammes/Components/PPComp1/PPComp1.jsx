@@ -1,8 +1,7 @@
 import "../PPComp1/PPComp1.css"
 import img1 from "../images/img1.png"
-import img2 from "../images/img2.png"
+import wall from "../images/wall.png"
 import rec6 from "../images/rec-6.png"
-import rec7 from "../images/rec-7.png"
 import rec8 from "../images/rec-8.png"
 import rec9 from "../images/rec-9.png"
 
@@ -22,6 +21,8 @@ export default function PPComp1() {
                         <div className="ppc1ImageWrapper">
                             <img className="ppc1Rec6" src={rec6} alt="" />
                             <img className="ppc1Img1" src={img1} alt="" />
+                            <img className="ppc1Wall" src={wall} alt="" />;
+                            <img className="ppc1Rec8" src={rec8} alt="" />
                         </div>
                     </div>
                 </div>
