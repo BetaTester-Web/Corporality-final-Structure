@@ -9,12 +9,14 @@
 .ppc2Img2back{
     position: relative;
     top: -138.825px;
+    width: 232px;
+    height: 356px;
 }
 .ppc2Img2{
     position: relative;
     width: 448.04px;
     height: 450px;
-    left: -70px;
+    left: -100px;
 }
 .ppc2Button{
     width: 238px;
@@ -25,4 +27,22 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+.ppc2Wall{
+    position: absolute;
+    top: 256px;
+    left: 503px;
+    width: 114px;
+    height: 108px;
+    z-index: -1;
+    transform: scaleX(-1);
+}
+.ppc2Rec8{
+    position: absolute;
+    top: 373px;
+    left: 409px;
+    width: 40.32px;
+    height: 40.32px;
+    z-index: -1;
+    transform: scaleX(-1);
 }

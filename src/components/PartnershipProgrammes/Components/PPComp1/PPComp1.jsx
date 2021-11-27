@@ -21,7 +21,7 @@ export default function PPComp1() {
                         <div className="ppc1ImageWrapper">
                             <img className="ppc1Rec6" src={rec6} alt="" />
                             <img className="ppc1Img1" src={img1} alt="" />
-                            <img className="ppc1Wall" src={wall} alt="" />;
+                            <img className="ppc1Wall" src={wall} alt="" />
                             <img className="ppc1Rec8" src={rec8} alt="" />
                         </div>
                     </div>
