@@ -1,4 +1,5 @@
 .ppc3Container{
+    position: relative;
     min-height: 378px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/img3.jpg);
     background-attachment: fixed;
@@ -31,4 +32,28 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+
+.ppc3Img3back{
+    position: absolute;
+    left: 105px;
+    top: 245px;
+}
+
+.ppc3rec7-1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50px;
+    left: 280px;
+    transform: rotate(-25deg);
+}
+
+.ppc3rec7-2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 255px;
+    right: 235px;
+    transform: rotate(36.7deg);
 }
