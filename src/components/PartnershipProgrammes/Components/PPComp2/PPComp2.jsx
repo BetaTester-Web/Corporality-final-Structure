@@ -25,7 +25,7 @@ export default function PPComp2() {
                     <div className="col ppc2ColContainer">
                         <p data-aos="fade-left" data-aos-duration="500"className="ppcHeading">Conversations with more than 100 entrepreneurs across the globe</p><br />
                         <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">We have spoken to global leaders from manufacturing, to medtech, to hospitality and geospatial initiators.</p><br />
-                        <a data-aos="fade-left" data-aos-delay="600" data-aos-duration="500"className='ppc2Button' href="#">Check out Our set of Interviews</a>
+                        <a data-aos="fade-left" data-aos-delay="600" data-aos-duration="500"className='ppc2Button' href="/#">Check out Our set of Interviews</a>
                     </div>
                 </div>
             </div>

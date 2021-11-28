@@ -8,9 +8,9 @@ export default function PartnershipProgrammes() {
     return (
         <>
             <PPComp1 />
-            {/* <PPComp2 />
+            <PPComp2 />
             <PPComp3 />
-            <PPComp4 /> */}
+            <PPComp4 />
         </>
     )
 }
