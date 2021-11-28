@@ -1,0 +1,30 @@
+.BP-CP5-h1 {
+  width: 722px;
+  height: 37px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height, or 116% */
+
+  text-transform: uppercase;
+
+  color: #33657e;
+}
+.BP-CP5-heading {
+  position: relative;
+  top: 88px;
+  left: 339px;
+}
+.bp-cp-5-img-1 {
+  position: relative;
+  top: 89px;
+  right: 30px;
+}
+.bp-cp-5-img-2 {
+  position: relative;
+  top: 89px;
+  right: 300px;
+}

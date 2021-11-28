@@ -1,0 +1,40 @@
+.BP-c3-p {
+  font-style: Medium;
+  font-style: 16px;
+  line-height: 24px;
+  line-height: 128%;
+  text-align: Justified;
+  vertical-align: Top;
+  color: white;
+  text-align: left;
+}
+.BP-c3-h {
+  font-style: Bold;
+  font-style: 32px;
+  line-height: 44px;
+  line-height: 117%;
+  text-align: left;
+  vertical-align: Top;
+  color: white;
+  text-align: left;
+  text-transform: uppercase;
+}
+.BP-c3-d {
+  width: 54%;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  left: 310px;
+  bottom: 620px;
+
+  background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
+
+  right: 0;
+  color: #ffffff;
+}
+.bp-cp-4-main {
+  height: 500px;
+}
+@media screen and (max-width: 800px) {
+}
