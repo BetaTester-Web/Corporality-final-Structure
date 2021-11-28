@@ -4,18 +4,19 @@ import WhyUs from "./Components/Whyus";
 import EmotionalQuest from "./Components/EmotionalQuest";
 import Library from "./Components/Library";
 import Second from "./Components/SecondComponent/Second";
-import Banner from "./Components/Banner";
+import NewBanner from "./Components/NewBanner.jsx";
 import Portfolio from "./Components/Portfolio";
-import Philosophy from "./Components/Philosophy";
 import Banner2 from "./Components/Banner2";
+import NewPhilosophy from "./Components/NewPhilosophy.jsx";
 
 function HomePage() {
   return (
     <>
-      <Banner />
-      <Banner2 />
-      <Portfolio />
-      <Philosophy />
+      <NewBanner />
+      {/* <Banner2 /> */}
+      {/* <Portfolio /> */}
+      <NewPhilosophy />
+      {/* <Philosophy /> */}
       <Services />
       <WhyUs />
       <EmotionalQuest />
