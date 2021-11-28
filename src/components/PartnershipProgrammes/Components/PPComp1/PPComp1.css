@@ -1,0 +1,81 @@
+.ppc1RowContainer{
+    height: 100vh;   
+    margin: 80px 75px 0 75px !important; 
+}
+.ppc1ColWrapper{ 
+    height: calc(100vh - 80px); 
+}
+.ppc1Rec9{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 331px;
+    top: -36.55px;
+    transform: rotate(-25deg);
+}
+
+.ppcHeading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+    text-transform: uppercase;
+
+    color: #33657E;
+}
+.ppc1Button{
+    width: 149px;
+    height: 42px;
+    background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ppc1Button:hover{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
+}
+.ppc1Rec6{
+    position: relative;
+    width: 500px;
+    height: 502.19px;
+    right: 0px;
+    top: 0px;
+}
+
+.ppc1Img1{
+    position: relative;
+    width: 500px;
+    height: 502.19px;
+    right: 40.88px;
+    top: -502.19px;
+}
+
+.ppc1ImageWrapper{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ppc1Wall{
+    position: relative;
+    top: -705.19px;
+    right: 446.88px;
+    z-index: -1;
+}
+
+.ppc1Rec8{
+    position: relative;
+    width: 45px;
+    top: -705.19px;
+    right: 353.88px;
+    z-index: -1;
+}

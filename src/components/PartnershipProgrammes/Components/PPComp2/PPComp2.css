@@ -1,0 +1,55 @@
+.ppc2RowContainer{
+    height: calc(100vh - 80px); 
+    margin: 0 75px 0 75px !important;
+}
+.ppc2ColContainer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.ppc2Img2back{
+    position: relative;
+    top: -138.825px;
+    left: -46px;
+    width: 232px;
+    height: 356px;
+}
+.ppc2Img2{
+    position: relative;
+    width: 448.04px;
+    height: 450px;
+    left: -100px;
+}
+.ppc2Button{
+    width: 238px;
+    height: 42px;
+    background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.ppc2Button:hover{
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
+}
+.ppc2Wall{
+    position: absolute;
+    top: 256px;
+    left: 503px;
+    width: 114px;
+    height: 108px;
+    z-index: -1;
+    transform: scaleX(-1);
+}
+.ppc2Rec8{
+    position: absolute;
+    top: 373px;
+    left: 409px;
+    width: 40.32px;
+    height: 40.32px;
+    z-index: -1;
+    transform: scaleX(-1);
+}

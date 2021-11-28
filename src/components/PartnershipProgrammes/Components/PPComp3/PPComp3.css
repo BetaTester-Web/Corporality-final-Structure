@@ -1,0 +1,69 @@
+.ppc3Container{
+    position: relative;
+    min-height: 378px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/img3.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ppc3Heading{
+    text-transform: capitalize;
+}
+
+.ppcPara{
+    width: 60%;
+    text-align: center;
+}
+
+.ppc3Button{
+    width: 155px;
+    height: 42px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%);
+    border-image-slice: 1;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ppc3Button:hover{
+    /* background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4; */
+    background: rgb(34, 193, 195);
+    background: linear-gradient(38deg,rgba(34, 193, 195, 1) 0%,rgba(253, 187, 45, 1) 100%);
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+
+.ppc3Img3back{
+    position: absolute;
+    left: 76px;
+    top: 245px;
+}
+
+.ppc3rec7-1{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 50px;
+    left: 280px;
+    transform: rotate(-25deg);
+}
+
+.ppc3rec7-2{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    top: 255px;
+    right: 235px;
+    transform: rotate(36.7deg);
+}
