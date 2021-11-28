@@ -12,7 +12,7 @@ function HomePage() {
     <>
         <Prev1 />
         <Prev2 />
-        <Prev4 />
+        {/* <Prev4 /> */}
         <Prev3 />
         <First />
         <Second />
