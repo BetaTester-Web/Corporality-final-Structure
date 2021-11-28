@@ -144,17 +144,26 @@
 }
 @media (max-width:992px){
     .banner_right_inner{
+        position: relative;
         width: 330px;
         height: 332.8px;
+        bottom: 410px;
     }
     .backimg{
         width: 480px;
         height: 482.8px;
-        left: 10%;
+        left: 20%;
         top: 2%;
     }
     .image-first{
         left: -10%;
+    }
+    .first-image{
+        flex-direction: column-reverse;
+    }
+    .text-box-1{
+        padding-top: 0px;
+        bottom: 200px;
     }
 }
 @media (max-width:768px){
@@ -205,6 +214,7 @@
         width: 220px;
         height: 222.8px;
         left: 15%;
+        bottom: 270px;
     }
     .backimg{
         width: 320px;
@@ -213,7 +223,7 @@
         top: 2%;
     }
     .image-first{
-        left: -10%;
+        left: 0%;
     }
     .wall{
         position: absolute;
@@ -231,6 +241,7 @@
         width: 180px;
         height: 182.8px;
         left: 15%;
+        bottom: 220px;
     }
     .backimg{
         width: 270px;
@@ -252,6 +263,9 @@
         width: 10%;
         top: 50%;
         left: 27%;
+    }
+    .text-box-1{
+        padding-top: 30px;
     }
 }
 @media (max-width: 377px){
