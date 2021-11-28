@@ -1,10 +1,10 @@
 .ppc1RowContainer{
     height: calc(100vh - 80px);   
-    margin: 80px 75px 0 75px !important; 
+    margin: 80px 50px 0 50px !important; 
     margin-bottom: 50px !important;
 }
 .ppc1ColWrapper{ 
-    height: 100%; 
+    /* height: 100%;  */
 }
 .ppc1Rec9{
     position: relative;
@@ -61,7 +61,6 @@
 }
 
 .ppc1ImageWrapper{
-    /* position: absolute; */
     display: flex;
     flex-direction: column;
     align-items: flex-end;
@@ -85,3 +84,100 @@
 /* .col{
     border: 1px solid red !important;
 } */
+
+/* Media Queries */
+@media only screen and (max-width: 768px){
+    .ppc1RowContainer{
+        height: fit-content;
+        flex-wrap: wrap-reverse;
+    }
+    .ppc1ColWrapper{
+        padding: 0 !important;
+    }
+
+    .ppc1ImageWrapper{
+        margin-bottom: 20px;
+    }
+    .ppc1ColTextWrapper{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .ppc1Text{
+        text-align: center !important;
+    }
+    
+    .ppc1Img1{
+        position: absolute;
+        width: 250px;
+        height: 251.095px;
+        right: 28.88px;
+        top: 41.81px;
+    }
+    .ppc1Rec6{
+        position: relative;
+        width: 250px;
+        height: 251.095px;
+        right: 0px;
+        top: 0px;
+    }
+    .ppc1Wall{
+        position: absolute;
+        top: 188px;
+        right: 240px; 
+        z-index: -1;
+        width: 57px;
+        height: 54px;
+    }
+    .ppc1ImageWrapper{
+        padding-top: 40px;
+
+    }
+    .ppc1Rec8 {
+        position: absolute;
+        width: 22.5px;
+        top: 253px;
+        right: 183px;
+        z-index: -1;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199.98px){
+    .ppc1RowContainer{
+        height: calc(100vh - 80px);   
+        margin: 80px 0px 0 0px !important; 
+        margin-bottom: 50px !important;
+    }
+    .ppc1Img1{
+        position: absolute;
+        width: 250px;
+        height: 251.095px;
+        right: 47.88px;
+        top: 88.81px;
+    }
+    .ppc1Rec6{
+        position: relative;
+        width: 250px;
+        height: 251.095px;
+        right: 0px;
+        top: 0px;
+    }
+    .ppc1Wall{
+        position: absolute;
+        top: 235px;
+        right: 260px;    
+        z-index: -1;
+        width: 57px;
+        height: 54px;
+    }
+    .ppc1ImageWrapper{
+        padding-top: 40px;
+
+    }
+    .ppc1Rec8 {
+        position: absolute;
+        width: 22.5px;
+        top: 295px;
+        right: 202px;
+        z-index: -1;
+    }
+}
