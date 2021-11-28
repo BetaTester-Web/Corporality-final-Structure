@@ -36,9 +36,11 @@
     align-items: center;
     text-decoration: none;
 }
+
 .ppc1Button:hover{
     text-decoration: none;
     color: white;
+    background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
 }
 .ppc1Rec6{
     position: relative;

@@ -33,6 +33,7 @@
 .ppc2Button:hover{
     color: white;
     text-decoration: none;
+    background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
 }
 .ppc2Wall{
     position: absolute;
