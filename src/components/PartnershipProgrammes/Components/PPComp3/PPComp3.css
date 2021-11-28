@@ -34,9 +34,17 @@
     text-decoration: none;
 }
 
+.ppc3Button:hover{
+    background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+
 .ppc3Img3back{
     position: absolute;
-    left: 105px;
+    left: 76px;
     top: 245px;
 }
 

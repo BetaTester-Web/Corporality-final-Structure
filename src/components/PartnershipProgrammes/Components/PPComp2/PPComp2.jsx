@@ -8,7 +8,7 @@ export default function PPComp2() {
     return (
         <div>
             <div className="container-fluid ">
-                <div className="row ml-5 mr-5 ppc2RowContainer">
+                <div className="row ppc2RowContainer">
                     <div className="col d-flex">
                         <img className="ppc2Img2back" src={img2back} alt="" />
                         <img className="ppc2Img2" src={img2} alt="" />

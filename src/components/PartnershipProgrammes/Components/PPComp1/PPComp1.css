@@ -1,6 +1,6 @@
 .ppc1RowContainer{
-    height: 100vh;
-    padding-top: 80px !important;   
+    height: 100vh;   
+    margin: 80px 75px 0 75px !important; 
 }
 .ppc1ColWrapper{ 
     height: calc(100vh - 80px); 
@@ -35,6 +35,10 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+.ppc1Button:hover{
+    text-decoration: none;
+    color: white;
 }
 .ppc1Rec6{
     position: relative;
