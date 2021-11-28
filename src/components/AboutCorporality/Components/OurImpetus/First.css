@@ -52,6 +52,7 @@
 .right_image {
   position: relative;
   margin-right: 50px !important;
+  /* transform: rotate(45deg); */
 }
 
 .main_img {
@@ -59,6 +60,13 @@
   top: -200px;
   right: 80px;
   z-index: 2;
+  /* transform: rotate(-45deg); */
+
+  transition: all 0.8s ease;
+}
+
+.right_image:hover .main_img {
+  transform: scale(1.03);
 }
 
 .back_img {

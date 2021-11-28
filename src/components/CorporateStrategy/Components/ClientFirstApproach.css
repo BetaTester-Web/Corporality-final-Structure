@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
+@keyframes ClentApproach_rort__1Zlmo {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}
+
 .clientfirstapprocah_main {
   margin: 40px 0px !important;
   display: flex;
@@ -80,7 +91,8 @@
 .geartop1 img {
   width: 287.22px;
   height: 235px;
-  transform: rotate(31.32deg);
+  /* transform: rotate(31.32deg); */
+  animation: ClentApproach_rort__1Zlmo 8s linear infinite forwards;
 }
 
 .geartop1 p {
@@ -99,7 +111,8 @@
 .geartop2 img {
   width: 287.22px;
   height: 235px;
-  transform: rotate(-3.79deg);
+  /* transform: rotate(-3.79deg); */
+  animation: ClentApproach_rort__1Zlmo 8s linear infinite forwards;
 }
 
 .geartop2 p {
@@ -117,6 +130,7 @@
 
 .gear_center img {
   width: 427.78px;
+  animation: ClentApproach_rort__1Zlmo 8s linear infinite reverse;
 }
 
 .ellipse_center {
@@ -147,7 +161,8 @@
 .gearbottom1 img {
   width: 287.22px;
   height: 235px;
-  transform: rotate(-26.04deg);
+  /* transform: rotate(-26.04deg); */
+  animation: ClentApproach_rort__1Zlmo 8s linear infinite forwards;
 }
 
 .gearbottom1 p {
@@ -165,7 +180,8 @@
 .gearbottom2 img {
   width: 287.22px;
   height: 235px;
-  transform: rotate(-26.04deg);
+  /* transform: rotate(-26.04deg); */
+  animation: ClentApproach_rort__1Zlmo 8s linear infinite forwards;
 }
 
 .gearbottom2 p {
@@ -174,7 +190,7 @@
   left: 115px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media only screen and (max-width: 2000px) {
   .geartop1 img,
   .geartop2 img,
   .gearbottom1 img,
