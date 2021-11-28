@@ -28,3 +28,48 @@
   top: 89px;
   right: 300px;
 }
+.bp-cp-5-dd {
+  position: relative;
+  bottom: 146px;
+  left: 256px;
+  width: 891px;
+  height: 100px;
+
+  background: #f4f8fa;
+}
+.bp-cp-5-dd-span {
+  width: 323px;
+  height: 37px;
+  left: 451px;
+  top: 2674px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 37px;
+  /* identical to box height, or 161% */
+  text-align: left;
+
+  color: #33657e;
+}
+.bp-cp-5-dl {
+  width: 891px;
+  height: 159px;
+
+  background: #ffffff;
+}
+.bp-cp-5-dl-span {
+  width: 598px;
+  height: 96px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  color: #757575;
+}
+.bp-cp-5-dd-img {
+  position: relative;
+  right: 240px;
+}
