@@ -8,6 +8,7 @@ import About2 from './components/About2';
 import { useMediaQuery } from 'react-responsive';
 import OutsideClickHandler from 'react-outside-click-wrapper';
 import { NavbarContext } from './Context/NavbarContext';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const isLargeScreen = useMediaQuery({ query: '(min-width: 1200px)' })
@@ -34,9 +35,9 @@ const Navbar = () => {
                     <span className={`nav-icon-line ${navClicked? "nav-icon-clicked" : ""}`}></span>
                 </div>
                 <div className="navbar-container">
-                    <a href="/">
+                    <Link to="/">
                         <img src={logo} className="corporality-logo" alt="logo" />
-                    </a>
+                    </Link>
                     <About2 />
                     <div className={`nav-items ${navClicked? "nav-items-hidden" : ""}`} >
                         <div className={`nav-item about ${(showAbout && isLargeScreen)? "nav-item-hover" : ""}`} onClick={()=>{setShowAbout(!showAbout)}} onMouseOver={() => {if(isLargeScreen)setShowAbout(true)}} onMouseLeave={()=>{if(isLargeScreen)setShowAbout(false)}} >
