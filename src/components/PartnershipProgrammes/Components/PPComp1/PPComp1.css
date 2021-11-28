@@ -87,6 +87,8 @@
 @media only screen and (max-width: 768px){
     .ppc1RowContainer{
         height: fit-content;
+        display: flex !important;
+        flex-direction: column-reverse !important;
         flex-wrap: wrap-reverse;
     }
     .ppc1ColWrapper{
@@ -95,6 +97,7 @@
 
     .ppc1ImageWrapper{
         margin-bottom: 20px;
+        align-items: center;
     }
     .ppc1ColTextWrapper{
         display: flex !important;
@@ -109,8 +112,9 @@
         position: absolute;
         width: 250px;
         height: 251.095px;
-        right: 28.88px;
-        top: 41.81px;
+        left: 50%;
+        top: 12.81%;
+        transform: translateX(-60%) !important;
     }
     .ppc1Rec6{
         position: relative;
@@ -122,7 +126,8 @@
     .ppc1Wall{
         position: absolute;
         top: 188px;
-        right: 240px; 
+        right: 50%;
+        transform: translateX(-196%);
         z-index: -1;
         width: 57px;
         height: 54px;
@@ -135,11 +140,12 @@
         position: absolute;
         width: 22.5px;
         top: 253px;
-        right: 183px;
+        right: 50%;
+        transform: translateX(-213%);
         z-index: -1;
     }
 }
-@media (min-width: 768px) and (max-width: 1199.98px){
+@media (min-width: 769px) and (max-width: 1199.98px){
     .ppc1RowContainer{
         height: calc(100vh - 80px);   
         margin: 80px 0px 0 0px !important; 

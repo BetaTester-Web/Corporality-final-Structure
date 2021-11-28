@@ -55,7 +55,41 @@
     z-index: -1;
     transform: scaleX(-1);
 }
-
-/* .col{
-    border: 2px solid red !important;
-} */
+/* Media Queries */
+@media only screen and (max-width: 768px){
+    
+}
+@media (min-width: 767px) and (max-width: 1199.98px){
+    .ppc2Img2back {
+        position: absolute;
+        top: -138.825px;
+        left: -46px;
+        width: 116px;
+        height: 178px;
+    }
+    .ppc2Img2 {
+        position: relative;
+        width: 224px;
+        height: 225px;
+        left: 12px;
+        top: -65px;
+    }
+    .ppc2Wall {
+        position: absolute;
+        top: 64px;
+        left: 214px;
+        width: 57px;
+        height: 54px;
+        z-index: -1;
+        transform: scaleX(-1);
+    }
+    .ppc2Rec8 {
+        position: absolute;
+        top: 127px;
+        left: 156px;
+        width: 20.155px;
+        height: 20.155px;
+        z-index: -1;
+        transform: scaleX(-1);
+    }
+}
