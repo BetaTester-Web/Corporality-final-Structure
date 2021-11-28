@@ -1,9 +1,10 @@
-.page-3 {
+.Consultancypage-3 {
   background: linear-gradient( #f5f5f5 0.9%, #ededed 98.64%);
-  padding: 100px;
+  padding: 100px !important;
 }
 
-.circle-container {
+.circle-container-consultancy {
+  position: relative;
   border-radius: 51%;
   border: 30px solid #ffffff;
   box-sizing: border-box;
@@ -11,16 +12,16 @@
   width: 462px;
   height: 462px;
 }
-.circle-container > div {
+.circle-container-consultancy > div {
   display: block;
   position: absolute;
   top: 50%;
   left: 50%;
   width: 8em;
   height: 8em;
-  margin: -4em;
+  margin: -4em !important;
 }
-.circle-container > div > .page-3-diamond {
+.circle-container > div > .Consultancypage-3-diamond {
   display: block;
   width: 100%;
 }
@@ -37,7 +38,7 @@
   transform: rotate(315deg) translate(12em) rotate(-315deg);
 }
 
-.page-3-diamond {
+.Consultancypage-3-diamond {
   /* position: absolute; */
   width: 130px;
   height: 130px;
@@ -50,7 +51,7 @@
   transform: rotate(45deg);
 }
 
-.centere {
+.centereeeee {
   background: linear-gradient(0deg, #ffffff, #ffffff);
   box-shadow: rgba(0, 0, 0, 0.5);
   border-radius: 15px;
@@ -60,10 +61,10 @@
 .model-para {
   width: 40%;
 
-  padding: 0%;
+  padding: 0% !important;
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
+  margin-right: 100px !important;
   justify-content: center;
 }
 
@@ -91,7 +92,7 @@
   color: #757575;
 }
 
-.dia{
+.Consultancydia{
   animation: skew 2s infinite;
   transform: skew(26deg);
   animation-direction: alternate;
@@ -122,7 +123,7 @@
 
 
 
-.dia > p {
+.Consultancydia > p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -135,32 +136,32 @@
   color: #ffffff;
   transform: rotate(-10deg);
   /* margin-left: -10px; */
-  padding-top: 40px;
-  margin-right: 10px;
+  padding-top: 40px !important;
+  margin-right: 10px !important;
 }
 
-.c > p {
+.Consultancyc > p {
   color: #3e7089;
 }
 
 @media only screen and (max-width: 900px) {
   .page-3 {
     background: linear-gradient(#f5f5f5 0.9%, #ededed 98.64%);
-    padding: 100px 0;
+    padding: 100px 0 !important;
   }
   .model-para {
-    margin-right: 10px;
+    margin-right: 10px !important;
   }
 }
 
 @media only screen and (max-width: 720px) {
   .page-3 {
     background: linear-gradient(#f5f5f5 0.9%, #ededed 98.64%);
-    padding: 100px 0;
+    padding: 100px 0 !important;
   }
   .model-para {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 50px !important;
   }
 }
 
@@ -180,21 +181,21 @@
     left: 50%;
     width: 8em;
     height: 8em;
-    margin: -4em;
+    margin: -4em !important;
   }
-  .circle-container > div > .page-3-diamond {
+  .circle-container > div > .Consultancypage-3-diamond {
     display: block;
     width: 90%;
   }
 
   .model-para {
     width: 80%;
-    margin-bottom: 0px;
+    margin-bottom: 0px !important;
   }
 
   .circle-container {
-    margin-top: 60px;
-    margin-left: 25px;
+    margin-top: 60px !important;
+    margin-left: 25px !important;
   }
 
 

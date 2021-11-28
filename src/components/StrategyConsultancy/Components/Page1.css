@@ -1,25 +1,38 @@
-.page1{
-    background: url('../Images/background1.png') no-repeat center center;
-    -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-bottom: 50px ;
+.consult-page1{
+  padding: 6% 3% !important;
+  background: url('../Images/background1.png') no-repeat center center;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
-  /* height: 100vh; */
+/* height: 100vh; */
 }
 
-.page1{
-    -top: 300px;
+.consult-hollowDia{
+  transform: translate(400px,0px);
 }
 
-.grad-1 > img{
-   transform: translate(1200px,-400px);
+.consult-hollow2{
+  transform: translate(720px,-100px);
 }
 
 
-.page1-content > h3{
-    font-family: Roboto;
+
+.consultgrad-1 > img{
+ transform: translate(1200px,-400px);
+}
+
+.consult-pg1-con{
+  width: 80%;
+}
+
+.consultimg3{
+  width: 60%;
+}
+
+.consult-pg1-con > h3{
+  font-family: Roboto;
 font-style: normal;
 font-weight: 1000;
 font-size: 32px;
@@ -32,9 +45,9 @@ text-transform: uppercase;
 color: #33657E;
 }
 
-.page1-content > p{
-    margin-bottom: 100px;
-    font-family: Roboto;
+.consult-pg1-con > p{
+  margin-bottom: 100px !important;
+  font-family: Roboto;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -46,12 +59,12 @@ color: #757575;
 
 }
 
-.page1-img{
+.consult-page1-img{
 
-    background: #FFFFFF;
-    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.15);
-    width: 75%;
-    font-family: Roboto;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.15);
+  width: 80%;
+  font-family: Roboto;
 font-style: normal;
 font-weight: 500;
 font-size: 22px;
@@ -66,43 +79,81 @@ color: #31647C;
 
 
 .footer-button{
-    background: linear-gradient(95.12deg, #E5CD60 0%, #6CA0BC 83.42%);
-    transform: rotate(-180deg);
-    width: 155px;
-    height: 42px;
-    border-radius: 0%;
-    border: 0px;
-  }
-  
-  .footer-button:hover {
-    background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
-  }
-  
-  .footer-button-text{
-    transform: rotate(-180deg);
-    padding-bottom: 4%;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    color: #FFFFFF;
-  }
+  background: linear-gradient(95.12deg, #E5CD60 0%, #6CA0BC 83.42%);
+  transform: rotate(-180deg);
+  width: 155px;
+  height: 42px;
+  border-radius: 0%;
+  border: 0px;
+}
 
-.youtubebox{
-    /* width: 50%; */
-    margin-left: 10%;
-    margin-top: 30px;
+.footer-button:hover {
+  background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
+}
+
+.footer-button-text{
+  transform: rotate(-180deg);
+  padding-bottom: 4% !important;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.consultyoutubebox{
+  /* width: 50%; */
+  margin-left: 10% !important;
+  margin-top: 30px !important;
+}
+
+.consultancysocialmedia{
+  transform: translate(4%,-400px);
 }
 
 @media only screen and (max-width: 780px){
 
-    .page1-content > h3{
-        font-weight: 600;
-        font-size: 24px;
-        line-height: 30px;
-        margin-top: 100px;
-    }
+  .consult-page1-content > h3{
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 30px;
+      margin-top: 100px !important;
+  }
 
 
+}
+
+@media only screen and (max-width: 1200px){
+  .consultgrad-1 > img{
+      transform: translate(800px,-540px);
+   }
+}
+@media only screen and (max-width: 780px){
+  .consultgrad-1 > img{
+      transform: translate(500px,-640px);
+   }
+
+   .consult-hollowDia{
+      transform: translate(300px,40px);
+  }
+  
+  .consult-hollow2{
+      transform: translate(320px,-100px);
+  }
+}
+
+@media only screen and (max-width: 450px){
+
+
+  .consultgrad-1 > img{
+      transform: translate(250px,-330px);
+   }
+  .consult-pg1-con{
+      width: 100%;
+  }
+  
+  .consultimg3{
+      width: 100%;
+  }
   
 }

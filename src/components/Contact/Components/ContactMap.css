@@ -1,0 +1,55 @@
+
+.contact-map > iframe {
+  width: 750px;
+  height: 600px;
+}
+
+
+
+.conmap-detail-head > h2 {
+  color: #3c708e;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.conmap-detail-head > p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 25px;
+  /* or 179% */
+
+  color: #757575;
+}
+
+.conmap-detail-head > button{
+  margin: 2% !important;
+}
+
+.SpeakerBooking {
+  border: 1px solid;
+  border-color:#6CA0BC #EED979 ;
+  border-radius: 0%;
+}
+
+@media only screen and (max-width: 600px){
+
+   
+  .bookcal-Image{
+
+      width: 70%;
+      height: 60%;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+    .contact-map > iframe{
+        height: 700px;
+    }
+}
