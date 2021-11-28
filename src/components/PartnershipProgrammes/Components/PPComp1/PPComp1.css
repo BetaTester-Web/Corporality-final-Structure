@@ -4,13 +4,13 @@
     margin-bottom: 50px !important;
 }
 
-.ppc1Rec9{
+.ppc1Rec9 {
     position: relative;
     width: 30px;
     height: 30px;
-    left: 311px;
+    left: 100%;
     top: -35px;
-    transform: rotate(-25deg);
+    transform: translateX(-518%) rotate(-25deg) !important;
 }
 
 .ppcHeading{
@@ -49,13 +49,13 @@
     top: 0px;
 }
 
-.ppc1Img1{
+.ppc1Img1 {
     position: absolute;
     width: 500px;
     height: 502.19px;
-    right: 57.88px;
-    top: 55.81px;
-
+    left: 100%;
+    top: 50%;
+    transform: translate(-113%, -50%) !important;
 }
 
 .ppc1ImageWrapper{
@@ -64,19 +64,21 @@
     align-items: flex-end;
 }
 
-.ppc1Wall{
+.ppc1Wall {
     position: absolute;
-    top: 352px;
-    right: 475px;
+    top: 50%;
+    left: 100%;
+    transform: translate(-534%, 36%);
     z-index: -1;
 }
 
-.ppc1Rec8{
+.ppc1Rec8 {
     position: absolute;
     width: 45px;
-    top: 475px;
-    right: 366px;
+    top: 50%;
+    left: 100%;
     z-index: -1;
+    transform: translate(-914%, 384%);
 }
 
 /* .col{
@@ -123,11 +125,11 @@
         right: 0px;
         top: 0px;
     }
-    .ppc1Wall{
+    .ppc1Wall {
         position: absolute;
         top: 188px;
-        right: 50%;
-        transform: translateX(-196%);
+        left: 50%;
+        transform: translateX(-295%);
         z-index: -1;
         width: 57px;
         height: 54px;
@@ -139,10 +141,13 @@
     .ppc1Rec8 {
         position: absolute;
         width: 22.5px;
-        top: 253px;
-        right: 50%;
-        transform: translateX(-213%);
+        top: 250px;
+        left: 50%;
+        transform: translateX(-335%);
         z-index: -1;
+    }
+    .ppc1Rec9{
+        display: none;
     }
 }
 @media (min-width: 769px) and (max-width: 1199.98px){
@@ -151,12 +156,13 @@
         margin: 80px 0px 0 0px !important; 
         margin-bottom: 50px !important;
     }
-    .ppc1Img1{
+    .ppc1Img1 {
         position: absolute;
         width: 250px;
         height: 251.095px;
-        right: 47.88px;
-        top: 88.81px;
+        left: 100%;
+        top: 50%;
+        transform: translate(-115%, -50%) !important;
     }
     .ppc1Rec6{
         position: relative;
@@ -165,23 +171,22 @@
         right: 0px;
         top: 0px;
     }
-    .ppc1Wall{
+    .ppc1Wall {
         position: absolute;
-        top: 235px;
-        right: 260px;    
+        top: 50%;
+        left: 100%;
         z-index: -1;
         width: 57px;
         height: 54px;
+        transform: translate(-550%, 32%);
     }
-    .ppc1ImageWrapper{
-        padding-top: 40px;
 
-    }
     .ppc1Rec8 {
         position: absolute;
         width: 22.5px;
-        top: 295px;
-        right: 202px;
+        top: 50%;
+        left: 100%;
+        transform: translate(-950%, 374%);
         z-index: -1;
     }
 }

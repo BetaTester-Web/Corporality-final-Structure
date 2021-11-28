@@ -93,3 +93,6 @@
         transform: scaleX(-1);
     }
 }
+.col{
+    border: 2px solid red !important;
+}

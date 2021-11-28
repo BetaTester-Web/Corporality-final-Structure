@@ -24,7 +24,7 @@ export default function PPComp1() {
                         <a data-aos="fade-right" data-aos-delay="600" data-aos-duration="500" className='ppc1Button' href="/#">Read More</a>
                         <img className="ppc1Rec9" src={rec9} alt="" />
                     </div>
-                    <div className="col d-flex flex-column pt-5 pl-5 ppc1ColWrapper">
+                    <div className="col d-flex flex-column justify-content-center ppc1ColWrapper">
                         <div className="ppc1ImageWrapper">
                             <img className="ppc1Rec6" src={rec6} alt="" />
                             <img data-aos="fade-left" data-aos-duration="1000" className="ppc1Img1" src={img1} alt="" />
