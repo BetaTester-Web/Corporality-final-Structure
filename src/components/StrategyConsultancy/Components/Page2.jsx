@@ -12,7 +12,7 @@ const Page2 = () => {
     })
 
     return (
-        <>
+        <div className="constrat-2">
             <div className="container-xl">
                 <div className="d-md-flex justify-content-center consultancypage-2">
                     <div data-aos="fade-right">
@@ -20,7 +20,7 @@ const Page2 = () => {
 
                         <div>
 
-                            <img className="img-fluid" src="./img/StrategyConsultancy/page-2.png" alt="" />
+                            <img className="img-fluid mx-5" src="./img/StrategyConsultancy/page-2.png" alt="" />
                         </div>
                     </div>
 
@@ -28,7 +28,7 @@ const Page2 = () => {
 
 
                         <div>
-                            <img className="img-fluid" src="./img/StrategyConsultancy/Group 1161.png" alt="" />
+                            <img className="img-fluid consultdvice " src="./img/StrategyConsultancy/Group 1161.png" alt="" />
 
                         </div>
                     </div>
@@ -53,7 +53,7 @@ const Page2 = () => {
                 </div>
             </div>
 
-            <div className="container">
+            <div className="container consultbusinessbox">
 
                 <div data-aos="fade-up">
                     <div className="d-flex justify-content-around flex-wrap m-5">
@@ -72,7 +72,7 @@ const Page2 = () => {
 
 
 
-        </>
+        </div>
 
 
     )

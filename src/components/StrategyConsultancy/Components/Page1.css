@@ -1,5 +1,9 @@
 .consult-page1{
-  padding: 6% 3% !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8% !important;
+  padding-left: 0% !important;
   background: url('../Images/background1.png') no-repeat center center;
   -webkit-background-size: cover;
 -moz-background-size: cover;

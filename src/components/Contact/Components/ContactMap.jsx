@@ -1,11 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 import './ContactMap.css'
 
 const ContactMap = () => {
+
+    useEffect(() => {
+        Aos.init();
+    })
+
     return (
         <>
             <div className="py-5 d-lg-flex">
 
+            <div data-aos="fade-right">
 
                 <div className="conMap">
                     {/* <iframe src="" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>     */}
@@ -15,34 +23,39 @@ const ContactMap = () => {
                         </div>
                     </div>
                 </div>
+            </div>
 
             
             <div className="d-flex flex-column">
+        <div data-aos="fade-up">
 
                 <div className="conmap-bookOurCalendar m-3">
                     <div className="d-flex flex-wrap">
-                        <div className="conmap-detail-head p-2">
-                            <h2>Book Our Calendar</h2>
-                            <p>Chat with us now <br /> We are active Morning 9:AM – 6:00PM <br /> Monday to Friday Sydney time</p>
+                        <div className="conmap-detail-head p-2 my-4">
+                            <h2 className="my-3">Book Our Calendar</h2>
+                            <p className="my-3">Chat with us now <br /> We are active Morning 9:AM – 6:00PM <br /> Monday to Friday Sydney time</p>
                             <button type="button" className="btn know_button ">Speaker</button>
                         </div>
 
-                        <img className="img-fluid mx-3 bookcal-Image" src="./img/Contact/_221_353_356_351_1 1.png" alt="" />
+                        <img className="img-fluid m-5 bookcal-Image" src="./img/Contact/_221_353_356_351_1 1.png" alt="" />
                     </div>
                 </div>
+        </div>
+        <div data-aos="fade-up">
 
                 <div className="conmap-partners mx-2">
                     <div className="conmap-detail-head">
-                    <h2>Partner With Us</h2>
-                    <p>Corporality Global is always on the look out for enterprising partners who can build the business and grow along with us. Our parternship journeys are designed to enable, strengthen and grow your business using high-level performance plans and strategies.</p>
+                    <h2 className="m-3">Partner With Us</h2>
+                    <p className="m-3">Corporality Global is always on the look out for enterprising partners who can build the business and grow along with us. Our parternship journeys are designed to enable, strengthen and grow your business using high-level performance plans and strategies.</p>
                     <button type="button" className="btn know_button">Know More</button>
                     <button type="button" className="btn footer-button">
-                        <div className="footer-button-text">
+                        <div className="footer-button-text p-1">
 
                         Call Us
                         </div>
                         </button>
                     </div>
+                </div>
                 </div>
             </div>
 
