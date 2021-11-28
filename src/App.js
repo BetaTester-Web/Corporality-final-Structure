@@ -11,8 +11,7 @@ import IntractiveBluePrint from "./components/IntractiveBluePrint/IntractiveBlue
 import CorporateStrategy from "./components/CorporateStrategy/CorporateStrategy";
 import BrandPositioning from "./components/BrandPositioning/BrandPositioning";
 import AboutCorporality from "./components/AboutCorporality/AboutCorporality";
-import PartnershipProgrammes from './components/PartnershipProgrammes/PartnershipProgrammes.jsx';
-
+import PartnershipProgrammes from "./components/PartnershipProgrammes/PartnershipProgrammes.jsx";
 
 function App() {
   return (
@@ -33,7 +32,10 @@ function App() {
           />
           <Route path="/CorporateStrategy" element={<CorporateStrategy />} />
           <Route path="/BrandPositioning" element={<BrandPositioning />} />
-          <Route path="/PartnershipProgrammes" element={<PartnershipProgrammes />} />
+          <Route
+            path="/PartnershipProgrammes"
+            element={<PartnershipProgrammes />}
+          />
         </Routes>
       </BrowserRouter>
       <Footer />
