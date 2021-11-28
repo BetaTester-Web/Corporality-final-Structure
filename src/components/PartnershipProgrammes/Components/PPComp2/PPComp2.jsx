@@ -15,8 +15,8 @@ export default function PPComp2() {
     return (
         <div>
             <div className="container-fluid ">
-                <div className="row ppc2RowContainer">
-                    <div className="col d-flex">
+                <div className="row d-flex flex-row ppc2RowContainer">
+                    <div className="col pr-5">
                         <img className="ppc2Img2back" src={img2back} alt="" />
                         <img data-aos="fade-right" data-aos-duration="1000" className="ppc2Img2" src={img2} alt="" />
                         <img className="ppc2Wall" src={wall} alt="" />

@@ -7,8 +7,9 @@
     flex-direction: column;
     justify-content: center;
 }
+
 .ppc2Img2back{
-    position: relative;
+    position: absolute;
     top: -138.825px;
     left: -46px;
     width: 232px;
@@ -18,7 +19,8 @@
     position: relative;
     width: 448.04px;
     height: 450px;
-    left: -100px;
+    left: 60px;
+    top: -6px;
 }
 .ppc2Button{
     width: 238px;
@@ -38,7 +40,7 @@
 .ppc2Wall{
     position: absolute;
     top: 256px;
-    left: 503px;
+    left: 460px;
     width: 114px;
     height: 108px;
     z-index: -1;
@@ -46,10 +48,14 @@
 }
 .ppc2Rec8{
     position: absolute;
-    top: 373px;
-    left: 409px;
+    top: 370px;
+    left: 344px;
     width: 40.32px;
     height: 40.32px;
     z-index: -1;
     transform: scaleX(-1);
 }
+
+/* .col{
+    border: 2px solid red !important;
+} */

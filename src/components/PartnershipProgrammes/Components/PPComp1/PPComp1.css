@@ -1,16 +1,17 @@
 .ppc1RowContainer{
-    height: 100vh;   
+    height: calc(100vh - 80px);   
     margin: 80px 75px 0 75px !important; 
+    margin-bottom: 50px !important;
 }
 .ppc1ColWrapper{ 
-    height: calc(100vh - 80px); 
+    height: 100%; 
 }
 .ppc1Rec9{
     position: relative;
     width: 30px;
     height: 30px;
-    left: 331px;
-    top: -36.55px;
+    left: 311px;
+    top: -35px;
     transform: rotate(-25deg);
 }
 
@@ -51,11 +52,12 @@
 }
 
 .ppc1Img1{
-    position: relative;
+    position: absolute;
     width: 500px;
     height: 502.19px;
-    right: 40.88px;
-    top: -502.19px;
+    right: 57.88px;
+    top: 55.81px;
+
 }
 
 .ppc1ImageWrapper{
@@ -66,16 +68,20 @@
 }
 
 .ppc1Wall{
-    position: relative;
-    top: -705.19px;
-    right: 446.88px;
+    position: absolute;
+    top: 352px;
+    right: 475px;
     z-index: -1;
 }
 
 .ppc1Rec8{
-    position: relative;
+    position: absolute;
     width: 45px;
-    top: -705.19px;
-    right: 353.88px;
+    top: 475px;
+    right: 366px;
     z-index: -1;
 }
+
+/* .col{
+    border: 1px solid red !important;
+} */
