@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+
 import StrategyConsultancy from "./components/StrategyConsultancy/StrategyConsultancy";
 import CxoStrategy from "./components/CxoStrategy/CxoStrategy";
 import IntractiveBluePrint from "./components/IntractiveBluePrint/IntractiveBluePrint";
@@ -37,6 +38,7 @@ function App() {
           
           <Route path="/CorporateStrategy" element={<CorporateStrategy />} />
           <Route path="/BrandPositioning" element={<BrandPositioning />} />
+
           <Route
             path="/PartnershipProgrammes"
             element={<PartnershipProgrammes />}
