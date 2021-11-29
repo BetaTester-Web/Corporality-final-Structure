@@ -1,24 +1,26 @@
-
-.container-1{
+.container-1-Op{
     display: flex;
     align-items: center;
     /* overflow-x: hidden; */
    /*  overflow-y: hidden; */
+   /* overflow: hidden; */
 }
-.text-box-1{
+.text-box-1-Op{
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     padding-top: 150px;
+    left: 10%;
+    margin-right: 130px;
  
 }
-.image-first-1{
+/* .image-first-Op-1-Op{
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-.container-1_text{
+} */
+.container-1_text-Op{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -31,7 +33,7 @@
     color: #33657E;
 } 
 
-.container-2_text{
+.container-2_text-Op{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
@@ -43,33 +45,29 @@
     color: #232323;
 /*     margin-right: 300px; */
 
-
-  text-transform: uppercase;
-
-  color: #232323;
 }
-.container-3_text {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  /* or 150% */
+.container-3_text-Op{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
 
-  color: #232323;
+
+    color: #232323;
 }
-
-.wall{
+.wall-Op{
     position: absolute;
     top: 35%;
-    left: 4%;
+    left: 8%;
 }
-.smallrect{
+.smallrect-Op{
     position: absolute;
     top: 50%;
     left: 47%;
 }
-.image-first{
+.image-first-Op{
     margin-left: 80px;
 }
 /* .mainimage{
@@ -82,22 +80,21 @@
 }
  */
 
-.navbar{
+.navbar-Op{
     margin-bottom: 100px;
 }
-.image-first{
+.image-first-Op{
     position: relative;
 }
-.rect{
+.rect-Op{
     position: absolute;
     top: 50px;
     left: -50px;
 }
-.backimg{
+.backimg-Op{
     position: relative;
     left: 20%;
     
-
 }
 .blue_print_overlay{
     position: relative;
@@ -125,23 +122,29 @@
    
    }
 
-   .smaller-rect-prev-1{
+   .smaller-rect-prev-1-Op{
        position: absolute;
        left: 74%;
        top: 92%;
    }
-.banner_right_inner{
+
+   .first-image-Op{
+       position: relative;
+        left: -5%;
+   }
+
+.banner_right_inner-Op{
     position: relative;
     width: 350px;
     height: 350.8px;
     top: -50%;
-    left: 25%;
+    left: 30%;
     /* border: 1px solid black; */
     transform: rotate(45deg);
     overflow: hidden;
    /*  z-index: 10; */
    }
-   .banner_right_inner .main-prev1{
+   .banner_right_inner-Op .main-prev1-Op{
     width: 510px;
     height: 512.19px;
     margin-top: -80px;
@@ -150,7 +153,7 @@
     transition: all 0.8s ease;
     /* z-index: 100; */
    }
-   .banner_right_inner:hover .main-prev1 {
+   .banner_right_inner-Op:hover .main-prev1-Op {
     transform: scale(1.03) rotate(-45deg);
    }
    @media (max-width:1539px){
@@ -160,12 +163,12 @@
 }
 
 @media (max-width: 1400px){
-    /* .backimg{
+    /* .backimg-Op{
         left: 10%;
     } */
 }
 @media (max-width:1300px){
-    .image-first{
+    .image-first-Op{
         position: relative;
         left: -100px;
     }
@@ -176,13 +179,18 @@
         margin-bottom: 200px;
     }
 } */
+@media(max-width:1200px){
+    .image-first-Op{
+        left: -30%;
+    }
+}
 
 @media (max-width:1144px){
-  /*   .banner_right_inner{
+  /*   .banner_right_inner-Op{
         width: 370px;
         height: 332.8px;
     }
-    .backimg{
+    .backimg-Op{
         width: 480px;
         height: 482.8px;
         left: 20%;
@@ -190,140 +198,192 @@
     } */
 }
 @media (max-width:992px){
-    .banner_right_inner{
+    .banner_right_inner-Op{
         position: relative;
         width: 330px;
         height: 332.8px;
         bottom: 410px;
+        left: 35%;
     }
-    .backimg{
+    .backimg-Op{
         width: 480px;
         height: 482.8px;
         left: 20%;
         top: 2%;
     }
-    .image-first{
+    .image-first-Op{
         left: -10%;
     }
-    .first-image{
+    .first-image-Op{
         flex-direction: column-reverse;
     }
-    .text-box-1{
+    .text-box-1-Op{
         padding-top: 0px;
         bottom: 200px;
+        left: 5%;
+        text-align: center;
     }
+    .wall-Op{
+        left: 20%;
+    }
+    .rect-Op{
+        left: 20%;
+    }
+    .container-1_text-Op{
+        font-size: 16px;
+    }
+    .container-2_text-Op{
+        font-size: 12px;
+    }
+    
 }
 @media (max-width:768px){
-    .banner_right_inner{
+    .banner_right_inner-Op{
         width: 330px;
         height: 332.8px;
         left: 0%;
     }
-    .backimg{
+    .backimg-Op{
         width: 480px;
         height: 482.8px;
         left: 10%;
         top: 2%;
     }
-    .image-first{
+    .image-first-Op{
         left: -10%;
     }
+    .text-box-1-Op{
+        margin-right: 30px;
+    }
+    
 }
 @media (max-width:768px){
-    .banner_right_inner{
+    .banner_right_inner-Op{
         width: 330px;
         height: 332.8px;
         left: 15%;
     }
-    .backimg{
+    .backimg-Op{
         width: 480px;
         height: 482.8px;
         left: 10%;
         top: 2%;
     }
-    .image-first{
+    .image-first-Op{
         left: -10%;
     }
-    .wall{
+    .wall-Op{
         position: absolute;
         top: 35%;
         left: 0%;
     }
-    .smallrect{
+    .smallrect-Op{
         position: absolute;
         top: 50%;
         left: 27%;
     }
+    .text-box-1-Op{
+        margin-right: 0px;
+    }
+    .container-1_text-Op{
+        font-size: 14px;
+    }
+    .container-2_text-Op{
+        font-size: 10px;
+    }
 }
 
 @media (max-width:654px){
-    .banner_right_inner{
+    .banner_right_inner-Op{
         width: 220px;
         height: 222.8px;
-        left: 15%;
+        left: 20%;
         bottom: 270px;
     }
-    .backimg{
+    .backimg-Op{
         width: 320px;
         height: 322.8px;
         left: 5%;
         top: 2%;
     }
-    .image-first{
+    .image-first-Op{
         left: 0%;
     }
-    .wall{
+    .wall-Op{
         position: absolute;
         top: 35%;
         left: 0%;
+        width: 20%;
     }
-    .smallrect{
+    .smallrect-Op{
         position: absolute;
         top: 50%;
         left: 27%;
     }
 }
-@media (max-width:427px){
-    .banner_right_inner{
+/* @media (max-width:427px){
+    .banner_right_inner-Op{
         width: 180px;
         height: 182.8px;
         left: 15%;
         bottom: 220px;
     }
-    .backimg{
+    .backimg-Op{
         width: 270px;
         height: 272.8px;
         left: 5%;
         top: 2%;
     }
-    .image-first{
+    .image-first-Op{
         left: -10%;
     }
-    .wall{
+    .wall-Op{
         position: absolute;
         width: 20%;
         top: 35%;
         left: -5%;
     }
-    .smallrect{
+    .smallrect-Op{
         position: absolute;
         width: 10%;
         top: 50%;
         left: 27%;
     }
-    .text-box-1{
+    .text-box-1-Op{
         padding-top: 30px;
     }
 }
 @media (max-width: 377px){
-    .image-first{
+    .image-first-Op{
         left: -20%;
     }
 }
-
+ */
 /* @media (min-width:640px){
-    .banner_right_inner{
+    .banner_right_inner-Op{
         width: 250px;
         height: 252.8px;
     }
 } */
+
+@media (max-width:448px){
+    .banner_right_inner-Op{
+        left: 15%;
+    }
+}
+@media (max-width:428px) {
+    .image-first-Op{
+        left: -10%;
+    }
+    .text-box-1-Op{
+        margin-right: 40px;
+    }
+}
+@media (max-width:380px) {
+    .image-first-Op{
+        left: -10%;
+    }
+    .text-box-1-Op{
+        margin-right: 60px;
+    }
+}

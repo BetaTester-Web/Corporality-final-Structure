@@ -1,10 +1,10 @@
-.third{
+.third-Multi{
     overflow: hidden;
     padding-bottom: 10px;
     background-color: #F8F8F8;
     /* overflow-x: hidden; */
 }
-.contoiner-3{
+.contoiner-3-Multi{
     display: flex;
     align-items: center;
     padding-top: 100px;
@@ -13,7 +13,7 @@
 
 
 
-.container-3_text-1_heading{
+.container-3_text-1_heading-Multi{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -26,7 +26,7 @@
     color: #3C708E;
     
 }
-.container-3_text-2_heading{
+.container-3_text-2_heading-Multi{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -38,7 +38,7 @@
     
     color: #3C708E;
 }
-.container-3_text-3_heading{
+.container-3_text-3_heading-Multi{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -50,7 +50,7 @@
     
     color: #3C708E;  
 }
-.container-3_text-1{
+.container-3_text-1-Multi{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
@@ -63,7 +63,7 @@
     margin-right: 60px;
     
 }
-.container-3_text-2{
+.container-3_text-2-Multi{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
@@ -76,7 +76,7 @@
     margin-right: 60px;
        
 }
-.container-3_text-3{
+.container-3_text-3-Multi{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
@@ -90,7 +90,7 @@
     margin-right: 60px;
         
 }
-.icon{
+.icon-Multi{
     width: 43px;
     height: 43px;
     background: #FFFFFF;
@@ -101,20 +101,20 @@
     margin-top: 6px;
     
 }
-.icon1{
+.icon1-Multi{
     margin-top: 6px;
 }
-.textndicon{
+.textndicon-Multi{
     display: flex;
     justify-content: center;
     
 }
-.text-box-3{
+.text-box-3-Multi{
     padding-left: 10px;
     
     
 }
-.heading{
+.heading-Multi{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -127,7 +127,7 @@
     color: #3C708E;
 
 }
-.bp_iwfc_img{
+.bp_iwfc_img-Multi{
     position: absolute;
     left: -230px;
     top: -300px;
@@ -139,7 +139,7 @@
     transform: rotate(45deg);
     overflow: hidden;
   }
-  .bp_iwfc_img .main3{
+  .bp_iwfc_img-Multi .main3-Multi{
     transform: rotate(-45deg);
     width: 143%;
     height: 143%;
@@ -148,10 +148,10 @@
     transition: all 0.6s ease;
    
   }
-  .bp_iwfc_img:hover .main3{
+  .bp_iwfc_img-Multi:hover .main3-Multi{
     transform: scale(1.03) rotate(-45deg);
   }
-.button-4{
+.button-4-Multi{
     width: 155px;
    height: 42px;
    display: flex;
@@ -159,10 +159,10 @@
    margin-bottom: 85px;
    margin-top: 30px;
    justify-content: center;
-    background-image: url('../prev-third/button-5.png'); 
+    background-image: url('../MultiDimensional/button-5.png'); 
    transition: all 0.6s ease;
   }
-  .button-4 .button-link{
+  .button-4-Multi .button-link-Multi{
     
    margin-top: 12px;
    text-decoration: none;
@@ -176,134 +176,134 @@ text-align: center;
 color: #232323;
 
   } 
-  .button-4:hover{
+  .button-4-Multi:hover{
    /*  margin-top: 25px; */
     background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 75.42%);
   }
-  .button-4:hover .button-link{
+  .button-4-Multi:hover .button-link-Multi{
     text-decoration: none;
     color:#FFFF ;
   }
-.images-prev-3{
+.images-prev-3-Multi{
     position: relative;
 
 }
-.back3{
+.back3-Multi{
     position: absolute;
     top: -300px;
     left: -250px;
 
 }
-.wall3{
+.wall3-Multi{
     position: absolute;
     left: 20px;
     top: 30px;
     
 }
-.small3{
+.small3-Multi{
     position: absolute;
     left: -150px;
     top: 90px;
    
 }
-.smaller3{
+.smaller3-Multi{
     position: absolute;
     left: 130px;
     top: -290px;
     
     
 }
-.images-hover-4{
+.images-hover-4-Multi{
     position: relative;
 
     
 }
 
 
-.main3:hover{
+.main3-Multi:hover{
     transform: scale(1.02);
 }
-/* @media (max-width: 576px) {
+/* @media (max-width: 576px) -Multi{
     
-    .back3{
+    .back3-Multi{
         width: 85%;
     }
-    .wall3{
+    .wall3-Multi{
         width: 20%;
     }
-    .bp_iwfc_img{
+    .bp_iwfc_img-Multi{
         width: 280px;
         height: 282.8px;
     }
-    .images-hover-4{
+    .images-hover-4-Multi{
         position: relative;
         left: -20%;
     }
 }
     
-    @media (max-width: 483px) {
+    @media (max-width: 483px) -Multi{
     
-        .back3{
+        .back3-Multi{
             width: 85%;
         }
-        .wall3{
+        .wall3-Multi{
             width: 20%;
         }
-        .bp_iwfc_img{
+        .bp_iwfc_img-Multi{
             width: 250px;
             height: 252.8px;
         }
-        .images-hover-4{
+        .images-hover-4-Multi{
             position: relative;
             left: -20%;
         }
         
     } */
-button-4{
+.button-4-Multi-Multi{
         margin-bottom: 85px;
     }
 
 @media (max-width:992px){
   
-    .third{
+    .third-Multi{
         padding-top: 230px;
     }
-    .texting-third{
+    .texting-third-Multi{
         padding-top: 230px;
     }
 }
 @media (max-width:800px){
-    .third-image{
+    .third-image-Multi{
         position: relative;
         left: 60px;
     }
 }
 @media (max-width:634px){
-    .bp_iwfc_img{
+    .bp_iwfc_img-Multi{
         width: 250px;
         height: 252.8px; 
         top: -250px;  
         left: -180px;     
     }
-    .back3{
+    .back3-Multi{
         width: 350px;
         height: 350px;
         top: -220px;
         left: -200px;
         
     }
-    .smaller3{
+    .smaller3-Multi{
         position: relative;
         left: -10px;
     }
-    .third-image{
+    .third-image-Multi{
         position: relative;
         left: 60px;
     }
-    .wall3{
+    .wall3-Multi{
         width: 100px;
     }
-    .small3{
+    .small3-Multi{
         width: 40px;
         left: -150px;
         top: 50px;

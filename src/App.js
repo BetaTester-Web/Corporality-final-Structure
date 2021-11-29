@@ -12,7 +12,7 @@ import CorporateStrategy from "./components/CorporateStrategy/CorporateStrategy"
 import BrandPositioning from "./components/BrandPositioning/BrandPositioning";
 import AboutCorporality from "./components/AboutCorporality/AboutCorporality";
 import PartnershipProgrammes from "./components/PartnershipProgrammes/PartnershipProgrammes.jsx";
-
+import SustainableGrowth from "./components/SustainableGrowth/SustainableGrowth";
 function App() {
   return (
     <>
@@ -30,6 +30,11 @@ function App() {
             path="/InteractiveBluePrint"
             element={<IntractiveBluePrint />}
           />
+          <Route
+            path="/SustainableGrowth"
+            element={<SustainableGrowth />}
+          />
+          
           <Route path="/CorporateStrategy" element={<CorporateStrategy />} />
           <Route path="/BrandPositioning" element={<BrandPositioning />} />
           <Route

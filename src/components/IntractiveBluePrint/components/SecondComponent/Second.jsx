@@ -1,4 +1,4 @@
-import React , {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import aos from 'aos'
 import 'aos/dist/aos.css'
 import '../SecondComponent/secondcontainer.css'
@@ -14,53 +14,61 @@ import wall from '../SecondComponent/wall.png'
 const Second = () => {
     useEffect(() => {
         aos.init({ duration: 3000 });
-        
+
     }, [])
     return (
         <div className="second">
             <div className='container second-container' >
-                <div className="row">
-                    <div  className="col-lg-6">
+                <div className="row interactive_blueprint-row">
+                    <div className="col-lg-6 textndlists">
                         <p data-aos="fade-right" className='container-2-text-1'>Eliminating Risks giving you an edge over others</p>
                         <div className="lists">
                             <div className="textndimg">
-                                
+
 
                                 <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Drafting an accurate project scope and preventing bigger headaches along the road</p>
                             </div>
                             <div className="textndimg">
-                                
+
 
                                 <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Improving team buy-in by ensuring team collaboration and stakeholder participation</p>
                             </div>
                             <div className="textndimg">
-                                
 
-                                <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right"  className='container-2-text-2'>Project  breakage to manageable pieces allowing you manage workload and budgets efficiently</p>
+
+                                <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Project  breakage to manageable pieces allowing you manage workload and budgets efficiently</p>
                             </div>
                             <div className="textndimg">
-                                
+
 
                                 <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Written plan along with comprehensive research and expert recommendations</p>
                             </div>
+                            <div className="button-5">
+                                <a className='button-link-3' href="#">Explore</a>
+                            </div>
 
-                            
+
                         </div>
-                        <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="1000" className="button-5">
-                                    <a className='button-link-3' href="#">Learn More</a>
-                                </div>
+
 
                     </div>
                     <div className="col-lg-6 d-flex justify-content-center ">
-                        <div  className="imagessecond">
+                        <div className="imagessecond">
                             <img className='rect-2-1' src={rect1} alt='' />
                             <img className='rect-2-2' src={rect2} alt='' />
                             <img className='rect-2-3' src={rect3} alt='' />
                             <img className='rect-2-4' src={rect4} alt='' />
                             <img className='wall-2-2' src={wall} alt='' />
-                            <img  className='mainimagesecond' src={Main} alt='' />
-                            <img  className='backimagesecond' src={Back} alt='' />
-                            
+                            <div className="mainndback-4">
+                                <img className='backimagesecond-fourth' src={Back} alt='' />
+                                <div className="bp_our-newsletter-polygon9">
+                                    <div data-aos="fade-down-left" data-aos-duration="2000">
+                                        <img className='main-2-2' src={Main} alt="" />
+                                    </div>
+                                </div>
+                            </div>
+
+
                         </div>
 
                     </div>
