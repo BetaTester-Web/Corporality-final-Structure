@@ -1,0 +1,196 @@
+.dbanner {
+  padding: 7% 0% !important;
+  /* learn more css */
+}
+
+.dbanner .box {
+  background-color: white;
+  height: 266.5px;
+  width: 266.5px;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.dbanner .sbox {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.dbanner .sbox:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.dbanner .sbox:hover .purpleD {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.dbanner .boxHead {
+  font-weight: 500;
+  color: #33657e;
+}
+
+.dbanner .dbanner {
+  min-height: 400px;
+}
+
+.dbanner .sbox {
+  height: 350px;
+  width: 350px;
+}
+
+.dbanner .boxContent {
+  z-index: 1;
+}
+
+.dbanner .pimgText {
+  background-color: #6ca0bc;
+}
+
+.dbanner .dBox {
+  height: 30%;
+  width: 27%;
+  z-index: 3;
+  margin-left: 19% !important;
+  margin-top: -1% !important;
+}
+
+.dbanner .littleD {
+  height: 17%;
+  width: 17%;
+  z-index: 2;
+  margin-top: 12% !important;
+}
+
+.dbanner .purpleD {
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(84.04deg, #a06daf 9.45%, #6ca0bc 97.98%);
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.dbanner .dImg {
+  width: 100%;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.dbanner .dd1 {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.dbanner .componentText {
+  color: #33657e;
+}
+
+.dbanner .philText {
+  color: #ababab;
+  padding: 0px 20% !important;
+}
+
+.dbanner .box > div {
+  width: 10%;
+  height: 10%;
+}
+
+.dbanner .boxContent > p:nth-child(2) {
+  /* background-color: red; */
+  padding: 5px 15px !important;
+  /* font-size: 14px !important; */
+  /* margin: 15px 0px !important; */
+}
+
+.dbanner .learn-more {
+  color: #33657e;
+  font-weight: 600;
+  font-size: 0.9em;
+  /* padding: 10px !important; */
+  margin: 10px 0px !important;
+  text-align: center;
+  cursor: pointer;
+}
+
+.dbanner .learn-more > img {
+  padding: 0px 10px !important;
+  -webkit-animation: arrowSidewise 1s linear infinite;
+          animation: arrowSidewise 1s linear infinite;
+}
+
+@-webkit-keyframes arrowSidewise {
+  0% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  50% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+}
+
+@keyframes arrowSidewise {
+  0% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+  50% {
+    -webkit-transform: translateX(2px);
+            transform: translateX(2px);
+  }
+  100% {
+    -webkit-transform: translateX(-2px);
+            transform: translateX(-2px);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .dbanner .socialBlocks {
+    padding: 0px 1px !important;
+  }
+  .dbanner .socialText {
+    font-size: 0.7em;
+    margin: 2px 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .dbanner .phnNum {
+    font-size: 0.45em;
+    margin-left: 24% !important;
+  }
+  .dbanner .phnBtn {
+    width: 9.5%;
+    margin-top: 12% !important;
+    margin-left: 21% !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .dbanner .sbox {
+    height: 200px;
+    width: 200px;
+    font-size: 8px;
+  }
+  .dbanner .box {
+    height: 145px;
+    width: 145px;
+  }
+  .dbanner .boxContent p {
+    margin-bottom: 0px !important;
+  }
+  .dbanner .learn-more {
+    margin-top: 0px !important;
+  }
+  .dbanner .learn-more > img {
+    padding: 0px 5px !important;
+    height: 5px !important;
+    width: 18px !important;
+  }
+}
+/*# sourceMappingURL=Banner2.css.map */
