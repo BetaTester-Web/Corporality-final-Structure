@@ -11,6 +11,7 @@ import IntractiveBluePrint from "./components/IntractiveBluePrint/IntractiveBlue
 import CorporateStrategy from "./components/CorporateStrategy/CorporateStrategy";
 import BrandPositioning from "./components/BrandPositioning/BrandPositioning";
 import AboutCorporality from "./components/AboutCorporality/AboutCorporality";
+import SustainableGrowth from "./components/SustainableGrowth/SustainableGrowth";
 
 
 function App() {
@@ -30,6 +31,11 @@ function App() {
             path="/IntractiveBluePrint"
             element={<IntractiveBluePrint />}
           />
+          <Route
+            path="/SustainableGrowth"
+            element={<SustainableGrowth />}
+          />
+          
           <Route path="/CorporateStrategy" element={<CorporateStrategy />} />
           <Route path="/BrandPositioning" element={<BrandPositioning />} />
         </Routes>
