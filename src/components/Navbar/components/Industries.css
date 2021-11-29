@@ -43,7 +43,7 @@
 .industries-section .industries-item{
     position: relative;
     color: #31647C;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .industries-item::after{
