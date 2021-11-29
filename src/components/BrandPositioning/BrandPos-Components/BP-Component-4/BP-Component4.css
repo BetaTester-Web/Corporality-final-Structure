@@ -8,7 +8,7 @@
 }
 .BP-c3-h {
   font-style: Bold;
-  font-style: 32px;
+  font-style: 30px;
   line-height: 44px;
 
   text-align: left;
@@ -18,13 +18,13 @@
   text-transform: uppercase;
 }
 .BP-c3-d {
-  width: 54%;
+  width: 60%;
   padding: 30px;
   margin: auto;
   text-align: center;
   position: relative;
-  left: 310px;
-  bottom: 105%;
+  left: 280px;
+  bottom: 120%;
 
   background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
 
