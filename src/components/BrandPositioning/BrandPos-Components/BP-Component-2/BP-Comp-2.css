@@ -78,3 +78,12 @@
   top: 60px;
   height: 20px;
 }
+
+@media only screen and (max-width: 992px) {
+  .bp-c2-s1-h1 {
+    font-size: 16px;
+  }
+  .bp-c2-s1-p {
+    font-size: 12px;
+  }
+}
