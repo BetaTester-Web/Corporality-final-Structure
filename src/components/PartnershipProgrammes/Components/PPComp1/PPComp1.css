@@ -1,7 +1,7 @@
 .ppc1RowContainer{
     height: calc(100vh - 80px);   
-    margin: 80px 50px 0 50px !important; 
-    margin-bottom: 50px !important;
+    margin: 80px 74px 0 74px !important; 
+    /* margin-bottom: 50px !important; */
 }
 
 .ppc1Rec9 {
@@ -91,7 +91,7 @@
         height: fit-content;
         display: flex !important;
         flex-direction: column-reverse !important;
-        flex-wrap: wrap-reverse;
+        /* flex-wrap: wrap-reverse; */
     }
     .ppc1ColWrapper{
         padding: 0 !important;
@@ -106,10 +106,15 @@
         align-items: center;
         justify-content: center;
     }
-    .ppc1Text{
+    .ppcText{
         text-align: center !important;
+        font-size: 10px;
     }
-    
+    .ppcHeading{
+        text-align: center !important;
+        font-size: 14px;
+        line-height: normal;
+    }
     .ppc1Img1{
         position: absolute;
         width: 250px;
@@ -149,12 +154,15 @@
     .ppc1Rec9{
         display: none;
     }
+    .ppc1Button{
+        margin-bottom: 20px;
+    }
 }
 @media (min-width: 769px) and (max-width: 1199.98px){
     .ppc1RowContainer{
         height: calc(100vh - 80px);   
-        margin: 80px 0px 0 0px !important; 
-        margin-bottom: 50px !important;
+        margin: 80px 20px 0 20px !important; 
+        /* margin-bottom: 50px !important; */
     }
     .ppc1Img1 {
         position: absolute;
