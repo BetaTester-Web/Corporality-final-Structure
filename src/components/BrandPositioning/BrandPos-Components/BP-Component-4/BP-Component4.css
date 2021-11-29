@@ -24,7 +24,6 @@
   text-align: center;
   position: relative;
   left: 280px;
-  bottom: 120%;
 
   background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
 
@@ -34,21 +33,14 @@
 .bp-cp-4-main {
   height: 500px;
 }
+.BP-CP-4-img-d {
+  width: 100%;
+  margin-top: 15%;
+}
 .BP-CP-4-img {
   width: 100%;
 }
-@media screen and (max-width: 992px) {
-  .BP-c3-p {
-    font-size: 12px;
-  }
-  .BP-c3-h {
-    font-size: 16px;
-  }
-  .BP-c3-d {
-    padding: 20px;
-    position: relative;
-    top: 3%;
-    left: 3%;
-    width: 60%;
-  }
+.bp-cd4-textdiv {
+  position: relative;
+  bottom: 88%;
 }

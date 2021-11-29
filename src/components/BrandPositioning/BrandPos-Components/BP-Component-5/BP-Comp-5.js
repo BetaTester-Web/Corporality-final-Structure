@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from "react";
 import "./BP-Comp-5.css";
 
@@ -27,103 +28,21 @@ function BPComponent5() {
           className="bp-cp-5-img-2"
         />
       </div>
+      <div className="bp-cp5-dropdown">
+        <div class="dropdown">
+          <button
+            class="dropdown-toggle cp5-dd-menu"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <span className="cp5-span1">Defining the true differentiators</span>
+          </button>
 
-      <div>
-        <div>
-          <button
-            class=" dropdown-toggle dropdown bp-cp-5-dd"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <span className="bp-cp-5-dd-span ">
-              <img
-                src="..\img\BrandPositioning\faviconTM1.png"
-                alt=""
-                className="bp-cp-5-dd-img"
-              />
-              Defining the true differentiators
-            </span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
             <li>
-              <p class="dropdown-item bp-cp-5-dl">
-                <span className="bp-cp-5-dl-span">
-                  Marketing and communication must be disposed of in a way that
-                  will stir consumer
-                  <br /> interest so that you get noticed by all. Therefore, we
-                  create a preference that will
-                  <br /> differentiate you completely from other market players
-                  that essentially transports
-                  <br /> the customer to a premium experience.
-                </span>
-              </p>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <button
-            class=" dropdown-toggle dropdown bp-cp-5-dd"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <span className="bp-cp-5-dd-span">
-              <img
-                src="..\img\BrandPositioning\faviconTM1.png"
-                alt=""
-                className="bp-cp-5-dd-img"
-              />
-              Maintaining relevance
-            </span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li>
-              <p class="dropdown-item">Something else here</p>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <button
-            class=" dropdown-toggle dropdown bp-cp-5-dd"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <span className="bp-cp-5-dd-span">
-              <img
-                src="..\img\BrandPositioning\faviconTM1.png"
-                alt=""
-                className="bp-cp-5-dd-img"
-              />
-              Address and engage
-            </span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li>
-              <p class="dropdown-item">Something else here</p>
-            </li>
-          </ul>
-        </div>
-        <div>
-          <button
-            class=" dropdown-toggle dropdown bp-cp-5-dd"
-            type="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            <span className="bp-cp-5-dd-span">
-              <img
-                src="..\img\BrandPositioning\faviconTM1.png"
-                alt=""
-                className="bp-cp-5-dd-img"
-              />
-              Earn a reputation
-            </span>
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-            <li>
-              <p class="dropdown-item">Something else here</p>
+              <p class="dropdown-item cd5-dd-list">Action</p>
             </li>
           </ul>
         </div>

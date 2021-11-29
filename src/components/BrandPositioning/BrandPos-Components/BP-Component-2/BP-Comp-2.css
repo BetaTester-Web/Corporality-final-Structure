@@ -1,33 +1,25 @@
-.bp-cp2-img1-d {
-  position: relative;
-  top: 30%;
-  left: 8%;
-}
 .bp-cp2-img1 {
-  width: 500px;
+  width: 100%;
+  height: 300px;
 }
-.bp-cp2-img2-d {
-  position: relative;
-  left: 45%;
-  width: 45%;
-  bottom: 300px;
-}
+
 .bp-cp2-img2 {
   position: relative;
-  width: 679px;
+  width: 100%;
 }
 .bp-cp2-main {
   position: relative;
   top: 70px;
+  bottom: 200px;
 }
 @media screen and (max-width: 992px) {
   .bp-cp2-img1 {
-    width: 40%;
+    width: 100%;
+    height: 100%;
   }
   .bp-cp2-img2 {
     position: relative;
-    top: 60px;
-    width: 130%;
-    left: 0%;
+    width: 100%;
+    height: 90%;
   }
 }
