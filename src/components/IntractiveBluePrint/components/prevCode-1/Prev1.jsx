@@ -10,7 +10,7 @@ import backimg from '../prevCode-1/back.png'
 import wall from '../prevCode-1/wall.png'
 import smallrect from '../prevCode-1/small.png'
 import rect from '../prevCode-1/rect.png'
-
+import smallerrect from '../prevCode-1/smaller-rect.png'
 
 const Prev1 = () => {
     useEffect(() => {
@@ -18,7 +18,8 @@ const Prev1 = () => {
 
     }, [])
     return (
-        <div className="">
+
+        <div className="prev-1-Ib">
             <div className="navbar"></div>
             <div className="container container-1">
                 <div className="row first-image">
@@ -27,6 +28,7 @@ const Prev1 = () => {
 
                             <p className='container-1_text'>INTERACTIVE BLUEPRINT</p>
                             <p className='container-2_text'>100% customised plan that reduces risks and gives you an edge</p>
+                            <div className="small-rect-prev-1"><img src={smallerrect} alt='' className='smaller-rect-prev-1' /></div>
                         </div>
                     </div>
                     <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
@@ -35,15 +37,26 @@ const Prev1 = () => {
                             <img alt='' className='wall' src={wall} />
                             <img alt='' className='smallrect' src={smallrect} />
                             <img alt='' className='backimg' src={backimg} />
-                            <div className="banner_right_inner">
+                            <div className="banner_right_inner" >
                                 <img className='main-prev1' src={main} />
                             </div>
 
                         </div>
+
                     </div>
                 </div>
+
+
             </div>
+            <div className="blue_print_overlay">
+                <div className="blue_print_ellipse-1"></div>
+
+            </div>
+
+
         </div>
+
+
     )
 }
 

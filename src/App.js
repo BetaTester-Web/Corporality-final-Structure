@@ -12,6 +12,7 @@ import CorporateStrategy from "./components/CorporateStrategy/CorporateStrategy"
 import BrandPositioning from "./components/BrandPositioning/BrandPositioning";
 import AboutCorporality from "./components/AboutCorporality/AboutCorporality";
 
+
 function App() {
   return (
     <>

@@ -25,7 +25,7 @@
     
     color: #BFBFBF ;
 }
-.card-1{
+.Ib_card-1{
     padding: 34px ;
     position: relative ;
     display: flex ;
@@ -36,13 +36,13 @@
     border-radius: 10px ;
     
 }
-.card-1:hover{
+.Ib_card-1:hover{
     border: 1px solid #E8E8E8 ;
     box-sizing: border-box ;
     box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.1) ;
     border-radius: 10px ;
 }
-.card-3{
+/* .card-1{
     padding: 34px ;
     position: relative ;
     display: flex ;
@@ -51,15 +51,21 @@
     align-items: center ;
     border: 1px solid #E8E8E8 ;
     border-radius: 10px ;
-}
-.card-3:hover{
+} */
+.Ib_card-1:hover{
     border: 1px solid #E8E8E8 ;
     box-sizing: border-box ;
     box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.1) ;
     border-radius: 10px ;
 }
+/* .card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+} */
 
-.back{
+.Ib_back{
     position: absolute ;
     top: 10% ;
     left: 46% ;
