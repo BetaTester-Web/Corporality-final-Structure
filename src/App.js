@@ -16,8 +16,8 @@ import PartnershipProgrammes from "./components/PartnershipProgrammes/Partnershi
 function App() {
   return (
     <>
-      <Navbar />
       <BrowserRouter>
+        <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/AboutCorporality" element={<AboutCorporality />} />
@@ -27,7 +27,7 @@ function App() {
           />
           <Route path="/CxoStrategy" element={<CxoStrategy />} />
           <Route
-            path="/IntractiveBluePrint"
+            path="/InteractiveBluePrint"
             element={<IntractiveBluePrint />}
           />
           <Route path="/CorporateStrategy" element={<CorporateStrategy />} />
@@ -37,8 +37,8 @@ function App() {
             element={<PartnershipProgrammes />}
           />
         </Routes>
+        <Footer />
       </BrowserRouter>
-      <Footer />
     </>
   );
 }
