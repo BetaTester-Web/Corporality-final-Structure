@@ -16,7 +16,7 @@
     text-transform: capitalize;
 }
 
-.ppcPara{
+.ppc3Para{
     width: 60%;
     text-align: center;
 }
@@ -44,26 +44,43 @@
 }
 
 
-.ppc3Img3back{
+.ppc3Img3back {
     position: absolute;
-    left: 76px;
-    top: 245px;
+    left: 0%;
+    top: 50%;
+    transform: translate(54%, 42%);
 }
 
-.ppc3rec7-1{
+.ppc3rec7-1 {
     position: absolute;
     width: 20px;
     height: 20px;
-    top: 50px;
-    left: 280px;
-    transform: rotate(-25deg);
+    top: 0%;
+    left: 50%;
+    transform: translate(-1055%, 166%) rotate(-25deg);
 }
 
-.ppc3rec7-2{
+.ppc3rec7-2 {
     position: absolute;
     width: 25px;
     height: 25px;
-    top: 255px;
-    right: 235px;
-    transform: rotate(36.7deg);
+    top: 100%;
+    left: 100%;
+    transform: translate(-900%, -300%) rotate(36.7deg);
 }
+
+@media only screen and (max-width: 768px){
+    .ppc3Img3back {
+       display: none;
+    }
+    
+    .ppc3rec7-1 {
+        display: none;
+    }
+    
+    .ppc3rec7-2 {
+        display: none;
+    }
+
+}
+
