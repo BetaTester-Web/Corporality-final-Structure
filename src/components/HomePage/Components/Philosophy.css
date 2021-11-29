@@ -1,0 +1,209 @@
+.philosophyContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+
+.philosophyContainer .philosophyHead {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.philosophyContainer .philosophyHead h2 {
+  font-size: 2.125em;
+  line-height: 2.125em;
+  font-weight: 700;
+  color: #33657E;
+  margin: 0;
+  padding: 0;
+}
+
+.philosophyContainer .philosophyHead hr {
+  width: 10vw;
+  height: 5px;
+  background-color: #A06DAF;
+  text-align: center;
+}
+
+.philosophyContainer .philosophyHead p {
+  font-size: 1.125em;
+  line-height: 1.625em;
+  font-weight: 400;
+  color: #ABABAB;
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  text-align: center;
+}
+
+.philosophyContainer .philosophyBody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.philosophyContainer .philosophyBody img {
+  max-height: 100%;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm {
+  -webkit-box-flex: 50%;
+      -ms-flex: 50%;
+          flex: 50%;
+  height: 80%;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #F4F4F4;
+  max-width: 497px;
+  max-height: 526px;
+  border-radius: 20px;
+  padding: 4% 7% !important;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm input {
+  outline: none;
+  padding: 10px 15px !important;
+  background-color: #fff;
+  border: 1px solid #C2BDC8;
+  width: 100%;
+  font-size: 1em;
+  color: #C2BDC8;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm h3 {
+  font-size: 1.5em;
+  line-height: 1.758em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm .customInput {
+  margin-top: 20px !important;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm .customInput label {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  font-size: 1em;
+  padding: 10px 15px !important;
+  color: #C2BDC8;
+  background-color: #fff;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm .customInput:focus-within label {
+  font-size: 0.688em;
+  opacity: 1;
+  visibility: visible;
+  top: -10px;
+  left: 5px;
+  width: auto;
+  height: auto;
+  padding: 2px 7px !important;
+  background-color: #F5F5F5;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm .customInput input:focus {
+  color: #232323;
+  content: "";
+  border: 1px solid #A06DAF;
+  -webkit-box-shadow: 0px 0px 10px 3px #A06DAF26;
+          box-shadow: 0px 0px 10px 3px #A06DAF26;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm .philosophySubmitButtonWrapper {
+  margin-top: 30px !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 145px;
+  height: 42px;
+  background: linear-gradient(95.12deg, #E5CD60 0%, #6CA0BC 83.42%);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm .philosophySubmitButtonWrapper::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.7s ease;
+  transition: opacity 0.7s ease;
+  background: linear-gradient(95.12deg, #6CA0BC 0%, #E5CD60 83.42%);
+  opacity: 0;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm .philosophySubmitButton {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  height: 100%;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  color: aliceblue;
+  font-size: 16px;
+  margin-left: 10px;
+  text-align: center;
+  position: relative;
+  z-index: 3;
+  outline: none;
+}
+
+.philosophyContainer .philosophyBody .philosophyForm .philosophySubmitButtonWrapper:hover::after {
+  opacity: 1;
+}
+/*# sourceMappingURL=Philosophy.css.map */

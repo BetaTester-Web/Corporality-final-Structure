@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './About2.css'
 import OutsideClickHandler from 'react-outside-click-wrapper';
+import { Link } from 'react-router-dom';
+import { NavbarContext } from '../Context/NavbarContext';
 
 
-const About2 = ({menuId, showAbout2, setShowAbout2}) => {
+const About2 = () => {
+    const {menuId, showAbout2, setShowAbout2, setNavClicked} = useContext(NavbarContext);
     const data = {
-        1 : ["About Corporality","How We Work with Clients","Inclusion and Diversity", "Partner Programmes", "Sustainable Growth"],
-        2 : ["Interactive Blueprint", "Strategy and Consulting"],
-        3 : ["Careers"]
+        1 : [{name : "About Corporality", route : "/AboutCorporality"},{name : "How We Work with Clients", route : "/"},{name :"Inclusion and Diversity", route : ""}, {name : "Partner Programmes", route : "/PartnershipProgrammes"}, {name : "Sustainable Growth", route : "/"}],
+        2 : [{name : "Interactive Blueprint", route : "/InteractiveBluePrint"}, {name : "Strategy and Consulting", route : "/StrategyConsultancy"}],
+        3 : [{name : "Careers", route : "/"}]
     }
 
     const handleGoBack = () => {
@@ -27,10 +30,10 @@ const About2 = ({menuId, showAbout2, setShowAbout2}) => {
             <div className="about-sub-menu-list">
                 {data[menuId].map((item, index) => {
                     return (
-                        <a href="#" className="about-sub-menu-list-items" key={index}>
-                            <h6>{item}</h6>
+                        <Link to={item.route} onClick={()=>{setShowAbout2(false);setNavClicked(false)}} className="about-sub-menu-list-items" key={index}>
+                            <h6>{item.name}</h6>
                             {/* <div className="diamond-line"></div> */}
-                        </a>
+                        </Link>
                     )
                 })}
             </div>
