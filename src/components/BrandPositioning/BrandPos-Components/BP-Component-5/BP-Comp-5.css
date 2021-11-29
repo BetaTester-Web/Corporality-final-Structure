@@ -1,26 +1,22 @@
 .BP-CP5-h1 {
-  width: 722px;
+  width: 70%;
   height: 37px;
-
-  font-family: Roboto;
+  left: 15%;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
   line-height: 37px;
-  /* identical to box height, or 116% */
-
   text-transform: uppercase;
-
   color: #33657e;
 }
 .BP-CP5-heading {
   position: relative;
   top: 88px;
-  left: 339px;
+  left: 20%;
 }
 .bp-cp-5-img-1 {
   position: relative;
-  top: 89px;
+  top: 29%;
   right: 30px;
 }
 .bp-cp-5-img-2 {
@@ -32,7 +28,7 @@
   position: relative;
   bottom: 146px;
   left: 256px;
-  width: 891px;
+  width: 60%;
   height: 100px;
 
   background: #f4f8fa;
@@ -46,7 +42,6 @@
   font-weight: 500;
   font-size: 23px;
   line-height: 37px;
-  /* identical to box height, or 161% */
   text-align: left;
 
   color: #33657e;
@@ -60,9 +55,6 @@
 .bp-cp-5-dl-span {
   width: 598px;
   height: 96px;
-
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
   /* or 150% */
@@ -72,4 +64,20 @@
 .bp-cp-5-dd-img {
   position: relative;
   right: 240px;
+}
+@media screen and (max-width: 992px) {
+  .BP-CP5-heading {
+    top: 150px;
+    left: 15%;
+    width: 70%;
+    font-size: 16px;
+  }
+  .BP-CP5-h1 {
+    width: 70%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .bp-cp-5-dd-span {
+    font-size: 12px;
+  }
 }
