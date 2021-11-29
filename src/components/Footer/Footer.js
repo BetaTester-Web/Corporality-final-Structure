@@ -110,7 +110,7 @@ export default function Footer() {
               </p>
               <p className="text-links">
                 <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
-                Digital Media Markeing
+                Digital Media Marketing
               </p>
               <p className="text-links">
                 <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
