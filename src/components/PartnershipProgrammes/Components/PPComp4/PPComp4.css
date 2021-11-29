@@ -1,18 +1,25 @@
 .ppc4Container{
-    height: 378px;
+    /* height: 378px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px 74px 20px 74px;
 }
 
+.ppc4Para{
+    text-align: center;
+    width: 65%;
+}
 
 .ppc4Partners{
-    width: 90%;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    gap: 50px;
 }
 
 .ppc4PartnerItem1{
@@ -34,4 +41,32 @@
 .ppc4PartnerItem5{
     width: 195px;
     height: 130.46px;
+}
+
+@media only screen and (max-width: 768px){
+    .ppc4Para{
+        text-align: center;
+        margin: 0 74px 0 74px;
+        width: 100%;
+    }
+    .ppc4PartnerItem1{
+        width: 92.5px;
+        height: 66px;
+    }
+    .ppc4PartnerItem2{
+        width: 90px;
+        height: 61px;
+    }
+    .ppc4PartnerItem3{
+        width: 90px;
+        height: 61px;
+    }
+    .ppc4PartnerItem4{
+        width: 70px;
+        height: 68.78px;
+    }
+    .ppc4PartnerItem5{
+        width: 97.5px;
+        height: 65.23px;
+    }
 }

@@ -1,5 +1,5 @@
 import React from "react";
-import "./banner.css";
+import "./Banner2.css";
 import rightArrow from "../Components/images/vector_1.png"
 
 export default function Banner2() {
