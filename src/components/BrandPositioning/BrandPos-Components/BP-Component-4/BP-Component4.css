@@ -25,21 +25,21 @@
   left: 40%;
   background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
   color: #ffffff;
-  bottom: 60%;
+  margin-top: 150px;
+  margin-bottom: -250px;
+  z-index: 1;
 }
-.bp-cp-4-main {
-  height: 50%;
-}
+
 .BP-CP-4-img-d {
   width: 100%;
-  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
 }
 .BP-CP-4-img {
   width: 100%;
+  z-index: -1;
 }
-.bp-cd4-textdiv {
-  position: relative;
-}
+
 @media screen and (max-width: 992px) {
   .BP-c3-p {
     font-style: Medium;
