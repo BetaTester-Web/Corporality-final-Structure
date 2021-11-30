@@ -196,14 +196,14 @@ function BPComponent5() {
         </div>
       </div>
       <img
-        src="..\img\BrandPositioning\cp-5-1.png"
-        alt=""
-        className="bp-cp-5-img-1 "
-      />
-      <img
         src="..\img\BrandPositioning\cp-5-2.png"
         alt=""
-        className="bp-cp-5-img-2"
+        className="bp-cp-5-img-2 img-fluid"
+      />
+      <img
+        src="..\img\BrandPositioning\cp-5-1.png"
+        alt=""
+        className="bp-cp-5-img-1 img-fluid "
       />
     </div>
   );

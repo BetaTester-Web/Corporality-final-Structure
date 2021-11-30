@@ -19,19 +19,16 @@
 }
 .BP-c3-d {
   width: 60%;
-  padding: 30px;
-  margin: auto;
+  padding: 2%;
   text-align: center;
   position: relative;
-  left: 280px;
-
+  left: 40%;
   background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
-
-  right: 0;
   color: #ffffff;
+  bottom: 60%;
 }
 .bp-cp-4-main {
-  height: 500px;
+  height: 50%;
 }
 .BP-CP-4-img-d {
   width: 100%;
@@ -42,5 +39,50 @@
 }
 .bp-cd4-textdiv {
   position: relative;
-  bottom: 88%;
+}
+@media screen and (max-width: 992px) {
+  .BP-c3-p {
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 24px;
+    vertical-align: Top;
+    color: white;
+    text-align: left;
+  }
+  .BP-c3-h {
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 44px;
+
+    text-align: left;
+    vertical-align: Top;
+    color: white;
+
+    text-transform: uppercase;
+  }
+  .bp-cd4-textdiv {
+    position: relative;
+    bottom: 58%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .BP-c3-p {
+    font-style: Medium;
+    font-size: 10px;
+    line-height: 24px;
+    vertical-align: Top;
+    color: white;
+    text-align: left;
+  }
+  .BP-c3-h {
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 44px;
+
+    text-align: left;
+    vertical-align: Top;
+    color: white;
+
+    text-transform: uppercase;
+  }
 }

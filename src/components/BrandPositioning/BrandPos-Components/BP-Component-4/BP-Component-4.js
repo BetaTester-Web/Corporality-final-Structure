@@ -14,7 +14,7 @@ function BPComponent4() {
         <img
           src="..\img\BrandPositioning\BP-Comp3.png"
           alt="BP-CP-4"
-          className="BP-CP-4-img"
+          className="BP-CP-4-img img-fluid"
         />
       </div>
       <div className="bp-cd4-textdiv translate-middle-y">
