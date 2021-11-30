@@ -1,54 +1,54 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./CxoStrategy.css"
 
 document.addEventListener("DOMContentLoaded", () => {
-  const button1 = document.querySelector(".button-1");
-  const button2 = document.querySelector(".button-2");
-  const button3 = document.querySelector(".button-3");
-  const button4 = document.querySelector(".button-4");
+  const button1 = document.querySelector(".cxo-button-1");
+  const button2 = document.querySelector(".cxo-button-2");
+  const button3 = document.querySelector(".cxo-button-3");
+  const button4 = document.querySelector(".cxo-button-4");
   const diamond1 = document.querySelector(".diamond-1");
   const diamond2 = document.querySelector(".diamond-2");
   const diamond3 = document.querySelector(".diamond-3");
   const diamond4 = document.querySelector(".diamond-4");
 
-  //   add event listener
 
-  // button1.addEventListener("click", () => {
-  //   if (diamond1.classList.contains("diamond-1")) {
-  //     diamond1.classList.add("active");
-  //     diamond2.classList.remove("active");
-  //     diamond3.classList.remove("active");
-  //     diamond4.classList.remove("active");
-  //   }
-  // });
+  button1.addEventListener("click", () => {
+    if (diamond1.classList.contains("diamond-1")) {
+      diamond1.classList.add("active");
+      diamond2.classList.remove("active");
+      diamond3.classList.remove("active");
+      diamond4.classList.remove("active");
+    }
+  });
 
-  // button2.addEventListener("click", () => {
-  //   if (diamond2.classList.contains("diamond-2")) {
-  //     diamond2.classList.add("active");
-  //     diamond1.classList.remove("active");
-  //     diamond3.classList.remove("active");
-  //     diamond4.classList.remove("active");
-  //   }
-  // });
+  button2.addEventListener("click", () => {
+    if (diamond2.classList.contains("diamond-2")) {
+      diamond2.classList.add("active");
+      diamond1.classList.remove("active");
+      diamond3.classList.remove("active");
+      diamond4.classList.remove("active");
+    }
+  });
 
-  // button3.addEventListener("click", () => {
-  //   if (diamond3.classList.contains("diamond-3")) {
-  //     diamond3.classList.add("active");
-  //     diamond1.classList.remove("active");
-  //     diamond2.classList.remove("active");
-  //     diamond4.classList.remove("active");
-  //   }
-  // });
+  button3.addEventListener("click", () => {
+    if (diamond3.classList.contains("diamond-3")) {
+      diamond3.classList.add("active");
+      diamond1.classList.remove("active");
+      diamond2.classList.remove("active");
+      diamond4.classList.remove("active");
+    }
+  });
 
-  // button4.addEventListener("click", () => {
-  //   if (diamond4.classList.contains("diamond-4")) {
-  //     diamond4.classList.add("active");
-  //     diamond1.classList.remove("active");
-  //     diamond3.classList.remove("active");
-  //     diamond2.classList.remove("active");
-  //   }
-  // });
+  button4.addEventListener("click", () => {
+    if (diamond4.classList.contains("diamond-4")) {
+      diamond4.classList.add("active");
+      diamond1.classList.remove("active");
+      diamond3.classList.remove("active");
+      diamond2.classList.remove("active");
+    }
+  });
 });
 
 export default function Talent() {
@@ -59,9 +59,9 @@ export default function Talent() {
   return (
     <>
       <div className="container talent">
-        <h1 className="Talent-heading">Top Executive Talent that delivers</h1>
+        <h1 className="Talent-heading" data-aos="fade-down" data-aos-duration="1000">Top Executive Talent that delivers</h1>
 
-        <p className="Talent-paragraph-content">
+        <p className="Talent-paragraph-content" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
           
           Our leadership team comes with years of experience, expertise, and
           success in resolving customer issues. Our contributors define business
@@ -71,29 +71,29 @@ export default function Talent() {
 
         {/* button */}
 
-        <div className="container Talent-buttons-container">
+        <div className="container Talent-buttons-container" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
           <div className="row">
             {/* button 1 */}
-            <div className="col text-center button-1">
+            <div className="col text-center cxo-button-1">
               <button type="button" className="Talent-buttons">
                 <div className="text-1">Planning</div>
               </button>
             </div>
             {/* button 2 */}
             <div className="col text-center ">
-              <button type="button" className="Talent-buttons button-2">
+              <button type="button" className="Talent-buttons cxo-button-2">
                 <div className="text-2">Strategy</div>
               </button>
             </div>
             {/* button 3 */}
             <div className="col text-center ">
-              <button type="button" className="Talent-buttons button-3">
+              <button type="button" className="Talent-buttons cxo-button-3">
                 <div className="text-3">Implementation</div>
               </button>
             </div>
             {/* button 4 */}
             <div className="col text-center ">
-              <button type="button" className="Talent-buttons button-4">
+              <button type="button" className="Talent-buttons cxo-button-4">
                 <div className="text-4">Outcomes</div>
               </button>
             </div>

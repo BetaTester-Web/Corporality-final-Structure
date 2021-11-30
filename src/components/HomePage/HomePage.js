@@ -5,7 +5,6 @@ import EmotionalQuest from "./Components/EmotionalQuest";
 import Library from "./Components/Library";
 import Second from "./Components/SecondComponent/Second";
 import NewBanner from "./Components/NewBanner.jsx";
-// import Portfolio from "./Components/Portfolio";
 import Banner2 from "./Components/Banner2";
 import NewPhilosophy from "./Components/NewPhilosophy.jsx";
 import NewPortfolio from "./Components/NewPortfolio";
