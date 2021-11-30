@@ -45,7 +45,7 @@ function BPComponent5() {
                   <img
                     src="..\img\BrandPositioning\Rectangle-1.png"
                     alt=""
-                    className=""
+                    className="img-fluid"
                   />
                 </div>
                 <div class="col-10">
@@ -88,7 +88,7 @@ function BPComponent5() {
                   <img
                     src="..\img\BrandPositioning\Rectangle-2.png"
                     alt=""
-                    className=""
+                    className="img-fluid"
                   />
                 </div>
                 <div class="col-10">
@@ -134,7 +134,7 @@ function BPComponent5() {
                   <img
                     src="..\img\BrandPositioning\Rectangle-3.png"
                     alt=""
-                    className=""
+                    className="img-fluid"
                   />
                 </div>
                 <div class="col-10">
@@ -178,7 +178,7 @@ function BPComponent5() {
                   <img
                     src="..\img\BrandPositioning\Rectangle-4.png"
                     alt=""
-                    className=""
+                    className="img-fluid"
                   />
                 </div>
                 <div class="col-10">

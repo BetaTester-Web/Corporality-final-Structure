@@ -9,7 +9,7 @@ import "./BP-Component4.css";
 
 function BPComponent4() {
   return (
-    <div className="bp-cp-4-main">
+    <div className="bp-cp-4-main ">
       <div className="BP-c3-d">
         <h1 className="BP-c3-h">
           Articulating yourself - Creating magic from the basics{" "}
