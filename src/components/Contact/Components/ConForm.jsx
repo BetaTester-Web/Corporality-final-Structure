@@ -33,13 +33,13 @@ const ConForm = () => {
 
     return (
         <>
-            <div className="p-2 p-lg-0 pt-lg-5">
-                <div className="container">
+            <div className=" p-lg-0 pt-lg-2">
+                <div className="m-5 px-lg-5">
 
                     <div className="d-lg-flex align-items-center justify-content-between ">
                         <div className="conform-info-box m-5">
                             <h2 className="conform-info-heading">LET’S TALK</h2>
-                            <p className="conform-info-para">Our customer experience experts are always ready to provide you with all the answers. Call us now!</p>
+                            <p className="conform-info-para">Our customer experience experts are always ready to provide you with all the answers. <br /> Call us now!</p>
                             <div data-aos="fade-right">
 
                                 <div className="conformc-add position-relative">
