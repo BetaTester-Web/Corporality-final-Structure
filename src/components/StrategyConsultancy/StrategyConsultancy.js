@@ -8,10 +8,13 @@ import Page4 from "./Components/Page4";
 function HomePage() {
   return (
     <>
+    <div className="d-flex flex-column justify-content-center align-item-center">
+
       <Page1 />
       <Page2 />
       <Page3 />
       <Page4 />
+    </div>
       
     </>
   );

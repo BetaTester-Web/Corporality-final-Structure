@@ -20,12 +20,14 @@ const Prev2 = () => {
                 <div className="row">
                     <div className="col-lg-6 imaging-2 d-flex justify-content-center align-items-center flex-column">
                         <div className="images-2">
-                            <img className='wall2' src={wall2} alt='' />
-                            <img className='side2' src={side2} alt='' />
-                            <img className='small2' src={small2} alt='' />
-                            <div className="hoverinit">
-                                <div data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="10">
-                                    <img className='main2' src={main2} alt='' />
+                            <img className='wall2-container' src={wall2} alt='' />
+                            <img className='side2-container' src={side2} alt='' />
+                            <img className='small2-container' src={small2} alt='' />
+                            <div className="img-container">
+                                <div className="hoverinit Inc_Div_our-faith-main-img">
+                                    <div alt="" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="10">
+                                        <img className='main2 ' src={main2} alt='' />
+                                    </div>
                                 </div>
                             </div>
                         </div>

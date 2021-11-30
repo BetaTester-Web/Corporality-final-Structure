@@ -1,10 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './About.css'
 import careersImg from '../assets/careers.png';
 import OutsideClickHandler from 'react-outside-click-wrapper';
+import { Link } from 'react-router-dom';
+import { NavbarContext } from '../Context/NavbarContext';
+// import {withRouter} from 'react-router';
 
 
-const About = ({setShowAbout, showAbout, showAbout2, setShowAbout2, menuId, setMenuId, isLargeScreen}) => {
+const About = () => {
+    const {setShowAbout, showAbout, setShowAbout2, setMenuId, isLargeScreen} = useContext(NavbarContext);
 
     const show1 = () => {
         setMenuId(1);
@@ -28,26 +32,26 @@ const About = ({setShowAbout, showAbout, showAbout2, setShowAbout2, menuId, setM
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <a href="#" className="section-list-items">
+                    <Link to="/AboutCorporality" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>About Corporality</h6>
                         <div className="diamond-line"></div>
-                    </a>
-                    <a href="#" className="section-list-items">
+                    </Link>
+                    <Link to="/" onClick={() => setShowAbout(false)}  className="section-list-items">
                         <h6>How We Work with Clients</h6>
                         <div className="diamond-line"></div>
-                    </a>
-                    <a href="#" className="section-list-items">
+                    </Link>
+                    <Link to="/" onClick={() => setShowAbout(false)}  className="section-list-items">
                         <h6>Inclusion and Diversity</h6>
                         <div className="diamond-line"></div>
-                    </a>
-                    <a href="#" className="section-list-items">
+                    </Link>
+                    <Link to="/PartnershipProgrammes" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>Partner Programmes</h6>
                         <div className="diamond-line"></div>
-                    </a>
-                    <a href="#" className="section-list-items">
+                    </Link>
+                    <Link to="/" onClick={() => setShowAbout(false)}  className="section-list-items">
                         <h6>Sustainable Growth</h6>
                         <div className="diamond-line"></div>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="about-section how-were-organised">
@@ -56,14 +60,14 @@ const About = ({setShowAbout, showAbout, showAbout2, setShowAbout2, menuId, setM
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <a href="#" className="section-list-items">
+                    <Link to="/InteractiveBluePrint" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>Interactive Blueprint</h6>
                         <div className="diamond-line"></div>
-                    </a>
-                    <a href="#" className="section-list-items">
+                    </Link>
+                    <Link to="/StrategyConsultancy" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>Strategy & Consulting</h6>
                         <div className="diamond-line"></div>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <div className="about-section careers">
@@ -72,10 +76,10 @@ const About = ({setShowAbout, showAbout, showAbout2, setShowAbout2, menuId, setM
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <a href="#" className="section-list-items">
+                    <Link to="/" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>Careers</h6>
                         <div className="diamond-line"></div>
-                    </a>
+                    </Link>
                 </div>
             </div>
             <img src={careersImg} alt="" className="careers-img" />
@@ -85,3 +89,4 @@ const About = ({setShowAbout, showAbout, showAbout2, setShowAbout2, menuId, setM
 }
 
 export default About
+// export default withRouter(About)

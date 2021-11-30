@@ -1,0 +1,236 @@
+.philosophyContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    // height: 100vh;
+    background-color: #fff;
+    padding: 50px 0px !important;
+    margin: 0;
+    font-size: 1.2vw;
+    // border: 2px solid #000;
+    .philosophyHead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-height: 10% !important;
+        h2{
+            font-size: 2.125em;
+            line-height: 2.125em;
+            font-weight: 700;
+            color: #33657E;
+            margin: 0;
+            padding: 0;
+        }
+        hr{
+            margin: 0px 0px 0px 0px !important;
+            width: 10vw;
+            height: 5px;
+            background-color:#A06DAF;
+            color:#A06DAF !important;
+            text-align: center;
+            opacity: 1 !important;
+        }
+        p{
+            margin: 10px 0px 0px 0px !important;
+            font-size: 1.125em;
+            line-height: 1.625em;
+            font-weight: 400;
+            color: #ABABAB;
+            margin: 0;
+            padding: 0;
+            width: 80%;
+            text-align: center;
+        }
+    }
+    .philosophyBody{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        margin: 2% 0% 5% 0% !important;
+        justify-content: space-around;
+        img{
+            flex: 45%;
+            width: 40% !important;
+        }
+        .philosophyFormWrapper{
+            flex: 55%;
+            width: 100%;
+            margin: 0 !important;
+            padding: 0 !important;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-self: center;
+        }
+        .philosophyForm{
+            // flex: 50%;
+            height: 50%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            background-color: #F4F4F4;
+            border-radius: 5%;
+            padding: 6.5% 8.5% !important;
+            input{
+                outline: none;
+                padding: 2.5% 5% !important;
+                background-color: #fff;
+                border: 1px solid #C2BDC8;
+                width: 100%;
+                font-size: 1em;
+                color: #C2BDC8;
+            }
+            h3{
+                font-size: 1.5em;
+                line-height: 1.758em;
+                text-transform: uppercase;
+                font-weight: 700;
+                margin: 0% 0% 2% 0% !important;
+            }
+            .customInput{
+                margin-top: 7% !important;
+                width: 100%;
+                height: auto;
+                position: relative;
+                label{
+                    padding: 2.5% 5% !important;
+                    position: absolute;
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                    height: 100%;
+                    // opacity: 0;
+                    // visibility: hidden;
+                    font-size: 1em;
+                    // padding: 10px 15px !important;
+                    color: #C2BDC8;
+                    background-color: #fff;
+                    margin: 0px !important;
+                    transition: all 0.1s ease-in-out;
+                }
+                .labelToTop{
+                    font-size: 0.688em;
+                    opacity: 1;
+                    visibility: visible;
+                    top: -30%;
+                    left: 2%;
+                    width: auto !important;
+                    height: auto !important;
+                    padding: 1% 3% !important;
+                    background-color: #F5F5F5;
+                }
+                &:focus-within{
+                    label{
+                        font-size: 0.688em;
+                        opacity: 1;
+                        visibility: visible;
+                        top: -30%;
+                        left: 2%;
+                        width: auto !important;
+                        height: auto !important;
+                        padding: 1% 3% !important;
+                        background-color: #F5F5F5;
+                    }
+                }
+                .activeInput{
+                    color: #232323 !important;
+                    content: "";
+                    border: 1px solid #A06DAF !important;
+                    box-shadow: 0px 0px 10px 3px #A06DAF26;
+                }
+                input{
+                    &:focus{
+                        color: #232323;
+                        border: 1px solid #A06DAF;
+                        box-shadow: 0px 0px 10px 3px #A06DAF26;
+                    }
+                }
+            }
+            .philosophySubmitButton{
+                margin: 7% 0% 0% 0% !important;
+                all: unset;
+                padding: 3% 5% !important;
+                background: linear-gradient(95.12deg, #EED979 0%, #4F8CAD 83.42%);
+                position: relative;
+                z-index: 1 !important;
+                width: 35% !important;
+                height: 4% !important;
+                color: #fff;
+                text-align: center;
+            }
+            .philosophySubmitButton::after{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: linear-gradient(95.12deg, #4F8CAD 0%, #EED979 83.42%);
+                z-index: -1 !important;
+                transition: all 0.5s ease-in-out;
+                opacity: 0;
+            }
+            .philosophySubmitButton:hover::after{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    
+}
+@media only screen and (max-width: 992px) {
+    .philosophyContainer{
+        font-size: 1.4vw !important;
+    }
+    
+}
+@media only screen and (max-width: 756px) {
+    .philosophyContainer{
+        font-size: 1.5vw !important;
+        hr{
+            width: 16vw !important;
+        }
+        .philosophyBody{
+            flex-direction: column !important;
+            .philosophyFormWrapper{
+                flex: 100% !important;
+                width: 100% !important;
+            }
+            .philosophyForm{
+                margin-top: 5% !important;
+                width: 50% !important;
+                padding: 6% 8% !important;
+                h3{
+                    font-size: 1.4em !important;
+                }
+                .customInput{
+                    margin-top: 8% !important;
+                }
+                button{
+                    margin-top: 10% !important;
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 576px) {
+    .philosophyContainer{
+        font-size: 2.1vw !important;
+        .philosophyForm{
+            font-size: 0.9em !important;
+        }
+    }
+}
+@media only screen and (max-width: 360px) {
+    .philosophyContainer{
+        font-size: 2.2vw !important;
+        .philosophyForm{
+            font-size: 1em;
+        }
+    }
+}

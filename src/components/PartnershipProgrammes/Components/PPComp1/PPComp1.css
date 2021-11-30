@@ -1,0 +1,212 @@
+.ppc1RowContainer{
+    height: calc(100vh - 80px);   
+    margin: 80px 74px 0 74px !important; 
+    /* margin-bottom: 50px !important; */
+}
+
+.ppc1Rec9 {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 100%;
+    top: -35px;
+    transform: translateX(-518%) rotate(-25deg) !important;
+}
+
+.ppcHeading{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+
+    text-transform: uppercase;
+
+    color: #33657E;
+}
+.ppc1Button{
+    width: 149px;
+    height: 42px;
+    background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.ppc1Button:hover{
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
+}
+.ppc1Rec6{
+    position: relative;
+    width: 500px;
+    height: 502.19px;
+    right: 0px;
+    top: 0px;
+}
+
+
+.ppc1MainImg{
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-140%, -50%) rotate(45deg) !important;
+    margin: 0;
+    overflow: hidden;
+    width: 353px;
+    height: 355px;
+}
+
+.ppc1Img1 {
+    /* position: absolute; */
+    /* width: 500px;
+    height: 502.19px; */
+    /* left: 100%;
+    top: 50%;
+    transform: translate(-113%, -50%) !important; */
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1) ;
+}
+.ppc1Img1:hover{
+    transform: scale(1.1);
+}
+.ppc1ImageWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.ppc1Wall {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-534%, 36%);
+    z-index: -1;
+}
+
+.ppc1Rec8 {
+    position: absolute;
+    width: 45px;
+    top: 50%;
+    left: 100%;
+    z-index: -1;
+    transform: translate(-914%, 384%);
+}
+
+/*        yoyo    */
+
+/* .col{
+    border: 1px solid red !important;
+} */
+
+/* Media Queries */
+@media only screen and (max-width: 768px){
+    .ppc1RowContainer{
+        height: fit-content;
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        /* flex-wrap: wrap-reverse; */
+    }
+    .ppc1ColWrapper{
+        padding: 0 !important;
+    }
+
+    .ppc1ImageWrapper{
+        margin-bottom: 20px;
+        align-items: center;
+    }
+    .ppc1ColTextWrapper{
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+    .ppcText{
+        text-align: center !important;
+        font-size: 10px;
+    }
+    .ppcHeading{
+        text-align: center !important;
+        font-size: 14px;
+        line-height: normal;
+    }
+    .ppc1MainImg {
+        width: 176.5px;
+        height: 177.5px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-64%, -38%) rotate(45deg) !important;
+    }
+    .ppc1Rec6{
+        position: relative;
+        width: 250px;
+        height: 251.095px;
+        right: 0px;
+        top: 0px;
+    }
+    .ppc1Wall {
+        position: absolute;
+        top: 188px;
+        left: 50%;
+        transform: translateX(-295%);
+        z-index: -1;
+        width: 57px;
+        height: 54px;
+    }
+    .ppc1ImageWrapper{
+        padding-top: 40px;
+
+    }
+    .ppc1Rec8 {
+        position: absolute;
+        width: 22.5px;
+        top: 250px;
+        left: 50%;
+        transform: translateX(-335%);
+        z-index: -1;
+    }
+    .ppc1Rec9{
+        display: none;
+    }
+    .ppc1Button{
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1199.98px){
+    .ppc1RowContainer{
+        height: calc(100vh - 80px);   
+        margin: 80px 20px 0 20px !important; 
+        /* margin-bottom: 50px !important; */
+    }
+    /* .ppc1Img1 {
+        position: absolute;
+        width: 250px;
+        height: 251.095px;
+        left: 100%;
+        top: 50%;
+        transform: translate(-115%, -50%) !important;
+    } */
+    .ppc1MainImg{
+        width: 176.5px;
+        height: 177.5px;
+    }
+    .ppc1Rec6{
+        width: 250px;
+        height: 251.095px;
+    }
+    .ppc1Wall {
+        width: 57px;
+        height: 54px;
+    }
+
+    .ppc1Rec8 {
+        width: 22.5px;
+    }
+}
