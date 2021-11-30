@@ -11,7 +11,7 @@
           align-items: center;
   width: 100%;
   background-color: #fff;
-  padding: 20px 0px !important;
+  padding: 50px 0px !important;
   margin: 0;
   font-size: 1.2vw;
 }
@@ -44,7 +44,9 @@
   width: 10vw;
   height: 5px;
   background-color: #A06DAF;
+  color: #A06DAF !important;
   text-align: center;
+  opacity: 1 !important;
 }
 
 .philosophyContainer .philosophyHead p {
@@ -283,10 +285,10 @@
 
 @media only screen and (max-width: 360px) {
   .philosophyContainer {
-    font-size: 2.1vw !important;
+    font-size: 2.2vw !important;
   }
   .philosophyContainer .philosophyForm {
-    font-size: 0.9em;
+    font-size: 1em;
   }
 }
 /*# sourceMappingURL=Philosophy.css.map */
