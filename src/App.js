@@ -14,6 +14,7 @@ import CxoStrategy from './components/CxoStrategy/CxoStrategy';
 import IntractiveBluePrint from './components/IntractiveBluePrint/IntractiveBluePrint';
 import CorporateStrategy from './components/CorporateStrategy/CorporateStrategy';
 import BrandPositioning  from './components/BrandPositioning/BrandPositioning';
+import DigitalMediaMarketing from "./components/DigitalMediaMarketing/DigitalMediaMarketing";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
           <Route path="/IntractiveBluePrint" element={<IntractiveBluePrint />} />
           <Route path="/CorporateStrategy" element={<CorporateStrategy />} />
           <Route path="/BrandPositioning" element={<BrandPositioning />} />
+          <Route path="/DigitalMediaMarketing" element={<DigitalMediaMarketing />} />
         </Routes>
       </BrowserRouter>
       <Footer />

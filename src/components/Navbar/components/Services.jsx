@@ -25,7 +25,7 @@ const Services = ({setShowServices, showServices, isLargeScreen}) => {
                 </a>
             </div>
             <div className="services-section">
-                <a href="#" className="services-section-items">
+                <a href="/DigitalMediaMarketing" className="services-section-items">
                     <h6>Digital Media Marketing</h6>
                     <div className="diamond-line"></div>
                 </a>
