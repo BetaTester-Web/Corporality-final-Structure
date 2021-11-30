@@ -2,9 +2,12 @@ import React, { useEffect } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import "./BrandPositioning.css"
-
+import BPComponent2 from "./BrandPos-Components/BP-Component-2/BP-Comp-2";
+import BPComponent4 from "./BrandPos-Components/BP-Component-4/BP-Component-4";
+import BPComponent5 from "./BrandPos-Components/BP-Component-5/BP-Comp-5";
 
 export default function Component1() {
+
     useEffect(() => {
         Aos.init();
         Aos.init({ disable: 'mobile' })
@@ -120,6 +123,9 @@ export default function Component1() {
             <div className="my-1 vw-100">
                 <img src="/img/BrandPositioning/Frame 204.png" alt="" className="img-fluid"/>
             </div>
+         <BPComponent2 />
+
+      <BPComponent4 />
+      <BPComponent5 />
         </>
     )
-}
