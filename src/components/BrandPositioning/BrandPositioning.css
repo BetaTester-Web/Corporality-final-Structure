@@ -13,29 +13,42 @@ code {
 }
 .fullSection{
   background: linear-gradient(255.47deg, #EEDFF2 2.24%, #E1EDF3 17.92%, #FFFFFF 48.34%);
-  /* background-image: url("./media/Group 1252.png");
-  background-repeat: no-repeat; */
 }
 
 .landingPage{
-  height: 37.5em;
+  height: 37.5em !important;
 }
 .snakes{
   width: 62.5%;
 }
+.flexing{
+  height: 100%;
+}
 .mediumD1{
   width: 4%;
-  margin-top: 6.5%;
-  margin-right: 15%;
+  margin-top: 13% !important;
+  margin-right: 15% !important;
 }
 .mediumD2{
   width: 4%;
-  margin-bottom: 0%;
-  margin-right: 2%;
+  margin-bottom: 0% !important;
+  margin-right: -4% !important;
+  /* transform: rotate(360deg);
+  transition : all 2s infinite; */
+}
+.mediumD2{
+  animation-name: revolve;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes revolve{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
 }
 .brandPara{
   height: 38%;
   width: 38.5%;
+  margin-left: 3% !important;
 }
 .paraHead{
   font-size: 1.45em;
@@ -51,139 +64,160 @@ code {
   width: 58%;
 }
 .imprvdCompBlock{
-  margin-top: 6%;
-  margin-right: 19%;
-  width: 25%;
-  height: 15%;
+  margin-top: 15% !important;
+  margin-right: 18% !important;
+  width: 21%;
+  height: 13%;
+}
+.imprvdCompImg:hover{
+  transform: scale(1.04);
+  transition-duration: 3s;
 }
 .imprvdCompImg{
   width: 70%;
 }
 .imprvdCompText{
-  font-size: 0.6em;
-  padding-left: 10%;
+  font-size: 0.64em !important;
+  padding-left: 10% !important;
   width: 51%;
   color: #33657E;
-  font-weight: normal;
+  font-weight: 500;
 }
 .relatableIDBlock{
-  margin-bottom: -4.5%;
-  margin-right: 14%;
-  width: 26%;
-  height: 16%;
+  margin-bottom: -3% !important;
+  margin-right: 22% !important;
+  width: 21% !important;
+  height: 16% !important;
+}
+.relatableIDImg:hover{
+  transform: scale(1.04);
+  transition-duration: 3s;
 }
 .relatableIDImg{
   width: 70%;
 }
 .relatableIDText{
-  font-size: 0.62em;
-  padding-left: 10%;
-  width: 51%;
-  color: #33657E;
-  font-weight: normal;
+  font-size: 0.76em !important;
+  padding-left: 10% !important;
+  width: 51% !important;
+  color: #33657E !important;
+  font-weight: 500 !important;
 }
 .custLoyaltyBlock{
-  margin-top: 6%;
-  margin-left: 23%;
-  width: 29%;
-  height: 18.5%;
+  margin-top: 6% !important;
+  margin-left: 33% !important;
+  width: 23% !important;
+  height: 18.5% !important;
+}
+.custLoyaltyImg:hover{
+  transform: scale(1.04);
+  transition-duration: 3s;
 }
 .custLoyaltyImg{
   width: 70%;
 }
 .custLoyaltyText{
-  font-size: 0.72em;
+  font-size: 0.74em;
   padding-left: 10%;
   width: 51%;
   color: #33657E;
-  font-weight: normal;
+  font-weight: 500;
 }
 .omniBlock{
-  margin-top: 7%;
-  margin-left: -5.5%;
-  width: 29%;
-  height: 18.5%;
+  margin-top: 7% !important;
+  margin-left: -8% !important;
+  width: 23% !important;
+  height: 18.5% !important;
+}
+.omniImg:hover{
+  transform: scale(1.04);
+  transition-duration: 3s;
 }
 .omniImg{
   width: 70%;
 }
 .omniText{
-  font-size: 0.7em;
-  padding-left: 10%;
+  font-size: 0.75em;
+  padding-left: 5% !important;
   width: 51%;
   color: #33657E;
-  font-weight: normal;
+  font-weight: 500;
 }
 .phnbtn{
-  width: 6%;
-  margin-right: 3%;
-  margin-bottom: 11%;
+  width: 5% !important;
+  margin-right: 10% !important;
+  margin-bottom: 13% !important;
 }
 .littleD1{
-  width: 5%;
-  margin-top: 13%;
-  margin-right: 11%;
+  width: 5% !important;
+  margin-top: 10% !important;
+  margin-right: 18% !important;
 }
 .littleD2{
-  width: 5%;
-  margin-left: 39%;
-  margin-bottom: 19%;
+  width: 5% !important;
+  margin-left: 47% !important;
+  margin-bottom: 19% !important;
 }
 .textD{
-  width: 35%;
-  margin-left: 8%;
-  margin-bottom: 4%;
+  width: 35% !important;
+  margin-left: 6% !important;
+  margin-bottom: 2% !important;
 }
 .social{
-  width: 4%;
-  height: 35%;
+  width: 4% !important;
+  height: 35% !important;
 }
 @media only screen and (max-width :1024px){
   .snakes{
-    width: 69%;
+    width: 59%;
   }
   .imprvdCompText{
-    font-size: 0.55em;
-    padding-left: 5%;
+    font-size: 0.55em !important;
+    padding-left: 5% !important;
   }
   .mediumD2{
-    margin-bottom: 7%;
-    margin-right: 8%;
+    margin-bottom: 14% !important;
+    margin-right: 0% !important;
   }
   .textD{
-    margin-left: -2%;
-    margin-bottom: 17%;
+    width: 30% !important;
+    margin-left: 15% !important;
+    margin-bottom: 26% !important;
   }
   .omniBlock{
-    margin-left: -15%;
-    margin-top: 3%;
+    width: 23% !important;
+    margin-left: 3% !important;
+    margin-top: -3% !important;
   }
   .custLoyaltyBlock{
-    margin-bottom: 3%;
-    margin-left: 15%;
-    width: 29%;
-    height: 17.5%;
+    margin-bottom: 9% !important;
+    margin-left: 29% !important;
+    width: 21% !important;
+    height: 15.5% !important;
   }
   .imprvdCompBlock{
-    margin-top: 7%;
-  margin-right: 26%;
-  width: 25%;
-  height: 15%;
+    margin-top: 15% !important;
+  margin-right: 15% !important;
+  width: 21% !important;
+  height: 15% !important;
   }
   .littleD2{
     margin-left: 35%;
     margin-bottom: 22%;
   }
   .relatableIDBlock{
-    margin-bottom: -1%;
-    margin-right: 21%;
-    width: 26%;
-    height: 16%;
+    width: 21% !important;
+    margin-bottom: 3% !important;
+    margin-right: 21% !important;
+    height: 16% !important;
   }
 }
 @media only screen and (max-width :992px){
+  .snakes{
+    width: 67%;
+  }
   .landingPage{
-    height: 31.9em;
+    height: 30em !important;
   }
   .paraHead{
     font-size: 0.9em;
@@ -191,111 +225,164 @@ code {
   .paraText{
     font-size: 0.7em;
   }
+  .imprvdCompBlock{
+    margin-top: 22% !important;
+    margin-right: 24% !important;
+    width: 19% !important;
+    height: 10% !important;
+  }
   .imprvdCompText{
-    font-size: 0.45em;
-    padding-left: 0%;
-  }
-  .relatableIDText{
-    font-size: 0.6em;
-  padding-left: 5%;
-  }
-  .mediumD2{
-    margin-bottom: 16%;
-    margin-right: 7%;
-  }
-  .textD{
-    margin-left: -3%;
-    margin-bottom: 34%;
-  }
-  .custLoyaltyBlock{
-    margin-bottom: 11%;
-    margin-left: 14%;
-    height: 16%;
-  }
-  .custLoyaltyText{
-    font-size: 0.7em;
-  }
-  .littleD2{
-    margin-left: 32%;
-  margin-bottom: 34%;
-  }
-  .omniText{
-    font-size: 0.5em;
-    padding-left: 5%;
+    font-size: 0.42em !important;
+    padding-left: 0% !important;
   }
   .relatableIDBlock{
-    margin-bottom: 4.5%;
-    margin-right: 21%;
-    width: 27%;
-    height: 16%;
+    margin-bottom: 10% !important;
+    margin-right: 20% !important;
+    width: 21% !important;
+    height: 9% !important;
+  }
+  .relatableIDText{
+    font-size: 0.4em !important;
+  padding-left: 5% !important;
+  }
+  .mediumD2{
+    margin-bottom: 13% !important;
+    margin-right: 4% !important;
+  }
+  .textD{
+    margin-left: 7% !important;
+    margin-bottom: 28% !important;
+  }
+  .custLoyaltyBlock{
+    margin-bottom: 11% !important;
+    margin-left: 25% !important;
+    height: 11% !important;
+  }
+  .custLoyaltyText{
+    font-size: 0.5em !important;
+  }
+  .littleD2{
+    margin-left: 35% !important;
+  margin-bottom: 39% !important;
+  }
+  .omniText{
+    font-size: 0.5em !important;
+    padding-left: 5% !important;
+  }
+  .omniBlock{
+    width: 22%;
+    height: 11%;
+    margin-left: -3% !important;
+    margin-top: 0% !important;
+  }
+  .social{
+    width: 3% !important;
+    height: 50% !important;
   }
 }
 @media only screen and (max-width :576px){
+  .snakes{
+    width: 95%;
+  }
+  .flexing{
+    flex-direction: column-reverse;
+  }  
+  .brandPara{
+    width: 70% !important;
+    position: relative !important;
+    margin: 0% 12% !important;
+  }
+  .art{
+    width: 100%;
+    height: 35%;
+    position: relative !important;
+  }
   .landingPage{
     height: 17.5em;
   }
   .paraHead{
-    font-size: 0.5em;
+    font-size: 14px;
+    padding: 0% 30%;
   }
   .paraText{
-    font-size: 0.3em;
+    font-size: 10px;
+    padding: 0% 30%;
   }
   .brandPara{
-    width: 29%;
+    width: 39%;
     margin-top: -5%;
   }
   .mediumD2{
-    margin-bottom: 25%;
-    margin-right: 7%;
+    margin-bottom: 61% !important;
+    margin-right: 28% !important;
   }
   .littleD2{
     margin-left: 29%;
   margin-bottom: 33%;
   }
   .textD{
-    width: 28%;
-    margin-left: 1%;
-    margin-bottom: 51%;
+    width: 23% !important;
+    margin-left: 18% !important;
+    margin-bottom: 21% !important;
   }
   .imprvdCompBlock{
-    width: 26%;
-    height: 14%;
+    width: 17% !important;
+    height: 11% !important;
+    margin-top: -20% !important;
+    margin-right: 23% !important;
   }
   .imprvdCompText{
-    font-size: 0.25em;
-    padding-left: 1%;
-    width: 51%;
+    font-size: 0.25em !important;
+    padding-left: 1% !important;
+    width: 51% !important;
   }
   .relatableIDBlock{
-    margin-bottom: 16%;
-    margin-right: 23%;
-    width: 25%;
-    height: 13%;
+    margin-bottom: 26% !important;
+    margin-right: 23% !important;
+    width: 18% !important;
+    height: 11% !important;
   }
   .relatableIDText{
-    font-size: 0.3em;
-    padding-left: 0%;
+    font-size: 0.3em !important;
+    padding-left: 0% !important;
   }
   .custLoyaltyBlock{
-    margin-bottom: 20%;
-    margin-left: 13.5%;
-    width: 27%;
-    height: 12%;
+    margin-bottom: 30% !important;
+    margin-left: 27.5% !important;
+    width: 21% !important;
+    height: 12% !important;
   }
   .custLoyaltyText{
-    font-size: 0.3em;
-    padding-left: 3.5%;
-    width: 51%;
+    font-size: 0.3em !important;
+    padding-left: 3.5% !important;
+    width: 51% !important;
   }
   .omniBlock{
-    margin-top: -15%;
-    width: 28%;
-    height: 11%;
+    margin-top: -19% !important;
+    margin-left: 0% !important;
+    width: 21% !important;
+    height: 11% !important;
   }
   .omniText{
-    font-size: 0.2em;
-    padding-left: 1.5%;
-    width: 51%;
-    color: #33657E;
+    font-size: 0.3em !important;
+    padding-left: 1.5% !important;
+    width: 51% !important;
+    color: #33657E !important;
+  }
+  .social{
+    width: 9%;
+    height: 60%;
+    margin: 0% 0%;
+  }
+  .socialDiv{
+    margin: 0px 0px !important;
+  }
+  .phnbtn{
+    margin-right: 15%;
+    margin-bottom: 20%;
+  }
+  .littleD1{
+    margin-right: 13%;
+    margin-top: 9%;
   }
 }
