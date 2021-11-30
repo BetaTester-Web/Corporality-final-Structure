@@ -117,6 +117,9 @@ export default function Component1() {
                     </div>
                 </div>
             </div>
+            <div className="my-1 vw-100">
+                <img src="/img/BrandPositioning/Frame 204.png" alt="" className="img-fluid"/>
+            </div>
         </>
     )
 }
