@@ -18,7 +18,7 @@ export default function PPComp1() {
         <div>
             <div className="p-0 container-fluid ">
                 <div className="row d-flex flex-row ppc1RowContainer ">
-                    <div className="col p-0 d-flex flex-column justify-content-center align ppc1ColWrapper ppc1ColTextWrapper">
+                    <div className="col p-0 d-flex flex-column justify-content-center ppc1ColWrapper ppc1ColTextWrapper">
                         <p data-aos="fade-right" data-aos-duration="500" className="ppcHeading">Partnership Programmes</p><br />
                         <p className="ppcText" data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">Corporality Global holds extensive strategic strength partnership programmes that extend entrepreneurial reach beyond the ordinary</p><br />
                         <a data-aos="fade-right" data-aos-delay="600" data-aos-duration="500" className='ppc1Button' href="/#">Read More</a>
