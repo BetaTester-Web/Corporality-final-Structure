@@ -14,18 +14,24 @@ export default function PPComp2() {
     }, []);
     return (
         <div>
-            <div className="container-fluid ">
-                <div className="row ppc2RowContainer">
-                    <div className="col d-flex">
-                        <img className="ppc2Img2back" src={img2back} alt="" />
-                        <img data-aos="fade-right" data-aos-duration="1000" className="ppc2Img2" src={img2} alt="" />
-                        <img className="ppc2Wall" src={wall} alt="" />
-                        <img className="ppc2Rec8" src={rec8} alt="" />
+            <div className="p-0 container-fluid ">
+                <div className="row d-flex flex-row ppc2RowContainer">
+                    <div className="col p-0">
+                        <div data-aos="fade-right" data-aos-duration="1000" className="ppc2ImgWrapper">
+                            <img className="ppc2Img2back" src={img2back} alt="" />
+                            <div className="ppc2MainImg">
+                                <img className="ppc2Img2" src={img2} alt="" />
+                            </div>
+                            <img className="ppc2Wall" src={wall} alt="" />
+                            <img className="ppc2Rec8" src={rec8} alt="" />
+                        </div>
                     </div>
-                    <div className="col ppc2ColContainer">
-                        <p data-aos="fade-left" data-aos-duration="500"className="ppcHeading">Conversations with more than 100 entrepreneurs across the globe</p><br />
-                        <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">We have spoken to global leaders from manufacturing, to medtech, to hospitality and geospatial initiators.</p><br />
-                        <a data-aos="fade-left" data-aos-delay="600" data-aos-duration="500"className='ppc2Button' href="#">Check out Our set of Interviews</a>
+                    <div className="col p-0 ppc2ColContainer">
+                        <div className="ppc2ColTextWrapper">
+                            <p data-aos="fade-left" data-aos-duration="500"className="ppcHeading">Conversations with more than 100 entrepreneurs across the globe</p><br />
+                            <p className="ppcText" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">We have spoken to global leaders from manufacturing, to medtech, to hospitality and geospatial initiators.</p><br />
+                            <a data-aos="fade-left" data-aos-delay="600" data-aos-duration="500"className='ppc2Button' href="/#">Check out Our set of Interviews</a>
+                        </div>
                     </div>
                 </div>
             </div>

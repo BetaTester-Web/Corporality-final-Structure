@@ -1,0 +1,211 @@
+.portfolioContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 662px !important;
+    height: auto;
+    background-color: #F2F2F2;
+    padding: 3% 0% !important;
+    margin: 0;
+    font-size: 1.2vw;
+    .portfolioHead{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-height: 15% !important;
+        h2{
+            font-size: 2em;
+            line-height: 2.125em;
+            font-weight: 700;
+            color: #33657E;
+            margin: 0;
+            padding: 0;
+            text-transform: uppercase;
+        }
+        hr{
+            margin: 0px 0px 0px 0px !important;
+            width: 10vw;
+            height: 5px;
+            background-color:#A06DAF;
+            text-align: center;
+        }
+    }
+    .portfolioBody{
+        flex: 85%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100% !important;
+        padding: 0px 10px !important;
+        margin-top: 3% !important;
+        .portfolioSection{
+            max-width: 364px !important;
+            // min-width: 280px;
+            // width: 25%;
+            max-height: 431px !important;
+            // min-height: 381px !important;
+            height: 431px;
+            width: 364px;
+            // max-width: 364px;
+            margin: 10px 20px 10px 20px !important;
+            position: relative;
+            box-sizing: content-box;
+            border: 2px solid #fff !important;
+            background-color: white;
+            overflow-y: hidden;
+            img{
+                position: absolute;
+                top: 0;
+                left: 0;
+                max-width: 100%;
+                width: 100%;
+                height: auto;
+                object-fit: cover !important;
+                z-index: 1;
+            }
+            .portfolioFloatingDiv{
+                position: absolute;
+                top: 85%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                // justify-content: center;
+                width: 100%;
+                height: 100%;
+                // padding: 5% 10% !important;
+                background-color: #6CA0BC ;
+                opacity: 1;
+                color: white;
+                z-index: 2;
+                transition: all 0.5s ease-in-out;
+                h4{
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    height: 15%;
+                    width: 100%;
+                    // background-color: red;
+                    margin: 0px 0px 0px 0px !important;
+                    // font-size: 1.2em;
+                    font-size: 18px;
+                    text-align: center;
+                    font-weight: 700;
+                    text-transform: uppercase;
+                    transform: translateY(0%);
+                    transition: all 0.5s ease-in-out;
+                }
+                p{
+                    font-size: 1.1em;
+                    line-height: 1.5em;
+                    text-align: center;
+                    font-weight: 600;
+                    margin: 5% 0px 5% 0px !important;
+                    padding: 0% 10% !important;
+                    opacity: 0;
+                    transition: all 0.5s ease-in-out;
+                }
+                a{
+                    margin: 0px 0px 0px 0px !important;
+                    font-size: 1.1em ;
+                    text-decoration: none;
+                    font-weight: 600;
+                    color: #534b53;
+                    opacity: 0;
+                    transition: all 0.5s ease-in-out;
+                    &:hover{
+                        color: #A06DAF;
+                    }
+                }
+            }
+            &:hover .portfolioFloatingDiv{
+                top: 0% ;
+                opacity: 0.8;
+                h4{
+                    font-size: 1.5em;
+                    margin-top: 40% !important;
+                    transform: translateY(-50%);
+                }
+                p{
+                    opacity: 1;
+                    margin: -10% 0px 0px 0px !important;
+                }
+                a{
+                    margin: 4% 0px 0% 0px !important;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    .portfolioContainer{
+        .portfolioSection{
+            font-size: 1em;
+            .portfolioFloatingDiv{
+                &:hover h4{
+                    font-size: 1em;
+                    
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 992px){
+    .portfolioContainer{
+        .portfolioSection{
+            .portfolioFloatingDiv{
+                &:hover h4{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and (max-width: 756px){
+    .portfolioContainer{
+        .portfolioSection{
+            font-size: 1.2em;
+            .portfolioFloatingDiv{
+                &:hover h4{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 576px){
+    .portfolioContainer{
+        .portfolioSection{
+            font-size: 1.5em;
+            .portfolioFloatingDiv{
+                &:hover h4{
+                    font-size: 1em;
+                    // background-color: red !important;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .portfolioContainer{
+        .portfolioSection{
+            font-size: 3em;
+            .portfolioFloatingDiv{
+                &:hover h4{
+                    margin-top: 70% !important;
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+
+}
