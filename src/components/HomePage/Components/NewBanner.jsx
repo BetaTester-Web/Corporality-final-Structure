@@ -27,7 +27,7 @@ const NewBanner = () => {
                     <div className={`indicatorCircle ${indicatorId === 3? "activeIndicatorCircle" : ""}`} onClick={() => setIndicatorId(3)}></div>
                 </div>
                 <div className="rightPartBanner">
-                    <div className={`bannerText ${indicatorId===1? "" : "bannerTextHide"}`}>
+                    <div data-aos="fade-right" className={`bannerText ${indicatorId===1? "" : "bannerTextHide"}`}>
                         <h1 className="bannerHead">global sales and marketing company</h1>
                         <p className="bannerSubtitle">
                             Identifying every opportunity to convert your potentials into ready-to-buy states.
@@ -80,14 +80,14 @@ const NewBanner = () => {
                 <iframe className={showYoutube ? "" : "hidden"} width="560" height="315" src="https://www.youtube.com/embed/0g9B3ZC5Hvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className="twoDiamonds">
-                <div className="bigDiamond">
+                <div data-aos="fade-right" className="bigDiamond">
                     <img src="/img/HomePage/media/bigRectangle.png" alt="" />
                     <div className="callButton">
                         <img src="/img/HomePage/media/callButton.png" alt="" />
                     </div>
                     <h3 className="mobileNumber">+62 2 83794089</h3>
                 </div>
-                <div className="smallDiamond">
+                <div data-aos="fade-right" className="smallDiamond">
                     <img src="/img/HomePage/media/smallRectangle.png" alt="" />
                 </div>
             </div>

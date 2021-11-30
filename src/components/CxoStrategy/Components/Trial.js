@@ -1,4 +1,5 @@
 import React from 'react'
+import "./CxoStrategy.css"
 
 export default function Trial() {
     return (

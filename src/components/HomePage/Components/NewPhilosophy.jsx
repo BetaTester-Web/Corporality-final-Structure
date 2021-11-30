@@ -9,16 +9,16 @@ const NewPhilosophy = () => {
     return (
         <div className="philosophyContainer">
             <div className="philosophyHead">
-                <h2>PHILOSOPHY</h2>
+                <h2 data-aos="fade-down">PHILOSOPHY</h2>
                 <hr className="philosophyLine" />
-                <p className="philosophySubtiles">
+                <p data-aos="fade-down" className="philosophySubtiles">
                     To use agility to its optimum to bring satisfaction,
                     experience and brilliance in outcomes for our clients.
                 </p>
             </div>
             <div className="philosophyBody">
-                <img src="/img/HomePage/media/amico.png" alt="" />
-                <div className="philosophyFormWrapper">
+                <img data-aos="fade-right" src="/img/HomePage/media/amico.png" alt="" />
+                <div data-aos="fade-left" className="philosophyFormWrapper">
                     <div className="philosophyForm">
                         <h3>Request a callback</h3>
                         <div className="customInput">

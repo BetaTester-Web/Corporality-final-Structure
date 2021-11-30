@@ -1,5 +1,8 @@
 .dbanner {
-  padding: 7% 0% !important;
+  padding: 60px 0% !important;
+  width: 100% !important;
+  min-height: 400px;
+  margin: 50px 0px !important;
   /* learn more css */
 }
 
@@ -29,10 +32,6 @@
 .dbanner .boxHead {
   font-weight: 500;
   color: #33657e;
-}
-
-.dbanner .dbanner {
-  min-height: 400px;
 }
 
 .dbanner .sbox {
@@ -152,6 +151,15 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .dbanner .sbox {
+    height: 270px;
+    width: 270px;
+    font-size: 8px;
+  }
+  .dbanner .box {
+    height: 185px;
+    width: 185px;
+  }
   .dbanner .socialBlocks {
     padding: 0px 1px !important;
   }
@@ -160,14 +168,20 @@
     margin: 2px 0px !important;
     padding-bottom: 0px !important;
   }
-  .dbanner .phnNum {
-    font-size: 0.45em;
-    margin-left: 24% !important;
+}
+
+@media only screen and (max-width: 756px) {
+  .dbanner .sbox {
+    height: 250px;
+    width: 250px;
+    font-size: 8px;
   }
-  .dbanner .phnBtn {
-    width: 9.5%;
-    margin-top: 12% !important;
-    margin-left: 21% !important;
+  .dbanner .box {
+    height: 165px;
+    width: 165px;
+  }
+  .dbanner .boxContent p {
+    margin-bottom: 0px !important;
   }
 }
 
