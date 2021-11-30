@@ -25,9 +25,11 @@ export default function PPComp1() {
                         <img className="ppc1Rec9" src={rec9} alt="" />
                     </div>
                     <div className="col p-0 d-flex flex-column justify-content-center ppc1ColWrapper">
-                        <div className="ppc1ImageWrapper">
+                        <div  data-aos="fade-left" data-aos-duration="1000" className="ppc1ImageWrapper cont">
                             <img className="ppc1Rec6" src={rec6} alt="" />
-                            <img data-aos="fade-left" data-aos-duration="1000" className="ppc1Img1" src={img1} alt="" />
+                            <div className="ppc1MainImg">
+                                <img className="ppc1Img1" src={img1} alt="" />
+                            </div>
                             <img className="ppc1Wall" src={wall} alt="" />
                             <img className="ppc1Rec8" src={rec8} alt="" />
                         </div>

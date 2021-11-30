@@ -16,12 +16,32 @@
     height: 356px;
     transform: translate(-20%, -98%);
 }
-.ppc2Img2 {
+/* .ppc2Img2 {
     position: relative;
     width: 448.04px;
     height: 450px;
     left: 0%;
     transform: translateX(15%) !important;
+} */
+.ppc2MainImg{
+    position: relative;
+    width: 320px;
+    height: 320px;
+    left: 0%;
+    transform: translateX(40%) rotate(45deg) !important;
+    margin: 0;
+    overflow: hidden;
+}
+.ppc2Img2 {
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1) !important;
+}
+.ppc2Img2:hover{
+    transform: scale(1.1) !important;
 }
 .ppc2Button{
     width: 238px;
@@ -61,6 +81,7 @@
     display: flex;
     align-items: center;
 }
+
 /* Media Queries */
 @media only screen and (max-width: 768px){
     .ppc2RowContainer{
@@ -72,6 +93,7 @@
     .ppc2ImgWrapper{
         justify-content: center;
         margin-bottom: 20px;
+        height: 225px;
     }
     .ppc2Img2back {
         width: 116px;
@@ -81,10 +103,11 @@
         transform: translate(-118%, -104%);
         display: none;
     }
-    .ppc2Img2 {
-        width: 224px;
-        height: 225px;
-        transform: translateX(0%) !important;
+   
+    .ppc2MainImg{
+        width: 160px;
+        height: 160px;
+        transform: rotate(45deg) !important;
     }
     .ppc2Wall {
         width: 57px;
@@ -109,6 +132,7 @@
         align-items: center;
         justify-content: center;
     }
+
     
 }
 @media (min-width: 769px) and (max-width: 1199.98px){
@@ -120,9 +144,9 @@
         width: 116px;
         height: 178px;
     }
-    .ppc2Img2 {
-        width: 224px;
-        height: 225px;
+    .ppc2MainImg{
+        width: 160px;
+        height: 160px;
     }
     .ppc2Wall {
         width: 57px;
