@@ -8,15 +8,15 @@ import NewBanner from "./Components/NewBanner.jsx";
 import Banner2 from "./Components/Banner2.jsx";
 import NewPhilosophy from "./Components/NewPhilosophy.jsx";
 import NewPortfolio from "./Components/NewPortfolio";
-import AOS from 'aos';
+import AOS from "aos";
 
 function HomePage() {
   useEffect(() => {
     AOS.init({
       duration: 1500,
-      disable: 'mobile'
-    })
-  },[])
+      disable: "mobile",
+    });
+  }, []);
   return (
     <>
       <NewBanner />
