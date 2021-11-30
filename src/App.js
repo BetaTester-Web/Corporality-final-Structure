@@ -15,6 +15,8 @@ import AboutCorporality from "./components/AboutCorporality/AboutCorporality";
 import PartnershipProgrammes from "./components/PartnershipProgrammes/PartnershipProgrammes.jsx";
 import SustainableGrowth from "./components/SustainableGrowth/SustainableGrowth";
 import StrategyAndConsulting from "./components/StrategyAndConsulting/StrategyAndConsulting";
+import DigitalMediaMarketing from "./components/DigitalMediaMarketing/DigitalMediaMarketing";
+
 function App() {
   return (
     <>
@@ -45,6 +47,7 @@ function App() {
             element={<PartnershipProgrammes />}
           />
           <Route path="/StrategyAndConsulting" element={<StrategyAndConsulting />} />
+          <Route path="/DigitalMediaMarketing" element={<DigitalMediaMarketing />} />
         </Routes>
         <Footer />
       </BrowserRouter>

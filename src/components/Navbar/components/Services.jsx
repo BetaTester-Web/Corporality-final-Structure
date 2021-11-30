@@ -29,7 +29,7 @@ const Services = () => {
                 </Link>
             </div>
             <div className="services-section">
-                <Link to="/" onClick={closeOnLink} className="services-section-items">
+                <Link to="/DigitalMediaMarketing" onClick={closeOnLink} className="services-section-items">
                     <h6>Digital Media Marketing</h6>
                     <div className="diamond-line"></div>
                 </Link>
