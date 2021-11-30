@@ -1,16 +1,17 @@
 import React from "react";
 
-import Client from './Components/ClientFirstApproach';
-import Objectives from './Components/Objectives';
-import Parallax from './Components/ParallaxSlide';
+import Client from "./Components/ClientFirstApproach";
+import CorporateFirst from "./Components/CorporateBulb/CorporateFirst";
+import Objectives from "./Components/Objectives";
+import Parallax from "./Components/ParallaxSlide";
 
 function CorporateStrategy() {
   return (
     <>
-        <Client />
-        <Objectives />
-        <Parallax />
-      
+      <CorporateFirst />
+      <Client />
+      <Parallax />
+      <Objectives />
     </>
   );
 }
