@@ -36,7 +36,7 @@ function CommunitySupport() {
           children towards a better living through education.
         </div>
         <div className="community_top_image">
-          <img src={top_image} alt="" />
+          <img src={top_image} alt="" className="community_top_image_image" />
         </div>
         <div className="community_top_back_image">
           <img src={top_back} alt="" />

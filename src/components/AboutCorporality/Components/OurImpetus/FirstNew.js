@@ -45,8 +45,9 @@ function FirstNew() {
           <img src={backimg} alt="" className="back_img" />
           <img src={smallrect} alt="" className="smallrectangle_img" />
           <img src={rect} alt="" className="rectangle_img" />
-
-          <img src={main} alt="" className="main_img" />
+          <div className="main_image_container">
+            <img src={main} alt="" className="main_img" />
+          </div>
         </div>
       </div>
     </div>
