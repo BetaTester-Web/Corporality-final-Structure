@@ -1,0 +1,69 @@
+.sacc3Container{
+    background-image: url("./images/img1.jpg");
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.sacc3TextContainer{
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    left: 74px;
+    top: -74px;
+}
+.sacc3TextWrapper{
+    padding: 40px 40px 40px 0;
+}
+.sacc3Left{
+    margin-right: 40px;
+}
+.sacc3Heading1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    /* line-height: 40px; */
+    text-transform: uppercase;
+    color: #3C708E;
+}
+.sacc3Heading2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    /* line-height: 30px; */
+    color: #232323;
+}
+.sacc3Para{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    /* line-height: 26px; */
+    color: #757575;
+}
+.sacc3Button{
+    width: 140px;
+    height: 42px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%);
+    border-image-slice: 1;
+    display: flex;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+.sacc3Button:hover{
+     /* background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4; */
+     background: rgb(34, 193, 195);
+     background: linear-gradient(38deg,rgba(34, 193, 195, 1) 0%,rgba(253, 187, 45, 1) 100%);
+     border: none;
+     color: white;
+     text-decoration: none;
+}
