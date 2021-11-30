@@ -17,7 +17,7 @@ const DigitalSg = () => {
         <div className='Digital-Sg'>
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 imaging-2-Digital d-flex justify-content-center align-items-center flex-column">
+                <div className="col-lg-6 imaging-2-Digital d-flex justify-content-center align-items-center flex-column">
                         <div className="images-2-Digital">
                             <img className='wall2-container-Digital' src={wall2} alt='' />
                             <img className='side2-container-Digital' src={side2} alt='' />
