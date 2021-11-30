@@ -36,7 +36,7 @@ const SACComp5 = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 texting-third">
-                        <p className="sacc4Heading1 w-100">Internal Implementation for External sustenance</p>
+                        <p className="sacc4Heading1 w-100 text-start">Internal Implementation for External sustenance</p>
                         <div data-aos="fade-up" data-aos-delay="500" className="textndicon">
                             <div className="icon">
                                 <img alt='' className='icon1' src={favicon0} />

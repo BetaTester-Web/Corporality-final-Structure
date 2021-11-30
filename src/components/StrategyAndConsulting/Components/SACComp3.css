@@ -62,7 +62,7 @@
 .sacc3Button:hover{
      /* background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4; */
      background: rgb(34, 193, 195);
-     background: linear-gradient(38deg,rgba(34, 193, 195, 1) 0%,rgba(253, 187, 45, 1) 100%);
+     background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%);
      border: none;
      color: white;
      text-decoration: none;
