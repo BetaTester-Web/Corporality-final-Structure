@@ -2,7 +2,7 @@ import React from "react";
 
 import AllCardsNew from "./Components/AllCardsNew/AllCardsNew";
 
-import Client from "./Components/ClientFirstApproach";
+import ClientApproach from "./Components/Client_Aproach/ClientApproach";
 import CorporateFirst from "./Components/CorporateBulb/CorporateFirst";
 import Objectives from "./Components/Objectives";
 import Parallax from "./Components/ParallaxSlide";
@@ -11,9 +11,8 @@ function CorporateStrategy() {
   return (
     <>
       <CorporateFirst />
-
       <AllCardsNew />
-      <Client />
+      <ClientApproach />
       <Parallax />
       <Objectives />
     </>

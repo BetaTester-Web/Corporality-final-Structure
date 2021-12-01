@@ -1,6 +1,8 @@
 import React from "react";
 import "./Footer.css";
 import upArrow from './img/upArrow.png'
+import polygon from './img/polygon.png'
+import logo from './img/logo.png'
 
 export default function Footer() {
   const topHandle = () => {
@@ -17,7 +19,7 @@ export default function Footer() {
           <div className="row footerRow">
             {/* col-1 */}
             <div className="column1">
-              <img className="company-logo-footer" src="./img/Footer/img/logo 1.png" />
+              <img className="company-logo-footer" src={logo} />
               {/* share animation start */}
               <div className="foot-c">
                   <nav className="menu">
@@ -75,27 +77,27 @@ export default function Footer() {
               <h1 className="footer-heading">Our Frame Work</h1>
               <hr className="line-below-footer-heading" />
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 What is Corporality Effect?
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Why Corporality Effect?
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Culturally Conditioned
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Corporality Striker
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Inbound Shifting
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Video Library
               </p>
             </div>
@@ -105,31 +107,31 @@ export default function Footer() {
               <h1 className="footer-heading">Service</h1>
               <hr size="5" className="line-below-footer-heading" />
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Go-to-Marketing
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Digital Media Marketing
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Strategic Consulting
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Corporate Level Strategy
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Product Strategy
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Brand Positioning
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Outsourced CXO
               </p>
             </div>
@@ -139,15 +141,15 @@ export default function Footer() {
               <h1 className="footer-heading">About</h1>
               <hr size="5" className="line-below-footer-heading" />
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Who we are
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 How we’re Organised
               </p>
               <p className="text-links">
-                <img className="poligon-image" src="./img/Footer/img/polygon 12.png" />
+                <img className="poligon-image" src={polygon} />
                 Careers
               </p>
             </div>

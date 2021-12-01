@@ -2,7 +2,6 @@
     /*  padding-top: 100px; */
      margin-bottom: 200px;
      margin-top: -400px;
-     
  }
 
  .hoverinit-Digital .main2-Digital{
@@ -15,7 +14,7 @@
      z-index: 2;
  }
  
- .hoverinit-Digital {
+ .hoverinit-Digital{
      position: relative;
      z-index: 10;
  }
@@ -91,7 +90,7 @@
          height: 60%;
          left: 0%;
      }
-     .Digital-Sg{
+     .prev2-Digital{
          margin-top: 0px;
      }
  }
@@ -112,6 +111,9 @@
      .small2-container-Digital{
          top: 80%;
          
+     }
+     .Digital-Sg{
+         margin-top: 150px;
      }
  }
  @media (max-width:677px){
@@ -146,6 +148,5 @@
          
      }
  }
- 
  
  
