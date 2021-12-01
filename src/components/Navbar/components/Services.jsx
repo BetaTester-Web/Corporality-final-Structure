@@ -15,40 +15,40 @@ const Services = () => {
         <OutsideClickHandler className="outside-handler" onOutsideClick={() => setShowServices(false)}>
         <div className={`services-container ${showServices? "" : "hidden"}`} onMouseOver={() => {if(isLargeScreen)setShowServices(true)}} onMouseLeave={() => {if(isLargeScreen)setShowServices(false)}}>
             <div className="services-section">
-                <Link to="/" onClick={closeOnLink} className="services-section-items">
+                <Link to="/go-to-marketing" onClick={closeOnLink} className="services-section-items">
                     <h6>Go to Marketing Strategy</h6>
                     <div className="diamond-line"></div>
                 </Link>
-                <Link to="/BrandPositioning" onClick={closeOnLink} className="services-section-items">
+                <Link to="/brand-positioning" onClick={closeOnLink} className="services-section-items">
                     <h6>Brand Positioning</h6>
                     <div className="diamond-line"></div>
                 </Link>
-                <Link to="/CorporateStrategy" onClick={closeOnLink} className="services-section-items">
+                <Link to="/corporate-strategy" onClick={closeOnLink} className="services-section-items">
                     <h6>Corporate Strategy</h6>
                     <div className="diamond-line"></div>
                 </Link>
             </div>
             <div className="services-section">
-                <Link to="/" onClick={closeOnLink} className="services-section-items">
+                <Link to="/digital-media-marketing" onClick={closeOnLink} className="services-section-items">
                     <h6>Digital Media Marketing</h6>
                     <div className="diamond-line"></div>
                 </Link>
-                <Link to="/InteractiveBluePrint" onClick={closeOnLink} className="services-section-items">
+                <Link to="/interactive-blueprint" onClick={closeOnLink} className="services-section-items">
                     <h6>Interactive Blueprint</h6>
                     <div className="diamond-line"></div>
                 </Link>
             </div>
             <div className="services-section">
-                <Link to="/StrategyConsultancy" onClick={closeOnLink} className="services-section-items">
+                <Link to="/strategic-consultancy" onClick={closeOnLink} className="services-section-items">
                     <h6>Strategic Consultancy</h6>
                     <div className="diamond-line"></div>
                 </Link>
-                <Link to="/CxoStrategy" onClick={closeOnLink} className="services-section-items">
+                <Link to="/cxo-strategy" onClick={closeOnLink} className="services-section-items">
                     <h6>Outsourced CXO</h6>
                     <div className="diamond-line"></div>
                 </Link>
             </div>
-            <img src={servicesImage} alt="strategies-consultancy" className="strategic-consultancy" />
+            <img src={servicesImage} alt="strategic-consultancy" className="strategic-consultancy" />
         </div>
         </OutsideClickHandler>
     )
