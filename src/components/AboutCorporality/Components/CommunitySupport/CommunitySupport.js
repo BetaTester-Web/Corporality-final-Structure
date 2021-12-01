@@ -3,9 +3,11 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./CommunitySupport.css";
 import top_image from "./images/top_image.png";
+import top_image2 from "./images/top_image2.png";
 import top_back from "./images/top_back.png";
 import top_rectangle from "./images/top_rectangle.png";
 import bottom_image from "./images/bottom_image.png";
+import bottom_image2 from "./images/bottom_image2.png";
 import bottom_back from "./images/bottom_back.png";
 import bottom_rectangle from "./images/bottom_rectangle.png";
 import heading_1_arrow from "./images/heading_1_arrow.png";
@@ -36,7 +38,7 @@ function CommunitySupport() {
           children towards a better living through education.
         </div>
         <div className="community_top_image">
-          <img src={top_image} alt="" className="community_top_image_image" />
+          <img src={top_image2} alt="" className="community_top_image_image" />
         </div>
         <div className="community_top_back_image">
           <img src={top_back} alt="" />
@@ -65,7 +67,11 @@ function CommunitySupport() {
           authorities across geographical mapping and analysis.
         </div>
         <div className="community_bottom_image">
-          <img src={bottom_image} alt="" />
+          <img
+            src={bottom_image2}
+            alt=""
+            className="community_bottom_image_image"
+          />
         </div>
         <div className="community_bottom_back_image">
           <img src={bottom_back} alt="" />

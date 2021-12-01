@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import main from "../OurImpetus/main.png";
+import main2 from "../OurImpetus/main2.png";
 import backimg from "../OurImpetus/back.png";
 import wall from "../OurImpetus/wall.png";
 import smallrect from "../OurImpetus/small.png";
@@ -39,15 +40,14 @@ function FirstNew() {
         data-aos-easing="ease-in-out"
         data-aos-offset="0"
       >
-        <div className="container">
-          <img src={wall} alt="" className="wall_img" />
+        <img src={wall} alt="" className="wall_img" />
 
-          <img src={backimg} alt="" className="back_img" />
-          <img src={smallrect} alt="" className="smallrectangle_img" />
-          <img src={rect} alt="" className="rectangle_img" />
-          <div className="main_image_container">
-            <img src={main} alt="" className="main_img" />
-          </div>
+        <img src={backimg} alt="" className="back_img" />
+        <img src={smallrect} alt="" className="smallrectangle_img" />
+        <img src={rect} alt="" className="rectangle_img" />
+
+        <div className="main_image_container">
+          <img src={main2} alt="" className="main_img" />
         </div>
       </div>
     </div>
