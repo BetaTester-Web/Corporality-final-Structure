@@ -1,4 +1,4 @@
-.BP-c3-p {
+.BP-c4-p {
   font-style: Medium;
   font-style: 16px;
   line-height: 150%;
@@ -6,7 +6,7 @@
   color: white;
   text-align: left;
 }
-.BP-c3-h {
+.BP-c4-h {
   font-style: Bold;
   font-style: 30px;
   line-height: 130%;
@@ -17,7 +17,7 @@
 
   text-transform: uppercase;
 }
-.BP-c3-d {
+.BP-c4-d {
   width: 60%;
   padding: 2%;
   text-align: center;
@@ -41,7 +41,7 @@
 }
 
 @media screen and (max-width: 992px) {
-  .BP-c3-p {
+  .BP-c4-p {
     font-style: Medium;
     font-size: 12px;
     line-height: 150%;
@@ -49,7 +49,7 @@
     color: white;
     text-align: left;
   }
-  .BP-c3-h {
+  .BP-c4-h {
     font-style: Bold;
     font-size: 16px;
     line-height: 130%;
@@ -60,13 +60,13 @@
 
     text-transform: uppercase;
   }
-  .bp-cd4-textdiv {
+  .bp-c4-textdiv {
     position: relative;
     bottom: 58%;
   }
 }
 @media screen and (max-width: 360px) {
-  .BP-c3-p {
+  .BP-c4-p {
     font-style: Medium;
     font-size: 10px;
     line-height: 150%;
@@ -74,7 +74,7 @@
     color: white;
     text-align: left;
   }
-  .BP-c3-h {
+  .BP-c4-h {
     font-style: Bold;
     font-size: 14px;
     line-height: 130%;
@@ -84,5 +84,8 @@
     color: white;
 
     text-transform: uppercase;
+  }
+  .BP-c4-d {
+    width: 70%;
   }
 }

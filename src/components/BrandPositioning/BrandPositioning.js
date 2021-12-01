@@ -162,7 +162,8 @@ export default function Component1() {
             </div>
           </div>
         </div>
-        <div className="social position-absolute end-0 top-50 translate-middle-y">
+
+        <div className="social position-absolute end-0 top-50 translate-middle-y ">
           <div class="container">
             <div class="row row-cols-1">
               <div class="col my-1 socialDiv">
@@ -232,6 +233,7 @@ export default function Component1() {
           </div>
         </div>
       </div>
+      <BPComponent2 />
       <div className="my-1 vw-100">
         <img
           src="/img/BrandPositioning/Frame 204.png"
@@ -239,7 +241,6 @@ export default function Component1() {
           className="img-fluid"
         />
       </div>
-      <BPComponent2 />
 
       <BPComponent4 />
       <BPComponent5 />

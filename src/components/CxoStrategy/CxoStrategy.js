@@ -1,23 +1,22 @@
 import React from "react";
 
-import Talent from './Components/Talent';
-import Charge from './Components/Charge';
-import Step from './Components/Step';
-import Continously from './Components/Continously';
-import Leverage from './Components/Leverage';
-import Differentiate from './Components/Differentiate';
-import Trial from './Components/Trial';
+import Talent from "./Components/Talent";
+import Charge from "./Components/Charge";
+import Step from "./Components/Step";
+import Continously from "./Components/Continously";
+import Leverage from "./Components/Leverage";
+import Differentiate from "./Components/Differentiate";
+// import Trial from './Components/Trial';
 
 function HomePage() {
   return (
     <>
-        <Differentiate/>
-        <Charge/>
-        <Step/>
-        <Talent/>
-        <Continously/>
-        <Leverage/>
-      
+      <Differentiate />
+      <Charge />
+      <Step />
+      <Talent />
+      <Continously />
+      <Leverage />
     </>
   );
 }
