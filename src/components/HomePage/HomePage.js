@@ -1,27 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Services from "./Components/Services";
 import WhyUs from "./Components/Whyus";
 import EmotionalQuest from "./Components/EmotionalQuest";
 import Library from "./Components/Library";
-import Second from "./Components/SecondComponent/Second";
 import NewBanner from "./Components/NewBanner.jsx";
-import Portfolio from "./Components/Portfolio";
-import Banner2 from "./Components/Banner2";
+import Banner2 from "./Components/Banner2.jsx";
 import NewPhilosophy from "./Components/NewPhilosophy.jsx";
+import NewPortfolio from "./Components/NewPortfolio";
+import Caretojoinus from "./Components/CaretojoinUs/Caretojoinus";
+import AOS from "aos";
 
 function HomePage() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500,
+      disable: "mobile",
+    });
+  }, []);
   return (
     <>
       <NewBanner />
-      {/* <Banner2 /> */}
-      {/* <Portfolio /> */}
+      <Banner2 />
+      <NewPortfolio />
       <NewPhilosophy />
-      {/* <Philosophy /> */}
       <Services />
       <WhyUs />
       <EmotionalQuest />
       <Library />
-      <Second />
+      <Caretojoinus />
     </>
   );
 }

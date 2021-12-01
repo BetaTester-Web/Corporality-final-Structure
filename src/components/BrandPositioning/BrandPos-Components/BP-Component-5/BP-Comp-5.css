@@ -1,0 +1,126 @@
+.BP-CP5-h1 {
+  height: 30px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #33657e;
+}
+.BP-CP5-heading {
+  position: relative;
+  margin-top: 7%;
+  margin-left: 25%;
+  width: 70%;
+}
+.bp-cp-5-img-1 {
+  position: relative;
+  bottom: 550px;
+  z-index: -2;
+  height: 10%;
+  right: 200px;
+}
+.bp-cp-5-img-2 {
+  position: relative;
+  bottom: 550px;
+  height: 10%;
+
+  z-index: -1;
+}
+.bp-cp5-dd-head {
+  width: 100%;
+  position: relative;
+}
+.bp-cp5-dd-button {
+  padding: 3% 8% 3% 15%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 37px;
+  background: #f4f8fa;
+  /* identical to box height, or 161% */
+
+  color: #33657e;
+}
+.bp-cd5-list-maindiv {
+  width: 68%;
+  position: relative;
+  left: 16%;
+  margin-top: 4%;
+}
+.bp-cd5-img-maindiv {
+  width: 100%;
+}
+.bp-cp5-list-p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #757575;
+}
+.bp-cp5-favicon-img {
+  position: relative;
+
+  right: 15%;
+}
+
+@media screen and (max-width: 992px) {
+  .BP-CP5-heading {
+    left: 15%;
+    width: 70%;
+    font-size: 16px;
+  }
+  .BP-CP5-h1 {
+    width: 70%;
+    font-size: 16px;
+    text-align: center;
+  }
+  .bp-cp5-list-p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 24px;
+    color: #757575;
+  }
+  .bp-cp5-dd-button {
+    padding: 3% 8% 3% 15%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 37px;
+    background: #f4f8fa;
+    /* identical to box height, or 161% */
+
+    color: #33657e;
+  }
+}
+@media screen and (max-width: 360px) {
+  .BP-CP5-heading {
+    left: 15%;
+    width: 70%;
+    font-size: 14px;
+  }
+  .BP-CP5-h1 {
+    width: 70%;
+    font-size: 14px;
+    text-align: center;
+  }
+  .bp-cp5-list-p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 24px;
+    color: #757575;
+  }
+  .bp-cp5-dd-button {
+    padding: 3% 8% 3% 15%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 37px;
+    background: #f4f8fa;
+    /* identical to box height, or 161% */
+
+    color: #33657e;
+  }
+}

@@ -5,6 +5,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
+
 import StrategyConsultancy from "./components/StrategyConsultancy/StrategyConsultancy";
 import CxoStrategy from "./components/CxoStrategy/CxoStrategy";
 import IntractiveBluePrint from "./components/IntractiveBluePrint/IntractiveBluePrint";
@@ -13,8 +14,15 @@ import BrandPositioning from "./components/BrandPositioning/BrandPositioning";
 import AboutCorporality from "./components/AboutCorporality/AboutCorporality";
 import PartnershipProgrammes from "./components/PartnershipProgrammes/PartnershipProgrammes.jsx";
 import SustainableGrowth from "./components/SustainableGrowth/SustainableGrowth";
+
+import StrategyAndConsulting from "./components/StrategyAndConsulting/StrategyAndConsulting";
+
 import InclusionAndDiversity from "./components/InclusionAndDiversity/InclusionAndDiversity";
+
 import WorkWithClient from "./components/WorkWithClient/WorkWithClient";
+
+
+
 function App() {
   return (
     <>
@@ -47,10 +55,12 @@ function App() {
           />
           <Route path="/CorporateStrategy" element={<CorporateStrategy />} />
           <Route path="/BrandPositioning" element={<BrandPositioning />} />
+
           <Route
             path="/PartnershipProgrammes"
             element={<PartnershipProgrammes />}
           />
+          <Route path="/StrategyAndConsulting" element={<StrategyAndConsulting />} />
         </Routes>
         <Footer />
       </BrowserRouter>

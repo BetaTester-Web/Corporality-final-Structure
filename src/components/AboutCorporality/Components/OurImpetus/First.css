@@ -49,24 +49,34 @@
   display: flex;
 }
 
+.main_image_container {
+  position: absolute;
+  top: -200px;
+  right: 80px;
+  overflow: hidden;
+  transform: rotate(45deg);
+  width: 350px;
+  height: 350.8px;
+  border: 2px solid black;
+}
+
 .right_image {
   position: relative;
   margin-right: 50px !important;
   /* transform: rotate(45deg); */
 }
 
-.main_img {
-  position: absolute;
-  top: -200px;
-  right: 80px;
+.main_image_container .main_img {
   z-index: 2;
-  /* transform: rotate(-45deg); */
+  transform: rotate(-45deg);
+  width: 510px;
+  height: 512.19px;
 
   transition: all 0.8s ease;
 }
 
-.right_image:hover .main_img {
-  transform: scale(1.03);
+.main_image_container:hover .main_img {
+  transform: scale(1.03) rotate(-45deg);
 }
 
 .back_img {
