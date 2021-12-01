@@ -3,18 +3,12 @@
   font-style: 16px;
   line-height: 150%;
   vertical-align: Top;
-  color: white;
-  text-align: left;
 }
 .BP-c4-h {
   font-style: Bold;
   font-style: 30px;
   line-height: 130%;
-
-  text-align: left;
   vertical-align: Top;
-  color: white;
-
   text-transform: uppercase;
 }
 .BP-c4-d {
@@ -25,11 +19,9 @@
   left: 40%;
   background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
   color: #ffffff;
-  margin-top: 10%;
-  margin-bottom: -18%;
+  margin-top: 8%;
   z-index: 1;
 }
-
 .BP-CP-4-img-d {
   width: 100%;
   display: flex;
@@ -42,50 +34,63 @@
 
 @media screen and (max-width: 992px) {
   .BP-c4-p {
-    font-style: Medium;
     font-size: 12px;
-    line-height: 150%;
-    vertical-align: Top;
-    color: white;
-    text-align: left;
+    line-height: 130%;
+    margin-bottom: 0px;
   }
   .BP-c4-h {
-    font-style: Bold;
     font-size: 16px;
-    line-height: 130%;
-
-    text-align: left;
-    vertical-align: Top;
-    color: white;
-
-    text-transform: uppercase;
-  }
-  .bp-c4-textdiv {
-    position: relative;
-    bottom: 58%;
-  }
-}
-@media screen and (max-width: 360px) {
-  .BP-c4-p {
-    font-style: Medium;
-    font-size: 10px;
-    line-height: 150%;
-    vertical-align: Top;
-    color: white;
-    text-align: left;
-  }
-  .BP-c4-h {
-    font-style: Bold;
-    font-size: 14px;
-    line-height: 130%;
-
-    text-align: left;
-    vertical-align: Top;
-    color: white;
-
-    text-transform: uppercase;
+    line-height: 110%;
+    margin-bottom: 1%;
   }
   .BP-c4-d {
-    width: 70%;
+    margin-top: 6%;
+    text-align: center;
+    padding: 1%;
+  }
+  .BP-CP-4-img-d {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .BP-c4-p {
+    font-size: 12px;
+    line-height: 110%;
+  }
+  .BP-c4-h {
+    font-size: 14px;
+    line-height: 100%;
+    margin-bottom: 1%;
+  }
+  .BP-c4-d {
+    margin-top: 8%;
+    padding: 1%;
+  }
+  .BP-CP-4-img-d {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .BP-c4-p {
+    font-size: 10px;
+    line-height: 100%;
+  }
+  .BP-c4-h {
+    font-size: 12px;
+    line-height: 100%;
+    margin-bottom: 1%;
+  }
+  .BP-c4-d {
+    margin-top: 21%;
+    padding: 2%;
+    text-align: center;
+  }
+  .BP-CP-4-img-d {
+    width: 100%;
+    height: 350px;
   }
 }
