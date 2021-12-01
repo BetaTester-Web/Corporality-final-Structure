@@ -50,7 +50,6 @@
         padding: 0px 7% 3% 0px !important;
         overflow: hidden !important;
     }
-    
     .bannerText{
         flex: 70%;
         display: flex;
@@ -150,7 +149,7 @@
     
     .rightBannerContainer{
         position: absolute;
-        bottom: 2px !important;
+        bottom: 5px !important;
         right: 0px;
         width: 20%;
         height: 26%; 
@@ -282,8 +281,6 @@
 
 @media only screen and (max-width: 1200px){
     .bannerContainer{
-        .rightBannerContainer{
-        }
         .square-1{
             transform: scale(0.7);
         }

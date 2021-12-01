@@ -226,7 +226,7 @@
 
 .bannerContainer .rightBannerContainer {
   position: absolute;
-  bottom: 2px !important;
+  bottom: 5px !important;
   right: 0px;
   width: 20%;
   height: 26%;
