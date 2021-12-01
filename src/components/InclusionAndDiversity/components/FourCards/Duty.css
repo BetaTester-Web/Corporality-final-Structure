@@ -1,0 +1,320 @@
+
+
+.Duty_card_text_2_Description{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 157% */
+    
+    
+    color: #757575;
+}
+.Duty_card_text_1_heading{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    /* identical to box height, or 145% */
+    
+    
+    color: #A06DAF;
+}
+.Duty_images_card{
+    display: flex;
+    background: #FFFFFF;
+    
+
+
+}
+.Duty_space{
+    margin-top: 150px;
+}
+
+.Inc_Div_duty_card_img_inner{
+    overflow: hidden;
+    
+    width: 180px;
+    height: 180px;
+    transform: rotate(45deg);
+    margin-right: 30px;
+    position: relative;
+    z-index: 2;
+}
+.Inc_Div_duty_card_img_inner img{
+    width: 140%;
+    height: 140%;
+    margin-top: -35px;
+    margin-left: -35px;
+    transform: rotate(-45deg);
+    transition: all 0.6s linear;
+}
+.Inc_Div_duty_card_img_inner:hover img{
+    transform: scale(1.03) rotate(-45deg);
+}
+.Duty_card_text{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 30px;
+
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 30px;
+    position: relative;
+    left: -19%;
+    top: -50px;
+    transition: background-color 0.6s ease;
+    
+    
+}
+
+.Duty_card_text_4{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 30px;
+
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 30px;
+    position: relative;
+    left: -19%;
+    top: -50px;
+}
+.Inc_Div_duty_card_img{
+    position: relative;
+    bottom: 40px;
+}
+.Inc_Div_bord_top{
+    position: relative;
+    background-color: black;
+    left: 10%;
+    /* position: relative;
+    width: 9002px;
+        height: 5px;
+    background-color:black;
+        border-radius: 0px 10px 0px 0px;
+        z-index: 3;
+        transition: background-color 0.6s ease; */
+}
+.Duty_images_card:hover.Inc_Div_bord_top{
+    transform: scaleX(1.02);
+    background-color: #A06DAF;
+
+}
+.Duty_card_text_2{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 40px;
+
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 20px;
+    position: relative;
+    left: -19%;
+    top: -38px;
+
+}
+.Duty_card_text_3{
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 0px 10px 10px 0px;
+    padding-top: 40px;
+
+    padding-bottom: 20px;
+    padding-left: 150px;
+    padding-right: 20px;
+    position: relative;
+    left: -19%;
+    top: -38px;
+}
+
+@media (max-width:1400px) {
+    .Duty_card_text{
+        margin-right: -40px;
+        padding-bottom: 0px;
+        left: -22%;
+    }
+    .Duty_card_text_2{
+        margin-right: -40px;
+        padding-bottom: 28px;
+        left: -22%;
+        top: -45px;
+    }
+    .Duty_card_text_3{
+        margin-right: -40px;
+        padding-bottom: 0px;
+        padding-top: 15px;
+        left: -22%;
+        top: -45px;
+        
+    }
+    .Duty_card_text_4{
+        margin-right: -40px;
+        padding-bottom: 0px;
+        left: -22%;
+    }
+}
+@media (max-width:1200px) {
+    .Duty_images_card{
+        margin-top: 100px;
+    }
+    .Duty_card_text{
+        left: -10%;
+    }
+    .Duty_card_text_3{
+        left: -10%;
+        padding-top: 40px;
+    }
+    .Duty_card_text_2{
+        left: -10%;
+    }
+    .Duty_card_text_4{
+        left: -10%;
+    }
+    .Duty_space{
+        margin-top: 0px;
+    }
+
+}
+@media (max-width:992px) {
+    .Duty_images_card{
+        margin-top: 100px;
+    }
+    .Duty_card_text{
+        left: -15%;
+    }
+    .Duty_card_text_3{
+        left: -15%;
+        padding-top: 30px;
+    }
+    .Duty_card_text_2{
+        left: -15%;
+    }
+    .Duty_card_text_4{
+        left: -15%;
+    }
+}
+@media (max-width:768px) {
+    .Duty_images_card{
+        position: relative;
+        left: 10%;
+    }
+    .Duty_card_text_1_heading{
+        font-size: 16px;
+    }
+    .Duty_card_text_2_Description{
+        font-size: 12px;
+    }
+    .Duty_card_text{
+        margin-right: -60px;
+        left: -23%;
+        padding-bottom: 20px;
+    }
+    .Duty_card_text_2{
+        margin-right: -65px;
+        padding-bottom: 28px;
+        left: -23%;
+    }
+    .Duty_card_text_3{
+        margin-right: -65px;
+        padding-bottom: 18px;
+        left: -23%;
+    }
+    .Duty_card_text_4{
+        margin-right: -60px;
+        left: -24%;
+    }
+}
+@media (max-width: 576px) {
+    .Duty_images_card{
+        margin-top: 350px;
+    }
+    .Inc_Div_duty_card_img{
+        top: -290px;
+        left: 20%;
+    }
+    .Duty_card_text{
+        margin-right: -100px;
+        padding-left: 30px;
+        margin-left: -100px;
+        left: -32%;
+    }
+    .Duty_card_text_2{
+        margin-right: -100px;
+        padding-left: 30px;
+        margin-left: -100px;
+        left: -32%;
+    }
+    .Duty_card_text_4{
+        margin-right: -100px;
+        padding-left: 30px;
+        margin-left: -100px;
+        left: -32%;
+    }
+    .Duty_card_text_3{
+        margin-right: -100px;
+        padding-left: 30px;
+        margin-left: -100px;
+        left: -32%;
+    }
+}
+@media (max-width:453px){
+    .Duty_card_text{
+        left: -36%;
+    }
+    .Duty_card_text_3{
+        left: -36%;
+    }
+    .Duty_card_text_2{
+        left: -36%;
+    }
+    .Duty_card_text_4{
+        left: -36%;
+    }
+    
+}
+@media (max-width:413px){
+    .Duty_card_text{
+        left: -38%;
+    }
+    .Duty_card_text_3{
+        left: -38%;
+    }
+    .Duty_card_text_2{
+        left: -38%;
+    }
+    .Duty_card_text_4{
+        left: -38%;
+    }
+    
+}
+@media (max-width:379px){
+    .Duty_card_text{
+        left: -40%;
+    }
+    .Duty_card_text_3{
+        left: -40%;
+    }
+    .Duty_card_text_2{
+        left: -40%;
+    }
+    .Duty_card_text_4{
+        left: -40%;
+    }
+    
+}

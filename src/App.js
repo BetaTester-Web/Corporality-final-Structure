@@ -14,7 +14,11 @@ import BrandPositioning from "./components/BrandPositioning/BrandPositioning";
 import AboutCorporality from "./components/AboutCorporality/AboutCorporality";
 import PartnershipProgrammes from "./components/PartnershipProgrammes/PartnershipProgrammes.jsx";
 import SustainableGrowth from "./components/SustainableGrowth/SustainableGrowth";
+
 import StrategyAndConsulting from "./components/StrategyAndConsulting/StrategyAndConsulting";
+
+import InclusionAndDiversity from "./components/InclusionAndDiversity/InclusionAndDiversity";
+
 function App() {
   return (
     <>
@@ -36,7 +40,10 @@ function App() {
             path="/SustainableGrowth"
             element={<SustainableGrowth />}
           />
-          
+          <Route
+            path="/InclusionAndDiversity"
+            element={<InclusionAndDiversity />}
+          />
           <Route path="/CorporateStrategy" element={<CorporateStrategy />} />
           <Route path="/BrandPositioning" element={<BrandPositioning />} />
 
