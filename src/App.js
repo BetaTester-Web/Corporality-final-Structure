@@ -20,6 +20,7 @@ import StrategyAndConsulting from "./components/StrategyAndConsulting/StrategyAn
 import InclusionAndDiversity from "./components/InclusionAndDiversity/InclusionAndDiversity";
 
 import WorkWithClient from "./components/WorkWithClient/WorkWithClient";
+import GoToMarketing from "./components/GoToMarketing/GoToMarketing";
 
 
 
@@ -61,6 +62,7 @@ function App() {
             element={<PartnershipProgrammes />}
           />
           <Route path="/StrategyAndConsulting" element={<StrategyAndConsulting />} />
+          <Route path="/GoToMarketing" element={<GoToMarketing />} />
         </Routes>
         <Footer />
       </BrowserRouter>
