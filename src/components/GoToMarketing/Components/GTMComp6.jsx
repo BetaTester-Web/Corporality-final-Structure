@@ -1,4 +1,4 @@
-import "./GTMComp6.scss";
+import "../Components/GTMComp6.css";
 
 export default function GTMComp6() {
     return (
