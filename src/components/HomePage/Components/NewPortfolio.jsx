@@ -5,11 +5,11 @@ const NewPortfolio = () => {
     return (
         <div className="portfolioContainer">
             <div className="portfolioHead">
-                <h2>Our Portfolio</h2>
-                <hr />
+                <h2 data-aos="fade-down">Our Portfolio</h2>
+                <hr className="opacity-100" />
             </div>
             <div className="portfolioBody">
-                <div className="portfolioSection">
+                <div data-aos="flip-left" className="portfolioSection">
                     <img src="/img/Homepage/media/divine-intercession.png" alt="" className="portfolioSectionImg" />
                     <div className="portfolioFloatingDiv">
                         <h4>Divine Intercession</h4>
@@ -18,7 +18,7 @@ const NewPortfolio = () => {
                         <a href="">Learn More</a>
                     </div>
                 </div>
-                <div className="portfolioSection">
+                <div data-aos="flip-right" className="portfolioSection">
                     <img src="/img/HomePage/media/build-q.png" alt="" className="portfolioSectionImg" />
                     <div className="portfolioFloatingDiv">
                         <h4>Build Q</h4>
@@ -27,7 +27,7 @@ const NewPortfolio = () => {
                         <a href="">Learn More</a>
                     </div>
                 </div>
-                <div className="portfolioSection">
+                <div data-aos="flip-left" className="portfolioSection">
                     <img src="/img/HomePage/media/liqmet.png" alt="" className="portfolioSectionImg" />
                     <div className="portfolioFloatingDiv">
                         <h4>Liqmet</h4>

@@ -1,11 +1,12 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import "./CxoStrategy.css"
 
 export default function Charge() {
   useEffect(() => {
-    Aos.init();
-    Aos.init({disable: 'mobile'});
+    Aos.init({disable : "mobile"});
+    
   });
 
   return (
@@ -13,11 +14,11 @@ export default function Charge() {
       <div data-aos="fade-up" data-aos-delay="900" className="container charge-vertical-strip"></div>
       
       <div className="container charge-horizontal-strip">
-        <p >Bring a CXO who can lead the charge </p>
+        <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1500">Bring a CXO who can lead the charge </p>
       </div>
       
-      <div className="charge-img-1">
-        <img scr='./img/CxoStrategy/img/charge/lady.png'/>;
+      <div className="charge-img-1"  >
+        <img scr='./img/CxoStrategy/img/charge/lady.png' data-aos="fade-right" data-aos-duration="1500"/>;
       </div>
       
       <div className="container charge-img-2">

@@ -1,4 +1,5 @@
 import React from "react";
+import "./CxoStrategy.css"
 
 export default function Step() {
   return (
@@ -8,14 +9,14 @@ export default function Step() {
           <div className="col-lg-6 ">
 
             <div className="container charge-pic">
-              <div data-aos="zoom-in" data-aos-duration="3000" className="d-flex justify-content-end">
-                <img src="./img/step/Vector.png" />
+              <div data-aos="zoom-in" data-aos-duration="2500" className="d-flex justify-content-end">
+                <img src="./img/CxoStrategy/img/step/Vector.png" />
               </div>
             </div>
             
           </div>
 
-          <div data-aos="fade-left" data-aos-delay="800" data-aos-duration="3000" className="col-lg-6 charge-paragraph">
+          <div data-aos="fade-left" data-aos-delay="500" data-aos-duration="2500" className="col-lg-6 charge-paragraph">
             <p >
               Corporality takes a genuine step towards the customer. While
               identifying significant financial, operational and direct
