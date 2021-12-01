@@ -17,9 +17,9 @@ export default function Revamping() {
 				<div className="DDMRevampingBulb">
 					<img src="./img/DigitalMediaMarketing/img/Banner/DDMBulb.png" />
 				</div>
-				<div className="DDMRevampingLine">
+				{/* <div className="DDMRevampingLine">
 					<img src="./img/DigitalMediaMarketing/img/Banner/DDMRevampingLine.png" />
-				</div>
+				</div> */}
 				<div className="DDMRevampingArrow">
 					<img src="./img/DigitalMediaMarketing/img/Banner/DDMArrow.png" />
 				</div>
