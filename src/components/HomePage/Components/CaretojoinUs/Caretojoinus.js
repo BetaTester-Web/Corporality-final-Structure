@@ -3,6 +3,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Caretojoinus.css";
 import right_image from "./images/right_image.png";
+import right_image2 from "./images/right_image2.png";
 import bottom from "./images/bottom.png";
 import top from "./images/top.png";
 import image_back from "./images/image_back.png";
@@ -55,7 +56,7 @@ function Caretojoinus() {
         data-aos-easing="ease-in-out"
       >
         <div className="right_image_container">
-          <img src={right_image} alt="" />
+          <img src={right_image2} alt="" className="caretojoinus_rightimage" />
         </div>
         <div className="back_image">
           <img src={image_back} alt="" />
