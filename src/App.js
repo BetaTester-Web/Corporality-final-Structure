@@ -14,6 +14,7 @@ import AboutCorporality from "./components/AboutCorporality/AboutCorporality";
 import PartnershipProgrammes from "./components/PartnershipProgrammes/PartnershipProgrammes.jsx";
 import SustainableGrowth from "./components/SustainableGrowth/SustainableGrowth";
 import InclusionAndDiversity from "./components/InclusionAndDiversity/InclusionAndDiversity";
+import WorkWithClient from "./components/WorkWithClient/WorkWithClient";
 function App() {
   return (
     <>
@@ -35,6 +36,11 @@ function App() {
             path="/SustainableGrowth"
             element={<SustainableGrowth />}
           />
+          <Route
+            path="/WorkWithClient"
+            element={<WorkWithClient />}
+          />
+          
           <Route
             path="/InclusionAndDiversity"
             element={<InclusionAndDiversity />}

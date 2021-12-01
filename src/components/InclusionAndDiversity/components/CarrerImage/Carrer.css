@@ -1,0 +1,24 @@
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.carrer-fluid-card{
+    position: relative;
+    left: 55%;
+    top: 120px;
+}
+@media (max-width:1200px){
+    .carrer-fluid-card{
+        position: relative;
+        left:25%;
+        top: 10px;
+    }
+}
+@media (max-width:768px){
+    .carrer-fluid-card{
+        position: relative;
+        left:20%;
+        top: 10px;
+        width: 60%;
+    }
+}
