@@ -1,5 +1,9 @@
 
-
+.Duty_Four{
+    background-color: 
+    #F8F8F8;
+    padding-top: 80px;
+}
 .Duty_card_text_2_Description{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -11,6 +15,40 @@
     
     
     color: #757575;
+}
+.Duty-row1-text-1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    /* identical to box height, or 125% */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: #3C708E;
+    
+}
+.Row1_Duty_text_box{
+    margin-bottom: 200px;
+}
+.Duty-row1-text-2{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: normal;
+     font-size: 14px;
+     line-height: 22px;
+     /* or 157% */
+     
+     text-align: center;
+     
+     color: #757575;
+     padding-right: 210px;
+     padding-left: 210px;
+     
+    
 }
 .Duty_card_text_1_heading{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -26,7 +64,7 @@
 }
 .Duty_images_card{
     display: flex;
-    background: #FFFFFF;
+   /*  background: #FFFFFF; */
     
 
 
@@ -58,11 +96,13 @@
 }
 .Duty_card_text{
     justify-content: center;
+    background-color: white;
     align-items: center;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 0px 10px 10px 0px;
     padding-top: 30px;
+    
 
     padding-bottom: 20px;
     padding-left: 150px;
@@ -78,10 +118,14 @@
 .Duty_card_text_4{
     justify-content: center;
     align-items: center;
+    background-color: white;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 0px 10px 10px 0px;
     padding-top: 30px;
+    margin-right: -100px;
+
+
 
     padding-bottom: 20px;
     padding-left: 150px;
@@ -106,14 +150,14 @@
         z-index: 3;
         transition: background-color 0.6s ease; */
 }
-.Duty_images_card:hover.Inc_Div_bord_top{
-    transform: scaleX(1.02);
-    background-color: #A06DAF;
-
+.Duty_images_card:hover{
+    /* border-top: 3px solid 
+    #A06DAF; */
 }
 .Duty_card_text_2{
     justify-content: center;
     align-items: center;
+    background-color: white;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 0px 10px 10px 0px;
@@ -130,6 +174,7 @@
 .Duty_card_text_3{
     justify-content: center;
     align-items: center;
+    background-color: white;
     border: 1px solid #E8E8E8;
     box-sizing: border-box;
     border-radius: 0px 10px 10px 0px;
@@ -143,33 +188,53 @@
     top: -38px;
 }
 
+
+
 @media (max-width:1400px) {
     .Duty_card_text{
-        margin-right: -40px;
-        padding-bottom: 0px;
+        margin-right: -110px;
+        padding-bottom: 20px;
         left: -22%;
+        top: -29px;
     }
     .Duty_card_text_2{
-        margin-right: -40px;
+        margin-right: -100px;
         padding-bottom: 28px;
         left: -22%;
-        top: -45px;
+        top: -25px;
     }
     .Duty_card_text_3{
-        margin-right: -40px;
-        padding-bottom: 0px;
+        margin-right: -100px;
+        padding-bottom: 30px;
         padding-top: 15px;
         left: -22%;
-        top: -45px;
+        top: -25px;
         
     }
     .Duty_card_text_4{
-        margin-right: -40px;
+        margin-right: -100px;
         padding-bottom: 0px;
         left: -22%;
+        top: -29px;
+    }
+    .Duty-images-card-2{
+        position: relative;
+        left: 10%;
+    }
+    .Duty-images-card-4{
+        position: relative;
+        left: 10%;
     }
 }
 @media (max-width:1200px) {
+    .Duty-images-card-4{
+        position: relative;
+        left: 0%;
+    }
+    .Duty-images-card-2{
+        position: relative;
+        left: 0%;
+    }
     .Duty_images_card{
         margin-top: 100px;
     }
@@ -207,6 +272,10 @@
     }
     .Duty_card_text_4{
         left: -15%;
+    }
+    .Duty-row1-text-2{
+        padding-right: 0px;
+        padding-left: 0px;
     }
 }
 @media (max-width:768px) {

@@ -5,6 +5,8 @@ import OurFaith from './components/OurFaith/OurFaith';
 import Responsible from './components/ResponsibleLeadership/Responsible';
 import Hover from './components/HoverInclusion/Hover';
 import Duty from './components/FourCards/Duty';
+import Newsletter from './components/LastComponentINC/Newsletter';
+import Carrer from './components/CarrerImage/Carrer';
 
 
 
@@ -17,9 +19,11 @@ const InclusionAndDiversity = () => {
         <div>
             <Inclusion />
             <OurFaith />
-           {/*  <Hover /> */}
+            <Hover />
             <Duty />
             <Responsible />
+            <Carrer />
+            <Newsletter />
         </div>
     )
 }

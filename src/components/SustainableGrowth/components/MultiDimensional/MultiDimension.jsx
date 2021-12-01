@@ -1,4 +1,4 @@
-import React , {useEffect} from "react";
+import React, { useEffect } from "react";
 import '../MultiDimensional/MultiDimension.css'
 import aos from 'aos'
 import smaller3 from '../MultiDimensional/smallerrect.png'
@@ -10,6 +10,8 @@ import favicon0 from '../MultiDimensional/favicon-0.png'
 import favicon1 from '../MultiDimensional/favicon-1.png'
 import favicon2 from '../MultiDimensional/favicon-3.png'
 import favicon3 from '../MultiDimensional/favicon-4.png'
+import explorerect from '../MultiDimensional/arrow.png'
+import explorearrow from '../MultiDimensional/arrow2.png'
 
 const MultiDimensional = () => {
     useEffect(() => {
@@ -43,6 +45,15 @@ const MultiDimensional = () => {
                             <div className="text-box-3-Multi">
                                 <p className='container-3_text-1_heading-Multi'>A Multi-dimensional Approach</p>
                                 <p className='container-3_text-1-Multi'>Corporality Global does not limit itself to a single approach. Instead, we collaborate, partner, and educate to create sustainable futures.  </p>
+                                <a className='exploreinit-Multi' href='#'>
+                                    <div className="explore-4-Multi">
+                                        <div className="explore-link-Multi">
+                                            <img src={explorerect} alt='' className='explore-rect-Multi' />
+                                            <img src={explorearrow} alt='' className='explore-arrow-Multi' />
+                                            <span className='explore-text-Multi'>Explore</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1000" className="textndicon-Multi">
@@ -52,7 +63,17 @@ const MultiDimensional = () => {
                             <div className="text-box-3-Multi">
                                 <p className='container-3_text-2_heading-Multi'>Sustainable Design</p>
                                 <p className='container-3_text-2-Multi'>Reducing negative impact on the environment and ensuring the health and comfort of our fellow-occupants should be a part of every human growth plan. With design, we aim to impart value and attitude that translates to environmental sustainability.</p>
+                                <a className='exploreinit-Multi' href='#'>
+                                    <div className="explore-4-Multi">
+                                        <div className="explore-link-Multi">
+                                            <img src={explorerect} alt='' className='explore-rect-Multi' />
+                                            <img src={explorearrow} alt='' className='explore-arrow-Multi' />
+                                            <span className='explore-text-Multi'>Explore</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
+
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1500" className="textndicon-Multi">
                             <div /* className="icon-Multi" */>
@@ -61,6 +82,15 @@ const MultiDimensional = () => {
                             <div className="text-box-3-Multi">
                                 <p className='container-3_text-3_heading-Multi'>Sustainability in Services</p>
                                 <p className='container-3_text-3-Multi'>A novel perspective, Corporality Global leverages the concept of sustainability to provide a competitive advantage to its clients in the new cut-throat era of business.</p>
+                                <a className='exploreinit-Multi' href='#'>
+                                    <div className="explore-4-Multi">
+                                        <div className="explore-link-Multi">
+                                            <img src={explorerect} alt='' className='explore-rect-Multi' />
+                                            <img src={explorearrow} alt='' className='explore-arrow-Multi' />
+                                            <span className='explore-text-Multi'>Explore</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-delay="2000" className="textndicon-Multi">
@@ -70,9 +100,18 @@ const MultiDimensional = () => {
                             <div className="text-box-3-Multi">
                                 <p className='container-3_text-3_heading-Multi'>CSR sustainability</p>
                                 <p className='container-3_text-3-Multi'>Viewing fair business practices, we are completely committed to local communities, where we recognise issues that matter to them and build strategies around the company’s core competencies.</p>
+                                <a className='exploreinit-Multi' href='#'>
+                                    <div className="explore-4-Multi">
+                                        <div className="explore-link-Multi">
+                                            <img src={explorerect} alt='' className='explore-rect-Multi' />
+                                            <img src={explorearrow} alt='' className='explore-arrow-Multi' />
+                                            <span className='explore-text-Multi'>Explore</span>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
-                 {/*        <div data-aos-delay="2500" data-aos="fade-right" className="button-4-Multi">
+                        {/*        <div data-aos-delay="2500" data-aos="fade-right" className="button-4-Multi">
                             <a className='button-link-Multi' href="#">Learn More</a>
                         </div> */}
                     </div>

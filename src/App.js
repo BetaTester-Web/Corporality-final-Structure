@@ -19,6 +19,10 @@ import StrategyAndConsulting from "./components/StrategyAndConsulting/StrategyAn
 
 import InclusionAndDiversity from "./components/InclusionAndDiversity/InclusionAndDiversity";
 
+import WorkWithClient from "./components/WorkWithClient/WorkWithClient";
+
+
+
 function App() {
   return (
     <>
@@ -40,6 +44,11 @@ function App() {
             path="/SustainableGrowth"
             element={<SustainableGrowth />}
           />
+          <Route
+            path="/WorkWithClient"
+            element={<WorkWithClient />}
+          />
+          
           <Route
             path="/InclusionAndDiversity"
             element={<InclusionAndDiversity />}
