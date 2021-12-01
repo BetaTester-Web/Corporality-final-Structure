@@ -1,15 +1,5 @@
-/* .col{
-    border: 2px solid red !important;
-}
-.row{
-    border: 2px solid blue !important;
-} */
-/* .dk{
-    border: 2px solid red !important;
-    height: 100vh;
-} */
 .sacc4Container{
-    margin: 60px 0 !important;
+    margin: 60px 0 120px 0 !important;
 }
 
 .sacc4Heading1{
@@ -83,15 +73,30 @@
     text-align: center;
     color: #757575;
 }
+.sacc4Button{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #757575;
+
+}
+.sacc4Top{
+    flex-wrap: wrap !important;
+}
+.sacc4RecCard{
+    width: 379px;
+    margin: 20px;
+}
 .sacc4Bottom{
     margin-top: 100px; 
 }
 
 .sacc4DiamondCard{
-    max-width: 282.8px;
-    max-height: 282.8px;
-    width: 18.4vw;
-    height: 18.4vw;
+    width: 282.8px;
+    height: 282.8px;
+    /* width: 18.4vw;
+    height: 18.4vw; */
     transform: rotate(45deg);
     background: #FFFFFF;
     border: 1px solid #E8E8E8;
@@ -109,4 +114,73 @@
 }
 .sacc4DCContent{
     rotate: -45deg;
+}
+
+@media only screen and (max-width: 767.98px){
+    .sacc4DiamondCard{
+        width: 182.8px;
+        height: 182.8px;
+    }
+    .sacc4BlankDiamondCard{
+        display: none;
+    }
+    .sacc4DiamondCard{
+        margin: 0 38px;
+    }
+    .sacc4D1, .sacc4D2, .sacc4D3{
+        margin-bottom: 96px;
+    }
+    .sacc4D4{
+        margin-bottom: 20px;
+    }
+    .sacc4Row1, .sacc4Row2{
+        left: 0%;
+        padding: 0 38px;
+        flex-wrap: wrap;
+        justify-content: space-around !important;
+    }
+    .sacc4Heading2{
+        font-size: 10px;
+    }
+    .sacc4Para2, .sacc4Button{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px){
+    .sacc4BlankDiamondCard{
+        display: none;
+    }
+    .sacc4Row1, .sacc4Row2{
+        left: 0%;
+        padding: 0 58px;
+        flex-wrap: wrap;
+        justify-content: space-around !important;
+    }
+    .sacc4DiamondCard{
+        margin: 0px 58px;
+        /* margin-left: 58px;
+        margin-right: 58px; */
+    }
+    .sacc4D1,.sacc4D2, .sacc4D3{
+        margin-bottom: 136px;
+    }
+    .sacc4D4{
+        margin-bottom: 20px;
+    }
+
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+    .sacc4BlankDiamondCard{
+        display: none;
+    }
+    .sacc4Row1, .sacc4Row2{
+        left: 0%;
+        padding: 85px 85px;
+        justify-content: space-around !important;
+    }
+    .sacc4Bottom {
+        margin-top: 0px;
+    }
+
 }

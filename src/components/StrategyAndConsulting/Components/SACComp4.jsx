@@ -17,8 +17,8 @@ export default function SACComp4() {
                         <div className="sacc4RCBottom d-flex justify-content-center align-items-center">
                             <img className="sacc4Rec13" src={rec13} alt="" />
                             <img className="sacc4Arrow" src={arrow} alt="" />
-                            <span>Read More</span>
-                        </div>
+                            <span className="sacc4Button">Read More</span>
+                        </div >
                     </div>
                     <div className="sacc4RecCard">
                         <p className="sacc4Heading2">Deep Industry Expertise</p>
@@ -26,7 +26,7 @@ export default function SACComp4() {
                         <div className="sacc4RCBottom d-flex justify-content-center align-items-center">
                             <img className="sacc4Rec13" src={rec13} alt="" />
                             <img className="sacc4Arrow" src={arrow} alt="" />
-                            <span>Read More</span>
+                            <span className="sacc4Button">Read More</span>
                         </div>
                     </div>
                     <div className="sacc4RecCard">
@@ -35,63 +35,63 @@ export default function SACComp4() {
                         <div className="sacc4RCBottom d-flex justify-content-center align-items-center">
                             <img className="sacc4Rec13" src={rec13} alt="" />
                             <img className="sacc4Arrow" src={arrow} alt="" />
-                            <span>Read More</span>
+                            <span className="sacc4Button">Read More</span>
                         </div>
                     </div>
                 </div>
                 <div className="sacc4Bottom d-flex flex-column">
                     <div className="sacc4Row1 d-flex flex-row justify-content-between">
-                        <div className="sacc4DiamondCard d-flex justify-content-center align-items-center">
-                            {/* <div className="sacc4DCContent">
+                        <div className="sacc4DiamondCard sacc4D1 d-flex justify-content-center align-items-center">
+                            <div className="sacc4DCContent">
                                 <p className="sacc4Heading2">Customer-Centered Design</p>
                                 <p className="sacc4Para2">We craft newer and better customer experiences that increase satisfaction and loyalty leading to business growth</p>
                                 <div className="sacc4DCBottom d-flex justify-content-center align-items-center">
-                                    <img className="sacc4DRec13" src={rec13} alt="" />
-                                    <img className="sacc4DArrow" src={arrow} alt="" />
-                                    <span>Read More</span>
+                                    <img className="sacc4Rec13" src={rec13} alt="" />
+                                    <img className="sacc4Arrow" src={arrow} alt="" />
+                                    <span className="sacc4Button">Read More</span>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
-                        <div className="sacc4DiamondCard d-flex justify-content-center align-items-center">
-                            {/* <div className="sacc4DCContent">
+                        <div className="sacc4DiamondCard sacc4D2 d-flex justify-content-center align-items-center">
+                            <div className="sacc4DCContent">
                                 <p className="sacc4Heading2">AI-Powered Insights</p>
                                 <p className="sacc4Para2">Corporality uses the power of AI, analytics and automation to gather thoughtful insights that fuel innovation and empowers organisations to make better marketing decisions.</p>
                                 <div className="sacc4DCBottom d-flex justify-content-center align-items-center">
-                                    <img className="sacc4DRec13" src={rec13} alt="" />
-                                    <img className="sacc4DArrow" src={arrow} alt="" />
-                                    <span>Read More</span>
+                                    <img className="sacc4Rec13" src={rec13} alt="" />
+                                    <img className="sacc4Arrow" src={arrow} alt="" />
+                                    <span className="sacc4Button">Read More</span>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
-                        <div className="sacc4DiamondCard">
+                        <div className="sacc4DiamondCard sacc4BlankDiamondCard">
                             
                         </div>
                     </div>
                     <div className="sacc4Row2 d-flex flex-row justify-content-between">
-                        <div className="sacc4DiamondCard">
+                        <div className="sacc4DiamondCard sacc4BlankDiamondCard">
 
                         </div>
-                        <div className="sacc4DiamondCard d-flex justify-content-center align-items-center">
-                            {/* <div className="sacc4DCContent">
+                        <div className="sacc4DiamondCard sacc4D3 d-flex justify-content-center align-items-center">
+                            <div className="sacc4DCContent">
                                 <p className="sacc4Heading2">Customer-Centered Design</p>
                                 <p className="sacc4Para2">We craft newer and better customer experiences that increase satisfaction and loyalty leading to business growth</p>
                                 <div className="sacc4DCBottom d-flex justify-content-center align-items-center">
-                                    <img className="sacc4DRec13" src={rec13} alt="" />
-                                    <img className="sacc4DArrow" src={arrow} alt="" />
-                                    <span>Read More</span>
+                                    <img className="sacc4Rec13" src={rec13} alt="" />
+                                    <img className="sacc4Arrow" src={arrow} alt="" />
+                                    <span className="sacc4Button">Read More</span>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
-                        <div className="sacc4DiamondCard d-flex justify-content-center align-items-center">
-                            {/* <div className="sacc4DCContent">
+                        <div className="sacc4DiamondCard sacc4D4 d-flex justify-content-center align-items-center">
+                            <div className="sacc4DCContent">
                                 <p className="sacc4Heading2">AI-Powered Insights</p>
                                 <p className="sacc4Para2">Corporality uses the power of AI, analytics and automation to gather thoughtful insights that fuel innovation and empowers organisations to make better marketing decisions.</p>
                                 <div className="sacc4DCBottom d-flex justify-content-center align-items-center">
-                                    <img className="sacc4DRec13" src={rec13} alt="" />
-                                    <img className="sacc4DArrow" src={arrow} alt="" />
-                                    <span>Read More</span>
+                                    <img className="sacc4Rec13" src={rec13} alt="" />
+                                    <img className="sacc4Arrow" src={arrow} alt="" />
+                                    <span className="sacc4Button">Read More</span>
                                 </div>
-                            </div> */}
+                            </div>
                         </div>
                     </div>
                 </div>
