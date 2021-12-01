@@ -9,6 +9,18 @@
   }
 }
 
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 1.1);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+
 .bulb_glow {
   position: absolute;
   top: 5px;
@@ -19,6 +31,7 @@
   position: absolute;
   top: 20px;
   left: -88px;
+  animation: zoom-in-zoom-out 1s linear infinite;
 }
 
 .goal_line {
@@ -36,6 +49,7 @@
   position: absolute;
   bottom: 80px;
   left: -90px;
+  animation: zoom-in-zoom-out 1s linear infinite;
 }
 
 .idea_line {
@@ -53,6 +67,7 @@
   position: absolute;
   left: 175px;
   bottom: 25px;
+  animation: zoom-in-zoom-out 1s linear infinite;
 }
 
 .plan_line {
@@ -88,6 +103,7 @@
   position: absolute;
   bottom: 155px;
   left: 210px;
+  animation: zoom-in-zoom-out 1s linear infinite;
 }
 
 .team_line {
