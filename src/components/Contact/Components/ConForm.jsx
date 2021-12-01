@@ -1,6 +1,7 @@
 
 import './ConForm.css'
-import React, { useEffect } from 'react';
+import './ContactForm.css'
+import React, { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,24 +13,11 @@ const ConForm = () => {
     })
 
 
-    // const input = document.getElementById('input');
+    const [firstName, setFirstName] = useState("")
+    const [lastName, setLastName] = useState("")
+    const [mobile, setMobile] = useState("")
+    const [email, setEmail] = useState("")
 
-    // if (input) {
-    //    input.addEventListener('focus', (e) => {
-    //      input.dataset.placeholder = input.placeholder
-    //      input.placeholder = '';
-    //    });
-         
-    //    input.addEventListener('blur', (e) => {
-    //      input.placeholder = input.dataset.placeholder;
-    //    });
-    //  }
-
-    function onFocusChange () { 
-        if (document.getElementById("input").focus()) { 
-           document.getElementById("input").placeholder = "";
-        }
-      }
 
     return (
         <>
@@ -62,63 +50,37 @@ const ConForm = () => {
 
                             </div>
                         </div>
-
-                        <div data-aos="fade-left">
-                            <div className="fluid">
-                                <div className="conform-contactForm  p-4 m-3">
-                                    <p className="conform-contactHeading text-uppercase fw-bold my-5 fs-4">Contact us</p>
-                                
-                                    <div className="row my-3">
-                                        <div className="col mx-2 relative" >
-                                            <input type="text" name="fname" placeholder="First Name" className="philosophy-input" id="input" />
-                                            <label for="fname" className="philosophy-input-label">First Name</label>
-                                        </div>
-                                    
-                                        <div className="col ">
-                                            <input type="text" name="fname" placeholder="Last Name" className="philosophy-input" id="input" />
-                                            <label for="fname" className="philosophy-input-label">Last Name</label>
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                    <div className="row my-3">
-                                        <div className="col mx-2">
-                                            <input type="text" name="fname" placeholder="Email" className="philosophy-input" id="input" />
-                                            <label for="fname" className="philosophy-input-label">Email</label>
-                                        </div>
-                                        <div className="col">
-                                            <input type="text" name="fname" placeholder="Mobile" className="philosophy-input" id="input" />
-                                            <label for="fname" className="philosophy-input-label">Mobile</label>
-                                        </div>
-                                    </div>
-                                    
-                                    
-                                    <div className="col my-3 mx-2">
-                                        <input type="text" name="fname" placeholder="Website URL" className="philosophy-input" id="input" />
-                                        <label for="fname" className="philosophy-input-label">Website URL</label>
-                                    </div>
-                                    
-                                    
-                                    <div className="col my-3 mx-2">
-                                        <textarea className="form-control philosophy-input" placeholder="Your Message"  id="textBox" rows="5"></textarea>
-                                        <label for="fname" className="philosophy-input-label">Your Message</label>
-                                    </div>
-
-                                    
-                                    
-                                    <button type="button" className="btn footer-button">
-                                        <div className="footer-button-text">
-
-                                            Send Request
-                                        </div>
-                                    </button>
-                                    <button type="button" class="btn conformreset-btn">Reset</button>
-
-                                </div>
-                            </div>
+                        <div className="philosophyContainer">
+                        <div className="philosophyBody">
+                {/* <img src="/img/HomePage/media/amico.png" alt="" /> */}
+                <div className="philosophyFormWrapper">
+                    <div className="philosophyForm">
+                        <h3>Request a callback</h3>
+                        <div className="customInput">
+                            <label htmlFor="philosophyFirstName" className={firstName && "labelToTop"}>First Name</label>
+                            <input id="philosophyFirstName" className={firstName && "activeInput"} value={firstName} onChange={(e)=>setFirstName(e.target.value)} type="text" placeholder="" />
                         </div>
+                        <div className="customInput">
+                            <label htmlFor="philosophyLastName" className={lastName && "labelToTop"} >Last Name</label>
+                            <input id="philosophyLastName" className={lastName && "activeInput"} value={lastName} onChange={(e)=>setLastName(e.target.value)} type="text" placeholder="" />
+                        </div>
+                        <div className="customInput">
+                            <label htmlFor="philosophyEmail" className={email && "labelToTop"}>Email Id</label>
+                            <input id="philosophyEmail" className={email && "activeInput"} onClick={email} onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="" />
+                        </div>
+                        <div className="customInput">
+                            <label htmlFor="philosophyMobile" className={mobile && "labelToTop"}>Mobile</label>
+                            <input id="philosophyMobile" className={mobile && "activeInput"} onClick={mobile} onChange={(e)=>setMobile(e.target.value)} type="text" placeholder="" />
+                        </div>
+                        <button type="button" class="philosophySubmitButton">
+                            Submit
+                        </button>
                     </div>
                 </div>
+            </div>
+                    </div>
+                </div>
+            </div>
             </div>
         </>
     )
