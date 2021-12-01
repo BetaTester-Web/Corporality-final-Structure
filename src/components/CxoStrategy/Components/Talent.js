@@ -1,55 +1,54 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "./CxoStrategy.css"
+import "./CxoStrategy.css";
 
-document.addEventListener("DOMContentLoaded", () => {
-  const button1 = document.querySelector(".cxo-button-1");
-  const button2 = document.querySelector(".cxo-button-2");
-  const button3 = document.querySelector(".cxo-button-3");
-  const button4 = document.querySelector(".cxo-button-4");
-  const diamond1 = document.querySelector(".diamond-1");
-  const diamond2 = document.querySelector(".diamond-2");
-  const diamond3 = document.querySelector(".diamond-3");
-  const diamond4 = document.querySelector(".diamond-4");
+// document.addEventListener("DOMContentLoaded", () => {
+//   const button1 = document.querySelector(".cxo-button-1");
+//   const button2 = document.querySelector(".cxo-button-2");
+//   const button3 = document.querySelector(".cxo-button-3");
+//   const button4 = document.querySelector(".cxo-button-4");
+//   const diamond1 = document.querySelector(".diamond-1");
+//   const diamond2 = document.querySelector(".diamond-2");
+//   const diamond3 = document.querySelector(".diamond-3");
+//   const diamond4 = document.querySelector(".diamond-4");
 
+//   button1.addEventListener("click", () => {
+//     if (diamond1.classList.contains("diamond-1")) {
+//       diamond1.classList.add("active");
+//       diamond2.classList.remove("active");
+//       diamond3.classList.remove("active");
+//       diamond4.classList.remove("active");
+//     }
+//   });
 
-  button1.addEventListener("click", () => {
-    if (diamond1.classList.contains("diamond-1")) {
-      diamond1.classList.add("active");
-      diamond2.classList.remove("active");
-      diamond3.classList.remove("active");
-      diamond4.classList.remove("active");
-    }
-  });
+//   button2.addEventListener("click", () => {
+//     if (diamond2.classList.contains("diamond-2")) {
+//       diamond2.classList.add("active");
+//       diamond1.classList.remove("active");
+//       diamond3.classList.remove("active");
+//       diamond4.classList.remove("active");
+//     }
+//   });
 
-  button2.addEventListener("click", () => {
-    if (diamond2.classList.contains("diamond-2")) {
-      diamond2.classList.add("active");
-      diamond1.classList.remove("active");
-      diamond3.classList.remove("active");
-      diamond4.classList.remove("active");
-    }
-  });
+//   button3.addEventListener("click", () => {
+//     if (diamond3.classList.contains("diamond-3")) {
+//       diamond3.classList.add("active");
+//       diamond1.classList.remove("active");
+//       diamond2.classList.remove("active");
+//       diamond4.classList.remove("active");
+//     }
+//   });
 
-  button3.addEventListener("click", () => {
-    if (diamond3.classList.contains("diamond-3")) {
-      diamond3.classList.add("active");
-      diamond1.classList.remove("active");
-      diamond2.classList.remove("active");
-      diamond4.classList.remove("active");
-    }
-  });
-
-  button4.addEventListener("click", () => {
-    if (diamond4.classList.contains("diamond-4")) {
-      diamond4.classList.add("active");
-      diamond1.classList.remove("active");
-      diamond3.classList.remove("active");
-      diamond2.classList.remove("active");
-    }
-  });
-});
+//   button4.addEventListener("click", () => {
+//     if (diamond4.classList.contains("diamond-4")) {
+//       diamond4.classList.add("active");
+//       diamond1.classList.remove("active");
+//       diamond3.classList.remove("active");
+//       diamond2.classList.remove("active");
+//     }
+//   });
+// });
 
 export default function Talent() {
   useEffect(() => {
@@ -59,10 +58,20 @@ export default function Talent() {
   return (
     <>
       <div className="container talent">
-        <h1 className="Talent-heading" data-aos="fade-down" data-aos-duration="1000">Top Executive Talent that delivers</h1>
+        <h1
+          className="Talent-heading"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+        >
+          Top Executive Talent that delivers
+        </h1>
 
-        <p className="Talent-paragraph-content" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
-          
+        <p
+          className="Talent-paragraph-content"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="500"
+        >
           Our leadership team comes with years of experience, expertise, and
           success in resolving customer issues. Our contributors define business
           goals, marketing strategies, and pre-plan outcomes to deliver
@@ -71,7 +80,12 @@ export default function Talent() {
 
         {/* button */}
 
-        <div className="container Talent-buttons-container" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="1000">
+        <div
+          className="container Talent-buttons-container"
+          data-aos="fade-down"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+        >
           <div className="row">
             {/* button 1 */}
             <div className="col text-center cxo-button-1">
@@ -105,7 +119,6 @@ export default function Talent() {
         {/* container 1 */}
         <div className="container Talent-box-container my-3 diamond-1 active">
           <div className="row d-flex justify-content-evenly">
-            
             <div data-aos="fade-right" className="col text-center">
               <div className="talent-1">
                 <div className=" Talent-box-outer-2">
@@ -119,7 +132,11 @@ export default function Talent() {
               </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="300" className="col text-center">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              className="col text-center"
+            >
               <div className="talent-2">
                 <div className=" Talent-box-outer-1">
                   <div className=" text-center Talent-box-inner-1">
@@ -132,7 +149,11 @@ export default function Talent() {
               </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="500" className="col text-center">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="500"
+              className="col text-center"
+            >
               <div className="talent-3">
                 <div className="Talent-box-outer-2">
                   <div className=" text-center Talent-box-inner-1">
@@ -145,7 +166,11 @@ export default function Talent() {
               </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="700" className="col text-center">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="700"
+              className="col text-center"
+            >
               <div className="talent-4">
                 <div className="Talent-box-outer-1">
                   <div className=" text-center Talent-box-inner-1">
@@ -158,7 +183,11 @@ export default function Talent() {
               </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="900" className="col text-center">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="900"
+              className="col text-center"
+            >
               <div className="talent-5">
                 <div className=" Talent-box-outer-2">
                   <div className="text-center Talent-box-inner-1">
@@ -170,13 +199,11 @@ export default function Talent() {
                 </div>
               </div>
             </div>
-
           </div>
         </div>
         {/* container 2 */}
         <div className="container Talent-box-container-2 my-3 diamond-2">
           <div className="row d-flex justify-content-evenly">
-
             <div data-aos="fade-right" className="col text-center">
               <div className="talent-1">
                 <div className=" Talent-box-outer-2-2">
@@ -190,7 +217,11 @@ export default function Talent() {
               </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="300" className="col text-center">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              className="col text-center"
+            >
               <div className="talent-2">
                 <div className=" Talent-box-outer-1-2">
                   <div className=" text-center Talent-box-inner-1-2">
@@ -203,7 +234,11 @@ export default function Talent() {
               </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="500"className="col text-center">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="500"
+              className="col text-center"
+            >
               <div className="talent-3">
                 <div className="Talent-box-outer-2-2">
                   <div className=" text-center Talent-box-inner-1-2">
@@ -216,7 +251,11 @@ export default function Talent() {
               </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="700" className="col text-center">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="700"
+              className="col text-center"
+            >
               <div className="talent-4">
                 <div className="Talent-box-outer-1-2">
                   <div className=" text-center Talent-box-inner-1-2">
@@ -229,7 +268,11 @@ export default function Talent() {
               </div>
             </div>
 
-            <div data-aos="fade-right"  data-aos-delay="900" className="col text-center">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="900"
+              className="col text-center"
+            >
               <div className="talent-5">
                 <div className=" Talent-box-outer-2-2">
                   <div className="text-center Talent-box-inner-1-2">
