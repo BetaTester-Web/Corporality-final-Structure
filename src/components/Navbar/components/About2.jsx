@@ -8,9 +8,9 @@ import { NavbarContext } from '../Context/NavbarContext';
 const About2 = () => {
     const {menuId, showAbout2, setShowAbout2, setNavClicked} = useContext(NavbarContext);
     const data = {
-        1 : [{name : "About Corporality", route : "/AboutCorporality"},{name : "How We Work with Clients", route : "/"},{name :"Inclusion and Diversity", route : ""}, {name : "Partner Programmes", route : "/PartnershipProgrammes"}, {name : "Sustainable Growth", route : "/"}],
-        2 : [{name : "Interactive Blueprint", route : "/InteractiveBluePrint"}, {name : "Strategy and Consulting", route : "/StrategyConsultancy"}],
-        3 : [{name : "Careers", route : "/"}]
+        1 : [{name : "About Corporality", route : "/about-corporality"},{name : "How We Work with Clients", route : "/work-with-clients"},{name :"Inclusion and Diversity", route : "/inclusion-and-diversity"}, {name : "Partner Programmes", route : "/partnership-programmes"}, {name : "Sustainable Growth", route : "/sustainable-growth"}],
+        2 : [{name : "Interactive Blueprint", route : "/interactive-blueprint"}, {name : "Strategy and Consulting", route : "/strategy-and-consulting"}],
+        3 : [{name : "Careers", route : "/careers"}]
     }
 
     const handleGoBack = () => {
