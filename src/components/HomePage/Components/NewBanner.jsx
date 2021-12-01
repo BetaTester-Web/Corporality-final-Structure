@@ -1,9 +1,15 @@
-import React, { createRef, useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import "./NewBanner.css"
 
 const NewBanner = () => {
     const [indicatorId, setIndicatorId] = useState(1);
     const [showYoutube, setShowYoutube] = useState(false);
+    const youtubeVid = useRef()
+
+    const rightBannerClickHandler = () => {
+        setShowYoutube(true)
+        youtubeVid.current.src += "?autoplay=1"
+    }
     
     useEffect(() => {
         setInterval(() => {
@@ -53,31 +59,31 @@ const NewBanner = () => {
                     <div className="bannerSocialLinksContainer">
                         <h2 className="bannerSocialText">Social</h2>
                         <div className="socialIconsContainer">
-                            <div className="socialIcon">
+                            <div className="socialIcon" onClick={() => window.open("https://www.facebook.com/CorporalityG/")}>
                                 <i className="fa fa-facebook-f"></i>
                             </div>
-                            <div className="socialIcon">
+                            <div className="socialIcon" onClick={() => window.open("https://twitter.com/corporalityg/")}>
                                 <i className="fa fa-twitter"></i>
                             </div>
-                            <div className="socialIcon">
+                            <div className="socialIcon" onClick={() => window.open("https://www.instagram.com/corporalityg/")}>
                                 <i className="fa fa-instagram"></i>
                             </div>
-                            <div className="socialIcon">
+                            <div className="socialIcon" onClick={() => window.open("https://www.linkedin.com/company/corporalityg/")}>
                                 <i className="fa fa-linkedin"></i>
                             </div>
-                            <div className="socialIcon">
+                            <div className="socialIcon" onClick={() => window.open("https://in.pinterest.com/CorporalityG/_created/")}>
                                 <i className="fa fa-pinterest"></i>
                             </div>
-                            <div className="socialIcon">
+                            <div className="socialIcon" onClick={() => window.open("https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg")}>
                                 <i className="fa fa-youtube-play"></i>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="rightBannerContainer">
-                <img className={showYoutube ? "hidden" : ""} onClick={() => setShowYoutube(true)} src="/img/HomePage/media/bannerThumbnail.png" alt="" />
-                <iframe className={showYoutube ? "" : "hidden"} width="560" height="315" src="https://www.youtube.com/embed/0g9B3ZC5Hvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div className="rightBannerContainer"  onClick={rightBannerClickHandler}>
+                {!showYoutube && <img src="/img/HomePage/media/yt-icon-right.png" alt="" />}
+                <iframe ref={youtubeVid} className={showYoutube ? "" : "hidden"} width="560" height="315" src="https://www.youtube.com/embed/0g9B3ZC5Hvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className="twoDiamonds">
                 <div data-aos="fade-right" className="bigDiamond">
