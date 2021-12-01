@@ -197,7 +197,7 @@
   height: 2.056vw !important;
   width: 2vw !important;
   min-height: 2.056vw !important;
-  min-width: 2vw !important;
+  min-width: 2.056vw !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -226,7 +226,7 @@
 
 .bannerContainer .rightBannerContainer {
   position: absolute;
-  bottom: 0px !important;
+  bottom: 2px !important;
   right: 0px;
   width: 20%;
   height: 26%;
@@ -407,9 +407,6 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .bannerContainer .rightBannerContainer {
-    bottom: -3px !important;
-  }
   .bannerContainer .square-1 {
     -webkit-transform: scale(0.7);
             transform: scale(0.7);

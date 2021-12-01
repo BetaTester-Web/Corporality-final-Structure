@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { createRef, useEffect, useRef } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Services2.css";
@@ -6,87 +6,27 @@ import ellipse_1 from "./images/ellipse_1.png";
 import vector_1 from "./images/vector_1.png";
 
 function Services() {
-  // var services_button1 = document.querySelector("#button_main_1");
-  // var services_button2 = document.querySelector("#button_main_2");
-  // var services_button3 = document.querySelector("#button_main_3");
-  // var services_button4 = document.querySelector("#button_main_4");
-  // var services_button5 = document.querySelector("#button_main_5");
-  // var services_button6 = document.querySelector("#button_main_6");
-  // var services_button7 = document.querySelector("#button_main_7");
 
-  // services_button1.addEventListener("click", () => {
-  //   services_button1.classList.add("button_active");
-  //   services_button2.classList.remove("button_active");
-  //   services_button3.classList.remove("button_active");
-  //   services_button4.classList.remove("button_active");
-  //   services_button5.classList.remove("button_active");
-  //   services_button6.classList.remove("button_active");
-  //   services_button7.classList.remove("button_active");
-  // });
-
-  function Show1() {
-    document.getElementById("content_points_1").style.display = "block";
-    document.getElementById("content_points_2").style.display = "none";
-    document.getElementById("content_points_3").style.display = "none";
-    document.getElementById("content_points_4").style.display = "none";
-    document.getElementById("content_points_5").style.display = "none";
-    document.getElementById("content_points_6").style.display = "none";
-    document.getElementById("content_points_7").style.display = "none";
+  const showOneButton = (ele) => {
+    const buttons = document.querySelectorAll(".button_main");
+    ele.classList.add("button_active");
+    for(var i of buttons){
+      if(i !== ele){
+        i.classList.remove("button_active");
+      }
+    }
+  }
+  const showOneDiv = (index) => {
+    document.querySelector(`.points_container:nth-child(${index})`).style.display = "block";
+    const divs = document.querySelectorAll(`.points_container:not(:nth-child(${index}))`);
+    for(let i of divs){
+      i.style.display = "none";
+    }
   }
 
-  function Show2() {
-    document.getElementById("content_points_1").style.display = "none";
-    document.getElementById("content_points_2").style.display = "block";
-    document.getElementById("content_points_3").style.display = "none";
-    document.getElementById("content_points_4").style.display = "none";
-    document.getElementById("content_points_5").style.display = "none";
-    document.getElementById("content_points_6").style.display = "none";
-    document.getElementById("content_points_7").style.display = "none";
-  }
-  function Show3() {
-    document.getElementById("content_points_1").style.display = "none";
-    document.getElementById("content_points_2").style.display = "none";
-    document.getElementById("content_points_3").style.display = "block";
-    document.getElementById("content_points_4").style.display = "none";
-    document.getElementById("content_points_5").style.display = "none";
-    document.getElementById("content_points_6").style.display = "none";
-    document.getElementById("content_points_7").style.display = "none";
-  }
-  function Show4() {
-    document.getElementById("content_points_1").style.display = "none";
-    document.getElementById("content_points_2").style.display = "none";
-    document.getElementById("content_points_3").style.display = "none";
-    document.getElementById("content_points_4").style.display = "block";
-    document.getElementById("content_points_5").style.display = "none";
-    document.getElementById("content_points_6").style.display = "none";
-    document.getElementById("content_points_7").style.display = "none";
-  }
-  function Show5() {
-    document.getElementById("content_points_1").style.display = "none";
-    document.getElementById("content_points_2").style.display = "none";
-    document.getElementById("content_points_3").style.display = "none";
-    document.getElementById("content_points_4").style.display = "none";
-    document.getElementById("content_points_5").style.display = "block";
-    document.getElementById("content_points_6").style.display = "none";
-    document.getElementById("content_points_7").style.display = "none";
-  }
-  function Show6() {
-    document.getElementById("content_points_1").style.display = "none";
-    document.getElementById("content_points_2").style.display = "none";
-    document.getElementById("content_points_3").style.display = "none";
-    document.getElementById("content_points_4").style.display = "none";
-    document.getElementById("content_points_5").style.display = "none";
-    document.getElementById("content_points_6").style.display = "block";
-    document.getElementById("content_points_7").style.display = "none";
-  }
-  function Show7() {
-    document.getElementById("content_points_1").style.display = "none";
-    document.getElementById("content_points_2").style.display = "none";
-    document.getElementById("content_points_3").style.display = "none";
-    document.getElementById("content_points_4").style.display = "none";
-    document.getElementById("content_points_5").style.display = "none";
-    document.getElementById("content_points_6").style.display = "none";
-    document.getElementById("content_points_7").style.display = "block";
+  const buttonHandler = ({ele, index}) => {
+    showOneButton(ele);
+    showOneDiv(index);
   }
 
   useEffect(() => {
@@ -98,25 +38,25 @@ function Services() {
       <div className="services_heading">Services</div>
       <div className="button_container container">
         <div className="button_list">
-          <div className="button_main" id="button_main_1" onClick={Show1}>
+          <div className="button_main button_active" id="button_main_1" onClick={(e) => buttonHandler({ele: e.target, index: 1})}>
             Go-to-Marketing
           </div>
-          <div className="button_main" id="button_main_2" onClick={Show2}>
+          <div className="button_main" id="button_main_2" onClick={(e) => buttonHandler({ele: e.target, index: 2})}>
             Digital Media Markeing
           </div>
-          <div className="button_main" id="button_main_3" onClick={Show3}>
+          <div className="button_main" id="button_main_3" onClick={(e) => buttonHandler({ele: e.target, index: 3})}>
             Strategic Consulting
           </div>
-          <div className="button_main" id="button_main_4" onClick={Show4}>
+          <div className="button_main" id="button_main_4" onClick={(e) => buttonHandler({ele: e.target, index: 4})}>
             Corporate Level Strategy
           </div>
-          <div className="button_main" id="button_main_5" onClick={Show5}>
+          <div className="button_main" id="button_main_5" onClick={(e) => buttonHandler({ele: e.target, index: 5})}>
             Product Strategy
           </div>
-          <div className="button_main" id="button_main_6" onClick={Show6}>
+          <div className="button_main" id="button_main_6" onClick={(e) => buttonHandler({ele: e.target, index: 6})}>
             Brand Positioning
           </div>
-          <div className="button_main" id="button_main_7" onClick={Show7}>
+          <div className="button_main" id="button_main_7" onClick={(e) => buttonHandler({ele: e.target, index: 7})}>
             Outsourced CXO
           </div>
         </div>
@@ -131,7 +71,7 @@ function Services() {
             data-aos-easing="ease-in-out"
             data-aos-offset="0"
           >
-            <div className="container container_padding " id="content_points_1">
+            <div className="container container_padding points_container" id="content_points_1">
               <div className="right_content_heading">
                 For game changing business growth with product ‘push’
                 strategies:
@@ -173,7 +113,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="container container_padding" id="content_points_2">
+          <div className="container container_padding points_container" id="content_points_2">
             <div className="right_content_heading">
               Turning content into intelligent information
             </div>
@@ -219,7 +159,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="container container_padding" id="content_points_3">
+          <div className="container container_padding points_container" id="content_points_3">
             <div className="right_content_heading">
               Unmatched results with a unique approach to business growth
             </div>
@@ -266,7 +206,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="container container_padding" id="content_points_4">
+          <div className="container container_padding points_container" id="content_points_4">
             <div className="right_content_heading">
               The intended maturity model and methodology
             </div>
@@ -314,7 +254,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="container container_padding" id="content_points_5">
+          <div className="container container_padding points_container" id="content_points_5">
             <div className="right_content_heading">
               Bringing product ideas to life for sustainable growth
             </div>
@@ -363,7 +303,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="container container_padding" id="content_points_6">
+          <div className="container container_padding points_container" id="content_points_6">
             <div className="right_content_heading">
               Visualising important dimensions of your brand
             </div>
@@ -413,7 +353,7 @@ function Services() {
             </div>
           </div>
 
-          <div className="container container_padding" id="content_points_7">
+          <div className="container container_padding points_container" id="content_points_7">
             <div className="right_content_heading">
               Differentiated brand experiences
             </div>

@@ -11,7 +11,9 @@
 .container_padding {
   padding: 10px !important;
 }
-
+#content_points_1{
+  display: block;
+}
 #content_points_2,
 #content_points_3,
 #content_points_4,
@@ -73,6 +75,10 @@
 }
 
 .button_main:active {
+  background-color: #5f8298;
+  color: white;
+}
+.button_main:focus {
   background-color: #5f8298;
   color: white;
 }
