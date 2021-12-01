@@ -31,6 +31,7 @@ import "./CxoStrategy.css";
 //     }
 //   });
 
+
 //   button3.addEventListener("click", () => {
 //     if (diamond3.classList.contains("diamond-3")) {
 //       diamond3.classList.add("active");
@@ -66,12 +67,14 @@ export default function Talent() {
           Top Executive Talent that delivers
         </h1>
 
+
         <p
           className="Talent-paragraph-content"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="500"
         >
+
           Our leadership team comes with years of experience, expertise, and
           success in resolving customer issues. Our contributors define business
           goals, marketing strategies, and pre-plan outcomes to deliver
@@ -119,6 +122,7 @@ export default function Talent() {
         {/* container 1 */}
         <div className="container Talent-box-container my-3 diamond-1 active">
           <div className="row d-flex justify-content-evenly">
+
             <div data-aos="fade-right" className="col text-center">
               <div className="talent-1">
                 <div className=" Talent-box-outer-2">
@@ -347,7 +351,7 @@ export default function Talent() {
           <div className="text-center Talent-box-inner-1-3">
             <p className="Talent-box-inner-text-1 inner-text-2"> Setting Final Goals </p>
           </div>
-        </div> 
+        </div>
       </div>
     </div> */}
           </div>
