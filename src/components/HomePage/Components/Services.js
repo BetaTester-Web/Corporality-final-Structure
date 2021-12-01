@@ -6,6 +6,24 @@ import ellipse_1 from "./images/ellipse_1.png";
 import vector_1 from "./images/vector_1.png";
 
 function Services() {
+  // var services_button1 = document.querySelector("#button_main_1");
+  // var services_button2 = document.querySelector("#button_main_2");
+  // var services_button3 = document.querySelector("#button_main_3");
+  // var services_button4 = document.querySelector("#button_main_4");
+  // var services_button5 = document.querySelector("#button_main_5");
+  // var services_button6 = document.querySelector("#button_main_6");
+  // var services_button7 = document.querySelector("#button_main_7");
+
+  // services_button1.addEventListener("click", () => {
+  //   services_button1.classList.add("button_active");
+  //   services_button2.classList.remove("button_active");
+  //   services_button3.classList.remove("button_active");
+  //   services_button4.classList.remove("button_active");
+  //   services_button5.classList.remove("button_active");
+  //   services_button6.classList.remove("button_active");
+  //   services_button7.classList.remove("button_active");
+  // });
+
   function Show1() {
     document.getElementById("content_points_1").style.display = "block";
     document.getElementById("content_points_2").style.display = "none";
@@ -80,25 +98,25 @@ function Services() {
       <div className="services_heading">Services</div>
       <div className="button_container container">
         <div className="button_list">
-          <div className="button_main" id=" button_main_1" onClick={Show1}>
+          <div className="button_main" id="button_main_1" onClick={Show1}>
             Go-to-Marketing
           </div>
           <div className="button_main" id="button_main_2" onClick={Show2}>
             Digital Media Markeing
           </div>
-          <div className="button_main button_main_3" onClick={Show3}>
+          <div className="button_main" id="button_main_3" onClick={Show3}>
             Strategic Consulting
           </div>
-          <div className="button_main button_main_4" onClick={Show4}>
+          <div className="button_main" id="button_main_4" onClick={Show4}>
             Corporate Level Strategy
           </div>
-          <div className="button_main button_main_5" onClick={Show5}>
+          <div className="button_main" id="button_main_5" onClick={Show5}>
             Product Strategy
           </div>
-          <div className="button_main button_main_6" onClick={Show6}>
+          <div className="button_main" id="button_main_6" onClick={Show6}>
             Brand Positioning
           </div>
-          <div className="button_main button_main_7" onClick={Show7}>
+          <div className="button_main" id="button_main_7" onClick={Show7}>
             Outsourced CXO
           </div>
         </div>

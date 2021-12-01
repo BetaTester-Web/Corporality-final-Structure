@@ -5,8 +5,8 @@ import rightArrow from "../Components/images/vector_1.png"
 export default function Banner2() {
   return (
     <>
-      <div className="vw-100 d-flex justify-content-evenly align-items-center flex-wrap my-5 dbanner">
-        <div className="sbox d-flex align-items-center my-3 mx-3 justify-content-evenly position-relative">
+      <div className="d-flex justify-content-evenly align-items-center flex-wrap py-0 dbanner">
+        <div data-aos="flip-left" className="sbox d-flex align-items-center my-3 mx-3 justify-content-evenly position-relative">
           <div className="boxContent p-3 align-items-center position-absolute">
             <p className="text-uppercase boxHead text-center mt-5">
               Industry Focus
@@ -43,7 +43,7 @@ export default function Banner2() {
             </div>
           </div>
         </div>
-        <div className="sbox d-flex align-items-center my-3 mx-3 justify-content-evenly position-relative">
+        <div data-aos="flip-right" className="sbox d-flex align-items-center my-3 mx-3 justify-content-evenly position-relative">
           <div className="boxContent p-3 align-items-center position-absolute">
             <p className="text-uppercase boxHead text-center mt-5">
               Social Impact
@@ -84,7 +84,7 @@ export default function Banner2() {
             </div>
           </div>
         </div>
-        <div className="sbox d-flex align-items-center my-3 mx-3 justify-content-evenly position-relative">
+        <div data-aos="flip-left" className="sbox d-flex align-items-center my-3 mx-3 justify-content-evenly position-relative">
           <div className="boxContent p-3 align-items-center position-absolute">
             <p className="text-uppercase boxHead text-center mt-5">Agility</p>
             <p className="text-wrap text-center mt-2">

@@ -1,0 +1,88 @@
+.BP-c3-p {
+  font-style: Medium;
+  font-style: 16px;
+  line-height: 150%;
+  vertical-align: Top;
+  color: white;
+  text-align: left;
+}
+.BP-c3-h {
+  font-style: Bold;
+  font-style: 30px;
+  line-height: 130%;
+
+  text-align: left;
+  vertical-align: Top;
+  color: white;
+
+  text-transform: uppercase;
+}
+.BP-c3-d {
+  width: 60%;
+  padding: 2%;
+  text-align: center;
+  position: relative;
+  left: 40%;
+  background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
+  color: #ffffff;
+  margin-top: 10%;
+  margin-bottom: -18%;
+  z-index: 1;
+}
+
+.BP-CP-4-img-d {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.BP-CP-4-img {
+  width: 100%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 992px) {
+  .BP-c3-p {
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 150%;
+    vertical-align: Top;
+    color: white;
+    text-align: left;
+  }
+  .BP-c3-h {
+    font-style: Bold;
+    font-size: 16px;
+    line-height: 130%;
+
+    text-align: left;
+    vertical-align: Top;
+    color: white;
+
+    text-transform: uppercase;
+  }
+  .bp-cd4-textdiv {
+    position: relative;
+    bottom: 58%;
+  }
+}
+@media screen and (max-width: 360px) {
+  .BP-c3-p {
+    font-style: Medium;
+    font-size: 10px;
+    line-height: 150%;
+    vertical-align: Top;
+    color: white;
+    text-align: left;
+  }
+  .BP-c3-h {
+    font-style: Bold;
+    font-size: 14px;
+    line-height: 130%;
+
+    text-align: left;
+    vertical-align: Top;
+    color: white;
+
+    text-transform: uppercase;
+  }
+}

@@ -39,7 +39,7 @@ const ConForm = () => {
                     <div className="d-lg-flex align-items-center justify-content-between ">
                         <div className="conform-info-box m-5">
                             <h2 className="conform-info-heading">LET’S TALK</h2>
-                            <p className="conform-info-para">Our customer experience experts are always ready to provide you with all the answers. <br /> Call us now!</p>
+                            <p className="conform-info-para">Our customer experience experts are always ready to provide you with all the answers. Call us now!</p>
                             <div data-aos="fade-right">
 
                                 <div className="conformc-add position-relative">
@@ -47,13 +47,17 @@ const ConForm = () => {
                                         <img className="img-fluid" src="./img/Contact/Group 783.png" alt="" />
                                     </div>
 
-                                    <div className="conform-diamond">
+                                <div className="jhvwwchv">
 
-                                        <img className="img-fluid conform-diamo conform-cal" src="./img/Contact/Group 709.png" alt="" />
+                                    <div className="conform-diamond">
+                                        <div className="callconform">
+                                            <img className="img-fluid" src="./img/Contact/Group 709.png" alt="" />
+                                        </div>
                                         <p>+61 2 83794089</p>
                                         <div className="conformhollowDia"></div>
                                     </div>
 
+                                </div>
                                 </div>
 
                             </div>
