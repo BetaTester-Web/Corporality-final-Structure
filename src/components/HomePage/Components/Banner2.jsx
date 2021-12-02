@@ -22,21 +22,21 @@ export default function Banner2() {
           </div>
           <div className="littleD align-items-center position-absolute top-0 start-50 translate-middle-x">
             <div className="purpleD align-items-center"></div>
-            <div className="position-absolute top-50 start-50 translate-middle align-items-centerdImg">
+            <div className="position-absolute top-50 start-50 translate-middle align-items-center dImg">
               <img src="/img/HomePage/media/Vector.png" alt="" className="img-fluid" />
             </div>
           </div>
           <div className="box shadow-lg border position-relative">
             <div className="position-absolute start-50 top-0 translate-middle-x my-4">
               <img
-                src="/img/HomePage/media/Polygon 23.png"
+                src="/img/HomePage/media/polygon-23.png"
                 alt=""
                 className="img-fluid dd1"
               />
             </div>
             <div className="position-absolute start-0 bottom-0 translate-middle-x mx-4 my-5">
               <img
-                src="/img/HomePage/media/Polygon 24.png"
+                src="/img/HomePage/media/polygon-24.png"
                 alt=""
                 className="img-fluid dd1"
               />
@@ -59,9 +59,10 @@ export default function Banner2() {
           </div>
           <div className="littleD align-items-center position-absolute top-0 start-50 translate-middle-x">
             <div className="purpleD align-items-center"></div>
-            <div className="position-absolute top-50 start-50 translate-middle align-items-centerdImg">
+            <div className="position-absolute top-50 start-50 translate-middle align-items-center dImg">
               <img
-                src="/img/HomePage/media/planet-earth 1.png"
+                // src="/img/HomePage/media/planet-earth 1.png"
+                src="/img/HomePage/media/planet.png"
                 alt=""
                 className="img-fluid"
               />
@@ -70,14 +71,14 @@ export default function Banner2() {
           <div className="box shadow-lg border">
             <div className="position-absolute start-50 top-0 translate-middle-x my-4">
               <img
-                src="/img/HomePage/media/Polygon 23.png"
+                src="/img/HomePage/media/polygon-23.png"
                 alt=""
                 className="img-fluid dd1"
               />
             </div>
             <div className="position-absolute start-0 bottom-0 translate-middle-x mx-4 my-5">
               <img
-                src="/img/HomePage/media/Polygon 24.png"
+                src="/img/HomePage/media/polygon-24.png"
                 alt=""
                 className="img-fluid dd1"
               />
@@ -98,21 +99,21 @@ export default function Banner2() {
           </div>
           <div className="littleD align-items-center position-absolute top-0 start-50 translate-middle-x">
             <div className="purpleD align-items-center"></div>
-            <div className="position-absolute top-50 start-50 translate-middle align-items-centerdImg">
-              <img src="/img/HomePage/media/agile (1) 1.png" alt="" className="img-fluid" />
+            <div className="position-absolute top-50 start-50 translate-middle align-items-center dImg">
+              <img src="/img/HomePage/media/agile.png" alt="" className="img-fluid" />
             </div>
           </div>
           <div className="box shadow-lg border">
             <div className="position-absolute start-50 top-0 translate-middle-x my-4">
               <img
-                src="/img/HomePage/media/Polygon 23.png"
+                src="/img/HomePage/media/polygon-23.png"
                 alt=""
                 className="img-fluid dd1"
               />
             </div>
             <div className="position-absolute start-0 bottom-0 translate-middle-x mx-4 my-5">
               <img
-                src="/img/HomePage/media/Polygon 24.png"
+                src="/img/HomePage/media/polygon-24.png"
                 alt=""
                 className="img-fluid dd1"
               />
