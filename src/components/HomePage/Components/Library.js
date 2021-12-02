@@ -4,84 +4,80 @@ import img1 from "./images/blog/img1.jpg";
 import img2 from "./images/blog/img2.jpg";
 import img3 from "./images/blog/img3.jpg";
 import img4 from "./images/blog/img4.jpg";
+import { right } from "@popperjs/core";
 
 function Library() {
-  function showimage1() {
-    document.getElementById("image1").style.display = "block";
-    document.getElementById("image2").style.display = "none";
-    document.getElementById("image3").style.display = "none";
-    document.getElementById("image4").style.display = "none";
+
+  const showOneSection = (index) => {
+    const classes = ["text_active_first", "text_active_second", "text_active_third", "text_active_forth"];
+    const buttons = document.querySelectorAll(".hm-library_left_btns");
+    buttons[index].classList.add(classes[index]);
+    for(let i = 0; i < buttons.length; i++) {
+      if(i != index){
+        if(buttons[i].classList.contains(classes[i])){
+          buttons[i].classList.remove(classes[i]);
+        }
+      }
+    }
+    const rightDivs = document.querySelectorAll(".hm-right-side-div");
+    rightDivs[index].style.display = "block";
+    for(let i = 0; i < rightDivs.length; i++){
+      if(i != index){
+        rightDivs[i].style.display = "none";
+      }
+    }
   }
 
-  function showimage2() {
-    document.getElementById("image1").style.display = "none";
-    document.getElementById("image2").style.display = "block";
-    document.getElementById("image3").style.display = "none";
-    document.getElementById("image4").style.display = "none";
-  }
 
-  function showimage3() {
-    document.getElementById("image1").style.display = "none";
-    document.getElementById("image2").style.display = "none";
-    document.getElementById("image3").style.display = "block";
-    document.getElementById("image4").style.display = "none";
-  }
-
-  function showimage4() {
-    document.getElementById("image1").style.display = "none";
-    document.getElementById("image2").style.display = "none";
-    document.getElementById("image3").style.display = "none";
-    document.getElementById("image4").style.display = "block";
-  }
 
   return (
     <>
       <div className="main_container">
         <div className="content_side">
           <div
-            className="text1 text_active_first aos-init"
+            className="text1 aos-init hm-library_left_btns text_active_first"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-offset="0"
-            onClick={showimage1}
+            onClick={() => showOneSection(0)}
           >
             Industry Research
           </div>
           <div
-            className="text1 text_active_second  aos-init"
+            className="text1 aos-init hm-library_left_btns"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-offset="0"
-            onClick={showimage2}
+            onClick={() => showOneSection(1)}
           >
             Video Library
           </div>
           <div
-            className="text1 text_active_third  aos-init"
+            className="text1 aos-init hm-library_left_btns"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-offset="0"
-            onClick={showimage3}
+            onClick={() => showOneSection(2)}
           >
             Blog
           </div>
           <div
-            className="text1 text_active_forth  aos-init"
+            className="text1 aos-init hm-library_left_btns"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
             data-aos-offset="0"
-            onClick={showimage4}
+            onClick={() => showOneSection(3)}
           >
             Download Resources
           </div>
         </div>
 
         <div
-          className="image_side  aos-init"
+          className="image_side aos-init hm-right-side-div"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -101,7 +97,7 @@ function Library() {
           </div>
         </div>
         <div
-          className="image_side image_side_2  aos-init"
+          className="image_side image_side_2 aos-init hm-right-side-div"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -122,7 +118,7 @@ function Library() {
         </div>
 
         <div
-          className="image_side image_side_3  aos-init"
+          className="image_side image_side_3 aos-init hm-right-side-div"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -143,7 +139,7 @@ function Library() {
         </div>
 
         <div
-          className="image_side image_side_4  aos-init"
+          className="image_side image_side_4 aos-init hm-right-side-div"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
