@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useRef } from 'react';
+import React, { useEffect, useContext, useRef, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import "./Login.css"
@@ -10,6 +10,8 @@ import { Link } from "react-router-dom";
 
 
 function Login() {
+    const [username, setUsername] = useState("");
+    const [password, setPassword] = useState("");
     const userRef = useRef();
     const passwordRef = useRef();
     // const { dispatch, isFetching } = useContext(Context);
@@ -35,19 +37,22 @@ function Login() {
         });
     });
     return (
-        <div className="container mx-auto login-container-1">
-            <div className="row justify-content-between">
-                <div className="col-lg-5 col-md-8 col-10 mx-auto text-center">
-                    <form onSubmit={handleSubmit}>
-                        <h2>Login</h2>
-                        <input ref={userRef} placeholder="Username" className="loginInput mt-3 mb-1" required />
-                        <input ref={passwordRef} placeholder="Password" className="loginInput mt-1 mb-1" required type="password" />
-                        <div className="login-button-wrapper mt-1">
-                            {/* <button disabled={isFetching} type="submit" className="loginButton">Login</button> */}
-                            <button type="submit" className="loginButton">Login</button>
-                        </div>
-                    </form>
-                </div>
+        <div className="container">
+            <div className="philosophyForm mx-auto">
+                <form onSubmit={handleSubmit}>
+                    <h3 className="text-center">Login</h3>
+                    <div className="customInput">
+                        <label htmlFor="philosophyFirstName" className={username && "labelToTop"}>Username</label>
+                        <input ref={userRef} id="philosophyFirstName" className={username && "activeInput"} value={username} onChange={(e) => setUsername(e.target.value)} type="text" placeholder="" required />
+                    </div>
+                    <div className="customInput">
+                        <label htmlFor="philosophyEmail" className={password && "labelToTop"}>Password</label>
+                        <input ref={passwordRef} id="philosophyEmail" className={password && "activeInput"} onClick={password} onChange={(e) => setPassword(e.target.value)} type="password" placeholder="" required />
+                    </div>
+                    <button type="submit" class="philosophySubmitButton d-flex align-items-center justify-content-center">
+                        Submit
+                    </button>
+                </form>
             </div>
         </div>
     );
