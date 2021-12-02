@@ -1,12 +1,19 @@
 import "./SACComp3.css"
 import wall from "./images/wall.png"
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function SACComp3() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
         <div>
             <div className="sacc3Container">
                 <div className="sacc3TextContainer">
-                    <div className="sacc3TextWrapper d-flex flex-row">
+                    <div data-aos="flip-left" data-aos-delay="300" data-aos-duration="500" className="sacc3TextWrapper d-flex flex-row">
                         <div className="sacc3Left">
                             <img src={wall} alt="" />
                         </div>

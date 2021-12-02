@@ -1,11 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
 import "./Objectives.css";
 import D3_pie_chart_1 from "./images/D3_pie_chart_1.png";
 
 function Objectives() {
+  useEffect(() => {
+    Aos.init();
+  });
+
   return (
     <div className="objectives_main">
-      <div className="objectives_text">
+      <div
+        className="objectives_text  aos-init aos-animate"
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         <div className="objectives_heading">
           Objectives of our customer success programmes
         </div>
@@ -24,7 +34,12 @@ function Objectives() {
           noise to create directives to drop a product into the market.
         </div>
       </div>
-      <div className="objectives_image">
+      <div
+        className="objectives_image  aos-init aos-animate"
+        data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+      >
         <img src={D3_pie_chart_1} alt="Chart" />
       </div>
     </div>

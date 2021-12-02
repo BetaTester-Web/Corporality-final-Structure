@@ -219,6 +219,19 @@
   right: 100px;
 }
 
+.corporatefirst_bottom_phone::after {
+  z-index: 10 !important;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4.5vw;
+  width: 4.5vw;
+  background-color: white;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
 .corporatefirst_small_stars {
   position: absolute;
   top: 80px;
@@ -270,6 +283,11 @@
 
   .corporatefirst_left_text {
     padding-right: 10px !important;
+  }
+
+  .corporatefirst_bottom_phone::after {
+    height: 5.5vw;
+    width: 5.5vw;
   }
 }
 
@@ -329,6 +347,11 @@
     bottom: -100px;
     right: 100px;
   }
+
+  .corporatefirst_bottom_phone::after {
+    height: 8.5vw;
+    width: 8.5vw;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -374,6 +397,11 @@
   .corporatefirst_bottom_phone {
     right: 20px;
     bottom: -70px;
+  }
+
+  .corporatefirst_bottom_phone::after {
+    height: 12.5vw;
+    width: 12.5vw;
   }
 
   .corporatefirst_small_stars {

@@ -50,7 +50,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
+    width: 379px;
+    margin: 20px;
 }
 .sacc4RecCard:hover{
     box-shadow: 0px 7px 12px rgba(10, 10, 23, 0.1);
@@ -84,17 +86,16 @@
 .sacc4Top{
     flex-wrap: wrap !important;
 }
-.sacc4RecCard{
-    width: 379px;
-    margin: 20px;
-}
+
 .sacc4Bottom{
     margin-top: 100px; 
 }
 
 .sacc4DiamondCard{
-    width: 282.8px;
-    height: 282.8px;
+    /* width: 282.8px;
+    height: 282.8px; */
+    width: 300px;
+    height: 300px;
     /* width: 18.4vw;
     height: 18.4vw; */
     transform: rotate(45deg);
