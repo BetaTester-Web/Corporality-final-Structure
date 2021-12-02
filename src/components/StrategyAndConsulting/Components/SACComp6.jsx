@@ -35,7 +35,7 @@ function SACComp6() {
           children towards a better living through education.
         </div>
         <div className="SACC6_community_top_image">
-          <img src={img3} alt="" className="SACC4_community_top_image_image" />
+          <img src={img3} alt="" className="SACC6_community_top_image_image" />
         </div>
         <div className="SACC6_community_top_back_image">
           <img src={top_back} alt="" />

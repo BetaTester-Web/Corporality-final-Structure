@@ -3,12 +3,15 @@
     padding-bottom: 10px;
     background-color: #F8F8F8;
     /* overflow-x: hidden; */
-    padding-bottom: 80px;
+   /*  padding-bottom: 80px; */
+    margin-top: 80px;
+    padding-top: 80px;
 }
 .contoiner-3-Ideation{
     display: flex;
     align-items: center;
-    padding-top: 100px;
+    
+    /* padding-top: 100px; */
  
 }
 
@@ -117,7 +120,7 @@
     
 }
 .exploreinit-Ideation{
-    text-decoration: none;
+    text-decoration: none !important;
    
 }
 .explore-arrow-Ideation{
@@ -131,14 +134,14 @@
     text-decoration: none;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-weight: normal;
-font-size: 14px;
-line-height: 22px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
 /* identical to box height, or 157% */
-text-decoration: none;
+    text-decoration: none !important;
 
 
-color: #3C708E;
+    color: #3C708E;
 }
 .heading-Ideation{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,

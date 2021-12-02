@@ -1,8 +1,15 @@
 import "./SACComp4.css"
 import rec13 from "./images/rec13.png"
 import arrow from "./images/arrow.png"
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function SACComp4() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+    }, []);
     return (
         <div>
             <div className="p-0 container-fluid sacc4Container d-flex flex-column justify-content-center">
@@ -10,8 +17,8 @@ export default function SACComp4() {
                     <p className="sacc4Heading1">Leverage the power of a unified approach to marketing innovation</p>
                     <p className="sacc4Para1">Rely on our global network of people – supported by powerful assets, platforms and partnerships – to help you move swiftly from idea to execution.</p>
                 </div>
-                <div className="sacc4Middle d-flex flex-row flex-wrap justify-content-evenly">
-                    <div className="sacc4RecCard">
+                <div className="sacc4Middle d-flex flex-row flex-wrap justify-content-center">
+                    <div data-aos="flip-left" data-aos-duration="500" className="sacc4RecCard">
                         <p className="sacc4Heading2">Intuitive Solutions</p>
                         <p className="sacc4Para2">Our Digital marketing experts in Sydney experts will answer some of your most complex business questions to provide solutions with long-term foresight</p>
                         <div className="sacc4RCBottom d-flex justify-content-center align-items-center">
@@ -20,7 +27,7 @@ export default function SACComp4() {
                             <span className="sacc4Button">Read More</span>
                         </div >
                     </div>
-                    <div className="sacc4RecCard">
+                    <div data-aos="flip-left" data-aos-delay="300" data-aos-duration="500" className="sacc4RecCard">
                         <p className="sacc4Heading2">Deep Industry Expertise</p>
                         <p className="sacc4Para2">Corporality employs the best minds in the business that goes above and beyond to drive performance and growth</p>
                         <div className="sacc4RCBottom d-flex justify-content-center align-items-center">
@@ -29,7 +36,7 @@ export default function SACComp4() {
                             <span className="sacc4Button">Read More</span>
                         </div>
                     </div>
-                    <div className="sacc4RecCard">
+                    <div data-aos="flip-left" data-aos-delay="600" data-aos-duration="500" className="sacc4RecCard">
                         <p className="sacc4Heading2">Functional Knowledge</p>
                         <p className="sacc4Para2">We reimagine business functions to create more scalable and resilient solutions that fortify industry presence</p>
                         <div className="sacc4RCBottom d-flex justify-content-center align-items-center">
