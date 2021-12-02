@@ -17,7 +17,7 @@ const Ideation = () => {
             <div className="container contoiner-3-Ideation">
                 <div className="row">
                     <div className="col-lg-6 d-flex third-image-Ideation justify-content-center flex-column  align-items-center">
-                        <div data-aos="fade-right" className='images-prev-3-Ideation'>
+                        <div  className='images-prev-3-Ideation'>
                             <img alt='' className='smaller3-Ideation' src={smaller3} />
                             <img alt='' className='small3-Ideation' src={small3} />
                             <img alt='' className='wall3-Ideation' src={wall3} />
@@ -32,13 +32,13 @@ const Ideation = () => {
                     </div>
                     <div className="col-lg-6 texting-third-Ideation">
 
-                        <div data-aos="fade-up" data-aos-delay="500" className="textndicon-Ideation">
+                        <div  className="textndicon-Ideation">
                             <div /* className="icon-Ideation" */>
                                 <img alt='' className='icon1-Ideation' src={favicon0} />
                             </div>
                             <div className="text-box-3-Ideation">
-                                <p className='container-3_text-1_heading-Ideation'>A Ideation-dimensional Approach</p>
-                                <p className='container-3_text-1-Ideation'>Corporality Global does not limit itself to a single approach. Instead, we collaborate, partner, and educate to create sustainable futures.  </p>
+                                <p className='container-3_text-1_heading-Ideation'>Customer Experience</p>
+                                <p className='container-3_text-1-Ideation'>Designing and developing meaningful customer experiences to drive growth. We do not hesitate to take on new challenges and combat every complex situation fearlessly to provide the ultimate branding solution. We do everything in our power to retain customer satisfaction and keep our services to the optimum.</p>
                                 <a className='exploreinit-Ideation' href='#'>
                                     <div className="explore-4-Ideation">
                                         <div className="explore-link-Ideation">
@@ -50,13 +50,13 @@ const Ideation = () => {
                                 </a>
                             </div>
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="1000" className="textndicon-Ideation">
+                        <div  className="textndicon-Ideation">
                             <div /* className="icon-Ideation" */>
                                 <img alt='' className='icon1-Ideation' src={favicon1} />
                             </div>
                             <div className="text-box-3-Ideation">
-                                <p className='container-3_text-2_heading-Ideation'>Sustainable Design</p>
-                                <p className='container-3_text-2-Ideation'>Reducing negative impact on the environment and ensuring the health and comfort of our fellow-occupants should be a part of every human growth plan. With design, we aim to impart value and attitude that translates to environmental sustainability.</p>
+                                <p className='container-3_text-2_heading-Ideation'>Intended Maturation Model</p>
+                                <p className='container-3_text-2-Ideation'>Leveraging technology to find our framework. We work through the readiness and position of our clients to remap vision, strategize and identify the right tech stack to execute the project.</p>
                                 <a className='exploreinit-Ideation' href='#'>
                                     <div className="explore-4-Ideation">
                                         <div className="explore-link-Ideation">
@@ -69,13 +69,13 @@ const Ideation = () => {
                             </div>
 
                         </div>
-                        <div data-aos="fade-up" data-aos-delay="1500" className="textndicon-Ideation">
+                        <div  className="textndicon-Ideation">
                             <div /* className="icon-Ideation" */>
                                 <img alt='' className='icon1-Ideation' src={favicon2} />
                             </div>
                             <div className="text-box-3-Ideation">
-                                <p className='container-3_text-3_heading-Ideation'>Sustainability in Services</p>
-                                <p className='container-3_text-3-Ideation'>A novel perspective, Corporality Global leverages the concept of sustainability to provide a competitive advantage to its clients in the new cut-throat era of business.</p>
+                                <p className='container-3_text-3_heading-Ideation'>Creating a Culture of Revivalism</p>
+                                <p className='container-3_text-3-Ideation'>Exploring various applications and tools to infuse the best processes and workflows.This may either be sprucing up existing workflows or even creating new ones.</p>
                                 <a className='exploreinit-Ideation' href='#'>
                                     <div className="explore-4-Ideation">
                                         <div className="explore-link-Ideation">
