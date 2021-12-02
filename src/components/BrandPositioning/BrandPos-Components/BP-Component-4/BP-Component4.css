@@ -14,7 +14,7 @@
 .BP-c4-d {
   width: 60%;
   padding: 2%;
-  text-align: center;
+  text-align: justify;
   position: relative;
   left: 40%;
   background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
@@ -31,7 +31,28 @@
   width: 100%;
   z-index: -1;
 }
-
+@media screen and (max-width: 1078px) {
+  .BP-c4-p {
+    font-size: 14px;
+    line-height: 140%;
+  }
+  .BP-c4-h {
+    font-size: 18px;
+    line-height: 120%;
+    margin-bottom: 1%;
+  }
+  .BP-c4-d {
+    margin-top: 6%;
+    padding: 2%;
+    text-align: justify;
+    width: 55%;
+    left: 45%;
+  }
+  .BP-CP-4-img-d {
+    width: 100%;
+    height: 350px;
+  }
+}
 @media screen and (max-width: 992px) {
   .BP-c4-p {
     font-size: 12px;
@@ -45,7 +66,7 @@
   }
   .BP-c4-d {
     margin-top: 6%;
-    text-align: center;
+    text-align: justify;
     padding: 1%;
   }
   .BP-CP-4-img-d {
@@ -68,13 +89,14 @@
   .BP-c4-d {
     margin-top: 8%;
     padding: 1%;
+    left: 50%;
   }
   .BP-CP-4-img-d {
     width: 100%;
     height: 300px;
   }
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .BP-c4-p {
     font-size: 10px;
     line-height: 100%;
@@ -85,9 +107,55 @@
     margin-bottom: 1%;
   }
   .BP-c4-d {
-    margin-top: 21%;
+    margin-top: 8%;
     padding: 2%;
-    text-align: center;
+    text-align: left;
+    left: 45%;
+  }
+  .BP-CP-4-img-d {
+    width: 100%;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .BP-c4-p {
+    font-size: 10px;
+    line-height: 110%;
+  }
+  .BP-c4-h {
+    font-size: 12px;
+    line-height: 120%;
+    margin-bottom: 1%;
+  }
+  .BP-c4-d {
+    margin-top: 14%;
+    padding: 2%;
+    text-align: left;
+    width: 65%;
+    left: 35%;
+  }
+  .BP-CP-4-img-d {
+    width: 100%;
+    height: 350px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .BP-c4-p {
+    font-size: 10px;
+    line-height: 100%;
+  }
+  .BP-c4-h {
+    font-size: 12px;
+    line-height: 110%;
+    margin-bottom: 1%;
+  }
+  .BP-c4-d {
+    margin-top: 18%;
+    padding: 2%;
+    text-align: left;
+    width: 65%;
+    left: 35%;
   }
   .BP-CP-4-img-d {
     width: 100%;

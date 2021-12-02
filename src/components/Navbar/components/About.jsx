@@ -32,23 +32,23 @@ const About = () => {
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <Link to="/AboutCorporality" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/about-corporality" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>About Corporality</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/" onClick={() => setShowAbout(false)}  className="section-list-items">
+                    <Link to="/work-with-clients" onClick={() => setShowAbout(false)}  className="section-list-items">
                         <h6>How We Work with Clients</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/" onClick={() => setShowAbout(false)}  className="section-list-items">
+                    <Link to="/inclusion-and-diversity" onClick={() => setShowAbout(false)}  className="section-list-items">
                         <h6>Inclusion and Diversity</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/PartnershipProgrammes" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/partnership-programmes" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>Partner Programmes</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/" onClick={() => setShowAbout(false)}  className="section-list-items">
+                    <Link to="/sustainable-growth" onClick={() => setShowAbout(false)}  className="section-list-items">
                         <h6>Sustainable Growth</h6>
                         <div className="diamond-line"></div>
                     </Link>
@@ -60,11 +60,11 @@ const About = () => {
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <Link to="/InteractiveBluePrint" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/interactive-blueprint" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>Interactive Blueprint</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/StrategyConsultancy" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/strategy-and-consulting" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>Strategy & Consulting</h6>
                         <div className="diamond-line"></div>
                     </Link>
@@ -76,7 +76,7 @@ const About = () => {
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <Link to="/" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/careers" onClick={() => setShowAbout(false)} className="section-list-items">
                         <h6>Careers</h6>
                         <div className="diamond-line"></div>
                     </Link>

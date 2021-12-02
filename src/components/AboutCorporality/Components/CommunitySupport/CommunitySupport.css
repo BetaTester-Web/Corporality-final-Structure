@@ -110,7 +110,7 @@
 }
 
 .community_top_image:hover > img {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .community_bottom_image {
@@ -127,7 +127,7 @@
 }
 
 .community_bottom_image:hover > img {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .community_top_back_image {
