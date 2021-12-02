@@ -33,9 +33,12 @@ const SACComp2 = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 SACC2_texting-2">
-                        <p data-aos="fade-left" className='SACC2_prev-2-text-1'>Organic growth strategies</p>
-                        <p data-aos="fade-left" className='SACC2_prev-2-text-2'>At the heart of every marketing plan lies opportunity. What enterprises require today are winning strategies driven by data and AI, which also provide valuable insights that can be executed at speed and certainty across the organisation. In addition, scalability plays a pivotal role in sustaining profitable growth in any market. Therefore, our professional marketing solutions are centred around bringing high-level customer experiences to the table to ensure unrivalled, ensuing industry presence.</p>
-                        <p data-aos="fade-left" className='SACC2_prev-2-text-2'>Wherever you are in the world and no matter the nature of your business, our functional experts create measurable, defined values while providing innovative solutions to help you connect with your customers better, improve adaptability and boost sustainable growth. </p>
+                        <p data-aos="fade-left" data-aos-duration="500" className='SACC2_prev-2-text-1'>Organic growth strategies</p>
+                        <p data-aos="fade-left" data-aos-delay="300" data-aos-duration="500" className='SACC2_prev-2-text-2'>At the heart of every marketing plan lies opportunity. What enterprises require today are winning strategies driven by data and AI, which also provide valuable insights that can be executed at speed and certainty across the organisation. In addition, scalability plays a pivotal role in sustaining profitable growth in any market. Therefore, our professional marketing solutions are centred around bringing high-level customer experiences to the table to ensure unrivalled, ensuing industry presence.</p>
+                        <p data-aos="fade-left" data-aos-delay="600" data-aos-duration="500" className='SACC2_prev-2-text-2'>Wherever you are in the world and no matter the nature of your business, our functional experts create measurable, defined values while providing innovative solutions to help you connect with your customers better, improve adaptability and boost sustainable growth. </p>
+                        <div data-aos="fade-left" data-aos-delay="900" data-aos-duration="500" className="SACC2_text-box ">
+                            <p className="SACC2_text-box-content">No matter what lies ahead, Corporality helps you emerge more robust, better and victorious. </p>
+                        </div>
                     </div>
                 </div>
             </div>
