@@ -598,8 +598,9 @@
     top: 0px;
     left: 0px;
     font-weight: 500; */
-    top: 30px;
-    right: -1px;
+    top: 45px;
+    left: 10px;
+    padding: 0px !important;
   }
 
   .box_top_1,

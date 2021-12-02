@@ -39,7 +39,7 @@ function Library() {
       <div className="main_container">
         <div className="content_side">
           <div
-            className="text1 text_active aos-init"
+            className="text1 text_active_first aos-init"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -49,7 +49,7 @@ function Library() {
             Industry Research
           </div>
           <div
-            className="text1  aos-init"
+            className="text1 text_active_second  aos-init"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -59,7 +59,7 @@ function Library() {
             Video Library
           </div>
           <div
-            className="text1  aos-init"
+            className="text1 text_active_third  aos-init"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -69,7 +69,7 @@ function Library() {
             Blog
           </div>
           <div
-            className="text1  aos-init"
+            className="text1 text_active_forth  aos-init"
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"

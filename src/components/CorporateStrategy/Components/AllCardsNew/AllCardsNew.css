@@ -27,7 +27,7 @@
 .image_side_5_card2,
 .image_side_6_card1,
 .image_side_6_card2 {
-  /* animation: card_up_down 2s ease-in-out infinite; */
+  animation: card_up_down 2s ease-in-out infinite;
 }
 
 .image_side_1_card1:hover,
