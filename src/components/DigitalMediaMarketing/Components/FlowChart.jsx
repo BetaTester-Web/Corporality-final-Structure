@@ -134,7 +134,7 @@ export default function FlowChart() {
 							Execution Phase
 						</div>
 						<div className="DDMdiv15Img">
-							<img src="./img/DigitalMediaMarketing/img/Flowchart/MarketingAudit.png" alt="" />
+							<img src="./img/DigitalMediaMarketing/img/Flowchart/Joiner.png" alt="" />
 						</div>
 
 					</div>
@@ -156,7 +156,7 @@ export default function FlowChart() {
 					</div>
 					<div class="DDMdiv18">
 						<div className="DDMdiv18Img">
-							<img src="./img/DigitalMediaMarketing/img/Flowchart/Action.png" alt="" />
+							<img src="./img/DigitalMediaMarketing/img/Flowchart/Engine.png" alt="" />
 						</div>
 						<div className="DDMdiv18Text">
 							Search Engine Marketing
@@ -184,21 +184,58 @@ export default function FlowChart() {
 
 					{/* row 4 */}
 					<div class="DDMdiv22">
-						Demo </div>
+						<div className="DDMdiv22Text">
+							Monitoring Phase
+						</div>
+						<div className="DDMdiv22Img">
+							<img src="./img/DigitalMediaMarketing/img/Flowchart/Joiner.png" alt="" />
+						</div>
+					</div>
 					<div class="DDMdiv23">
-						Demo </div>
+						<div className="DDMdiv23Img">
+							<img src="./img/DigitalMediaMarketing/img/Flowchart/Tweak.png" alt="" />
+						</div>
+						<div className="DDMdiv23Text">
+							Test, Tweak and treat
+						</div>
+					</div>
 					<div class="DDMdiv24">
-						Demo </div>
+						<div className="DDMdiv23Img">
+							<img src="./img/DigitalMediaMarketing/img/Flowchart/Performance.png" alt="" />
+						</div>
+						<div className="DDMdiv23Text">
+							Performance and Benchmarking
+						</div>
+					</div>
 					<div class="DDMdiv25">
-						Demo </div>
+						<div className="DDMdiv25Img">
+							<img src="./img/DigitalMediaMarketing/img/Flowchart/Reporting.png" alt="" />
+						</div>
+						<div className="DDMdiv25Text">
+							Reporting and Feedback
+						</div>
+					</div>
 					<div class="DDMdiv26">
-						Demo </div>
+						<div className="DDMdiv26Img">
+							<img src="./img/DigitalMediaMarketing/img/Flowchart/ROI.png" alt="" />
+						</div>
+						<div className="DDMdiv26Text">
+							ROI Evaluation
+						</div>
+					</div>
 					<div class="DDMdiv27">
-						Demo </div>
+						<div className="DDMdiv27Img">
+							<img src="./img/DigitalMediaMarketing/img/Flowchart/Model.png" alt="" />
+						</div>
+						<div className="DDMdiv27Text">
+							Maturation Model
+						</div>
+					</div>
 					<div class="DDMdiv28">
-						Demo </div>
-				</div>
 
+					</div>
+
+				</div>
 
 			</div>
 		</>
