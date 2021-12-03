@@ -5,6 +5,7 @@ import "./BrandPositioning.css";
 import BPComponent2 from "./BrandPos-Components/BP-Component-2/BP-Comp-2";
 import BPComponent4 from "./BrandPos-Components/BP-Component-4/BP-Component-4";
 import BPComponent5 from "./BrandPos-Components/BP-Component-5/BP-Comp-5";
+import BPComp3 from "./BrandPos-Components/BP-Component-3/BPComp3";
 
 export default function Component1() {
   useEffect(() => {
@@ -16,7 +17,7 @@ export default function Component1() {
       <div className="vw-100 fullSection position-relative">
         <div className="snakes position-absolute end-0 top-0">
           <img
-            src="/img/BrandPositioning/Group 1252.png"
+            src="/img/BrandPositioning/Group-1252.png"
             alt=""
             className="img-fluid"
           />
@@ -24,14 +25,14 @@ export default function Component1() {
         <div className="container py-0 landingPage position-relative">
           <div className="mediumD1 position-absolute end-50 top-0">
             <img
-              src="/img/BrandPositioning/Rectangle 67.png"
+              src="/img/BrandPositioning/Rectangle-67.png"
               alt=""
               className="img-fluid"
             />
           </div>
           <div className="mediumD2 position-absolute end-50 bottom-0">
             <img
-              src="/img/BrandPositioning/Rectangle 68.png"
+              src="/img/BrandPositioning/Rectangle-68.png"
               alt=""
               className="img-fluid"
             />
@@ -46,7 +47,7 @@ export default function Component1() {
                 className="imprvdCompBlock position-absolute top-0 end-0 position-relative"
               >
                 <img
-                  src="/img/BrandPositioning/Group 1243.png"
+                  src="/img/BrandPositioning/Group-1243.png"
                   alt=""
                   className="imprvdCompImg position-absolute start-0 top-0"
                 />
@@ -62,7 +63,7 @@ export default function Component1() {
                 className="custLoyaltyBlock position-absolute bottom-50 start-0 position-relative"
               >
                 <img
-                  src="/img/BrandPositioning/Group 1242.png"
+                  src="/img/BrandPositioning/Group-1242.png"
                   alt=""
                   className="custLoyaltyImg position-absolute start-0 top-0"
                 />
@@ -78,7 +79,7 @@ export default function Component1() {
                 className="relatableIDBlock position-absolute bottom-50 end-0 position-relative"
               >
                 <img
-                  src="/img/BrandPositioning/Group 1244.png"
+                  src="/img/BrandPositioning/Group-1244.png"
                   alt=""
                   className="relatableIDImg position-absolute start-0 top-0"
                 />
@@ -94,7 +95,7 @@ export default function Component1() {
                 className="omniBlock position-absolute top-50 start-50 position-relative"
               >
                 <img
-                  src="/img/BrandPositioning/Group 1248.png"
+                  src="/img/BrandPositioning/Group-1248.png"
                   alt=""
                   className="omniImg position-absolute start-0 top-0"
                 />
@@ -104,21 +105,21 @@ export default function Component1() {
               </div>
               <div className="phnbtn position-absolute end-0 bottom-0">
                 <img
-                  src="/img/BrandPositioning/Group 709.png"
+                  src="/img/BrandPositioning/Group-709.png"
                   alt=""
                   className="img-fluid"
                 />
               </div>
               <div className="littleD1 position-absolute end-0 top-50">
                 <img
-                  src="/img/BrandPositioning/Rectangle 69.png"
+                  src="/img/BrandPositioning/Rectangle-69.png"
                   alt=""
                   className="img-fluid"
                 />
               </div>
               <div className="littleD2 position-absolute start-0 bottom-50">
                 <img
-                  src="/img/BrandPositioning/Rectangle 69.png"
+                  src="/img/BrandPositioning/Rectangle-69.png"
                   alt=""
                   className="img-fluid"
                 />
@@ -131,13 +132,13 @@ export default function Component1() {
                 className="textD position-absolute start-0 bottom-0"
               >
                 <img
-                  src="/img/BrandPositioning/Group 1250.png"
+                  src="/img/BrandPositioning/Group-1250.png"
                   alt=""
                   className="img-fluid"
                 />
               </div>
             </div>
-            <div className="brandPara mx-auto text-wrap position-absolute start-0 top-50 translate-middle-y">
+            <div className="brandPara text-wrap position-absolute start-0 top-50 translate-middle-y">
               <p
                 data-aos="fade-up"
                 data-aos-easing="linear"
@@ -162,14 +163,13 @@ export default function Component1() {
             </div>
           </div>
         </div>
-
-        <div className="social position-absolute end-0 top-50 translate-middle-y ">
+        <div className="social position-absolute end-0 top-50 translate-middle-y">
           <div class="container">
             <div class="row row-cols-1">
               <div class="col my-1 socialDiv">
                 <a href="https://www.facebook.com/CorporalityG" target="_blank">
                   <img
-                    src="/img/BrandPositioning/Group 618.png"
+                    src="/img/BrandPositioning/Group-618.png"
                     alt=""
                     className="img-fluid"
                   />
@@ -178,7 +178,7 @@ export default function Component1() {
               <div class="col my-1 socialDiv">
                 <a href="https://twitter.com/corporalityg" target="_blank">
                   <img
-                    src="/img/BrandPositioning/Group 617.png"
+                    src="/img/BrandPositioning/Group-617.png"
                     alt=""
                     className="img-fluid"
                   />
@@ -190,7 +190,7 @@ export default function Component1() {
                   target="_blank"
                 >
                   <img
-                    src="/img/BrandPositioning/Group 616.png"
+                    src="/img/BrandPositioning/Group-616.png"
                     alt=""
                     className="img-fluid"
                   />
@@ -202,7 +202,7 @@ export default function Component1() {
                   target="_blank"
                 >
                   <img
-                    src="/img/BrandPositioning/Group 615.png"
+                    src="/img/BrandPositioning/Group-615.png"
                     alt=""
                     className="img-fluid"
                   />
@@ -211,7 +211,7 @@ export default function Component1() {
               <div class="col my-1 socialDiv">
                 <a href="https://in.pinterest.com/CorporalityG" target="_blank">
                   <img
-                    src="/img/BrandPositioning/Group 614.png"
+                    src="/img/BrandPositioning/Group-614.png"
                     alt=""
                     className="img-fluid"
                   />
@@ -223,7 +223,7 @@ export default function Component1() {
                   target="_blank"
                 >
                   <img
-                    src="/img/BrandPositioning/Group 613.png"
+                    src="/img/BrandPositioning/Group-613.png"
                     alt=""
                     className="img-fluid"
                   />
@@ -233,15 +233,12 @@ export default function Component1() {
           </div>
         </div>
       </div>
-      <BPComponent2 />
-      <div className="my-1 vw-100">
-        <img
-          src="/img/BrandPositioning/Frame 204.png"
-          alt=""
-          className="img-fluid"
-        />
+      <div className="vw-100 my-4">
+        <BPComponent2 />
       </div>
-
+      <div className="vw-100 my-4">
+        <BPComp3 />
+      </div>
       <BPComponent4 />
       <BPComponent5 />
     </>

@@ -19,20 +19,20 @@ code {
   height: 37.5em !important;
 }
 .snakes{
-  width: 62.5%;
+  width: 56.5% !important;
 }
 .flexing{
   height: 100%;
 }
 .mediumD1{
   width: 4%;
-  margin-top: 13% !important;
+  margin-top: 11% !important;
   margin-right: 15% !important;
 }
 .mediumD2{
   width: 4%;
-  margin-bottom: 0% !important;
-  margin-right: -4% !important;
+  margin-bottom: -4% !important;
+  margin-right: -2% !important;
   /* transform: rotate(360deg);
   transition : all 2s infinite; */
 }
@@ -46,16 +46,16 @@ code {
   to{transform: rotate(360deg);}
 }
 .brandPara{
-  height: 38%;
-  width: 38.5%;
-  margin-left: 3% !important;
+  height: 38% !important;
+  width: 40.5% !important;
+  margin-left: -3.5% !important;
 }
 .paraHead{
-  font-size: 1.45em;
+  font-size: 1.5em;
   color: #33657E;
 }
 .paraText{
-  font-size: 0.9em;
+  font-size: 1em;
   color: #757575;
   text-align: justify;
 }
@@ -65,7 +65,7 @@ code {
 }
 .imprvdCompBlock{
   margin-top: 15% !important;
-  margin-right: 18% !important;
+  margin-right: 14.5% !important;
   width: 21%;
   height: 13%;
 }
@@ -84,8 +84,8 @@ code {
   font-weight: 500;
 }
 .relatableIDBlock{
-  margin-bottom: -3% !important;
-  margin-right: 22% !important;
+  margin-bottom: -7% !important;
+  margin-right: 15% !important;
   width: 21% !important;
   height: 16% !important;
 }
@@ -104,8 +104,8 @@ code {
   font-weight: 500 !important;
 }
 .custLoyaltyBlock{
-  margin-top: 6% !important;
-  margin-left: 33% !important;
+  margin-bottom: -4% !important;
+  margin-left: 31% !important;
   width: 23% !important;
   height: 18.5% !important;
 }
@@ -118,16 +118,16 @@ code {
 }
 .custLoyaltyText{
   font-size: 0.74em;
-  padding-left: 10%;
+  padding-left: 5%;
   width: 51%;
   color: #33657E;
   font-weight: 500;
 }
 .omniBlock{
-  margin-top: 7% !important;
-  margin-left: -8% !important;
+  margin-top: 12% !important;
+  margin-left: 5% !important;
   width: 23% !important;
-  height: 18.5% !important;
+  height: 17% !important;
 }
 .omniImg:hover{
   transform: scale(1.04);
@@ -138,20 +138,20 @@ code {
 }
 .omniText{
   font-size: 0.75em;
-  padding-left: 5% !important;
+  padding-left: 7% !important;
   width: 51%;
   color: #33657E;
   font-weight: 500;
 }
 .phnbtn{
   width: 5% !important;
-  margin-right: 10% !important;
+  margin-right: 4% !important;
   margin-bottom: 13% !important;
 }
 .littleD1{
   width: 5% !important;
   margin-top: 10% !important;
-  margin-right: 18% !important;
+  margin-right: 12% !important;
 }
 .littleD2{
   width: 5% !important;
@@ -160,8 +160,8 @@ code {
 }
 .textD{
   width: 35% !important;
-  margin-left: 6% !important;
-  margin-bottom: 2% !important;
+  margin-left: 15% !important;
+  margin-bottom: -3% !important;
 }
 .social{
   width: 4% !important;
@@ -181,12 +181,12 @@ code {
   }
   .textD{
     width: 30% !important;
-    margin-left: 15% !important;
-    margin-bottom: 26% !important;
+    margin-left: 12% !important;
+    margin-bottom: 31% !important;
   }
   .omniBlock{
     width: 23% !important;
-    margin-left: 3% !important;
+    margin-left: 1% !important;
     margin-top: -3% !important;
   }
   .custLoyaltyBlock{
@@ -197,7 +197,7 @@ code {
   }
   .imprvdCompBlock{
     margin-top: 15% !important;
-  margin-right: 15% !important;
+  margin-right: 19% !important;
   width: 21% !important;
   height: 15% !important;
   }
@@ -227,7 +227,7 @@ code {
   }
   .imprvdCompBlock{
     margin-top: 22% !important;
-    margin-right: 24% !important;
+    margin-right: 29% !important;
     width: 19% !important;
     height: 10% !important;
   }
@@ -246,16 +246,16 @@ code {
   padding-left: 5% !important;
   }
   .mediumD2{
-    margin-bottom: 13% !important;
+    margin-bottom: 15% !important;
     margin-right: 4% !important;
   }
   .textD{
-    margin-left: 7% !important;
-    margin-bottom: 28% !important;
+    margin-left: 4% !important;
+    margin-bottom: 33% !important;
   }
   .custLoyaltyBlock{
     margin-bottom: 11% !important;
-    margin-left: 25% !important;
+    margin-left: 19% !important;
     height: 11% !important;
   }
   .custLoyaltyText{
@@ -272,7 +272,7 @@ code {
   .omniBlock{
     width: 22%;
     height: 11%;
-    margin-left: -3% !important;
+    margin-left: -7% !important;
     margin-top: 0% !important;
   }
   .social{
@@ -288,9 +288,9 @@ code {
     flex-direction: column-reverse;
   }  
   .brandPara{
-    width: 70% !important;
+    width: 80% !important;
     position: relative !important;
-    margin: 0% 12% !important;
+    margin: 0% auto !important;
   }
   .art{
     width: 100%;
@@ -301,19 +301,19 @@ code {
     height: 17.5em;
   }
   .paraHead{
-    font-size: 14px;
-    padding: 0% 30%;
+    font-size: 10px;
+    padding: 0% 10%;
   }
   .paraText{
-    font-size: 10px;
-    padding: 0% 30%;
+    font-size: 7px;
+    padding: 0% 10%;
   }
   .brandPara{
     width: 39%;
     margin-top: -5%;
   }
   .mediumD2{
-    margin-bottom: 61% !important;
+    margin-bottom: 63% !important;
     margin-right: 28% !important;
   }
   .littleD2{
@@ -322,8 +322,8 @@ code {
   }
   .textD{
     width: 23% !important;
-    margin-left: 18% !important;
-    margin-bottom: 21% !important;
+    margin-left: 17% !important;
+    margin-bottom: 24% !important;
   }
   .imprvdCompBlock{
     width: 17% !important;
@@ -370,9 +370,9 @@ code {
     color: #33657E !important;
   }
   .social{
-    width: 9%;
-    height: 60%;
-    margin: 0% 0%;
+    width: 9% !important;
+    height: 60% !important;
+    margin: 0% 0% !important;
   }
   .socialDiv{
     margin: 0px 0px !important;
