@@ -1,43 +1,136 @@
-.login-container-1 {
-    position: absolute;
-    top: 80px;
-    padding-bottom: 80px!important;
-    background: #f3f3f3;
-}
-
-.login-button-wrapper {
+.philosophyForm {
+    width: 50%;
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 42px;
-    background: linear-gradient(95.12deg, #e5cd60 0%, #6ca0bc 83.42%);
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    border-radius: 5%;
+    padding: 6.5% 8.5% !important;
 }
 
-.loginButton {
-    order: 2;
-    align-self: center;
+.philosophyForm input {
+    outline: none;
+    padding: 2.5% 5% !important;
+    background-color: #fff;
+    border: 1px solid #c2bdc8;
+    width: 100%;
+    font-size: 1em;
+    color: #c2bdc8;
+}
+
+.philosophyForm h3 {
+    font-size: 1.5em;
+    line-height: 1.758em;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0% 0% 2% 0% !important;
+}
+.philosophyForm .customInput {
+    margin-top: 7% !important;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.philosophyForm .customInput label {
+    padding: 2.5% 5% !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
     height: 100%;
-    width: 100%;
-    border: 0;
-    background: transparent;
-    color: aliceblue;
-    font-size: 16px;
-    margin-left: 10px;
-    text-align: center;
-    position: relative;
-    z-index: 3;
+    font-size: 1em;
+    color: #c2bdc8;
+    background-color: #fff;
+    margin: 0px !important;
+    -webkit-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
-.loginInput {
-    border: 0;
-    padding: 10px 15px !important;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 19px;
+.philosophyForm .customInput .labelToTop {
+    font-size: 0.688em;
+    opacity: 1;
+    visibility: visible;
+    top: -30%;
+    left: 2%;
+    width: auto !important;
+    height: auto !important;
+    padding: 1% 3% !important;
+    background-color: #f5f5f5;
+}
+
+.philosophyForm .customInput:focus-within label {
+    font-size: 0.688em;
+    opacity: 1;
+    visibility: visible;
+    top: -30%;
+    left: 2%;
+    width: auto !important;
+    height: auto !important;
+    padding: 1% 3% !important;
+    background-color: #f5f5f5;
+}
+.philosophyForm .customInput .activeInput {
+    color: #232323 !important;
+    content: "";
+    border: 1px solid #a06daf !important;
+    -webkit-box-shadow: 0px 0px 10px 3px #a06daf26;
+    box-shadow: 0px 0px 10px 3px #a06daf26;
+}
+.philosophyForm .customInput input:focus {
+    color: #232323;
+    border: 1px solid #a06daf;
+    -webkit-box-shadow: 0px 0px 10px 3px #a06daf26;
+    box-shadow: 0px 0px 10px 3px #a06daf26;
+}
+
+.philosophyForm .philosophySubmitButton {
+    margin: 7% 0% 0% 0% !important;
+    all: unset;
+    padding: 3% 5% !important;
+    background: linear-gradient(95.12deg, #eed979 0%, #4f8cad 83.42%);
+    position: relative;
+    z-index: 1 !important;
+    width: 35% !important;
+    height: 4% !important;
+    color: #fff;
+    text-align: center;
+}
+
+.philosophyForm .philosophySubmitButton::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%;
+    background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 83.42%);
+    z-index: -1 !important;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.philosophyForm .philosophySubmitButton:hover::after {
+    opacity: 1;
+}
+
+@media only screen and (max-width: 992px) {
+    .philosophyForm{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .philosophyForm{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .philosophyForm{
+        width: 90%;
+    }
 }

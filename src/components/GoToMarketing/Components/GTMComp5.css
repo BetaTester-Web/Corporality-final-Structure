@@ -1,0 +1,69 @@
+.GTMComp5Container {
+    background: url(./images/component5Banner.png) no-repeat center center/cover;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    position: relative;
+    margin-bottom: 100px;
+    /* overflow: hidden; */
+}
+
+.GTMComp5Container .heading {
+    max-width: 55%;
+}
+
+.GTMComp5Container .text {
+    max-width: 65%;
+}
+
+.GTMComp5Container .component5Square {
+    background: url(./images/component5Square.png) no-repeat center center/cover;
+    width: 138px;
+    height: 138px;
+    position: absolute;
+    bottom: -13%;
+    left: 1.5%;
+    transform: rotate(-52.02deg);
+    animation-name: hex-gym;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes hex-gym {
+    from {
+        left: 1.5%;
+        transform: rotate(45deg);
+    }
+    to {
+        left: 91%;
+        transform: rotate(675deg);
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .GTMComp5Container .component5Square {
+        /* display: none; */
+    }
+
+    @keyframes hex-gym {
+        from {
+            left: 5%;
+            transform: rotate(45deg);
+        }
+        to {
+            left: 70%;
+            transform: rotate(675deg);
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .GTMComp5Container .heading {
+        max-width: 85%;
+        font-size: 16px;
+    }
+
+    .GTMComp5Container .text {
+        max-width: 85%;
+        font-size: 12px;
+    }
+}
