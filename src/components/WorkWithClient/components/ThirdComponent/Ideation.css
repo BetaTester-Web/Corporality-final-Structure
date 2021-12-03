@@ -339,11 +339,44 @@
 @media (max-width:992px) {
 
     .third-Ideation {
-        padding-top: 230px;
+        padding-top: 300px;
     }
 
     .texting-third-Ideation {
         padding-top: 230px;
+    }
+}
+
+@media(max-width:768px) {
+    .heading-text-1-main {
+        font-size: 22px;
+    }
+
+    .container-3_text-1_heading-Ideation {
+        font-size: 18px;
+    }
+
+    .container-3_text-2_heading-Ideation {
+        font-size: 18px;
+    }
+
+    .container-3_text-3_heading-Ideation {
+        font-size: 18px;
+    }
+
+    .container-3_text-1-Ideation {
+        font-size: 12px;
+        margin-right: 0px;
+    }
+
+    .container-3_text-2-Ideation {
+        font-size: 12px;
+        margin-right: 0px;
+    }
+
+    .container-3_text-3-Ideation {
+        font-size: 12px;
+        margin-right: 0px;
     }
 }
 
@@ -353,6 +386,7 @@
         left: 60px;
     }
 }
+
 
 @media (max-width:634px) {
     .bp_iwfc_img-Ideation {

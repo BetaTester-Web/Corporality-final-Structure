@@ -6,7 +6,7 @@ import Limitless from './components/Limitless/Limitless'
 import Logos from './components/LogoCompany/Logos'
 import LogoText from './components/LogoText/LogoText'
 import NewsLetter from './components/NewsLetter/NewsLetter'
-import TeamSpirit from './components/TeamSpirit/TeamSpirit'
+import TeamSpiritNew from './components/TeamSpiritNew/TeamSpirit'
 import Ideation from './components/ThirdComponent/Ideation'
 
 const WorkWithClient = () => {
@@ -19,7 +19,7 @@ const WorkWithClient = () => {
             <Innovation />
             <LogoText />
             <Logos />
-            <TeamSpirit />
+            <TeamSpiritNew />
             <NewsLetter />
         </div>
     )
