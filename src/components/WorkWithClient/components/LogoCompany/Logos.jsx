@@ -13,7 +13,7 @@ const Logos = () => {
         <div className=" Logos_Partner_all">
             <div className="container">
                 
-                <div className="row All_Icons d-flex  justify-content-center align-items-center">
+                <div className="row All_Icons ">
                     <div className="col-lg-4 d-flex justify-content-center align-items-center">
                         <img src={logo1} alt='' className='Logo-1-Partner' />
                         <img src={logo2} alt='' className='Logo-1-Partner' />

@@ -4,7 +4,7 @@ import '../LogoText/LogoTest.css'
 const LogoText = () => {
     return (
         <div>
-            <div className="container d-flex justify-content-center flex-column align-items-center">
+            <div className="container text-in-container-icons">
                 <div className="row">
                     <p className="Partner-program-1-text">Our powerful partner ecosystem</p>
                 </div>

@@ -99,7 +99,7 @@
 
 .Main_back_NewsLetter {
     position: relative;
-    left: 60%;
+    left: 40%;
 }
 
 .Work-newsletter-polygon9 {
@@ -157,7 +157,7 @@
 
 .rect_newsletter {
     position: absolute;
-    left: 120%;
+    left: 100%;
 }
 @media (max-width:992px){
     .NewsLetter_full{

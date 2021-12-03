@@ -31,6 +31,7 @@ const Ideation = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 texting-third-Ideation">
+                        <p className='heading-text-1-main'>Ideation with fearless creativity</p>
 
                         <div  className="textndicon-Ideation">
                             <div /* className="icon-Ideation" */>
