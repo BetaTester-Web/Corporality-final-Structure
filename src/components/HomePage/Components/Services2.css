@@ -157,6 +157,57 @@
   cursor: pointer;
 }
 
+.bottom_button_circle{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.bottom_button_circle img {
+  width: 70%;
+  height: 70%;
+  padding: 0%;
+  object-fit: cover;
+  object-position: 20% 10%;
+  overflow: hidden;
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.bottom_button_circle::after{
+  z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 70%;
+  border-radius: 50%;
+  background-color: white;
+  animation: servicePulse 1s infinite;
+  transition: all 0.2s ease-in-out;
+}
+
+@keyframes servicePulse{
+  0%{
+    opacity: 0.4;
+    transform: translateX(-50%) scale(0);
+  }
+  50%{
+    opacity: 0.2;
+    transform: translateX(-50%) scale(0.9);
+  }
+  100%{
+    opacity: 0;
+    transform: translateX(-50%) scale(1.2);
+  }
+}
+
 @media only screen and (max-width: 803px) {
   .picture_side {
     height: 350px;
