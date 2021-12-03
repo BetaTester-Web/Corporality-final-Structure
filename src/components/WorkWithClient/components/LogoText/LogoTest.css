@@ -41,3 +41,12 @@
         padding-top: 250px;
     }
 }
+@media (max-width:768px){
+    .Partner-program-1-text{
+        font-size: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        line-height: 30px !important;
+    }
+}

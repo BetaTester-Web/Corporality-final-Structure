@@ -177,7 +177,7 @@ function AllCardsNew() {
           </div>
         </div>
 
-        <div class="image_side_2_card4"> </div>
+        <div class="image_side_2_card4">demo text </div>
 
         {/* ROW 3 */}
 
@@ -367,8 +367,8 @@ function AllCardsNew() {
           </div>
         </div>
 
-        <div class="image_side_5_card3"> </div>
-        <div class="image_side_5_card4"> </div>
+        <div class="image_side_5_card3"> demo text</div>
+        <div class="image_side_5_card4"> demo text</div>
 
         <div
           className="cards_text_side_6 aos-init aos-animate"
@@ -413,8 +413,8 @@ function AllCardsNew() {
           </div>
         </div>
 
-        <div class="image_side_6_card3"> </div>
-        <div class="image_side_6_card4"> </div>
+        <div class="image_side_6_card3"> demo text</div>
+        <div class="image_side_6_card4"> demo text</div>
       </div>
     </>
   );
