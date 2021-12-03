@@ -135,13 +135,29 @@
 
     color: #757575;
 }
+@media (max-width:1400px){
+    .Combating_group{
+        position: absolute;
+        top: -30%;
+    }
+}
 
 @media (max-width:992px) {
     .MainAndBack_Combating {
         left: 60%;
     }
 }
-
+@media (max-width:768px){
+    .Combating_texting_column-3{
+        font-size: 14px;
+    }
+    .Combating_texting_column-2{
+        font-size: 14px;
+    }
+    .Combating_texting_column-1{
+        font-size: 20px;
+    }
+}
 @media (max-width:719px) {
     .MainAndBack_Combating {
         left: 25%;
