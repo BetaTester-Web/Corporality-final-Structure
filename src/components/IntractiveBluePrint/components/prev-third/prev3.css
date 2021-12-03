@@ -34,7 +34,7 @@
     line-height: 32px;
     /* identical to box height, or 178% */
     margin-bottom: 5px;
-    
+    margin-right: -120px;
     
     color: #3C708E;
 }
@@ -278,6 +278,34 @@ button-4{
         left: 60px;
     }
 }
+@media (max-width:768px){
+    .container-3_text-1_heading{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .container-3_text-1{
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .container-3_text-2_heading{
+        font-size: 16px;
+        line-height: 20px;
+        margin-right: 0px;
+    }
+    .container-3_text-2{
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .container-3_text-3_heading{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .container-3_text-3{
+        margin-right: 0px;
+        font-size: 12px;
+    }
+}
+
 @media (max-width:634px){
     .bp_iwfc_img{
         width: 250px;
