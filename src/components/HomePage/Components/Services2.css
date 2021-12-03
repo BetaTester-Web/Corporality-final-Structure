@@ -164,18 +164,15 @@
   justify-content: center;
   align-items: center;
   z-index: 0;
+  width: auto;
+  height: auto;
 }
 
 .bottom_button_circle img {
-  width: 70%;
-  height: 70%;
-  padding: 0%;
-  object-fit: cover;
-  object-position: 20% 10%;
-  overflow: hidden;
-  box-sizing: border-box;
+  width: 100%;
   border-radius: 50%;
   z-index: 2;
+  transform: scale(.8);
 }
 
 .bottom_button_circle::after{
@@ -186,7 +183,7 @@
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
-  width: 70%;
+  width: 100%;
   border-radius: 50%;
   background-color: white;
   animation: servicePulse 1s infinite;
@@ -200,11 +197,11 @@
   }
   50%{
     opacity: 0.2;
-    transform: translateX(-50%) scale(0.9);
+    transform: translateX(-50%) scale(0.8);
   }
   100%{
     opacity: 0;
-    transform: translateX(-50%) scale(1.2);
+    transform: translateX(-50%) scale(1);
   }
 }
 
@@ -300,5 +297,8 @@
   .bottom_button_circle img {
     width: 80%;
     height: 80%;
+  }
+  .bottom_button_circle::after{
+    width: 80%;
   }
 }
