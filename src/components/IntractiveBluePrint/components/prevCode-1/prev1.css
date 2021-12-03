@@ -62,7 +62,7 @@
 .wall{
     position: absolute;
     top: 35%;
-    left: 4%;
+    left: 10%;
 }
 .smallrect{
     position: absolute;
@@ -70,7 +70,9 @@
     left: 47%;
 }
 .image-first{
+    position: relative;
     margin-left: 80px;
+    left: -5%;
 }
 /* .mainimage{
     position: absolute;
@@ -135,7 +137,7 @@
     width: 350px;
     height: 350.8px;
     top: -50%;
-    left: 25%;
+    left: 30%;
     /* border: 1px solid black; */
     transform: rotate(45deg);
     overflow: hidden;
@@ -178,16 +180,9 @@
 } */
 
 @media (max-width:1144px){
-  /*   .banner_right_inner{
-        width: 370px;
-        height: 332.8px;
+    .image-first{
+        left: -30%;
     }
-    .backimg{
-        width: 480px;
-        height: 482.8px;
-        left: 20%;
-        top: 2%;
-    } */
 }
 @media (max-width:992px){
     .banner_right_inner{
@@ -254,6 +249,12 @@
         top: 50%;
         left: 27%;
     }
+    .container-1_text{
+        font-size: 14px;
+    }
+    .container-2_text{
+        font-size: 10px;
+    }
 }
 
 @media (max-width:654px){
@@ -276,11 +277,18 @@
         position: absolute;
         top: 35%;
         left: 0%;
+        width: 20%;
     }
     .smallrect{
         position: absolute;
         top: 50%;
         left: 27%;
+        width: 10%;
+    }
+}
+@media (max-width:497px){
+    .image-first{
+        left: -10%;
     }
 }
 @media (max-width:427px){
@@ -291,8 +299,8 @@
         bottom: 220px;
     }
     .backimg{
-        width: 270px;
-        height: 272.8px;
+        width: 260px;
+        height: 262.8px;
         left: 5%;
         top: 2%;
     }
@@ -309,7 +317,7 @@
         position: absolute;
         width: 10%;
         top: 50%;
-        left: 27%;
+        left: 30%;
     }
     .text-box-1{
         padding-top: 30px;
@@ -318,6 +326,12 @@
 @media (max-width: 377px){
     .image-first{
         left: -20%;
+    }
+    .smallrect{
+        position: absolute;
+        width: 10%;
+        top: 50%;
+        left: 36%;
     }
 }
 

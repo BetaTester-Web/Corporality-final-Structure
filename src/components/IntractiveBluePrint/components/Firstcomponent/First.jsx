@@ -9,8 +9,6 @@ import icon4 from '../Firstcomponent/icon4.png'
 import icon5 from '../Firstcomponent/icon5.png'
 import icon6 from '../Firstcomponent/icon6.png'
 import back from '../Firstcomponent/bck.png'
-// import 'bootstrap/dist/css/bootstrap.min.css'
-// import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 
 
@@ -29,18 +27,6 @@ const First = () => {
                         <p data-aos="fade-down" className='first-text-2'>Website blueprints are never alike. Corporality Global takes utmost care in preparing the profitable website blueprints that are customised for your business and meet your company’s objectives and budget goals.</p>    
                     </div>
                 </div>
-              {/*   <div className='row'>
-                    <div className="col-lg-4">
-                        card
-                    </div>
-                    <div className="col-lg-4">
-                        card2
-                    </div>
-                    <div className="col-lg-4">
-                        card3
-                    </div>
-                </div> */}
-
                 <div className="row d-flex justify-content-center align-items-center ">
                     <div className=" col-lg-4 columns-first">
                         <div data-aos="flip-left" className="Ib_card-1">
@@ -60,7 +46,7 @@ const First = () => {
 
                     </div>
                     <div data-aos="flip-left" className=" col-lg-4 columns-first">
-                        <div className="Ib_card-1">
+                        <div className="Ib_card-1 Ib_card_3_new">
                             <img className='Ib_back' src={back} alt='' />
                             <img className='icon1' src={icon3} alt='' />
                             <p className='card-1-text-1' >Design</p>
@@ -81,7 +67,7 @@ const First = () => {
                     </div>
 
                     <div data-aos="flip-right" className=" col-lg-4 columns-first">
-                        <div className="Ib_card-1">
+                        <div className="Ib_card-1 Ib_card_5_new">
                             <img className='Ib_back' src={back} alt='' />
                             <img className='icon1' src={icon5} alt='' />
                             <p className='card-1-text-1' >Conversions</p>

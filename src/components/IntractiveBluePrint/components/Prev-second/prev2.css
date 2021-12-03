@@ -76,6 +76,7 @@
      font-size: 16px;
      line-height: 26px;
      color: #757575;
+     padding-right: 100px;
  }
  
  .texting-2{
@@ -112,6 +113,15 @@
          top: 80%;
          
      }
+ }
+ @media (max-width:768px){
+    .prev-2-text-1{
+        font-size: 20px;
+    }
+    .prev-2-text-2{
+        font-size: 12px;
+        padding-right: 0px;
+    }
  }
  @media (max-width:677px){
      .side2-container{
