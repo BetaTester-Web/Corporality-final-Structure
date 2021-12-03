@@ -13,13 +13,26 @@
   margin-left: 25%;
   width: 70%;
 }
-.bp-cp-5-img-2 {
-  position: relative;
-  right: 155%;
+.bp-cp5-bodyspan {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 37px;
+  /* identical to box height, or 161% */
+
+  color: #33657e;
 }
-.bp-cp-5-img-1 {
-  position: relative;
-  right: 145%;
-  bottom: 50%;
-  z-index: -1;
+.bp-cp5-listbody {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  /* or 150% */
+
+  color: #757575;
+  padding-left: 4%;
+}
+.bp-cp-5-img {
+  margin-left: -60%;
 }

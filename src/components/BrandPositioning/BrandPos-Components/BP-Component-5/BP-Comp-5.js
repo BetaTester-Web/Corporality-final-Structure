@@ -9,21 +9,16 @@ function BPComponent5() {
       <div className="BP-CP5-heading">
         <h1 className="BP-CP5-h1">Indomitable brand positioning strategies</h1>
       </div>
-      <div className="container">
+      <div className="container vw=100">
         <div className="row">
-          <div className="col-1 ">
+          <div className="col-2 ">
             <img
-              src="..\img\BrandPositioning\cp-5-2.png"
+              src="..\img\BrandPositioning\Group-750.png"
               alt=""
-              className="bp-cp-5-img-2 img-fluid"
-            />
-            <img
-              src="..\img\BrandPositioning\cp-5-1.png"
-              alt=""
-              className="bp-cp-5-img-1 img-fluid "
+              className="bp-cp-5-img img-fluid"
             />
           </div>
-          <div className="col-11">
+          <div className="col-10">
             <Accordion>
               {" "}
               <Accordion.Item eventKey="0">
@@ -33,7 +28,11 @@ function BPComponent5() {
                       <div class="col-3">
                         <img src="../img/BrandPositioning/faviconTM1.png" />
                       </div>
-                      <div class="col-9">Defining the true differentiators</div>
+                      <div class="col-9">
+                        <span className="bp-cp5-bodyspan">
+                          Defining the true differentiators
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </Accordion.Header>
@@ -43,7 +42,7 @@ function BPComponent5() {
                       <div class="col-2">
                         <img src="../img/BrandPositioning/Rectangle-1.png" />
                       </div>
-                      <div class="col-10">
+                      <div class="col-10  bp-cp5-listbody">
                         Marketing and communication must be disposed of in a way
                         that will stir consumer interest so that you get noticed
                         by all. Therefore, we create a preference that will
@@ -63,7 +62,11 @@ function BPComponent5() {
                         <div class="col-3">
                           <img src="../img/BrandPositioning/faviconTM2.png" />
                         </div>
-                        <div class="col-9">Maintaining relevance</div>
+                        <div class="col-9">
+                          <span className="bp-cp5-bodyspan">
+                            Maintaining relevance
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -74,7 +77,7 @@ function BPComponent5() {
                       <div class="col-2">
                         <img src="../img/BrandPositioning/Rectangle-2.png" />
                       </div>
-                      <div class="col-10">
+                      <div class="col-10 bp-cp5-listbody">
                         While true differentiators are important, compelling the
                         target audience is vital to the success of a brand. At
                         Corporality Global - the top digital marketing
@@ -95,7 +98,11 @@ function BPComponent5() {
                         <div class="col-3">
                           <img src="../img/BrandPositioning/faviconTM3.png" />
                         </div>
-                        <div class="col-9">Address and engage</div>
+                        <div class="col-9">
+                          <span className="bp-cp5-bodyspan">
+                            Address and engage
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -106,7 +113,7 @@ function BPComponent5() {
                       <div class="col-2">
                         <img src="../img/BrandPositioning/Rectangle-3.png" />
                       </div>
-                      <div class="col-10">
+                      <div class="col-10 bp-cp5-listbody">
                         Coherence is essential to engage with your audiences and
                         connect with them in meaningful ways. Our Sydney based
                         professional digital marketing create a unique value
@@ -125,7 +132,12 @@ function BPComponent5() {
                         <div class="col-3">
                           <img src="../img/BrandPositioning/faviconTM4.png" />
                         </div>
-                        <div class="col-9"> Earn a reputation</div>
+                        <div class="col-9">
+                          <span className="bp-cp5-bodyspan">
+                            {" "}
+                            Earn a reputation
+                          </span>{" "}
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -136,7 +148,7 @@ function BPComponent5() {
                       <div class="col-2">
                         <img src="../img/BrandPositioning/Rectangle-4.png" />
                       </div>
-                      <div class="col-10">
+                      <div class="col-10 bp-cp5-listbody">
                         Fulfilling expectations over and over again gives you a
                         reputation of being a committed performer. We add
                         intricate innovations to your brand positioning strategy

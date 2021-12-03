@@ -9,7 +9,7 @@ import "./BP-Component4.css";
 
 function BPComponent4() {
   return (
-    <div className="bp-cp-4-main vw-100 ">
+    <div className="bp-cp-4-main  ">
       <div className="BP-CP-4-img-d position-relative">
         <div className="BP-c4-d position-absolute end-0 top-0 translate-middle-y">
           <h1 className="BP-c4-h">
