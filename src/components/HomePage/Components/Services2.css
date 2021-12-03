@@ -11,7 +11,7 @@
 .container_padding {
   padding: 10px !important;
 }
-#content_points_1{
+#content_points_1 {
   display: block;
 }
 #content_points_2,
@@ -151,6 +151,19 @@
   font-size: 18px;
   line-height: 30px;
   color: #9ea5be;
+}
+
+.bottom_button_circle::after {
+  z-index: 10 !important;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 4.5vw;
+  width: 4.5vw;
+  background-color: black;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
 }
 
 .right_content_button {

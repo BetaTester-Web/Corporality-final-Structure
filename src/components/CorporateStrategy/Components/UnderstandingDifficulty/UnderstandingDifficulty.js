@@ -1,5 +1,6 @@
 import React from "react";
 import "./UnderstandingDifficulty.css";
+import background from "./images/background.png";
 
 function UnderstandingDifficulty() {
   return (
@@ -14,6 +15,9 @@ function UnderstandingDifficulty() {
           these symptoms, then you must adopt a packaged customer success
           strategy solution to mitigate them.
         </div>
+      </div>
+      <div className="Background_in_Strategy">
+        <img src={background} alt="" />
       </div>
       <div className="understanding_difficulty_middle_image"></div>
       <div className="understanding_difficulty_last_text">

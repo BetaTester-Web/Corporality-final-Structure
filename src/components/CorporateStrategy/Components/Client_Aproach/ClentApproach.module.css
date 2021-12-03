@@ -217,6 +217,9 @@
 }
 
 @media screen and (max-width: 644px) {
+  .clientApproach {
+    margin-top: -100px !important;
+  }
   .gear1 h4,
   .gear2 h4,
   .gear4 h4,
@@ -248,6 +251,10 @@
 }
 
 @media screen and (max-width: 617px) {
+  .clientApproach {
+    /* margin-top: -300px !important; */
+  }
+
   .clientApproach_left h1 {
     width: 100%;
   }
