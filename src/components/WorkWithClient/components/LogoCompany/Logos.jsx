@@ -16,17 +16,17 @@ const Logos = () => {
                 <div className="row All_Icons ">
                     <div className="col-lg-4 d-flex justify-content-center align-items-center">
                         <img src={logo1} alt='' className='Logo-1-Partner' />
-                        <img src={logo2} alt='' className='Logo-1-Partner' />
+                        <img src={logo2} alt='' className='Logo-1-Partner logo2ofpartner' />
 
                     </div>
                     <div className="col-lg-4 d-flex justify-content-center align-items-center">
-                        <img src={logo3} alt='' className='Logo-1-Partner' />
+                        <img src={logo3} alt='' className='Logo-1-Partner logo3ofpartner' />
                         <img src={logo4} alt='' className='Logo-1-Partner logo-partner-4' />
 
 
                     </div>
                     <div className="col-lg-3 d-flex justify-content-center align-items-center">
-                        <img src={logo5} alt='' className='Logo-1-Partner' />
+                        <img src={logo5} alt='' className='Logo-1-Partner logo5ofpartner' />
                         <img src={logo6} alt='' className='Logo-1-Partner logo-partner-6' />
 
                     </div>

@@ -1,0 +1,79 @@
+.bpcp3FullSection{
+    background-color: #E7ECEF;
+    margin-top: 7.5% !important;
+}
+.bpcp3Block{
+    width: 210px;
+    height: 480px;
+}
+.bpcp3Snake{
+    margin-left: 4%;
+    width: 85%;
+}
+.blocksContainer{
+    margin-top: 3%;
+}
+.upArrow{
+    margin-bottom: 27% !important;
+}
+.downArrow{
+    margin-top: 19% !important;
+}
+.bpcp3xAllign{
+    margin-left: -4% !important;
+}
+.bpcp3CircleText{
+    font-size: 20px;
+    color: #33657E;
+    font-weight: 500;
+    margin-top: -3% !important;
+}
+.bpcp3Description{
+    font-size: 0.9em;
+    color: #757575;
+}
+.bpcp3Ellipse1{
+    animation-name: bounce1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce1{
+    from{
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateY(-105px);
+    }
+    to{
+        transform: translateY(-100px);
+    }
+}
+.bpcp3Ellipse2{
+    animation-name: bounce2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce2{
+    from{
+        transform: translateY(-100px);
+    }
+    50%{
+        transform: translateY(-95px);
+    }
+    to{
+        transform: translateY(-100px);
+    }
+}
+@media only screen and (max-width :1024px){
+    .bpcp3Snake{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width :576px){
+    .bpcp3BackLogo{
+        visibility: hidden;
+    }
+    .bpcp3Block{
+        margin: 0px 0px !important;
+    }
+}
