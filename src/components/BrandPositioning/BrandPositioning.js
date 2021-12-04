@@ -167,7 +167,11 @@ export default function Component1() {
           <div class="container">
             <div class="row row-cols-1">
               <div class="col my-1 socialDiv">
-                <a href="https://www.facebook.com/CorporalityG" target="_blank">
+                <a
+                  href="https://www.facebook.com/CorporalityG"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src="/img/BrandPositioning/Group-618.png"
                     alt=""
@@ -176,7 +180,11 @@ export default function Component1() {
                 </a>
               </div>
               <div class="col my-1 socialDiv">
-                <a href="https://twitter.com/corporalityg" target="_blank">
+                <a
+                  href="https://twitter.com/corporalityg"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src="/img/BrandPositioning/Group-617.png"
                     alt=""
@@ -188,6 +196,7 @@ export default function Component1() {
                 <a
                   href="https://www.instagram.com/corporalityg"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src="/img/BrandPositioning/Group-616.png"
@@ -200,6 +209,7 @@ export default function Component1() {
                 <a
                   href="https://www.linkedin.com/company/corporality"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src="/img/BrandPositioning/Group-615.png"
@@ -209,7 +219,11 @@ export default function Component1() {
                 </a>
               </div>
               <div class="col my-1 socialDiv">
-                <a href="https://in.pinterest.com/CorporalityG" target="_blank">
+                <a
+                  href="https://in.pinterest.com/CorporalityG"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <img
                     src="/img/BrandPositioning/Group-614.png"
                     alt=""
@@ -221,6 +235,7 @@ export default function Component1() {
                 <a
                   href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src="/img/BrandPositioning/Group-613.png"

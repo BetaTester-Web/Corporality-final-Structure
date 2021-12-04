@@ -7,16 +7,17 @@
 .BP-c4-h {
   font-style: Bold;
   font-style: 30px;
-  line-height: 130%;
+  line-height: 120%;
   vertical-align: Top;
   text-transform: uppercase;
+  text-align: left;
 }
 .BP-c4-d {
-  width: 60%;
+  width: 50%;
   padding: 2%;
   text-align: justify;
   position: relative;
-  left: 40%;
+  left: 50%;
   background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
   color: #ffffff;
   margin-top: 8%;
