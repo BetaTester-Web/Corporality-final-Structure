@@ -21,15 +21,9 @@ const CaseStudy = () => {
                     <div className="col-lg-6 textndlists-Cs d-flex flex-column  justify-content-center">
                         <p data-aos="fade-right" className='container-2-text-1-Cs'>Case Studies</p>
                         <p data-aos="fade-right" className='container-2-text-1-Cs-2'>Explore our industrial case studies to see how sustainability is progressing across the world.</p>
-                       {/*  <div className="lists-Cs"> */}
                             <div className="button-5-Cs">
                                 <a className='button-link-3-Cs' href="#">Explore</a>
                             </div>
-
-
-                        {/* </div> */}
-
-
                     </div>
                     <div className="col-lg-6 d-flex justify-content-center ">
                         <div className="imagessecond-Cs">
@@ -46,13 +40,9 @@ const CaseStudy = () => {
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     )

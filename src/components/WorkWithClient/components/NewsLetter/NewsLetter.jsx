@@ -42,6 +42,7 @@ const NewsLetter = () => {
                         <img src={learnmore} alt =' ' className='learnmore_newsletter' />
                         <img src={rightrect} alt =' ' className='rect_newsletter' />
                         <img src={logo} alt =' ' className='logo_newsletter' />
+                        <img src={wall} alt =' ' className='Wall_newsletter' />
                         <div className="Main_back_NewsLetter">
                             <div className="Work-newsletter-polygon9">
                                 <div >

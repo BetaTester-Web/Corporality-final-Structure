@@ -23,7 +23,6 @@ const InclusionAndDiversity = () => {
             <Hover />
             <Duty />
             <TeamSpiritNew />
-            {/* <Responsible /> */}
             <Carrer />
             <Newsletter />
         </div>

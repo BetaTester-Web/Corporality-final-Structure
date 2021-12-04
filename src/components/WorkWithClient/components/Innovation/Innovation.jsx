@@ -1,17 +1,23 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import '../Innovation/Innovation.css'
+import aos from 'aos'
 import small from '../Innovation/small2.png'
 import small2 from '../Innovation/small.png'
 import group from '../Innovation/Group.png'
 
 
 const Innovation = () => {
+    useEffect(() => {
+        aos.init({ duration: 3000 });
+
+    }, [])
     return (
+        
         <div className='fifthcomponent-Innovation effectiveImage-Innovation'>
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-12 d-flex align-items-center justify-content-center flex-column">
-                        <div className="text-Innovation d-flex align-items-center justify-content-center flex-column">
+                        <div data-aos="zoom-in" className="text-Innovation d-flex align-items-center justify-content-center flex-column">
                             <p className='cont-5-text-1-Innovation'>Our Innovation Architecture</p>
                             <p className='cont-5-text-2-Innovation'>We are a fast-growing marketing and management consulting firm in Sydney that aims to tread across continents and industries as we use next-gen technology to resolve every business challenge.
 
