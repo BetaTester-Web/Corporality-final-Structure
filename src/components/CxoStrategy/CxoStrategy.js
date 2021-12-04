@@ -6,7 +6,6 @@ import Step from "./Components/Step";
 import Continously from "./Components/Continously";
 import Leverage from "./Components/Leverage";
 import Differentiate from "./Components/Differentiate";
-// import Trial from './Components/Trial';
 
 function HomePage() {
   return (
