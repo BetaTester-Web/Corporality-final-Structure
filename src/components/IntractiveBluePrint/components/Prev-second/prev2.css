@@ -83,6 +83,12 @@
      padding-top: 10%;
  }
 
+ @media (max-width:1505px){
+    .side2-container{
+        left: -70%;
+    }
+ }
+
  @media (max-width:1200px) {
      .wall2-container{
          left: 80%;
@@ -94,6 +100,9 @@
      .prev2{
          margin-top: 0px;
      }
+ }
+ @media (max-width:1089px){
+     
  }
  
  @media (max-width:992px) {

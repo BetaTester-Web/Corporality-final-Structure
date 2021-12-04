@@ -36,6 +36,8 @@
     border-radius: 10px !important;
     
 }
+
+
 .Ib_card-1:hover{
     border: 1px solid #E8E8E8 !important;
     box-sizing: border-box !important;
@@ -196,6 +198,8 @@ padding-right: 25px;
     padding-right: 250px !important;
     padding-left: 250px !important;
 }
+
+
 @media (max-width:1200px) {
     .first-text-1{
         padding-right: 0px !important;
@@ -214,6 +218,13 @@ padding-right: 25px;
     .first-text-2{
         padding-right: 25px !important;
         padding-left: 25px !important;
+        font-size: 12px !important;
+
+    }
+    .first-text-1{
+        font-size: 16px !important;
+        line-height: 20px !important;
+  
     }
 }
 

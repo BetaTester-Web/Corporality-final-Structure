@@ -22,7 +22,7 @@ const First = () => {
             <div className="space"></div>
             <div className="container d-flex flex-column">
                 <div className="row">
-                    <div className="col-12 d-flex justify-content-center align-items-center flex-column">
+                    <div className="col-12  d-flex justify-content-center align-items-center flex-column">
                         <p data-aos="fade-down" className='first-text-1'>100% customised for your company’s Goals and budgets </p>    
                         <p data-aos="fade-down" className='first-text-2'>Website blueprints are never alike. Corporality Global takes utmost care in preparing the profitable website blueprints that are customised for your business and meet your company’s objectives and budget goals.</p>    
                     </div>

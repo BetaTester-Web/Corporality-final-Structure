@@ -279,7 +279,11 @@
         top: 720px !important;
     }
     .container-2-text-1{
-        font-size: 20px;
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    .container-2-text-2{
+        font-size: 12px !important;
     }
 
 }
@@ -310,8 +314,9 @@
     }
 
     .rect-2-4 {
-        left: 50% !important;
+        display: none !important;
     }
+
 
 }
 
@@ -319,6 +324,7 @@
     .mainndback-4 {
         position: relative !important;
         left: 15% !important;
+        top: 10% !important;
     }
 
     .textndlists {
@@ -328,6 +334,17 @@
     .button-5 {
         left: 0% !important;
     }
+    .bp_our-newsletter-polygon9{
+        width: 200px !important;
+        height: 200px  !important ;
+    }
+    .backimagesecond-fourth{
+        width: 300px;
+        height: 300px;
+        top: -50px !important;
+        left: -30px !important;
+    }
+
 }
 
 @media (max-width:440px) {

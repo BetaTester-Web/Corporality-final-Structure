@@ -23,13 +23,6 @@ const Prev4 = () => {
                 </div>
 
             </div>
-            {/* <div className="container-fluid container-4">
-                <div className="row">
-                    <div className="col-12 text-prev-4 d-flex align-items-center justify-content-center flex-column">
-                        <p data-aos="fade-down" className='prev-4-1'>“We create fortified, interactive blueprints that impact businesses”</p>
-                    </div>
-                </div>
-            </div> */}
         </div>
     )
 }
