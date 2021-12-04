@@ -249,45 +249,27 @@ color: #232323;
 .main3-Multi:hover{
     transform: scale(1.02);
 }
-/* @media (max-width: 576px) -Multi{
-    
-    .back3-Multi{
-        width: 85%;
-    }
-    .wall3-Multi{
-        width: 20%;
-    }
-    .bp_iwfc_img-Multi{
-        width: 280px;
-        height: 282.8px;
-    }
-    .images-hover-4-Multi{
-        position: relative;
-        left: -20%;
-    }
-}
-    
-    @media (max-width: 483px) -Multi{
-    
-        .back3-Multi{
-            width: 85%;
-        }
-        .wall3-Multi{
-            width: 20%;
-        }
-        .bp_iwfc_img-Multi{
-            width: 250px;
-            height: 252.8px;
-        }
-        .images-hover-4-Multi{
-            position: relative;
-            left: -20%;
-        }
-        
-    } */
 .button-4-Multi-Multi{
         margin-bottom: 85px;
     }
+
+@media(max-width:1200px){
+    .container-3_text-3-Multi{
+        margin-right: 0px !important;
+    }
+    .container-3_text-2-Multi{
+        margin-right: 0px !important;
+    }
+    .container-3_text-1-Multi{
+        margin-right: 0px !important;
+    }
+}
+@media(max-width:1106){
+    .images-prev-3-Multi{
+        position: relative !important;
+        left: 100% !important;
+    }
+}
 
 @media (max-width:992px){
   
@@ -298,6 +280,30 @@ color: #232323;
         padding-top: 230px;
     }
 }
+
+@media (max-width:768px){
+    .container-3_text-3-Multi{
+        font-size: 12px;
+    }
+    .container-3_text-2-Multi{
+        font-size: 12px;
+    }
+    .container-3_text-1-Multi{
+        font-size: 12px;
+    }
+    .container-3_text-1_heading-Multi{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .container-3_text-2_heading-Multi{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .container-3_text-3_heading-Multi{
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
 @media (max-width:800px){
     .third-image-Multi{
         position: relative;
@@ -306,15 +312,15 @@ color: #232323;
 }
 @media (max-width:634px){
     .bp_iwfc_img-Multi{
-        width: 250px;
-        height: 252.8px; 
+        width: 230px;
+        height: 232.8px; 
         top: -250px;  
         left: -180px;     
     }
     .back3-Multi{
-        width: 350px;
-        height: 350px;
-        top: -220px;
+        width: 310px;
+        height: 310px;
+        top: -215px;
         left: -200px;
         
     }
@@ -324,14 +330,15 @@ color: #232323;
     }
     .third-image-Multi{
         position: relative;
-        left: 60px;
+        left: 80px;
     }
     .wall3-Multi{
-        width: 100px;
+        width: 80px;
+        top: -10px;
     }
     .small3-Multi{
         width: 40px;
-        left: -150px;
-        top: 50px;
+        left: -130px;
+        top: 40px;
     }
 }

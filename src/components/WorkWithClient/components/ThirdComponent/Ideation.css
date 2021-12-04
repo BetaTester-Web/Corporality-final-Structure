@@ -295,43 +295,6 @@
 .main3-Ideation:hover {
     transform: scale(1.02);
 }
-
-/* @media (max-width: 576px) -Ideation{
-    
-    .back3-Ideation{
-        width: 85%;
-    }
-    .wall3-Ideation{
-        width: 20%;
-    }
-    .bp_iwfc_img-Ideation{
-        width: 280px;
-        height: 282.8px;
-    }
-    .images-hover-4-Ideation{
-        position: relative;
-        left: -20%;
-    }
-}
-    
-    @media (max-width: 483px) -Ideation{
-    
-        .back3-Ideation{
-            width: 85%;
-        }
-        .wall3-Ideation{
-            width: 20%;
-        }
-        .bp_iwfc_img-Ideation{
-            width: 250px;
-            height: 252.8px;
-        }
-        .images-hover-4-Ideation{
-            position: relative;
-            left: -20%;
-        }
-        
-    } */
 .button-4-Ideation-Ideation {
     margin-bottom: 85px;
 }
@@ -349,7 +312,7 @@
 
 @media(max-width:768px) {
     .heading-text-1-main {
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .container-3_text-1_heading-Ideation {
@@ -390,16 +353,16 @@
 
 @media (max-width:634px) {
     .bp_iwfc_img-Ideation {
-        width: 250px;
-        height: 252.8px;
+        width: 230px;
+        height: 232.8px;
         top: -250px;
         left: -180px;
     }
 
     .back3-Ideation {
-        width: 350px;
-        height: 350px;
-        top: -220px;
+        width: 310px;
+        height: 310px;
+        top: -215px;
         left: -200px;
 
     }
@@ -411,7 +374,7 @@
 
     .third-image-Ideation {
         position: relative;
-        left: 60px;
+        left: 75px;
     }
 
     .wall3-Ideation {

@@ -69,7 +69,7 @@
       }
       .button-4-Innovation:hover .button-link-Innovation{
         text-decoration: none ;
-        color:#FFFF  ;
+        color:white ;
       }
     .cont-5-text-3-Innovation{
         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -117,7 +117,7 @@
     .group5-Innovation{
         position: absolute ;
         top: -5% ;
-        left: -500px ;
+        left: -600px  !important;
     }
     .navbor-Innovation{
         padding-bottom: 10px ;
@@ -142,6 +142,7 @@
         .cont-5-text-2-Innovation{
             margin-left: 0px ;
             margin-right: 0px ;
+            font-size: 12px;
         }
         .text-Innovation{
             position: relative ;
@@ -150,6 +151,14 @@
         .small2-5-Innovation{
             left: 40% ;
             top: -35% ;
+        }
+        .cont-5-text-1-Innovation{
+            font-size: 16px;
+        }
+    }
+    @media (max-width:612px){
+        .effectiveImage-Innovation{
+            height: 80vh;
         }
     }
     @media (max-width: 509px){

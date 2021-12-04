@@ -1,4 +1,5 @@
-import React from 'react'
+import React , {useEffect} from 'react'
+import aos from 'aos'
 import '../Combating/Combating.css'
 import main from './main.png'
 import back from './back.png'
@@ -6,12 +7,16 @@ import group from './Group.png'
 import textrect from './text-rect.png'
 
 const Combating = () => {
+    useEffect(() => {
+        aos.init({ duration: 3000 });
+
+    }, [])
     return (
-        <div>
+        <div className='COmbatinG'>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
-                        <div className="Combating_images_column">
+                        <div data-aos="fade-right" data-aos-duration="2500" className=" Combating_images_column">
                             <img src={group} alt='' className='Combating_group' />
                             <div className="MainAndBack_Combating">
                                 <div className="Combating_main">
@@ -29,7 +34,7 @@ const Combating = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 ">
-                        <div className='Combating_texting_coloumn'>
+                        <div data-aos="fade-left" data-aos-duration="2500" className='Combating_texting_coloumn'>
                             <p className='Combating_texting_column-1'>Combating change with technology</p>
                             <p className='Combating_texting_column-2'>A multi-talented team with a winning streak</p>
                             <p className='Combating_texting_column-3'>Making strides across the industry, we work as a team towards a single goal- a happy customer</p>

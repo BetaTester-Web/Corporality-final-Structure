@@ -48,5 +48,10 @@
         align-items: center;
         text-align: center;
         line-height: 30px !important;
+        font-size: 20px !important;
+    }
+
+    .Partner-program-2-text{
+        font-size: 14px !important;
     }
 }
