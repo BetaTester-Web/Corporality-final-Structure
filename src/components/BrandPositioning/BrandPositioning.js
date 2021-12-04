@@ -236,7 +236,7 @@ export default function Component1() {
       <div className="vw-100 my-4">
         <BPComponent2 />
       </div>
-      <div className="vw-100 my-4">
+      <div className="vw-100 my-0">
         <BPComp3 />
       </div>
       <BPComponent4 />

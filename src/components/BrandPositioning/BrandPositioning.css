@@ -169,29 +169,29 @@ code {
 }
 @media only screen and (max-width :1024px){
   .snakes{
-    width: 59%;
+    width: 65% !important;
   }
   .imprvdCompText{
     font-size: 0.55em !important;
     padding-left: 5% !important;
   }
   .mediumD2{
-    margin-bottom: 14% !important;
-    margin-right: 0% !important;
+    margin-bottom: 11% !important;
+    margin-right: 5% !important;
   }
   .textD{
     width: 30% !important;
-    margin-left: 12% !important;
-    margin-bottom: 31% !important;
+    margin-left: 5% !important;
+    margin-bottom: 25% !important;
   }
   .omniBlock{
     width: 23% !important;
-    margin-left: 1% !important;
-    margin-top: -3% !important;
+    margin-left: -1% !important;
+    margin-top: 7% !important;
   }
   .custLoyaltyBlock{
-    margin-bottom: 9% !important;
-    margin-left: 29% !important;
+    margin-bottom: 3% !important;
+    margin-left: 23% !important;
     width: 21% !important;
     height: 15.5% !important;
   }
@@ -282,7 +282,7 @@ code {
 }
 @media only screen and (max-width :576px){
   .snakes{
-    width: 95%;
+    width: 95% !important;
   }
   .flexing{
     flex-direction: column-reverse;
