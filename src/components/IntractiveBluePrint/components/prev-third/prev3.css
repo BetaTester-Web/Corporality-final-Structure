@@ -337,3 +337,27 @@ button-4{
         top: 50px;
     }
 }
+
+@media (max-width:500px){
+    .bp_iwfc_img{
+        width: 230px;
+        height: 230px;
+    }
+    .back3{
+        width: 310px;
+        height: 320px;
+        
+    }
+    .wall3{
+        width: 270%;
+        top: -10%;
+        left: -10%;
+    }
+    .small3{
+        width: 100%;
+        left: -450%;
+    }
+    .images-prev-3{
+        left: 10%;
+    }
+}
