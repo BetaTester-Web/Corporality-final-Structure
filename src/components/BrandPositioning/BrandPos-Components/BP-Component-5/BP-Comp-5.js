@@ -11,7 +11,7 @@ function BPComponent5() {
       </div>
       <div className="container vw=100">
         <div className="row">
-          <div className="col-2 ">
+          <div className="col-1">
             <img
               src="..\img\BrandPositioning\Group-750.png"
               alt=""
@@ -134,9 +134,8 @@ function BPComponent5() {
                         </div>
                         <div class="col-9">
                           <span className="bp-cp5-bodyspan">
-                            {" "}
                             Earn a reputation
-                          </span>{" "}
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -159,6 +158,9 @@ function BPComponent5() {
                 </Accordion.Body>
               </Accordion.Item>
             </Accordion>
+          </div>
+          <div className="col-1">
+            <img src="..\img\BrandPositioning\Vector.png" />
           </div>
         </div>
       </div>

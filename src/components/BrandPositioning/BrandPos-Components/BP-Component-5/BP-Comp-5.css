@@ -34,5 +34,7 @@
   padding-left: 4%;
 }
 .bp-cp-5-img {
-  margin-left: -60%;
+  margin-left: -90%;
+  height: 300px !important;
+  width: 100% !important;
 }
