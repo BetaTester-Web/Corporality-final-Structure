@@ -28,7 +28,7 @@
     padding-left: 55px !important;
     padding-right: 200px !important;
     margin-right: 200px !important;
-    margin-left: -100px !important;
+    margin-left: -10px !important;
     left: 10%;
   }
   .community_support_first-Leaderships:hover {
@@ -60,7 +60,7 @@
     line-height: 24px;
     color: #757575;
     padding-right: 250px !important;
-    margin-right: -120px;
+    margin-right: -60px;
   }
   
   .community_support_second-Leaderships {
@@ -71,7 +71,7 @@
     padding-bottom: 55px !important;
     padding-left: 150px !important;
     padding-right: 55px !important;
-    margin-right: -100px !important;
+    margin-right: -50px !important;
     margin-left: 300px !important;
     left: -10%;
   }
@@ -87,8 +87,14 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 32px;
-    color: #A06DAF;
+    color: #3c708e;
     margin-right: 10px !important;
+    position: relative;
+    left: -10%;
+  }
+  .text1_leadership{
+    position: relative;
+    left: 10%;
   }
   
   .community_second_description-Leaderships {
@@ -100,6 +106,8 @@
     color: #757575;
     padding-right: 340px !important;
     margin-right: -180px;
+    position: relative;
+    left: -10%;
   }
   .community_support_second-Leaderships:hover {
     box-shadow: 0px 8px 21px 2px rgba(0, 0, 0, 0.15);
@@ -162,6 +170,14 @@
     position: absolute;
     bottom: 0;
     left: 250px;
+  }
+
+
+  @media (max-width:1400px){
+    .text2_Leaderships{
+      position: relative !important;
+      left: 20% !important;
+    }
   }
   
   @media only screen and (max-width: 1200px) {
@@ -368,10 +384,18 @@
       margin-right: 30px !important;
       margin-left: 30px !important;
     }
-  
+    .community_first_heading_text-Leaderships{
+      margin-right: 60px !important;
+    }
+    .community_first_description-Leaderships{
+      margin-right: 60px !important;
+    }
     .community_top_image-Leaderships > img {
       width: 180px;
       height: 180px;
+    }
+    .community_second_description-Leaderships{
+      margin-right: 60px !important;
     }
   
     .community_top_image-Leaderships {
@@ -471,6 +495,9 @@
       position: absolute;
       bottom: 0;
       left: 180px;
+    }
+    .community_second_description-Leaderships{
+      margin-right: 0px !important;
     }
   }
   
