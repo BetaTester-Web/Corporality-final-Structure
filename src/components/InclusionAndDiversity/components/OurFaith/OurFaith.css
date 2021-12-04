@@ -83,6 +83,12 @@
      padding-top: 10%;
  }
 
+ @media (max-width:1505px){
+     .side2-container-Faith{
+         left: -70%;
+     }
+ }
+
  @media (max-width:1200px) {
      .wall2-container-Faith{
          left: 80%;
@@ -117,6 +123,15 @@
          margin-top: 150px;
      }
  }
+@media (max-width:768px){
+    .prev-2-text-2-Faith{
+        font-size: 12px;
+    }
+    .prev-2-text-1-Faith{
+        font-size: 16px;
+    }
+}
+
  @media (max-width:677px){
      .side2-container-Faith{
          /* height: 30%; */
