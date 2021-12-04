@@ -29,7 +29,7 @@ const Duty = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xl-6 justify-content-center align-items-center">
+                    <div className="col-xl-6 2-Card-whole-column justify-content-center align-items-center">
                         <div className="Duty_images_card Duty-images-card-2">
                             <div className="Inc_Div_duty_card_img">
                                 <div className="Inc_Div_duty_card_img_inner">
