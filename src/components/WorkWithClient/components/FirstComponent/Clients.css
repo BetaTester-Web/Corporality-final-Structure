@@ -17,6 +17,10 @@
     /* margin-right: 130px; */
  
 }
+.yellow_Work{
+    position: absolute;
+    left:60%;
+}
 /* .image-first-Clients-1-Clients{
     display: flex;
     justify-content: center;
@@ -129,10 +133,10 @@
    
    }
 
-   .smaller-rect-prev-1-Clients{
+   .smaller-rect-prev-1{
        position: absolute;
        left: 74%;
-       top: 92%;
+       top: 72%;
    }
 
    .first-image-Clients{
@@ -168,7 +172,11 @@
          display: none;
      }
 }
-
+@media(max-width:1500px){
+    .yellow_Work{
+        display: none;
+    }
+}
 @media (max-width:1300px){
     .image-first-Clients{
         position: relative;
