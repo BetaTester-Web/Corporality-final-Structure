@@ -23,18 +23,23 @@ function TeamSpiritNew() {
           className="community_support_first-Leaderships"
 
         >
-          <div className="community_first_heading-Leaderships">
-            <div className="community_first_heading_text-Leaderships">Inclusion and diversity across our partnerships</div>
+          <div className="text1_leadership">
+            <div className="community_first_heading-Leaderships">
+              <div className="community_first_heading_text-Leaderships">Inclusion and diversity across our partnerships</div>
 
+            </div>
+            <div className="community_first_description-Leaderships">
+              Every partner shares a commitment and ideas only get better when discussed openly. A mix of people is the best way to get decisions going.
+            </div>
           </div>
-          <div className="community_first_description-Leaderships">
-            Every partner shares a commitment and ideas only get better when discussed openly. A mix of people is the best way to get decisions going.
-          </div>
-          <div className="community_top_image-Leaderships">
-            <img src={top_image2} alt="" className="community_top_image_image-Leaderships" />
-          </div>
-          <div className="community_top_back_image-Leaderships">
-            <img src={top_back} alt="" />
+
+          <div className="first_leadership_image">
+            <div className="community_top_image-Leaderships">
+              <img src={top_image2} alt="" className="community_top_image_image-Leaderships" />
+            </div>
+            <div className="community_top_back_image-Leaderships">
+              <img src={top_back} alt="" />
+            </div>
           </div>
           <div className="community_top_rectangle-Leaderships">
             <img src={top_rectangle} alt="" />
