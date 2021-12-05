@@ -22,7 +22,7 @@ const Duty = () => {
                                     <img src={polygon1} alt="" />
                                 </div>
                             </div>
-                            <div className="Duty_card_text">
+                            <div className="Duty_card_text Duty_card_text_1">
                                
                                 <p className='Duty_card_text_1_heading'>Gender inclusive</p>
                                 <p className='Duty_card_text_2_Description'>A gender balanced workplace empowers people while removing barriers to equal participation. All employees get to access rewards, resources and opportunities. </p>

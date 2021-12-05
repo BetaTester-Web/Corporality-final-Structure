@@ -51,6 +51,11 @@
 
 @media only screen and (max-width: 992px) {
 
+    .GTMComp2{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
     .GTMComp2 .container {
         height: auto;
     }

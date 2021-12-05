@@ -12,22 +12,28 @@ const Global = () => {
                 <div className="row"><p className='Global-text-1'>"By 2025, Corporality Global aims to become an epitome of sustainability, worldwide."</p></div>
                 <div className="row"><p className='Global-text-2'>Priya Mishra</p></div>
                 <div className="row"><p className='Global-text-3'>CEO, Corporality Global</p></div>
-                {/* <div className="row">
-                    <div className="icons_Global_main">
-                        <div className="icons_global-twitter">
-                            <img src={circle} alt='' className='Global-circle' />
-                            <img src={twitter} alt='' className='Global-twitter' />
-                            <img src={arrow} alt='' className='Global-arrow-twitter' />
-                            <p className='twitter-global'>twitter</p>
-                        </div>
-                        <div className="icons_global-linkedin">
-                            <img src={circle} alt='' className='Global-circle-linkedin' />
-                            <img src={linkedin} alt='' className='Global-linkedin' />
-                            <img src={arrow} alt='' className='Global-arrow-linkedin' />
-                            <p className='linkedin-global'>linkedin</p>
-                        </div>
+                <div className="row d-flex justify-content-center  align-items-center">
+                    <div className="col">
+                        <a href=''>
+                            <div className="social_icons_Sustainable_growth d-flex justify-content-center align-items-center">
+                                <img src={circle} alt=' ' className='circle1_Sustaible_growth' />
+                                <img src={twitter} alt=' ' className='twitter_Sustaible_growth' />
+                                <img src={arrow} alt=' ' className='arrow1_Sustaible_growth' />
+                                <p className='Twitter_text_SG'>Twitter</p>
+                            </div>
+                        </a>
                     </div>
-                </div> */}
+                    <div className="col">
+                        <a href=''>
+                            <div className="social_icons2_Sustainable_growth d-flex justify-content-center align-items-center">
+                                <img src={circle} alt=' ' className='circle1_Sustaible_growth' />
+                                <img src={linkedin} alt=' ' className='Linkedin_Sustaible_growth' />
+                                <img src={arrow} alt=' ' className='arrow2_Sustaible_growth' />
+                                <p className='linkedin_text_SG'>Linkedin</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     )
