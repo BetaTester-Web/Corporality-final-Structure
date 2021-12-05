@@ -30,8 +30,16 @@ function AllCardsNew() {
   return (
     <>
       <div className="cards_top_text_container">
-        <div className="cards_top_heading">
-          Intended Maturity – Modelling and Methodology
+        <div className="cards_top_heading animate two">
+          <span>Intended</span>
+          &nbsp;
+          <span>Maturity</span>
+          &nbsp;<span> –</span> &nbsp;
+          <span>Modelling</span>
+          &nbsp;
+          <span>and</span>
+          &nbsp;
+          <span>Methodology</span>
         </div>
         <div className="cards_top_description">
           Designed and successfully used by Corporality to accelerate the rate

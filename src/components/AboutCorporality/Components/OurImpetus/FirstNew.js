@@ -11,43 +11,48 @@ import "./First.css";
 
 function FirstNew() {
   useEffect(() => {
-    Aos.init();
+    Aos.init({ duration: 3000 });
   });
 
   return (
-    <div className="upper_container">
-      <div
-        className="left_content aos-init aos-animate"
-        data-aos="fade-right"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out"
-        data-aos-offset="0"
-      >
-        <div className="impetus_heading">OUR IMPETUS</div>
-        <div className="impetus_text">
-          TO DELIVER THE BEST IN DIGITAL MARKETING AND SALES SOLUTIONS USING
-          INNOVATION AND INTUITION TO CRAFT BUSINESS BRILLIANCE
+    <div className="container">
+      <div className="upper_container">
+        <div
+          // className="aos-init aos-animate"
+          data-aos="fade-right"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+          data-aos-offset="0"
+        >
+          <div className="left_content">
+            <div className="impetus_heading">OUR IMPETUS</div>
+            <div className="impetus_text">
+              TO DELIVER THE BEST IN DIGITAL MARKETING AND SALES SOLUTIONS USING
+              INNOVATION AND INTUITION TO CRAFT BUSINESS BRILLIANCE
+            </div>
+            <div className="impetus_text2">
+              We create long-lasting values while helping you embrace change in
+              quickly altering marketing scenarios
+            </div>
+          </div>
         </div>
-        <div className="impetus_text2">
-          We create long-lasting values while helping you embrace change in
-          quickly altering marketing scenarios
-        </div>
-      </div>
-      <div
-        className="right_image aos-init aos-animate"
-        data-aos="fade-left"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out"
-        data-aos-offset="0"
-      >
-        <img src={wall} alt="" className="wall_img" />
 
-        <img src={backimg} alt="" className="back_img" />
-        <img src={smallrect} alt="" className="smallrectangle_img" />
-        <img src={rect} alt="" className="rectangle_img" />
+        <div
+          className="right_image "
+          data-aos="fade-left"
+          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+          data-aos-offset="0"
+        >
+          <img src={wall} alt="" className="wall_img" />
 
-        <div className="main_image_container">
-          <img src={main2} alt="" className="main_img" />
+          <img src={backimg} alt="" className="back_img" />
+          <img src={smallrect} alt="" className="smallrectangle_img" />
+          <img src={rect} alt="" className="rectangle_img" />
+
+          <div className="main_image_container">
+            <img src={main2} alt="" className="main_img" />
+          </div>
         </div>
       </div>
     </div>

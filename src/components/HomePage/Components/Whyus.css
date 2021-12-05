@@ -171,6 +171,34 @@
   left: 870px;
 }
 
+@media only screen and (max-width: 1500px) {
+  .main_div {
+    margin-left: 0px !important;
+  }
+
+  .box_top_1 {
+    top: 90px;
+    left: 500px;
+  }
+
+  .box_top_2 {
+    top: 70px;
+    left: 950px;
+  }
+  .box_bottom_1 {
+    top: 440px;
+    left: 250px;
+  }
+  .box_bottom_2 {
+    top: 650px;
+    left: 500px;
+  }
+  .box_bottom_3 {
+    top: 530px;
+    left: 950px;
+  }
+}
+
 @media only screen and (max-width: 1300px) {
   .main_div {
     margin-left: 0px !important;

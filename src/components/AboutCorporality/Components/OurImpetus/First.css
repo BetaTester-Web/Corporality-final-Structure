@@ -3,6 +3,9 @@
   justify-content: space-around;
   align-items: center;
   margin-top: 100px !important;
+  background: url("./yellow_back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   /* position: relative; */
 }
 
@@ -96,6 +99,17 @@
   position: absolute;
   top: 220px;
   right: 390px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .left_content {
+    padding-right: 700px !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .left_content {
+    padding-right: 600px !important;
+  }
 }
 
 @media only screen and (max-width: 1095px) {

@@ -38,11 +38,15 @@ function CorporateFirst() {
 
   return (
     <div className="corporatefirst_main_container">
-      <div className="corporatefirst_icontext_container">
+      <div
+        className="corporatefirst_icontext_container"
+        data-aos="fade-right"
+        data-aos-duration="3000"
+        data-aos-delay="200"
+      >
         <div className="corporatefirst_left_icons">
           <div className="corporatefirst_facebook_icon">
             <a href="https://www.facebook.com/CorporalityG">
-              {" "}
               <img src={corporatefirst_facebook} alt="" />
             </a>
           </div>
@@ -99,7 +103,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="goal_icon aos-init aos-animate"
+              className="goal_icon "
               data-aos="fade-left"
               data-aos-duration="3000"
               data-aos-delay="500"
@@ -108,7 +112,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="goal_line aos-init aos-animate"
+              className="goal_line "
               data-aos="fade-left"
               data-aos-duration="2000"
             >
@@ -116,7 +120,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="goal_text aos-init aos-animate"
+              className="goal_text "
               data-aos="fade-left"
               data-aos-duration="2000"
               data-aos-delay="1000"
@@ -125,7 +129,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="idea_icon aos-init aos-animate"
+              className="idea_icon "
               data-aos="fade-left"
               data-aos-duration="2000"
               data-aos-delay="500"
@@ -134,7 +138,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="idea_line aos-init aos-animate"
+              className="idea_line "
               data-aos="fade-left"
               data-aos-duration="2000"
             >
@@ -142,7 +146,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="idea_text aos-init aos-animate"
+              className="idea_text "
               data-aos="fade-left"
               data-aos-duration="2000"
               data-aos-delay="1000"
@@ -151,7 +155,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="plan_icon aos-init aos-animate"
+              className="plan_icon "
               data-aos="fade-right"
               data-aos-duration="2000"
               data-aos-delay="500"
@@ -160,7 +164,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="plan_line aos-init aos-animate"
+              className="plan_line "
               data-aos="fade-right"
               data-aos-duration="2000"
             >
@@ -168,7 +172,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="plan_text aos-init aos-animate"
+              className="plan_text"
               data-aos="fade-right"
               data-aos-duration="2000"
               data-aos-delay="1000"
@@ -177,7 +181,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="strategy_icon aos-init aos-animate"
+              className="strategy_icon"
               data-aos="fade-left"
               data-aos-duration="2000"
               data-aos-delay="500"
@@ -186,7 +190,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="strategy_line aos-init aos-animate"
+              className="strategy_line "
               data-aos="fade-left"
               data-aos-duration="2000"
             >
@@ -194,7 +198,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="strategy_text aos-init aos-animate"
+              className="strategy_text "
               data-aos="fade-left"
               data-aos-duration="2000"
               data-aos-delay="1000"
@@ -203,7 +207,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="team_icon aos-init aos-animate"
+              className="team_icon "
               data-aos="fade-right"
               data-aos-duration="2000"
               data-aos-delay="500"
@@ -212,7 +216,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="team_line aos-init aos-animate"
+              className="team_line "
               data-aos="fade-right"
               data-aos-duration="2000"
             >
@@ -220,7 +224,7 @@ function CorporateFirst() {
             </div>
 
             <div
-              className="team_text aos-init aos-animate"
+              className="team_text "
               data-aos="fade-right"
               data-aos-duration="2000"
               data-aos-delay="1000"
