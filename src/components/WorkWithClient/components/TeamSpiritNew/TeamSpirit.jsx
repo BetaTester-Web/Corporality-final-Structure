@@ -49,7 +49,7 @@ function TeamSpiritNew() {
         <div
           className="community_support_second-Invirogating"
         >
-          <div className="text2_Leaderships">
+          <div className="text_2_invirogating">
             <div className="community_second_heading-Invirogating">
               <div className="community_second_heading_text-Invirogating">
                 Stepping into the Global Market

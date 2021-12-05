@@ -7,7 +7,8 @@ import Hover from './components/HoverInclusion/Hover';
 import Duty from './components/FourCards/Duty';
 import Newsletter from './components/LastComponentINC/Newsletter';
 import Carrer from './components/CarrerImage/Carrer';
-import TeamSpiritNew from './components/TeamSpiritNew/TeamSpirit';
+
+import Leadership from './components/LeaderShip/Leadership';
 
 
 
@@ -22,7 +23,7 @@ const InclusionAndDiversity = () => {
             <OurFaith />
             <Hover />
             <Duty />
-            <TeamSpiritNew />
+            <Leadership />
             <Carrer />
             <Newsletter />
         </div>
