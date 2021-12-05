@@ -1,48 +1,85 @@
-import React from 'react'
+
 import './KeyObject.css'
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+import 'aos/dist/aos.css';
 
 const KeyObject = () => {
-    return (
-        <div className="d-xl-flex container">
-        <div className="m-5 ddm-audit">
-                <h1>Key objectives</h1>
-                <p>
-                The key objective is to align all short-term and long-term business goals in order of their priority and accomplish them over the next two to three years. Create the ideal buyer persona, identify competition and describe products and services, to map out a detailed inventory encompassing your marketing assets.
-                </p>
 
+    useEffect(() => {
+        Aos.init();
+    })
+
+    return (
+        <div className="d-xl-flex">
+        <div className="m-5 ddm-audit">
                 
-                <div className="ddm-audit-strategies">
-                <p>
-                    <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className="mx-2" />
-                    Augmenting company visibility
-                </p>
-                <p>
-                    <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
-                    Increasing the size of the audience with corporate or business level strategy 
-                </p>
-                <p>
-                    <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className="mx-2" />
-                    Differentiating you from competition
-                </p>
-                <p>
-                    <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
-                    Market share increase and maintenance
-                </p>
-                <p>
-                    <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
-                    Generating qualified leads with effective lead generation strategy
-                </p>
-                <p>
-                    <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
-                    Customer engagement and usage
-                </p>
+                <div data-aos="fade-right">
+
+                    <div className="ddm-audi">
+                    <h1>Key objectives</h1>
+                    <p>The key objective is to align all short-term and long-term business goals in order of their priority and accomplish them over the next two to three years. Create the ideal buyer persona, identify competition and describe products and services, to map out a detailed inventory encompassing your marketing assets.</p>
+                    </div>
                 </div>
 
-                <p>
-                A detailed marketing audit under your belt helps you provide marching orders that are strategically aligned towards your marketing goals.
-                </p>
-            </div>
+                    
+                    <div className="ddm-audit-strategies">
+                    <div data-aos="fade-up">
 
+
+            <div data-aos="fade-up">
+                    <p>
+                        <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
+                        Augmenting company visibility
+                    </p>
+            </div>
+            <div data-aos="fade-up">
+
+                    <p>
+                        <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
+                        Increasing the size of the audience with corporate or business level strategy
+                    </p>
+            </div>
+            <div data-aos="fade-up">
+
+                    <p>
+                        <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
+                        Differentiating you from competition
+                    </p>
+            </div>
+            <div data-aos="fade-up">
+
+                    <p>
+                        <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
+                        Market share increase and maintenance
+                    </p>
+            </div>
+            <div data-aos="fade-up">
+
+                    <p>
+                        <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
+                        Generating qualified leads with effective lead generation strategy
+                    </p>
+            </div>
+            <div data-aos="fade-up">
+
+                    <p>
+                        <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
+                        Customer engagement and usage
+                    </p>
+            </div>
+                    </div>
+            
+            <div data-aos="fade-right">
+
+
+                    <p>
+                    A detailed marketing audit under your belt helps you provide marching orders that are strategically aligned towards your marketing goals.
+                    </p>
+            </div>
+                </div>
+
+    </div>
             <div>
                 <img src="./img/DigitalMediaMarketing/cuate.png" className="img-fluid m-5" alt="" />
             </div>

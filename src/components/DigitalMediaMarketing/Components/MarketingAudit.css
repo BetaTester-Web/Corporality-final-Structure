@@ -9,39 +9,54 @@
 }
 
 .Scope-txt{
-    /* position: absolute; */
-    padding-bottom: 0%;
+    /* position: relative; */
+    padding-bottom: 3%;
 }
 
 .Scope-Line{
-    width: 80%;
+    width: 18%;
     padding-top: 13%;
-    position: relative;
+    position: absolute;
 }
 
 .Scope-K-Scope{
-    position: absolute;
-    width: 40%;
-    margin-top: 4.5%;
+    position: relative;
+    width: 130%;
+    margin-top: -29% !important;
 
 }
 
 .ddminitReasearch{
-    padding-top: 10%;
+    /* padding-top: 10%; */
     background: linear-gradient(180deg, #A06DAF 0%, #6CA0BC 100%);
 box-shadow: 0px 10px 15px rgba(20, 33, 43, 0.15), inset 3px 5px 35px rgba(34, 57, 70, 0.05);
 width: 200px;
     height: 200px;
     border-radius: 50%;
-    position: absolute;
+    position: relative;
 
 }
 
-.ddm-audit > h1{
+.ddminitReasearch > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+/* or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+align-items: center;
+margin-top: 45%;
+}
+
+.ddm-audi > h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 35px;
     line-height: 42px;
     /* or 131% */
     
@@ -51,7 +66,7 @@ width: 200px;
     
 }
 
-.ddm-audit > p{
+.ddm-audi > p{
     font-family: Roboto;
 font-style: normal;
 font-weight: 500;
@@ -65,7 +80,7 @@ color: #757575;
 }
 
 
-.ddm-audit-strategies > h3{
+.ddmaudit-strat > h3{
     font-family: Roboto;
 font-style: normal;
 font-weight: bold;
@@ -96,10 +111,63 @@ color: #757575;
     .ddm-audit{
         width: 100%;
     }
+
+
+.Scope-Line{
+    width: 25%;
+    padding-top: 23%;
+    position: absolute;
+}
+
+.Scope-K-Scope{
+    position: relative;
+    width: 80%;
+    margin-top: -20% !important;
+
+}
+
+
 }
 @media only screen and (max-width: 800px){
     .ddm-audit{
         margin: 4px !important;
         padding: 0px !important;
+    }
+    .Scope-Line{
+        width: 30%;
+        padding-top: 29%;
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 430px){
+
+
+    .Scope-Line{
+        width: 50%;
+        padding-top: 50%;
+        position: absolute;
+    }
+
+    .Scope-K-Scope{
+        position: relative;
+        width: 95%;
+        margin-top: -15% !important;
+    
+    }
+}
+@media only screen and (max-width: 380px){
+
+
+    .Scope-Line{
+        width: 60%;
+        padding-top: 55%;
+        position: absolute;
+    }
+
+    .Scope-K-Scope{
+        position: relative;
+        width: 95%;
+        margin-top: -15% !important;
+    
     }
 }
