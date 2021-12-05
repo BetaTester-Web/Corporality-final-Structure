@@ -15,6 +15,10 @@
     /* margin-right: 130px; */
  
 }
+.yellow_Incl{
+    position: absolute;
+    left:60%;
+}
 /* .image-first-Id-1-Id{
     display: flex;
     justify-content: center;
@@ -165,6 +169,11 @@
      .blue_print_overlay{
          display: none;
      }
+}
+@media(max-width:1500px){
+    .yellow_Incl{
+        display: none;
+    }
 }
 
 @media (max-width: 1400px){

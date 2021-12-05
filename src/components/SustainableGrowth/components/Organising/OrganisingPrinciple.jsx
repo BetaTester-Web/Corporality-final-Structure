@@ -7,16 +7,18 @@ import wall from '../Organising/Wall.png'
 import rect from '../Organising/rect.png'
 import smallerrect from '../Organising/text-rect.png'
 import aos from 'aos'
+import yellowbackground from './yellowbackground.png'
 
 const OrganisingPrinciple = () => {
     useEffect(() => {
         aos.init({ duration: 3000 });
-
     }, [])
     return (
-
         <div className="OrganisingPrinciple">
             <div className="navbar-Op"></div>
+            <div className="Out_container_Org_yellow">
+                <img src = {yellowbackground} className='yellow_Org' alt=" " />
+            </div>
             <div className="container container-1-Op">
                 <div className="row first-image-Op">
                     <div className="col-lg-6">
