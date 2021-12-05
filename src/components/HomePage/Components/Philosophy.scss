@@ -6,9 +6,9 @@
     // height: 100vh;
     background-color: #fff;
     padding: 50px 0px !important;
-    margin: 0;
     font-size: 1.2vw;
-    // border: 2px solid #000;
+    margin: 0px auto;
+    max-width: 1920px;
     .philosophyHead{
         display: flex;
         flex-direction: column;
@@ -180,9 +180,19 @@
     }
 }
 
+@media only screen and (min-width: 1920px) {
+    .philosophyContainer{
+        font-size: 18px;
+        hr{
+            max-width: 150px;
+        }
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     
 }
+
 @media only screen and (max-width: 992px) {
     .philosophyContainer{
         font-size: 1.4vw !important;

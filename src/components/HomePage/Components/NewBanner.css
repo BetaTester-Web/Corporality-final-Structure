@@ -6,6 +6,8 @@
   color: #33657E !important;
   z-index: 2;
   font-size: 1.1vw;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 .bannerContainer video {
@@ -404,6 +406,42 @@
 .bannerContainer .square-2-diff {
   top: 75% !important;
   right: 65% !important;
+}
+
+@media only screen and (min-width: 1920px) {
+  .bannerContainer {
+    font-size: 16px;
+  }
+  .bannerContainer .bigDiamond {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .bannerContainer .smallDiamond {
+    max-width: 120px;
+    max-height: 120px;
+  }
+  .bannerContainer .callButton {
+    max-width: 32px;
+    max-height: 32px;
+  }
+  .bannerContainer .callButton::after {
+    max-width: 32px;
+    max-height: 32px;
+  }
+  .bannerContainer .mobileNumber {
+    margin-top: 10% !important;
+  }
+  .bannerContainer .socialIcon {
+    max-width: 43px !important;
+    max-height: 43px !important;
+    width: 43px !important;
+    height: 43px !important;
+    min-width: 40px !important;
+    min-height: 40px !important;
+  }
+  .bannerContainer .socialIcon i {
+    font-size: 22.4px !important;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
