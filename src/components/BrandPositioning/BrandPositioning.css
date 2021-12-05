@@ -164,7 +164,7 @@ code {
   margin-bottom: -3% !important;
 }
 .social{
-  width: 4% !important;
+  width: 7% !important;
   height: 35% !important;
 }
 @media only screen and (max-width :1024px){
@@ -210,6 +210,10 @@ code {
     margin-bottom: 3% !important;
     margin-right: 21% !important;
     height: 16% !important;
+  }
+  .social{
+    width: 10% !important;
+    height: 35% !important;
   }
 }
 @media only screen and (max-width :992px){
@@ -276,8 +280,9 @@ code {
     margin-top: 0% !important;
   }
   .social{
-    width: 3% !important;
+    width: 12% !important;
     height: 50% !important;
+    padding-right: 0% !important;
   }
 }
 @media only screen and (max-width :576px){
@@ -370,19 +375,19 @@ code {
     color: #33657E !important;
   }
   .social{
-    width: 9% !important;
-    height: 60% !important;
+    width: 25% !important;
+    height: 50% !important;
     margin: 0% 0% !important;
   }
   .socialDiv{
     margin: 0px 0px !important;
   }
   .phnbtn{
-    margin-right: 15%;
+    margin-right: 20% !important;
     margin-bottom: 20%;
   }
   .littleD1{
     margin-right: 13%;
-    margin-top: 9%;
+    margin-top: -4% !important;
   }
 }

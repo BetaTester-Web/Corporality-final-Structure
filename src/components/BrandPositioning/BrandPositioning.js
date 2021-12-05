@@ -163,9 +163,8 @@ export default function Component1() {
             </div>
           </div>
         </div>
-        <div className="social position-absolute end-0 top-50 translate-middle-y">
-          <div class="container">
-            <div class="row row-cols-1">
+        <div className="social position-absolute end-0 top-50 translate-middle-y container"> 
+            <div class="row row-cols-1 mx-0 bpcp1SocialRow">
               <div class="col my-1 socialDiv">
                 <a href="https://www.facebook.com/CorporalityG" target="_blank">
                   <img
@@ -230,10 +229,9 @@ export default function Component1() {
                 </a>
               </div>
             </div>
-          </div>
         </div>
       </div>
-      <div className="vw-100 my-4">
+      <div className="vw-100 my-2">
         <BPComponent2 />
       </div>
       <div className="vw-100 my-0">
