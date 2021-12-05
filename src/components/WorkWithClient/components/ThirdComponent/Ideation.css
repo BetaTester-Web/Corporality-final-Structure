@@ -313,6 +313,7 @@
 @media(max-width:768px) {
     .heading-text-1-main {
         font-size: 20px;
+        line-height: 20px;
     }
 
     .container-3_text-1_heading-Ideation {
@@ -379,11 +380,13 @@
 
     .wall3-Ideation {
         width: 100px;
+        left: -10%;
+        top: -60%;
     }
 
     .small3-Ideation {
         width: 40px;
-        left: -150px;
-        top: 50px;
+        left: -140px;
+        top: 30px;
     }
 }

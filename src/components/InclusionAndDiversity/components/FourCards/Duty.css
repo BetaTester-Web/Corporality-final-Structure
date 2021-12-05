@@ -193,14 +193,19 @@
 
 .Duty_card_text_2:hover {
     border-top: 4px solid #A06DAF !important;
+    padding-bottom: 36px !important;
 }
 .Duty_card_text_3:hover {
     border-top: 4px solid #A06DAF !important;
+    padding-bottom: 16px !important;
 }.Duty_card_text_4:hover {
     border-top: 4px solid #A06DAF !important;
+    padding-bottom: 36px !important;
+    
 }
 .Duty_card_text_1:hover {
     border-top: 4px solid #A06DAF !important;
+    padding-bottom: 36px !important;
 }
 .Duty_card_text_3 {
     justify-content: center !important;
