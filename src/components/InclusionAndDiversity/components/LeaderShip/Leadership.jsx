@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import "./TeamSpirit.css";
+import "./TeamSpiritLeadership.css";
 import top_image2 from "./main2.png";
 import top_back from "./back1.png";
 import top_rectangle from "./polygon1.png";
@@ -11,7 +11,7 @@ import bottom_rectangle from "./polygon2.png";
 import heading_1_arrow from "./arrow1.png";
 import heading_2_arrow from "./arrow2.png";
 
-function TeamSpiritNew() {
+function Leadership() {
   useEffect(() => {
     Aos.init();
   });
@@ -81,4 +81,4 @@ function TeamSpiritNew() {
   );
 }
 
-export default TeamSpiritNew;
+export default Leadership;

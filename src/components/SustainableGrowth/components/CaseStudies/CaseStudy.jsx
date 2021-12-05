@@ -16,6 +16,8 @@ const CaseStudy = () => {
     }, [])
     return (
         <div className="second-Cs">
+            <img className='wall-2-2-Cs' src={wall} alt='' />
+            <img className='rect-2-4-Cs' src={rect4} alt='' />
             <div className='container second-container-Cs' >
                 <div className="row interactive_blueprint-row-Cs">
                     <div className="col-lg-6 textndlists-Cs d-flex flex-column  justify-content-center">
@@ -30,8 +32,8 @@ const CaseStudy = () => {
                             <img className='rect-2-1-Cs' src={rect1} alt='' />
                             <img className='rect-2-2-Cs' src={rect2} alt='' />
                             <img className='rect-2-3-Cs' src={rect3} alt='' />
-                            <img className='rect-2-4-Cs' src={rect4} alt='' />
-                            <img className='wall-2-2-Cs' src={wall} alt='' />
+                            
+                            
                             <div className="mainndback-4-Cs">
                                 <img className='backimagesecond-fourth-Cs' src={Back} alt='' />
                                 <div className="bp_our-newsletter-polygon9-Cs">

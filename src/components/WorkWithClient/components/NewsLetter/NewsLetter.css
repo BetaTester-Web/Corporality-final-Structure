@@ -1,6 +1,6 @@
 .NewsLetter_Main_work {
     background-color: #6CA0BC;
-    padding-top: 72px;
+    padding-top: 35px !important;
     padding-bottom: 72px;
 }
 
@@ -160,12 +160,18 @@
 }
 .Wall_newsletter{
     position: absolute !important;
-    left: -130% !important;
+    width: 211.24px !important;
+    height: 200px !important;
+    left: -0.24px !important;
+    margin-top: 30px !important;
 }
 
 .rect_newsletter {
     position: absolute;
-    left: 100%;
+    width: 50px;
+  height: 50px;
+  /* left: 1350.88px; */
+  right: 150px;
 }
 @media (max-width:992px){
     .NewsLetter_full{
@@ -175,6 +181,9 @@
         padding-top: 400px;
     }
     .logo_newsletter{
+        display: none;
+    }
+    .Wall_newsletter{
         display: none;
     }
 }
@@ -198,6 +207,9 @@
 @media (max-width:1200px) {
     .Main_back_NewsLetter {
         left: 30%;
+    }
+    .learnmore_newsletter{
+        top: -18% !important;
     }
 }
 

@@ -12,8 +12,9 @@
   width: 100%;
   background-color: #fff;
   padding: 50px 0px !important;
-  margin: 0;
   font-size: 1.2vw;
+  margin: 0px auto;
+  max-width: 1920px;
 }
 
 .philosophyContainer .philosophyHead {
@@ -231,6 +232,15 @@
 
 .philosophyContainer .philosophyBody .philosophyForm .philosophySubmitButton:hover::after {
   opacity: 1;
+}
+
+@media only screen and (min-width: 1920px) {
+  .philosophyContainer {
+    font-size: 18px;
+  }
+  .philosophyContainer hr {
+    max-width: 150px;
+  }
 }
 
 @media only screen and (max-width: 992px) {

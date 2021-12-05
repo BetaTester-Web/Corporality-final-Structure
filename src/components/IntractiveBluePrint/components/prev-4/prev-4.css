@@ -32,7 +32,7 @@
     width: 140% !important;
     mix-blend-mode: color-dodge;
     height: 500px;
-    background-color: #FFFF;
+    background-color: #ffff;
     color: black;
    
   }
@@ -67,6 +67,11 @@
   .bp_anm_container_text:hover span{
     transform: scale(1100,700); 
   }
+  @media (max-width:1490px){
+    .bp_anm_container_text{
+      margin-left: -140px !important;
+    }
+  }
   @media (max-width: 990px){
     .bp_anm_container_text h1{
       position: relative;
@@ -74,6 +79,9 @@
       font-size: 20px;
       line-height: 42px;
       /* margin: 20px; */
+    }
+    .bp_anm_container_text{
+      margin-left: -10% !important;
     }
   }
   @media (max-width: 768px){

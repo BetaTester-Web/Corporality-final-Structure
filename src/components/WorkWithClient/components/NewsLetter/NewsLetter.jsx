@@ -11,6 +11,8 @@ import wall from '../NewsLetter/wall.png'
 const NewsLetter = () => {
     return (
         <div className='NewsLetter_Main_work'>
+            <img src={wall} alt =' ' className='Wall_newsletter' />
+            <img src={rightrect} alt =' ' className='rect_newsletter' />
             <div className="container">
                 <div className="row NewsLetter_full ">
                     <div className="col-lg-6 ">
@@ -40,9 +42,9 @@ const NewsLetter = () => {
                     <div className="col-lg-6 newsLetter_image_section">
                         <img src={growmore} alt =' ' className='growmore_newsletter' />
                         <img src={learnmore} alt =' ' className='learnmore_newsletter' />
-                        <img src={rightrect} alt =' ' className='rect_newsletter' />
+                        
                         <img src={logo} alt =' ' className='logo_newsletter' />
-                        <img src={wall} alt =' ' className='Wall_newsletter' />
+                        
                         <div className="Main_back_NewsLetter">
                             <div className="Work-newsletter-polygon9">
                                 <div >

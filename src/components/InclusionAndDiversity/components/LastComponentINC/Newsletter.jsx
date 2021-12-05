@@ -11,6 +11,8 @@ import Back from '../LastComponentINC/back.png'
 const Newsletter = () => {
     return (
         <div className="second-Ns">
+            <img className='wall-2-2-Ns' src={wall} alt='' />
+            <img className='rect-2-4-Ns' src={rect4} alt='' />
             <div className='container second-container-Ns' >
                 <div className="row interactive_blueprint-row-Ns">
                     <div className="col-lg-6 textndlists-Ns d-flex flex-column  justify-content-center">
@@ -30,8 +32,8 @@ const Newsletter = () => {
                             <img className='rect-2-1-Ns' src={rect1} alt='' />
                             <img className='rect-2-2-Ns' src={rect2} alt='' />
                             <img className='rect-2-3-Ns' src={rect3} alt='' />
-                            <img className='rect-2-4-Ns' src={rect4} alt='' />
-                            <img className='wall-2-2-Ns' src={wall} alt='' />
+                            
+
                             <div className="mainndback-4-Ns">
                                 <img className='backimagesecond-fourth-Ns' src={Back} alt='' />
                                 <div className="bp_our-newsletter-polygon9-Ns">

@@ -2,7 +2,8 @@
   padding: 60px 0% !important;
   width: 100% !important;
   min-height: 400px;
-  margin: 50px 0px !important;
+  margin: 50px auto !important;
+  max-width: 1920px;
   /* learn more css */
 }
 

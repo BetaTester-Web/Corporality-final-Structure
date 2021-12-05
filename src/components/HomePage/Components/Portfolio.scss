@@ -7,8 +7,9 @@
     height: auto;
     background-color: #F2F2F2;
     padding: 3% 0%;
-    margin: 0;
+    margin: 0 auto;
     font-size: 1.2vw;
+    max-width: 1920px;
     .portfolioHead{
         display: flex;
         flex-direction: column;
@@ -140,6 +141,15 @@
                     opacity: 1;
                 }
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 1920px){
+    .portfolioContainer{
+        font-size: 17px;
+        hr{
+            max-width: 150px;
         }
     }
 }
