@@ -77,8 +77,9 @@
 }
 
 .button-4-Innovation:hover .button-link-Innovation {
-    text-decoration: none;
-    color: white;
+    text-decoration: none !important;
+    color: white !important;
+    transition: none !important;
 }
 
 .cont-5-text-3-Innovation {
@@ -132,8 +133,8 @@
 
 .group5-Innovation {
     position: absolute;
-    top: -5%;
-    left: -600px !important;
+    top: 2800px;
+    left: 50px;
 }
 
 .navbor-Innovation {
@@ -143,7 +144,12 @@
 .text-Innovation {
     position: relative;
     left: 0%;
-    top: 20%;
+    top: 40px;
+}
+@media (max-width:1400px){
+    .group5-Innovation{
+        top: 3000px;
+    }
 }
 
 @media (max-width: 1200px) {
@@ -155,6 +161,11 @@
     .text-Innovation {
         position: relative;
         left: 0%;
+    }
+}
+@media(max-width:992px){
+    .group5-Innovation{
+        top: 3850px;
     }
 }
 
@@ -178,6 +189,15 @@
     .cont-5-text-1-Innovation {
         font-size: 16px;
         line-height: 20px;
+    }
+    .group5-Innovation{
+        top: 3800px;
+    }
+}
+
+@media(max-width:725px){
+    .group5-Innovation{
+        display: none;
     }
 }
 

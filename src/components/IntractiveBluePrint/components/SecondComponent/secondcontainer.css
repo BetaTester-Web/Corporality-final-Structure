@@ -129,6 +129,11 @@
     margin-left: -52px !important;
     transition: all 0.6s linear !important;
 }
+.textndlists{
+    position: relative;
+    top: 30px;
+    left: 5%;
+}
 
 .bp_our-newsletter-polygon9:hover .main-2-2 {
     transform: scale(1.03) rotate(-45deg) !important

@@ -10,12 +10,13 @@ import main2 from '../OurFaith/main.png'
 const OurFaith = () => {
     return (
         <div className='OurFaith'>
+            <img className='side2-container-Faith' src={side2} alt='' />
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 imaging-2-Faith d-flex justify-content-center align-items-center flex-column">
                         <div className="images-2-Faith">
                             <img className='wall2-container-Faith' src={wall2} alt='' />
-                            <img className='side2-container-Faith' src={side2} alt='' />
+                            
                             <img className='small2-container-Faith' src={small2} alt='' />
                             <div className="img-container-Faith">
                                 <div className="hoverinit-Faith Inc_Div_our-faith-main-img-Faith">

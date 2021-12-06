@@ -14,9 +14,10 @@ const Innovation = () => {
     return (
         
         <div className='fifthcomponent-Innovation effectiveImage-Innovation'>
+            <img className='group5-Innovation' src={group} alt='' />
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-12 d-flex align-items-center justify-content-center flex-column">
+                   
                         <div data-aos="zoom-in" className="text-Innovation d-flex align-items-center justify-content-center flex-column">
                             <p className='cont-5-text-1-Innovation'>Our Innovation Architecture</p>
                             <p className='cont-5-text-2-Innovation'>We are a fast-growing marketing and management consulting firm in Sydney that aims to tread across continents and industries as we use next-gen technology to resolve every business challenge.
@@ -29,10 +30,10 @@ const Innovation = () => {
                                 <div  className="button-4-Innovation">
                                     <a className='button-link-Innovation' href="#">Explore Our tech start</a>
                                 </div>
-                                <img className='group5-Innovation' src={group} alt='' />
+                                
                             </div>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
             <div className="navbor-Innovation"></div>

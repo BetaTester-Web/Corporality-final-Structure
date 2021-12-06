@@ -99,8 +99,10 @@
 .Combating_group {
     position: absolute;
     height: 60%;
-    left: -10%;
-    top: -25%;
+    left: 5%;
+    top: 830px;
+    width: 180px;
+    height: 270px;
 }
 
 .Image_rect {
@@ -138,10 +140,14 @@
 
     color: #757575;
 }
-@media (max-width:1400px){
-    .Combating_group{
+@media (max-width:1340px){
+    .Combating_group {
         position: absolute;
-        top: -30%;
+        height: 60%;
+        left: 0%;
+        top: 830px;
+        width: 180px;
+        height: 270px;
     }
 }
 @media (max-width:1200px){
@@ -161,6 +167,14 @@
     }
     .COmbatinG{
         margin-top: 0px;
+    }
+    .Combating_group {
+        position: absolute;
+        height: 60%;
+        left: 5%;
+        top: 1100px;
+        width: 180px;
+        height: 270px;
     }
 }
 @media (max-width:768px){

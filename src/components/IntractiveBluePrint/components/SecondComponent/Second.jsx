@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import aos from 'aos'
 import 'aos/dist/aos.css'
-import '../SecondComponent/secondcontainer.css'
+import './secondcontainer.css'
 import polygon from '../SecondComponent/polygon.png'
 import Main from '../SecondComponent/main.png'
 import Back from '../SecondComponent/back.png'

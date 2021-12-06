@@ -55,9 +55,12 @@
      top: 110%;
  }
  .side2-container{
-     position: absolute;
+    /*  position: absolute;
      top: -30%;
-     left: -90%;
+     left: -90%; */
+     position: absolute;
+     left: 7%;
+     top: 530px;
  }
  .prev-2-text-1{
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -84,9 +87,9 @@
  }
 
  @media (max-width:1505px){
-    .side2-container{
+    /* .side2-container{
         left: -70%;
-    }
+    } */
  }
 
  @media (max-width:1200px) {
@@ -94,7 +97,7 @@
          left: 90%;
      }
      .side2-container{
-         height: 60%;
+         top: 930px;
          left: 0%;
      }
      .prev2{
@@ -112,7 +115,7 @@
      }
      .side2-container{
          height: 60%;
-         left: -60%;
+         left: 5%;
      }
      .img-container{
          position: relative;
@@ -134,9 +137,11 @@
  }
  @media (max-width:677px){
      .side2-container{
-         /* height: 30%; */
-         left: -30%;
-         /* width: 30%; */
+         
+        width: 100px;
+        height: 160px;
+        top: 700px;
+        
      }
  }
  @media (max-width:509px){
