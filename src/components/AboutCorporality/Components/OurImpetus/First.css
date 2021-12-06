@@ -47,11 +47,6 @@
   color: #232323;
 }
 
-.container {
-  /* position: relative; */
-  display: flex;
-}
-
 .main_image_container {
   position: absolute;
   top: -120px;

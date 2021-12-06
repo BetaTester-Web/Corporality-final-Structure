@@ -4,12 +4,12 @@
   /* align-items: center; */
   padding-top: 30px !important;
   padding-bottom: 30px !important;
-  padding-left: 30px !important;
-  padding-right: 70px !important;
+  /* padding-left: 30px !important;
+  padding-right: 70px !important; */
 }
 
 .fearless_content_side {
-  padding-left: 30px !important;
+  /* padding-left: 30px !important; */
   margin-top: 20px !important;
   margin-right: 30px !important;
 }
@@ -56,12 +56,12 @@
 
 @media only screen and (max-width: 1200px) {
   .fearlesscreativity_main {
-    padding-right: 30px !important;
+    /* padding-right: 30px !important; */
   }
 
   .fearless_content_side {
     margin-top: 20px !important;
-    padding-left: 10px !important;
+    /* padding-left: 10px !important; */
   }
 }
 
