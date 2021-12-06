@@ -5,22 +5,19 @@
 }
 
 .all_contents {
-  margin-left: 320px !important;
-  margin-right: 100px !important;
-  padding-left: 250px !important;
-  padding-right: 30px !important;
+  margin-left: 300px !important;
+  margin-right: 20px !important;
+  padding-left: 200px !important;
+  padding-right: 50px !important;
   padding-top: 60px !important;
   padding-bottom: 60px !important;
-  /* margin-top: 250px !important; */
   background: #fefafe;
-  /* background: black; */
-  /* position: relative; */
 }
 
 .main_upper_text {
   font-family: Roboto;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
   line-height: 24px;
   color: #1e1e1e;
@@ -39,13 +36,13 @@
 .image_left {
   position: absolute;
   top: -90px;
-  left: 200px;
+  left: 130px;
 }
 
 .quote_image {
   position: absolute;
   top: -40px;
-  left: 470px;
+  left: 400px;
   z-index: 5;
   transition: all 0.6s ease-in-out;
 }
@@ -64,25 +61,57 @@
 
 .box_image {
   position: absolute;
-  top: -220px;
-  left: 90px;
+  top: -180px;
+  left: -20px;
 }
 
 .box_image img {
   height: 280px;
   width: 190px;
 }
-
+/* 
 @media only screen and (max-width: 1141px) {
   .all_contents {
     margin-right: 10px !important;
   }
+} */
+
+@media only screen and (max-width: 1200px) {
+  .all_contents {
+    margin-left: 300px !important;
+    margin-right: 0px !important;
+    padding-left: 100px !important;
+    padding-right: 0px !important;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    background: #fefafe;
+  }
+
+  .box_image {
+    position: absolute;
+    top: -180px;
+    left: -20px;
+  }
+
+  .image_left {
+    position: absolute;
+    top: -90px;
+    left: 130px;
+  }
+
+  .quote_image {
+    position: absolute;
+    top: -40px;
+    left: 400px;
+    z-index: 5;
+    transition: all 0.6s ease-in-out;
+  }
 }
 
-@media only screen and (max-width: 962px) {
+@media only screen and (max-width: 992x) {
   .all_contents {
-    padding-left: 120px !important;
-    padding-right: 10px !important;
+    padding-left: 70px !important;
+    /* padding-right: 10px !important; */
   }
 }
 
@@ -159,12 +188,12 @@
 @media only screen and (max-width: 383px) {
   .box_image {
     top: 270px;
-    left: 10px;
+    left: -5px;
   }
 
   .image_left {
     top: 360px;
-    left: 135px;
+    left: 120px;
   }
 }
 
