@@ -68,7 +68,7 @@ function Page1() {
 							href="/"
 							className="socialIcon d-flex align-items-center justify-content-center ms-0 me-1"
 						>
-							<img src={fb} alt="" width="40%" />
+							<img src={fb} alt="" width="25%" />
 						</a>
 						<a
 							href="/"
