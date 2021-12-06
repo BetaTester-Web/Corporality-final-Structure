@@ -7,7 +7,7 @@ const Carrer = () => {
     return (
         <div>
             <img data-aos="flip-right" src = {carrer} alt='' className='carrer-fluid-card' />
-            <img  src={background} alt='' className='img-fluid' />
+            <img  src={background} alt='' className=' img-fluid image-fluid' />
             
             
         </div>
