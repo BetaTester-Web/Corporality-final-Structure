@@ -48,7 +48,7 @@ code {
 .brandPara{
   height: 38% !important;
   width: 40.5% !important;
-  margin-left: -3.5% !important;
+  margin-left: -10% !important;
 }
 .paraHead{
   font-size: 1.5em;
@@ -262,6 +262,9 @@ code {
     width: 10% !important;
     height: 35% !important;
   }
+  .brandPara{
+    margin-left: 3% !important;
+  }
 }
 @media only screen and (max-width :992px){
   .snakes{
@@ -269,6 +272,9 @@ code {
   }
   .landingPage{
     height: 30em !important;
+  }
+  .brandPara{
+    margin-left: 2% !important;
   }
   .paraHead{
     font-size: 0.9em;
