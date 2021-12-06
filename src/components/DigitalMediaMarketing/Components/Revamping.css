@@ -1,8 +1,10 @@
+.DDMRevamping{
+  justify-content:space-around;
+}
+
 .DDMRevampingText > h1 {
-  width: 535px;
-  height: 88px;
-  left: 105px;
-  top: 2054px;
+  width: 60%;
+  /* margin-bottom: 8%; */
   font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’,
 ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’
 ;
@@ -18,11 +20,8 @@
 }
 
 .DDMRevampingText > p {
-  margin-left: 5% !important;
-  width: 546px;
-  height: 104px;
-  left: 103px;
-  top: 2154px;
+  width: 60%;  
+  margin-left: 5%;
   z-index: 3;
   font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’,
 ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’
@@ -121,4 +120,15 @@ top: 2288px; */
   
   /* background: #A06DAF; */
   /* transform: rotate(41.7deg); */
+}
+
+@media only screen and (max-width: 800px){
+  .DDMRevampingText > h1{
+    width: 100%;
+  }
+
+  .DDMRevampingText > p{
+    width: 100%;
+    margin-right: 10%;
+  }
 }
