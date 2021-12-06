@@ -13,7 +13,7 @@ function FearlessCreativity() {
   });
   return (
     <div className="container">
-      <div className="fearlesscreativity_main">
+      <div className="fearlesscreativity_main container">
         <div
           data-aos="fade-right"
           data-aos-duration="2000"
