@@ -1,3 +1,7 @@
+.caretojoinus_parentdiv {
+  background: #6ca0bc;
+}
+
 .caretojoinus_main {
   padding: 80px 60px !important;
   align-items: center;
@@ -10,7 +14,7 @@
   margin-left: 0px !important;
   padding-top: 10px !important;
   padding-left: 160px !important;
-  padding-right: 285px !important;
+  padding-right: 200px !important;
   padding-bottom: 10px !important;
 }
 
@@ -146,17 +150,17 @@
 
 @media only screen and (max-width: 1600px) {
   .caretojoinus_text {
-    padding-right: 470px !important;
+    padding-right: 270px !important;
   }
 }
 @media only screen and (max-width: 1400px) {
   .caretojoinus_text {
-    padding-right: 400px !important;
+    padding-right: 200px !important;
   }
 }
 @media only screen and (max-width: 1300px) {
   .caretojoinus_text {
-    padding-right: 300px !important;
+    padding-right: 200px !important;
   }
 }
 @media only screen and (max-width: 1200px) {

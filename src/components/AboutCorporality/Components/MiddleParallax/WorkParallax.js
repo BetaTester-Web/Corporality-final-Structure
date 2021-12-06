@@ -12,45 +12,43 @@ function WorkParallax() {
   });
 
   return (
-    <div className="container">
-      <div className="outer_container">
-        <div className="parallax_container">
-          <div
-            className="parallax_main_heading aos-init aos-animate"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-          >
-            We make marketing truly work for you.
-            <br /> How we work?
-          </div>
+    <div className="outer_container">
+      <div className="parallax_container">
+        <div
+          className="parallax_main_heading aos-init aos-animate"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          We make marketing truly work for you.
+          <br /> How we work?
+        </div>
 
-          <div
-            className="parallax_description aos-init aos-animate"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-          >
-            The digital era is here and rapid business transformations are
-            essential to keep your pockets full. Our processes are inclined to
-            meet customer expectations and create lasting value while staying
-            scalable and adaptive.
-          </div>
+        <div
+          className="parallax_description aos-init aos-animate"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          The digital era is here and rapid business transformations are
+          essential to keep your pockets full. Our processes are inclined to
+          meet customer expectations and create lasting value while staying
+          scalable and adaptive.
+        </div>
 
-          <div
-            className="bottom_button  aos-init aos-animate"
-            data-aos="zoom-in"
-            data-aos-duration="2000"
-          >
-            <button> Our Services </button>
-          </div>
-          <div className="box_top">
-            <img src={top_rectangle} alt="" />
-          </div>
-          <div className="box_right">
-            <img src={right_rectangle} alt="" />
-          </div>
-          <div className="boxes_left">
-            <img src={threeboxes} alt="" />
-          </div>
+        <div
+          className="bottom_button  aos-init aos-animate"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <button> Our Services </button>
+        </div>
+        <div className="box_top">
+          <img src={top_rectangle} alt="" />
+        </div>
+        <div className="box_right">
+          <img src={right_rectangle} alt="" />
+        </div>
+        <div className="boxes_left">
+          <img src={threeboxes} alt="" />
         </div>
       </div>
     </div>
