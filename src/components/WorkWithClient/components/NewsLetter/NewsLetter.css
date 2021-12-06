@@ -3,6 +3,11 @@
     padding-top: 35px !important;
     padding-bottom: 72px;
 }
+.text_NewsLetter{
+    position: relative;
+    left: 5%;
+    top: 5%;
+}
 
 .NewsLetter-Text-Heading {
 
