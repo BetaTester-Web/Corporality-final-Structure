@@ -103,12 +103,12 @@ export default function Component1() {
                   Omni effect vs experience
                 </p>
               </div>
-              <div className="phnbtn position-absolute end-0 bottom-0">
-                  <img
-                    src="/img/BrandPositioning/Group-709.png"
-                    alt=""
-                    className="img-fluid"
-                  />
+              <div className="phnbtn position-absolute end-0 bottom-0" onClick={() => window.open("tel: +61 2 83794089", "_self")}>
+                <img
+                  src="/img/BrandPositioning/Group-709.png"
+                  alt=""
+                  className="img-fluid"
+                />
               </div>
               <div className="littleD1 position-absolute end-0 top-50">
                 <img
