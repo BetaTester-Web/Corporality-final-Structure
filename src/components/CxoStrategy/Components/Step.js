@@ -4,11 +4,11 @@ import "./CxoStrategy.css"
 export default function Step() {
   return (
     <>
-      <div className="container">
+      <div className="">
         <div className="row corporality">
           <div className="col-lg-6 ">
 
-            <div className="container charge-pic">
+            <div className=" charge-pic">
               <div data-aos="zoom-in" data-aos-duration="2500" className="d-flex justify-content-end">
                 <img src="./img/CxoStrategy/img/step/Vector.png" />
               </div>

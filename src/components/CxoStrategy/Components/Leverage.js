@@ -9,7 +9,7 @@ export default function leverage() {
 
   return (
     <>
-      <div class="container leverage">
+      <div class=" leverage">
         <h1 class="cxo-leverage-heading" data-aos="fade-down" data-aos-duration="1000">Leverage the on-demand Model</h1>
         <p class="cxo-leverage-para" data-aos="fade-down" data-aos-duration="1000" data-aos-delay="500">
           Experience significant risk mitigation, organisational transformation
@@ -19,12 +19,12 @@ export default function leverage() {
         </p>
 
         {/*top2 cards*/}
-        <div class="container">
+        <div class="">
           <div class="row">
 
 {/* card 1 */}
             <div class="col " data-aos="flip-right" data-aos-duration="1000" data-aos-delay="800">
-              <div class="container cxo-card-1-col ">
+              <div class=" cxo-card-1-col ">
                 <div class="row cxo-card-1-row">
                   <div class="col ">
                     <img class="cxo-card1-img" src="./img/CxoStrategy/img/leverage/purpule design 4.png"/>
@@ -37,7 +37,7 @@ export default function leverage() {
             </div>
 {/* card 2 */}
             <div class="col" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1100">
-              <div class="container cxo-card-2-col">
+              <div class="cxo-card-2-col">
                 <div class="row cxo-card-2-row">
                   <div class="col">
                     <img class="cxo-card2-img" src="./img/CxoStrategy/img/leverage/purpule design 5.png" />
@@ -53,11 +53,11 @@ export default function leverage() {
         </div>
 
         {/*bottom2 cards*/}
-        <div class="container">
+        <div class="">
           <div class="row">
 {/* card 1 */}
             <div class="col " data-aos="flip-right" data-aos-duration="1000" data-aos-delay="1200">
-              <div class="container cxo-card-1-col ">
+              <div class=" cxo-card-1-col ">
                 <div class="row cxo-card-1-row">
                   <div class="col ">
                     <img class="cxo-card1-img" src="./img/CxoStrategy/img/leverage/purpule design 4 (1).png" />
@@ -70,7 +70,7 @@ export default function leverage() {
             </div>
 {/* card 2 */}
             <div class="col" data-aos="flip-left" data-aos-duration="1000" data-aos-delay="1500">
-              <div class="container cxo-card-2-col">
+              <div class=" cxo-card-2-col">
                 <div class="row cxo-card-2-row">
                   <div class="col">
                     <img class="cxo-card2-img" src="./img/CxoStrategy/img/leverage/purpule design 5 (1).png" />

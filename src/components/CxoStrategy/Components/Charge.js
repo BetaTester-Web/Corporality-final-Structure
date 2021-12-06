@@ -11,9 +11,9 @@ export default function Charge() {
 
   return (
     <>
-      <div data-aos="fade-up" data-aos-delay="900" className="container charge-vertical-strip"></div>
+      <div data-aos="fade-up" data-aos-delay="900" className="charge-vertical-strip"></div>
       
-      <div className="container charge-horizontal-strip">
+      <div className=" charge-horizontal-strip">
         <p data-aos="fade-left" data-aos-duration="1500" data-aos-delay="1500">Bring a CXO who can lead the charge </p>
       </div>
       
@@ -21,7 +21,7 @@ export default function Charge() {
         <img scr='./img/CxoStrategy/img/charge/lady.png' data-aos="fade-right" data-aos-duration="1500"/>;
       </div>
       
-      <div className="container charge-img-2">
+      <div className="charge-img-2">
         <video data-aos="fade-left" data-aos-duration="1500" autoPlay={true} muted loop id="myVideo">
           <source src="./img/CxoStrategy/img/charge/website.mp4" type="video/mp4" />
         </video>
