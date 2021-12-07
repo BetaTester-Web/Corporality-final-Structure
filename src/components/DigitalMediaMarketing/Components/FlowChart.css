@@ -34,7 +34,35 @@
   grid-column-gap: 0px;
   grid-row-gap: 50px;
   margin-top: 8%;
+  padding-bottom: 10% !important;
 }
+
+.DDMFlowchartVertical {
+ position: absolute;
+ margin-left: 6.5% !important;
+}
+
+.DDMFlowchartHorizontal1,
+.DDMFlowchartHorizontal2,
+.DDMFlowchartHorizontal3,
+.DDMFlowchartHorizontal4 {
+  position: absolute;
+  margin-left: 5% !important;
+  z-index: -4;
+}
+.DDMFlowchartHorizontal1{
+ margin-top: 7% !important;
+}
+.DDMFlowchartHorizontal2{
+ margin-top: 23% !important;
+}
+.DDMFlowchartHorizontal3{
+ margin-top: 39% !important;
+}
+.DDMFlowchartHorizontal4{
+ margin-top: 55% !important;
+}
+
 /* row 1 */
 .DDMdiv1 {
   grid-area: 1 / 1 / 2 / 2;
@@ -108,7 +136,7 @@
   line-height: 44px;
   text-transform: uppercase;
   color: #a06daf;
-  margin-left: 70px;
+  margin-left: -20px;
   display: flex;
   flex-direction: column;
   align-items: center;

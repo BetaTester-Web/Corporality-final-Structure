@@ -12,7 +12,14 @@ export default function FlowChart() {
 				</div>
 				<div class="DDMparent">
 
+					<div className="DDMFlowchartVertical">
+						<img src="./img/DigitalMediaMarketing/img/Flowchart/LineVertical.png" alt="" />
+					</div>
+
 					{/* Row 1 */}
+					<div className="DDMFlowchartHorizontal1">
+						<img src="./img/DigitalMediaMarketing/img/Flowchart/LineHorizontal.png" alt="" />
+					</div>
 					<div class="DDMdiv1">
 						<div className="DDMdiv1Text">
 							Planning Phase
@@ -71,6 +78,9 @@ export default function FlowChart() {
 					</div>
 
 					{/* row 2 */}
+					<div className="DDMFlowchartHorizontal2">
+						<img src="./img/DigitalMediaMarketing/img/Flowchart/LineHorizontal.png" alt="" />
+					</div>
 					<div class="DDMdiv8">
 						<div className="DDMdiv8Text">
 							Prep Phase
@@ -129,6 +139,9 @@ export default function FlowChart() {
 					</div>
 
 					{/* row 3 */}
+					<div className="DDMFlowchartHorizontal3">
+						<img src="./img/DigitalMediaMarketing/img/Flowchart/LineHorizontal.png" alt="" />
+					</div>
 					<div class="DDMdiv15">
 						<div className="DDMdiv15Text">
 							Execution Phase
@@ -183,6 +196,9 @@ export default function FlowChart() {
 					</div>
 
 					{/* row 4 */}
+					<div className="DDMFlowchartHorizontal4">
+						<img src="./img/DigitalMediaMarketing/img/Flowchart/LineHorizontal.png" alt="" />
+					</div>
 					<div class="DDMdiv22">
 						<div className="DDMdiv22Text">
 							Monitoring Phase
