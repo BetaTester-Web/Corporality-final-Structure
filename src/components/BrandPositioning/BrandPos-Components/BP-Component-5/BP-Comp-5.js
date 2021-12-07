@@ -21,7 +21,7 @@ function BPComponent5() {
            
           </div>
           <div className="col-10">
-            <Accordion className="accordian-main-body">
+            <Accordion className="accordian-main-body bp-cp5-shadowbox">
               {" "}
               <Accordion.Item eventKey="0">
                 <Accordion.Header>
@@ -182,7 +182,12 @@ function BPComponent5() {
                     </div>
                   </div>
                 </Accordion.Body>
+               
               </Accordion.Item>
+              <div >
+                <button className="endbutton mx-auto d-block">explore</button>
+                <div className="endbuttondiv"></div>
+                </div>
             </Accordion>
           </div>
           <div className="col-1">
