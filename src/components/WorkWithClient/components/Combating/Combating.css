@@ -1,222 +1,227 @@
-.MainAndBack_Combating {
-    position: relative;
+.threeboxes_combat {
+  position: absolute;
+  top: -100px;
+  left: 50px;
+}
+
+.threeboxes_combat img {
+  width: 180px;
+  height: 270px;
 }
 
 .MainAndBack_Combating {
-    position: relative;
-    left: 40%;
-    top: -20%;
+  position: relative;
 }
-.COmbatinG{
-    margin-top: -150px;
+
+.MainAndBack_Combating {
+  position: relative;
+  left: 40%;
+  top: -20%;
+}
+.COmbatinG {
+  margin-top: -150px;
+  position: relative;
 }
 
 .Combating_main {
-    position: absolute;
-    width: 210px;
-    height: 210.2px;
-    margin-top: -322px;
-    top: 363px;
-    left: 3%;
-    transform: rotate(45deg);
-    border-radius: 10px;
-    overflow: hidden;
-
-
+  position: absolute;
+  width: 210px;
+  height: 210.2px;
+  margin-top: -322px;
+  top: 363px;
+  left: 3%;
+  transform: rotate(45deg);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .Image_texting_1 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 26px;
-    /* or 144% */
-    padding-right: 250px;
-    position: relative;
-    left: 10%;
-
-
-
-    color: #232323;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  padding-right: 250px;
+  position: relative;
+  left: 10%;
+  color: #232323;
 }
 
 .Image_texting_2 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
-    /* or 157% */
-    padding-right: 180px;
-
-
-    color: #757575;
-    position: relative;
-    left: 10%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  padding-right: 180px;
+  color: #757575;
+  position: relative;
+  left: 10%;
 }
 
 .Texting_in_image_Combating {
-    position: relative;
-    background-color:
-        #F5F1F6;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-right: 120px;
-    top: -150px;
-    z-index: -1;
-    left: 4%;
-    border-radius: 10px;
+  position: relative;
+  background-color: #f5f1f6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 120px;
+  top: -150px;
+  z-index: -1;
+  left: 4%;
+  border-radius: 10px;
 }
 
 .Combating_main img {
-    transform: rotate(-45deg) !important;
-    width: 145%;
-    height: 145%;
-    margin-top: -50px;
-    margin-left: -52px;
-    transition: all 0.6s linear !important;
-
+  transform: rotate(-45deg) !important;
+  width: 145%;
+  height: 145%;
+  margin-top: -50px;
+  margin-left: -52px;
+  transition: all 0.6s linear !important;
 }
 
 .Combating_main:hover img {
-    transform: scale(1.03) rotate(-45deg) !important;
+  transform: scale(1.03) rotate(-45deg) !important;
 }
 
 .Combating_texting_column-1 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    /* or 131% */
-
-    text-transform: uppercase;
-
-    color: #3C708E;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  text-transform: uppercase;
+  color: #3c708e;
 }
-
-.Combating_group {
-    position: absolute;
-    height: 60%;
-    left: -10%;
-    top: -25%;
-}
-
 .Image_rect {
-    position: absolute;
-    top: 90px;
-    left: 80%;
+  position: absolute;
+  top: 90px;
+  left: 80%;
 }
 
 .Combating_texting_column-2 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 28px;
-    /* identical to box height, or 140% */
-
-    text-transform: uppercase;
-
-    color: #232323;
-
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #232323;
 }
 
 .Combating_texting_coloumn {
-    position: relative;
+  position: relative;
 }
 
 .Combating_texting_column-3 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #757575;
+}
+@media (max-width: 1200px) {
+  .Combating_texting_coloumn {
+    position: relative;
+    left: 10%;
+  }
+}
+@media (max-width:1180px){
+  .threeboxes_combat{
+    left: 20px ;
+  }
+}
+@media (max-width:1105px){
+  .threeboxes_combat{
+    left: 0px ;
+  }
+}
 
-    font-weight: normal;
+@media (max-width: 992px) {
+  .MainAndBack_Combating {
+    left: 60%;
+  }
+  .Combating_texting_coloumn {
+    position: relative;
+    left: 0%;
+  }
+  .COmbatinG {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 768px) {
+  .COmbatinG{
+    margin-top: 160px;
+  }
+  .Combating_texting_column-3 {
+    font-size: 14px;
+    margin-right: 0px;
+    line-height: 20px;
+  }
+  .Combating_texting_column-2 {
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 0px;
+  }
+  .Combating_texting_column-1 {
     font-size: 20px;
-    line-height: 28px;
-    /* or 140% */
-
-
-    color: #757575;
+    margin-right: 0px;
+  }
+  
 }
-@media (max-width:1400px){
-    .Combating_group{
-        position: absolute;
-        top: -30%;
-    }
-}
-@media (max-width:1200px){
-    .Combating_texting_coloumn{
-        position: relative;
-        left: 10%;
-    }
-}
+@media (max-width: 719px) {
+  .MainAndBack_Combating {
+    left: 25%;
+    top: -40%;
+  }
+  .Image_rect {
+    display: none;
+  }
 
-@media (max-width:992px) {
-    .MainAndBack_Combating {
-        left: 60%;
-    }
-    .Combating_texting_coloumn{
-        position: relative;
-        left: 0%;
-    }
-    .COmbatinG{
-        margin-top: 0px;
-    }
-}
-@media (max-width:768px){
-    .Combating_texting_column-3{
-        font-size: 14px;
-        margin-right: 0px;
-        line-height: 20px;
-    }
-    .Combating_texting_column-2{
-        font-size: 14px;
-        line-height: 20px;
-        margin-right: 0px;
-    }
-    .Combating_texting_column-1{
-        font-size: 20px;
-        margin-right: 0px;
-    }
-}
-@media (max-width:719px) {
-    .MainAndBack_Combating {
-        left: 25%;
-        top: -40%;
-    }
+  .Image_texting_2 {
+    padding-right: 50px;
+  }
 
-    .Combating_group {
-        display: none;
-    }
+  .Image_texting_1 {
+    padding-right: 50px;
+  }
 
-    .Image_rect {
-        display: none;
-    }
-
-    .Image_texting_2 {
-        padding-right: 50px;
-    }
-
-    .Image_texting_1 {
-        padding-right: 50px;
-
-    }
-
-    .Texting_in_image_Combating {
-        padding-right: 30px;
-        align-items: center;
-        left: 10%;
-    }
+  .Texting_in_image_Combating {
+    padding-right: 30px;
+    align-items: center;
+    left: 10%;
+  }
+  .threeboxes_combat{
+    left: 50px;
+    top: -200px;
+  }
 }
 
-@media(max-width:526px) {
-    .Texting_in_image_Combating {
-        left: 15%;
-    }
+@media (max-width:648px){
+  .Combating_group{
+    width: 100px !important;
+    height: 160px !important;
+  }
+  .threeboxes_combat{
+    left: 10px !important;
+    top: -300px;
+  }
 }
 
-@media(max-width:514px) {
-    .MainAndBack_Combating {
-        left:15%;
-    }
+
+@media (max-width: 526px) {
+  .Texting_in_image_Combating {
+    left: 15%;
+  }
+}
+
+@media (max-width: 514px) {
+  .MainAndBack_Combating {
+    left: 15%;
+  }
 }

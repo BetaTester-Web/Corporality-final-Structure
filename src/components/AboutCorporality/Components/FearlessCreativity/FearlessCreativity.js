@@ -12,7 +12,7 @@ function FearlessCreativity() {
     Aos.init();
   });
   return (
-    <div className="container">
+    <div className="container fearless_parent">
       <div className="fearlesscreativity_main container">
         <div
           data-aos="fade-right"

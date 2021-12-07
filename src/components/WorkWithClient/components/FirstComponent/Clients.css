@@ -16,7 +16,7 @@
 }
 .yellow_Work{
     position: absolute;
-    left:60%;
+    left:910px;
 }
 
 .container-1_text-Clients{
@@ -46,10 +46,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
     margin-right: 130px;
-
-
     color: #232323;
 }
 .wall-Clients{
@@ -65,15 +62,7 @@
 .image-first-Clients{
     margin-left: 80px;
 }
-/* .mainimage{
-    position: absolute;
-    top: 0%;
-    left:3%;
-    transform: scale(1);
-    transition: all .6s linear;
-    
-}
- */
+
 
 .navbar-Clients{
     margin-bottom: 100px;
@@ -100,9 +89,6 @@
     margin-left: -300px;
     z-index: -1;
     background: #fff;
-    
-    
-   
    }
    .blue_print_ellipse-1 {
     position: absolute;
@@ -134,10 +120,8 @@
     height: 350.8px;
     top: -50%;
     left: 30%;
-    /* border: 1px solid black; */
     transform: rotate(45deg);
     overflow: hidden;
-   /*  z-index: 10; */
    }
    .banner_right_inner-Clients .main-prev1-Clients{
     width: 510px;
@@ -146,7 +130,6 @@
     margin-left: -80px;
     transform: rotate(-45deg);
     transition: all 0.8s ease;
-    /* z-index: 100; */
    }
    .banner_right_inner-Clients:hover .main-prev1-Clients {
     transform: scale(1.03) rotate(-45deg);

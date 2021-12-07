@@ -22,7 +22,7 @@ function GTMComp4() {
                     <div className="col-12">
                         <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" class="aos-init aos-animate">
                             <h1 class="animate two">
-                                <span>P</span><span>R</span><span>O</span><span>V</span><span>E</span><span>N</span>&nbsp;<span>P</span><span>R</span><span>O</span><span>C</span><span>E</span><span>S</span><span>S</span><span>E</span><span>S</span>&nbsp;
+                                <span>PROVEN</span>&nbsp;<span>PROCESSES</span>
                             </h1>
                         </div>
                     </div>

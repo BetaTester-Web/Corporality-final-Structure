@@ -1,193 +1,201 @@
 .container-Global {
-    padding-top: 119px;
+  padding: 50px 50px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .Global-text-1 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 42px;
-    /* or 131% */
-
-    text-align: center;
-    text-transform: uppercase;
-  
-
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .Global-text-2 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 28px;
-    /* identical to box height, or 127% */
-    text-align: center;
-    margin-top: -70px;
-
-    color: #232323;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-align: center;
+  color: #232323;
 }
 
 .Global-text-3 {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-    /* identical to box height, or 100% */
-    text-align: center;
-    margin-top: -100px;
-    color: #757575;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  color: #757575;
 }
 
+.social_icons_Sustainable_growth {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
+.global_twitter_circle {
+  position: relative;
+}
+
+.global_twitter_icon {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.global_link {
+  text-decoration: none;
+}
+
+.global_twitter_text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  /* identical to box height, or 100% */
+  text-decoration: none;
+  color: #757575;
+}
+/* 
 .Global-arrow-twitter {
-    position: absolute;
-}
-
-@media (max-width:768px) {
-    .Global-text-1 {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .Global-text-2 {
-        font-size: 12px;
-    }
-
-    .Global-text-3 {
-        font-size: 12px;
-    }
+  position: absolute;
 }
 
 .Twitter_text_SG {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-    /* identical to box height, or 100% */
-    position: absolute;
-    left: 57%;
-    top: -5px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
 
+  position: absolute;
+  left: 57%;
+  top: -5px;
 
-    color: #757575;
+  color: #757575;
 }
-.linkedin_text_SG{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
-    /* identical to box height, or 100% */
-    position: absolute;
-    left: 57%;
-    top: -5px;
+.linkedin_text_SG {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
 
-    color: #757575;
-}
+  position: absolute;
+  left: 57%;
+  top: -5px;
 
-.social_icons_Sustainable_growth{
-    position: relative;
-    margin-top: -110px;
-    left: 30%;
-
+  color: #757575;
 }
 
-.circle1_Sustaible_growth{
-    position: absolute;
-
-}
-.twitter_Sustaible_growth{
-    position: absolute;
-}
-.arrow1_Sustaible_growth{
-    position: absolute;
-    left: 52%;
-    top: -2px;
-    transition-delay: 0.6s;
-    animation: ideation-slide 2s ease-in-out infinite;
+.social_icons_Sustainable_growth {
+  position: relative;
+  margin-top: -110px;
+  left: 30%;
 }
 
-.social_icons2_Sustainable_growth{
-    position: relative;
-    margin-top: -110px;
-    left: -45%;
+.circle1_Sustaible_growth {
+  position: absolute;
 }
-.circle1_Sustaible_growth{
-    position: absolute;
+.twitter_Sustaible_growth {
+  position: absolute;
 }
-.Linkedin_Sustaible_growth{
-    position: absolute;
-
-}
-.arrow2_Sustaible_growth{
-    position: absolute;
-    left: 52%;
-    top: -2px;
-    transition-delay: 0.6s;
-    animation: ideation-slide 2s ease-in-out infinite;
+.arrow1_Sustaible_growth {
+  position: absolute;
+  left: 52%;
+  top: -2px;
+  transition-delay: 0.6s;
+  animation: ideation-slide 2s ease-in-out infinite;
 }
 
-@media (max-width:1200px){
-    .linkedin_text_SG{
-        left: 62%;
-    }
-    .Twitter_text_SG{
-        left: 62%;
-    }
-    .social_icons2_Sustainable_growth{
-        left: -40%;
-    }
-    .social_icons_Sustainable_growth{
-     left: 20%;   
-    }
+.social_icons2_Sustainable_growth {
+  position: relative;
+  margin-top: -110px;
+  left: -45%;
+}
+.circle1_Sustaible_growth {
+  position: absolute;
+}
+.Linkedin_Sustaible_growth {
+  position: absolute;
+}
+.arrow2_Sustaible_growth {
+  position: absolute;
+  left: 52%;
+  top: -2px;
+  transition-delay: 0.6s;
+  animation: ideation-slide 2s ease-in-out infinite;
 }
 
-@media (max-width:768px){
-    .linkedin_text_SG{
-        left: 65%;
-    }
-    .Twitter_text_SG{
-        left: 65%;
-    }
-    .social_icons2_Sustainable_growth{
-        left: -35%;
-    }
-    .social_icons_Sustainable_growth{
-     left: 15%;   
-    }
-}
-@media (max-width:576px){
-    .linkedin_text_SG{
-        left: 69%;
-    }
-    .Twitter_text_SG{
-        left: 69%;
-    }
-    .social_icons2_Sustainable_growth{
-        left: -30%;
-    }
-    .social_icons_Sustainable_growth{
-     left: 10%;   
-    }
+@media (max-width: 1200px) {
+  .linkedin_text_SG {
+    left: 62%;
+  }
+  .Twitter_text_SG {
+    left: 62%;
+  }
+  .social_icons2_Sustainable_growth {
+    left: -40%;
+  }
+  .social_icons_Sustainable_growth {
+    left: 20%;
+  }
 }
 
-@media (max-width:434px){
-    .linkedin_text_SG{
-        left: 72%;
-    }
-    .Twitter_text_SG{
-        left: 72%;
-    }
-    .social_icons2_Sustainable_growth{
-        left: -25%;
-    }
-    .social_icons_Sustainable_growth{
-     left: 5%;   
-    }
+@media (max-width: 768px) {
+  .linkedin_text_SG {
+    left: 65%;
+  }
+  .Twitter_text_SG {
+    left: 65%;
+  }
+  .social_icons2_Sustainable_growth {
+    left: -35%;
+  }
+  .social_icons_Sustainable_growth {
+    left: 5%;
+  }
 }
+
+@media (max-width: 576px) {
+  .linkedin_text_SG {
+    left: 69%;
+  }
+  .Twitter_text_SG {
+    left: 69%;
+  }
+  .social_icons2_Sustainable_growth {
+    left: -30%;
+  }
+  .social_icons_Sustainable_growth {
+    left: 0%;
+  }
+}
+
+@media (max-width: 434px) {
+  .linkedin_text_SG {
+    left: 72%;
+  }
+  .Twitter_text_SG {
+    left: 72%;
+  }
+  .social_icons2_Sustainable_growth {
+    left: -35%;
+  }
+  .social_icons_Sustainable_growth {
+    left: -5%;
+  }
+} */

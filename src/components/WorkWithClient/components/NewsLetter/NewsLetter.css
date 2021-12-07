@@ -1,239 +1,234 @@
 .NewsLetter_Main_work {
-    background-color: #6CA0BC;
-    padding-top: 35px !important;
-    padding-bottom: 72px;
+  background-color: #6ca0bc;
+  padding-top: 35px !important;
+  padding-bottom: 72px;
+  position: relative;
+}
+.text_NewsLetter {
+  position: relative;
+  left: 5%;
+  top: 5%;
 }
 
 .NewsLetter-Text-Heading {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
+  position: relative;
+  z-index: 1;
 
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
-    /* identical to box height, or 125% */
-    position: relative;
-    z-index: 1;
-
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .NewsLetter-Text-1 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
-    position: relative;
-    z-index: 3;
-    /* or 157% */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  position: relative;
+  z-index: 3;
+  /* or 157% */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
 .NewsLetter-Text-2 {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
-    /* identical to box height, or 157% */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
 
-
-    color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .News_letter-main {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 30px;
-    /* or 136% */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 30px;
+  /* or 136% */
 
-
-    color: #FFFFFF;
+  color: #ffffff;
 }
 
-
-
-
-
 .button-seventh {
-    width: 125px;
-    height: 42px;
-    color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    font-style: normal;
-    transition: all .6s ease;
-    background: transparent;
-    border: 1px solid #fff;
-    -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
-    transform: matrix(1, 0, 0, 1, 0, 0);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
+  width: 125px;
+  height: 42px;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  font-style: normal;
+  transition: all 0.6s ease;
+  background: transparent;
+  border: 1px solid #fff;
+  -webkit-transform: matrix(1, 0, 0, 1, 0, 0);
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
 }
 
 .emailinput {
-    width: 60%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-    outline: none
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
 }
 
 .subscribe {
-    width: 10%;
-    text-decoration: none !important;
-    color: white;
-    background-color: #4E86A4;
-    padding: 13.35px;
+  width: 10%;
+  text-decoration: none !important;
+  color: white;
+  background-color: #4e86a4;
+  padding: 13.35px;
 }
 
 .subscribe:hover {
-    color: white;
+  color: white;
 }
 
 .Main_back_NewsLetter {
-    position: relative;
-    left: 40%;
+  position: relative;
+  left: 40%;
 }
 
 .Work-newsletter-polygon9 {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    z-index: 3;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  z-index: 3;
 
-    margin-top: -332px;
-    top: 390px;
+  margin-top: -332px;
+  top: 390px;
 
-    overflow: hidden;
-    transform: rotate(45deg);
+  overflow: hidden;
+  transform: rotate(45deg);
 }
 
 .Work-newsletter-polygon9 img {
-    transform: rotate(-45deg) !important;
-    width: 142%;
-    height: 142%;
-    margin-top: -54px;
-    margin-left: -52px;
-    transition: all 0.6s linear;
+  transform: rotate(-45deg) !important;
+  width: 142%;
+  height: 142%;
+  margin-top: -54px;
+  margin-left: -52px;
+  transition: all 0.6s linear;
 }
-.button-seventh:hover{
-    background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 75.42%);
-    border: 1px white; 
-    border-style: none;
+.button-seventh:hover {
+  background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 75.42%);
+  border: 1px white;
+  border-style: none;
 }
 
 .Work-newsletter-polygon9:hover img {
-    transform: scale(1.03) rotate(-45deg) !important;
+  transform: scale(1.03) rotate(-45deg) !important;
 }
 
 .back_newsLetter {
-    position: absolute;
-    width: 350px;
-    height: 360.8px;
-
+  position: absolute;
+  width: 350px;
+  height: 360.8px;
 }
 
 .growmore_newsletter {
-    position: absolute;
+  position: absolute;
 }
 
 .learnmore_newsletter {
-    position: absolute;
-    top: -20%;
-    left: -50%;
+  position: absolute;
+  top: 0;
+  left: 300px;
 }
 
 .logo_newsletter {
-    position: absolute;
-    top: 60%;
+  position: absolute;
+  top: 60%;
 }
-.Wall_newsletter{
-    position: absolute !important;
-    width: 211.24px !important;
-    height: 200px !important;
-    left: -0.24px !important;
-    margin-top: 30px !important;
+.Wall_newsletter {
+  position: absolute !important;
+  width: 211.24px !important;
+  height: 200px !important;
+  left: -0.24px !important;
+  margin-top: 30px !important;
 }
 
 .rect_newsletter {
-    position: absolute;
-    width: 50px;
+  position: absolute;
+  width: 50px;
   height: 50px;
   /* left: 1350.88px; */
   right: 150px;
 }
-@media (max-width:992px){
-    .NewsLetter_full{
-        flex-direction: column-reverse;
-    }
-    .text_NewsLetter{
-        padding-top: 400px;
-    }
-    .logo_newsletter{
-        display: none;
-    }
-    .Wall_newsletter{
-        display: none;
-    }
+@media (max-width: 992px) {
+  .NewsLetter_full {
+    flex-direction: column-reverse;
+  }
+  .text_NewsLetter {
+    padding-top: 400px;
+  }
+  .logo_newsletter {
+    display: none;
+  }
+  .Wall_newsletter {
+    display: none;
+  }
 }
 
-@media (max-width:768px){
-    .NewsLetter-Text-Heading{
-        font-size: 20px;
-    }
-    .NewsLetter-Text-1{
-        font-size: 12px;
-    }
-    .NewsLetter-Text-2{
-        font-size: 12px;
-    }
-    .News_letter-main{
-        font-size: 16px;
-        line-height: 20px;
-    }
+@media (max-width: 768px) {
+  .NewsLetter-Text-Heading {
+    font-size: 20px;
+  }
+  .NewsLetter-Text-1 {
+    font-size: 12px;
+  }
+  .NewsLetter-Text-2 {
+    font-size: 12px;
+  }
+  .News_letter-main {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }
 
-@media (max-width:1200px) {
-    .Main_back_NewsLetter {
-        left: 30%;
-    }
-    .learnmore_newsletter{
-        top: -18% !important;
-    }
+@media (max-width: 1200px) {
+  .Main_back_NewsLetter {
+    left: 30%;
+  }
 }
 
-@media (max-width:576px){
-    .rect_newsletter{
-        display: none;
-    }
+@media (max-width: 576px) {
+  .rect_newsletter {
+    display: none;
+  }
 }
 
-@media (max-width:475px) {
-    .Main_back_NewsLetter {
-        left: 10%;
-    }
-    .growmore_newsletter {
-        display: none;
-    }
-    .Work-newsletter-polygon9{
-        width: 200px;
-        width: 200px;
-    }
-    .back_newsLetter{
-        width: 290px;
-        height: 290px;
-        top: 15px;
-    }
-
+@media (max-width: 475px) {
+  .Main_back_NewsLetter {
+    left: 10%;
+  }
+  .growmore_newsletter {
+    display: none;
+  }
+  .Work-newsletter-polygon9 {
+    width: 200px;
+    width: 200px;
+  }
+  .back_newsLetter {
+    width: 290px;
+    height: 290px;
+    top: 15px;
+  }
 }

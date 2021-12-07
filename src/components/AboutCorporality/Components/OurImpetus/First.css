@@ -1,9 +1,9 @@
 .upper_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin-top: 100px !important;
-  background: url("./yellow_back.png");
+  /* background: url(./yellow_back.png); */
   background-size: cover;
   background-repeat: no-repeat;
   /* position: relative; */
@@ -12,8 +12,8 @@
 .left_content {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
-  padding-left: 100px !important;
-  padding-right: 600px !important;
+  padding-left: 10px !important;
+  padding-right: 650px !important;
   margin-top: 150px !important;
 }
 
@@ -50,7 +50,7 @@
 .main_image_container {
   position: absolute;
   top: -120px;
-  right: 150px;
+  right: 50px;
   z-index: 1;
   overflow: hidden;
   transform: rotate(45deg);
@@ -69,47 +69,112 @@
 .right_image {
   position: relative;
   margin-right: 50px !important;
+
   /* transform: rotate(45deg); */
 }
 
 .back_img {
   position: absolute;
   top: -200px;
-  right: 30px;
+  right: -70px;
 }
 
 .wall_img {
   position: absolute;
   top: 100px;
-  right: 480px;
+  right: 380px;
 }
 
 .rectangle_img {
   position: absolute;
   top: -130px;
-  right: 600px;
+  right: 500px;
 }
 
 .smallrectangle_img {
   position: absolute;
   top: 220px;
-  right: 390px;
+  right: 290px;
 }
 
-@media only screen and (max-width: 1600px) {
+.yellowbackground_aboutus {
+  position: absolute;
+  top: 300px;
+  right: 0;
+  width: 500px;
+  height: 466px;
+  background: rgba(255, 239, 165, 0.30196078431372547);
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
+}
+
+/* @media only screen and (max-width: 1600px) {
   .left_content {
     padding-right: 700px !important;
   }
-}
-@media only screen and (max-width: 1200px) {
+} */
+/* @media only screen and (max-width: 1400px) {
   .left_content {
     padding-right: 600px !important;
+    padding-left: 100px !important;
   }
-}
+  .main_image_container {
+    right: 100px;
+  }
 
-@media only screen and (max-width: 1095px) {
-  .right_image {
-    margin-right: 0px !important;
+  .back_img {
+    right: -20px;
+  }
+
+  .wall_img {
+    right: 430px;
+  }
+
+  .rectangle_img {
+    right: 550px;
+  }
+
+  .smallrectangle_img {
+    right: 340px;
+  }
+} */
+/* 
+@media only screen and (max-width: 1300px) {
+  .left_content {
+    padding-right: 550px !important;
+    padding-left: 20px !important;
+  }
+  .main_image_container {
+    right: 50px;
+  }
+
+  .back_img {
+    right: -70px;
+  }
+
+  .wall_img {
+    right: 380px;
+  }
+
+  .rectangle_img {
+    right: 500px;
+  }
+
+  .smallrectangle_img {
+    right: 290px;
+  }
+} */
+
+/* @media only screen and (max-width: 1200px) {
+  .left_content {
+    margin-left: -30px !important;
+    padding-right: 380px !important;
+  }
+} */
+
+@media only screen and (max-width: 1399px) {
+  .left_content {
+    padding-right: 480px !important;
   }
 }
 
@@ -119,7 +184,7 @@
     height: 250px;
     width: 240px;
     top: -95px;
-    right: 110px;
+    right: 60px;
     z-index: 2;
   }
 
@@ -128,7 +193,7 @@
     height: 350px;
     width: 350px;
     top: -150px;
-    right: 30px;
+    right: -20px;
   }
 
   .wall_img {
@@ -136,31 +201,61 @@
     width: 70px;
     position: absolute;
     top: 85px;
-    right: 330px;
+    right: 280px;
   }
 
   .rectangle_img {
     position: absolute;
     top: -130px;
-    right: 400px;
+    right: 300px;
   }
 
   .smallrectangle_img {
-    position: absolute;
     top: 150px;
-    right: 270px;
+    right: 220px;
   }
 
   .left_content {
-    padding-right: 450px !important;
+    padding-right: 400px !important;
     margin-top: 30px !important;
     padding-left: 50px !important;
   }
 }
 
+/* @media only screen and (max-width: 992px) {
+  .left_content {
+    padding-right: 350px !important;
+    padding-left: 20px !important;
+  }
+  .main_image_container {
+    right: 50px;
+  }
+
+  .back_img {
+    right: -70px;
+  }
+
+  .wall_img {
+    right: 380px;
+  }
+
+  .rectangle_img {
+    right: 500px;
+  }
+
+  .smallrectangle_img {
+    right: 290px;
+  }
+} */
+
 @media only screen and (max-width: 800px) {
   .upper_container {
     flex-direction: column;
+  }
+
+  .yellowbackground_aboutus {
+    top: 500px;
+    width: 400px;
   }
 
   .left_content {
@@ -209,7 +304,7 @@
   .main_image_container {
     position: absolute;
     top: 35px;
-    left: -120px;
+    left: -100px;
     z-index: 2;
     height: 220px;
     width: 220px;
@@ -218,7 +313,7 @@
   .back_img {
     position: absolute;
     top: -3px;
-    left: -128px;
+    left: -108px;
     height: 300px;
     width: 300px;
   }
@@ -226,20 +321,20 @@
   .wall_img {
     position: absolute;
     top: 180px;
-    left: -160px;
+    left: -140px;
     /* z-index: 3; */
   }
 
   .rectangle_img {
     position: absolute;
     top: -240px;
-    right: -140px;
+    right: -150px;
   }
 
   .smallrectangle_img {
     position: absolute;
     top: 250px;
-    left: -75px;
+    left: -55px;
   }
 
   .impetus_heading {
