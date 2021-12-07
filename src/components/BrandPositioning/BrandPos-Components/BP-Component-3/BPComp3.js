@@ -26,11 +26,11 @@ export default function BPComp3() {
             className="img-fluid"
           />
         </div>
-        <div className="position-absolute top-50 start-50 translate-middle-x bpcp3Snake">
+        <div className="">
           <img
             src="/img/BrandPositioning/path.png"
             alt=""
-            className="img-fluid"
+            className="img-fluid position-absolute top-50 start-50 translate-middle-x bpcp3Snake vw-100"
           />
         </div>
         <div className="vw-100 d-flex justify-content-evenly flex-wrap blocksContainer">

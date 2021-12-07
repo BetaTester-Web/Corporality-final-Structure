@@ -3,13 +3,12 @@
     padding-bottom: 10px;
     background-color: #F8F8F8;
     /* overflow-x: hidden; */
-    padding-bottom: 80px;
+    padding-bottom: 70px;
 }
 .contoiner-3-Multi{
     display: flex;
     align-items: center;
-    padding-top: 100px;
- 
+    padding-top: 70px;
 }
 
 
@@ -20,7 +19,6 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 32px;
-    /* identical to box height, or 178% */
     margin-bottom: 5px;
     
     

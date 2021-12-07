@@ -11,6 +11,7 @@ import wall from '../prevCode-1/wall.png'
 import smallrect from '../prevCode-1/small.png'
 import rect from '../prevCode-1/rect.png'
 import smallerrect from '../prevCode-1/smaller-rect.png'
+import yellowbackground from './yellobackground.png'
 
 const Prev1 = () => {
     useEffect(() => {
@@ -21,6 +22,9 @@ const Prev1 = () => {
 
         <div className="prev-1-Ib">
             <div className="navbar"></div>
+            <div className="Out_container_blueprint_yellow">
+                <img src = {yellowbackground} className='yellow_IB' alt=" " />
+            </div>
             <div className="container container-1">
                 <div className="row first-image">
                     <div className="col-lg-6">
@@ -48,11 +52,6 @@ const Prev1 = () => {
 
 
             </div>
-            <div className="blue_print_overlay">
-                <div className="blue_print_ellipse-1"></div>
-
-            </div>
-
 
         </div>
 

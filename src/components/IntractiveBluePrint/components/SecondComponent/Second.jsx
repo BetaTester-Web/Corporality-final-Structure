@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import aos from 'aos'
 import 'aos/dist/aos.css'
-import '../SecondComponent/secondcontainer.css'
+import './secondcontainer.css'
 import polygon from '../SecondComponent/polygon.png'
 import Main from '../SecondComponent/main.png'
 import Back from '../SecondComponent/back.png'
@@ -18,6 +18,7 @@ const Second = () => {
     }, [])
     return (
         <div className="second">
+            <img className='wall-2-2' src={wall} alt='' />
             <div className='container second-container' >
                 <div className="row interactive_blueprint-row">
                     <div className="col-lg-6 textndlists">
@@ -58,7 +59,7 @@ const Second = () => {
                             <img className='rect-2-2' src={rect2} alt='' />
                             <img className='rect-2-3' src={rect3} alt='' />
                             <img className='rect-2-4' src={rect4} alt='' />
-                            <img className='wall-2-2' src={wall} alt='' />
+                            
                             <div className="mainndback-4">
                                 <img className='backimagesecond-fourth' src={Back} alt='' />
                                 <div className="bp_our-newsletter-polygon9">

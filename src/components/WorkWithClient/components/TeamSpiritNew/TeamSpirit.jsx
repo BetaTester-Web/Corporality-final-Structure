@@ -23,15 +23,18 @@ function TeamSpiritNew() {
           className="community_support_first-Invirogating"
 
         >
-          <div className="community_first_heading-Invirogating">
-            <div className="community_first_heading_text-Invirogating">Invigorating the Team spirit</div>
-            <div className="community_first_heading_arrow">
-              <img src={heading_1_arrow} alt="" />
+          <div className="text_1_invirogating">
+            <div className="community_first_heading-Invirogating">
+              <div className="community_first_heading_text-Invirogating">Invigorating the Team spirit</div>
+              <div className="community_first_heading_arrow">
+                <img src={heading_1_arrow} alt="" />
+              </div>
+
             </div>
 
-          </div>
-          <div className="community_first_description-Invirogating">
-          Corporality Global works with true agility to make a difference across every project.
+            <div className="community_first_description-Invirogating">
+              Corporality Global works with true agility to make a difference across every project.
+            </div>
           </div>
           <div className="community_top_image-Invirogating">
             <img src={bottom_image2} alt="" className="community_top_image_image-Invirogating" />
@@ -46,10 +49,10 @@ function TeamSpiritNew() {
         <div
           className="community_support_second-Invirogating"
         >
-          <div className="text2_Leaderships">
+          <div className="text_2_invirogating">
             <div className="community_second_heading-Invirogating">
               <div className="community_second_heading_text-Invirogating">
-              Stepping into the Global Market
+                Stepping into the Global Market
               </div>
               <div className="community_second_heading_arrow">
                 <img src={heading_2_arrow} alt="" />
@@ -57,7 +60,7 @@ function TeamSpiritNew() {
 
             </div>
             <div className="community_second_description-Invirogating">
-            Corporality Global has already taken baby steps to enter the North American market as we aim to grow.
+              Corporality Global has already taken baby steps to enter the North American market as we aim to grow.
 
 
             </div>

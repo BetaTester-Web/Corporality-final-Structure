@@ -76,11 +76,14 @@
   margin-left: 300px !important;
   left: -10%;
 }
-.text2_Leaderships{
+.text_2_invirogating{
   position: relative;
-  left: 20%;
+  left: 10%;
 }
-
+.text_1_invirogating{
+  position: relative;
+  left: 10%;
+}
 
 .community_second_heading_text-Invirogating {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -166,10 +169,20 @@
 }
 
 @media (max-width:1400px){
-  .text2_Leaderships{
+  .text_2_invirogating{
     left: 0%;
   }
-  
+  .community_first_heading_arrow{
+    position: absolute;
+    left: 20%;
+    top: 40px;
+  }
+  .community_second_heading_arrow{
+    position: absolute;
+    left: 25%;
+    top: 40px;
+  }
+ 
 }
 
 @media only screen and (max-width: 1200px) {
@@ -178,6 +191,16 @@
     padding-right: 20px !important;
     margin-left: 200px !important;
   }
+  .community_first_heading_arrow{
+    position: absolute;
+    left: 95%;
+    top: 40px;
+  }
+  .community_second_heading_arrow{
+    position: absolute;
+    left: 60%;
+    top: 40px;
+  }
 
   .community_top_image-Invirogating {
     position: absolute;
@@ -185,7 +208,7 @@
     right: -170px;
     z-index: 1;
   }
-  .text2_Leaderships{
+  .text_2_invirogating{
     left: 0%;
   }
   .community_second_description-Invirogating{
@@ -238,15 +261,25 @@
   .community_support_first-Invirogating {
     padding-left: 50px !important;
     padding-right: 200px !important;
-    margin-right: 200px !important;
+    margin-right: 300px !important;
     margin-left: 30px !important;
     left: 0%;
+  }
+  .community_first_heading_arrow{
+    position: absolute;
+    left: 59%;
+    top: 40px;
+  }
+  .community_second_heading_arrow{
+    position: absolute;
+    left: 30%;
+    top: 40px;
   }
 
   .community_support_second-Invirogating {
     padding-left: 210px !important;
     padding-right: 10px !important;
-    margin-right: 0px !important;
+    margin-right: 100px !important;
     margin-left: 160px !important;
     left: 0%;
   }
@@ -332,6 +365,9 @@
     top: -180px;
     left: 140px;
   }
+  .text_2_invirogating{
+    left: 0% !important;
+  }
 }
 @media (max-width:768px) {
   .community_first_description-Invirogating{
@@ -364,6 +400,10 @@
 @media only screen and (max-width: 626px) {
   .community_support_main-Invirogating {
     margin-top: 120px !important;
+  }
+  .text_1_invirogating{
+    position: relative;
+    left: 0% !important;
   }
 
   .community_support_first-Invirogating {

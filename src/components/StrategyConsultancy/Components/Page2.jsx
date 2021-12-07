@@ -20,7 +20,7 @@ const Page2 = () => {
 
                         <div>
 
-                            <img className="img-fluid mx-5" src="./img/StrategyConsultancy/page-2.png" alt="" />
+                            <img className="mx-5" src="./img/StrategyConsultancy/page-2.png" alt="" />
                         </div>
                     </div>
 
@@ -28,7 +28,7 @@ const Page2 = () => {
 
 
                         <div>
-                            <img className="img-fluid consultdvice " src="./img/StrategyConsultancy/Group 1161.png" alt="" />
+                            <img className=" consultdvice " src="./img/StrategyConsultancy/advice.png" alt="" />
 
                         </div>
                     </div>
@@ -56,15 +56,18 @@ const Page2 = () => {
             <div className="container consultbusinessbox">
 
                 <div data-aos="fade-up">
+                    {/* <div className="d-flex justify-content-center start-Box-fl"> */}
+
                     <div className="d-flex justify-content-around flex-wrap m-5">
                         <div className=''><img src="./img/StrategyConsultancy/box1.jpg" alt="" /></div>
-                        <div><img src="./img/StrategyConsultancy/Group 1176.png" alt="" /></div>
+                        <div><img src="./img/StrategyConsultancy/b0x2.png" alt="" /></div>
                         <div><img src="./img/StrategyConsultancy/box3.png" alt="" /></div>
                         <div><img src="./img/StrategyConsultancy/box4.png" alt="" /></div>
                         <div><img src="./img/StrategyConsultancy/box5.png" alt="" /></div>
                         <div><img src="./img/StrategyConsultancy/box6.png" alt="" /></div>
                         <div><img src="./img/StrategyConsultancy/box2.png" alt="" /></div>
                     </div>
+                    {/* </div> */}
 
                 </div>
             </div>

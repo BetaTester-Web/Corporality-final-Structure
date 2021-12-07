@@ -223,44 +223,15 @@ color: #232323;
 .main3:hover{
     transform: scale(1.02);
 }
-/* @media (max-width: 576px) {
-    
-    .back3{
-        width: 85%;
-    }
-    .wall3{
-        width: 20%;
-    }
-    .bp_iwfc_img{
-        width: 280px;
-        height: 282.8px;
-    }
-    .images-hover-4{
-        position: relative;
-        left: -20%;
-    }
-}
-    
-    @media (max-width: 483px) {
-    
-        .back3{
-            width: 85%;
-        }
-        .wall3{
-            width: 20%;
-        }
-        .bp_iwfc_img{
-            width: 250px;
-            height: 252.8px;
-        }
-        .images-hover-4{
-            position: relative;
-            left: -20%;
-        }
-        
-    } */
+
 button-4{
         margin-bottom: 85px;
+    }
+
+    @media(max-width:1268px){
+        .container-3_text-2_heading{
+            margin-right: 0px;
+        }
     }
 
 @media (max-width:992px){

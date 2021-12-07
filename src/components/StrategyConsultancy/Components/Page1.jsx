@@ -15,7 +15,7 @@ const Page1 = () => {
         <>
             <div className="consult-page1" >
                 <div className="container">
-                    <img src="./img/StrategyConsultancy/hollowDia.png" alt="" className="consult-hollowDia img-fluid" />
+                    <img src="./img/StrategyConsultancy/hollowDia.png" alt="" className="consult-hollowDia " />
                     <div className="d-md-flex align-items-center justify-content-between consult-pageContent">
                         <div className="consult-page1-content">
                             <div data-aos="fade-right">
@@ -29,10 +29,10 @@ const Page1 = () => {
                             <div data-aos="fade-left">
 
 
-                            <img src="./img/StrategyConsultancy/hollow2.png" alt="" className="consult-hollow2 img-fluid" />                            
+                            <img src="./img/StrategyConsultancy/hollow2.png" alt="" className="consult-hollow2 " />                            
                             </div>
                             <div className="consult-page1-img d-sm-flex p-4">
-                                <img src="./img/StrategyConsultancy/Rectangle 203.png" alt="" className="img-fluid consultimg2" />
+                                <img src="./img/StrategyConsultancy/youtubemarketing.png" alt="" className=" consultimg2" />
 
                                 <div className="consultyoutubebox text-center">
                                     <p className="">Subscribe Our YouTube Channel</p>
@@ -50,21 +50,21 @@ const Page1 = () => {
                         <div className="consultimg3">
                         <div data-aos="fade-left">
 
-                            <img className="img-fluid" src="./img/StrategyConsultancy/Group 1160.png" alt="" />
+                            <img className="" src="./img/StrategyConsultancy/page-1.png" alt="" />
                         </div>
                         </div>
                     </div>
 
                     <div className="consultgrad-1">
-                        <img src="./img/StrategyConsultancy/Rectangle 68.png" alt="" className="img-fluid" />
+                        <img src="./img/StrategyConsultancy/rectcolor.png" alt="" className="" />
                     </div>
                 <div class="d-flex align-items-end flex-column consultancysocialmedia">
-                    <img src="./img/StrategyConsultancy/facebook.png" className="img-fluid py-1" alt="" />
-                    <img src="./img/StrategyConsultancy/twitter.png" className="img-fluid py-1" alt="" />
-                    <img src="./img/StrategyConsultancy/insta.png" className="img-fluid py-1" alt="" />
-                    <img src="./img/StrategyConsultancy/linkedIN.png" className="img-fluid py-1" alt="" />
-                    <img src="./img/StrategyConsultancy/pinterset.png" className="img-fluid py-1" alt="" />
-                    <img src="./img/StrategyConsultancy/youtube.png" className="img-fluid py-1" alt="" />
+                    <img src="./img/StrategyConsultancy/facebook.png" className=" py-1" alt="" />
+                    <img src="./img/StrategyConsultancy/twitter.png" className=" py-1" alt="" />
+                    <img src="./img/StrategyConsultancy/insta.png" className=" py-1" alt="" />
+                    <img src="./img/StrategyConsultancy/linkedIN.png" className=" py-1" alt="" />
+                    <img src="./img/StrategyConsultancy/pinterset.png" className=" py-1" alt="" />
+                    <img src="./img/StrategyConsultancy/youtube.png" className=" py-1" alt="" />
                 </div>
                 </div>
             </div>

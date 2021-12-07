@@ -11,7 +11,7 @@ export default function Differentiate() {
     <>
       <div class="differentiate">
         <div class="row position-relative">
-          <div class="cxo-differentiate-text" data-aos="fade-right"  data-aos-duration="3000" class="col cxo-landing-page ">
+          <div class="" data-aos="fade-right"  data-aos-duration="3000" class="col cxo-landing-page d-flex-center">
             <h3>OUTSOURCED CXO</h3>
             <h1>DIFFERENTIATE YOUR BRAND EXPERIENCE</h1>
             <p>

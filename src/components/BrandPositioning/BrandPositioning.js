@@ -103,7 +103,7 @@ export default function Component1() {
                   Omni effect vs experience
                 </p>
               </div>
-              <div className="phnbtn position-absolute end-0 bottom-0">
+              <div className="phnbtn position-absolute end-0 bottom-0" onClick={() => window.open("tel: +61 2 83794089", "_self")}>
                 <img
                   src="/img/BrandPositioning/Group-709.png"
                   alt=""
@@ -163,87 +163,87 @@ export default function Component1() {
             </div>
           </div>
         </div>
-        <div className="social position-absolute end-0 top-50 translate-middle-y container"> 
-            <div class="row row-cols-1 mx-0 bpcp1SocialRow">
-              <div class="col my-1 socialDiv">
-                <a
-                  href="https://www.facebook.com/CorporalityG"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/img/BrandPositioning/Group-618.png"
-                    alt=""
-                    className="img-fluid"
-                  />
-                </a>
-              </div>
-              <div class="col my-1 socialDiv">
-                <a
-                  href="https://twitter.com/corporalityg"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/img/BrandPositioning/Group-617.png"
-                    alt=""
-                    className="img-fluid"
-                  />
-                </a>
-              </div>
-              <div class="col my-1 socialDiv">
-                <a
-                  href="https://www.instagram.com/corporalityg"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/img/BrandPositioning/Group-616.png"
-                    alt=""
-                    className="img-fluid"
-                  />
-                </a>
-              </div>
-              <div class="col my-1 socialDiv">
-                <a
-                  href="https://www.linkedin.com/company/corporality"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/img/BrandPositioning/Group-615.png"
-                    alt=""
-                    className="img-fluid"
-                  />
-                </a>
-              </div>
-              <div class="col my-1 socialDiv">
-                <a
-                  href="https://in.pinterest.com/CorporalityG"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/img/BrandPositioning/Group-614.png"
-                    alt=""
-                    className="img-fluid"
-                  />
-                </a>
-              </div>
-              <div class="col my-1 socialDiv">
-                <a
-                  href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <img
-                    src="/img/BrandPositioning/Group-613.png"
-                    alt=""
-                    className="img-fluid"
-                  />
-                </a>
-              </div>
+        <div className="social position-absolute end-0 top-50 translate-middle-y container">
+          <div class="row row-cols-1 mx-0 bpcp1SocialRow">
+            <div class="col my-1 socialDiv">
+              <a
+                href="https://www.facebook.com/CorporalityG"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/img/BrandPositioning/Group-618.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </a>
             </div>
+            <div class="col my-1 socialDiv">
+              <a
+                href="https://twitter.com/corporalityg"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/img/BrandPositioning/Group-617.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col my-1 socialDiv">
+              <a
+                href="https://www.instagram.com/corporalityg"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/img/BrandPositioning/Group-616.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col my-1 socialDiv">
+              <a
+                href="https://www.linkedin.com/company/corporality"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/img/BrandPositioning/Group-615.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col my-1 socialDiv">
+              <a
+                href="https://in.pinterest.com/CorporalityG"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/img/BrandPositioning/Group-614.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+            <div class="col my-1 socialDiv">
+              <a
+                href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  src="/img/BrandPositioning/Group-613.png"
+                  alt=""
+                  className="img-fluid"
+                />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
       <div className="vw-100 my-2">

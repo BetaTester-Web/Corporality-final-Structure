@@ -56,8 +56,8 @@
  }
  .side2-container{
      position: absolute;
-     top: -30%;
-     left: -90%;
+     left: 3%;
+     top: 480px;
  }
  .prev-2-text-1{
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -84,25 +84,22 @@
  }
 
  @media (max-width:1505px){
-    .side2-container{
+    /* .side2-container{
         left: -70%;
-    }
+    } */
  }
 
  @media (max-width:1200px) {
      .wall2-container{
-         left: 80%;
+         left: 90%;
      }
      .side2-container{
-         height: 60%;
+         top: 850px;
          left: 0%;
      }
      .prev2{
          margin-top: 0px;
      }
- }
- @media (max-width:1089px){
-     
  }
  
  @media (max-width:992px) {
@@ -111,8 +108,8 @@
          top: 40%;
      }
      .side2-container{
-         height: 60%;
-         left: -60%;
+
+         left: 5%;
      }
      .img-container{
          position: relative;
@@ -134,9 +131,16 @@
  }
  @media (max-width:677px){
      .side2-container{
-         /* height: 30%; */
-         left: -30%;
-         /* width: 30%; */
+         
+        width: 100px;
+        height: 160px;
+        top: 900px;
+        
+     }
+ }
+ @media (max-width:654px){
+     .side2-container{
+         top: 600px;
      }
  }
  @media (max-width:509px){

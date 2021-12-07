@@ -115,3 +115,59 @@
     margin-left: 68% !important;
     margin-top: -5% !important;
 }
+
+@media only screen and (max-width: 1050px){
+  .DDMBannerText > h1{
+      width: 45%;
+      padding-bottom: 10%;
+  }
+  .DDMBannerText > p{
+    /* width: 45%; */
+    margin-top: 5% ;
+  }
+  .DDMBannerImage > img{
+    /* position: relative; */
+    /* top: 0%; */
+    margin-top: -10% !important;
+    margin-left: -10% !important;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  .DDMBannerText > h1 {
+    width: 100%;
+    padding-bottom: 0%;
+}
+
+.DDMBannerImage{
+  margin: 0% !important;
+}
+
+.DDMBannerImage > img{
+  width: 70%;
+  margin: 0% !important;
+  align-items: center;
+}
+}
+
+@media only screen and (max-width: 430px){
+  .DDMBannerText > h1 {
+    padding-top: 10%;
+    font-size: 25px;
+    line-height: 30px;
+    padding-bottom: 0%;
+}
+
+.DDMBannerImage{
+  margin: 0% !important;
+}
+.DDMBannerText > p{
+  margin-top:  2%; ;
+}
+
+.DDMBannerImage > img{
+  width: 50%;
+  margin: 0% !important;
+  align-items: center;
+}
+}

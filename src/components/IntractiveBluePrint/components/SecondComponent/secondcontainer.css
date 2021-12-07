@@ -1,6 +1,8 @@
 .second {
     background-color: #6CA0BC !important;
     overflow: hidden !important;
+    padding-top: 30px;
+
 }
 
 .container-2-text-2 {
@@ -9,7 +11,7 @@
     font-weight: normal !important;
     font-size: 14px !important;
     line-height: 22px !important;
-    /* identical to box height, or 157% */
+
 
 
 
@@ -24,7 +26,7 @@
     font-weight: bold !important;
     font-size: 32px !important;
     line-height: 40px !important;
-    /* or 125% */
+
 
 
 
@@ -40,7 +42,7 @@
 .polygon-last {
     display: flex !important;
     align-items: center !important;
-    /* justify-content: center !important; */
+
     padding-right: 20px !important;
 }
 
@@ -83,7 +85,6 @@
 }
 
 .button-5:hover {
-    /*  margin-top: 25px !important; */
     background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 75.42%) !important;
     border: 1px white !important;
     border-style: none !important;
@@ -99,31 +100,6 @@
     top: -100px !important;
 }
 
-
-/* .rect-2-1{
-    position: absolute !important;
-    left: -30% !important;
-    top: -8% !important;
-}
-.rect-2-2{
-    position: absolute !important;
-    left: -65% !important;
-    top: 58% !important;
-}
-.rect-2-3{
-    position: absolute !important;
-    left: -110% !important;
-    top: 85% !important;
-}
-.rect-2-4{
-    position: absolute !important;
-    left: 100% !important;
-}.wall-2-2{
-    position: absolute !important;
-    left: -240% !important;
-    z-index: 0 !important;
-
-} */
 .polygon-last {
     margin-top: 5px !important;
 }
@@ -133,7 +109,7 @@
 }
 
 .bp_our-newsletter-polygon9 {
-    /* position: relative !important; */
+
     position: relative !important;
     width: 250px !important;
     height: 250px !important;
@@ -146,10 +122,6 @@
     transform: rotate(45deg) !important;
 }
 
-/* .mainndback-4{
-      position: relative !important;
-      top: 70% !important;
-  } */
 .bp_our-newsletter-polygon9 .main-2-2 {
     transform: rotate(-45deg) !important;
     width: 142% !important;
@@ -157,6 +129,11 @@
     margin-top: -54px !important;
     margin-left: -52px !important;
     transition: all 0.6s linear !important;
+}
+.textndlists{
+    position: relative;
+    top: 30px;
+    left: 5%;
 }
 
 .bp_our-newsletter-polygon9:hover .main-2-2 {
@@ -171,12 +148,15 @@
 
 .wall-2-2 {
     position: absolute !important;
-    left: -260% !important;
+    width: 211.24px !important;
+    height: 200px !important;
+    left: -0.24px !important;
+    margin-top: 30px !important;
 }
 
 .rect-2-4 {
     position: absolute !important;
-    left: 150% !important;
+    left: 130% !important;
 }
 
 .rect-2-1 {
@@ -193,7 +173,7 @@
 
 .rect-2-2 {
     position: relative;
-    top: 50%;
+    top: 58%;
     left: -90%;
 }
 
@@ -242,10 +222,6 @@
         flex-direction: column-reverse !important;
     }
 
-    /* .mainndback-4{
-        margin-top: 220px !important;
-        left: -30% !important;
-    } */
     .textndlists {
         margin-top: 190px !important;
         left: -5% !important;
@@ -254,22 +230,17 @@
     .rect-2-3 {
         top: 720px !important;
     }
+    .wall-2-2{
+        display: none;
+    }
 
 }
 
 @media (max-width:768px) {
-
-    /* .mainndback-4{
-      flex-direction: column-reverse !important;
-    } */
     .interactive_blueprint-row {
         flex-direction: column-reverse !important;
     }
 
-    /* .mainndback-4{
-        margin-top: 220px !important;
-        left: -30% !important;
-    } */
     .textndlists {
         margin-top: 100px !important;
         left: 0% !important;
@@ -278,31 +249,28 @@
     .rect-2-3 {
         top: 720px !important;
     }
-    .container-2-text-1{
+
+    .container-2-text-1 {
         font-size: 16px !important;
         line-height: 20px !important;
     }
-    .container-2-text-2{
+
+    .container-2-text-2 {
         font-size: 12px !important;
     }
 
 }
 
 @media (max-width:576px) {
-    .mainndback-4{
+    .mainndback-4 {
         left: 10%;
     }
-    /* .mainndback-4{
-      flex-direction: column-reverse !important;
-    } */
+
     .interactive_blueprint-row {
         flex-direction: column-reverse !important;
     }
 
-    /* .mainndback-4{
-        margin-top: 220px !important;
-        left: -30% !important;
-    } */
+
 
     .textndlists {
         margin-top: 100px !important;
@@ -334,11 +302,13 @@
     .button-5 {
         left: 0% !important;
     }
-    .bp_our-newsletter-polygon9{
+
+    .bp_our-newsletter-polygon9 {
         width: 200px !important;
-        height: 200px  !important ;
+        height: 200px !important;
     }
-    .backimagesecond-fourth{
+
+    .backimagesecond-fourth {
         width: 300px;
         height: 300px;
         top: -50px !important;

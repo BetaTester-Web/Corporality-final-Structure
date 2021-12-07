@@ -1,5 +1,8 @@
-.main_services_container {
+.services_container_parent {
   background: #f4f4f4;
+}
+
+.main_services_container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -95,7 +98,7 @@
     rgba(51, 101, 126, 0.8) 100%
   );
   box-shadow: 0px 20px 40px rgba(13, 18, 24, 0.25);
-  width: 100%;
+  width: 120%;
 }
 
 .picture_side {
@@ -170,7 +173,7 @@
   cursor: pointer;
 }
 
-.bottom_button_circle{
+.bottom_button_circle {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -185,10 +188,10 @@
   width: 100%;
   border-radius: 50%;
   z-index: 2;
-  transform: scale(.8);
+  transform: scale(0.8);
 }
 
-.bottom_button_circle::after{
+.bottom_button_circle::after {
   z-index: 1;
   content: "";
   position: absolute;
@@ -203,16 +206,16 @@
   transition: all 0.2s ease-in-out;
 }
 
-@keyframes servicePulse{
-  0%{
+@keyframes servicePulse {
+  0% {
     opacity: 0.4;
     transform: translateX(-50%) scale(0);
   }
-  50%{
+  50% {
     opacity: 0.2;
     transform: translateX(-50%) scale(0.8);
   }
-  100%{
+  100% {
     opacity: 0;
     transform: translateX(-50%) scale(1);
   }
@@ -311,7 +314,7 @@
     width: 80%;
     height: 80%;
   }
-  .bottom_button_circle::after{
+  .bottom_button_circle::after {
     width: 80%;
   }
 }

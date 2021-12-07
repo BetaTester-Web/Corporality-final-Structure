@@ -76,7 +76,7 @@ const Ideation = () => {
 
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1500"  className="textndicon-Ideation">
-                            <div /* className="icon-Ideation" */>
+                            <div>
                                 <img alt='' className='icon1-Ideation' src={favicon2} />
                             </div>
                             <div className="text-box-3-Ideation">
