@@ -105,7 +105,7 @@
   padding-top: 30px !important;
   margin-right: -100px;
 
-  padding-bottom: 40px !important;
+  padding-bottom: 60px !important;
   padding-left: 150px !important;
   padding-right: 30px !important;
   position: relative !important;
@@ -187,7 +187,7 @@
 }
 .Duty_card_text_3:hover {
   border-top: 4px solid #a06daf !important;
-  padding-bottom: 16px !important;
+  padding-bottom: 36px !important;
 }
 .Duty_card_text_4:hover {
   border-top: 4px solid #a06daf !important;
@@ -195,7 +195,7 @@
 }
 .Duty_card_text_1:hover {
   border-top: 4px solid #a06daf !important;
-  padding-bottom: 36px !important;
+  padding-bottom: 56px !important;
 }
 .Duty_card_text_3 {
   justify-content: center !important;
@@ -206,7 +206,7 @@
   border-radius: 0px 10px 10px 0px !important;
   padding-top: 40px !important;
   margin-right: -100px;
-  padding-bottom: 20px !important;
+  padding-bottom: 40px !important;
   padding-left: 150px !important;
   padding-right: 50px !important;
   position: relative !important;
@@ -217,14 +217,14 @@
 @media (max-width: 1400px) {
   .Duty_card_text {
     margin-right: -110px !important;
-    padding-bottom: 20px !important;
+    padding-bottom: 40px !important;
     left: -22% !important;
     top: -50px !important;
   }
 
   .Duty_card_text_2 {
     margin-right: -100px !important;
-    padding-bottom: 28px !important;
+    padding-bottom: 48px !important;
     left: -22% !important;
     top: -50px !important;
   }
@@ -239,10 +239,10 @@
 
   .Duty_card_text_4 {
     margin-right: -100px !important;
-    padding-bottom: 0px !important;
+    padding-bottom: 25px !important;
     left: -22% !important;
     top: -50px !important;
-    padding-top: 0px !important;
+    padding-top: 20px !important;
   }
 
   .Duty-images-card-2 {

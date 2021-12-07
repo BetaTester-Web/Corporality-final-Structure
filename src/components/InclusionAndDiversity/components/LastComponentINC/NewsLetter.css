@@ -1,7 +1,7 @@
 .second-Ns {
     background-color: #6CA0BC;
     overflow: hidden;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .container-2-text-2-Ns {
@@ -10,9 +10,6 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 22px;
-    /* identical to box height, or 157% */
-
-
     color: #FFFFFF;
 
 }
@@ -21,8 +18,6 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
-
-
 }
 
 .container-2-text-1-Ns {
@@ -32,13 +27,9 @@
     font-weight: 500;
     font-size: 32px;
     line-height: 42px;
-    /* or 131% */
     margin-right: -150px;
     z-index: 2;
-
-
     color: #FFFFFF;
-
 }
 
 .textndimg-Ns {
@@ -48,14 +39,12 @@
 .polygon-last-Ns {
     display: flex;
     align-items: center;
-    /* justify-content: center; */
     padding-right: 20px;
 }
 
 
 .imagessecond-Ns {
     position: relative;
-
 }
 
 .second-container-Ns {
@@ -91,7 +80,6 @@
 }
 
 .button-5-Ns:hover {
-    /*  margin-top: 25px; */
     background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 75.42%);
     border: 1px white;
     border-style: none;
@@ -148,7 +136,6 @@
 }
 
 .bp_our-newsletter-polygon9-Ns {
-    /* position: relative; */
     position: relative;
     width: 250px;
     height: 250px;
@@ -160,11 +147,6 @@
     overflow: hidden;
     transform: rotate(45deg);
 }
-
-/* .mainndback-4-Ns{
-      position: relative;
-      top: 70%;
-  } */
 .bp_our-newsletter-polygon9-Ns .main-2-2-Ns {
     transform: rotate(-45deg) !important;
     width: 142%;
@@ -196,7 +178,6 @@
     position: absolute;
     width: 50px;
   height: 50px;
-  /* left: 1350.88px; */
   right: 150px;
 }
 
@@ -258,11 +239,9 @@
     .wall-2-2-Ns{
         left: -180%;
     }
-
     .backimagesecond-fourth-Ns {
         left: 10%;
     }
-
     .bp_our-newsletter-polygon9-Ns {
         left: 10%;
     }
@@ -278,13 +257,11 @@
     .backimagesecond-fourth-Ns {
         left: 0%;
     }
-
     .bp_our-newsletter-polygon9-Ns {
         left: 0%;
     }
     .rect-2-4-Ns {
         position: absolute;
-        
     }
 }
 
@@ -292,24 +269,14 @@
     .wall-2-2-Ns{
         display: none;
     }
-
-    /* .mainndback-4-Ns{
-      flex-direction: column-reverse;
-    } */
     .interactive_blueprint-row-Ns {
         flex-direction: column-reverse;
     }
-
-    /* .mainndback-4-Ns{
-        margin-top: 220px;
-        left: -30%;
-    } */
     .textndlists-Ns {
 
         margin-top: 100px;
         left: 0%;
     }
-
     .container-2-text-1-Ns {
         margin-right: 0px;
         left: 2%;
@@ -322,73 +289,47 @@
     .mainndback-4-Ns {
         left: 20%;
     }
-
 }
 
 @media (max-width:768px) {
-
-    /* .mainndback-4-Ns{
-      flex-direction: column-reverse;
-    } */
     .interactive_blueprint-row-Ns {
         flex-direction: column-reverse;
     }
-
-    /* .mainndback-4-Ns{
-        margin-top: 220px;
-        left: -30%;
-    } */
     .textndlists-Ns {
         margin-top: 100px;
-        left: 10%;
+        left: 0%;
     }
-
     .rect-2-3-Ns {
         top: 720px;
     }
-
     .container-2-text-1-Ns-2 {
         margin-right: 150px;
     }
-
 }
 
 @media (max-width:576px) {
 
-    /* .mainndback-4-Ns{
-      flex-direction: column-reverse;
-    } */
     .interactive_blueprint-row-Ns {
         flex-direction: column-reverse;
     }
-
-    /* .mainndback-4-Ns{
-        margin-top: 220px;
-        left: -30%;
-    } */
-
     .textndlists-Ns {
         margin-top: 70px;
         left: 5%;
     }
-
     .rect-2-3-Ns {
         top: 720px;
         display: none;
     }
-
     .rect-2-4-Ns {
         left: 50%;
         display: none;
     }
-
     .container-2-text-1-Ns {
         margin-right: 0px;
         left: -1%;
         margin-right: 20px;
         font-size: 24px;
     }
-
 }
 
 @media (max-width:490px) {
@@ -397,7 +338,7 @@
     }
 
     .container-2-text-1-Ns {
-        margin-right: -30px;
+        margin-right: 30px;
         left: 0%;
     }
     .bp_our-newsletter-polygon9-Ns{
@@ -409,15 +350,17 @@
         width: 300px;
         height: 300px;
         left: -10%;
-
     }
 }
 @media (max-width:420px) {
     .emailinput-Ns{
         width: 70%;
     }
+    .container-2-text-1-Ns{
+        margin-right: 30px !important;
+    }
     .emailAndNs{
         position: relative;
-        left: 1% !important;
+        left: -5% !important;
     }
 }
