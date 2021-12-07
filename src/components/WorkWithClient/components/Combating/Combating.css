@@ -42,11 +42,9 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
-  /* or 144% */
   padding-right: 250px;
   position: relative;
   left: 10%;
-
   color: #232323;
 }
 
@@ -57,9 +55,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  /* or 157% */
   padding-right: 180px;
-
   color: #757575;
   position: relative;
   left: 10%;
@@ -97,22 +93,9 @@
   font-weight: bold;
   font-size: 32px;
   line-height: 42px;
-  /* or 131% */
-
   text-transform: uppercase;
-
   color: #3c708e;
 }
-
-/* .Combating_group {
-  position: absolute;
-  height: 60%;
-  left: 5%;
-  top: 830px;
-  width: 180px;
-  height: 270px;
-} */
-
 .Image_rect {
   position: absolute;
   top: 90px;
@@ -126,10 +109,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  /* identical to box height, or 140% */
-
   text-transform: uppercase;
-
   color: #232323;
 }
 
@@ -140,28 +120,25 @@
 .Combating_texting_column-3 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  /* or 140% */
-
   color: #757575;
-}
-@media (max-width: 1340px) {
-  /* .Combating_group {
-    position: absolute;
-    height: 60%;
-    left: 0%;
-    top: 830px;
-    width: 180px;
-    height: 270px;
-  } */
 }
 @media (max-width: 1200px) {
   .Combating_texting_coloumn {
     position: relative;
     left: 10%;
+  }
+}
+@media (max-width:1180px){
+  .threeboxes_combat{
+    left: 20px ;
+  }
+}
+@media (max-width:1105px){
+  .threeboxes_combat{
+    left: 0px ;
   }
 }
 
@@ -176,16 +153,11 @@
   .COmbatinG {
     margin-top: 0px;
   }
-  /* .Combating_group {
-    position: absolute;
-    height: 60%;
-    left: 5%;
-    top: 1100px;
-    width: 180px;
-    height: 270px;
-  } */
 }
 @media (max-width: 768px) {
+  .COmbatinG{
+    margin-top: 160px;
+  }
   .Combating_texting_column-3 {
     font-size: 14px;
     margin-right: 0px;
@@ -200,17 +172,13 @@
     font-size: 20px;
     margin-right: 0px;
   }
+  
 }
 @media (max-width: 719px) {
   .MainAndBack_Combating {
     left: 25%;
     top: -40%;
   }
-
-  /* .Combating_group {
-    display: none;
-  } */
-
   .Image_rect {
     display: none;
   }
@@ -228,7 +196,23 @@
     align-items: center;
     left: 10%;
   }
+  .threeboxes_combat{
+    left: 50px;
+    top: -200px;
+  }
 }
+
+@media (max-width:648px){
+  .Combating_group{
+    width: 100px !important;
+    height: 160px !important;
+  }
+  .threeboxes_combat{
+    left: 10px !important;
+    top: -300px;
+  }
+}
+
 
 @media (max-width: 526px) {
   .Texting_in_image_Combating {
