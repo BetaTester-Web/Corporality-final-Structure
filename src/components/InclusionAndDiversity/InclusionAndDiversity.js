@@ -2,13 +2,11 @@ import React , {useEffect} from 'react'
 import aos from 'aos'
 import Inclusion from './components/Incl/Inclusion';
 import OurFaith from './components/OurFaith/OurFaith';
-import Responsible from './components/ResponsibleLeadership/Responsible';
 import Hover from './components/HoverInclusion/Hover';
 import Duty from './components/FourCards/Duty';
 import Newsletter from './components/LastComponentINC/Newsletter';
-import Carrer from './components/CarrerImage/Carrer';
-
 import Leadership from './components/LeaderShip/Leadership';
+import Career from './components/CareerImage/Career';
 
 
 
@@ -24,7 +22,7 @@ const InclusionAndDiversity = () => {
             <Hover />
             <Duty />
             <Leadership />
-            <Carrer />
+            <Career />
             <Newsletter />
         </div>
     )
