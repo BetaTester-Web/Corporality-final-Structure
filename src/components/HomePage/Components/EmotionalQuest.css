@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
 
+.emotionalquest_parent {
+  background: linear-gradient(90deg, #31647c 10%, #a06db0 90%);
+}
+
 .main-container {
   display: flex;
-  background: linear-gradient(90deg, #31647c 10%, #a06db0 90%);
+
   align-items: center;
 }
 
@@ -48,6 +52,7 @@
 .text_side {
   padding-left: 30px !important;
   padding-right: 10px !important;
+  margin-left: 30px !important;
 }
 
 .text_heading {
@@ -111,6 +116,16 @@
   }
 }
 
+@media only screen and (max-width: 1200px) {
+  .video_side {
+    margin-left: -50px !important;
+  }
+
+  .text_side {
+    padding-right: 0 !important;
+  }
+}
+
 @media only screen and (max-width: 1028px) {
   .text_heading {
     font-size: 26px;
@@ -158,6 +173,16 @@
   }
 }
 
+@media only screen and (max-width: 991px) {
+  .video_side {
+    margin-left: -130px !important;
+  }
+
+  .text_side {
+    padding-left: 0 !important;
+  }
+}
+
 @media only screen and (max-width: 840px) {
   .main-container {
     flex-direction: column;
@@ -173,10 +198,16 @@
 
   .text_description {
     font-size: 14px;
+    padding-left: 0 !important;
   }
 
   .text_side {
-    padding-left: 15px !important;
+    /* padding-left: 15px !important; */
+    margin-left: 0 !important;
+  }
+
+  .video_side {
+    margin-left: 0 !important;
   }
 }
 

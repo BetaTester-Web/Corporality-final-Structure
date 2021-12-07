@@ -58,7 +58,7 @@ export default function Talent() {
 
   return (
     <>
-      <div className="container talent">
+      <div className="talent">
         <h1
           className="Talent-heading"
           data-aos="fade-down"
@@ -84,7 +84,7 @@ export default function Talent() {
         {/* button */}
 
         <div
-          className="container Talent-buttons-container"
+          className="Talent-buttons-container"
           data-aos="fade-down"
           data-aos-duration="1000"
           data-aos-delay="1000"
@@ -120,7 +120,7 @@ export default function Talent() {
         {/* boxes */}
 
         {/* container 1 */}
-        <div className="container Talent-box-container my-3 diamond-1 active">
+        <div className="Talent-box-container my-3 diamond-1 active">
           <div className="row d-flex justify-content-evenly">
 
             <div data-aos="fade-right" className="col text-center">
@@ -206,7 +206,7 @@ export default function Talent() {
           </div>
         </div>
         {/* container 2 */}
-        <div className="container Talent-box-container-2 my-3 diamond-2">
+        <div className="Talent-box-container-2 my-3 diamond-2">
           <div className="row d-flex justify-content-evenly">
             <div data-aos="fade-right" className="col text-center">
               <div className="talent-1">
@@ -291,7 +291,7 @@ export default function Talent() {
           </div>
         </div>
         {/* container 3 */}
-        <div className="container Talent-box-container-3 my-3 diamond-3">
+        <div className="Talent-box-container-3 my-3 diamond-3">
           <div className="row d-flex justify-content-evenly">
             <div className="col text-center">
               <div className="talent-1">
@@ -357,7 +357,7 @@ export default function Talent() {
           </div>
         </div>
         {/* container 4 */}
-        <div className="container Talent-box-container-4 my-3 diamond-4">
+        <div className="Talent-box-container-4 my-3 diamond-4">
           <div className="row d-flex justify-content-evenly">
             <div className="col text-center">
               <div className="talent-1">

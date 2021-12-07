@@ -7,6 +7,10 @@
     height: 450px;
 }
 
+.GTMComp2 .row{
+    height: 100%;
+}
+
 .GTMComp2 .text {
     font-family: Roboto;
     font-style: normal;

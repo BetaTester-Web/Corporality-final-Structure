@@ -25,7 +25,7 @@ export default function Continously() {
           <source src="./img/CxoStrategy/img/continously/website2.mp4" type="video/mp4" />
         </video>
 
-        <div class="container cxo-video-box-container">
+        <div class="cxo-video-box-container">
           <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="800">
             Continuously working towards an organisation’s relationship goals
           </h1>

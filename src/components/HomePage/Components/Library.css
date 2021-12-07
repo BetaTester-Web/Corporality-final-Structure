@@ -1,12 +1,13 @@
+.library_parent {
+  background-color: #f2f2f2;
+}
+
 .main_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 50px !important;
   padding-bottom: 50px !important;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-  background-color: #f2f2f2;
 }
 
 #image2,
@@ -82,6 +83,7 @@
   color: #a06cae;
   font-size: 17px;
   font-weight: bolder;
+  text-align: center;
 }
 
 .text_active_first {
@@ -151,11 +153,6 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .main_container {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
   .content_side {
     padding-left: 30px !important;
   }
@@ -166,7 +163,7 @@
   }
 
   .image_side {
-    margin-right: -20px !important;
+    margin-right: -80px !important;
   }
 
   .text_active_first::after,

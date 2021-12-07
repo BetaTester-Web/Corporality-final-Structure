@@ -1,7 +1,15 @@
+.DDMBlueprintText{
+  flex-direction:column ;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  /* padding: auto; */
+}
+
+
 .DDMBlueprintText > h1 {
   /* position: absolute; */
-  display: flex;
-  justify-content: center;
+  
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -12,10 +20,6 @@
 }
 
 .DDMBlueprintText > p {
-  width: 1000px;
-  height: 78px;
-  /* left: 244px; */
-  top: 765px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -23,6 +27,4 @@
   line-height: 26px;
   text-align: center;
   color: #757575;
-  margin-left: 20% !important;
-  margin-bottom: 5% !important;
 }

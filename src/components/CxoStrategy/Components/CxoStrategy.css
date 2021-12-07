@@ -4,17 +4,22 @@ body{
 }
 
 /*########## Differentiate ############*/
-/* .differentiate {
-  margin-top: 10% !important;
-  margin-left: 10% !important;
-} */
-
-.cxo-differentiate-text {
-  margin-left: -45%;
+.differentiate {
+  /* margin-top: 10% !important; */
+  
+  display: flex;
+  justify-content: space-between;
 }
 
+/* .cxo-differentiate-text {
+  margin-left: 10% !important;
+  width: 40% !important;
+} */
+
 .cxo-landing-page {
-padding: 10% ;
+padding: 10%;
+margin-left: 0% !important;
+width: 40% !important;
 }
 
 .cxo-landing-page > h3 {
@@ -65,8 +70,8 @@ color: #33657E;
   z-index: 1;
   height: 600px;
   width: 1100px;
-  margin-left: 0% !important;
-  margin-top: 5% !important;
+  margin-right: -18% !important;
+  margin-top: 3% !important;
 
 }
 
@@ -436,6 +441,7 @@ color: #33657E;
   height: 727px;
   background: linear-gradient(90deg, #A06DAF 34.47%, #6CA0BC 110.64%);
   z-index: 0;
+  margin-left: 30% !important;
 }
 
 .charge-horizontal-strip{
@@ -445,7 +451,7 @@ color: #33657E;
   transform: translate(0%, 369%);
   z-index: 0;
   margin-top: -720px !important;
-  margin-right: 2px !important;
+  margin-left: 30% !important;
   margin-bottom: 100px !important;
 }
 
@@ -523,7 +529,7 @@ margin-left: -40px !important;
   }
 
   .corporality {
-    margin-top: -530px;
+    margin-top: -530px !important;
   }
 
   .charge-pic{
@@ -1319,7 +1325,7 @@ color: #FFFFFF;
   /* background: url(../img/continously/Rectangle\ 214.png); */
   background-size: contain;
   padding: 0% !important;
-  margin-left: auto !important;
+  /* margin-left: auto !important; */
   /* margin-right: auto; */
   width: 1500px;
   height: 650px;
@@ -1329,6 +1335,7 @@ color: #FFFFFF;
 .cxo-video-box-container{
   margin-top: 16% !important;
   padding-top: 3% !important;
+  margin-right: -50% !important;
   padding-bottom: 0% !important ;
   margin-bottom: 16% !important;
 

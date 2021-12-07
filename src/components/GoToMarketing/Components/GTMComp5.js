@@ -16,92 +16,27 @@ function GTMComp5() {
                 <div className="heading text-center mb-3">
                     <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" className="aos-init aos-animate">
                         <h1 className="animate two">
-                            <span>B</span>
-                            <span>U</span>
-                            <span>I</span>
-                            <span>L</span>
-                            <span>D</span>
-                            <span>I</span>
-                            <span>N</span>
-                            <span>G</span>
+                            <span>BUILDING</span>
                             &nbsp;
-                            <span>W</span>
-                            <span>I</span>
-                            <span>N</span>
-                            <span>N</span>
-                            <span>I</span>
-                            <span>N</span>
-                            <span>G</span>
+                            <span>WINNING</span>
                             &nbsp;
-                            <span>S</span>
-                            <span>T</span>
-                            <span>R</span>
-                            <span>A</span>
-                            <span>T</span>
-                            <span>E</span>
-                            <span>G</span>
-                            <span>I</span>
-                            <span>E</span>
-                            <span>S</span>
+                            <span>STRATEGIES</span>
                             &nbsp;
-                            <span>W</span>
-                            <span>H</span>
-                            <span>I</span>
-                            <span>L</span>
-                            <span>E</span>
+                            <span>WHILE</span>
                             &nbsp;
-                            <span>C</span>
-                            <span>A</span>
-                            <span>R</span>
-                            <span>E</span>
-                            <span>F</span>
-                            <span>U</span>
-                            <span>L</span>
-                            <span>L</span>
-                            <span>Y</span>
+                            <span>CAREFULLY</span>
                             &nbsp;
-                            <span>B</span>
-                            <span>A</span>
-                            <span>L</span>
-                            <span>A</span>
-                            <span>N</span>
-                            <span>C</span>
-                            <span>I</span>
-                            <span>N</span>
-                            <span>G</span>
+                            <span>BALANCING</span>
                             &nbsp;
-                            <span>C</span>
-                            <span>U</span>
-                            <span>S</span>
-                            <span>T</span>
-                            <span>O</span>
-                            <span>M</span>
-                            <span>E</span>
-                            <span>R</span>
+                            <span>CUSTOMER</span>
                             &nbsp;
-                            <span>N</span>
-                            <span>E</span>
-                            <span>E</span>
-                            <span>D</span>
-                            <span>S</span>
+                            <span>NEEDS</span>
                             &nbsp;
-                            <span>A</span>
-                            <span>N</span>
-                            <span>D</span>
+                            <span>AND</span>
                             &nbsp;
-                            <span>C</span>
-                            <span>O</span>
-                            <span>S</span>
-                            <span>T</span>
+                            <span>COST</span>
                             &nbsp;
-                            <span>C</span>
-                            <span>O</span>
-                            <span>N</span>
-                            <span>T</span>
-                            <span>R</span>
-                            <span>O</span>
-                            <span>L</span>
-                            <span>S</span>
+                            <span>CONTROLS</span>
                         </h1>
                     </div>
                 </div>

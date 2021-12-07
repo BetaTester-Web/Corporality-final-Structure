@@ -10,14 +10,17 @@
 .BP-CP5-heading {
   position: relative;
   margin-top: 7%;
-  margin-left: 25%;
   width: 70%;
+  margin-bottom: 3%;
 }
 .bp-cp5-bodyspan {
   font-style: normal;
   font-weight: 500;
   font-size: 23px;
   line-height: 37px;
+  position: relative;
+  top: 30%;
+  left: 20%;
   /* identical to box height, or 161% */
 
   color: #33657e;
@@ -32,9 +35,216 @@
 
   color: #757575;
   padding-left: 4%;
+  margin-top: 2%;
 }
-.bp-cp-5-img {
-  margin-left: -90%;
-  height: 300px !important;
-  width: 100% !important;
+.bp-cp-5-img{
+  height: 28%   !important;
+  width: 14%  !important;
+  position: absolute;
+  left: 1%;
+}
+.bp-cp5-ladderimg{
+  height: 26%  !important;
+  width: 12%  !important;
+  position: absolute;
+ left: 88%;
+ margin-top: 10%;
+}
+.accordian-main-body{
+  margin-bottom: 15%;
+  width: 95%;
+  margin-left: auto;
+  margin-top: 3%;
+}
+@media screen and (max-width: 992px) {
+  .BP-CP5-h1 {
+    height: 30px;
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .bp-cp5-bodyspan {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 37px;
+    position: relative;
+    top: 30%;
+    left: 20%;
+  }
+  .bp-cp5-listbody {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    padding-left: 4%;
+    margin-top: 2%;
+  }
+.bp-cp5-listbodyimg{
+  margin-top: 40%;
+}
+.bp-cp-5-img{
+  height: 24%   !important;
+  width: 14%  !important;
+  position: absolute;
+  left: 2%;
+  margin-top: 12%;
+}
+.bp-cp5-ladderimg{
+  height: 20%  !important;
+  width: 12%  !important;
+  position: absolute;
+ left: 87%;
+ margin-top: 20%;
+}
+.accordian-main-body{
+  margin-top: 10%;
+  margin-bottom: 15%;
+  width: 90%;
+  margin-left: auto;
+}
+}
+@media screen and (max-width: 767px) {
+  .BP-CP5-h1 {
+    height: 30px;
+    font-size: 16px;
+    line-height: 37px;
+  }
+  .bp-cp5-bodyspan {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    padding: 0% !important;
+  }
+  .bp-cp5-listbody {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: justify;
+    padding-left: 4%;
+    margin-top: -10%;
+  }
+.bp-cp5-listbodyimg{
+  height: 80% !important;
+  width: 80% !important;
+ margin-top: 0%;
+}
+.img-fav{
+  position: relative;
+    top: 30%;
+  }
+  .bp-cp-5-img{
+    height: 26%   !important;
+    width: 16%  !important;
+    position: absolute;
+    left: 3%;
+    margin-top: 9%;
+  }
+  .bp-cp5-ladderimg{
+    height: 20%  !important;
+    width: 14%  !important;
+    position: absolute;
+   left: 86%;
+   margin-top: 20%;
+  }
+  .accordian-main-body{
+    margin-top: 10%;
+    margin-bottom: 15%;
+    width: 95%;
+    margin-left: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  .BP-CP5-h1 {
+    height: 30px;
+    font-size: 14px;
+    line-height: 37px;
+  }
+  .bp-cp5-bodyspan {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    position: relative;
+    top: 10%;
+    left: 10%;
+    padding: 0% !important;
+    width: 110% !important;
+  }
+  .bp-cp5-listbody {
+    font-size: 10px;
+    line-height: 18px;
+    padding-left: 4%;
+    margin-top: -8%;
+    margin-left: 10%  ;
+  }
+.bp-cp5-listbodyimg{
+  height: 70% !important;
+  width: 70% !important;
+ margin-top: 10%;
+ margin-left: 10%;
+}
+.img-fav{
+  position: relative;
+    top: 30%;   
+  }
+ .accordion-body{
+padding: 0%;
+ }
+ .accordion-button{
+   padding-left: 0%;
+   padding-right: 1%;
+ }
+ .bp-cp-5-img{
+  visibility: hidden;
+}
+.bp-cp5-ladderimg{
+  visibility: hidden;
+}
+.accordian-main-body{
+  margin-top: 10%;
+  margin-bottom: 15%;
+  width: 95%;
+  margin-left: auto;
+}
+}
+@media screen and (max-width: 360px) {
+  .BP-CP5-h1 {
+    height: 30px;
+    font-size: 14px;
+  }
+  .bp-cp5-bodyspan {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 10px;
+    top: 10%;
+    left: 10%;
+    padding: 0% !important;
+    width: 110% !important;
+  }
+  .bp-cp5-listbody {
+    font-size: 10px;
+    line-height: 12px;
+    padding-left: 4%;
+    margin-top: -8%;
+    margin-left: 10%  ;
+  }
+.bp-cp5-listbodyimg{
+  height: 70% !important;
+  width: 70% !important;
+ margin-top: 10%;
+ margin-left: 10%;
+}
+.img-fav{
+  position: relative;
+    top: 30%;   
+  }
+ .accordion-body{
+padding: 0%;
+ }
+ .accordion-button{
+   padding-left: 0%;
+   padding-right: 1%;
+ }
+ .bp-cp5-tm-div{
+  padding: 0%;
+}
 }

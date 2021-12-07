@@ -1,12 +1,16 @@
+.understandingdifficulty_parent {
+  background: #f4f4f4;
+}
+
 .understanding_difficulty_main_container {
   margin-top: 100px !important;
   margin-bottom: 60px !important;
-  padding: 60px 50px !important;
+  padding: 60px 0px !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #f4f4f4;
+
   position: relative;
 }
 
@@ -38,7 +42,7 @@
 }
 
 .understanding_difficulty_last_text_heading {
-  margin-left: 650px !important;
+  margin-left: 500px !important;
 }
 
 .understanding_difficulty_first_text_description {
@@ -46,7 +50,7 @@
 }
 
 .understanding_difficulty_last_text_description {
-  margin-left: 650px !important;
+  margin-left: 500px !important;
 }
 
 .understanding_difficulty_last_text {
@@ -67,7 +71,7 @@
   width: 90%;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
   .understanding_difficulty_last_text_heading {
     margin-left: 500px !important;
   }
@@ -78,17 +82,17 @@
 
 @media only screen and (max-width: 1100px) {
   .understanding_difficulty_first_text_description {
-    margin-right: 500px !important;
+    margin-right: 400px !important;
   }
   .Background_in_Strategy {
     top: 200px;
   }
 
   .understanding_difficulty_last_text_heading {
-    margin-left: 400px !important;
+    margin-left: 300px !important;
   }
   .understanding_difficulty_last_text_description {
-    margin-left: 400px !important;
+    margin-left: 300px !important;
   }
 }
 
@@ -108,28 +112,9 @@
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .understanding_difficulty_first_text_description {
-    margin-right: 300px !important;
-  }
-  .Background_in_Strategy {
-    top: 230px;
-  }
-
-  .understanding_difficulty_last_text_heading {
-    margin-left: 200px !important;
-  }
-  .understanding_difficulty_last_text_description {
-    margin-left: 200px !important;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .understanding_difficulty_first_text_description {
-    margin-right: 200px !important;
-  }
-  .Background_in_Strategy {
-    top: 260px;
+@media only screen and (max-width: 993px) {
+  .understanding_difficulty_last_text {
+    margin-top: 450px !important;
   }
 
   .understanding_difficulty_last_text_heading {
@@ -139,8 +124,7 @@
     margin-left: 100px !important;
   }
 }
-
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 991px) {
   .understanding_difficulty_last_text {
     margin-top: 350px !important;
   }
@@ -148,54 +132,49 @@
   .understanding_difficulty_first_text_description {
     margin-right: 100px !important;
   }
+}
+
+@media only screen and (max-width: 767px) {
   .Background_in_Strategy {
-    top: 260px;
+    margin-top: 80px !important;
   }
 
   .Background_in_Strategy img {
     margin-left: 20px !important;
   }
 
+  .understanding_difficulty_first_text_description,
+  .understanding_difficulty_last_text_description,
   .understanding_difficulty_last_text_heading {
-    margin-left: 10px !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
   }
-  .understanding_difficulty_last_text_description {
-    margin-left: 10px !important;
-  }
-}
 
-@media only screen and (max-width: 700px) {
   .understanding_difficulty_last_text {
-    margin-top: 350px !important;
+    margin-top: 280px !important;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .understanding_difficulty_first_text_heading,
+  .understanding_difficulty_last_text_heading {
+    font-size: 24px;
+    line-height: 26px;
   }
 
-  .understanding_difficulty_first_text_description {
-    margin-right: 0px !important;
-  }
-  .Background_in_Strategy {
-    top: 300px;
+  .understanding_difficulty_first_text_description,
+  .understanding_difficulty_last_text_description {
+    font-size: 16px;
+    line-height: 22px;
   }
 
   .Background_in_Strategy img {
-    margin-left: 20px !important;
-  }
-
-  .understanding_difficulty_last_text_heading {
-    margin-left: 0px !important;
-  }
-  .understanding_difficulty_last_text_description {
-    margin-left: 0px !important;
+    margin-top: -20px !important;
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .understanding_difficulty_main_container {
-    margin-top: -260px !important;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  .understanding_difficulty_main_container {
-    padding: 50px 20px !important;
+@media only screen and (max-width: 410px) {
+  .understanding_difficulty_last_text {
+    margin-top: 200px !important;
   }
 }
