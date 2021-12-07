@@ -46,7 +46,16 @@ color: #757575;
 }
 
 .consultancygradbox{
-    transform: translate(-660px,130px);
+    transform: translate(-470%,100%);
+    /* display: flex; */
+    /* position: relative;
+    left: 0%; */
+
+}
+
+.start-Box-fl{
+    /* align-items: center; */
+    margin: auto;
 }
 
 .consultdvice{
