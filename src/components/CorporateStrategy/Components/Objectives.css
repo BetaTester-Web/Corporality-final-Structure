@@ -77,6 +77,11 @@
   color: #757575;
 }
 
+.objectives_image img {
+  height: 400px !important;
+  width: 600px !important;
+}
+
 @media only screen and (max-width: 1500px) {
   .objectives_image img {
     height: 400px !important;

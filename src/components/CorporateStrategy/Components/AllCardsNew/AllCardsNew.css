@@ -8,6 +8,15 @@
   }
 }
 
+.cards_text_side_1,
+.cards_text_side_2,
+.cards_text_side_3,
+.cards_text_side_4,
+.cards_text_side_5,
+.cards_text_side_6 {
+  background: white;
+}
+
 .image_side_1_card1,
 .image_side_1_card2,
 .image_side_1_card3,

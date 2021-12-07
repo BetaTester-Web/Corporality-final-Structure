@@ -127,7 +127,7 @@
 .box_text_5 {
   position: absolute;
   transform: rotate(-45deg);
-  top: 70px;
+  top: 60px;
   left: 0px;
   text-align: center;
   color: white;
@@ -139,7 +139,7 @@
 }
 
 .box_text_2 {
-  top: 30px;
+  top: 35px;
   left: 5px;
   font-size: 16px;
 }

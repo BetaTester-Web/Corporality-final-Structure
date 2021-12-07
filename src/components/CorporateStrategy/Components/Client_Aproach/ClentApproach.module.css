@@ -6,6 +6,7 @@
 .clientApproach_left {
   width: 50%;
   height: 50%;
+  margin-left: -50px !important;
 }
 .clientApproach_left h1 {
   width: 70%;
@@ -201,6 +202,10 @@
 @media screen and (max-width: 1350px) {
   .main_container {
     width: 90%;
+  }
+
+  .clientApproach_left {
+    margin-left: 0 !important;
   }
 }
 @media screen and (max-width: 1060px) {

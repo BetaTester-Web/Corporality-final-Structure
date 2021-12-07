@@ -1,13 +1,24 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./UnderstandingDifficulty.css";
 import background from "./images/background.png";
 
 function UnderstandingDifficulty() {
+  useEffect(() => {
+    Aos.init();
+  });
+
   return (
     <div className="understandingdifficulty_parent">
       <div className="container">
         <div className="understanding_difficulty_main_container">
-          <div className="understanding_difficulty_first_text">
+          <div
+            className="understanding_difficulty_first_text"
+            data-aos="fade-right"
+            data-aos-duration="3000"
+            data-aos-delay="200"
+          >
             <div className="understanding_difficulty_first_text_heading">
               Understanding corporate difficulty
             </div>
@@ -22,7 +33,12 @@ function UnderstandingDifficulty() {
             <img src={background} alt="" />
           </div>
           <div className="understanding_difficulty_middle_image"></div>
-          <div className="understanding_difficulty_last_text">
+          <div
+            className="understanding_difficulty_last_text"
+            data-aos="fade-left"
+            data-aos-duration="3000"
+            data-aos-delay="200"
+          >
             <div className="understanding_difficulty_last_text_heading">
               Finding your path
             </div>
