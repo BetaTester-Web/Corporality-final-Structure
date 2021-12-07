@@ -50,7 +50,7 @@
   text-decoration: none !important;
   font-weight: 600;
   font-size: 14px;
-  padding: 0px !important;
+  padding: 0px;
 }
 
 .nav-item:last-child {
