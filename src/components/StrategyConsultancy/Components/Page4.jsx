@@ -31,16 +31,16 @@ const Page4 = () => {
                     <p>Corporality Global offers Go To Marketing strategies that set you in the right direction. While choosing the market differentiators, we help you draw insights from your customers and your competitors to plan your strategy and tactics that will set you up for success</p>
 
                     <div className="main-div">
-                        <img className="img-fluid" src="./img/StrategyConsultancy/explore.png" alt="" />
-                        <img className="img-fluid front_arrow" src="./img/StrategyConsultancy/vector.png" alt="" />
+                        <img className="" src="./img/StrategyConsultancy/explore.png" alt="" />
+                        <img className=" front_arrow" src="./img/StrategyConsultancy/vector.png" alt="" />
                         <span className="explore-btn">Explore</span>
                     </div>
                     <h2 className="head head2">Customer Experience</h2>
                     <p>Even the slightest friction can affect customer experiences. CXO initiatives are the best way to regulate and monitor customer satisfaction. Corporality Global takes CXO a notch higher, offering strategies that directly impact consumer gratification and revenue growth.</p>
 
                     <div className="main-div">
-                        <img className="img-fluid" src="./img/StrategyConsultancy/explore.png" alt="" />
-                        <img className="img-fluid front_arrow" src="./img/StrategyConsultancy/vector.png" alt="" />
+                        <img className="" src="./img/StrategyConsultancy/explore.png" alt="" />
+                        <img className=" front_arrow" src="./img/StrategyConsultancy/vector.png" alt="" />
                         <span className="explore-btn">Explore</span>
                     </div>
                 </div>

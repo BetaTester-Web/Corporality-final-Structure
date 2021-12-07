@@ -14,7 +14,7 @@
   .DDMProcessText > p {
     display: flex;
     justify-content: center;
-    
+    margin: 4% 10%;
     /* left: 244px; */
     top: 765px;
     font-family: Roboto;
