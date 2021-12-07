@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 100px !important;
-  background: url(./yellow_back.png);
+  /* background: url(./yellow_back.png); */
   background-size: cover;
   background-repeat: no-repeat;
   /* position: relative; */
@@ -69,6 +69,7 @@
 .right_image {
   position: relative;
   margin-right: 50px !important;
+
   /* transform: rotate(45deg); */
 }
 
@@ -94,6 +95,17 @@
   position: absolute;
   top: 220px;
   right: 290px;
+}
+
+.yellowbackground_aboutus {
+  position: absolute;
+  top: 300px;
+  right: 0;
+  width: 500px;
+  height: 466px;
+  background: rgba(255, 239, 165, 0.30196078431372547);
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
 }
 
 /* @media only screen and (max-width: 1600px) {
@@ -239,6 +251,11 @@
 @media only screen and (max-width: 800px) {
   .upper_container {
     flex-direction: column;
+  }
+
+  .yellowbackground_aboutus {
+    top: 500px;
+    width: 400px;
   }
 
   .left_content {

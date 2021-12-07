@@ -17,6 +17,7 @@ function FirstNew() {
   return (
     <div className="container">
       <div className="upper_container">
+        <div className="yellowbackground_aboutus"></div>
         <div
           // className="aos-init aos-animate"
           data-aos="fade-right"
