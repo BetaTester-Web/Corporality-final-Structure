@@ -8,7 +8,7 @@ import icon3 from "../Firstcomponent/icon3.png";
 import icon4 from "../Firstcomponent/icon4.png";
 import icon5 from "../Firstcomponent/icon5.png";
 import icon6 from "../Firstcomponent/icon6.png";
-import back from "../Firstcomponent/bck.png";
+
 
 const First = () => {
   useEffect(() => {
@@ -19,7 +19,7 @@ const First = () => {
       <div className="interactive_cards">
         <div className="interactive_card1">
           <div className="interactive_card_image">
-            <img src={icon1} alt="" />
+            <img src={icon1} alt=""  />
           </div>
           <div className="interactive_card_heading">Explore</div>
           <div className="interactive_card_text">
@@ -54,7 +54,7 @@ const First = () => {
             <img src={icon4} alt="" />
           </div>
           <div className="interactive_card_heading">Scope</div>
-          <div className="interactive_card_text">
+          <div className="interactive_card_text interactive_card_4_change">
             Managing project scope and budgets while prioritising specific
             features and functionality
           </div>
@@ -76,7 +76,7 @@ const First = () => {
           <div className="interactive_card_heading">
             Call to Action Analysis
           </div>
-          <div className="interactive_card_text">
+          <div className="interactive_card_text interactive_card_6_change">
             Providing persuasive recommendations that coerce your prospects to
             take specific actions
           </div>
