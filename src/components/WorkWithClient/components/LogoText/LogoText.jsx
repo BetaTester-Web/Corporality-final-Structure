@@ -1,10 +1,15 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import '../LogoText/LogoTest.css'
+import aos from 'aos'
 
 const LogoText = () => {
+    useEffect(() => {
+        aos.init({ duration: 3000 });
+
+    }, [])
     return (
         <div>
-            <div className="container text-in-container-icons">
+            <div data-aos="fade-down" className="container text-in-container-icons">
                 <div className="row">
                     <p className="Partner-program-1-text">Our powerful partner ecosystem</p>
                 </div>

@@ -88,7 +88,7 @@ const NewBanner = () => {
             <div className="twoDiamonds">
                 <div data-aos="fade-right" className="bigDiamond">
                     <img src="/img/HomePage/media/bigRectangle.png" alt="" />
-                    <div className="callButton">
+                    <div className="callButton" onClick={() => window.open("tel: +61 2 83794089","_self")}>
                         <img src="/img/HomePage/media/callButton.png" alt="" />
                     </div>
                     <h3 className="mobileNumber">+62 2 83794089</h3>

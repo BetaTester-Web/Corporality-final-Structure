@@ -22,7 +22,7 @@ function GTMComp2() {
                         <div className="heading mb-lg-0 mb-3">
                             FINDING NEW WAYS TO BRINGING PRODUCTS AND SERVICES TO THE MARKET
                         </div>
-                        <div className="text">
+                        <div className="text mt-lg-3 mt-2">
                             A solid GTM strategy drives the success of products and services in a new or an existing market. Coordinated messaging, precise product positioning and a clearly defined customer persona are all instrumental in the market progress of a product or service. Our effective digital marketing strategy also lays the foundation for developing newer products and services while keeping all business units aligned with the plan.
                         </div>
                     </div>

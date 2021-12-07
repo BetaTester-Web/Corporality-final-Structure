@@ -15,12 +15,13 @@ const DigitalSg = () => {
 
     return (
         <div className='Digital-Sg'>
+            <img className='side2-container-Digital' src={side2} alt='' />
             <div className="container">
                 <div className="row">
                 <div className="col-lg-6 imaging-2-Digital d-flex justify-content-center align-items-center flex-column">
                         <div className="images-2-Digital">
                             <img className='wall2-container-Digital' src={wall2} alt='' />
-                            <img className='side2-container-Digital' src={side2} alt='' />
+                            
                             <img className='small2-container-Digital' src={small2} alt='' />
                             <div className="img-container-Digital">
                                 <div className="hoverinit-Digital Inc_Div_our-faith-main-img-Digital">

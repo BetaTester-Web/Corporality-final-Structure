@@ -9,6 +9,7 @@ import ab from "./images/ab.png"
 import ac from "./images/ac.png"
 import ad from "./images/ad.png"
 import ae from "./images/ae.png"
+import "./animate4.css";
 
 function GTMComp4() {
     useEffect(() => {
@@ -19,14 +20,16 @@ function GTMComp4() {
             <div className="text-center container container1 GTMComp4 mt-5">
                 <div className="row justify-content-center mt-5">
                     <div className="col-12">
-                        <div className="heading mx-auto aos-init aos-animate aos-init aos-animate">
-                            PROVEN PROCESS
+                        <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" class="aos-init aos-animate">
+                            <h1 class="animate two">
+                                <span>PROVEN</span>&nbsp;<span>PROCESSES</span>
+                            </h1>
                         </div>
                     </div>
-                    <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-delay="100" className="col-lg-7 col-md-8 col-10 aos-init aos-animate text">
-                        <div>
+                    <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-delay="1000" className="col-lg-7 col-md-8 col-10 aos-init aos-animate text">
+                        <p>
                             Making split-second decisions are standard in every business. Establishing a dynamic GTM strategy will help you align your team with the same goals. A GTM strategy will also assist you with:
-                        </div>
+                        </p>
                     </div>
                 </div>
             </div>

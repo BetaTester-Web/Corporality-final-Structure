@@ -7,6 +7,10 @@
     height: 450px;
 }
 
+.GTMComp2 .row{
+    height: 100%;
+}
+
 .GTMComp2 .text {
     font-family: Roboto;
     font-style: normal;
@@ -50,6 +54,11 @@
 }
 
 @media only screen and (max-width: 992px) {
+
+    .GTMComp2{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
 
     .GTMComp2 .container {
         height: auto;

@@ -1,5 +1,6 @@
-import React from 'react'
+import React , {useEffect} from 'react'
 import '../ThirdComponent/Ideation.css'
+import aos from 'aos'
 import smaller3 from '../ThirdComponent/smallerrect.png'
 import wall3 from '../ThirdComponent/wall.png'
 import back3 from '../ThirdComponent/back.png'
@@ -12,12 +13,16 @@ import favicon1 from '../ThirdComponent/favicon1.png'
 import favicon2 from '../ThirdComponent/favicon2.png'
 
 const Ideation = () => {
+    useEffect(() => {
+        aos.init({ duration: 3000 });
+
+    }, [])
     return (
         <div className='third-Ideation'>
             <div className="container contoiner-3-Ideation">
                 <div className="row">
                     <div className="col-lg-6 d-flex third-image-Ideation justify-content-center flex-column  align-items-center">
-                        <div  className='images-prev-3-Ideation'>
+                        <div data-aos="fade-right"  className='images-prev-3-Ideation'>
                             <img alt='' className='smaller3-Ideation' src={smaller3} />
                             <img alt='' className='small3-Ideation' src={small3} />
                             <img alt='' className='wall3-Ideation' src={wall3} />
@@ -31,9 +36,9 @@ const Ideation = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 texting-third-Ideation">
-                        <p className='heading-text-1-main'>Ideation with fearless creativity</p>
+                        <p data-aos="fade-up" data-aos-delay="500" className='heading-text-1-main'>Ideation with fearless creativity</p>
 
-                        <div  className="textndicon-Ideation">
+                        <div data-aos="fade-up" data-aos-delay="500"  className="textndicon-Ideation">
                             <div /* className="icon-Ideation" */>
                                 <img alt='' className='icon1-Ideation' src={favicon0} />
                             </div>
@@ -51,7 +56,7 @@ const Ideation = () => {
                                 </a>
                             </div>
                         </div>
-                        <div  className="textndicon-Ideation">
+                        <div data-aos="fade-up" data-aos-delay="1000"  className="textndicon-Ideation">
                             <div /* className="icon-Ideation" */>
                                 <img alt='' className='icon1-Ideation' src={favicon1} />
                             </div>
@@ -70,8 +75,8 @@ const Ideation = () => {
                             </div>
 
                         </div>
-                        <div  className="textndicon-Ideation">
-                            <div /* className="icon-Ideation" */>
+                        <div data-aos="fade-up" data-aos-delay="1500"  className="textndicon-Ideation">
+                            <div>
                                 <img alt='' className='icon1-Ideation' src={favicon2} />
                             </div>
                             <div className="text-box-3-Ideation">

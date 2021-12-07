@@ -12,8 +12,9 @@
   }
   
   .DDMProcessText > p {
-    width: 920px;
-    height: 78px;
+    display: flex;
+    justify-content: center;
+    margin: 4% 10%;
     /* left: 244px; */
     top: 765px;
     font-family: Roboto;
@@ -23,6 +24,7 @@
     line-height: 26px;
     text-align: center;
     color: #757575;
+
     margin-left: 20% !important;
     margin-bottom: 5% !important;
   }

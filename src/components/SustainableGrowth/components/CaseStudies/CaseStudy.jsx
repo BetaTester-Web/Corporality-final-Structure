@@ -16,28 +16,24 @@ const CaseStudy = () => {
     }, [])
     return (
         <div className="second-Cs">
+            <img className='wall-2-2-Cs' src={wall} alt='' />
+            <img className='rect-2-4-Cs' src={rect4} alt='' />
             <div className='container second-container-Cs' >
                 <div className="row interactive_blueprint-row-Cs">
                     <div className="col-lg-6 textndlists-Cs d-flex flex-column  justify-content-center">
                         <p data-aos="fade-right" className='container-2-text-1-Cs'>Case Studies</p>
                         <p data-aos="fade-right" className='container-2-text-1-Cs-2'>Explore our industrial case studies to see how sustainability is progressing across the world.</p>
-                       {/*  <div className="lists-Cs"> */}
                             <div className="button-5-Cs">
                                 <a className='button-link-3-Cs' href="#">Explore</a>
                             </div>
-
-
-                        {/* </div> */}
-
-
                     </div>
                     <div className="col-lg-6 d-flex justify-content-center ">
                         <div className="imagessecond-Cs">
                             <img className='rect-2-1-Cs' src={rect1} alt='' />
                             <img className='rect-2-2-Cs' src={rect2} alt='' />
                             <img className='rect-2-3-Cs' src={rect3} alt='' />
-                            <img className='rect-2-4-Cs' src={rect4} alt='' />
-                            <img className='wall-2-2-Cs' src={wall} alt='' />
+                            
+                            
                             <div className="mainndback-4-Cs">
                                 <img className='backimagesecond-fourth-Cs' src={Back} alt='' />
                                 <div className="bp_our-newsletter-polygon9-Cs">
@@ -46,13 +42,9 @@ const CaseStudy = () => {
                                     </div>
                                 </div>
                             </div>
-
-
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
     )
