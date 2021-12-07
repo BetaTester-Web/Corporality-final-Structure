@@ -20,7 +20,7 @@ function EmotionalQuest() {
     <>
       <div className="emotionalquest_parent">
         <div className="container">
-          <div className="main-container pt-5 pb-5 p-3 ">
+          <div className="main-container pt-5 pb-5  ">
             <div className="video_side col-lg-6">
               <div className="video_image">
                 <img src={eq_header} alt="" className="first_image" />
