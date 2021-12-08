@@ -300,13 +300,19 @@
 
 @media (max-width:992px){
   .community_first_heading_text-Invirogating{
-    margin-right: -60px !important;
+    margin-right: 0px !important;
   }
   .community_first_heading_arrow-Invirogating{
     display: none;
   }
   .community_second_heading_arrow-Invirogating{
     display: none;
+  }
+  .community_first_description-Invirogating{
+    margin-right: -130px !important;
+  }
+  .text_1_invirogating{
+    left: -60%;
   }
 }
 
@@ -367,6 +373,9 @@
   }
   .text_2_invirogating{
     left: 0% !important;
+  }
+  .text_1_invirogating{
+    left: -20%;
   }
 }
 @media (max-width:768px) {

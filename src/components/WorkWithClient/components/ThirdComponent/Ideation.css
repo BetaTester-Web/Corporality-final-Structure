@@ -244,14 +244,22 @@
 .button-4-Ideation-Ideation {
     margin-bottom: 85px;
 }
+@media (max-width:1082px){
+    .images-prev-3-Ideation{
+        left: 10%;
+    }
+}
 
 @media (max-width:992px) {
     .third-Ideation {
-        padding-top: 300px;
+        padding-top: 350px;
     }
 
     .texting-third-Ideation {
         padding-top: 230px;
+    }
+    .images-prev-3-Ideation{
+        left: 0%;
     }
 }
 

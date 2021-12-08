@@ -23,7 +23,7 @@ const Global = () => {
         </div>
         <div className="row d-flex justify-content-center  align-items-center">
           <div className="col">
-            <a href="" className="global_link">
+            <a href="https://twitter.com/corporalityg/" className="global_link">
               <div className="social_icons_Sustainable_growth d-flex justify-content-center align-items-center">
                 <div className="global_twitter_circle">
                   <img
@@ -51,20 +51,30 @@ const Global = () => {
             </a>
           </div>
           <div className="col">
-            <a href="">
+            <a className="global_link" href="https://www.linkedin.com/company/corporalityg/">
               <div className="social_icons2_Sustainable_growth d-flex justify-content-center align-items-center">
-                <img
-                  src={circle}
-                  alt=" "
-                  className="circle1_Sustaible_growth"
-                />
-                <img
-                  src={linkedin}
-                  alt=" "
-                  className="Linkedin_Sustaible_growth"
-                />
-                <img src={arrow} alt=" " className="arrow2_Sustaible_growth" />
-                <p className="linkedin_text_SG">Linkedin</p>
+                <div className="global_twitter_circle">
+                  <img
+                    src={circle}
+                    alt=" "
+                    className="circle1_Sustaible_growth"
+                  />
+                  <div className="global_twitter_icon">
+                    <img
+                      src={linkedin}
+                      alt=" "
+                      className="Linkedin_Sustaible_growth"
+                    />
+                  </div>
+                </div>
+                <div className="global_twitter_arrow">
+                  <img
+                    src={arrow}
+                    alt=" "
+                    className="arrow2_Sustaible_growth"
+                  />
+                </div>
+                <div className="linkedin_text_SG">Linkedin</div>
               </div>
             </a>
           </div>

@@ -213,6 +213,12 @@
   .rect_newsletter {
     display: none;
   }
+  .NewsLetter-Text-1{
+    margin-right: 60px;
+  }
+  .News_letter-main{
+    margin-right: 60px;
+  }
 }
 
 @media (max-width: 475px) {

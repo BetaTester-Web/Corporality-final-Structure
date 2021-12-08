@@ -16,11 +16,10 @@ const OrganisingPrinciple = () => {
     return (
         <div className="OrganisingPrinciple">
             <div className="navbar-Op"></div>
-            <div className="Out_container_Org_yellow">
-                <img src = {yellowbackground} className='yellow_Org' alt=" " />
-            </div>
             <div className="container container-1-Op">
+            <div className="yellowbackground_Op"></div>
                 <div className="row first-image-Op">
+                    
                     <div className="col-lg-6">
                         <div data-aos="fade-right" className="text-box-1-Op">
 
