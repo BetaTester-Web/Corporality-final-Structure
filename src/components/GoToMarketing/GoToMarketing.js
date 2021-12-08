@@ -6,6 +6,8 @@ import GTMComp5 from "./Components/GTMComp5";
 import GTMComp6 from "./Components/GTMComp6";
 import GTMComp7 from "./Components/GTMComp7";
 import GTMComp8 from "./Components/GTMComp8";
+import GTMComp9 from "./Components/GTMComp9";
+import GTMComp10 from "./Components/GTMComp10";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.min.js';
 
@@ -19,6 +21,9 @@ export default function GoToMarketing() {
             <GTMComp5 />
             <GTMComp6 />
             <GTMComp7 />
+            <GTMComp8 />
+            <GTMComp9 />
+            <GTMComp10 />
         </div>
     )
 }
