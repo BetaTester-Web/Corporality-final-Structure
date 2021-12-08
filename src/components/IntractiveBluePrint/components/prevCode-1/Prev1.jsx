@@ -22,10 +22,8 @@ const Prev1 = () => {
 
         <div className="prev-1-Ib">
             <div className="navbar"></div>
-            <div className="Out_container_blueprint_yellow">
-                <img src = {yellowbackground} className='yellow_IB' alt=" " />
-            </div>
             <div className="container container-1">
+            <div className="yellowbackground_Blueprint"></div>
                 <div className="row first-image">
                     <div className="col-lg-6">
                         <div data-aos="fade-right" className="text-box-1">

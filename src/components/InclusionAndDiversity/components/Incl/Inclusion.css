@@ -10,10 +10,16 @@
     padding-top: 150px;
     left: 10%;
 }
-.yellow_Incl{
+.yellowbackground_Inclusion {
     position: absolute;
-    left:60%;
-}
+    top: 250px;
+    right: 0;
+    width: 500px;
+    height: 466px;
+    background: rgba(255, 239, 165, 0.30196078431372547);
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+  }
 .container-1_text-Id{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -159,7 +165,7 @@
     .backimg-Id{
         width: 480px;
         height: 482.8px;
-        left: 20%;
+        left: 30%;
         top: 2%;
     }
     .image-first-Id{
@@ -257,7 +263,7 @@
     .backimg-Id{
         width: 320px;
         height: 322.8px;
-        left: 5%;
+        left: 10%;
         top: 2%;
     }
     .image-first-Id{
@@ -274,6 +280,11 @@
         top: 50%;
         left: 33%;
         width: 10%;
+    }
+    .yellowbackground_Inclusion{
+        top: 200px;
+        width: 400px;
+        height: 200px;
     }
 }
 @media (max-width:512px){

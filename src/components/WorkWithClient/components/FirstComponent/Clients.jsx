@@ -7,7 +7,6 @@ import wall from '../FirstComponent/wall.png'
 import smallrect from '../FirstComponent/rect.png'
 import rect from '../FirstComponent/smallrec.png'
 import smallerrect from '../FirstComponent/smallerrect.png'
-import yellowbackground from './yellowbackground.png'
 
 
 const Clients = () => {
@@ -18,10 +17,8 @@ const Clients = () => {
     return (
         <div className="Clients">
             <div className="navbar-Clients"></div>
-            <div className="Out_container_Work_yellow">
-                <img src = {yellowbackground} className='yellow_Work' alt=" " />
-            </div>
             <div className="container container-1-Clients">
+            <div className="yellowbackground_Clients"></div>
                 <div className="row first-image-Clients">
                     <div className="col-lg-6">
                         <div data-aos="fade-right"  className="text-box-1-Clients">

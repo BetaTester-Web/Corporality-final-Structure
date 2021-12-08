@@ -207,6 +207,9 @@
     position: relative;
     left: 0%;
   }
+  .group5-Innovation{
+    display: none;
+  }
 }
 @media (max-width: 440px) {
   .link-Innovation {

@@ -13,10 +13,8 @@ const Inclusion = () => {
     return (
         <div className="Inclusion">
             <div className="navbar-Id"></div>
-            <div className="Out_container_Incl_yellow">
-                <img src = {yellowbackground} className='yellow_Incl' alt=" " />
-            </div>
             <div className="container container-1-Id">
+            <div className="yellowbackground_Inclusion"></div>
                 <div className="row first-image-Id">
                     <div className="col-lg-6">
                         <div data-aos="fade-right" className="text-box-1-Id">
