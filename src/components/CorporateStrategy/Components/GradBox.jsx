@@ -5,7 +5,6 @@ import download_arrow from "./images/download_arrow.png";
 
 const GradBox = () => {
   return (
-
     <div className="container">
       <div className="grad_box">
         <h1 className="grad_heading">Customer Experience (CX) Strategy</h1>
@@ -29,7 +28,6 @@ const GradBox = () => {
           <div className="explore_text">Explore</div>
         </div>
       </div>
-    </div>
     </div>
   );
 };
