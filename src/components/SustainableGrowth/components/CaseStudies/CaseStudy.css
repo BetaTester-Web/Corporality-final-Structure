@@ -2,6 +2,7 @@
   background-color: #6ca0bc;
   overflow: hidden;
   position: relative;
+  padding-top: 50px;
 }
 
 .container-2-text-2-Cs {
@@ -184,7 +185,8 @@
 .textndlists-Cs {
   position: relative;
   left: 7%;
-  top: -15%;
+  top: 0%;
+  bottom: 60px;
 }
 
 @media (max-width: 1400px) {
