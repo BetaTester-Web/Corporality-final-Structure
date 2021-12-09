@@ -1,6 +1,7 @@
 .second {
     background-color: #6CA0BC !important;
     overflow: hidden !important;
+    padding-top: 30px;
 
 }
 
@@ -129,6 +130,11 @@
     margin-left: -52px !important;
     transition: all 0.6s linear !important;
 }
+.textndlists{
+    position: relative;
+    top: 30px;
+    left: 5%;
+}
 
 .bp_our-newsletter-polygon9:hover .main-2-2 {
     transform: scale(1.03) rotate(-45deg) !important
@@ -150,7 +156,7 @@
 
 .rect-2-4 {
     position: absolute !important;
-    left: 150% !important;
+    left: 130% !important;
 }
 
 .rect-2-1 {
@@ -167,7 +173,7 @@
 
 .rect-2-2 {
     position: relative;
-    top: 50%;
+    top: 58%;
     left: -90%;
 }
 

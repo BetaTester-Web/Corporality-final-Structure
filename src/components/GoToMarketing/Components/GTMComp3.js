@@ -1,17 +1,16 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import "./GTMComp3.css";
-import "./animate3.css"
+import "./animate3.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import 'bootstrap/dist/js/bootstrap.min.js';
+import "bootstrap/dist/js/bootstrap.min.js";
 import AllCardsNew from "./AllCardsNew/AllCardsNew";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
 function GTMComp3() {
-    useEffect(() => {
-        Aos.init();
-    });
-
+  useEffect(() => {
+    Aos.init();
+  });
     return (
         <>
             <div className="container text-center mx-auto d-flex flex-column align-items-center justify-content-center">
@@ -24,16 +23,6 @@ function GTMComp3() {
                     The founding structure of the GTM strategy is to plan, refine, iterate and plan again till you are convinced and confident about stepping forward. The key to a profitable product launch is crafting an actionable and practical go-to-marketing plan while dodging and eliminating disastrous hiccups and glitches.
                 </div>
                 <AllCardsNew />
-                <div className="container">
-                    <div className="row justify-content-lg-around justify-content-center">
-                        <div className="gotomarketing-head col-lg-1 col-md-2 px-4">asdas</div>
-                        <div className="gotomarketing-card col-lg-1 col-md-2 px-4">asdas</div>
-                        <div className="gotomarketing-card col-lg-1 col-md-2 px-4">asdas</div>
-                        <div className="gotomarketing-card col-lg-1 col-md-2 px-4">asdas</div>
-                        <div className="gotomarketing-card col-lg-1 col-md-2 px-4">asdas</div>
-                        <div className="gotomarketing-card col-lg-1 col-md-2 px-4">asdas</div>
-                    </div>
-                </div>
             </div>
         </>
     );

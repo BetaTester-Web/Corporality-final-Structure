@@ -1,9 +1,6 @@
 .container-1-Id{
     display: flex;
     align-items: center;
-    /* overflow-x: hidden; */
-   /*  overflow-y: hidden; */
-   /* overflow: hidden; */
 }
 .text-box-1-Id{
     position: relative;
@@ -12,31 +9,25 @@
     justify-content: center;
     padding-top: 150px;
     left: 10%;
-    /* margin-right: 130px; */
- 
 }
-.yellow_Incl{
+.yellowbackground_Inclusion {
     position: absolute;
-    left:60%;
-}
-/* .image-first-Id-1-Id{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-} */
+    top: 250px;
+    right: 0;
+    width: 500px;
+    height: 466px;
+    background: rgba(255, 239, 165, 0.30196078431372547);
+    -webkit-filter: blur(100px);
+    filter: blur(100px);
+  }
 .container-1_text-Id{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 22px;
     line-height: 26px;
-    /* identical to box height */
-    
     text-transform: uppercase;
-    
     color: #3C708E;
-    
-
 } 
 
 .container-2_text-Id{
@@ -45,14 +36,8 @@
     font-weight: bold;
     font-size: 32px;
     line-height: 40px;
-    /* identical to box height, or 125% */
-    
     text-transform: uppercase;
-    
-    color: #232323;
-    
-    
-
+    color: #232323;       
 }
 .container-3_text-Id{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -60,10 +45,7 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    /* or 150% */
     margin-right: 130px;
-
-
     color: #232323;
 }
 .wall-Id{
@@ -79,16 +61,6 @@
 .image-first-Id{
     margin-left: 80px;
 }
-/* .mainimage{
-    position: absolute;
-    top: 0%;
-    left:3%;
-    transform: scale(1);
-    transition: all .6s linear;
-    
-}
- */
-
 .navbar-Id{
     margin-bottom: 100px;
 }
@@ -113,17 +85,13 @@
     bottom: -40%;
     margin-left: -300px;
     z-index: -1;
-    background: #fff;
-    
-    
-   
+    background: #fff; 
    }
    .blue_print_ellipse-1 {
     position: absolute;
     width: 477px;
     left: 290%;
     bottom: 350px;
-   
     height: 466px;
    z-index: 10;
     background: rgba(255, 239, 165, 0.3);
@@ -148,10 +116,8 @@
     height: 350.8px;
     top: -50%;
     left: 30%;
-    /* border: 1px solid black; */
     transform: rotate(45deg);
     overflow: hidden;
-   /*  z-index: 10; */
    }
    .banner_right_inner-Id .main-prev1-Id{
     width: 510px;
@@ -160,7 +126,6 @@
     margin-left: -80px;
     transform: rotate(-45deg);
     transition: all 0.8s ease;
-    /* z-index: 100; */
    }
    .banner_right_inner-Id:hover .main-prev1-Id {
     transform: scale(1.03) rotate(-45deg);
@@ -176,11 +141,6 @@
     }
 }
 
-@media (max-width: 1400px){
-    /* .backimg-Id{
-        left: 10%;
-    } */
-}
 @media (max-width:1300px){
     .image-first-Id{
         position: relative;
@@ -188,29 +148,12 @@
     }
 }
 
-/* @media (max-width:1200px){
-    .prev-1-Ib{
-        margin-bottom: 200px;
-    }
-} */
 @media(max-width:1200px){
     .image-first-Id{
         left: -30%;
     }
 }
 
-@media (max-width:1144px){
-  /*   .banner_right_inner-Id{
-        width: 370px;
-        height: 332.8px;
-    }
-    .backimg-Id{
-        width: 480px;
-        height: 482.8px;
-        left: 20%;
-        top: 2%;
-    } */
-}
 @media (max-width:992px){
     .banner_right_inner-Id{
         position: relative;
@@ -222,7 +165,7 @@
     .backimg-Id{
         width: 480px;
         height: 482.8px;
-        left: 20%;
+        left: 30%;
         top: 2%;
     }
     .image-first-Id{
@@ -320,7 +263,7 @@
     .backimg-Id{
         width: 320px;
         height: 322.8px;
-        left: 5%;
+        left: 10%;
         top: 2%;
     }
     .image-first-Id{
@@ -337,6 +280,11 @@
         top: 50%;
         left: 33%;
         width: 10%;
+    }
+    .yellowbackground_Inclusion{
+        top: 200px;
+        width: 400px;
+        height: 200px;
     }
 }
 @media (max-width:512px){
@@ -382,10 +330,10 @@
 }
 @media (max-width:428px) {
     .image-first-Id{
-        left: -15%;
+        left: -7%;
     }
     .text-box-1-Id{
-        margin-right: 0px;
+        margin-right: 50px;
     }.backimg-Id{
         left: 5%;
     }
@@ -404,24 +352,13 @@
     .smallrect-Id{
         position: absolute;
         top: 50%;
-        left: 33%;
-        width: 15%;
+        left: 28%;
+        width: 13%;
     }
 }
 
 @media (max-width:386px){
     .image-first-Id{
-        left: -25%;
+        left: -13%;
     }
 }
-
-
-
-/* @media (max-width:380px) {
-    .image-first-Id{
-        left: -10%;
-    }
-    .text-box-1-Id{
-        margin-right: 60px;
-    }
-} */

@@ -118,25 +118,38 @@
   left: 245px;
 }
 
-.corporatefirst_main_container {
-  margin-top: 80px !important;
+.corporatefirst_parentcontainer {
   background: url(./images/main_background.png);
   background-repeat: no-repeat;
-  position: relative;
   width: 100%;
-  height: 500px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
+}
+
+.corporatefirst_main_container {
+  margin-top: 80px !important;
+  position: relative;
+  width: 100%;
+  height: 500px;
+
   display: flex;
   padding-top: 20px !important;
 }
 
+.corporatefirst_left_icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 10px !important;
+}
+
 .corporatefirst_icontext_container {
-  display: flex;
+  /* display: flex; */
   flex: 0.4;
+  /* margin-left: -50px !important; */
 }
 
 .corporatefirst_left_icons {
@@ -145,7 +158,8 @@
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  margin-top: 125px !important;
+  margin-top: 230px !important;
+  margin-left: 30px !important;
 }
 
 .corporatefirst_facebook_icon,
@@ -204,19 +218,20 @@
 .main_bulb_bulb_image {
   position: absolute;
   top: 100px;
-  right: 350px;
+  right: 250px;
 }
 
 .corporatefirst_bottom_cloud {
   position: absolute;
-  right: 380px;
+  right: 250px;
   bottom: 0;
 }
 
 .corporatefirst_bottom_phone {
   position: absolute;
   bottom: 40px;
-  right: 100px;
+  right: 80px;
+  cursor: pointer;
 }
 
 .corporatefirst_bottom_phone::after {
@@ -234,14 +249,14 @@
 
 .corporatefirst_small_stars {
   position: absolute;
-  top: 80px;
-  right: 150px;
+  top: -10px;
+  right: -20px;
 }
 
 .corporatefirst_saturn {
   position: absolute;
-  top: 100px;
-  right: 100px;
+  top: 30px;
+  right: 30px;
   animation: gear_rotate 8s linear infinite forwards;
 }
 
@@ -258,42 +273,53 @@
   }
 }
 
-@media only screen and (max-width: 1130px) {
-  .corporatefirst_small_stars {
-    top: 130px;
-    left: 10px;
-  }
-  .corporatefirst_small_stars img {
-    width: 500px;
-    height: 250px;
-  }
+@media only screen and (max-width: 1199px) {
+  /* .corporatefirst_icontext_container {
+    margin-left: -60px !important;
+  } */
 
-  .corporatefirst_bottom_cloud {
-    left: 60px;
+  .corporatefirst_left_text {
+    padding-right: 0px !important;
   }
 
   .main_bulb_bulb_image {
-    left: 190px;
+    right: 120px;
+  }
+
+  .corporatefirst_bottom_cloud {
+    right: 120px;
+  }
+
+  .corporatefirst_bottom_phone {
+    right: 0px;
+  }
+
+  .corporatefirst_small_stars {
+    right: -80px;
+    top: 60px;
   }
 
   .corporatefirst_saturn {
+    position: absolute;
     top: 20px;
-    right: 100px;
+    right: -20px;
   }
 
-  .corporatefirst_left_text {
-    padding-right: 10px !important;
+  .corporatefirst_fade_text {
+    position: absolute;
+    bottom: 50px;
+    left: -300px;
   }
 
-  .corporatefirst_bottom_phone::after {
-    height: 5.5vw;
-    width: 5.5vw;
+  .corporatefirst_icontext_container {
+    margin-left: 30px !important;
   }
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 993px) {
   .corporatefirst_icontext_container {
     flex: 0.5;
+    /* margin-left: -130px !important; */
   }
 
   .corporatefirst_right_images {
@@ -301,26 +327,58 @@
   }
 
   .corporatefirst_small_stars {
-    left: -120px;
-  }
-
-  .corporatefirst_bottom_phone {
-    right: 50px;
+    left: -70px;
   }
 
   .corporatefirst_bottom_cloud {
-    left: -20px;
+    right: 30px;
   }
 
   .main_bulb_bulb_image {
-    left: 90px;
+    right: 30px;
+  }
+
+  .corporatefirst_bottom_phone {
+    right: -80px;
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .corporatefirst_icontext_container {
+    flex: 0.5;
+    /* margin-left: -70px !important; */
+  }
+
+  .corporatefirst_right_images {
+    flex: 0.5;
+  }
+
+  .corporatefirst_small_stars {
+    left: -70px;
+  }
+
+  .corporatefirst_bottom_cloud {
+    right: 70px;
+  }
+
+  .main_bulb_bulb_image {
+    right: 70px;
+  }
+
+  .corporatefirst_bottom_phone {
+    right: -20px;
   }
 }
 
 @media only screen and (max-width: 800px) {
   .corporatefirst_main_container {
     flex-direction: column-reverse;
-    height: 700px;
+    height: 750px;
+  }
+
+  .corporatefirst_left_icons {
+    top: 360px;
+    left: -10px;
   }
 
   .corporatefirst_fade_text {
@@ -329,8 +387,8 @@
   }
 
   .corporatefirst_small_stars {
-    left: 100px;
-    top: 30px;
+    left: -20px;
+    top: 60px;
   }
 
   .corporatefirst_bottom_cloud {
@@ -354,36 +412,80 @@
   }
 }
 
-@media only screen and (max-width: 600px) {
-  .corporatefirst_small_stars {
-    left: 10px;
+@media only screen and (max-width: 768px) {
+  .corporatefirst_icontext_container {
+    flex: 0.5;
+    margin-left: 30px !important;
   }
 
-  .main_bulb_bulb_image {
-    left: 150px;
+  .corporatefirst_right_images {
+    flex: 0.5;
+  }
+
+  .corporatefirst_small_stars {
+    left: -70px;
   }
 
   .corporatefirst_bottom_cloud {
-    left: 0;
+    left: 40px;
+  }
+
+  .main_bulb_bulb_image {
+    left: 180px;
+  }
+
+  .corporatefirst_bottom_phone {
+    right: -20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .corporatefirst_small_stars {
+    top: 20px;
+    left: -10px;
+  }
+
+  .main_bulb_bulb_image {
+    left: 200px;
+  }
+
+  .corporatefirst_bottom_cloud {
+    left: 60px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .corporatefirst_icontext_container {
+    margin-left: 50px !important;
   }
 }
 
 @media only screen and (max-width: 512px) {
+  .main_bulb_bulb_image {
+    left: 170px;
+  }
+
+  .corporatefirst_bottom_cloud {
+    left: 30px;
+  }
   .corporatefirst_small_stars {
     transform: rotate(75deg);
-    top: 40px;
-    left: -30px;
+    top: 10px;
+    left: -80px;
   }
 
   .corporatefirst_bottom_phone {
     right: 40px;
   }
+  .corporatefirst_saturn {
+    right: 50px;
+  }
 }
 
 @media only screen and (max-width: 440px) {
   .corporatefirst_saturn {
-    right: 20px;
-    top: 0;
+    right: -5px;
+    top: 40px;
     z-index: 1;
   }
 
@@ -393,6 +495,7 @@
 
   .corporatefirst_bottom_cloud {
     bottom: -120px;
+    left: 0;
   }
   .corporatefirst_bottom_phone {
     right: 20px;
@@ -405,7 +508,7 @@
   }
 
   .corporatefirst_small_stars {
-    top: -90px;
+    top: -100px;
   }
 
   .bulb_glow {
@@ -417,7 +520,8 @@
   }
 
   .main_bulb_bulb_image {
-    left: 115px;
+    left: 110px;
+    top: 150px;
   }
 
   .center_bulb {

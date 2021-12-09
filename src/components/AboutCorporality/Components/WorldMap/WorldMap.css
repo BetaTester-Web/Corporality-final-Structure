@@ -13,6 +13,12 @@
   /* padding-left: 60px !important; */
 }
 
+@media only screen and (max-width: 1399px) {
+  .worldmap_left {
+    margin-left: -100px !important;
+  }
+}
+
 @media only screen and (max-width: 1272px) {
   .worldmap_container {
     flex-direction: column;
@@ -74,5 +80,10 @@
   .worldmap_right img {
     width: 300px;
     height: 250px;
+  }
+
+  .worldmap_left,
+  .worldmap_right {
+    margin: 0 !important;
   }
 }
