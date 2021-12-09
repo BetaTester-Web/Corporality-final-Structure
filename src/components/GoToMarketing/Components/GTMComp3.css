@@ -7,3 +7,11 @@
     text-align: center!important;
     color: #757575;
 }
+
+.gotomarketing-card{
+    background: red;
+}
+
+.gotomarketing-card.col-lg-1{
+    width: 10%;
+}
