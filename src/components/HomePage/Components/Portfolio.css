@@ -45,7 +45,7 @@
 
 .portfolioContainer .portfolioHead hr {
   margin: 0px 0px 0px 0px !important;
-  width: 10vw;
+  width: 7vw;
   height: 5px;
   background-color: #A06DAF;
   text-align: center;
@@ -215,7 +215,6 @@
     font-size: 2.4em;
   }
   .portfolioContainer .portfolioHead hr {
-    width: 10vw;
     height: 4px;
   }
   .portfolioContainer .portfolioSection {
@@ -231,7 +230,6 @@
     font-size: 2.5em;
   }
   .portfolioContainer .portfolioHead hr {
-    width: 12vw;
     height: 4px;
   }
   .portfolioContainer .portfolioSection {
@@ -247,7 +245,6 @@
     font-size: 2.8em;
   }
   .portfolioContainer .portfolioHead hr {
-    width: 15vw;
     height: 4px;
   }
   .portfolioContainer .portfolioSection {
@@ -263,7 +260,6 @@
     font-size: 3.5em;
   }
   .portfolioContainer .portfolioHead hr {
-    width: 20vw;
     height: 4px;
   }
   .portfolioContainer .portfolioSection {
@@ -281,7 +277,6 @@
     font-size: 3.5em;
   }
   .portfolioContainer .portfolioHead hr {
-    width: 20vw;
     height: 4px;
   }
   .portfolioContainer .portfolioSection {
