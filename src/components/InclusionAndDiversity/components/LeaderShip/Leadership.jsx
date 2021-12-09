@@ -20,6 +20,7 @@ function Leadership() {
     <div className="container">
       <div className="community_support_main-Leaderships">
         <div
+        data-aos="fade-right" data-aos-delay="500"
           className="community_support_first-Leaderships"
 
         >
@@ -47,6 +48,7 @@ function Leadership() {
         </div>
         <div
           className="community_support_second-Leaderships"
+          data-aos="fade-left" data-aos-delay="1000"
         >
           <div className="text2_Leaderships">
             <div className="community_second_heading-Leaderships">
