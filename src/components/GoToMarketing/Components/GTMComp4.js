@@ -35,7 +35,7 @@ function GTMComp4() {
             </div>
             <div className="container mx-auto container2 GTMComp4">
                 <div className="row justify-content-center">
-                    <div className="col-lg-4 mt-lg-5 mt-3 col-md-4 col-md-6">
+                    <div className="shadow col-lg-4 mt-lg-5 mt-3 col-md-4 col-md-6">
                         <div class="content-inner fl-wrap">
                             <div class="content-front">
                                 <div class="cf-inner">
@@ -57,7 +57,7 @@ function GTMComp4() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 mt-lg-5 mt-3 col-md-4 col-md-6">
+                    <div className="shadow col-lg-4 mt-lg-5 mt-3 col-md-4 col-md-6">
                         <div class="content-inner fl-wrap">
                             <div class="content-front">
                                 <div class="cf-inner">
@@ -79,7 +79,7 @@ function GTMComp4() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 mt-lg-5 mt-3 col-md-4 col-md-6">
+                    <div className="shadow col-lg-4 mt-lg-5 mt-3 col-md-4 col-md-6">
                         <div class="content-inner fl-wrap">
                             <div class="content-front">
                                 <div class="cf-inner">
@@ -101,7 +101,7 @@ function GTMComp4() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 mt-lg-5 mt-3 col-md-6">
+                    <div className="shadow col-lg-4 mt-lg-5 mt-3 col-md-6">
                         <div class="content-inner fl-wrap">
                             <div class="content-front">
                                 <div class="cf-inner">
@@ -123,7 +123,7 @@ function GTMComp4() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 mt-lg-5 mt-3 col-md-6">
+                    <div className="shadow col-lg-4 mt-lg-5 mt-3 col-md-6">
                         <div class="content-inner fl-wrap">
                             <div class="content-front">
                                 <div class="cf-inner">

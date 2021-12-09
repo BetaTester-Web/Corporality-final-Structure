@@ -243,6 +243,7 @@
     padding: 12px 20px;
     box-shadow: 0 1px 15px rgba(0, 0, 0, 0.04), 0 1px 6px rgba(0, 0, 0, 0.04);
 }
+
 /* a:hover {
     text-decoration: none;
     color: #3c708e;
@@ -283,6 +284,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: url(./images/diamond.jpeg);
 }
 
 .content-front {
