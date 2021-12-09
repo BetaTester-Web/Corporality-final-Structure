@@ -7,6 +7,7 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
 }
 
 .parallax_container {
@@ -72,7 +73,7 @@
 .box_top {
   position: absolute;
   top: 30px;
-  left: 800px;
+  left: 555px;
 }
 .box_right {
   position: absolute;
@@ -81,7 +82,7 @@
 }
 .boxes_left {
   position: absolute;
-  left: 50px;
+  left: 20px;
   bottom: 10px;
 }
 
@@ -98,13 +99,9 @@
     padding: 0 0 !important;
   }
 
-  .boxes_left {
-    left: -60px;
-  }
-
   .box_top {
-    top: 10px;
-    left: 600px;
+    top: 30px;
+    left: 200px;
   }
 
   .box_right {
@@ -115,6 +112,7 @@
 @media only screen and (max-width: 610px) {
   .box_right {
     right: 20px;
+    top: 120px;
   }
 }
 
@@ -125,7 +123,7 @@
   }
 
   .boxes_left {
-    left: 0;
+    left: 30px;
   }
 
   .parallax_main_heading {
@@ -145,14 +143,14 @@
   }
 
   .box_right {
-    top: 90px;
+    top: 120px;
     right: 20px;
   }
 }
 
 @media only screen and (max-width: 427px) {
   .box_right {
-    top: 100px;
+    top: 120px;
     right: 50px;
   }
 }

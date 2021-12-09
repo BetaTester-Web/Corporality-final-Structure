@@ -14,6 +14,9 @@ function Quote() {
   return (
     <>
       <div class="quote_container_parent">
+        <div className="box_image">
+          <img src={group_boxes} alt="" />
+        </div>
         <div className="container">
           <div className="quote_container">
             <div className="all_contents">
@@ -44,9 +47,6 @@ function Quote() {
             </div>
             <div className="quote_image">
               <img src={quotation_mark} alt="" />
-            </div>
-            <div className="box_image">
-              <img src={group_boxes} alt="" />
             </div>
           </div>
         </div>
