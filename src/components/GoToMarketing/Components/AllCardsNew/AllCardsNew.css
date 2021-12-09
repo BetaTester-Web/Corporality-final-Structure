@@ -73,8 +73,8 @@
 }
 
 .gotomarketing_line_vertical {
-    top: 95px;
-    left: 132px;
+    top: 121px;
+    left: 119px;
     z-index: -1;
 }
 
@@ -606,6 +606,16 @@
         grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
+    }
+
+    .gotomarketing_line_horizontal_1 img,
+    .gotomarketing_line_horizontal_2 img,
+    .gotomarketing_line_horizontal_3 img,
+    .gotomarketing_line_horizontal_4 img,
+    .gotomarketing_line_horizontal_5 img,
+    .gotomarketing_line_horizontal_6 img {
+        width: 100%!important;
+        height: 2px;
     }
 
     .gotomarketing_cards_text_side_1 {
