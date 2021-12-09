@@ -113,7 +113,7 @@
 
 .subscribe-Ns {
     width: 10%;
-    text-decoration: none;
+    text-decoration: none !important;
     color: white;
     background-color: #4E86A4;
     padding: 13.35px;
@@ -171,7 +171,7 @@
     width: 211.24px !important;
     height: 200px !important;
     left: -0.24px !important;
-    margin-top: -10px !important;
+    margin-top: -40px !important;
 }
 
 .rect-2-4-Ns {
@@ -202,7 +202,7 @@
 .textndlists-Ns {
     position: relative;
     left: 7%;
-    top: -20px;
+    top: -60px;
 }
 
 @media (max-width: 1400px) {

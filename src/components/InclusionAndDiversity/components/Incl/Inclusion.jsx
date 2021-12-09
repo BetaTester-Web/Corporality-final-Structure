@@ -6,9 +6,6 @@ import wall from '../Incl/wall.png'
 import smallrect from '../Incl/smallrect.png'
 import rect from '../Incl/rect.png'
 import smallerrect from '../Incl/smallerrect.png'
-import yellowbackground from './yellowbackground.png'
-
-
 const Inclusion = () => {
     return (
         <div className="Inclusion">
@@ -34,20 +31,10 @@ const Inclusion = () => {
                             <div className="banner_right_inner-Id" >
                                 <img className='main-prev1-Id' src={Main} />
                             </div>
-
                         </div>
-
                     </div>
                 </div>
-
-
             </div>
-            {/* <div className="blue_print_overlay">
-                <div className="blue_print_ellipse-1"></div>
-
-            </div> */}
-
-
         </div>
     )
 }

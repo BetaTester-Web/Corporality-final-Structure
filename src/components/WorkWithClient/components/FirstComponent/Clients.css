@@ -203,35 +203,7 @@
     }
     
 }
-@media (max-width:768px){
-    .banner_right_inner-Clients{
-        width: 330px;
-        height: 332.8px;
-        left: 0%;
-    }
-    .backimg-Clients{
-        width: 480px;
-        height: 482.8px;
-        left: 10%;
-        top: 0%;
-    }
-    .image-first-Clients{
-        left: -10%;
-    }
-    .text-box-1-Clients{
-        margin-right: 0px;
-    }
-    .container-1_text-Clients{
-        font-size: 16px;
-        margin-right: 60px !important;
-        line-height: 20px;
-    }
-    .container-3_text-Clients{
-        font-size: 12px;
-        margin-right: 60px !important;
-        line-height: 20px;
-    }
-}
+
 @media (max-width:768px){
     .banner_right_inner-Clients{
         width: 330px;
@@ -262,6 +234,16 @@
     }
     .container-2_text-Clients{
         font-size: 20px;
+        margin-right: 60px !important;
+        line-height: 20px;
+    }
+    .container-1_text-Clients{
+        font-size: 16px;
+        margin-right: 60px !important;
+        line-height: 20px;
+    }
+    .container-3_text-Clients{
+        font-size: 12px;
         margin-right: 60px !important;
         line-height: 20px;
     }
@@ -310,10 +292,10 @@
 @media (max-width:464px){
     .image-first-Clients{
         position: relative;
-        left: -10%;
+        left: -5%;
     }
     .text-box-1-Clients{
-        margin-right: 30px;
+        margin-right: -60px;
     }
 }
 
@@ -327,20 +309,35 @@
 }
 @media (max-width:428px) {
     .image-first-Clients{
-        left: -10%;
+        left: -5%;
     }
     .text-box-1-Clients{
-        margin-right: 30px;
+        margin-right: -60px;
     }
 }
 @media (max-width:420px){
     .image-first-Clients{
-        left: -15%;
+        left: -5%;
+    }
+    .text-box-1-Clients{
+        margin-right: -10px;
+    }
+}
+@media (max-width:410px) {
+    .image-first-Clients{
+        left: -10%;
+    }
+
+    .text-box-1-Clients{
+        margin-right: -10px;
     }
 }
 @media (max-width:380px) {
+    .image-first-Clients{
+        left: -15%;
+    }
 
     .text-box-1-Clients{
-        margin-right: 30px;
+        margin-right: 0px;
     }
 }
