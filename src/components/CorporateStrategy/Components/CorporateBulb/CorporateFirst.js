@@ -241,7 +241,10 @@ function CorporateFirst() {
                 <img src={bottom_cloud} alt="" />
               </div>
 
-              <div className="corporatefirst_bottom_phone">
+              <div
+                className="corporatefirst_bottom_phone"
+                onClick={() => window.open("tel: +61 2 83794089", "_self")}
+              >
                 <img src={bottom_phone} alt="" />
               </div>
 

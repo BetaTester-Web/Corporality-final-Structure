@@ -13,6 +13,9 @@ function WorkParallax() {
 
   return (
     <div className="aboutus_parallax_parent">
+      <div className="boxes_left">
+        <img src={threeboxes} alt="" />
+      </div>
       <div className="container">
         <div className="outer_container">
           <div className="parallax_container">
@@ -48,9 +51,6 @@ function WorkParallax() {
             </div>
             <div className="box_right">
               <img src={right_rectangle} alt="" />
-            </div>
-            <div className="boxes_left">
-              <img src={threeboxes} alt="" />
             </div>
           </div>
         </div>
