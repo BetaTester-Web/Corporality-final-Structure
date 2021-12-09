@@ -65,40 +65,40 @@ function Page1() {
 					</div>
 					<div className="sideSocials d-flex flex-lg-column flex-row">
 						<a
-							href="/"
+							href="https://www.facebook.com/CorporalityG/"
 							className="socialIcon d-flex align-items-center justify-content-center ms-0 me-1"
 						>
-							<img src={fb} alt="" width="25%" />
+							<img src={fb} alt="" width="30%" />
 						</a>
 						<a
-							href="/"
+							href="https://twitter.com/corporalityg/"
 							className="socialIcon d-flex align-items-center justify-content-center mx-lg-0 mx-md-2 mx-1"
 						>
-							<img src={twt} alt="" width="40%" />
+							<img src={twt} alt="" width="50%" />
 						</a>
 						<a
-							href="/"
+							href="https://www.instagram.com/corporalityg/"
 							className="socialIcon d-flex align-items-center justify-content-center mx-lg-0 mx-md-2 mx-1"
 						>
-							<img src={ig} alt="" width="40%" />
+							<img src={ig} alt="" width="50%" />
 						</a>
 						<a
-							href="/"
+							href="https://www.linkedin.com/company/corporality/"
 							className="socialIcon d-flex align-items-center justify-content-center mx-lg-0 mx-md-2 mx-1"
 						>
-							<img src={lnkd} alt="" width="40%" />
+							<img src={lnkd} alt="" width="50%" />
 						</a>
 						<a
-							href="/"
+							href="https://in.pinterest.com/CorporalityG/"
 							className="socialIcon d-flex align-items-center justify-content-center mx-lg-0 mx-md-2 mx-1"
 						>
-							<img src={pin} alt="" width="40%" />
+							<img src={pin} alt="" width="50%" />
 						</a>
 						<a
-							href="/"
+							href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg/"
 							className="socialIcon d-flex align-items-center justify-content-center mx-lg-0 mx-md-2 mx-1"
 						>
-							<img src={yt} alt="" width="40%" />
+							<img src={yt} alt="" width="50%" />
 						</a>
 					</div>
 					{/* <div className="col-lg-6 col-0 container2">

@@ -13,7 +13,7 @@ import 'bootstrap/dist/js/bootstrap.min.js';
 
 export default function GoToMarketing() {
     return (
-        <div>
+        <div className="">
             <GTMComp1 />
             <GTMComp2 />
             <GTMComp3 />

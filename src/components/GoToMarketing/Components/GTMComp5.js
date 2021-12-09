@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 import "./GTMComp5.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.min.js';
-import "./animate4.css"
+import "./animate5.css"
 
 function GTMComp5() {
     useEffect(() => {
@@ -25,7 +25,8 @@ function GTMComp5() {
                             <span>WHILE</span>
                             &nbsp;
                             <span>CAREFULLY</span>
-                            &nbsp;
+                        </h1>
+                        <h1 className="animate2 two">
                             <span>BALANCING</span>
                             &nbsp;
                             <span>CUSTOMER</span>

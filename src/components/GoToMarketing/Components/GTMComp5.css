@@ -8,7 +8,8 @@
 }
 
 .GTMComp5Container .heading {
-    max-width: 55%;
+    /* max-width: 55%; */
+    width: max-content;
 }
 
 .GTMComp5Container .text {
