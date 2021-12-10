@@ -11,7 +11,7 @@ const OurFaith = () => {
     return (
         <div className='OurFaith'>
             <img className='side2-container-Faith' src={side2} alt='' />
-            <div className="container">
+            <div className="container container-second-ourfaith">
                 <div className="row">
                     <div className="col-lg-6 imaging-2-Faith d-flex justify-content-center align-items-center flex-column">
                         <div className="images-2-Faith">

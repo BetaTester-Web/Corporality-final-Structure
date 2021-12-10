@@ -1,9 +1,7 @@
 .container-1-Clients{
     display: flex;
     align-items: center;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 0px;
+
 }
 .text-box-1-Clients{
     position: relative;
@@ -63,9 +61,7 @@
 .navbar-Clients{
     margin-bottom: 100px;
 }
-.image-first-Clients{
-    position: relative;
-}
+
 .rect-Clients{
     position: absolute;
     top: 50px;
