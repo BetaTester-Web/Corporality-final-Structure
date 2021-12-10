@@ -24,7 +24,7 @@ const Inclusion = () => {
                     </div>
                     <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
                         <div data-aos="fade-left" className="image-first-Id">
-                            <img alt='' className='rect-Id' src={rect} alt='' />
+                            <img alt='' className='rect-Id' src={rect} />
                             <img alt='' className='wall-Id' src={wall} />
                             <img alt='' className='smallrect-Id' src={smallrect} />
                             <img alt='' className='backimg-Id' src={Back} />

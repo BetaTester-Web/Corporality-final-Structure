@@ -71,6 +71,10 @@
   margin-left: 20px;
 }
 
+a{
+  text-decoration: none;
+}
+
 .social_icons2_Sustainable_growth {
   display: flex;
   flex-direction: row;
