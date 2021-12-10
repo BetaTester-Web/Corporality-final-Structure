@@ -18,11 +18,11 @@ function Caretojoinus() {
 
   return (
     <div className="caretojoinus_parentdiv">
+      <div className="left_wall">
+        <img src={wall} alt="" />
+      </div>
       <div className="container caretojoinus_container">
         <div className="caretojoinus_main">
-          <div className="left_wall">
-            <img src={wall} alt="" />
-          </div>
           <div
             className="caretojoinus_text aos-init aos-animate"
             data-aos="fade-right"

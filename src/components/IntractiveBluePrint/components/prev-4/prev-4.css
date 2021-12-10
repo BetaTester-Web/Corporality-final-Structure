@@ -150,5 +150,9 @@
     .main_container{
       display: none;
     }
+    .bp_anm_container{
+      margin-top: -250px;
+      margin-bottom: -100px;
+  }
   }
 

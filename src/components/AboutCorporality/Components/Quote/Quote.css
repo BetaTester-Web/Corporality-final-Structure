@@ -1,3 +1,7 @@
+.quote_container_parent {
+  position: relative;
+}
+
 .quote_container {
   margin-top: 200px !important;
   margin-bottom: 50px !important;
@@ -62,7 +66,7 @@
 .box_image {
   position: absolute;
   top: -180px;
-  left: -20px;
+  left: 60px;
 }
 
 .box_image img {
@@ -90,7 +94,7 @@
   .box_image {
     position: absolute;
     top: -180px;
-    left: -20px;
+    left: 50px;
   }
 
   .image_left {
@@ -138,7 +142,7 @@
   }
 
   .box_image {
-    top: 230px;
+    top: 270px;
     left: 100px;
   }
 }
@@ -149,12 +153,12 @@
   }
 
   .box_image {
-    left: 30px;
-    top: 220px;
+    left: 20px;
+    top: 280px;
   }
 
   .image_left {
-    left: 150px;
+    left: 170px;
   }
 }
 
@@ -175,8 +179,8 @@
   }
 
   .box_image {
-    top: 270px;
-    left: 20px;
+    top: 300px;
+    left: 30px;
   }
 
   .image_left {
@@ -187,12 +191,12 @@
 
 @media only screen and (max-width: 383px) {
   .box_image {
-    top: 270px;
-    left: -5px;
+    top: 310px;
+    left: 10px;
   }
 
   .image_left {
-    top: 360px;
+    top: 400px;
     left: 120px;
   }
 }
@@ -202,7 +206,7 @@
     margin-bottom: 300px !important;
   }
 
-  .box_image {
+  /* .box_image {
     top: 270px;
     left: -10px;
   }
@@ -210,5 +214,5 @@
   .image_left {
     top: 360px;
     left: 130px;
-  }
+  } */
 }

@@ -32,7 +32,7 @@ function CommunitySupport() {
               <div className="community_first_heading_text">
                 Community Support
               </div>
-              <div className="community_first_heading_arrow">
+              <div className="community_first_heading_arrow ">
                 <img src={heading_1_arrow} alt="" />
               </div>
             </div>

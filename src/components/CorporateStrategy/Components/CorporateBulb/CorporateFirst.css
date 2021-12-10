@@ -139,10 +139,17 @@
   padding-top: 20px !important;
 }
 
+.corporatefirst_left_icons {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-right: 10px !important;
+}
+
 .corporatefirst_icontext_container {
-  display: flex;
+  /* display: flex; */
   flex: 0.4;
-  margin-left: -50px !important;
+  /* margin-left: -50px !important; */
 }
 
 .corporatefirst_left_icons {
@@ -151,7 +158,8 @@
   flex-direction: column;
   align-items: center;
   /* justify-content: center; */
-  margin-top: 125px !important;
+  margin-top: 230px !important;
+  margin-left: 30px !important;
 }
 
 .corporatefirst_facebook_icon,
@@ -223,6 +231,7 @@
   position: absolute;
   bottom: 40px;
   right: 80px;
+  cursor: pointer;
 }
 
 .corporatefirst_bottom_phone::after {
@@ -265,9 +274,9 @@
 }
 
 @media only screen and (max-width: 1199px) {
-  .corporatefirst_icontext_container {
+  /* .corporatefirst_icontext_container {
     margin-left: -60px !important;
-  }
+  } */
 
   .corporatefirst_left_text {
     padding-right: 0px !important;
@@ -301,12 +310,16 @@
     bottom: 50px;
     left: -300px;
   }
+
+  .corporatefirst_icontext_container {
+    margin-left: 30px !important;
+  }
 }
 
 @media only screen and (max-width: 993px) {
   .corporatefirst_icontext_container {
     flex: 0.5;
-    margin-left: -130px !important;
+    /* margin-left: -130px !important; */
   }
 
   .corporatefirst_right_images {
@@ -333,7 +346,7 @@
 @media only screen and (max-width: 910px) {
   .corporatefirst_icontext_container {
     flex: 0.5;
-    margin-left: -70px !important;
+    /* margin-left: -70px !important; */
   }
 
   .corporatefirst_right_images {
@@ -360,7 +373,12 @@
 @media only screen and (max-width: 800px) {
   .corporatefirst_main_container {
     flex-direction: column-reverse;
-    height: 700px;
+    height: 750px;
+  }
+
+  .corporatefirst_left_icons {
+    top: 360px;
+    left: -10px;
   }
 
   .corporatefirst_fade_text {
@@ -397,7 +415,7 @@
 @media only screen and (max-width: 768px) {
   .corporatefirst_icontext_container {
     flex: 0.5;
-    margin-left: -70px !important;
+    margin-left: 30px !important;
   }
 
   .corporatefirst_right_images {
@@ -422,9 +440,6 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .corporatefirst_icontext_container {
-    margin-left: 0px !important;
-  }
   .corporatefirst_small_stars {
     top: 20px;
     left: -10px;
@@ -439,10 +454,13 @@
   }
 }
 
-@media only screen and (max-width: 512px) {
+@media only screen and (max-width: 576px) {
   .corporatefirst_icontext_container {
-    margin-left: -30px !important;
+    margin-left: 50px !important;
   }
+}
+
+@media only screen and (max-width: 512px) {
   .main_bulb_bulb_image {
     left: 170px;
   }

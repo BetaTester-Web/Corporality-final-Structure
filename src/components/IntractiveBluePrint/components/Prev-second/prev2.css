@@ -55,12 +55,9 @@
      top: 110%;
  }
  .side2-container{
-    /*  position: absolute;
-     top: -30%;
-     left: -90%; */
      position: absolute;
-     left: 7%;
-     top: 530px;
+     left: 3%;
+     top: 480px;
  }
  .prev-2-text-1{
      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -97,15 +94,12 @@
          left: 90%;
      }
      .side2-container{
-         top: 930px;
+         top: 850px;
          left: 0%;
      }
      .prev2{
          margin-top: 0px;
      }
- }
- @media (max-width:1089px){
-     
  }
  
  @media (max-width:992px) {
@@ -114,7 +108,7 @@
          top: 40%;
      }
      .side2-container{
-         height: 60%;
+
          left: 5%;
      }
      .img-container{
@@ -140,8 +134,13 @@
          
         width: 100px;
         height: 160px;
-        top: 700px;
+        top: 900px;
         
+     }
+ }
+ @media (max-width:654px){
+     .side2-container{
+         top: 600px;
      }
  }
  @media (max-width:509px){

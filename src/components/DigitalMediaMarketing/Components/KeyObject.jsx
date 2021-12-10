@@ -11,8 +11,8 @@ const KeyObject = () => {
     })
 
     return (
-        <div className="d-xl-flex">
-        <div className="m-5 ddm-audit">
+        <div className="d-xl-flex justify-content-center">
+        <div className=" ddm-audit">
                 
                 <div data-aos="fade-right">
 
@@ -81,7 +81,7 @@ const KeyObject = () => {
 
     </div>
             <div>
-                <img src="./img/DigitalMediaMarketing/cuate.png" className="img-fluid m-5" alt="" />
+                <img src="./img/DigitalMediaMarketing/objective.gif" className="img-fluid m-5" alt="" />
             </div>
     </div>
     )

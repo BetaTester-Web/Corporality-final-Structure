@@ -7,6 +7,7 @@ import backimg from "../OurImpetus/back.png";
 import wall from "../OurImpetus/wall.png";
 import smallrect from "../OurImpetus/small.png";
 import rect from "../OurImpetus/rect.png";
+import text_rectangle from "../OurImpetus/text_rectangle.png";
 import "./First.css";
 
 function FirstNew() {
@@ -17,6 +18,7 @@ function FirstNew() {
   return (
     <div className="container">
       <div className="upper_container">
+        <div className="yellowbackground_aboutus"></div>
         <div
           // className="aos-init aos-animate"
           data-aos="fade-right"
@@ -29,6 +31,7 @@ function FirstNew() {
             <div className="impetus_text">
               TO DELIVER THE BEST IN DIGITAL MARKETING AND SALES SOLUTIONS USING
               INNOVATION AND INTUITION TO CRAFT BUSINESS BRILLIANCE
+              <img src={text_rectangle} alt="" className="textrectangle_img" />
             </div>
             <div className="impetus_text2">
               We create long-lasting values while helping you embrace change in

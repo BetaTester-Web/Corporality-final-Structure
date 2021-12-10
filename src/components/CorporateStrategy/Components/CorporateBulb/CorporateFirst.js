@@ -38,6 +38,44 @@ function CorporateFirst() {
 
   return (
     <div className="corporatefirst_parentcontainer">
+      <div className="corporatefirst_left_icons">
+        <div className="corporatefirst_facebook_icon">
+          <a href="https://www.facebook.com/CorporalityG">
+            <img src={corporatefirst_facebook} alt="" />
+          </a>
+        </div>
+        <div className="corporatefirst_twitter_icon">
+          <a href="https://twitter.com/corporalityg" target="_blank">
+            <img src={corporatefirst_twitter} alt="" />
+          </a>
+        </div>
+        <div className="corporatefirst_instagram_icon">
+          <a href="https://www.instagram.com/corporalityg" target="_blank">
+            <img src={corporatefirst_instagram} alt="" />
+          </a>
+        </div>
+        <div className="corporatefirst_linkedin_icon">
+          <a
+            href="https://www.linkedin.com/company/corporality"
+            target="_blank"
+          >
+            <img src={corporatefirst_linkedin} alt="" />{" "}
+          </a>
+        </div>
+        <div className="corporatefirst_pinterest_icon">
+          <a href="https://in.pinterest.com/CorporalityG" target="_blank">
+            <img src={corporatefirst_pinterest} alt="" />{" "}
+          </a>
+        </div>
+        <div className="corporatefirst_youtube_icon">
+          <a
+            href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg"
+            target="_blank"
+          >
+            <img src={corporatefirst_youtube} alt="" />{" "}
+          </a>
+        </div>
+      </div>
       <div className="container">
         <div className="corporatefirst_main_container">
           <div
@@ -46,47 +84,6 @@ function CorporateFirst() {
             data-aos-duration="3000"
             data-aos-delay="200"
           >
-            <div className="corporatefirst_left_icons">
-              <div className="corporatefirst_facebook_icon">
-                <a href="https://www.facebook.com/CorporalityG">
-                  <img src={corporatefirst_facebook} alt="" />
-                </a>
-              </div>
-              <div className="corporatefirst_twitter_icon">
-                <a href="https://twitter.com/corporalityg" target="_blank">
-                  <img src={corporatefirst_twitter} alt="" />
-                </a>
-              </div>
-              <div className="corporatefirst_instagram_icon">
-                <a
-                  href="https://www.instagram.com/corporalityg"
-                  target="_blank"
-                >
-                  <img src={corporatefirst_instagram} alt="" />
-                </a>
-              </div>
-              <div className="corporatefirst_linkedin_icon">
-                <a
-                  href="https://www.linkedin.com/company/corporality"
-                  target="_blank"
-                >
-                  <img src={corporatefirst_linkedin} alt="" />{" "}
-                </a>
-              </div>
-              <div className="corporatefirst_pinterest_icon">
-                <a href="https://in.pinterest.com/CorporalityG" target="_blank">
-                  <img src={corporatefirst_pinterest} alt="" />{" "}
-                </a>
-              </div>
-              <div className="corporatefirst_youtube_icon">
-                <a
-                  href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg"
-                  target="_blank"
-                >
-                  <img src={corporatefirst_youtube} alt="" />{" "}
-                </a>
-              </div>
-            </div>
             <div className="corporatefirst_left_text">
               <div className="corporatefirst_text_heading">
                 Corporate Strategy
@@ -244,7 +241,10 @@ function CorporateFirst() {
                 <img src={bottom_cloud} alt="" />
               </div>
 
-              <div className="corporatefirst_bottom_phone">
+              <div
+                className="corporatefirst_bottom_phone"
+                onClick={() => window.open("tel: +61 2 83794089", "_self")}
+              >
                 <img src={bottom_phone} alt="" />
               </div>
 
@@ -257,7 +257,12 @@ function CorporateFirst() {
               </div>
             </div>
 
-            <div className="corporatefirst_fade_text">
+            <div
+              className="corporatefirst_fade_text"
+              data-aos="fade-bottom"
+              data-aos-duration="3000"
+              data-aos-delay="200"
+            >
               <img src={fade_text} alt="" />
             </div>
           </div>
