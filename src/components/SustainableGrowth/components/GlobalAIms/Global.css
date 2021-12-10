@@ -72,7 +72,7 @@
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .social_icons2_Sustainable_growth {

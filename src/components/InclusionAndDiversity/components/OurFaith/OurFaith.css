@@ -85,6 +85,7 @@
  
  .texting-2-Faith{
      padding-top: 51px !important;
+     padding-bottom: 108px !important ;
  }
 
 
@@ -106,8 +107,8 @@
          top: 40% !important;
      }
      .side2-container-Faith{
-        top: 1000px !important;
-         left: 10% !important;
+        top: -100px !important;
+         left: 7% !important;
      }
      .img-container-Faith{
          position: relative !important;
@@ -130,18 +131,18 @@
     }
 }
 
- @media (max-width:677px){
-     .side2-container-Faith{
-         left: 10% !important;
-     }
- }
+@media(max-width:732px){
+    .side2-container-Faith{
+        left: 3% !important;
+    }
+}
 
  @media (max-width:653px){
      .side2-container-Faith{
          width: 130px !important;
          height: 190px !important;
          left: 10% !important;
-         top: 800px !important;
+         top: -150px !important;
      }
  }
  @media (max-width:509px){
@@ -169,7 +170,7 @@
          
      }
      .side2-container-Faith{
-         top: 800px !important;
+         top: -70px !important;
      }
  }
  
