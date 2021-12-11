@@ -113,7 +113,7 @@
 @media (max-width:992px) {
     .wall2-container {
         left: 100% !important;
-        top: 40% !important;
+        top: 60% !important;
     }
     .img-container {
         position: relative !important;
@@ -121,8 +121,13 @@
     }
 
     .small2-container {
-        top: 80% !important;
+        top: 100% !important;
+        left: 210px !important;
 
+    }
+    .images-2{
+        position: relative;
+        top: -50px;
     }
 }
 
@@ -143,6 +148,7 @@
         width: 100px !important;
         height: 160px !important;
         top: 900px !important;
+        left: 20px !important;
 
     }
 }
@@ -170,15 +176,15 @@
     }
 
     .wall2-container {
-        width: 30% !important;
+        width: 20% !important;
         left: 80% !important;
-        top: 50% !important;
+        top: 70% !important;
     }
 
     .small2-container {
-        top: 80% !important;
+        top: 90% !important;
         width: 10% !important;
-        left: 55% !important;
+        left: 60% !important;
 
     }
 }
