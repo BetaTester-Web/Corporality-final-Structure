@@ -136,11 +136,13 @@
   top: 40px;
   margin-top: 50px !important;
 }
-@media (max-width: 1400px) {
-  /* .group5-Innovation {
-    top: 3000px;
-  } */
-}
+/* @media (min-width:1500px){
+  .cont-5-text-2-Innovation{
+    margin-right: 400px !important;
+    margin-left : 400px !important;
+  }
+} */
+
 
 @media (max-width: 1200px) {
   .cont-5-text-2-Innovation {

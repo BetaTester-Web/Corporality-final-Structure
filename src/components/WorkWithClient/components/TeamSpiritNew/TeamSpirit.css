@@ -320,6 +320,11 @@
   }
   .text_1_invirogating{
     left: -60%;
+    top: -10px;
+  }
+  .community_first_heading_text-Invirogating{
+    position: relative;
+    top: -20px;
   }
 }
 
@@ -388,6 +393,14 @@
 @media (max-width:768px) {
   .community_first_description-Invirogating{
     margin-right: -100px !important;
+  }
+  .text_1_invirogating{
+    left: -60%;
+    top: 0px;
+  }
+  .community_first_heading_text-Invirogating{
+    position: relative;
+    top: 0px;
   }
 }
 

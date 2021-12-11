@@ -21,6 +21,7 @@
 .COmbatinG {
   margin-top: -150px;
   position: relative;
+  margin-bottom: -100px;
 }
 
 .Combating_main {
@@ -171,6 +172,7 @@
   }
   .COmbatinG {
     margin-top: 0px;
+    margin-bottom: 0px;
   }
   .threeboxes_combat{
     left: 20px !important;
@@ -206,7 +208,7 @@
   }
 
   .Image_texting_2 {
-    padding-right: 50px;
+    padding-right: 0px;
   }
 
   .Image_texting_1 {
