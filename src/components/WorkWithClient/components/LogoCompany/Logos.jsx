@@ -11,7 +11,7 @@ import logo7 from '../LogoCompany/logo7.png'
 
 const Logos = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 });
+        aos.init({ duration: 3000 , disable: 'mobile' });
 
     }, [])
     return (
@@ -35,7 +35,7 @@ const Logos = () => {
                         <img data-aos="flip-left" data-aos-delay="3000" src={logo6} alt='' className='Logo-1-Partner logo-partner-6' />
 
                     </div>
-                    <div className="col-lg-1 last-logo d-flex justify-content-center align-items-center"> <img data-aos="flip-left" data-aos-delay="3500" src={logo7} alt='' className='Logo-1-Partner logo7ofpartner  ' /></div>
+                    <div className="col-lg-1 last-logo d-flex justify-content-center align-items-center"> <img data-aos="flip-left" data-aos-delay="3000" src={logo7} alt='' className='Logo-1-Partner logo7ofpartner  ' /></div>
                 </div>
             </div>
         </div>
