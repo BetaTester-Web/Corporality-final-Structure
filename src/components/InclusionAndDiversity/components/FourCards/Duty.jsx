@@ -10,8 +10,8 @@ const Duty = () => {
     <div className="Duty_Four">
       <div className="container d-flex flex-column ">
         <div className="row Row1_Duty_text_box d-flex flex-column">
-          <p className="Duty-row1-text-1">A duty without boundaries</p>
-          <p className="Duty-row1-text-2">
+          <p data-aos="fade-down" data-aos-delay="500" className="Duty-row1-text-1">A duty without boundaries</p>
+          <p data-aos="fade-down" data-aos-delay="1500" className="Duty-row1-text-2">
             Diversity is extremely powerful and at Corporality Global, our
             employees thrive in their roles and responsibilities. Here is how we
             view diversity in its glory
@@ -19,7 +19,7 @@ const Duty = () => {
         </div>
         <div className="row Duty-row-cards">
           <div className="col-xl-6 justify-content-center align-items-center">
-            <div className="Duty_images_card">
+            <div data-aos="fade-right" data-aos-delay="2000" className="Duty_images_card">
               <div className="Inc_Div_duty_card_img">
                 <div className="Inc_Div_duty_card_img_inner">
                   <img src={polygon1} alt="" />
@@ -36,7 +36,7 @@ const Duty = () => {
             </div>
           </div>
           <div className="col-xl-6 2-Card-whole-column justify-content-center align-items-center">
-            <div className="Duty_images_card Duty-images-card-2">
+            <div data-aos="fade-left" data-aos-delay="2500" className="Duty_images_card Duty-images-card-2">
               <div className="Inc_Div_duty_card_img">
                 <div className="Inc_Div_duty_card_img_inner">
                   <img src={polygon2} alt="" />
@@ -55,7 +55,7 @@ const Duty = () => {
         <div className="Duty_space"></div>
         <div className="row">
           <div className="col-xl-6 justify-content-center align-items-center">
-            <div className="Duty_images_card Duty-images-card-3">
+            <div data-aos="fade-right" data-aos-delay="3000" className="Duty_images_card Duty-images-card-3">
               <div className="Inc_Div_duty_card_img">
                 <div className="Inc_Div_duty_card_img_inner">
                   <img src={polygon4} alt="" />
@@ -74,7 +74,7 @@ const Duty = () => {
             </div>
           </div>
           <div className="col-xl-6 justify-content-center align-items-center">
-            <div className="Duty_images_card Duty-images-card-4">
+            <div data-aos="fade-left" data-aos-delay="3000" className="Duty_images_card Duty-images-card-4">
               <div className="Inc_Div_duty_card_img">
                 <div className="Inc_Div_duty_card_img_inner">
                   <img src={polygon3} alt="" />

@@ -21,6 +21,7 @@
 .COmbatinG {
   margin-top: -150px;
   position: relative;
+  margin-bottom: -100px;
 }
 
 .Combating_main {
@@ -125,12 +126,25 @@
   line-height: 28px;
   color: #757575;
 }
+
+@media(max-width:1486px){
+  .threeboxes_combat{
+    left: 15px !important;
+  }
+}
+
 @media (max-width: 1200px) {
   .Combating_texting_coloumn {
     position: relative;
     left: 10%;
   }
 }
+@media(max-width:1234px){
+  .threeboxes_combat{
+    left: -1px !important;
+  }
+}
+
 @media (max-width:1180px){
   .threeboxes_combat{
     left: 20px ;
@@ -139,6 +153,12 @@
 @media (max-width:1105px){
   .threeboxes_combat{
     left: 0px ;
+  }
+}
+
+@media(max-width:1064px){
+  .threeboxes_combat{
+    top: -130px;
   }
 }
 
@@ -152,6 +172,10 @@
   }
   .COmbatinG {
     margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .threeboxes_combat{
+    left: 20px !important;
   }
 }
 @media (max-width: 768px) {
@@ -184,7 +208,7 @@
   }
 
   .Image_texting_2 {
-    padding-right: 50px;
+    padding-right: 0px;
   }
 
   .Image_texting_1 {
@@ -208,7 +232,7 @@
     height: 160px !important;
   }
   .threeboxes_combat{
-    left: 10px !important;
+    left: 40px !important;
     top: -300px;
   }
 }

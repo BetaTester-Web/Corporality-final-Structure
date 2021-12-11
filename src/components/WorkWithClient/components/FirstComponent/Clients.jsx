@@ -11,7 +11,7 @@ import smallerrect from '../FirstComponent/smallerrect.png'
 
 const Clients = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 });
+        aos.init({ duration: 3000 , disable: 'mobile' });
 
     }, [])
     return (
@@ -31,7 +31,7 @@ const Clients = () => {
                     </div>
                     <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
                         <div data-aos="fade-left"  className="image-first-Clients">
-                            <img alt='' className='rect-Clients' src={rect} alt='' />
+                            <img alt='' className='rect-Clients' src={rect} />
                             <img alt='' className='wall-Clients' src={wall} />
                             <img alt='' className='smallrect-Clients' src={smallrect} />
                             <img alt='' className='backimg-Clients' src={Back} />

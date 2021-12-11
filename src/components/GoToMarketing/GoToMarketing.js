@@ -16,7 +16,7 @@ import { useMediaQuery } from "react-responsive";
 export default function GoToMarketing() {
     const showVector = useMediaQuery({ query: "(max-width: 1200px)" });
     return (
-        <div>
+        <div className="">
             <GTMComp1 />
             <GTMComp2 />
             <GTMComp3 />

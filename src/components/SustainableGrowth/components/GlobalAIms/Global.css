@@ -51,8 +51,8 @@
 
 .Linkedin_Sustaible_growth {
   position: absolute;
-  top: 29%;
-  left: 30%;
+  top: 5px;
+  left: 2px;
 }
 
 .global_link {
@@ -69,6 +69,10 @@
   color: #757575;
   margin-top: 5px;
   margin-left: 20px;
+}
+
+a{
+  text-decoration: none !important;
 }
 
 .social_icons2_Sustainable_growth {
@@ -112,7 +116,7 @@
 }
 @media(max-width:768px){
   .Global-text-1{
-    font-size: 20px !important;
+    font-size: 16px !important;
     line-height: 25px !important;
   }
   .Global-text-2{
