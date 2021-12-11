@@ -171,7 +171,7 @@
           transition-delay: 2.4s;
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1200px) {
   .gtm-comp-6 {
     font-size: 18px;
   }

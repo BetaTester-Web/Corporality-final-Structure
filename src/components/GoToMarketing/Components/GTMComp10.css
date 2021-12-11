@@ -1,6 +1,6 @@
 .gtm-comp10 {
   width: 100%;
-  max-width: 1920px;
+  max-width: 1200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -16,7 +16,7 @@
           align-items: center;
   overflow: hidden;
   max-height: 1000px;
-  margin-bottom: 50px;
+  margin: 0 auto 50px auto;
 }
 
 .gtm-comp10-main_container {
@@ -48,8 +48,8 @@
 }
 
 .gtm-comp10 .awareness_image img {
-  -webkit-transform: perspective(1px) translateZ(0);
-          transform: perspective(1px) translateZ(0);
+  -webkit-transform: perspective(1px) translateZ(0) !important;
+          transform: perspective(1px) translateZ(0) !important;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
