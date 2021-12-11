@@ -32,6 +32,11 @@
   width: 100%;
 }
 
+.gtm-comp-6-head h1 {
+  font-size: 2em !important;
+  line-height: 2.2em !important;
+}
+
 .gtm-comp-6-head h2 {
   font-size: 2em;
   line-height: 2.2em;

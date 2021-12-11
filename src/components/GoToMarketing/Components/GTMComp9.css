@@ -16,6 +16,7 @@
   padding: 50px 0;
   position: relative;
   max-width: 1920px;
+  font-size: 1.2vw;
 }
 
 .gtm-comp9-head {
@@ -35,8 +36,8 @@
 
 .gtm-comp9-head h1 {
   max-width: 90%;
-  font-size: 2em;
-  line-height: 1.6em;
+  font-size: 2em !important;
+  line-height: 1.6em !important;
   color: #3C708E;
   font-weight: bold;
   text-transform: uppercase;
@@ -55,7 +56,7 @@
 
 .gtm-comp9-body {
   width: 100%;
-  background: url(./images/comp-9/comp-9-vector.png) no-repeat center center;
+  background: url(./images/comp-9/comp-9-vector.png) no-repeat center;
   height: auto;
   z-index: 1;
 }
@@ -84,7 +85,7 @@
 }
 
 .gtm-comp9-body > div:last-child {
-  margin: -2% 0 0% 0;
+  margin: -2% 0 0% -4.4%;
 }
 
 .gtm-comp9-body-vector {
@@ -105,6 +106,13 @@
   height: 250px;
   width: 250px;
   margin: 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.gtm-comp9-body-vector:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .gtm-comp9-body-vector-img {
@@ -144,6 +152,91 @@
   line-height: 1.5em;
   text-align: center;
   max-width: 200px;
+}
+
+@media only screen and (max-width: 992px) {
+  .gtm-comp9 {
+    font-size: 1.5vw !important;
+  }
+  .gtm-comp9-head {
+    width: 80%;
+  }
+  .gtm-comp9-body div {
+    margin: 2% 0 0 0 !important;
+  }
+  .gtm-comp9-body-vector {
+    height: 200px;
+    width: 200px;
+  }
+  .gtm-comp9-body-vector-img {
+    height: 100px;
+    width: 100px;
+  }
+  .gtm-comp9-body-vector-img img {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  .gtm-comp9 {
+    font-size: 1.9vw !important;
+  }
+  .gtm-comp9-head {
+    width: 80%;
+  }
+  .gtm-comp9-body-vector {
+    height: 190px;
+    width: 190px;
+  }
+  .gtm-comp9-body-vector-img {
+    height: 100px;
+    width: 100px;
+  }
+  .gtm-comp9-body-vector-img img {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .gtm-comp9 {
+    font-size: 2.2vw !important;
+  }
+  .gtm-comp9-head {
+    width: 75%;
+  }
+  .gtm-comp9-body-vector {
+    height: 180px;
+    width: 180px;
+  }
+  .gtm-comp9-body-vector-img {
+    height: 90px;
+    width: 90px;
+  }
+  .gtm-comp9-body-vector-img img {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .gtm-comp9 {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    font-size: 2.6vw !important;
+  }
+  .gtm-comp9-head {
+    width: 70%;
+  }
+  .gtm-comp9-body-vector {
+    height: 150px;
+    width: 150px;
+  }
+  .gtm-comp9-body-vector-img {
+    height: 80px;
+    width: 80px;
+  }
+  .gtm-comp9-body-vector-img img {
+    padding: 5px;
+  }
 }
 
 .gtm-comp9-wrapper {

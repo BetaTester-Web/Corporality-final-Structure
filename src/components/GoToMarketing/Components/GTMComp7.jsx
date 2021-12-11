@@ -20,7 +20,9 @@ const GTMComp7 = () => {
             <div data-aos="fade-left" data-aos-duration="2000" className="comp7-right">
                 <div>
                     <div className="moving-blue-bar"></div>
-                    <img src={img1} alt="" />
+                    <div className="gtm-comp7-img-wrapper">
+                        <img src={img1} alt="" />
+                    </div>
                     <div className="random-comp7-div"></div>
                 </div>
             </div>

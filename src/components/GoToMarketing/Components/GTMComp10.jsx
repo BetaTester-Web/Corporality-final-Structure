@@ -62,7 +62,7 @@ const GTMComp10 = () => {
     return (
         <div className="gtm-comp10">
             <div className="gtm-comp10-main_container">
-                <div className="awareness">
+                {/* <div className="awareness"> */}
                     <ul className="awareness_text_upper">
                         <li>AWARENESS</li>
                         <li>EDUCATION</li>
@@ -159,7 +159,7 @@ const GTMComp10 = () => {
                         <li className="li7">#LTV</li>
                     </ul>
                 </div>
-            </div>
+            {/* </div> */}
         </div>
     )
 }

@@ -14,11 +14,11 @@ const GTMComp9 = () => {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                var textWrapper = headRef.current;
+                var textWrapper = document.querySelector('.gtm-comp9-head h1');
                 textWrapper.classList.add('two');
             }
             else {
-                var textWrapper = headRef.current;
+                var textWrapper = document.querySelector('.gtm-comp9-head h1');
                 if(textWrapper){
                     textWrapper.classList.remove('two');
                 }
@@ -29,9 +29,8 @@ const GTMComp9 = () => {
     
 
     useEffect(()=>{
-        console.log("fuck")
-        observer.observe(headRef.current);
-    })
+        observer.observe(document.querySelector('.gtm-comp9-head'));
+    },[])
     return (
         <div className="gtm-comp9">
             <div class="gtm-comp9-wrapper">
@@ -51,15 +50,15 @@ const GTMComp9 = () => {
 
             <div ref={containerRef} className="gtm-comp9-head">
                 <h1 ref={headRef} data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" class="animate">
-                    <span>W</span><span>I</span><span>N</span><span>N</span><span>I</span><span>N</span><span>G</span>&nbsp;
-                    <span>P</span><span>R</span><span>E</span>&nbsp;
-                    <span>S</span><span>A</span><span>L</span><span>E</span><span>S</span>&nbsp;
-                    <span>P</span><span>R</span><span>O</span><span>C</span><span>E</span><span>S</span><span>S</span><span>E</span><span>S</span>&nbsp;
-                    <span>T</span><span>H</span><span>A</span><span>T</span>&nbsp;
-                    <span>I</span><span>M</span><span>P</span><span>A</span><span>C</span><span>T</span>&nbsp;
-                    <span>Y</span><span>O</span><span>U</span><span>R</span>&nbsp;
-                    <span>P</span><span>R</span><span>O</span><span>D</span><span>U</span><span>C</span><span>T</span>&nbsp;
-                    <span>S</span><span>A</span><span>L</span><span>E</span><span>S</span>&nbsp;
+                    <span>WINNING</span>&nbsp;
+                    <span>PRE</span>&nbsp;
+                    <span>SALES</span>&nbsp;
+                    <span>PROCESS</span>&nbsp;
+                    <span>THAT</span>&nbsp;
+                    <span>IMPACT</span>&nbsp;
+                    <span>YOUR</span>&nbsp;
+                    <span>PRODUCT</span>&nbsp;
+                    <span>SALES</span>&nbsp;
                 </h1>
                 {/* <h2>
                     Winning Pre Sales Processes that impact your Product sales
