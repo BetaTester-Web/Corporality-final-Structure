@@ -168,6 +168,7 @@ color: #232323;
   }
 .images-prev-3-Multi{
     position: relative;
+    top: 10%;
 }
 .back3-Multi{
     position: absolute;
@@ -215,6 +216,13 @@ color: #232323;
         left: 100% !important;
     }
 }
+
+@media(max-width:1084px){
+    .images-prev-3-Multi{
+        left: 40px ;
+    }
+}
+
 @media (max-width:992px){
   
     .third-Multi{
@@ -222,6 +230,9 @@ color: #232323;
     }
     .texting-third-Multi{
         padding-top: 230px;
+    }
+    .images-prev-3-Multi{
+        top: 50px;
     }
 }
 
@@ -248,12 +259,7 @@ color: #232323;
         line-height: 20px;
     }
 }
-@media (max-width:800px){
-    .third-image-Multi{
-        position: relative;
-        left: 60px;
-    }
-}
+
 @media (max-width:634px){
     .bp_iwfc_img-Multi{
         width: 230px;
@@ -274,7 +280,7 @@ color: #232323;
     }
     .third-image-Multi{
         position: relative;
-        left: 80px;
+        left: 40px;
     }
     .wall3-Multi{
         width: 80px;
@@ -284,5 +290,12 @@ color: #232323;
         width: 40px;
         left: -130px;
         top: 40px;
+    }
+}
+
+@media(max-width:421px){
+    .third-image-Multi{
+        position: relative;
+        left: 30px;
     }
 }

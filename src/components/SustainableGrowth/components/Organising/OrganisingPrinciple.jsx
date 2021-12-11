@@ -30,7 +30,7 @@ const OrganisingPrinciple = () => {
                     </div>
                     <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
                         <div data-aos="fade-left" className="image-first-Op">
-                            <img alt='' className='rect-Op' src={rect} alt='' />
+                            <img alt='' className='rect-Op' src={rect} />
                             <img alt='' className='wall-Op' src={wall} />
                             <img alt='' className='smallrect-Op' src={smallrect} />
                             <img alt='' className='backimg-Op' src={Back} />
