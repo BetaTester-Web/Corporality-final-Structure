@@ -329,6 +329,9 @@ button-4{
         left: -450%;
     }
     .images-prev-3{
-        left: 10%;
+        left: 3%;
+    }
+    .third{
+        padding-top: 400px;
     }
 }
