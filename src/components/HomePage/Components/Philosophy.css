@@ -42,7 +42,7 @@
 
 .philosophyContainer .philosophyHead hr {
   margin: 0px 0px 0px 0px !important;
-  width: 10vw;
+  width: 6vw;
   height: 5px;
   background-color: #A06DAF;
   color: #A06DAF !important;
@@ -254,7 +254,7 @@
     font-size: 1.5vw !important;
   }
   .philosophyContainer hr {
-    width: 16vw !important;
+    height: 4px !important;
   }
   .philosophyContainer .philosophyBody {
     -webkit-box-orient: vertical !important;

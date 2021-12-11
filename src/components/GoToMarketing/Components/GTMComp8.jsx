@@ -27,24 +27,23 @@ const GTMComp8 = () => {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                var textWrapper = headRef.current;
+                var textWrapper = document.querySelector('.gtm-comp8-container .strategy_section h1');
                 textWrapper.classList.add('two');
             }
             else {
-                var textWrapper = headRef.current;
+                var textWrapper = document.querySelector('.gtm-comp8-container .strategy_section h1');
                 textWrapper.classList.remove('two');
             }
         })
     })
     useEffect(()=>{
-        observer.observe(ref.current);
+        observer.observe(document.querySelector('.gtm-comp8-container .strategy_section'));
     },[])
     return (
         <div className="gtm-comp8-container">
         <div ref={ref} className="strategy_section" style={{ paddingTop: '80px', paddingBottom: '60px' }}>
             <div className="main_container_strategy">
-                <h1 ref={headRef} className="animate"><span>P</span><span>r</span><span>o</span><span>d</span><span>u</span><span>c</span><span>t</span>&nbsp;
-                    <span>S</span><span>t</span><span>r</span><span>a</span><span>t</span><span>e</span><span>g</span><span>y</span></h1>
+                <h1 ref={headRef} className="animate"><span>Product</span>&nbsp;&nbsp;<span>Strategy</span></h1>
                 <div data-aos="fade-down" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay="1000">
                     <p>A product planning to launch, your strategy can make or break the product perception. Pitching your product perception to your Buyer’s Persona is critical to the success of your Idea and close to a sale in a persuasive way. More importantly scaling your client portfolio is all dependent upon perception - would you agree?</p>
                 </div>

@@ -1,11 +1,15 @@
-import React, { createRef, useEffect, useRef } from "react";
+import React, { createRef, useEffect, useRef, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./Services2.css";
 import ellipse_1 from "./images/ellipse_1.png";
 import vector_1 from "./images/vector_1.png";
+import { useNavigate } from "react-router";
 
 function Services() {
+  const [learn, setLearn] = useState(1);
+  const navigate = useNavigate();
+
   const showOneButton = (ele) => {
     const buttons = document.querySelectorAll(".button_main");
     ele.classList.add("button_active");
@@ -16,6 +20,7 @@ function Services() {
     }
   };
   const showOneDiv = (index) => {
+    setLearn(index);
     document.querySelector(
       `.points_container:nth-child(${index})`
     ).style.display = "block";
@@ -32,9 +37,22 @@ function Services() {
     showOneDiv(index);
   };
 
+  const learnMoreHandler = () => {
+    switch(learn){
+      case 1: navigate("/go-to-marketing"); break;
+      case 2: navigate("/digital-media-marketing"); break;
+      case 3: navigate("/strategic-consultancy"); break;
+      case 4: navigate("/corporate-strategy"); break;
+      case 5: navigate("/sustainable-growth"); break;
+      case 6: navigate("/brand-positioning"); break;
+      case 7: navigate("/cxo-strategy"); break;
+      default: break;
+    }
+  }
+
   useEffect(() => {
     Aos.init();
-  });
+  },[]);
 
   return (
     <div className="services_container_parent">
@@ -456,7 +474,7 @@ function Services() {
                 </div>
               </div>
 
-              <div className="right_content_button">
+              <div className="right_content_button" onClick={learnMoreHandler}>
                 <div className="bottom_button_text">Learn More</div>
                 <div className="bottom_button_circle">
                   <img src={ellipse_1} alt="Click Here" />

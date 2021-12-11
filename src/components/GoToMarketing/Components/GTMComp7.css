@@ -123,7 +123,23 @@
           transform: rotate(45deg);
 }
 
-.gtm-comp7-container .comp7-right div img {
+.gtm-comp7-container .comp7-right div .gtm-comp7-img-wrapper {
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  width: 90%;
+  height: 90%;
+  position: absolute;
+}
+
+.gtm-comp7-container .comp7-right div .gtm-comp7-img-wrapper:hover img {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.gtm-comp7-container .comp7-right div .gtm-comp7-img-wrapper img {
   position: absolute;
   top: 0;
   left: 0;
@@ -149,14 +165,28 @@
 
 .gtm-comp7-container .comp7-right div .random-comp7-div {
   position: absolute;
-  height: 15%;
+  height: 100%;
   width: 15%;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  -webkit-transform: rotate(90deg) translateX(-50%);
+          transform: rotate(90deg) translateX(-50%);
+  bottom: -80%;
+  left: 42%;
+}
+
+.gtm-comp7-container .comp7-right div .random-comp7-div::after {
+  content: "";
+  position: absolute;
+  height: 15%;
+  width: 100%;
   background: -webkit-gradient(linear, left bottom, left top, from(#E5CC5C), to(rgba(255, 255, 255, 0)));
   background: linear-gradient(0deg, #E5CC5C 0%, rgba(255, 255, 255, 0) 100%);
-  left: 30%;
-  bottom: -40%;
+  bottom: 45%;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.gtm-comp7-container .comp7-right div .random-comp7-div:hover::after {
+  bottom: 10%;
 }
 
 @media only screen and (min-width: 1920px) {
