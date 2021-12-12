@@ -8,6 +8,7 @@ import right from "./images/right.png";
 function WorldMap() {
   useEffect(() => {
     Aos.init();
+    Aos.init({ disable: "mobile" });
   });
 
   return (

@@ -121,7 +121,7 @@
 
 @media only screen and (max-width: 800px) {
   .quote_container {
-    margin-top: 600px !important;
+    margin-top: 100px !important;
     margin-bottom: 380px !important;
   }
 
@@ -149,7 +149,7 @@
 
 @media only screen and (max-width: 480px) {
   .quote_container {
-    margin-top: 400px !important;
+    margin-top: 100px !important;
   }
 
   .box_image {

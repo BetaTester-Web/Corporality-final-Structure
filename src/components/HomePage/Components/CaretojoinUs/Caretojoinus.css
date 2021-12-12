@@ -17,6 +17,7 @@
   padding-left: 120px !important;
   padding-right: 200px !important;
   padding-bottom: 10px !important;
+  z-index: 3;
 }
 
 .caretojoinus_heading {
