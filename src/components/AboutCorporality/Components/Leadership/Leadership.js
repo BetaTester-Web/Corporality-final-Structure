@@ -9,6 +9,7 @@ import "./Leadership.css";
 function Leadership() {
   useEffect(() => {
     Aos.init();
+    Aos.init({ disable: "mobile" });
   });
 
   return (
