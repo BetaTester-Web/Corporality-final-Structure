@@ -8,13 +8,19 @@
 }
 
 .GTMComp2a .laptopImage{
-    border: 1px solid red;
     position: absolute;
     left: 0;
     height: 450px;
+}
+
+.GTMComp2a .laptopImage .hyperImage{
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
     background: url(../images/laptop.png) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
 }
 
 .GTMComp2a .laptopImage:after {
@@ -59,12 +65,15 @@
     .GTMComp2a .laptopImage {
         position: static;
         width: 90%;
-        border-top-right-radius: 0px;
-        border-bottom-right-radius: 0px;
-        border-radius: 20px;
         height: 300px;
         margin-left: auto;
         margin-right: auto;
+    }
+    
+    .GTMComp2a .laptopImage .hyperImage{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-radius: 20px;
     }
 
     .GTMComp2a .laptopImage:after{

@@ -6,14 +6,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import 'bootstrap/dist/js/bootstrap.min.js';
 
 function GTMComp2a() {
+    useEffect(() => {
+        Aos.init();
+    });
     return (
         <div className="GTMComp2a">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-5 col-12 laptopImage">
-
+                    <div data-aos-duration="2000" data-aos="fade-right" className="col-lg-5 col-12 laptopImage">
+                        <div className="hyperImage"></div>
                     </div>
-                    <div className="col-lg-7 col-12 d-flex align-items-center justify-content-center flex-column text-start">
+                    <div data-aos-duration="2000" data-aos="fade-left" className="col-lg-7 col-12 d-flex align-items-center justify-content-center flex-column text-start">
                         <div className="heading mb-lg-0 mb-3">
                             FINDING NEW WAYS TO BRINGING PRODUCTS AND SERVICES TO THE MARKET
                         </div>
