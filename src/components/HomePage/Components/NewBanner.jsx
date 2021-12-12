@@ -20,11 +20,12 @@ const NewBanner = () => {
                 }else{
                     return 1;
                 }});
-          }, 3000);
+          }, 4000);
     }, [])
     return (
         <div className="bannerContainer">
             <video className="bannerVideo" src="/img/HomePage/media/banner-vid-latest.mp4" type="video/mp4" loop autoPlay muted></video>
+            <div className='maxContainer'>
             <div className="leftBannerContainer">
                 <div className="leftIndicators">
                     {/* <div>{indicatorId}</div> */}
@@ -99,6 +100,7 @@ const NewBanner = () => {
             </div>
             <img src="/img/HomePage/media/random-square.png" alt="" className="square-1" />
             <img src="/img/HomePage/media/random-square-1.png" alt="" className={`square-2 ${indicatorId===1 ? "": "square-2-diff"}`} />
+            </div>
         </div>
     )
 }

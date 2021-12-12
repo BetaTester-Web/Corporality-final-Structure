@@ -16,10 +16,10 @@
   padding: 3% 0%;
   margin: 0 auto;
   font-size: 1.2vw;
-  max-width: 1920px;
 }
 
 .portfolioContainer .portfolioHead {
+  max-width: 1920px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -52,6 +52,7 @@
 }
 
 .portfolioContainer .portfolioBody {
+  max-width: 1920px;
   -webkit-box-flex: 85%;
       -ms-flex: 85%;
           flex: 85%;
@@ -203,10 +204,14 @@
 
 @media only screen and (min-width: 1920px) {
   .portfolioContainer {
+    padding: 60px 0px !important;
     font-size: 17px;
   }
   .portfolioContainer hr {
-    max-width: 150px;
+    max-width: 95px;
+  }
+  .portfolioContainer .portfolioBody {
+    margin-top: 30px !important;
   }
 }
 

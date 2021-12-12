@@ -52,7 +52,7 @@
 }
 
 .gtm-comp7-container .comp7-left div {
-  margin-top: 7%;
+  margin-top: 6%;
   color: white;
   padding: 8px 15px;
   background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%);
@@ -75,6 +75,8 @@
   z-index: 1;
   cursor: pointer;
   font-size: 0.875em;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .gtm-comp7-container .comp7-left div::after {
@@ -89,6 +91,11 @@
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   background: linear-gradient(95.12deg, #6CA0BC 0%, #EED979 83.42%);
+}
+
+.gtm-comp7-container .comp7-left div:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
 }
 
 .gtm-comp7-container .comp7-left div:hover::after {

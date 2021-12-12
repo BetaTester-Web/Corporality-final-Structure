@@ -38,7 +38,7 @@ const GTMComp8 = () => {
     })
     useEffect(()=>{
         observer.observe(document.querySelector('.gtm-comp8-container .strategy_section'));
-    },[])
+    })
     return (
         <div className="gtm-comp8-container">
         <div ref={ref} className="strategy_section" style={{ paddingTop: '80px', paddingBottom: '60px' }}>

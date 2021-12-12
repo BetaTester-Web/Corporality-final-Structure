@@ -10,7 +10,7 @@ const NewPortfolio = () => {
             </div>
             <div className="portfolioBody">
                 <div data-aos="flip-left" className="portfolioSection">
-                    <img src="/img/Homepage/media/divine-intercession.png" alt="" className="portfolioSectionImg" />
+                    <img src="/img/HomePage/media/divine-intercession.png" alt="" className="portfolioSectionImg" />
                     <div className="portfolioFloatingDiv">
                         <h4>Divine Intercession</h4>
                         <p>Creating high-quality solutions
