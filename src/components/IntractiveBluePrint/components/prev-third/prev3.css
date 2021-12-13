@@ -2,6 +2,7 @@
     overflow: hidden;
     padding-bottom: 10px;
     background-color: #F8F8F8;
+    position: relative;
     /* overflow-x: hidden; */
 }
 .contoiner-3{
@@ -25,6 +26,9 @@
     
     color: #3C708E;
     
+}
+.icon1-blueprint {
+    margin-top: 6px;
 }
 .container-3_text-2_heading{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
@@ -155,7 +159,7 @@
     width: 155px;
    height: 42px;
    display: flex;
-   margin-left: 50px;
+   margin-left: 68px;
    margin-bottom: 85px;
    margin-top: 30px;
    justify-content: center;
@@ -202,8 +206,8 @@ color: #232323;
 }
 .small3{
     position: absolute;
-    left: -150px;
-    top: 90px;
+    left: -240px;
+    top: 0px;
    
 }
 .smaller3{
@@ -234,6 +238,12 @@ button-4{
         }
     }
 
+@media(max-width:1107px){
+    .images-prev-3{
+        left: 10%;
+    }
+}
+
 @media (max-width:992px){
   
     .third{
@@ -241,6 +251,9 @@ button-4{
     }
     .texting-third{
         padding-top: 230px;
+    }
+    .images-prev-3{
+        left: 0%;
     }
 }
 @media (max-width:800px){
@@ -275,6 +288,9 @@ button-4{
         margin-right: 0px;
         font-size: 12px;
     }
+    .images-prev-3{
+        margin-top: 100px;
+    }
 }
 
 @media (max-width:634px){
@@ -304,8 +320,8 @@ button-4{
     }
     .small3{
         width: 40px;
-        left: -150px;
-        top: 50px;
+        left: -190px;
+       
     }
 }
 
@@ -325,13 +341,14 @@ button-4{
         left: -10%;
     }
     .small3{
-        width: 100%;
-        left: -450%;
+        left: -190px;
+        top: -10px;
     }
     .images-prev-3{
         left: 3%;
     }
     .third{
-        padding-top: 400px;
+        top: 50px;
     }
+
 }

@@ -53,7 +53,7 @@ const Duty = () => {
           </div>
         </div>
         <div className="Duty_space"></div>
-        <div className="row">
+        <div className="row second_row_incl">
           <div className="col-xl-6 justify-content-center align-items-center">
             <div data-aos="fade-right" data-aos-delay="3000" className="Duty_images_card Duty-images-card-3">
               <div className="Inc_Div_duty_card_img">
@@ -62,7 +62,7 @@ const Duty = () => {
                 </div>
               </div>
               <div className="Duty_card_text_3 ">
-                <p className="Duty_card_text_1_heading">
+                <p className="Duty_card_text_1_heading dutyText-3-card-heading">
                   Persons with disabilities
                 </p>
                 <p className="Duty_card_text_2_Description">

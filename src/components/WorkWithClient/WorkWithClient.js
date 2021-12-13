@@ -8,11 +8,13 @@ import LogoText from './components/LogoText/LogoText'
 import NewsLetter from './components/NewsLetter/NewsLetter'
 import TeamSpiritNew from './components/TeamSpiritNew/TeamSpirit'
 import Ideation from './components/ThirdComponent/Ideation'
+import VideoClients from './components/VideoComponent/VideoClients'
 
 const WorkWithClient = () => {
     return (
         <div>
             <Clients />
+            {/* <VideoClients /> */}
             <Combating />
             <Ideation />
             <Limitless />

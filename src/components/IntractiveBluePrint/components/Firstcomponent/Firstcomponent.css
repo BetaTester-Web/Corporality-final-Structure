@@ -1,3 +1,37 @@
+.cards_interactiveBlueprint {
+  padding-top: 80px;
+}
+
+.cards_text_iB_heading {
+  font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’,
+    ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #3C708E;
+  padding-right: 300px !important;
+  padding-left: 300px !important;
+}
+
+.cards_text_iB_description {
+  font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’,
+    ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  padding-right: 300px !important;
+  padding-left: 300px !important;
+
+  text-align: center;
+}
+
+
 .interactive_card1,
 .interactive_card2,
 .interactive_card3,
@@ -19,6 +53,10 @@
   padding-right: 53px;
   transition: all 0.2s linear;
 
+}
+.card-1-blueprint-interactive{
+  position: relative;
+  top: -10px;
 }
 
 .interactive_card1:hover,
@@ -68,7 +106,7 @@
 }
 
 .interactive_cards {
-  margin: 50px 0 !important;
+  margin: -50px 0 !important;
 }
 
 .interactive_cards {
@@ -103,16 +141,40 @@
 .interactive_card6 {
   grid-area: 2 / 3 / 3 / 4;
 }
-@media only screen and (max-width: 992px){
-  .interactive_card1,
-.interactive_card2,
-.interactive_card3,
-.interactive_card4,
-.interactive_card5,
-.interactive_card6{
-  padding-left: 10px;
-  padding-right: 10px;
+
+@media(max-width:1400px) {
+  .cards_text_iB_heading {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
+  .cards_text_iB_description {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
 }
+
+@media only screen and (max-width: 992px) {
+
+  .interactive_card1,
+  .interactive_card2,
+  .interactive_card3,
+  .interactive_card4,
+  .interactive_card5,
+  .interactive_card6 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .cards_text_iB_heading {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+
+  .cards_text_iB_description {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -123,6 +185,19 @@
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
+  }
+
+  .cards_text_iB_heading {
+    font-size: 16px !important;
+    line-height: 22px;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  .cards_text_iB_description {
+    font-size: 14px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 
   .interactive_card1 {
@@ -148,10 +223,12 @@
   .interactive_card6 {
     grid-area: 3 / 2 / 4 / 3;
   }
-  .interactive_card_text{
+
+  .interactive_card_text {
     font-size: 14px;
   }
-  .interactive_card_heading{
+
+  .interactive_card_heading {
     font-size: 20px;
   }
 }

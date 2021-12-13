@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     padding-top: 150px;
-    left: 10%;
+    left: 3%;
 }
 
 .yellowbackground_Inclusion {
@@ -136,6 +136,12 @@
 @media(max-width:1200px) {
     .image-first-Id {
         left: -30%;
+    }
+}
+
+@media(max-width:1237px){
+    .text-box-1-Id{
+        left: 10%;
     }
 }
 

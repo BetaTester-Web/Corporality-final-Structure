@@ -5,7 +5,7 @@ import career from '../CareerImage/Career.png'
 
 const Career = () => {
     return (
-        <div className='career-image-container'>
+        <div className='zcareer-image-container'>
             <img data-aos="flip-right" src = {career} alt='' className='career-fluid-card' />
             <img  src={background} alt='' className=' img-fluid image-career' />
             

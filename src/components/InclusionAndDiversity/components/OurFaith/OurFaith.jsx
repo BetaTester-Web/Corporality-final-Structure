@@ -9,28 +9,30 @@ import main2 from '../OurFaith/main.png'
 
 const OurFaith = () => {
     return (
-        <div className='OurFaith'>
+        <div className='OurFaith container-second-ourfaith'>
             <img className='side2-container-Faith' src={side2} alt='' />
-            <div className="container container-second-ourfaith">
-                <div className="row">
-                    <div className="col-lg-6 imaging-2-Faith d-flex justify-content-center align-items-center flex-column">
-                        <div className="images-2-Faith">
-                            <img className='wall2-container-Faith' src={wall2} alt='' />
-                            
-                            <img className='small2-container-Faith' src={small2} alt='' />
-                            <div className="img-container-Faith">
-                                <div className="hoverinit-Faith Inc_Div_our-faith-main-img-Faith">
-                                    <div alt="" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="10">
-                                        <img className='main2-Faith ' src={main2} alt='' />
+            <div className="container ">
+                <div className="">
+                    <div className="row">
+                        <div className="col-lg-6 imaging-2-Faith d-flex justify-content-center align-items-center flex-column">
+                            <div className="images-2-Faith">
+                                <img className='wall2-container-Faith' src={wall2} alt='' />
+
+                                <img className='small2-container-Faith' src={small2} alt='' />
+                                <div className="img-container-Faith">
+                                    <div className="hoverinit-Faith Inc_Div_our-faith-main-img-Faith">
+                                        <div alt="" data-aos="fade-up-right" data-aos-duration="2000" data-aos-delay="10">
+                                            <img className='main2-Faith ' src={main2} alt='' />
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-lg-6 texting-2-Faith">
-                        <p data-aos="fade-left" className='prev-2-text-1-Faith'>Our Faith</p>
-                        <p data-aos="fade-left" className='prev-2-text-2-Faith'>Corporality Global sets high standards in ethics and integrity. As a leading digital marketing consulting firm in Sydney, we are committed to inclusion and diversity and believe in equal opportunities. We are regulated by our deep-rooted value-based principles, which also enable us to exceed our clients’ expectations. Our employee policies and programmes reinforce the need for inclusion, thus unleashing a spate of innovation driven by ethnicity, culture and backgrounds. Diversity is extremely powerful and the more the multiplicity, the better the creativity. Our human resources programmes have helped us gather a plethora of skills, knowledge and experiences that have a huge impact on business and expansion, in the long run. Corporality Global gives everyone a chance to win thus encouraging constructive communication, brainstorming and teambuilding, leading to the development of new ideas and in turn, happier employees
-</p>
+                        <div className="col-lg-6 texting-2-Faith">
+                            <p data-aos="fade-left" className='prev-2-text-1-Faith'>Our Faith</p>
+                            <p data-aos="fade-left" className='prev-2-text-2-Faith'>Corporality Global sets high standards in ethics and integrity. As a leading digital marketing consulting firm in Sydney, we are committed to inclusion and diversity and believe in equal opportunities. We are regulated by our deep-rooted value-based principles, which also enable us to exceed our clients’ expectations. Our employee policies and programmes reinforce the need for inclusion, thus unleashing a spate of innovation driven by ethnicity, culture and backgrounds. Diversity is extremely powerful and the more the multiplicity, the better the creativity. Our human resources programmes have helped us gather a plethora of skills, knowledge and experiences that have a huge impact on business and expansion, in the long run. Corporality Global gives everyone a chance to win thus encouraging constructive communication, brainstorming and teambuilding, leading to the development of new ideas and in turn, happier employees
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

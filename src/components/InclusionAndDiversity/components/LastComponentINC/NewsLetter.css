@@ -1,7 +1,7 @@
 .second-Ns {
     background-color: #6CA0BC;
     overflow: hidden;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .container-2-text-2-Ns {
@@ -205,6 +205,12 @@
     top: -60px;
 }
 
+@media(max-width:1524px){
+    .rect-2-4-Ns{
+        right: 50px;
+    }
+}
+
 @media (max-width: 1400px) {
     .rect-2-4-Ns {
         position: absolute;
@@ -223,7 +229,7 @@
         left: -220%;
     }
     .rect-2-1-Ns{
-        top: -20%;
+        top: -40%;
     }
     .textndlists-Ns{
         position: relative;
@@ -246,7 +252,7 @@
         left: 10%;
     }
     .rect-2-1-Ns{
-        top: -30%;
+        top: -40%;
     }
     .rect-2-2-Ns{
         left: -10%;
@@ -330,11 +336,15 @@
         margin-right: 20px;
         font-size: 24px;
     }
+    .rect-2-1-Ns{
+        display: none;
+    }
 }
 
 @media (max-width:490px) {
     .mainndback-4-Ns {
         left: 18%;
+        top: -50%;
     }
 
     .container-2-text-1-Ns {

@@ -1,6 +1,6 @@
 .prev2 {
     margin-bottom: 200px !important;
-    margin-top: -400px !important;
+    margin-top: -300px !important;
 }
 
 .hoverinit .main2 {
@@ -61,8 +61,8 @@
 
 .side2-container {
     position: absolute !important;
-    left: 3% !important;
-    top: 480px !important;
+    left: 7% !important;
+    top: 530px !important;
 }
 
 .prev-2-text-1 {
@@ -186,5 +186,14 @@
         width: 10% !important;
         left: 60% !important;
 
+    }
+    .side2-container{
+        top: 650px !important;
+    }
+}
+
+@media(max-width:427px){
+    .side2-container{
+        top: 600px !important;
     }
 }

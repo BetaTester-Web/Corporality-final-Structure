@@ -40,8 +40,8 @@ const Prev3 = () => {
                     <div className="col-lg-6 texting-third">
 
                         <div data-aos="fade-up" data-aos-delay="500" className="textndicon">
-                            <div className="icon">
-                                <img alt='' className='icon1' src={favicon0} />
+                            <div /* className="icon-blueprint" */>
+                                <img alt='' className='icon1-blueprint' src={favicon0} />
                             </div>
                             <div className="text-box-3">
                                 <p className='container-3_text-1_heading'>Going beyond mere publishing goals</p>
@@ -49,8 +49,8 @@ const Prev3 = () => {
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1000" className="textndicon">
-                            <div className="icon">
-                                <img alt='' className='icon1' src={favicon1} />
+                            <div /* className="icon-blueprint" */>
+                                <img alt='' className='icon1-blueprint' src={favicon1} />
                             </div>
                             <div className="text-box-3">
                                 <p className='container-3_text-2_heading'>We eliminate all guess works and make room for limitless growth</p>
@@ -58,8 +58,8 @@ const Prev3 = () => {
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1500" className="textndicon">
-                            <div className="icon">
-                                <img alt='' className='icon1' src={favicon2} />
+                            <div /* className="icon-blueprint" */>
+                                <img alt='' className='icon1-blueprint' src={favicon2} />
                             </div>
                             <div className="text-box-3">
                                 <p className='container-3_text-3_heading'>Telling stories that make a difference</p>
@@ -67,17 +67,19 @@ const Prev3 = () => {
                             </div>
                         </div>
                         <div data-aos="fade-up" data-aos-delay="2000" className="textndicon">
-                            <div className="icon">
-                                <img alt='' className='icon1' src={favicon3} />
+                            <div /* className="icon-blueprint" */>
+                                <img alt='' className='icon1-blueprint' src={favicon3} />
                             </div>
                             <div className="text-box-3">
                                 <p className='container-3_text-3_heading'>CSR sustainability</p>
                                 <p className='container-3_text-3'>Viewing fair business practices, we are completely committed to local communities, where we recognise issues that matter to them and build strategies around the company’s core competencies.</p>
                             </div>
                         </div>
-                        <div data-aos-delay="2500" data-aos="fade-right" className="button-4">
-                            <a className='button-link' href="#">Learn More</a>
-                        </div>
+                        <a href=''>
+                            <div data-aos-delay="2500" data-aos="fade-right" className="button-4">
+                                <div className='button-link' href="#">Learn More</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>

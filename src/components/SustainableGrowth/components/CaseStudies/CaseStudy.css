@@ -11,8 +11,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  /* identical to box height, or 157% */
-
   color: #ffffff;
 }
 
@@ -22,8 +20,6 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  /* or 157% */
-
   margin-right: 180px;
   color: #ffffff;
 }
@@ -35,8 +31,6 @@
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
-  /* or 125% */
-
   color: #ffffff;
   z-index: 10;
 }
@@ -112,7 +106,6 @@
 }
 
 .bp_our-newsletter-polygon9-Cs {
-  /* position: relative; */
   position: relative;
   width: 250px;
   height: 250px;
@@ -120,7 +113,6 @@
   left: 30%;
   top: 66%;
   margin-top: -298px;
-
   overflow: hidden;
   transform: rotate(45deg);
 }
@@ -162,7 +154,7 @@
 
 .rect-2-1-Cs {
   position: absolute;
-  top: -35%;
+  top: -40%;
   left: -30%;
 }
 
@@ -250,23 +242,13 @@
 }
 
 @media (max-width: 576px) {
-  /* .mainndback-4-Cs{
-      flex-direction: column-reverse;
-    } */
   .interactive_blueprint-row-Cs {
     flex-direction: column-reverse;
   }
-
-  /* .mainndback-4-Cs{
-        margin-top: 220px;
-        left: -30%;
-    } */
-
   .textndlists-Cs {
     margin-top: 100px;
     left: 15%;
   }
-
   .rect-2-3-Cs {
     top: 720px;
   }
