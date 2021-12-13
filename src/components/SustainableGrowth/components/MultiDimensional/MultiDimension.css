@@ -182,8 +182,8 @@ color: #232323;
 }
 .small3-Multi{
     position: absolute;
-    left: -150px;
-    top: 90px;
+    left: -260px;
+    top: -10px;
 }
 .smaller3-Multi{
     position: absolute;
@@ -288,8 +288,8 @@ color: #232323;
     }
     .small3-Multi{
         width: 40px;
-        left: -130px;
-        top: 40px;
+        left: -205px;
+        top: -30px;
     }
 }
 

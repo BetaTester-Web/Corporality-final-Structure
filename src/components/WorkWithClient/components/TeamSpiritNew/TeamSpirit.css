@@ -260,33 +260,30 @@
   }
 }
 
+
 @media only screen and (max-width: 1118px) {
   .community_support_main-Invirogating {
     padding: 50px 30px !important;
+  }
+  .community_first_heading_arrow-Invirogating{
+    display: none;
+  }
+  .community_second_heading_arrow-Invirogating{
+    display: none;
   }
 
   .community_support_first-Invirogating {
     padding-left: 50px !important;
     padding-right: 200px !important;
-    margin-right: 300px !important;
+    margin-right: 200px !important;
     margin-left: 30px !important;
     left: 0%;
-  }
-  .community_first_heading_arrow-Invirogating{
-    position: absolute;
-    left: 59%;
-    top: 40px;
-  }
-  .community_second_heading_arrow-Invirogating{
-    position: absolute;
-    left: 30%;
-    top: 40px;
   }
 
   .community_support_second-Invirogating {
     padding-left: 210px !important;
     padding-right: 10px !important;
-    margin-right: 100px !important;
+    margin-right: 0px !important;
     margin-left: 160px !important;
     left: 0%;
   }
@@ -305,26 +302,16 @@
   }
 }
 
-@media (max-width:992px){
-  .community_first_heading_text-Invirogating{
-    margin-right: 0px !important;
+@media (max-width:992px) {
+  .community_first_heading_text-Invirogating {
+    margin-right: -60px !important;
   }
-  .community_first_heading_arrow-Invirogating{
-    display: none;
-  }
-  .community_second_heading_arrow-Invirogating{
-    display: none;
-  }
-  .community_first_description-Invirogating{
-    margin-right: -130px !important;
-  }
-  .text_1_invirogating{
-    left: -60%;
-    top: -10px;
-  }
-  .community_first_heading_text-Invirogating{
-    position: relative;
-    top: -20px;
+
+}
+
+@media only screen and (max-width: 914px) {
+  .text2_Invirogating {
+    left: 30% !important;
   }
 }
 
@@ -332,6 +319,11 @@
   .community_support_main-Invirogating {
     margin-top: 170px !important;
   }
+  .text2_Invirogating {
+    left: 10% !important;
+  }
+
+  
 
   .community_support_first-Invirogating,
   .community_support_second-Invirogating {
@@ -383,24 +375,11 @@
     top: -180px;
     left: 140px;
   }
-  .text_2_invirogating{
-    left: 0% !important;
-  }
-  .text_1_invirogating{
-    left: -20%;
-  }
 }
+
 @media (max-width:768px) {
-  .community_first_description-Invirogating{
-    margin-right: -100px !important;
-  }
-  .text_1_invirogating{
-    left: -60%;
-    top: 0px;
-  }
-  .community_first_heading_text-Invirogating{
-    position: relative;
-    top: 0px;
+  .community_first_description-Invirogating {
+    /* margin-right: 0px !important; */
   }
 }
 
@@ -430,10 +409,11 @@
   .community_support_main-Invirogating {
     margin-top: 120px !important;
   }
-  .text_1_invirogating{
-    position: relative;
-    left: 0% !important;
+  .text2_Invirogating {
+    position: relative !important;
+    left: 20% !important;
   }
+
 
   .community_support_first-Invirogating {
     padding-top: 150px !important;
@@ -442,9 +422,6 @@
     margin-right: 30px !important;
     margin-left: 30px !important;
     margin-bottom: 200px !important;
-  }
-  .community_first_heading_text-Invirogating{
-    margin-right: 100px !important;
   }
 
   .community_support_second-Invirogating {
@@ -455,9 +432,21 @@
     margin-left: 30px !important;
   }
 
-  .community_top_image-Invirogating > img {
+  .community_first_heading_text-Invirogating {
+    margin-right: 60px !important;
+  }
+
+  .community_first_description-Invirogating {
+    margin-right: 60px !important;
+  }
+
+  .community_top_image-Invirogating>img {
     width: 180px;
     height: 180px;
+  }
+
+  .community_second_description-Invirogating {
+    margin-right: 60px !important;
   }
 
   .community_top_image-Invirogating {
@@ -466,7 +455,7 @@
     z-index: 1;
   }
 
-  .community_bottom_image-Invirogating > img {
+  .community_bottom_image-Invirogating>img {
     width: 180px;
     height: 180px;
   }
@@ -497,9 +486,6 @@
     position: absolute;
     top: -120px;
     left: 140px;
-  }
-  .community_first_description-Invirogating{
-    margin-right: 0px !important;
   }
 }
 
@@ -549,6 +535,7 @@
   }
 }
 
+
 @media only screen and (max-width: 425px) {
   .community_top_rectangle-Invirogating {
     position: absolute;
@@ -560,5 +547,12 @@
     position: absolute;
     bottom: 0;
     left: 180px;
+  }
+
+  .community_second_description-Invirogating {
+    margin-right: 0px !important;
+  }
+  .text2_Invirogating{
+    left: 10% !important;
   }
 }

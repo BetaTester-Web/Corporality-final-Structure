@@ -104,6 +104,11 @@
       font-size: 15px;
       line-height: 42px;
       /* margin: 20px; */
+
+    }
+    .bp_anm_container{
+      margin-top: -250px;
+      margin-bottom: -100px;
     }
   }
   @media (max-width: 681px){
@@ -163,9 +168,12 @@
     .main_container{
       display: none;
     }
-    .bp_anm_container{
-      margin-top: -250px;
-      margin-bottom: -100px;
+    .bp_anm_container_img{
+      margin-top: -100px;
   }
+  .bp_anm_container{
+    margin-bottom: -250px !important;
+  }
+  
   }
 

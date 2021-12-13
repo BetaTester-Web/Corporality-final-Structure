@@ -8,8 +8,6 @@ import top_rectangle from "./polygon1.png";
 import bottom_image2 from "./main1.png";
 import bottom_back from "./back2.png";
 import bottom_rectangle from "./polygon2.png";
-import heading_1_arrow from "./arrow1.png";
-import heading_2_arrow from "./arrow2.png";
 
 function Leadership() {
   useEffect(() => {
