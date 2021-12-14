@@ -112,6 +112,16 @@
   position: relative;
   left: 10%;
 }
+
+.sacc4D1 .sacc4DCContent{
+  padding-top: 38px;
+  /* border: 1px solid red; */
+}
+
+.sacc4D3 .sacc4DCContent{
+  padding-top: 38px;
+}
+
 .sacc4Row2 {
   position: relative;
   right: 10%;

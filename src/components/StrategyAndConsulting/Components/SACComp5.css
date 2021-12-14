@@ -93,13 +93,9 @@
 .SACC5_icon{
     width: 43px;
     height: 43px;
-    background: #FFFFFF;
-    border: 1px solid #F1F1F1;
     box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
     border-radius: 50%;
     margin-top: 6px;
-    
 }
 .SACC5_icon1{
     margin-top: 6px;
@@ -179,6 +175,9 @@ color: #232323;
   .SACC5_button-4:hover{
    /*  margin-top: 25px; */
     background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 75.42%);
+}
+.SACC5_button-4:hover .SACC5_button-link{
+      color: white!important;
   }
   .SACC5_button-4:hover .button-link{
     text-decoration: none;
