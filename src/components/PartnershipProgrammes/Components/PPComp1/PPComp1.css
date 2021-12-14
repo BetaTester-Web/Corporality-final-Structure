@@ -66,6 +66,19 @@
   overflow: hidden;
   width: 353px;
   height: 355px;
+
+
+
+.ppc1MainImg{
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-140%, -50%) rotate(45deg) !important;
+    margin: 0;
+    overflow: hidden;
+    width: 353px;
+    height: 355px;
+    box-shadow: 220px -50px 50px rgba(255, 239, 165, 0.3);
 }
 .ppc1Img1 {
   max-width: 100%;
