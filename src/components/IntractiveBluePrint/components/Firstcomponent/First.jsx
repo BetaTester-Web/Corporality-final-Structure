@@ -12,17 +12,17 @@ import icon6 from "../Firstcomponent/icon6.png";
 
 const First = () => {
   useEffect(() => {
-    aos.init({ duration: 3000 });
+    aos.init({ disable: "mobile" });
   }, []);
   return (
     <div className="cards_interactiveBlueprint">
       <div className="container">
         <div className="row">
-          <p className="cards_text_iB_heading">100% customised for your company’s Goals and budgets </p>
-          <p className="cards_text_iB_description">Website blueprints are never alike. Corporality Global takes utmost care in preparing the profitable website blueprints that are customised for your business and meet your company’s objectives and budget goals.</p>
+          <p data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="cards_text_iB_heading">100% customised for your company’s Goals and budgets </p>
+          <p data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="cards_text_iB_description">Website blueprints are never alike. Corporality Global takes utmost care in preparing the profitable website blueprints that are customised for your business and meet your company’s objectives and budget goals.</p>
         </div>
         <div className="interactive_cards">
-          <div className="interactive_card1">
+          <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="500" className="interactive_card1">
             <div className="card-1-blueprint-interactive">
               <div className="interactive_card_image">
                 <img src={icon1} alt="" />
@@ -34,7 +34,7 @@ const First = () => {
               </div>
             </div>
           </div>
-          <div className="interactive_card2">
+          <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="1000" className="interactive_card2">
             <div className="interactive_card_image">
               <img src={icon2} alt="" />
             </div>
@@ -45,7 +45,7 @@ const First = () => {
               their stages across the marketing funnel
             </div>
           </div>
-          <div className="interactive_card3">
+          <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="1500" className="interactive_card3">
             <div className="interactive_card_image">
               <img src={icon3} alt="" />
             </div>
@@ -56,7 +56,7 @@ const First = () => {
               design expectations
             </div>
           </div>
-          <div className="interactive_card4">
+          <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="2000" className="interactive_card4">
             <div className="interactive_card_image">
               <img src={icon4} alt="" />
             </div>
@@ -66,7 +66,7 @@ const First = () => {
               features and functionality
             </div>
           </div>
-          <div className="interactive_card5">
+          <div data-aos="flip-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="2500" className="interactive_card5">
             <div className="interactive_card_image">
               <img src={icon5} alt="" />
             </div>
@@ -76,7 +76,7 @@ const First = () => {
               objectives by creating persuasive landing pages
             </div>
           </div>
-          <div className="interactive_card6">
+          <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="3000" className="interactive_card6">
             <div className="interactive_card_image">
               <img src={icon6} alt="" />
             </div>
