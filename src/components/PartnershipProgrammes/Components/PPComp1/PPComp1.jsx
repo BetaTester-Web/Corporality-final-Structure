@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import "../PPComp1/PPComp1.css";
 import img1 from "../images/img1.png";
 import wall from "../images/wall.png";
