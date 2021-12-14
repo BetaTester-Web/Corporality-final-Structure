@@ -37,7 +37,7 @@ const ContactMap = () => {
                             <button type="button" className="btn know_button ">Speaker</button>
                         </div>
 
-                        <img className="img-fluid m-5 bookcal-Image" src="./img/Contact/_221_353_356_351_1 1.png" alt="" />
+                        <img className="img-fluid m-5 bookcal-Image" src="./img/Contact/connnn.png" alt="" />
                     </div>
                 </div>
         </div>
