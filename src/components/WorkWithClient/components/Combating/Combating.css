@@ -18,9 +18,11 @@
   left: 40%;
   top: -20%;
 }
+
 .COmbatinG {
   margin-top: -150px;
   position: relative;
+  margin-bottom: -100px;
 }
 
 .Combating_main {
@@ -42,7 +44,7 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
-  padding-right: 250px;
+  margin-right: 130px;
   position: relative;
   left: 10%;
   color: #232323;
@@ -55,7 +57,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  padding-right: 180px;
+  margin-right: 130px !important;
   color: #757575;
   position: relative;
   left: 10%;
@@ -66,11 +68,12 @@
   background-color: #f5f1f6;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-right: 120px;
+  margin-right: 250px;
   top: -150px;
   z-index: -1;
-  left: 4%;
+  left: 13%;
   border-radius: 10px;
+
 }
 
 .Combating_main img {
@@ -96,6 +99,7 @@
   text-transform: uppercase;
   color: #3c708e;
 }
+
 .Image_rect {
   position: absolute;
   top: 90px;
@@ -125,103 +129,199 @@
   line-height: 28px;
   color: #757575;
 }
+
+@media(max-width:1486px) {
+  .threeboxes_combat {
+    left: 15px !important;
+  }
+}
+
+@media(max-width:1400px) {
+  .Image_texting_1 {
+    margin-right: 80px;
+  }
+}
+
 @media (max-width: 1200px) {
   .Combating_texting_coloumn {
     position: relative;
     left: 10%;
   }
-}
-@media (max-width:1180px){
-  .threeboxes_combat{
-    left: 20px ;
+  .Texting_in_image_Combating{
+    margin-right: 120px;
   }
 }
-@media (max-width:1105px){
-  .threeboxes_combat{
-    left: 0px ;
+
+@media(max-width:1234px) {
+  .threeboxes_combat {
+    left: -1px !important;
+  }
+}
+
+@media (max-width:1180px) {
+  .threeboxes_combat {
+    left: 20px;
+  }
+}
+
+@media (max-width:1105px) {
+  .threeboxes_combat {
+    left: 0px;
+  }
+}
+
+@media(max-width:1064px) {
+  .threeboxes_combat {
+    top: -130px;
   }
 }
 
 @media (max-width: 992px) {
   .MainAndBack_Combating {
-    left: 60%;
+    left: 55%;
   }
+
   .Combating_texting_coloumn {
     position: relative;
     left: 0%;
+    margin-top: -100px;
   }
+
   .COmbatinG {
     margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .threeboxes_combat {
+    left: 20px !important;
+  }
+  .Texting_in_image_Combating{
+    margin-right: 250px;
   }
 }
+
 @media (max-width: 768px) {
-  .COmbatinG{
+  .COmbatinG {
     margin-top: 160px;
   }
+
+  .MainAndBack_Combating {
+    left: 65%;
+  }
+
   .Combating_texting_column-3 {
     font-size: 14px;
     margin-right: 0px;
     line-height: 20px;
   }
+
   .Combating_texting_column-2 {
     font-size: 14px;
     line-height: 20px;
     margin-right: 0px;
   }
+
   .Combating_texting_column-1 {
     font-size: 20px;
     margin-right: 0px;
   }
-  
+
+  .Texting_in_image_Combating {
+    margin-right: 120px;
+  }
+
 }
+
 @media (max-width: 719px) {
   .MainAndBack_Combating {
     left: 25%;
     top: -40%;
   }
+
   .Image_rect {
-    display: none;
+    top: 20px;
   }
 
   .Image_texting_2 {
-    padding-right: 50px;
+    margin-right: -50px !important;
   }
 
-  .Image_texting_1 {
-    padding-right: 50px;
-  }
 
   .Texting_in_image_Combating {
     padding-right: 30px;
     align-items: center;
     left: 10%;
   }
-  .threeboxes_combat{
+
+  .threeboxes_combat {
     left: 50px;
     top: -200px;
   }
 }
 
-@media (max-width:648px){
-  .Combating_group{
+@media (max-width:648px) {
+  .Combating_group {
     width: 100px !important;
     height: 160px !important;
   }
-  .threeboxes_combat{
-    left: 10px !important;
+
+  .threeboxes_combat {
+    left: 90px !important;
     top: -300px;
   }
 }
 
-
-@media (max-width: 526px) {
+@media(maX-width:576px) {
   .Texting_in_image_Combating {
-    left: 15%;
+    padding-bottom: 50px !important;
+  }
+
+  .Image_texting_2 {
+    margin-right: auto !important;
+  }
+
+  .Image_rect {
+    top: 60px;
+  }
+}
+
+@media(max-width:533px) {
+  .Image_texting_2 {
+    margin-right: 100px !important;
+  }
+  .threeboxes_combat {
+    left: 40px !important;
+    top: -300px;
+  }
+}
+
+@media(max-width:503px) {
+  .Image_texting_2 {
+    margin-right: auto !important;
+  }
+
+  .Texting_in_image_Combating {
+    left: 60px !important;
   }
 }
 
 @media (max-width: 514px) {
   .MainAndBack_Combating {
     left: 15%;
+  }
+}
+
+@media(max-width:426px) {
+  .Image_texting_1 {
+    margin-right: -50px !important;
+  }
+}
+
+@media(max-width:397px) {
+  .Texting_in_image_Combating {
+    padding-bottom: 30px !important;
+  }
+  .MainAndBack_Combating{
+    left: 10%;
   }
 }

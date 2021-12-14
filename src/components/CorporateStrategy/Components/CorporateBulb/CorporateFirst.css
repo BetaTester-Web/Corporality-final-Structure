@@ -231,6 +231,7 @@
   position: absolute;
   bottom: 40px;
   right: 80px;
+  cursor: pointer;
 }
 
 .corporatefirst_bottom_phone::after {

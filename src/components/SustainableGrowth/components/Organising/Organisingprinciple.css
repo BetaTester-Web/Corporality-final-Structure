@@ -1,180 +1,160 @@
 .container-1-Op{
-    display: flex;
-    align-items: center;
-    /* overflow-x: hidden; */
-   /*  overflow-y: hidden; */
-   /* overflow: hidden; */
+    display: flex  ;
+    align-items: center  ;
+
 }
 .text-box-1-Op{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-top: 150px;
-    left: 10%;
-    margin-right: 130px;
+    position: relative  ;
+    display: flex  ;
+    flex-direction: column  ;
+    justify-content: center  ;
+    padding-top: 150px  ;
+    left: 4%  ;
+    margin-right: 130px  ;
  
 }
 .yellow_Org{
-    position: absolute;
-    left:60%;
+    position: absolute  ;
+    left:60%  ;
 }
 
 .container-1_text-Op{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    font-weight: bold  ;
+    font-size: 32px  ;
+    line-height: 40px  ;
 /* identical to box height, or 125% */
 
-    text-transform: uppercase;
+    text-transform: uppercase  ;
 
-    color: #33657E;
+    color: #33657E  ;
 } 
 
 .container-2_text-Op{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    font-weight: normal  ;
+    font-size: 16px  ;
+    line-height: 24px  ;
     /* identical to box height, or 150% */
     
     
-    color: #232323;
-/*     margin-right: 300px; */
+    color: #232323  ;
+/*     margin-right: 300px  ; */
 
 }
 .container-3_text-Op{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+    font-weight: normal  ;
+    font-size: 16px  ;
+    line-height: 24px  ;
     /* or 150% */
 
 
-    color: #232323;
+    color: #232323  ;
 }
 .wall-Op{
-    position: absolute;
-    top: 35%;
-    left: 8%;
+    position: absolute  ;
+    top: 35%  ;
+    left: 8%  ;
 }
 .smallrect-Op{
-    position: absolute;
-    top: 50%;
-    left: 47%;
+    position: absolute  ;
+    top: 50%  ;
+    left: 47%  ;
 }
 .image-first-Op{
-    margin-left: 80px;
+    margin-left: 80px  ;
 }
-/* .mainimage{
-    position: absolute;
-    top: 0%;
-    left:3%;
-    transform: scale(1);
-    transition: all .6s linear;
-    
-}
- */
+
 
  .yellowbackground_Op {
     position: absolute;
-    top: 280px;
     right: 0;
-    width: 500px;
-    height: 466px;
-    background: rgba(255, 239, 165, 0.30196078431372547);
-    -webkit-filter: blur(100px);
-    filter: blur(100px);
+    top: 100px;
   }
 
 .navbar-Op{
-    margin-bottom: 100px;
+    margin-bottom: 100px  ;
 }
 .image-first-Op{
-    position: relative;
+    position: relative  ;
 }
 .rect-Op{
-    position: absolute;
-    top: 50px;
-    left: -50px;
+    position: absolute  ;
+    top: 50px  ;
+    left: -50px  ;
 }
 .backimg-Op{
-    position: relative;
-    left: 20%;
+    position: relative  ;
+    left: 20%  ;
     
 }
 .blue_print_overlay{
-    position: relative;
-    height: 80%;
-    width: 477px;
-    margin-top: 140px;
-    bottom: -40%;
-    margin-left: -300px;
-    z-index: -1;
-    background: #fff;
-    
-    
-   
+    position: relative  ;
+    height: 80%  ;
+    width: 477px  ;
+    margin-top: 140px  ;
+    bottom: -40%  ;
+    margin-left: -300px  ;
+    z-index: -1  ;
+    background: #fff  ;
    }
    .blue_print_ellipse-1 {
-    position: absolute;
-    width: 477px;
-    left: 290%;
-    bottom: 350px;
-   
-    height: 466px;
-   z-index: 10;
-    background: rgba(255, 239, 165, 0.3);
-    filter: blur(100px); 
-   
+    position: absolute  ;
+    width: 477px  ;
+    left: 290%  ;
+    bottom: 350px  ;
+    height: 466px  ;
+   z-index: 10  ;
+    background: rgba(255, 239, 165, 0.3)  ;
+    filter: blur(100px)  ; 
    }
 
    .smaller-rect-prev-1-Op{
-       position: absolute;
-       left: 74%;
-       top: 92%;
+       position: absolute  ;
+       left: 74%  ;
+       top: 92%  ;
    }
 
    .first-image-Op{
-       position: relative;
-        left: -5%;
+       position: relative  ;
+        left: -5%  ;
    }
 
 .banner_right_inner-Op{
-    position: relative;
-    width: 350px;
-    height: 350.8px;
-    top: -50%;
-    left: 30%;
-    transform: rotate(45deg);
-    overflow: hidden;
+    position: relative  ;
+    width: 350px  ;
+    height: 350.8px  ;
+    top: -50%  ;
+    left: 30%  ;
+    transform: rotate(45deg)  ;
+    overflow: hidden  ;
    
    }
    .banner_right_inner-Op .main-prev1-Op{
-    width: 510px;
-    height: 512.19px;
-    margin-top: -80px;
-    margin-left: -80px;
-    transform: rotate(-45deg);
-    transition: all 0.8s ease;
-    /* z-index: 100; */
+    width: 510px  ;
+    height: 512.19px  ;
+    margin-top: -80px  ;
+    margin-left: -80px  ;
+    transform: rotate(-45deg)  ;
+    transition: all 0.8s ease  ;
+    /* z-index: 100  ; */
    }
    .banner_right_inner-Op:hover .main-prev1-Op {
-    transform: scale(1.03) rotate(-45deg);
+    transform: scale(1.03) rotate(-45deg)  ;
    }
    @media (max-width:1539px){
      .blue_print_overlay{
-         display: none;
+         display: none  ;
      }
 }
 
 @media(max-width:1500px){
     .yellow_Org{
-        display: none;
+        display: none  ;
     }
 }
 
@@ -183,14 +163,14 @@
 }
 @media (max-width:1300px){
     .image-first-Op{
-        position: relative;
-        left: -100px;
+        position: relative  ;
+        left: -100px  ;
     }
 }
 
 @media(max-width:1200px){
     .image-first-Op{
-        left: -30%;
+        left: -30%  ;
     }
 }
 
@@ -199,161 +179,136 @@
 }
 @media (max-width:992px){
     .banner_right_inner-Op{
-        position: relative;
-        width: 330px;
-        height: 332.8px;
-        bottom: 410px;
-        left: 35%;
+        position: relative  ;
+        width: 330px  ;
+        height: 332.8px  ;
+        bottom: 410px  ;
+        left: 35%  ;
     }
     .backimg-Op{
-        width: 480px;
-        height: 482.8px;
-        left: 20%;
-        top: 2%;
+        width: 480px  ;
+        height: 482.8px  ;
+        left: 20%  ;
+        top: 2%  ;
     }
     .image-first-Op{
-        left: -10%;
+        left: -10%  ;
     }
     .first-image-Op{
-        flex-direction: column-reverse;
+        flex-direction: column-reverse  ;
     }
     .text-box-1-Op{
-        padding-top: 0px;
-        bottom: 200px;
-        left: 5%;
+        padding-top: 0px  ;
+        bottom: 200px  ;
+        left: 5%  ;
     }
     .wall-Op{
-        left: 20%;
+        left: 20%  ;
     }
     .rect-Op{
-        left: 20%;
+        left: 20%  ;
     }
 
 }
 @media (max-width:768px){
     .banner_right_inner-Op{
-        width: 330px;
-        height: 332.8px;
-        left: 0%;
+        width: 330px  ;
+        height: 332.8px  ;
+        left: 15%  ;
     }
     .backimg-Op{
-        width: 480px;
-        height: 482.8px;
-        left: 10%;
-        top: 2%;
+        width: 480px  ;
+        height: 482.8px  ;
+        left: 5%  ;
+        top: -5px  ;
     }
     .image-first-Op{
-        left: -10%;
-    }
-    .text-box-1-Op{
-        margin-right: 30px;
-    }
-    
-}
-@media (max-width:768px){
-    .banner_right_inner-Op{
-        width: 330px;
-        height: 332.8px;
-        left: 15%;
-    }
-    .backimg-Op{
-        width: 480px;
-        height: 482.8px;
-        left: 5%;
-        top: 2%;
-    }
-    .image-first-Op{
-        left: -10%;
+        left: -10%  ;
     }
     .wall-Op{
-        position: absolute;
-        top: 35%;
-        left: 0%;
+        position: absolute  ;
+        top: 35%  ;
+        left: 0%  ;
     }
     .smallrect-Op{
-        position: absolute;
-        top: 50%;
-        left: 27%;
+        position: absolute  ;
+        top: 50%  ;
+        left: 27%  ;
     }
     .text-box-1-Op{
-        margin-right: 0px;
+        margin-right: 0px  ;
     }
     .container-1_text-Op{
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 16px  ;
+        line-height: 20px  ;
     }
     .container-2_text-Op{
-        font-size: 12px;
+        font-size: 12px  ;
     }
 }
 
 @media (max-width:654px){
     .banner_right_inner-Op{
-        width: 220px;
-        height: 222.8px;
-        left: 20%;
-        bottom: 270px;
+        width: 220px  ;
+        height: 222.8px  ;
+        left: 20%  ;
+        bottom: 270px  ;
+    }
+    .main-prev1-Op{
+        width: 430px !important  ;
+        height: 432.19px !important  ;
     }
     .backimg-Op{
-        width: 320px;
-        height: 322.8px;
-        left: 5%;
-        top: 2%;
+        width: 320px  ;
+        height: 322.8px  ;
+        left: 5%  ;
+        top: 2%  ;
     }
     .image-first-Op{
-        left: 0%;
+        left: 0%  ;
     }
     .wall-Op{
-        position: absolute;
-        top: 35%;
-        left: -5%;
-        width: 20%;
+        position: absolute  ;
+        top: 35%  ;
+        left: 7%  ;
+        width: 20%  ;
     }
     .smallrect-Op{
-        position: absolute;
-        top: 50%;
-        left: 33%;
-        width: 12%;
-    }
-    .yellowbackground_Op{
-        top: 200px;
-        width: 400px;
-        height: 200px;
-    }
-}
-@media (max-width:512px){
-    .backimg-Op{
-        left: 10%;
-    }
-    .image-first-Op{
-        left: -10%;
+        position: absolute  ;
+        top: 50%  ;
+        left: 33%  ;
+        width: 10%  ;
     }
 }
 
+
 @media (max-width:448px){
     .banner_right_inner-Op{
-        left: 10%;
+        left: 10%  ;
     }
     .backimg-Op{
-        left: 0%;
+        left: 0%  ;
+    }
+    .wall-Op{
+        left: -5%;
+    }
+    .smallrect-Op{
+        left: 26%;
+    }
+    .rect-Op{
+        left: -10%;
     }
 }
 @media (max-width:428px) {
     .image-first-Op{
-        left: -10%;
+        left: -10%  ;
     }
     .text-box-1-Op{
-        margin-right: 40px;
-    }
-    .backimg-Op{
-        left: 0%;
+        margin-right: 40px  ;
     }
 }
 @media (max-width:380px) {
-    .image-first-Op{
-        left: -20% ;
-    }
     .text-box-1-Op{
-        margin-right: -60px;
+        margin-right: 40px  ;
     }
 }

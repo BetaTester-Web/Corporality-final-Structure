@@ -36,7 +36,7 @@ function Library() {
     <>
       <div className="library_parent">
         <div className="container">
-          <div className="main_container">
+          <div className="library_main_container">
             <div className="content_side">
               <div
                 className="text1 aos-init hm-library_left_btns text_active_first"
@@ -150,7 +150,7 @@ function Library() {
               data-aos-offset="0"
               id="image4"
             >
-              <div className="upper_image">
+              <div className="upper_image fourth_img">
                 <img src={img4} alt="" />
               </div>
               <div className="lower_text">

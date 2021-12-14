@@ -9,17 +9,21 @@ import threeboxes from "./images/threeboxes.png";
 function WorkParallax() {
   useEffect(() => {
     Aos.init();
+    Aos.init({ disable: "mobile" });
   });
 
   return (
     <div className="aboutus_parallax_parent">
+      <div className="boxes_left">
+        <img src={threeboxes} alt="" />
+      </div>
       <div className="container">
         <div className="outer_container">
           <div className="parallax_container">
             <div
               className="parallax_main_heading aos-init aos-animate"
               data-aos="zoom-in"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
             >
               We make marketing truly work for you.
               <br /> How we work?
@@ -28,7 +32,7 @@ function WorkParallax() {
             <div
               className="parallax_description aos-init aos-animate"
               data-aos="zoom-in"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
             >
               The digital era is here and rapid business transformations are
               essential to keep your pockets full. Our processes are inclined to
@@ -39,7 +43,7 @@ function WorkParallax() {
             <div
               className="bottom_button  aos-init aos-animate"
               data-aos="zoom-in"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
             >
               <button> Our Services </button>
             </div>
@@ -48,9 +52,6 @@ function WorkParallax() {
             </div>
             <div className="box_right">
               <img src={right_rectangle} alt="" />
-            </div>
-            <div className="boxes_left">
-              <img src={threeboxes} alt="" />
             </div>
           </div>
         </div>

@@ -36,7 +36,7 @@
 
 .All_Icons {
     position: relative !important;
-    left: -4% !important;
+    left: -5% !important;
 }
 .logo1ofpartner{
     position: relative;
@@ -69,7 +69,7 @@
 
 @media (max-width:1400px) {
     .All_Icons {
-        left: 0% !important;
+        left: -5% !important;
     }
     .logo2ofpartner{
         left: 12%;
@@ -86,7 +86,7 @@
 
 @media (max-width:1200px) {
     .All_Icons {
-        left: -3% !important;
+        left: -5% !important;
     }
     .logo2ofpartner{
         left: 7%;
@@ -116,6 +116,9 @@
 }
 
 @media (max-width:992px){
+    .All_Icons{
+        left: -7% !important;
+    }
     .logo1ofpartner{
         position: relative;
         left: 0% !important;

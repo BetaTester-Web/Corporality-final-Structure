@@ -7,12 +7,12 @@ import group from "../Innovation/Group.png";
 
 const Innovation = () => {
   useEffect(() => {
-    aos.init({ duration: 3000 });
+    aos.init({ duration: 3000 , disable: 'mobile' });
   }, []);
   return (
     <div className="fifthcomponent-Innovation effectiveImage-Innovation">
       <img className="group5-Innovation" src={group} alt="" />
-      <div className="container-fluid">
+      <div className="container">
         <div className="row ">
           <div
             data-aos="zoom-in"

@@ -32,6 +32,11 @@
   width: 100%;
 }
 
+.gtm-comp-6-head h1 {
+  font-size: 2em !important;
+  line-height: 2.2em !important;
+}
+
 .gtm-comp-6-head h2 {
   font-size: 2em;
   line-height: 2.2em;
@@ -166,7 +171,7 @@
           transition-delay: 2.4s;
 }
 
-@media only screen and (min-width: 1920px) {
+@media only screen and (min-width: 1200px) {
   .gtm-comp-6 {
     font-size: 18px;
   }

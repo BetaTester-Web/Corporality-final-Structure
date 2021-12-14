@@ -44,9 +44,11 @@ const Second = () => {
 
                                 <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Written plan along with comprehensive research and expert recommendations</p>
                             </div>
-                            <div className="button-5">
-                                <a className='button-link-3' href="#">Explore</a>
-                            </div>
+                            <a href=''>
+                                <div className="button-5">
+                                    <div className='button-link-3' href="#">Explore</div>
+                                </div>
+                            </a>
 
 
                         </div>
@@ -59,7 +61,7 @@ const Second = () => {
                             <img className='rect-2-2' src={rect2} alt='' />
                             <img className='rect-2-3' src={rect3} alt='' />
                             <img className='rect-2-4' src={rect4} alt='' />
-                            
+
                             <div className="mainndback-4">
                                 <img className='backimagesecond-fourth' src={Back} alt='' />
                                 <div className="bp_our-newsletter-polygon9">

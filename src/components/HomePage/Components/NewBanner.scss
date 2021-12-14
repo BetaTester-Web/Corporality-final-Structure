@@ -3,25 +3,48 @@
     margin-bottom: 30px !important;
     position: relative;
     width: 100%;
+    max-width: 100vw;
     color: #33657E !important;
-    z-index: 2;
     font-size: 1.1vw;
-    max-width: 1920px;
+    // height: 650px;
+    height: 41.5vw;
+    max-height: 806px;
     margin: 0 auto;
     video{
+        position: absolute;
+        top: 0;
+        left: 0;
         width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
     }
-    .leftBannerContainer{
+    .maxContainer{
+        top: 10px;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        max-width: 1920px;
+        margin: 0% auto 0 auto;
+        z-index: 2;
+    }
+    .leftBannerContainerWrapper{
         position: absolute;
         bottom: 0px !important;
         left: 0;
-        width: 54.7%;
         height:73.19%;
-        z-index: 1;
-        background-color: #FFFFFFE5;
+        width: 54.7%;
+        max-width: 1031px;
         border-radius: 0px 20px 0px 0px;
+        background-color: #FFFFFFE5;
+    }
+    .leftBannerContainer{
+        width: 100%;
+        height: 100%;
+        z-index: 1;
         display: flex;
         flex-direction: row;
+        position: relative;
     }
     .leftIndicators{
         height: 100%;
@@ -60,19 +83,10 @@
         opacity: 1;
         visibility: visible;
         transform: translateX(0%);
-        transition: transform 1s ease-in-out, visibility 0.5s ease-in-out, opacity 0.2s ease-in-out;
+        transition: transform 1s ease-in-out, visibility 0s cubic-bezier(0,1.15,.04,.88), opacity 1s cubic-bezier(0,1.15,.04,.88) !important;
         overflow: hidden !important;
         z-index: 3;
         padding: 0px 4% 0px 0px !important;
-    }
-    .bannerTextHide::after{
-        content:"";
-        background: linear-gradient(90deg, rgba(255,255,255,0.5) 0%, rgba(9,9,121,0) 11%, rgba(0,212,255,0) 100%);
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        padding: 0px 4% 0px 0px !important;
-        z-index: 3;
     }
     .bannerText-diff{
         padding: 0px 20% 0px 0px !important;
@@ -154,7 +168,8 @@
         bottom: 0px !important;
         right: 0px;
         width: 20%;
-        height: 26%; 
+        max-width: 377px;
+        height: 26.8%; 
         z-index: 1;
         background-color: #FFFFFFE5;
     }
@@ -206,12 +221,13 @@
         margin-top: 20% !important;
         position: relative;
         z-index: 15 !important;
+        cursor: pointer;
     }
     
     .callButton > img{
         width: 100%;
         height: 100%;
-        object-fit: contain !important;
+        object-fit: cover !important;
         z-index: 15 !important;
     }
     
@@ -265,19 +281,19 @@
     .square-1{
         z-index: 13;
         position: absolute;
-        top: 65%;
-        right: 49%;
+        top: 56%;
+        right: 9%;
     }
     
     .square-2{
         z-index: 13;
         position: absolute;
-        top: 50%;
-        right: 52%;
+        top: 25%;
+        right: 15%;
     }
     .square-2-diff{
-        top: 75% !important;
-        right: 65% !important;
+        top: 65% !important;
+        right: 50% !important;
     }
 }
 
@@ -334,16 +350,22 @@
         .bannerSocialText{
             margin: 0px !important;
         }
+        .square-1{
+            transform: scale(0.6);
+        }
+        .square-2{
+            transform: scale(0.6);
+        }
     }
 }
 
 @media only screen and (max-width: 756px){
     .bannerContainer{
         .square-1{
-            transform: scale(0.5);
+            transform: scale(0.4);
         }
         .square-2{
-            transform: scale(0.5);
+            transform: scale(0.4);
         }
     }
 }
@@ -353,22 +375,27 @@
             width: 5% !important;
         }
         .indicatorCircle{
-            width: 5px !important;
-            height: 5px !important;
-            border: 3px solid #B9B9B9 !important;
+            width: 4px !important;
+            height: 4px !important;
+            border: 2px solid #B9B9B9 !important;
         }
         .activeIndicatorCircle{
-            width: 8px !important;
-            height: 8px !important;
-        }
-        .rightBannerContainer{
-            bottom: 2px !important;
+            width: 6px !important;
+            height: 6px !important;
         }
         .square-1{
-            transform: scale(0.3);
+            transform: scale(0.25);
+            top: 50%;
+            right: 0%;
         }
         .square-2{
-            transform: scale(0.3);
+            transform: scale(0.25);
+            top: 20%;
+            right: 10%;
+        }
+        .square-2-diff{
+            top: 62% !important;
+            right: 40% !important;
         }
         .callButton > img{
             width: 100%;
@@ -383,23 +410,28 @@
 
 @media only screen and (max-width: 360px){
     .bannerContainer{
-        .leftBannerContainer{
+        .leftBannerContainerWrapper{
             border-radius: 0px 15px 0px 0px !important;
         }
         .leftIndicators{
             min-width: 30px !important;
         }
-        .rightBannerContainer{
-            bottom: 1px !important;
-        }
         .bannerSubtitle{
             margin-top: 1px !important;
         }
         .square-1{
-            transform: scale(0.2);
+            transform: scale(0.21);
+            top: 45%;
+            right: -7%;
         }
         .square-2{
-            transform: scale(0.2);
+            transform: scale(0.21);
+            top: 15%;
+            right: 8%;
+        }
+        .square-2-diff{
+            top: 60% !important;
+            right: 40% !important;
         }
     }
 }
