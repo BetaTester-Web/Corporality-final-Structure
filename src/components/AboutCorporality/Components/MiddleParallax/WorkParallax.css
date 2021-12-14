@@ -153,4 +153,9 @@
     top: 120px;
     right: 50px;
   }
+
+  .bottom_button button {
+    padding: 12px 15px !important;
+    font-size: 12px;
+  }
 }
