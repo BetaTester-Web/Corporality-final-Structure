@@ -39,7 +39,7 @@ const SACComp2 = () => {
           <div className="col-lg-6 SACC2_texting-2">
             <p
               data-aos="fade-left"
-              data-aos-duration="500"
+              data-aos-duration="3000"
               className="SACC2_prev-2-text-1"
             >
               Organic growth strategies
@@ -47,7 +47,7 @@ const SACComp2 = () => {
             <p
               data-aos="fade-left"
               data-aos-delay="300"
-              data-aos-duration="500"
+              data-aos-duration="3000"
               className="SACC2_prev-2-text-2"
             >
               At the heart of every marketing plan lies opportunity. What
@@ -62,7 +62,7 @@ const SACComp2 = () => {
             <p
               data-aos="fade-left"
               data-aos-delay="600"
-              data-aos-duration="500"
+              data-aos-duration="3000"
               className="SACC2_prev-2-text-2"
             >
               Wherever you are in the world and no matter the nature of your
@@ -74,7 +74,7 @@ const SACComp2 = () => {
             <div
               data-aos="fade-left"
               data-aos-delay="900"
-              data-aos-duration="500"
+              data-aos-duration="300"
               className="SACC2_text-box "
             >
               <p className="SACC2_text-box-content">
