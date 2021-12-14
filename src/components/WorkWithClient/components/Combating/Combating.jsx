@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
 import aos from "aos";
 import "../Combating/Combating.css";
-import main from "./main.png";
-import back from "./back.png";
-import group from "./Group.png";
-import textrect from "./text-rect.png";
+import mainCombating from "./mainCombating.png";
+import backCombating from "./backCombating.png";
+import groupCombating from "./GroupCombating.png";
+import textrectCombating from "./text-rectCombating.png";
 
 const Combating = () => {
   useEffect(() => {
@@ -13,7 +13,7 @@ const Combating = () => {
   return (
     <div className="COmbatinG">
       <div className="threeboxes_combat">
-        <img src={group} alt="" className="Combating_group" />
+        <img src={groupCombating} alt="" className="Combating_group" />
       </div>
       <div className="container">
         <div className="row">
@@ -26,10 +26,10 @@ const Combating = () => {
               <div className="MainAndBack_Combating">
                 <div className="Combating_main">
                   <div className="Combating_main_on_div">
-                    <img src={main} alt="" />
+                    <img src={mainCombating} alt="" />
                   </div>
                 </div>
-                <img src={back} alt="" className="Combating_back" />
+                <img src={backCombating} alt="" className="Combating_back" />
               </div>
               <div className="Texting_in_image_Combating">
                 <p className="Image_texting_1">
@@ -39,7 +39,7 @@ const Combating = () => {
                   A combination of expertise, skill, knowledge and proven
                   programmes.
                 </p>
-                <img src={textrect} alt="" className="Image_rect" />
+                <img src={textrectCombating} alt="" className="Image_rect" />
               </div>
             </div>
           </div>
