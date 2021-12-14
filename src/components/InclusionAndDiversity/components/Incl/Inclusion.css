@@ -2,7 +2,9 @@
     display: flex;
     align-items: center;
 }
-
+.Inclusion{
+    margin-bottom: 80px;
+}
 .text-box-1-Id {
     position: relative;
     display: flex;
@@ -14,13 +16,8 @@
 
 .yellowbackground_Inclusion {
     position: absolute;
-    top: 250px;
+    top: 90px;
     right: 0;
-    width: 500px;
-    height: 466px;
-    background: rgba(255, 239, 165, 0.30196078431372547);
-    -webkit-filter: blur(100px);
-    filter: blur(100px);
 }
 
 .container-1_text-Id {
@@ -299,12 +296,6 @@
         top: 50%;
         left: 33%;
         width: 10%;
-    }
-
-    .yellowbackground_Inclusion {
-        top: 200px;
-        width: 400px;
-        height: 200px;
     }
 }
 
