@@ -16,6 +16,7 @@ import heading_2_arrow from "./images/heading_2_arrow.png";
 function CommunitySupport() {
   useEffect(() => {
     Aos.init();
+    Aos.init({ disable: "mobile" });
   });
 
   return (
@@ -25,7 +26,7 @@ function CommunitySupport() {
           <div
             className="community_support_first aos-init aos-animate"
             data-aos="fade-right"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-easing="ease-in-out"
           >
             <div className="community_first_heading">
@@ -58,7 +59,7 @@ function CommunitySupport() {
           <div
             className="community_support_second  aos-init aos-animate"
             data-aos="fade-left"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
             data-aos-easing="ease-in-out"
           >
             <div className="community_second_heading">

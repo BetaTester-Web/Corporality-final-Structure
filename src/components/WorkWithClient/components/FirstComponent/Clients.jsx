@@ -2,11 +2,12 @@ import React , {useEffect} from 'react'
 import aos from 'aos'
 import '../FirstComponent/Clients.css'
 import Main from '../FirstComponent/main.png'
-import Back from '../FirstComponent/back.png'
+import Back from '../FirstComponent/BaCKINClients.png'
 import wall from '../FirstComponent/wall.png'
 import smallrect from '../FirstComponent/rect.png'
 import rect from '../FirstComponent/smallrec.png'
 import smallerrect from '../FirstComponent/smallerrect.png'
+import yellowbackground from './yellowbackground.png'
 
 
 const Clients = () => {
@@ -18,7 +19,9 @@ const Clients = () => {
         <div className="Clients">
             <div className="navbar-Clients"></div>
             <div className="container container-1-Clients">
-            <div className="yellowbackground_Clients"></div>
+            <div className="yellowbackground_Clients">
+                <img src={yellowbackground} alt='' />
+            </div>
                 <div className="row first-image-Clients">
                     <div className="col-lg-6">
                         <div data-aos="fade-right"  className="text-box-1-Clients">

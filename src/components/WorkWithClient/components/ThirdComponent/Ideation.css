@@ -207,6 +207,7 @@
 .images-prev-3-Ideation {
     position: relative;
     top: 16%;
+    left: -5%;
 }
 
 .back3-Ideation {
@@ -223,8 +224,8 @@
 
 .small3-Ideation {
     position: absolute;
-    left: -150px;
-    top: 90px;
+    left: -270px;
+    top: -20px;
 }
 
 .smaller3-Ideation {
@@ -244,9 +245,18 @@
 .button-4-Ideation-Ideation {
     margin-bottom: 85px;
 }
+
+@media(max-width:1260px){
+    .images-prev-3-Ideation{
+        left: 10%;
+        top: 10%;
+    } 
+}
+
 @media (max-width:1082px){
     .images-prev-3-Ideation{
         left: 10%;
+        top: 10%;
     }
 }
 

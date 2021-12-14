@@ -1,5 +1,5 @@
 import GTMComp1 from "./Components/GTMComp1";
-import GTMComp2 from "./Components/GTMComp2";
+import GTMComp2a from "./Components/GTMComp2a";
 import GTMComp3 from "./Components/GTMComp3";
 import GTMComp4 from "./Components/GTMComp4";
 import GTMComp5 from "./Components/GTMComp5";
@@ -18,7 +18,7 @@ export default function GoToMarketing() {
     return (
         <div className="">
             <GTMComp1 />
-            <GTMComp2 />
+            <GTMComp2a />
             <GTMComp3 />
             <GTMComp4 />
             <GTMComp5 />

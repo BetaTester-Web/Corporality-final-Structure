@@ -11,6 +11,7 @@
   font-size: 14px !important;
   line-height: 22px !important;
   /* or 157% */
+  margin-right: 40px;
 
   color: #757575 !important;
 }
@@ -97,15 +98,15 @@
   align-items: center !important;
   border: 1px solid #e8e8e8 !important;
   box-sizing: border-box !important;
-  border-radius: 0px 10px 10px 0px !important;
+  border-radius: 10px 10px 10px 10px !important;
   padding-top: 30px !important;
   margin-right: -100px;
-  padding-bottom: 60px !important;
+  padding-bottom: 30px !important;
   padding-left: 150px !important;
   padding-right: 30px !important;
   position: relative !important;
   left: -19% !important;
-  top: -50px !important;
+  top: -40px !important;
 }
 
 .Duty-images-card-2 {
@@ -129,7 +130,7 @@
   background-color: white !important;
   border: 1px solid #e8e8e8 !important;
   box-sizing: border-box !important;
-  border-radius: 0px 10px 10px 0px !important;
+  border-radius: 10px 10px 10px 10px !important;
   padding-top: 30px !important;
   margin-right: -100px !important;
 
@@ -158,7 +159,7 @@
   background-color: white !important;
   border: 1px solid #e8e8e8 !important;
   box-sizing: border-box !important;
-  border-radius: 0px 10px 10px 0px !important;
+  border-radius: 10px 10px 10px 10px !important;
   padding-top: 40px !important;
   margin-right: -100px;
   padding-bottom: 40px !important;
@@ -175,7 +176,7 @@
 }
 .Duty_card_text_3:hover {
   border-top: 4px solid #a06daf !important;
-  padding-bottom: 36px !important;
+  padding-bottom: 27px !important;
 }
 .Duty_card_text_4:hover {
   border-top: 4px solid #a06daf !important;
@@ -183,7 +184,7 @@
 }
 .Duty_card_text_1:hover {
   border-top: 4px solid #a06daf !important;
-  padding-bottom: 56px !important;
+  padding-bottom: 27px !important;
 }
 .Duty_card_text_3 {
   justify-content: center !important;
@@ -191,48 +192,66 @@
   background-color: white !important;
   border: 1px solid #e8e8e8 !important;
   box-sizing: border-box !important;
-  border-radius: 0px 10px 10px 0px !important;
+  border-radius: 10px 10px 10px 10px !important;
   padding-top: 40px !important;
   margin-right: -100px;
-  padding-bottom: 40px !important;
+  padding-bottom: 30px !important;
   padding-left: 150px !important;
   padding-right: 50px !important;
   position: relative !important;
   left: -19% !important;
-  top: -38px !important;
+  top: -50px !important;
 }
 
 @media (max-width: 1400px) {
-  .Duty_card_text {
+  .Duty_card_text_1 {
     margin-right: -110px !important;
-    padding-bottom: 40px !important;
+    padding-bottom: 20px !important;
     left: -22% !important;
     top: -50px !important;
+  }
+  .Duty_card_text_1:hover {
+    border-top: 4px solid #a06daf !important;
+    padding-bottom: 20px !important;
   }
 
   .Duty_card_text_2 {
     margin-right: -100px !important;
-    padding-bottom: 48px !important;
+    padding-bottom: 28px !important;
     left: -22% !important;
     top: -50px !important;
+  }
+  .Duty_card_text_2:hover {
+    border-top: 4px solid #a06daf !important;
+    padding-bottom: 28px !important;
   }
 
   .Duty_card_text_3 {
     margin-right: -100px !important;
-    padding-bottom: 0px !important;
+    padding-bottom: 10px !important;
     padding-top: 15px !important;
     left: -22% !important;
     top: -50px !important;
   }
-
+  .Duty_card_text_3:hover {
+    border-top: 4px solid #a06daf !important;
+    padding-bottom: 10px !important;
+  }
+  .dutyText-3-card-heading{
+    position: relative;
+    margin-right: -100px !important;
+  }
   .Duty_card_text_4 {
     margin-right: -100px !important;
-    padding-bottom: 25px !important;
+    padding-bottom: 10px !important;
     left: -22% !important;
     top: -50px !important;
     padding-top: 20px !important;
   }
-
+  .Duty_card_text_4:hover {
+    border-top: 4px solid #a06daf !important;
+    padding-bottom: 5px !important;
+  }
   .Duty-images-card-2 {
     position: relative !important;
     left: 10% !important;
@@ -244,15 +263,14 @@
   }
 
   .Duty_card_text_1_heading {
-    margin-right: 0px !important;
-  }
-
-  .Duty_card_text_1_heading {
-    margin-right: 0px !important;
+    margin-right: 0px;
   }
 }
 
 @media (max-width: 1200px) {
+  .Duty_Four{
+    padding-bottom: 50px;
+  }
   .Duty-images-card-4 {
     position: relative !important;
     left: 0% !important;
@@ -331,6 +349,13 @@
     position: relative;
     left: -7%;
   }
+  .second_row_incl{
+    position: relative;
+    left: -7%;
+  }
+/*   .dutyText-3-card-heading{
+    margin-right: 0px !important;
+  } */
 
   .Duty_card_text_1_heading {
     font-size: 16px !important;
@@ -354,7 +379,7 @@
 
   .Duty_card_text_3 {
     padding-bottom: 18px !important;
-    margin-right: -150px !important;
+    margin-right: -130px !important;
     left: -27% !important;
   }
 
@@ -385,11 +410,16 @@
   .Duty-row-cards{
     left: 2% !important;
   }
+  .second_row_incl{
+    position: relative;
+    left: 2%;
+  }
 
   .Inc_Div_duty_card_img {
     top: -290px !important;
     left: 20% !important;
   }
+
 
   .Duty_card_text {
     margin-right: -100px !important;
@@ -422,6 +452,10 @@
 
 @media(max-width: 530px){
   .Duty-row-cards{
+    left: auto !important;
+  }
+  .second_row_incl{
+    
     left: auto !important;
   }
 }

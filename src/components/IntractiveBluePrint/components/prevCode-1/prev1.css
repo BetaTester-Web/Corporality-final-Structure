@@ -9,17 +9,14 @@
     flex-direction: column !important;
     justify-content: center !important;
     padding-top: 150px !important;
+    left: -40px !important;
  
 }
 .yellowbackground_Blueprint {
     position: absolute !important;
-    top: 280px !important;
+    top: 90px !important;
     right: 0 !important;
-    width: 500px !important;
-    height: 466px !important;
-    background: rgba(255, 239, 165, 0.30196078431372547) !important;
-    -webkit-filter: blur(100px) !important;
-    filter: blur(100px) !important;
+
   }
 
 .container-1_text{
@@ -272,11 +269,6 @@
         top: 50% !important;
         left: 27% !important;
         width: 10% !important;
-    }
-    .yellowbackground_Blueprint{
-        top: 200px !important;
-        width: 400px !important;
-        height: 200px !important;
     }
 }
 @media (max-width:497px){

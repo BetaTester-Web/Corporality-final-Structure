@@ -361,7 +361,7 @@
 
 @media (max-width:768px) {
   .community_first_description-Leaderships {
-    margin-right: 0px !important;
+    /* margin-right: 0px !important; */
   }
 }
 

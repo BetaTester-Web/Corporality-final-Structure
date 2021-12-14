@@ -9,6 +9,7 @@ import "./Leadership.css";
 function Leadership() {
   useEffect(() => {
     Aos.init();
+    Aos.init({ disable: "mobile" });
   });
 
   return (
@@ -19,7 +20,7 @@ function Leadership() {
             className="leadership_heading aos-init aos-animate"
             data-aos="fade-down"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             Leadership Team
           </div>
@@ -28,8 +29,7 @@ function Leadership() {
             className="leadership_content aos-init aos-animate"
             data-aos="fade-down"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
-            data-aos-delay="1000"
+            data-aos-duration="1000"
           >
             The Corporality team is all about commitment and accountability. Our
             directors have been in the industry for more than 17 years, and head
@@ -42,7 +42,7 @@ function Leadership() {
               className="leadership_card_1 aos-init aos-animate"
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
             >
               <div className="leadership1_image">
                 <img src={image_1} alt="" />
@@ -62,7 +62,7 @@ function Leadership() {
               className="leadership_card_2 aos-init aos-animate"
               data-aos="flip-right"
               data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
             >
               <div className="leadership2_image">
                 <img src={image_2} alt="" />
@@ -84,7 +84,7 @@ function Leadership() {
             className="leadership_button aos-init aos-animate"
             data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+            data-aos-duration="1000"
           >
             View All Team
           </div>

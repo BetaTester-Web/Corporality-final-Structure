@@ -25,7 +25,6 @@
     overflow: hidden;
     top: -50px;
     left: 90px;
-    
     display: flex;
     margin-left: -10% !important;
     flex-direction: column;
@@ -35,11 +34,12 @@
     height: 500px;
     background-color: #ffff;
     color: black;
+    text-align: center !important;
    
   }
 
   .bp_anm_container_text h1{
-  text-align: center;
+  text-align: center !important;
   width: 940px;
   margin: auto;
   margin-top: 100px;
@@ -104,6 +104,11 @@
       font-size: 15px;
       line-height: 42px;
       /* margin: 20px; */
+
+    }
+    .bp_anm_container{
+      margin-top: -250px;
+      margin-bottom: -100px;
     }
   }
   @media (max-width: 681px){
@@ -163,9 +168,12 @@
     .main_container{
       display: none;
     }
-    .bp_anm_container{
-      margin-top: -250px;
-      margin-bottom: -100px;
+    .bp_anm_container_img{
+      margin-top: -100px;
   }
+  .bp_anm_container{
+    margin-bottom: -250px !important;
+  }
+  
   }
 
