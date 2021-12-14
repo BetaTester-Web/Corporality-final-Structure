@@ -19,7 +19,7 @@ function ThreeBoxes() {
           className="threeboxes_first aos-init aos-animate"
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <div className="first_box_image">
             <img src={projects} alt="" />
@@ -33,7 +33,7 @@ function ThreeBoxes() {
           className="threeboxes_second aos-init aos-animate"
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <div className="second_box_image">
             <img src={client} alt="" />
@@ -49,7 +49,7 @@ function ThreeBoxes() {
           className="threeboxes_third aos-init aos-animate"
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <div className="third_box_image">
             <img src={chart} alt="" />

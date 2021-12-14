@@ -36,7 +36,7 @@ function Library() {
     <>
       <div className="library_parent">
         <div className="container">
-          <div className="main_container">
+          <div className="library_main_container">
             <div className="content_side">
               <div
                 className="text1 aos-init hm-library_left_btns text_active_first"
