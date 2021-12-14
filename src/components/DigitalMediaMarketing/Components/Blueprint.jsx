@@ -4,7 +4,7 @@ import "./Blueprint.css"
 export default function Blueprint() {
 	return (
 		<>
-			<div className="DDMBlueprint">
+			<div className="DDMBlueprint mx-5 px-5">
 				<div className="DDMBlueprintText d-flex">
 					<h1>THE WEBSITE BLUEPRINT MASTER PLAN</h1>
 					<p>
