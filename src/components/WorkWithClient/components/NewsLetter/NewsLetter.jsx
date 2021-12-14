@@ -42,7 +42,7 @@ const NewsLetter = () => {
                 Our newsletter is more than just information Subscribe to see
                 the difference
               </p>
-              <div data-aos="fade-right" data-aos-delay="2000" className="Text_newsletter_emain d-flex  align-items-center">
+              <div data-aos="fade-right" data-aos-delay="2000" className="Text_newsletter_email d-flex  align-items-center">
                 <input
                   className="emailinput"
                   type="text"
