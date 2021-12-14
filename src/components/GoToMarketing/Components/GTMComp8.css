@@ -1,0 +1,321 @@
+.gtm-comp8-container {
+  width: 100%;
+  max-width: 1920px;
+  margin: 50px auto;
+  padding: 0 3%;
+}
+
+.gtm-comp8-container .main_container_strategy {
+  width: 100%;
+}
+
+.gtm-comp8-container .main_container_strategy div {
+  width: 100%;
+}
+
+.gtm-comp8-container .main_container_strategy div h1 {
+  width: 100% !important;
+  text-align: center !important;
+}
+
+.gtm-comp8-container .main_container_strategy div p {
+  width: 90%;
+  max-width: 970px;
+  text-align: center;
+}
+
+.gtm-comp8-container .strategy_section h1 {
+  height: 44px;
+  text-align: center;
+  margin: auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #3C708E;
+}
+
+.gtm-comp8-container .strategy_section p {
+  width: 880px;
+  height: 78px;
+  margin: auto;
+  margin-top: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #757575;
+}
+
+.gtm-comp8-container .strategy_card_wrapper {
+  position: relative;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+}
+
+.gtm-comp8-container .strategy_line22 {
+  height: 80%;
+  width: 2px;
+  position: absolute;
+  left: 100px;
+  top: 120px;
+  z-index: -1;
+}
+
+.gtm-comp8-container .strategy_card_head {
+  width: 200px;
+  height: 210px;
+  position: relative;
+}
+
+.gtm-comp8-container .strategy_card_head h1 {
+  width: 196px;
+  height: 44px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #A06DAF;
+  margin-left: 12px;
+  margin-top: 90px;
+  text-align: center;
+  background-color: #FFF;
+}
+
+.gtm-comp8-container .strategy_card_head img {
+  width: 36px;
+  height: 36px;
+  display: block;
+  margin: auto;
+}
+
+.gtm-comp8-container .strategy_card {
+  display: block;
+  width: 180px;
+  height: 210px;
+  padding-top: 1px;
+}
+
+.gtm-comp8-container .strategy_card_animation1 {
+  position: absolute;
+  top: -7px;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+          box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  border-radius: 10px;
+  -webkit-animation: img-1 1s infinite linear alternate;
+          animation: img-1 1s infinite linear alternate;
+  cursor: pointer;
+  z-index: -1;
+}
+
+@-webkit-keyframes img-1 {
+  from {
+    top: -7px;
+  }
+  to {
+    top: 7px;
+  }
+}
+
+@keyframes img-1 {
+  from {
+    top: -7px;
+  }
+  to {
+    top: 7px;
+  }
+}
+
+.gtm-comp8-container .strategy_card_animation2 {
+  position: absolute;
+  top: 7px;
+  width: 100%;
+  height: 100%;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+          box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+  border-radius: 10px;
+  -webkit-animation: img-2 1s infinite ease-in-out alternate;
+          animation: img-2 1s infinite ease-in-out alternate;
+  cursor: pointer;
+  -webkit-transition: all 1s linear;
+  transition: all 1s linear;
+  z-index: -1;
+}
+
+@-webkit-keyframes img-2 {
+  from {
+    top: 7px;
+  }
+  to {
+    top: -7px;
+  }
+}
+
+@keyframes img-2 {
+  from {
+    top: 7px;
+  }
+  to {
+    top: -7px;
+  }
+}
+
+.gtm-comp8-container .strategy_card:hover .strategy_card_animation1 {
+  -webkit-animation: none;
+          animation: none;
+  top: 0px;
+  -webkit-box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+          box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+}
+
+.gtm-comp8-container .strategy_card:hover .strategy_card_animation2 {
+  -webkit-animation: none;
+          animation: none;
+  top: 0px;
+  -webkit-box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+          box-shadow: 0px 16px 40px rgba(10, 16, 22, 0.1);
+}
+
+.gtm-comp8-container .strategy_card img {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: auto;
+  margin-top: 31px;
+}
+
+.gtm-comp8-container .strategy_card h1 {
+  width: 90%;
+  height: 24px;
+  margin: auto;
+  margin-top: 26px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #A06DAF;
+}
+
+.gtm-comp8-container .strategy_card_wrapper1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  min-height: 220px;
+  margin-top: 90px;
+}
+
+@media only screen and (max-width: 360px) {
+  .gtm-comp8-container .strategy_card_wrapper1 {
+    -webkit-column-gap: 0px;
+            column-gap: 0px;
+  }
+}
+
+.gtm-comp8-container .strategy_card_wrapper_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  row-gap: 36px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.gtm-comp8-container #competitor_analysis {
+  line-height: 20px;
+  width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .gtm-comp8-container .strategy_section h1 {
+    width: 300px;
+    height: 110px;
+    font-size: 22px;
+  }
+  .gtm-comp8-container .strategy_section p {
+    height: 200px;
+    margin-top: -50px;
+  }
+  .gtm-comp8-container .strategy_card_head {
+    margin-top: 70px;
+    width: 90px;
+    margin-left: 4px;
+  }
+  .gtm-comp8-container .strategy_card_head h1 {
+    width: 80px;
+    line-height: 20px;
+    height: 40px;
+    font-size: 12px;
+    margin: auto auto 0px auto !important;
+  }
+  .gtm-comp8-container .strategy_card_head img {
+    margin-top: 20px;
+  }
+  .gtm-comp8-container .strategy_card {
+    width: 200px;
+    height: 230px;
+  }
+  .gtm-comp8-container .strategy_card h1 {
+    width: 70%;
+    font-size: 12px;
+    margin-left: 44px;
+  }
+  .gtm-comp8-container .strategy_line22 {
+    margin-left: -57px;
+  }
+  .gtm-comp8-container #competitor_analysis {
+    width: 10%;
+  }
+}
+
+.gtm-comp8-container #collecting {
+  font-size: 14px;
+}
+
+.gtm-comp8-container .strategy_line23 {
+  width: 90%;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 70px;
+  z-index: -1;
+}
+
+.gtm-comp8-container .strategy_line26 {
+  width: 70%;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 70px;
+  z-index: -1;
+}
+
+.gtm-comp8-container .strategy_line27 {
+  width: 70%;
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 70px;
+  z-index: -1;
+}
+/*# sourceMappingURL=GTMComp8.css.map */

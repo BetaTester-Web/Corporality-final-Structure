@@ -143,6 +143,10 @@
   background-repeat: no-repeat;
   border: 2px solid transparent;
 }
+
+.gear3_inner1 h2 {
+  text-align: center;
+}
 .gear3_inner:hover {
   border: 2px solid #33657e;
   border-radius: 50%;
@@ -236,7 +240,8 @@
   .gear3_inner h2 {
     font-size: 12px;
     line-height: 14px;
-    margin-left: 5%;
+    /* margin-left: 5%; */
+    margin-right: 50px !important;
     text-align: center !important;
   }
 }
@@ -252,14 +257,15 @@
   .gear3_inner h2 {
     font-size: 10px;
     line-height: 10px;
+    margin-top: 35px !important;
+    margin-bottom: 0 !important;
+    margin-right: 0px !important;
+    margin-left: 10px !important;
+    text-align: center !important;
   }
 }
 
 @media screen and (max-width: 617px) {
-  .clientApproach {
-    /* margin-top: -300px !important; */
-  }
-
   .clientApproach_left h1 {
     width: 100%;
   }

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import "./GTMComp6.css"
 import main from "./images/comp-6-main.png"
 import sub from "./images/comp-6-sub.png"
@@ -12,10 +12,26 @@ import g from "./images/comp-6-7.png"
 
 
 const GTMComp6 = () => {
+    const observer1 = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                var textWrapper = document.querySelector('.gtm-comp-6-head h1');
+                textWrapper.classList.add('two');
+            }
+            else {
+                var textWrapper = document.querySelector('.gtm-comp-6-head h1');
+                textWrapper.classList.remove('two');
+            }
+        })
+    })
+    useEffect(() => {
+        observer1.observe(document.querySelector(".gtm-comp-6-head"));
+    },[])
     return (
         <div className="gtm-comp-6">
             <div className="gtm-comp-6-head">
-                <h2 data-aos="fade-down" data-aos-duration="1600">Corporality has what it takes</h2>
+                <h1 className='animate'><span>CORPORALITY</span>&nbsp;<span>HAS</span>&nbsp;<span>WHAT</span>&nbsp;<span>IT</span>&nbsp;<span>TAKES</span></h1>
+                {/* <h2 data-aos="fade-down" data-aos-duration="1600">Corporality has what it takes</h2> */}
                 <p data-aos="fade-down" data-aos-duration="1600">
                 Our structured and proven methodology emanates
                  powerful Go To Marketing strategies that meet 

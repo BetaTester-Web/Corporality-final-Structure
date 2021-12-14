@@ -3,6 +3,7 @@
   height: 80%;
   position: relative;
   padding-top: 13%;
+  margin-left: -12%;
 }
 
 .bp-cp2-img2 {
@@ -10,6 +11,7 @@
   width: 100%;
   margin-bottom: 13%;
   padding-top: 25%;
+  margin-left: 6%;
 }
 .bp-cp2-main {
   position: relative;
@@ -21,11 +23,16 @@
   .bp-cp2-img1 {
     width: 100%;
     height: 80%;
+    margin-left: -3%;
+   padding-top: 0%;
   }
   .bp-cp2-img2 {
     position: relative;
     width: 100%;
     height: 90%;
+    margin-left: 4%;
+    padding-top: 10%;
+    margin-bottom: 3%;
   }
   .bp-cp2-img2-div {
     margin-bottom: 50px !important;
@@ -33,14 +40,16 @@
 }
 @media screen and (max-width: 550px) {
   .bp-cp2-img1 {
-    width: 100%;
+    width: 80%;
     height: 80%;
+    margin-left: 7%;
   }
   .bp-cp2-img2 {
     position: relative;
     width: 100%;
     height: 90%;
     padding-top: 0%;
+    margin-left: 0%;
   }
   .bp-cp2-img2-div {
     margin-bottom: 50px !important;
@@ -50,8 +59,9 @@
   .bp-cp2-img1 {
     position: relative;
     left: 15%;
-    width: 80%;
+    width: 90%;
     height: 90%;
+    margin-left: -12%;
   }
   .bp-cp2-img2 {
     position: relative;

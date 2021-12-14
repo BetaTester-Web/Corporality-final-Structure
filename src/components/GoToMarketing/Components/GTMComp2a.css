@@ -1,0 +1,110 @@
+.GTMComp2a{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.GTMComp2a .row{
+    height: 450px;
+}
+
+.GTMComp2a .laptopImage{
+    position: absolute;
+    left: 0;
+    height: 450px;
+}
+
+.GTMComp2a .laptopImage .hyperImage{
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: url(../images/laptop.png) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+.GTMComp2a .laptopImage:after {
+    background: url(../images/shader1.png);
+    content: "";
+    right: -90px;
+    top: -90px;
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    z-index: -1;
+}
+
+.GTMComp2a .laptopImage:before {
+    background: url(../images/shader2.png);
+    content: "";
+    left: 10%;
+    bottom: -120px;
+    height: 280px;
+    width: 280px;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.GTMComp2a .col-lg-7{
+    margin-left: 41.66%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 992px) {
+    .GTMComp2a{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    
+    .GTMComp2a .row{
+        height: auto;
+    }
+
+    .GTMComp2a .heading{
+        font-size: 16px;
+    }
+
+    .GTMComp2a .text{
+        font-size: 12px
+    }
+
+    .GTMComp2a .laptopImage {
+        position: static;
+        width: 90%;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .GTMComp2a .laptopImage .hyperImage{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+        border-radius: 20px;
+    }
+
+    .GTMComp2a .laptopImage:after{
+        display: none;
+    }
+
+    .GTMComp2a .laptopImage:before{
+        display: none;
+    }
+
+    .GTMComp2a .col-lg-7{
+        margin-left: 0;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .GTMComp2a .heading{
+        font-size: 14px;
+    }
+
+    .GTMComp2a .text{
+        font-size: 10px;
+    }
+}

@@ -207,11 +207,12 @@
 .images-prev-3-Ideation {
     position: relative;
     top: 16%;
+    left: -5%;
 }
 
 .back3-Ideation {
     position: absolute;
-    top: -300px;
+    top: -305px;
     left: -250px;
 }
 
@@ -223,8 +224,8 @@
 
 .small3-Ideation {
     position: absolute;
-    left: -150px;
-    top: 90px;
+    left: -270px;
+    top: -20px;
 }
 
 .smaller3-Ideation {
@@ -245,13 +246,30 @@
     margin-bottom: 85px;
 }
 
+@media(max-width:1260px){
+    .images-prev-3-Ideation{
+        left: 10%;
+        top: 10%;
+    } 
+}
+
+@media (max-width:1082px){
+    .images-prev-3-Ideation{
+        left: 10%;
+        top: 10%;
+    }
+}
+
 @media (max-width:992px) {
     .third-Ideation {
-        padding-top: 300px;
+        padding-top: 350px;
     }
 
     .texting-third-Ideation {
         padding-top: 230px;
+    }
+    .images-prev-3-Ideation{
+        left: 0%;
     }
 }
 

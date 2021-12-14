@@ -8,11 +8,13 @@
 }
 
 .GTMComp5Container .heading {
-    max-width: 55%;
+    /* max-width: 55%; */
+    width: max-content;
 }
 
 .GTMComp5Container .text {
-    max-width: 65%;
+    max-width: 1000px;
+    /* width: max-content; */
 }
 
 .GTMComp5Container .component5Square {
@@ -43,13 +45,21 @@
 
     @keyframes hex-gym {
         from {
-            left: 5%;
+            left: 2.5%;
             transform: rotate(45deg);
         }
         to {
-            left: 70%;
+            left: 90%;
             transform: rotate(675deg);
         }
+    }
+
+    .GTMComp5Container .component5Square {
+        /* transform: rotate(-52.02deg) scale(0.5); */
+        border: 1px solid red;
+        width: 75px;
+        height: 75px;
+        bottom: -5%;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -61,5 +71,18 @@
     .GTMComp5Container .text {
         max-width: 85%;
         font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    @keyframes hex-gym {
+        from {
+            left: 2.5%;
+            transform: rotate(45deg);
+        }
+        to {
+            left: 80%;
+            transform: rotate(675deg);
+        }
     }
 }

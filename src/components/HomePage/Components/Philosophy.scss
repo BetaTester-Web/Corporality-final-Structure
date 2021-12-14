@@ -24,7 +24,7 @@
         }
         hr{
             margin: 0px 0px 0px 0px !important;
-            width: 10vw;
+            width: 6vw;
             height: 5px;
             background-color:#A06DAF;
             color:#A06DAF !important;
@@ -184,7 +184,7 @@
     .philosophyContainer{
         font-size: 18px;
         hr{
-            max-width: 150px;
+            max-width: 80px;
         }
     }
 }
@@ -203,7 +203,8 @@
     .philosophyContainer{
         font-size: 1.5vw !important;
         hr{
-            width: 16vw !important;
+            // width: 7vw !important;
+            height: 4px !important;
         }
         .philosophyBody{
             flex-direction: column !important;

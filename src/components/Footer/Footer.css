@@ -20,7 +20,6 @@
           align-items: center;
   background-color: #F2F2F2;
   overflow-x: hidden !important;
-  max-width: 1920px;
   margin: 0px auto;
   /*general drop property*/
   /*###### NAV-BAR-ENDING############*/
@@ -431,6 +430,7 @@
 
 .footerContainer .footerRow {
   width: 100%;
+  max-width: 1920px;
   padding: 20px 40px !important;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -712,7 +712,7 @@
 .footerContainer:last-child {
   -webkit-box-shadow: 0px 0px 15px 0px rgba(17, 25, 33, 0.05);
           box-shadow: 0px 0px 15px 0px rgba(17, 25, 33, 0.05);
-  margin: 0px !important;
+  margin: 0px auto !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -1,173 +1,199 @@
-.prev2{
-    /*  padding-top: 100px; */
-     margin-bottom: 200px;
-     margin-top: -400px;
- }
+.prev2 {
+    margin-bottom: 200px !important;
+    margin-top: -300px !important;
+}
 
- .hoverinit .main2{
-     position: relative;
-     transform: scale(1);
-     transition: all .6s linear;
- }
- .main2{
-     position: relative;
-     z-index: 2;
- }
- 
- .hoverinit {
-     position: relative;
-     z-index: 10;
- }
- 
- .Inc_Div_our-faith-main-img{
- position: relative;
- z-index: 10;
- width: 298.04px;
- height: 300px;
- left: 0px;
- top: 50px;
- overflow: hidden;
- transform: rotate(-45deg) !important;
- }
- 
- .Inc_Div_our-faith-main-img .main2{
- transform: rotate(45deg) !important;
- width: 143%;
- height: 143%;
- margin-top: -21.5%;
- margin-left: -21.5%;
- transition: all 0.6s linear;
- }
- .hoverinit:hover .main2{
-     transform: scale(1.03) rotate(45deg) !important;
- }
- .images-2{
-     position: relative;
- }
- .wall2-container{
-     position: absolute;
-     left: 100%;
-     top: 70%;
- }
- .small2-container{
-     position: absolute;
-     left: 70%;
-     top: 110%;
- }
- .side2-container{
-     position: absolute;
-     left: 3%;
-     top: 480px;
- }
- .prev-2-text-1{
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-     font-weight: bold;
-     font-size: 32px;
-     line-height: 44px;
-     text-transform: uppercase;
-     color: #3C708E;
- }
- 
- .prev-2-text-2{ 
-     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
-     font-weight: 500;
-     font-size: 16px;
-     line-height: 26px;
-     color: #757575;
-     padding-right: 100px;
- }
- 
- .texting-2{
-     padding-top: 10%;
- }
+.hoverinit .main2 {
+    position: relative !important;
+    transform: scale(1) !important;
+    transition: all .6s linear !important;
+}
 
- @media (max-width:1505px){
+.main2 {
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+.hoverinit {
+    position: relative !important;
+    z-index: 10 !important;
+}
+
+.Inc_Div_our-faith-main-img {
+    position: relative !important;
+    z-index: 10 !important;
+    width: 298.04px !important;
+    height: 300px !important;
+    left: 0px !important;
+    top: 50px !important;
+    overflow: hidden !important;
+    transform: rotate(-45deg) !important;
+}
+
+.Inc_Div_our-faith-main-img .main2 {
+    transform: rotate(45deg) !important;
+    width: 143% !important;
+    height: 143% !important;
+    margin-top: -21.5% !important;
+    margin-left: -21.5% !important;
+    transition: all 0.6s linear !important;
+}
+
+.hoverinit:hover .main2 {
+    transform: scale(1.03) rotate(45deg) !important;
+}
+
+.images-2 {
+    position: relative !important;
+}
+
+.wall2-container {
+    position: absolute !important;
+    left: 100% !important;
+    top: 70% !important;
+}
+
+.small2-container {
+    position: absolute !important;
+    left: 70% !important;
+    top: 110% !important;
+}
+
+.side2-container {
+    position: absolute !important;
+    left: 7% !important;
+    top: 530px !important;
+}
+
+.prev-2-text-1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: bold !important;
+    font-size: 32px !important;
+    line-height: 44px !important;
+    text-transform: uppercase !important;
+    color: #3C708E !important;
+}
+
+.prev-2-text-2 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 26px !important;
+    color: #757575 !important;
+    padding-right: 100px !important;
+}
+
+.texting-2 {
+    padding-top: 10% !important;
+}
+
+@media (max-width:1505px) {
     /* .side2-container{
-        left: -70%;
+        left: -70% !important;
     } */
- }
+}
 
- @media (max-width:1200px) {
-     .wall2-container{
-         left: 90%;
-     }
-     .side2-container{
-         top: 850px;
-         left: 0%;
-     }
-     .prev2{
-         margin-top: 0px;
-     }
- }
- 
- @media (max-width:992px) {
-     .wall2-container{
-         left: 100%;
-         top: 40%;
-     }
-     .side2-container{
+@media (max-width:1200px) {
+    .wall2-container {
+        left: 90% !important;
+    }
 
-         left: 5%;
-     }
-     .img-container{
-         position: relative;
-         top: -30%;
-     }
-     .small2-container{
-         top: 80%;
-         
-     }
- }
- @media (max-width:768px){
-    .prev-2-text-1{
-        font-size: 20px;
+    .side2-container {
+        top: 850px !important;
+        left: 0% !important;
     }
-    .prev-2-text-2{
-        font-size: 12px;
-        padding-right: 0px;
+
+    .prev2 {
+        margin-top: 0px !important;
     }
- }
- @media (max-width:677px){
-     .side2-container{
-         
-        width: 100px;
-        height: 160px;
-        top: 900px;
-        
-     }
- }
- @media (max-width:654px){
-     .side2-container{
-         top: 600px;
-     }
- }
- @media (max-width:509px){
-     .Inc_Div_our-faith-main-img{
-         width: 200px;
-        height: 202.8px;
-     }
-     .Inc_Div_our-faith-main-img .main2{
-         width: 103%;
-         height: 103%;
-     }
-     .img-container{
-         position: relative;
-         left: 20%;
-     }
-     .wall2-container{
-         width: 30%;
-         left: 80%;
-         top: 50%;
-     }
-     .small2-container{
-         top: 80%;
-         width: 10%;
-         left: 55%;
-         
-     }
- }
- 
- 
- 
+}
+
+@media (max-width:992px) {
+    .wall2-container {
+        left: 100% !important;
+        top: 60% !important;
+    }
+    .img-container {
+        position: relative !important;
+        top: -10% !important;
+    }
+
+    .small2-container {
+        top: 100% !important;
+        left: 210px !important;
+
+    }
+    .images-2{
+        position: relative;
+        top: -50px;
+    }
+}
+
+@media (max-width:768px) {
+    .prev-2-text-1 {
+        font-size: 20px !important;
+    }
+
+    .prev-2-text-2 {
+        font-size: 12px !important;
+        padding-right: 0px !important;
+    }
+}
+
+@media (max-width:677px) {
+    .side2-container {
+
+        width: 100px !important;
+        height: 160px !important;
+        top: 900px !important;
+        left: 20px !important;
+
+    }
+}
+
+@media (max-width:654px) {
+    .side2-container {
+        top: 600px !important;
+    }
+}
+
+@media (max-width:509px) {
+    .Inc_Div_our-faith-main-img {
+        width: 200px !important;
+        height: 202.8px !important;
+    }
+
+    .Inc_Div_our-faith-main-img .main2 {
+        width: 103% !important;
+        height: 103% !important;
+    }
+
+    .img-container {
+        position: relative !important;
+        left: 20% !important;
+    }
+
+    .wall2-container {
+        width: 20% !important;
+        left: 80% !important;
+        top: 70% !important;
+    }
+
+    .small2-container {
+        top: 90% !important;
+        width: 10% !important;
+        left: 60% !important;
+
+    }
+    .side2-container{
+        top: 650px !important;
+    }
+}
+
+@media(max-width:427px){
+    .side2-container{
+        top: 600px !important;
+    }
+}

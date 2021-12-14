@@ -19,7 +19,7 @@ code {
   height: 45.5em !important;
 }
 .snakes{
-  width: 62.5% !important;
+  width: 64.5% !important;
 }
 .flexing{
   height: 100%;
@@ -31,8 +31,8 @@ code {
 }
 .mediumD2{
   width: 4%;
-  margin-bottom: 3.5% !important;
-  margin-right: 6% !important;
+  margin-bottom: 3% !important;
+  margin-right: 7% !important;
   /* transform: rotate(360deg);
   transition : all 2s infinite; */
 }
@@ -48,14 +48,14 @@ code {
 .brandPara{
   height: 38% !important;
   width: 28% !important;
-  margin-left: -13.5% !important;
+  margin-left: -3.5% !important;
 }
 .paraHead{
-  font-size: 1.9em;
+  font-size: 1.3em;
   color: #33657E;
 }
 .paraText{
-  font-size: 1.2em;
+  font-size: 1em;
   color: #757575;
   text-align: justify;
 }
@@ -64,9 +64,9 @@ code {
   width: 58%;
 }
 .imprvdCompBlock{
-  margin-top: 8% !important;
-  margin-right: 70% !important;
-  width: 21%;
+  margin-top: 10% !important;
+  margin-right: 49% !important;
+  width: 20%;
   height: 13%;
 }
 .imprvdCompImg:hover{
@@ -77,16 +77,16 @@ code {
   width: 70%;
 }
 .imprvdCompText{
-  font-size: 0.8em !important;
-  padding-left: 10% !important;
-  width: 51%;
+  font-size: 0.7em !important;
+  padding-left: 12% !important;
+  width: 50%;
   color: #33657E;
   font-weight: 500;
 }
 .relatableIDBlock{
-  margin-bottom: 1% !important;
-  margin-right: 63% !important;
-  width: 21% !important;
+  margin-bottom: -2% !important;
+  margin-right: 45% !important;
+  width: 20% !important;
   height: 16% !important;
 }
 .relatableIDImg:hover{
@@ -97,16 +97,16 @@ code {
   width: 70%;
 }
 .relatableIDText{
-  font-size: 0.9em !important;
+  font-size: 0.8em !important;
   padding-left: 10% !important;
   width: 51% !important;
   color: #33657E !important;
   font-weight: 500 !important;
 }
 .custLoyaltyBlock{
-  margin-bottom: 2% !important;
-  margin-left: -15% !important;
-  width: 23% !important;
+  margin-bottom: -0.5% !important;
+  margin-left: 4% !important;
+  width: 22% !important;
   height: 18.5% !important;
 }
 .custLoyaltyImg:hover{
@@ -124,9 +124,9 @@ code {
   font-weight: 500;
 }
 .omniBlock{
-  margin-top: 1% !important;
-  margin-left: -50% !important;
-  width: 23% !important;
+  margin-top: 5% !important;
+  margin-left: -29% !important;
+  width: 22% !important;
   height: 17% !important;
 }
 .omniImg:hover{
@@ -137,7 +137,7 @@ code {
   width: 70%;
 }
 .omniText{
-  font-size: 0.9em;
+  font-size: 0.8em;
   padding-left: 7% !important;
   width: 51%;
   color: #33657E;
@@ -145,8 +145,8 @@ code {
 }
 .phnbtn{
   width: 5% !important;
-  margin-right: 44% !important;
-  margin-bottom: 13% !important;
+  margin-right: 28% !important;
+  margin-bottom: 8% !important;
 }
 .phnbtn::after{
   z-index: 10 !important;
@@ -197,18 +197,18 @@ code {
 }
 .littleD1{
   width: 5% !important;
-  margin-top: 7% !important;
-  margin-right: 55% !important;
+  margin-top: 15% !important;
+  margin-right: 41% !important;
 }
 .littleD2{
   width: 5% !important;
-  margin-left: -2% !important;
-  margin-bottom: 14% !important;
+  margin-left: 17% !important;
+  margin-bottom: 17% !important;
 }
 .textD{
-  width: 35% !important;
-  margin-left: -26% !important;
-  margin-bottom: 4.5% !important;
+  width: 30% !important;
+  margin-left: -12% !important;
+  margin-bottom: 6.5% !important;
 }
 .social{
   width: 6% !important;
@@ -364,7 +364,7 @@ code {
 }
 @media only screen and (max-width :576px){
   .snakes{
-    width: 97% !important;
+    width: 98% !important;
   }
   .flexing{
     flex-direction: column-reverse;

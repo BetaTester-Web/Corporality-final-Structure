@@ -1,6 +1,7 @@
 import React from 'react'
 import '../Limitless/Limitless.css'
 import hoverimage from '../Limitless/Limitless_background.jpg'
+import poly1 from './yellowpolygon.png'
 
 const Limitless = () => {
     return (

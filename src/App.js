@@ -21,6 +21,7 @@ import Contact from "./components/Contact/Contact";
 import DigitalMediaMarketing from "./components/DigitalMediaMarketing/DigitalMediaMarketing";
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
+import Blog from "./components/Blog/Blog";
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
           <Route path="/about-corporality" element={<AboutCorporality />} />
 
           <Route path="/blogs" element={<Blogs />}/>
+
+          <Route path="/blog" element={<Blog />}/>
 
           <Route path="/brand-positioning" element={<BrandPositioning />} />
 

@@ -1,0 +1,64 @@
+.customDropDown {
+  position: relative !important;
+  border: 1px solid #E1E1E1 !important;
+  max-width: none !important;
+}
+
+.customDropDown:focus-within {
+  border: 1px solid #6CA0BC !important;
+}
+
+.customDropDown button {
+  padding: 10px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  font-size: 1em !important;
+  font-weight: 400 !important;
+  line-height: 1.172em !important;
+  width: 95% !important;
+  border-radius: 0px !important;
+  text-align: left !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}
+
+.customDropDown button::after {
+  position: absolute !important;
+  top: 50% !important;
+  right: 5% !important;
+  margin-left: 5% !important;
+  max-width: 30px !important;
+  -webkit-transition: all .3s ease-in-out !important;
+  transition: all .3s ease-in-out !important;
+  -webkit-transform: translateY(-50%) !important;
+          transform: translateY(-50%) !important;
+}
+
+.customDropDown button:focus::after {
+  -webkit-transform: translateY(-50%) rotate(180deg) !important;
+          transform: translateY(-50%) rotate(180deg) !important;
+}
+
+.customDropDown ul {
+  padding: 0 !important;
+}
+
+.customDropDown ul li {
+  padding: 12px 20px !important;
+  width: 294px !important;
+  text-align: left !important;
+}
+
+.customDropDown ul li:hover {
+  font-weight: 500 !important;
+  line-height: 1.5em !important;
+  color: #33657E !important;
+  background-color: #F2F2F2 !important;
+  cursor: pointer !important;
+}
+
+.customDropDown ul li a {
+  all: unset !important;
+  font-size: 1em !important;
+}
+/*# sourceMappingURL=DropDown.css.map */

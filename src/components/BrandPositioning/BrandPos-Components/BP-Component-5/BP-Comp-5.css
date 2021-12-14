@@ -12,7 +12,8 @@
   padding-top: 1%;
 }
 .endbutton{
-  background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%);
+  background: linear-gradient(95.12deg, #E5CD60 0%, #6CA0BC 83.42%);
+  border: black;
   width: 14%  ;
 height: 42px;
 font-family: Roboto;
@@ -24,6 +25,9 @@ color: white;
  margin-top: 3%;
  margin-bottom: 3% !important;
  
+}
+.endbutton:hover{
+  background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
 }
 .BP-CP5-h1 {
   height: 30px;

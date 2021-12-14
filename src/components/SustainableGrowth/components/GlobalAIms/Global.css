@@ -1,5 +1,5 @@
 .container-Global {
-  padding: 50px 50px !important;
+  padding: 119px !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -7,13 +7,22 @@
 }
 
 .Global-text-1 {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 32px;
   line-height: 42px;
   text-align: center;
   text-transform: uppercase;
+  margin-right: -650px !important;
+  background-image: url(./backgroundimage.png);
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-position: 50%;
+  background-size: cover;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 20px;
+
 }
 
 .Global-text-2 {
@@ -36,6 +45,7 @@
   line-height: 14px;
   text-align: center;
   color: #757575;
+  padding-bottom: 10px;
 }
 
 .social_icons_Sustainable_growth {
@@ -49,10 +59,10 @@
   position: relative;
 }
 
-.global_twitter_icon {
+.Linkedin_Sustaible_growth {
   position: absolute;
-  top: 25%;
-  left: 30%;
+  top: 5px;
+  left: 2px;
 }
 
 .global_link {
@@ -65,137 +75,80 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 14px;
-  /* identical to box height, or 100% */
   text-decoration: none;
   color: #757575;
-}
-/* 
-.Global-arrow-twitter {
-  position: absolute;
+  margin-top: 5px;
+  margin-left: 20px;
 }
 
-.Twitter_text_SG {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 14px;
-
-  position: absolute;
-  left: 57%;
-  top: -5px;
-
-  color: #757575;
-}
-.linkedin_text_SG {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 14px;
-
-  position: absolute;
-  left: 57%;
-  top: -5px;
-
-  color: #757575;
-}
-
-.social_icons_Sustainable_growth {
-  position: relative;
-  margin-top: -110px;
-  left: 30%;
-}
-
-.circle1_Sustaible_growth {
-  position: absolute;
-}
-.twitter_Sustaible_growth {
-  position: absolute;
-}
-.arrow1_Sustaible_growth {
-  position: absolute;
-  left: 52%;
-  top: -2px;
-  transition-delay: 0.6s;
-  animation: ideation-slide 2s ease-in-out infinite;
+a {
+  text-decoration: none !important;
 }
 
 .social_icons2_Sustainable_growth {
-  position: relative;
-  margin-top: -110px;
-  left: -45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
+
 .circle1_Sustaible_growth {
-  position: absolute;
+  position: relative;
 }
-.Linkedin_Sustaible_growth {
+
+.global_twitter_icon {
   position: absolute;
+  top: 25%;
+  left: 30%;
 }
-.arrow2_Sustaible_growth {
-  position: absolute;
-  left: 52%;
-  top: -2px;
+
+.arrow1_Sustaible_growth, .arrow2_Sustaible_growth {
+  /* left: -2%; */
   transition-delay: 0.6s;
   animation: ideation-slide 2s ease-in-out infinite;
 }
 
-@media (max-width: 1200px) {
-  .linkedin_text_SG {
-    left: 62%;
-  }
-  .Twitter_text_SG {
-    left: 62%;
-  }
-  .social_icons2_Sustainable_growth {
-    left: -40%;
-  }
-  .social_icons_Sustainable_growth {
-    left: 20%;
+.global_link {
+  text-decoration: none;
+}
+
+.linkedin_text_SG {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-decoration: none;
+  color: #757575;
+  margin-top: 5px;
+  margin-left: 20px;
+
+}
+
+@media(max-width:992px){
+  .Global-text-1{
+    margin-right: 0px !important;
   }
 }
 
-@media (max-width: 768px) {
-  .linkedin_text_SG {
-    left: 65%;
+@media(max-width:768px) {
+  .Global-text-1 {
+    font-size: 16px !important;
+    line-height: 25px !important;
   }
-  .Twitter_text_SG {
-    left: 65%;
+
+  .Global-text-2 {
+    font-size: 14px !important;
   }
-  .social_icons2_Sustainable_growth {
-    left: -35%;
-  }
-  .social_icons_Sustainable_growth {
-    left: 5%;
+
+  .Global-text-3 {
+    font-size: 14px !important;
   }
 }
 
-@media (max-width: 576px) {
-  .linkedin_text_SG {
-    left: 69%;
-  }
-  .Twitter_text_SG {
-    left: 69%;
-  }
+@media (max-width:384px) {
+
   .social_icons2_Sustainable_growth {
-    left: -30%;
-  }
-  .social_icons_Sustainable_growth {
-    left: 0%;
+    margin-left: 10px;
   }
 }
-
-@media (max-width: 434px) {
-  .linkedin_text_SG {
-    left: 72%;
-  }
-  .Twitter_text_SG {
-    left: 72%;
-  }
-  .social_icons2_Sustainable_growth {
-    left: -35%;
-  }
-  .social_icons_Sustainable_growth {
-    left: -5%;
-  }
-} */
