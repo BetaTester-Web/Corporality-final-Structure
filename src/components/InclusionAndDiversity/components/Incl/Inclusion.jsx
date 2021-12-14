@@ -1,7 +1,7 @@
 import React from 'react'
 import '../Incl/Inclusion.css'
 import Main from '../Incl/main.png'
-import Back from '../Incl/back.png'
+import Back from '../Incl/backINinclusion.png'
 import wall from '../Incl/wall.png'
 import smallrect from '../Incl/smallrect.png'
 import rect from '../Incl/rect.png'
