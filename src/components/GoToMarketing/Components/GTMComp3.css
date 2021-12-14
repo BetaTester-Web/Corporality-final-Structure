@@ -15,3 +15,28 @@
 .gotomarketing-card.col-lg-1{
     width: 10%;
 }
+
+@media only screen and (max-width: 992px) {
+    .animate{
+        font-size: 16px!important;
+    }
+    .animate2{
+        font-size: 16px!important;
+    }
+
+    .text{
+        font-size: 12px!important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .animate{
+        font-size: 14px!important;
+    }
+    .animate2{
+        font-size: 14px!important;
+    }
+    
+    .text{
+        font-size: 10px!important;
+    }
+}
