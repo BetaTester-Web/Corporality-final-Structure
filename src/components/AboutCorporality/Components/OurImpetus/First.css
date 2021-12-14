@@ -201,18 +201,18 @@
   }
 
   .ourimpetus_textside_heading {
-    font-size: 35px;
-    line-height: 32px;
+    font-size: 26px;
+    line-height: 24px;
   }
 
   .ourimpetus_textside_description {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .ourimpetus_textside_smalltext {
-    font-size: 12px;
-    line-height: 16px;
+    font-size: 10px;
+    line-height: 14px;
   }
 }
 
@@ -259,7 +259,7 @@
   }
 
   .impetus_text_box2 {
-    top: 120px;
+    top: 170px;
     left: 280px;
   }
 }

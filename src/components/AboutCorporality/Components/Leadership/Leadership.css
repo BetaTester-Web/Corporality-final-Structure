@@ -235,4 +235,13 @@
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
+
+  .leadership_heading {
+    font-size: 22px;
+  }
+
+  .leadership_content {
+    font-size: 12px;
+    line-height: 15px;
+  }
 }

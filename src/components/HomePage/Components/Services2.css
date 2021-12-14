@@ -249,13 +249,23 @@
   }
 
   .right_content_heading {
-    font-size: 24px;
+    font-size: 22px;
     line-height: 25px;
   }
 
   .right_content_info_points {
     font-size: 14px;
     line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .right_content_heading {
+    padding-right: 30px !important;
+  }
+
+  .right_content_info_points {
+    padding-right: 30px !important;
   }
 }
 
@@ -271,12 +281,17 @@
   }
 
   .right_content_heading {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
   }
 
   .right_content_button {
     margin-top: -15px !important;
+  }
+
+  .right_content_info_points {
+    font-size: 10px;
+    line-height: 14px;
   }
 }
 
@@ -294,7 +309,6 @@
   .right_content_heading {
     font-size: 16px;
     line-height: 20px;
-    padding-right: 0 !important;
   }
 
   .right_content_info_points {

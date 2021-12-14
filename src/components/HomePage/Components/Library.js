@@ -150,7 +150,7 @@ function Library() {
               data-aos-offset="0"
               id="image4"
             >
-              <div className="upper_image">
+              <div className="upper_image fourth_img">
                 <img src={img4} alt="" />
               </div>
               <div className="lower_text">
