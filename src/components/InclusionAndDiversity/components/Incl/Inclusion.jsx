@@ -6,12 +6,15 @@ import wall from '../Incl/wall.png'
 import smallrect from '../Incl/smallrect.png'
 import rect from '../Incl/rect.png'
 import smallerrect from '../Incl/smallerrect.png'
+import yellowbackground from './yellowbackground.png'
 const Inclusion = () => {
     return (
         <div className="Inclusion">
             <div className="navbar-Id"></div>
             <div className="container container-1-Id">
-            <div className="yellowbackground_Inclusion"></div>
+            <div className="yellowbackground_Inclusion">
+                <img src={yellowbackground} alt='' />
+            </div>
                 <div className="row first-image-Id">
                     <div className="col-lg-6">
                         <div data-aos="fade-right" className="text-box-1-Id">

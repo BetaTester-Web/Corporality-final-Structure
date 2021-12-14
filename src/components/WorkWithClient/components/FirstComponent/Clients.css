@@ -10,7 +10,7 @@
     flex-direction: column;
     justify-content: center;
     padding-top: 150px;
-    left: 10%;
+    left: 5%;
 
 }
 
@@ -82,13 +82,8 @@
 
 .yellowbackground_Clients {
     position: absolute;
-    top: 280px;
-    right: 0;
-    width: 500px;
-    height: 466px;
-    background: rgba(255, 239, 165, 0.30196078431372547);
-    -webkit-filter: blur(100px);
-    filter: blur(100px);
+   right: 0;
+   top: 100px;
 }
 
 .blue_print_overlay {
@@ -315,11 +310,7 @@
         width: 10%;
     }
 
-    .yellowbackground_Clients {
-        top: 200px;
-        width: 400px;
-        height: 200px;
-    }
+
 }
 
 @media(max-width:609px){
