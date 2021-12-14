@@ -21,8 +21,8 @@ const SACComp1 = () => {
     <div className="SACC1_prev-1-Ib">
       <div className="SACC1_navbar"></div>
       <div className="SACC1_parent">
-        <img src={yellow_back} alt="" className="SACC1_yellowback" />
         <div className="container SACC1_container-1">
+          <img src={yellow_back} alt="" className="SACC1_yellowback" />
           <div className="row SACC1_first-image">
             <div className="col-lg-6">
               <div data-aos="fade-right" className="SACC1_text-box-1">
