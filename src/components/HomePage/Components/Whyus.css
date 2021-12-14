@@ -141,6 +141,7 @@
 .box_text_2 {
   top: 35px;
   left: 5px;
+  margin-right: 5px !important;
   font-size: 16px;
 }
 
@@ -243,6 +244,10 @@
   .box_bottom_3 {
     top: 150px;
     left: 250px;
+  }
+
+  .box_text_2 {
+    margin-right: 0 !important;
   }
 }
 
