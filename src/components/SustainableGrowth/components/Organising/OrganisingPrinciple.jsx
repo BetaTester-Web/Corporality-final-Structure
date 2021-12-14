@@ -17,7 +17,9 @@ const OrganisingPrinciple = () => {
         <div className="OrganisingPrinciple">
             <div className="navbar-Op"></div>
             <div className="container container-1-Op">
-            <div className="yellowbackground_Op"></div>
+            <div className="yellowbackground_Op">
+                <img src = {yellowbackground} alt = '' />
+            </div>
                 <div className="row first-image-Op">
                     
                     <div className="col-lg-6">

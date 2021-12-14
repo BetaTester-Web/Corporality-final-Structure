@@ -71,14 +71,9 @@
 
 
  .yellowbackground_Op {
-    position: absolute  ;
-    top: 280px  ;
-    right: 0  ;
-    width: 500px  ;
-    height: 466px  ;
-    background: rgba(255, 239, 165, 0.30196078431372547)  ;
-    -webkit-filter: blur(100px)  ;
-    filter: blur(100px)  ;
+    position: absolute;
+    right: 0;
+    top: 100px;
   }
 
 .navbar-Op{
@@ -283,11 +278,6 @@
         top: 50%  ;
         left: 33%  ;
         width: 10%  ;
-    }
-    .yellowbackground_Op{
-        top: 200px  ;
-        width: 400px  ;
-        height: 200px  ;
     }
 }
 

@@ -9,11 +9,12 @@ const Global = () => {
   return (
     <div>
       <div className="container container-Global d-flex justify-content-center flex-column align-items-center">
-        <div className="row">
-          <p className="Global-text-1">
+        <div className="row image-under-text">
+          <div className="Global-text-1">
             "By 2025, Corporality Global aims to become an epitome of
             sustainability, worldwide."
-          </p>
+          </div>
+          
         </div>
         <div className="row">
           <p className="Global-text-2">Priya Mishra</p>
