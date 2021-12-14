@@ -87,7 +87,7 @@ const NewBanner = () => {
             </div>
             <div className="rightBannerContainer"  onClick={rightBannerClickHandler}>
                 {!showYoutube && <img src="/img/HomePage/media/yt-icon-right.png" alt="" />}
-                <iframe ref={youtubeVid} className={showYoutube ? "" : "hidden"} width="560" height="315" src="https://www.youtube.com/embed/0g9B3ZC5Hvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe ref={youtubeVid} className={showYoutube ? "" : "hidden"} src="https://www.youtube.com/embed/0g9B3ZC5Hvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className="twoDiamonds">
                 <div data-aos="fade-right" className="bigDiamond">

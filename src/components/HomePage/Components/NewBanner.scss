@@ -10,7 +10,6 @@
     height: 41.5vw;
     max-height: 806px;
     margin: 0 auto;
-    z-index: -1;
     video{
         position: absolute;
         top: 0;
@@ -170,7 +169,7 @@
         right: 0px;
         width: 20%;
         max-width: 377px;
-        height: 26%; 
+        height: 26.8%; 
         z-index: 1;
         background-color: #FFFFFFE5;
     }
@@ -222,12 +221,13 @@
         margin-top: 20% !important;
         position: relative;
         z-index: 15 !important;
+        cursor: pointer;
     }
     
     .callButton > img{
         width: 100%;
         height: 100%;
-        object-fit: contain !important;
+        object-fit: cover !important;
         z-index: 15 !important;
     }
     
