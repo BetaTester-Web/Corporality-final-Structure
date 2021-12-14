@@ -62,6 +62,14 @@
         height: auto;
     }
 
+    .GTMComp2a .heading{
+        font-size: 16px;
+    }
+
+    .GTMComp2a .text{
+        font-size: 12px
+    }
+
     .GTMComp2a .laptopImage {
         position: static;
         width: 90%;
@@ -88,5 +96,15 @@
         margin-left: 0;
         margin-top: 25px;
         margin-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .GTMComp2a .heading{
+        font-size: 14px;
+    }
+
+    .GTMComp2a .text{
+        font-size: 10px;
     }
 }
