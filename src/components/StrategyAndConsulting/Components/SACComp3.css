@@ -108,4 +108,13 @@
   .sacc3Left {
     margin-right: 10px !important;
   }
+
+  .sacc3Button {
+    width: 100px;
+    height: 32px;
+    border: 2px solid transparent;
+    border-image: linear-gradient(95.12deg, #eed979 0%, #6ca0bc 83.42%);
+    border-image-slice: 1;
+    font-size: 12px;
+  }
 }

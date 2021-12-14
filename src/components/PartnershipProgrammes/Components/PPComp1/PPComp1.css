@@ -129,6 +129,7 @@
   }
   .ppc1ColWrapper {
     padding: 0 !important;
+    margin-right: 100% !important;
   }
   .ppc1ImageWrapper {
     margin-bottom: 20px;
@@ -221,6 +222,10 @@
       }
     }
     @media (min-width: 769px) and (max-width: 1199.98px) {
+      .qmqmqmqmqmqmqmqmqmqmq{
+        padding: 0%;
+        margin: 0%;
+      }
       .ppc1RowContainer {
         height: calc(100vh - 80px);
         margin: 80px 20px 0 20px !important;

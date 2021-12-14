@@ -173,3 +173,15 @@
     left: 55%;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .SACC2_prev-2-text-1 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .SACC2_prev-2-text-2 {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

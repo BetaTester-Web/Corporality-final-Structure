@@ -16,8 +16,8 @@ export default function PPComp1() {
     AOS.refresh();
   }, []);
   return (
-    <div>
-      <div className="p-0 container-fluid ">
+    <div className="">
+      <div className="p-0  qmqmqmqmqmqmqmqmqmqmq ">
         <div className="row d-flex flex-row ppc1RowContainer ">
           <div className="col p-0 d-flex flex-column justify-content-center ppc1ColWrapper ppc1ColTextWrapper">
             <img src={rec10} className="pp_toprect" />
