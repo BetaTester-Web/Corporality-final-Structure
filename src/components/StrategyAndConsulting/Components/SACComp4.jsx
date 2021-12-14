@@ -26,7 +26,7 @@ export default function SACComp4() {
         <div className="sacc4Middle d-flex flex-row flex-wrap justify-content-center">
           <div
             data-aos="flip-left"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             className="sacc4RecCard"
           >
             <p className="sacc4Heading2">Intuitive Solutions</p>
@@ -44,7 +44,7 @@ export default function SACComp4() {
           <div
             data-aos="flip-left"
             data-aos-delay="300"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             className="sacc4RecCard"
           >
             <p className="sacc4Heading2">Deep Industry Expertise</p>
@@ -61,7 +61,7 @@ export default function SACComp4() {
           <div
             data-aos="flip-left"
             data-aos-delay="600"
-            data-aos-duration="1000"
+            data-aos-duration="500"
             className="sacc4RecCard"
           >
             <p className="sacc4Heading2">Functional Knowledge</p>

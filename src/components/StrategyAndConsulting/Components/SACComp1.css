@@ -5,7 +5,6 @@
 .SACC1_container-1 {
   display: flex;
   align-items: center;
-  position: relative;
   /* overflow-x: hidden; */
   /*  oevrflow-y: hidden; */
 }
@@ -328,10 +327,3 @@
         height: 252.8px;
     }
 } */
-
-@media only screen and (max-width: 500px) {
-  .SACC1_container-1_text {
-    font-size: 22px;
-    line-height: 24px;
-  }
-}

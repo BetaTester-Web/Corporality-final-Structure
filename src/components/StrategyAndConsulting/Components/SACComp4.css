@@ -194,30 +194,3 @@
     margin-top: 0px;
   }
 }
-
-@media only screen and (max-width: 768px) {
-  .sacc4Heading2,
-  .sacc4Para2 {
-    margin-bottom: 0 !important;
-    line-height: 14px;
-    margin-top: 10px !important;
-  }
-
-  .sacc4Para2 {
-    margin-bottom: 5px !important;
-  }
-}
-
-@media only screen and (max-width: 552px) {
-  .sacc4Heading1 {
-    font-size: 20px;
-    line-height: 20px;
-    width: 80%;
-  }
-
-  .sacc4Para1 {
-    font-size: 12px;
-    line-height: 14px;
-    width: 80%;
-  }
-}

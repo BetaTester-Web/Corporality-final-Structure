@@ -17,7 +17,7 @@ export default function SACComp3() {
             <div
               data-aos="flip-left"
               data-aos-delay="300"
-              data-aos-duration="1000"
+              data-aos-duration="500"
               className="sacc3TextWrapper d-flex flex-row"
             >
               <div className="sacc3Left">
