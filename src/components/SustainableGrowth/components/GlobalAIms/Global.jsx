@@ -1,36 +1,88 @@
-import React from 'react'
-import '../GlobalAIms/Global.css'
-import circle from '../GlobalAIms/circle1.png'
-import twitter from '../GlobalAIms/twitter.png'
-import arrow from '../GlobalAIms/arrow.png'
-import linkedin from '../GlobalAIms/linkedin.png'
+import React from "react";
+import "../GlobalAIms/Global.css";
+import circle from "../GlobalAIms/circle1.png";
+import twitter from "../GlobalAIms/twitter.png";
+import arrow from "../GlobalAIms/arrow.png";
+import linkedin from "../GlobalAIms/linkedin.png";
 
 const Global = () => {
-    return (
-        <div>
-            <div className="container container-Global d-flex justify-content-center flex-column align-items-center">
-                <div className="row"><p className='Global-text-1'>"By 2025, Corporality Global aims to become an epitome of sustainability, worldwide."</p></div>
-                <div className="row"><p className='Global-text-2'>Priya Mishra</p></div>
-                <div className="row"><p className='Global-text-3'>CEO, Corporality Global</p></div>
-                {/* <div className="row">
-                    <div className="icons_Global_main">
-                        <div className="icons_global-twitter">
-                            <img src={circle} alt='' className='Global-circle' />
-                            <img src={twitter} alt='' className='Global-twitter' />
-                            <img src={arrow} alt='' className='Global-arrow-twitter' />
-                            <p className='twitter-global'>twitter</p>
-                        </div>
-                        <div className="icons_global-linkedin">
-                            <img src={circle} alt='' className='Global-circle-linkedin' />
-                            <img src={linkedin} alt='' className='Global-linkedin' />
-                            <img src={arrow} alt='' className='Global-arrow-linkedin' />
-                            <p className='linkedin-global'>linkedin</p>
-                        </div>
-                    </div>
-                </div> */}
-            </div>
+  return (
+    <div>
+      <div className="container container-Global d-flex justify-content-center flex-column align-items-center">
+        <div className="row image-under-text">
+          <div className="Global-text-1">
+            "By 2025, Corporality Global aims to become an epitome of
+            sustainability, worldwide."
+          </div>
+          
         </div>
-    )
-}
+        <div className="row">
+          <p className="Global-text-2">Priya Mishra</p>
+        </div>
+        <div className="row">
+          <p className="Global-text-3">CEO, Corporality Global</p>
+        </div>
+        <div className="row d-flex justify-content-center  align-items-center">
+          <div className="col">
+            <a href="https://twitter.com/corporalityg/" className="global_link">
+              <div className="social_icons_Sustainable_growth d-flex justify-content-center align-items-center">
+                <div className="global_twitter_circle">
+                  <img
+                    src={circle}
+                    alt=" "
+                    className="circle1_Sustaible_growth"
+                  />
+                  <div className="global_twitter_icon">
+                    <img
+                      src={twitter}
+                      alt=" "
+                      className="twitter_Sustaible_growth"
+                    />
+                  </div>
+                </div>
+                <div className="global_twitter_arrow">
+                  <img
+                    src={arrow}
+                    alt=" "
+                    className="arrow1_Sustaible_growth"
+                  />
+                </div>
+                <div className="global_twitter_text">Twitter</div>
+              </div>
+            </a>
+          </div>
+          <div className="col">
+            <a className="global_link" href="https://www.linkedin.com/company/corporalityg/">
+              <div className="social_icons2_Sustainable_growth d-flex justify-content-center align-items-center">
+                <div className="global_twitter_circle">
+                  <img
+                    src={circle}
+                    alt=" "
+                    className="circle1_Sustaible_growth"
+                  />
+                  <div className="global_twitter_icon">
+                    <img
+                      src={linkedin}
+                      alt=" "
+                      className="Linkedin_Sustaible_growth"
+                    />
+                  </div>
+                </div>
+                <div className="global_twitter_arrow">
+                  <img
+                    src={arrow}
+                    alt=" "
+                    className="arrow2_Sustaible_growth"
+                  />
+                </div>
+                <div className="linkedin_text_SG">Linkedin</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
 
-export default Global
+export default Global;

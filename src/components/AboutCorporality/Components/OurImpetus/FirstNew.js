@@ -7,47 +7,54 @@ import backimg from "../OurImpetus/back.png";
 import wall from "../OurImpetus/wall.png";
 import smallrect from "../OurImpetus/small.png";
 import rect from "../OurImpetus/rect.png";
+import text_rectangle from "../OurImpetus/text_rectangle.png";
+import yellow_back from "../OurImpetus/yellow_back.png";
 import "./First.css";
 
 function FirstNew() {
   useEffect(() => {
-    Aos.init();
+    Aos.init({ duration: 3000 });
+    Aos.init({ disable: "mobile" });
   });
 
   return (
-    <div className="upper_container">
-      <div
-        className="left_content aos-init aos-animate"
-        data-aos="fade-right"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out"
-        data-aos-offset="0"
-      >
-        <div className="impetus_heading">OUR IMPETUS</div>
-        <div className="impetus_text">
-          TO DELIVER THE BEST IN DIGITAL MARKETING AND SALES SOLUTIONS USING
-          INNOVATION AND INTUITION TO CRAFT BUSINESS BRILLIANCE
-        </div>
-        <div className="impetus_text2">
-          We create long-lasting values while helping you embrace change in
-          quickly altering marketing scenarios
-        </div>
-      </div>
-      <div
-        className="right_image aos-init aos-animate"
-        data-aos="fade-left"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out"
-        data-aos-offset="0"
-      >
-        <img src={wall} alt="" className="wall_img" />
-
-        <img src={backimg} alt="" className="back_img" />
-        <img src={smallrect} alt="" className="smallrectangle_img" />
-        <img src={rect} alt="" className="rectangle_img" />
-
-        <div className="main_image_container">
-          <img src={main2} alt="" className="main_img" />
+    <div className="ourimpetus_parent">
+      <img src={yellow_back} alt="" className="ourimpetus_yellowback" />
+      <div className="container">
+        <div className="ourimpetus_container">
+          <div className="ourimpetus_text_side">
+            <div className="impetus_text_box1">
+              <img src={rect} alt="" />
+            </div>
+            <div className="impetus_text_box2">
+              <img src={text_rectangle} alt="" />
+            </div>
+            <div className="ourimpetus_textside_heading">OUR IMPETUS</div>
+            <div className="ourimpetus_textside_description">
+              TO DELIVER THE BEST IN DIGITAL MARKETING AND SALES SOLUTIONS USING
+              INNOVATION AND INTUITION TO CRAFT BUSINESS BRILLIANCE
+            </div>
+            <div className="ourimpetus_textside_smalltext">
+              We create long-lasting values while helping you embrace change in
+              quickly altering marketing scenarios
+            </div>
+          </div>
+          <div className="our_impetus_image_side">
+            <div className="imageside_maincontainer">
+              <div className="imagesidecontainer2">
+                <img src={main2} alt="" className="impetus_mainimage" />
+              </div>
+              <div className="impetus_main_backside">
+                <img src={backimg} alt="" />
+              </div>
+              <div className="impetus_main_wall">
+                <img src={wall} alt="" />
+              </div>
+              <div className="impetus_main_box">
+                <img src={smallrect} alt="" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

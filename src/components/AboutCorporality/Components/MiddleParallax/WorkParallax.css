@@ -1,15 +1,19 @@
-.parallax_container {
+.aboutus_parallax_parent {
   background-image: url(./images/parallax_back.png);
   background-repeat: no-repeat;
-  position: relative;
-  width: 100%;
-  height: 60vh;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  position: relative;
+}
+
+.parallax_container {
+  position: relative;
+  width: 100%;
+  height: 400px;
   margin-top: 30px !important;
   display: flex;
   flex-direction: column;
@@ -25,7 +29,7 @@
   line-height: 40px;
   text-align: center;
   color: #3c708e;
-  padding: 0 200px !important;
+  padding: 0 100px !important;
 }
 
 .parallax_description {
@@ -37,7 +41,7 @@
   text-align: center;
   color: #232323;
   margin-top: 20px !important;
-  padding: 0 240px !important;
+  padding: 0 220px !important;
 }
 
 .bottom_button {
@@ -69,16 +73,16 @@
 .box_top {
   position: absolute;
   top: 30px;
-  left: 600px;
+  left: 555px;
 }
 .box_right {
   position: absolute;
   top: 120px;
-  right: 320px;
+  right: 220px;
 }
 .boxes_left {
   position: absolute;
-  left: 150px;
+  left: 70px;
   bottom: 10px;
 }
 
@@ -89,59 +93,26 @@
   }
 }
 
-@media only screen and (max-width: 950px) {
-  .parallax_main_heading {
-    padding: 0 100px !important;
-  }
-
+@media only screen and (max-width: 991px) {
+  .parallax_main_heading,
   .parallax_description {
-    padding: 0 100px !important;
-  }
-
-  .boxes_left {
-    left: 30px;
+    padding: 0 0 !important;
   }
 
   .box_top {
-    top: 10px;
-  }
-}
-
-@media only screen and (max-width: 790px) {
-  .box_right {
-    right: 20px;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .parallax_main_heading {
-    padding: 0 30px !important;
-  }
-
-  .parallax_description {
-    padding: 0 30px !important;
-  }
-
-  .box_top {
-    left: 300px;
+    top: 30px;
+    left: 200px;
   }
 
   .box_right {
-    right: 160px;
+    right: 0;
   }
 }
 
 @media only screen and (max-width: 610px) {
-  .parallax_main_heading {
-    padding: 0 5px !important;
-  }
-
-  .parallax_description {
-    padding: 0 5px !important;
-  }
-
   .box_right {
     right: 20px;
+    top: 120px;
   }
 }
 
@@ -149,6 +120,10 @@
   .boxes_left img {
     width: 110px;
     height: 100px;
+  }
+
+  .boxes_left {
+    left: 30px;
   }
 
   .parallax_main_heading {
@@ -168,12 +143,19 @@
   }
 
   .box_right {
-    right: 120px;
+    top: 120px;
+    right: 20px;
   }
 }
 
 @media only screen and (max-width: 427px) {
   .box_right {
+    top: 120px;
     right: 50px;
+  }
+
+  .bottom_button button {
+    padding: 12px 15px !important;
+    font-size: 12px;
   }
 }

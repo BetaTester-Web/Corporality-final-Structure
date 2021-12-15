@@ -1,12 +1,22 @@
-.worldmap_container {
+.worldmap_parent {
   background-image: url(./images/map.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+
+.worldmap_container {
   display: flex;
   margin: 30px 0 !important;
   padding: 20px 30px !important;
+  /* padding-left: 60px !important; */
+}
+
+@media only screen and (max-width: 1399px) {
+  .worldmap_left {
+    margin-left: -100px !important;
+  }
 }
 
 @media only screen and (max-width: 1272px) {
@@ -17,11 +27,11 @@
   }
 
   .worldmap_left img {
-    margin-right: 400px !important;
+    margin-right: 50px !important;
   }
 
   .worldmap_right img {
-    margin-left: 400px !important;
+    margin-left: 50px !important;
   }
 }
 
@@ -70,5 +80,10 @@
   .worldmap_right img {
     width: 300px;
     height: 250px;
+  }
+
+  .worldmap_left,
+  .worldmap_right {
+    margin: 0 !important;
   }
 }

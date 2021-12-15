@@ -7,16 +7,17 @@
 .BP-c4-h {
   font-style: Bold;
   font-style: 30px;
-  line-height: 130%;
+  line-height: 120%;
   vertical-align: Top;
   text-transform: uppercase;
+  text-align: left;
 }
 .BP-c4-d {
-  width: 60%;
+  width: 50%;
   padding: 2%;
   text-align: justify;
   position: relative;
-  left: 40%;
+  left: 50%;
   background: linear-gradient(102.62deg, #a06daf 18.52%, #6ca0bc 82.82%);
   color: #ffffff;
   margin-top: 8%;
@@ -100,17 +101,19 @@
   .BP-c4-p {
     font-size: 10px;
     line-height: 100%;
+  
   }
   .BP-c4-h {
     font-size: 12px;
     line-height: 100%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
   }
   .BP-c4-d {
     margin-top: 8%;
     padding: 2%;
     text-align: left;
-    left: 45%;
+    left: 35%;
+    width: 66%;
   }
   .BP-CP-4-img-d {
     width: 100%;
@@ -140,25 +143,25 @@
     height: 350px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .BP-c4-p {
-    font-size: 10px;
+    font-size: 9px;
     line-height: 100%;
   }
   .BP-c4-h {
-    font-size: 12px;
-    line-height: 110%;
-    margin-bottom: 1%;
+    font-size: 11px;
+    line-height: 100%;
+    margin-bottom: 3%;
   }
   .BP-c4-d {
-    margin-top: 18%;
-    padding: 2%;
+    margin-top: 15%;
+    padding: 3%;
     text-align: left;
     width: 65%;
     left: 35%;
   }
   .BP-CP-4-img-d {
     width: 100%;
-    height: 350px;
+    height: 300px;
   }
 }

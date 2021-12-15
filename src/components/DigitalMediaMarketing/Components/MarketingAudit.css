@@ -1,0 +1,174 @@
+.ddm-audit{
+    width: 52%;
+}
+
+.ddm-Scope{
+    /* justify-content: center; */
+    align-items: center;
+    margin: auto !important;
+}
+
+.Scope-txt{
+    /* position: relative; */
+    padding-bottom: 3%;
+}
+
+.Scope-Line{
+    width: 18%;
+    padding-top: 13%;
+    position: absolute;
+}
+
+.Scope-K-Scope{
+    position: relative;
+    width: 130%;
+    margin-top: -29% !important;
+    transform: rotate(5deg);
+
+}
+
+.ddminitReasearch{
+    /* padding-top: 10%; */
+    background: linear-gradient(180deg, #A06DAF 0%, #6CA0BC 100%);
+box-shadow: 0px 10px 15px rgba(20, 33, 43, 0.15), inset 3px 5px 35px rgba(34, 57, 70, 0.05);
+width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+
+}
+
+.ddminitReasearch > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+/* or 144% */
+
+text-align: center;
+
+color: #FFFFFF;
+align-items: center;
+margin-top: 45%;
+}
+
+.ddm-audi > h1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 42px;
+    /* or 131% */
+    
+    text-transform: uppercase;
+    
+    color: #3C708E;
+    
+}
+
+.ddm-audi > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #757575;
+
+}
+
+
+.ddmaudit-strat > h3{
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+color: #3C708E;
+
+}
+
+.ddm-audit-strategies > p{
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+
+color: #757575;
+
+}
+
+
+@media only screen and (max-width: 1050px){
+    .ddm-audit{
+        width: 100%;
+    }
+
+
+.Scope-Line{
+    width: 25%;
+    padding-top: 23%;
+    position: absolute;
+}
+
+.Scope-K-Scope{
+    position: relative;
+    width: 80%;
+    margin-top: -20% !important;
+
+}
+
+
+}
+@media only screen and (max-width: 800px){
+    .ddm-audit{
+        margin: 4px !important;
+        padding: 0px !important;
+    }
+    .Scope-Line{
+        width: 30%;
+        padding-top: 29%;
+        position: absolute;
+    }
+}
+@media only screen and (max-width: 430px){
+
+
+    .Scope-Line{
+        width: 50%;
+        padding-top: 50%;
+        position: absolute;
+    }
+
+    .Scope-K-Scope{
+        position: relative;
+        width: 95%;
+        margin-top: -15% !important;
+    
+    }
+}
+@media only screen and (max-width: 380px){
+
+
+    .Scope-Line{
+        width: 60%;
+        padding-top: 55%;
+        position: absolute;
+    }
+
+    .Scope-K-Scope{
+        position: relative;
+        width: 95%;
+        margin-top: -15% !important;
+    
+    }
+}

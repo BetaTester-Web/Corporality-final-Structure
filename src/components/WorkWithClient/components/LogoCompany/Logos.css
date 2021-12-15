@@ -36,50 +36,67 @@
 
 .All_Icons {
     position: relative !important;
-    left: 0% !important;
+    left: -5% !important;
+}
+.logo1ofpartner{
+    position: relative;
+    left: 20%;
 }
 .logo2ofpartner{
     position: relative;
-    left: 10%;
+    left: 20%;
 }
 .logo3ofpartner{
     position: relative;
     left: -10%;
 }
-.logo5ofpartner{
+.logo-partner-4{
     position: relative;
     left: -10%;
+}
+.logo5ofpartner{
+    position: relative;
+    left: -30%;
+}
+.logo-partner-6{
+    position: relative;
+    left: -25%;
+}
+.logo7ofpartner{
+    position: relative;
+    left: -60%;
 }
 
 @media (max-width:1400px) {
     .All_Icons {
-        left: 0% !important;
+        left: -5% !important;
     }
     .logo2ofpartner{
-        left: 2%;
+        left: 12%;
     }
     .logo-partner-4 {
         position: relative !important;
-        left: -7% !important;
+        left: -15% !important;
     }
     .logo-partner-6{
         position: relative;
-        left: -7%;
+        left: -30%;
     }
 }
 
 @media (max-width:1200px) {
     .All_Icons {
-        left: -3% !important;
+        left: -5% !important;
     }
     .logo2ofpartner{
-        left: 0%;
+        left: 7%;
     }
     .logo3ofpartner{
         left: -5%;
     }
+   
     .logo5ofpartner{
-        left: 0%;
+        left: -15%;
     }
 
     .last-logo {
@@ -89,24 +106,38 @@
 
     .logo-partner-4 {
         position: relative !important;
-        left: -10% !important;
+        left: -15% !important;
     }
 
     .logo-partner-6 {
         position: relative !important;
-        left: -10% !important;
+        left: -20% !important;
     }
 }
 
 @media (max-width:992px){
+    .All_Icons{
+        left: -7% !important;
+    }
+    .logo1ofpartner{
+        position: relative;
+        left: 0% !important;
+    }
     .logo3ofpartner{
         left: 0%;
     }
     .logo-partner-4 {
         position: relative !important;
-        left: 0% !important;
+        left: 7% !important;
     }
     .logo-partner-6{
-        left: 3% !important;
+        left: 10% !important;
+    }
+    .logo5ofpartner{
+        left: 0%;
+    }
+    .logo7ofpartner{
+        position: relative;
+        left: 3%;
     }
 }

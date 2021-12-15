@@ -1,0 +1,29 @@
+.career-image-container{
+    margin-top: -100px;
+}
+
+.image-career{
+    width: 100% !important ;
+    height: auto !important;
+    overflow-x: hidden !important;
+}
+.career-fluid-card{
+    position: relative !important;
+    left: 55% !important;
+    top: 120px !important;
+}
+@media (max-width:1200px){
+    .career-fluid-card{
+        position: relative !important;
+        left:25% !important;
+        top: 10px !important;
+    }
+}
+@media (max-width:768px){
+    .career-fluid-card{
+        position: relative !important;
+        left:20% !important;
+        top: 10px !important;
+        width: 60% !important;
+    }
+}

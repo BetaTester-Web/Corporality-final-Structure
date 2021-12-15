@@ -1,12 +1,13 @@
-.main_container {
+.library_parent {
+  background-color: #f2f2f2;
+}
+
+.library_main_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 50px !important;
   padding-bottom: 50px !important;
-  padding-left: 50px !important;
-  padding-right: 50px !important;
-  background-color: #f2f2f2;
 }
 
 #image2,
@@ -52,6 +53,10 @@
   width: 45rem;
 }
 
+.fourth_img img {
+  width: 40rem;
+}
+
 .lower_text {
   display: flex;
   flex-direction: column;
@@ -82,6 +87,7 @@
   color: #a06cae;
   font-size: 17px;
   font-weight: bolder;
+  text-align: center;
 }
 
 .text_active_first {
@@ -151,11 +157,6 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  .main_container {
-    padding-left: 20px !important;
-    padding-right: 20px !important;
-  }
-
   .content_side {
     padding-left: 30px !important;
   }
@@ -165,8 +166,12 @@
     width: 40rem;
   }
 
+  .fourth_img img {
+    width: 35rem;
+  }
+
   .image_side {
-    margin-right: -20px !important;
+    margin-right: -80px !important;
   }
 
   .text_active_first::after,
@@ -186,7 +191,7 @@
 }
 
 @media only screen and (max-width: 1076px) {
-  .main_container {
+  .library_main_container {
     align-items: flex-start;
   }
 
@@ -200,7 +205,7 @@
 }
 
 @media only screen and (max-width: 1076px) {
-  .main_container {
+  .library_main_container {
     padding-left: 10px !important;
     padding-right: 20px !important;
   }
@@ -208,6 +213,10 @@
   .upper_image img {
     height: 18rem;
     width: 38rem;
+  }
+
+  .fourth_img img {
+    width: 33rem;
   }
 
   .text1 {
@@ -225,7 +234,7 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .main_container {
+  .library_main_container {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -248,7 +257,7 @@
   .image_side_3 img {
     margin-left: 60px !important;
   }
-  .main_container {
+  .library_main_container {
     padding-right: 10px !important;
   }
   .image_side,
@@ -271,6 +280,10 @@
     width: 30rem;
   }
 
+  .fourth_img img {
+    width: 25rem;
+  }
+
   .lower_text_heading {
     font-size: 26px;
   }
@@ -291,6 +304,10 @@
     height: 10rem;
     width: 20rem;
     margin-left: 10px !important;
+  }
+
+  .fourth_img img {
+    width: 16rem;
   }
 
   .text1 {

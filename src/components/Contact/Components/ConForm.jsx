@@ -1,17 +1,17 @@
 
 import './ConForm.css'
-import './ContactForm.css'
+// import './ContactForm.css'
 import React, { useEffect, useState } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
 const ConForm = () => {
     
-    let placeholder = document.getElementById('input');
+    // let placeholder = document.getElementById('input');
    
-    placeholder.addEventListener('focus', (el) => {
-        this.removeAttribute('placeholder');
-    })
+    // placeholder.addEventListener('focus', (el) => {
+    //     this.removeAttribute('placeholder');
+    // })
 
     useEffect(() => {
         Aos.init();
@@ -31,14 +31,14 @@ const ConForm = () => {
 
                                 <div className="conformc-add position-relative">
                                     <div className="conformww-img">
-                                        <img className="img-fluid" src="./img/Contact/Group 783.png" alt="" />
+                                        <img className="img-fluid" src="./img/Contact/Group783.png" alt="" />
                                     </div>
 
                                 <div className="jhvwwchv">
 
                                     <div className="conform-diamond">
                                         <div className="callconform">
-                                            <img className="img-fluid" src="./img/Contact/Group 709.png" alt="" />
+                                            <img className="img-fluid" src="./img/Contact/Group709.png" alt="" />
                                         </div>
                                         <p>+61 2 83794089</p>
                                         <div className="conformhollowDia"></div>
@@ -79,13 +79,13 @@ const ConForm = () => {
                                     </div>
                                     
                                     
-                                    <div className="col my-3">
+                                    <div className="col my-3 px-3">
                                         <input type="text" name="fname" placeholder="Website URL" className="philosophy-input" id="input" />
                                         <label for="fname" className="philosophy-input-label">Website URL</label>
                                     </div>
                                     
                                     
-                                    <div className="col my-3">
+                                    <div className="col my-3 px-3">
                                         <textarea className="form-control philosophy-input" placeholder="Your Message"  id="input" rows="5"></textarea>
                                         <label for="fname" className="philosophy-input-label">Your Message</label>
                                     </div>

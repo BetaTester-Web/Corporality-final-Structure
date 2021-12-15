@@ -4,12 +4,12 @@
   /* align-items: center; */
   padding-top: 30px !important;
   padding-bottom: 30px !important;
-  padding-left: 30px !important;
-  padding-right: 70px !important;
+  /* padding-left: 30px !important;
+  padding-right: 70px !important; */
 }
 
 .fearless_content_side {
-  padding-left: 30px !important;
+  /* padding-left: 30px !important; */
   margin-top: 20px !important;
   margin-right: 30px !important;
 }
@@ -54,36 +54,33 @@
   color: #757575;
 }
 
-@media only screen and (max-width: 1200px) {
-  .fearlesscreativity_main {
-    padding-right: 30px !important;
-  }
-
-  .fearless_content_side {
-    margin-top: 20px !important;
-    padding-left: 10px !important;
-  }
-}
-
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 1399px) {
   .fearless_image_side {
-    margin-top: 30px !important;
+    margin-left: -150px !important;
+    margin-right: 20px !important;
+  }
+
+  .fearless_parent {
+    margin-right: 20px !important;
   }
 }
 
-@media only screen and (max-width: 1050px) {
-  .fearlesscreativity_main {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+@media only screen and (max-width: 1290px) {
+  .fearless_image_side {
+    margin-left: -90px !important;
+    margin-right: 20px !important;
   }
 
-  .fearless_content_side {
-    margin-left: -20px !important;
-    margin-right: 0 !important;
+  .fearless_parent {
+    margin-right: 0px !important;
   }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1199px) {
+  .fearless_image_side {
+    margin-left: -50px !important;
+    margin-right: 20px !important;
+  }
   .fearless_image_side img {
     height: 360px;
     width: 500px;
@@ -105,15 +102,26 @@
   }
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 991px) {
+  .fearless_parent {
+    margin-right: auto !important;
+  }
+  .fearless_image_side {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
   .fearlesscreativity_main {
-    flex-direction: column-reverse;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
+  .fearless_heading {
+    text-align: center;
+  }
+
   .fearless_content_side {
-    padding: 10px 20px !important;
+    padding: 0px 0px !important;
   }
 
   .fearless_heading {
@@ -143,6 +151,10 @@
   .fearless_image_side img {
     height: 280px;
     width: 400px;
+  }
+
+  .fearlesscreativity_main {
+    padding: 0 !important;
   }
 }
 
