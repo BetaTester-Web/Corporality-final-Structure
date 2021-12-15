@@ -2,8 +2,8 @@
   transform: rotate(-45deg);
 }
 
-.sacc4Container {
-  margin: 60px 0 120px 0 !important;
+.sacc4Container{
+  margin-bottom: 250px;
 }
 
 .sacc4Heading1 {
@@ -113,6 +113,7 @@
   left: 10%;
 }
 
+
 .sacc4D1 .sacc4DCContent{
   padding-top: 38px;
   /* border: 1px solid red; */
@@ -130,16 +131,51 @@
   rotate: -45deg;
 }
 
+@media(max-width:1410px){
+  .sacc4D1{
+
+    margin-left: -65px;
+  }
+  .sacc4BlankDiamondCard1{
+    margin-right: -50px;
+    margin-left: 75px;
+  }
+  .sacc4BlankDiamondCard2{
+    margin-left: -50px;
+    margin-right: 50px;
+  }
+  .sacc4D2{
+    margin-left: 10px;
+    margin-right: -45px;
+  }
+  .sacc4D3{
+    margin-left: -50px;
+    margin-right: 30px;
+  }
+  .sacc4D4{
+    margin-right: -35px;
+  }
+}
+/* @media(max-width:1300px){
+  .sacc4D1{
+
+    margin-left: -50px;
+  }
+  .sacc4D2{
+    margin-left: 10px;
+  }
+} */
+
 @media only screen and (max-width: 767.98px) {
   .sacc4DiamondCard {
-    width: 182.8px;
-    height: 182.8px;
+    width: 250.8px;
+    height: 250.8px;
   }
   .sacc4BlankDiamondCard {
     display: none;
   }
   .sacc4DiamondCard {
-    margin: 0 38px;
+    margin: 60px 60px;
   }
   .sacc4D1,
   .sacc4D2,
@@ -178,8 +214,6 @@
   }
   .sacc4DiamondCard {
     margin: 0px 58px;
-    /* margin-left: 58px;
-        margin-right: 58px; */
   }
   .sacc4D1,
   .sacc4D2,
@@ -202,5 +236,25 @@
   }
   .sacc4Bottom {
     margin-top: 0px;
+  }
+}
+
+@media(max-width:450px){
+  .sacc4DiamondCard {
+    width: 250.8px !important;
+    height: 250.8px !important;
+  }
+  .sacc4DiamondCard {
+    margin: 30px 30px;
+  }
+  .sacc4D1,.sacc4D2,.sacc4D3,.sacc4D4{
+    margin-bottom: 150px !important;
+  }
+
+}
+
+@media(max-width:390px){
+  .sacc4DiamondCard {
+    margin: 20px 20px;
   }
 }
