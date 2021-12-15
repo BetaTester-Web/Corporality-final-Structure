@@ -1,6 +1,6 @@
 .Consultancypage-3 {
   background: linear-gradient(96.45deg, #F5F5F5 0.9%, #EDEDED 98.64%);;
-  padding: 100px !important;
+  padding: 100px 0px !important;
 }
 
 .circle-container-consultancy {
@@ -189,9 +189,11 @@
   }
 
   .model-para {
-    width: 80%;
+    width: 100%;
     margin-bottom: 0px !important;
   }
+
+
 
   .circle-container {
     margin-top: 60px !important;

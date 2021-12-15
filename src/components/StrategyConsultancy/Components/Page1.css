@@ -124,6 +124,12 @@ color: #31647C;
       margin-top: 100px !important;
   }
 
+  .consult-pg1-con > h3{
+    font-size: 25px;
+line-height: 30px;
+margin-top: 60px;
+  }
+
 
 }
 
@@ -148,6 +154,9 @@ color: #31647C;
 
 @media only screen and (max-width: 450px){
 
+  .consultancysocialmedia{
+    transform: translate(2%, -400%);
+  }
 
   .consultgrad-1 > img{
       transform: translate(250px,-330px);

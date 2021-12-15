@@ -4,7 +4,7 @@ import "./Revamping.css"
 export default function Revamping() {
 	return (
 		<>
-			<div className="DDMRevamping d-sm-flex px-5 mx-3">
+			<div className="DDMRevamping d-sm-flex px-2">
 
 				<div className="DDMRevampingText d-flex flex-column">
 					<h1 data-aos="fade-right" data-aos-duration="800">Thinking of creating a website

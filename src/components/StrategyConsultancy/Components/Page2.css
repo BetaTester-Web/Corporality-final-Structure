@@ -74,3 +74,14 @@ color: #757575;
     /* transform: translate(-90px,0px); */
     z-index: 0;
 }
+
+
+
+@media only screen and (max-width: 560px){
+
+    .pag-cont{
+        margin: auto !important;
+        width: 80%;
+    }
+    
+}
