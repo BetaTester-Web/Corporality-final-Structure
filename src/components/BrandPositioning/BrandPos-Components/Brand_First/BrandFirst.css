@@ -104,7 +104,53 @@
   bottom: -30px;
   left: 70px;
 }
-
+.brandposition_banner_call::after{
+  z-index: 10 !important;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5vw;
+  width: 5vw;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-animation: pulse 1.5s infinite;
+          animation: pulse 1.5s infinite;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 0;
+  }
+}
 @media only screen and (max-width: 1199px) {
   .brandposition_first_imageside {
     margin-right: 20px !important;
@@ -144,6 +190,7 @@
     bottom: -30px;
     right: 30px;
   }
+
 }
 
 @media only screen and (max-width: 991px) {

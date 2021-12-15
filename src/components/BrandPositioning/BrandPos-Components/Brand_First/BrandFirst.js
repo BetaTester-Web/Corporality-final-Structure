@@ -23,22 +23,46 @@ function BrandFirst() {
     <div className="brandposition_background_parent">
       <div className="brandposition_first_socialicons">
         <div className="brandposition_banner_facebook">
-          <img src={brandposition_fb} alt="" />
+          <a
+            href="https://www.facebook.com/CorporalityG"
+            target="_blank">
+            <img src={brandposition_fb} alt="" />
+          </a>
         </div>
         <div className="brandposition_banner_twitter">
-          <img src={brandposition_twitter} alt="" />
+          <a
+            href="https://twitter.com/corporalityg"
+            target="_blank">
+            <img src={brandposition_twitter} alt="" />
+          </a>
         </div>
         <div className="brandposition_banner_instagram">
-          <img src={brandposition_ig} alt="" />
+          <a
+            href="https://www.instagram.com/corporalityg"
+            target="_blank">
+            <img src={brandposition_ig} alt="" />
+          </a>
         </div>
         <div className="brandposition_banner_linkedin">
-          <img src={brandposition_linkdin} alt="" />
+          <a
+            href="https://www.linkedin.com/company/corporality"
+            target="_blank">
+            <img src={brandposition_linkdin} alt="" />
+          </a>
         </div>
         <div className="brandposition_banner_pinterest">
-          <img src={brandposition_pinterest} alt="" />
+          <a
+            href="https://in.pinterest.com/CorporalityG"
+            target="_blank">
+            <img src={brandposition_pinterest} alt="" />
+          </a>
         </div>
         <div className="brandposition_banner_youtube">
-          <img src={brandposition_yt} alt="" />
+          <a
+            href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg"
+            target="_blank">
+            <img src={brandposition_yt} alt="" />
+          </a>
         </div>
       </div>
       <div className="brandposition_banner_call">
