@@ -48,7 +48,7 @@ return (
         <div className="yellowbackground_Op">
             <img src = {yellowbackground} alt = '' />
         </div>
-            <div className="row first-image-Op">
+            <div className="row first-image-Op mx-3">
                 
                 <div className="col-lg-6">
                     <div data-aos="fade-right" className="text-box-1-Op">
@@ -56,6 +56,15 @@ return (
                         <p className='container-1_text-Op'>Partnership Programmes</p>
                         <p className='container-2_text-Op'>Corporality holds extensive startegic strength partnership programmes extend enterpreneurial reach beyond the ordinary </p>
                         <div className="small-rect-prev-1-Op"><img src={smallerrect} alt='' className='smaller-rect-prev-1' /></div>
+                        <a
+              data-aos="fade-right"
+              data-aos-delay="600"
+              data-aos-duration="500"
+              className="ppc1Button"
+              href="/#"
+            >
+              Read More
+            </a>
                     </div>
                 </div>
                 <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
