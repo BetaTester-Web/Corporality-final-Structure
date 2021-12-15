@@ -3,53 +3,48 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import "./CxoStrategy.css";
 
-// document.addEventListener("DOMContentLoaded", () => {
-//   const button1 = document.querySelector(".cxo-button-1");
-//   const button2 = document.querySelector(".cxo-button-2");
-//   const button3 = document.querySelector(".cxo-button-3");
-//   const button4 = document.querySelector(".cxo-button-4");
-//   const diamond1 = document.querySelector(".diamond-1");
-//   const diamond2 = document.querySelector(".diamond-2");
-//   const diamond3 = document.querySelector(".diamond-3");
-//   const diamond4 = document.querySelector(".diamond-4");
-
-//   button1.addEventListener("click", () => {
-//     if (diamond1.classList.contains("diamond-1")) {
-//       diamond1.classList.add("active");
-//       diamond2.classList.remove("active");
-//       diamond3.classList.remove("active");
-//       diamond4.classList.remove("active");
-//     }
-//   });
-
-//   button2.addEventListener("click", () => {
-//     if (diamond2.classList.contains("diamond-2")) {
-//       diamond2.classList.add("active");
-//       diamond1.classList.remove("active");
-//       diamond3.classList.remove("active");
-//       diamond4.classList.remove("active");
-//     }
-//   });
-
-
-//   button3.addEventListener("click", () => {
-//     if (diamond3.classList.contains("diamond-3")) {
-//       diamond3.classList.add("active");
-//       diamond1.classList.remove("active");
-//       diamond2.classList.remove("active");
-//       diamond4.classList.remove("active");
-//     }
-//   });
-
-//   button4.addEventListener("click", () => {
-//     if (diamond4.classList.contains("diamond-4")) {
-//       diamond4.classList.add("active");
-//       diamond1.classList.remove("active");
-//       diamond3.classList.remove("active");
-//       diamond2.classList.remove("active");
-//     }
-//   });
-// });
+ document.addEventListener("DOMContentLoaded", () => {
+   const button1 = document.querySelector(".cxo-button-1");
+   const button2 = document.querySelector(".cxo-button-2");
+   const button3 = document.querySelector(".cxo-button-3");
+   const button4 = document.querySelector(".cxo-button-4");
+   const diamond1 = document.querySelector(".diamond-1");
+   const diamond2 = document.querySelector(".diamond-2");
+   const diamond3 = document.querySelector(".diamond-3");
+   const diamond4 = document.querySelector(".diamond-4");
+   button1.addEventListener("click", () => {
+     if (diamond1.classList.contains("diamond-1")) {
+       diamond1.classList.add("active");
+       diamond2.classList.remove("active");
+       diamond3.classList.remove("active");
+       diamond4.classList.remove("active");
+     }
+   });
+   button2.addEventListener("click", () => {
+     if (diamond2.classList.contains("diamond-2")) {
+       diamond2.classList.add("active");
+       diamond1.classList.remove("active");
+       diamond3.classList.remove("active");
+       diamond4.classList.remove("active");
+     }
+   });
+   button3.addEventListener("click", () => {
+     if (diamond3.classList.contains("diamond-3")) {
+       diamond3.classList.add("active");
+       diamond1.classList.remove("active");
+       diamond2.classList.remove("active");
+       diamond4.classList.remove("active");
+     }
+   });
+   button4.addEventListener("click", () => {
+     if (diamond4.classList.contains("diamond-4")) {
+       diamond4.classList.add("active");
+       diamond1.classList.remove("active");
+       diamond3.classList.remove("active");
+       diamond2.classList.remove("active");
+     }
+   });
+ });
 
 export default function Talent() {
   useEffect(() => {

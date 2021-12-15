@@ -135,6 +135,12 @@
 
     
 }
+
+@media only screen and (max-width: 512px) {
+    .ppc2RowContainer{
+        margin-left: -1% !important;
+    }
+}
 @media (min-width: 769px) and (max-width: 1199.98px){
     .ppc2RowContainer{ 
         margin: 0px 20px 0 20px !important; 
