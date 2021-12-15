@@ -24,6 +24,7 @@ import DigitalMediaMarketing from "./components/DigitalMediaMarketing/DigitalMed
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Blog from "./components/Blog/Blog";
+import Write from "./components/Write/Write";
 
 
 function App() {
@@ -36,6 +37,8 @@ function App() {
           <Route path="/register" element={user ? <HomePage /> : <Register />} /> 
 
           <Route path="/login" element={user ? <HomePage /> : <Login />} /> 
+
+          <Route path="/write" element={<Write />} /> 
 
           <Route path="/" element={<HomePage />} />
 
