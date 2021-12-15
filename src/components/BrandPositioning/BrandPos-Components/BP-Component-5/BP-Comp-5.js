@@ -13,13 +13,11 @@ function BPComponent5() {
       </div>
       <div className="container vw=100">
         <div className="row">
-        <img
-              src="..\img\BrandPositioning\Group-750.png"
-              className="bp-cp-5-img img-fluid row align-items-start"
-            />
-          <div className="col-1">
-           
-          </div>
+          <img
+            src="..\img\BrandPositioning\Group-750.png"
+            className="bp-cp-5-img img-fluid row align-items-start"
+          />
+          <div className="col-1"></div>
           <div className="col-10">
             <Accordion className="accordian-main-body bp-cp5-shadowbox">
               {" "}
@@ -67,7 +65,7 @@ function BPComponent5() {
                   <div class="container">
                     <div class="row">
                       <div class="row">
-                        <div class="col-4 col-md-3 col-xl-2 bp-cp5-tm-div">
+                        <div class="col-4 col-md-3 col-xl-2 bp-cp5-tm-div bp-cp5-topmargin">
                           <img
                             src="../img/BrandPositioning/faviconTM2.png"
                             className="img-fluid img-fav"
@@ -182,21 +180,18 @@ function BPComponent5() {
                     </div>
                   </div>
                 </Accordion.Body>
-               
               </Accordion.Item>
-              <div >
-                <button className="endbutton mx-auto d-block">explore</button>
+              <div>
+                <button className="endbutton mx-auto d-block">Explore</button>
                 <div className="endbuttondiv"></div>
-                </div>
+              </div>
             </Accordion>
           </div>
-          <div className="col-1">
-          
-          </div>
+          <div className="col-1"></div>
           <img
-              src="..\img\BrandPositioning\Vector.png"
-              className="img-fluid bp-cp5-ladderimg"
-            />
+            src="..\img\BrandPositioning\Vector.png"
+            className="img-fluid bp-cp5-ladderimg"
+          />
         </div>
       </div>
     </div>
