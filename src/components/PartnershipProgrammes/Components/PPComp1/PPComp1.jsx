@@ -4,6 +4,7 @@ import wall from "../images/wall.png"
 import rec6 from "../images/rec-6.png"
 import rec8 from "../images/rec-8.png"
 import rec9 from "../images/rec-9.png"
+import diamond from "../images/diamond.png"
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -26,6 +27,7 @@ export default function PPComp1() {
                     </div>
                     <div className="col p-0 d-flex flex-column justify-content-center ppc1ColWrapper">
                         <div  data-aos="fade-left" data-aos-duration="1000" className="ppc1ImageWrapper cont">
+                            <img className="qwerty" src={diamond} />
                             <img className="ppc1Rec6" src={rec6} alt="" />
                             <div className="ppc1MainImg">
                                 <img className="ppc1Img1" src={img1} alt="" />

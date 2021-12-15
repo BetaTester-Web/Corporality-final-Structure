@@ -13,6 +13,12 @@
     transform: translateX(-518%) rotate(-25deg) !important;
 }
 
+.qwerty{
+    transform: translate(-2500%, 0%);
+}
+
+
+
 .ppcHeading{
     font-family: Roboto;
     font-style: normal;
@@ -179,6 +185,13 @@
         margin-bottom: 20px;
     }
 }
+
+@media only screen and (max-width:512px){
+    .ppc1ColWrapper {
+        margin-left: -17% !important;
+    }
+}
+
 @media (min-width: 769px) and (max-width: 1199.98px){
     .ppc1RowContainer{
         height: calc(100vh - 80px);   
