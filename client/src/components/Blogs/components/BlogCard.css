@@ -1,0 +1,39 @@
+.blogThumbnail {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogContent {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #757575;
+}
+
+.blogHeading {
+    margin-top: 20px!important;
+    margin-right: 20px!important;
+    margin-left: 20px!important;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    color: #3c708e;
+}
+
+.blogDescription{
+    margin-top: 10px!important;
+    margin-right: 20px!important;
+    margin-left: 20px!important;
+}
+
+.blogInformation{
+    margin-top: 10px!important;
+    margin-right: 20px!important;
+    margin-left: 20px!important;
+    margin-bottom: 20px!important;
+    color: #BFBFBF;
+}
