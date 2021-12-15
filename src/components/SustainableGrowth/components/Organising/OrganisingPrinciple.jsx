@@ -11,7 +11,7 @@ import yellowbackground from './yellowbackground.png'
 
 const OrganisingPrinciple = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 });
+        aos.init({ duration: 3000 , disable: "mobile" });
     }, [])
     return (
         <div className="OrganisingPrinciple">
