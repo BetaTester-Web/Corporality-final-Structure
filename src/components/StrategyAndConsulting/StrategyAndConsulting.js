@@ -4,6 +4,7 @@ import SACComp2 from './Components/SACComp2'
 import SACComp3 from './Components/SACComp3'
 import SACComp5 from './Components/SACComp5'
 import SACComp4 from './Components/SACComp4'
+import SACComp6 from './Components/SACComp6'
 
 
 const StrategyAndConsulting = () => {
@@ -14,6 +15,7 @@ const StrategyAndConsulting = () => {
             <SACComp3 />
             <SACComp4 />
             <SACComp5 />
+            <SACComp6 />
             
         </div>
     )
