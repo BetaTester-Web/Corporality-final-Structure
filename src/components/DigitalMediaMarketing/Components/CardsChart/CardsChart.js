@@ -31,10 +31,10 @@ function CardsChart() {
     <>
       <div className="container">
         <div className="CardsChart_uppertext">
-          <div className="CardsChart_uppertext_heading">
+          <div className="CardsChart_uppertext_heading" data-aos="fade-down" data-aos-duration="800">
             From pitch to picture perfect scenario
           </div>
-          <div className="CardsChart_uppertext_description">
+          <div className="CardsChart_uppertext_description" data-aos="fade-down" data-aos-delay="300"  data-aos-duration="800">
             The process of starting a digital media marketing with Corporality
             Global -An innovative lead generation and marketing company in
             Sydney, and approaching the right strategy can be highly intended to
