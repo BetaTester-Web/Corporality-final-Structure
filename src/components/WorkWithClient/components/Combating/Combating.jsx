@@ -8,7 +8,7 @@ import textrectCombating from "./text-rectCombating.png";
 
 const Combating = () => {
   useEffect(() => {
-    aos.init({ duration: 3000 , disable: 'mobile' });
+    aos.init({ disable: 'mobile' });
   }, []);
   return (
     <div className="COmbatinG">

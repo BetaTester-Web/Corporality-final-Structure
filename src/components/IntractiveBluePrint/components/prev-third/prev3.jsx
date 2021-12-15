@@ -4,15 +4,15 @@ import 'aos/dist/aos.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import '../prev-third/prev3.css'
-import favicon1 from '../prev-third/favicon-1.png'
-import favicon0 from '../prev-third/favicon-0.png'
-import favicon2 from '../prev-third/favicon-2.png'
-import favicon3 from '../prev-third/favicon-3.png'
-import back3 from '../prev-third/back.png'
-import main3 from '../prev-third/main.png'
-import small3 from '../prev-third/small.png'
-import smaller3 from '../prev-third/smaller.png'
-import wall3 from '../prev-third/wall.png'
+import favicon1beyond from '../prev-third/favicon-1beyond.png'
+import favicon0beyond from '../prev-third/favicon-0beyond.png'
+import favicon2beyond from '../prev-third/favicon-2beyond.png'
+import favicon3beyond from '../prev-third/favicon-3beyond.png'
+import back3beyond from '../prev-third/backbeyond.png'
+import main3beyond from '../prev-third/mainbeyond.png'
+import small3beyond from '../prev-third/smallbeyond.png'
+import smaller3beyond from '../prev-third/smallerbeyond.png'
+import wall3beyond from '../prev-third/wallbeyond.png'
 
 const Prev3 = () => {
     useEffect(() => {
@@ -25,13 +25,13 @@ const Prev3 = () => {
                 <div className="row">
                     <div className="col-lg-6 d-flex third-image justify-content-center flex-column  align-items-center">
                         <div data-aos="fade-right" className='images-prev-3'>
-                            <img alt='' className='smaller3' src={smaller3} />
-                            <img alt='' className='small3' src={small3} />
-                            <img alt='' className='wall3' src={wall3} />
-                            <img alt='' className='back3' src={back3} />
+                            <img alt='' className='smaller3' src={smaller3beyond} />
+                            <img alt='' className='small3' src={small3beyond} />
+                            <img alt='' className='wall3' src={wall3beyond} />
+                            <img alt='' className='back3' src={back3beyond} />
                             <div className="images-hover-4">
                                 <div className="bp_iwfc_img">
-                                    <img className='main3' src={main3} alt="" />
+                                    <img className='main3' src={main3beyond} alt="" />
                                 </div>
                             </div>
 
@@ -41,7 +41,7 @@ const Prev3 = () => {
 
                         <div data-aos="fade-up" data-aos-delay="500" className="textndicon">
                             <div /* className="icon-blueprint" */>
-                                <img alt='' className='icon1-blueprint' src={favicon0} />
+                                <img alt='' className='icon1-blueprint' src={favicon0beyond} />
                             </div>
                             <div className="text-box-3">
                                 <p className='container-3_text-1_heading'>Going beyond mere publishing goals</p>
@@ -50,7 +50,7 @@ const Prev3 = () => {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1000" className="textndicon">
                             <div /* className="icon-blueprint" */>
-                                <img alt='' className='icon1-blueprint' src={favicon1} />
+                                <img alt='' className='icon1-blueprint' src={favicon1beyond} />
                             </div>
                             <div className="text-box-3">
                                 <p className='container-3_text-2_heading'>We eliminate all guess works and make room for limitless growth</p>
@@ -59,7 +59,7 @@ const Prev3 = () => {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1500" className="textndicon">
                             <div /* className="icon-blueprint" */>
-                                <img alt='' className='icon1-blueprint' src={favicon2} />
+                                <img alt='' className='icon1-blueprint' src={favicon2beyond} />
                             </div>
                             <div className="text-box-3">
                                 <p className='container-3_text-3_heading'>Telling stories that make a difference</p>
@@ -68,7 +68,7 @@ const Prev3 = () => {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="2000" className="textndicon">
                             <div /* className="icon-blueprint" */>
-                                <img alt='' className='icon1-blueprint' src={favicon3} />
+                                <img alt='' className='icon1-blueprint' src={favicon3beyond} />
                             </div>
                             <div className="text-box-3">
                                 <p className='container-3_text-3_heading'>CSR sustainability</p>

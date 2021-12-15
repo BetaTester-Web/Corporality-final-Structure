@@ -144,13 +144,25 @@
 
 @media(max-width:1400px) {
   .cards_text_iB_heading {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+    padding-left: 200px !important;
+    padding-right: 200px !important;
   }
 
   .cards_text_iB_description {
-    padding-left: 100px !important;
-    padding-right: 100px !important;
+    padding-left: 230px !important;
+    padding-right: 230px !important;
+  }
+}
+
+@media(max-width:1200px){
+  .cards_text_iB_heading {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+  }
+
+  .cards_text_iB_description {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
   }
 }
 
@@ -190,14 +202,14 @@
   .cards_text_iB_heading {
     font-size: 16px !important;
     line-height: 22px;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 100px !important;
+    padding-right: 100px !important;
   }
 
   .cards_text_iB_description {
     font-size: 14px !important;
-    padding-left: 20px !important;
-    padding-right: 20px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
   .interactive_card1 {
@@ -264,5 +276,13 @@
 
   .interactive_card6 {
     grid-area: 6 / 1 / 7 / 2;
+  }
+  .cards_text_iB_heading {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  .cards_text_iB_description {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
 }
