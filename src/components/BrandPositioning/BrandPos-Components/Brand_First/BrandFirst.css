@@ -1,0 +1,459 @@
+.brandposition_background_parent {
+  position: relative;
+  margin-top: 80px !important;
+}
+
+.brandposition_first_socialicons {
+  position: absolute;
+  right: 16px;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.brandposition_banner_call {
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+}
+
+.brandposition_banner_facebook,
+.brandposition_banner_twitter,
+.brandposition_banner_instagram,
+.brandposition_banner_linkedin,
+.brandposition_banner_pinterest {
+  margin-bottom: 6px !important;
+}
+
+.brandposition_main_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.brandposition_first_textside {
+  flex: 0.4;
+  margin-left: -20px !important;
+  position: relative;
+}
+
+.brandposition_top_rectangle {
+  position: absolute;
+  top: -80px;
+  right: 0;
+}
+
+.brandposition_first_textside_heading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #33657e;
+  margin-bottom: 20px !important;
+}
+
+.brandposition_first_textside_description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #757575;
+}
+
+.brandposition_first_imageside {
+  flex: 0.6;
+  margin-right: -60px !important;
+}
+
+.brandposition_first_backgroundline img {
+  height: 100%;
+  width: 100%;
+}
+
+.brandposition_first_backgroundline {
+  position: relative;
+}
+
+.brandposition_companyimage,
+.brandposition_customerloyalty,
+.brandposition_relatable,
+.brandposition_omni,
+.brandposition_center_diamond,
+.brandposition_imagetop_rect,
+.brandposition_imagebottom_rect,
+.brandposition_bottom_rect {
+  position: absolute;
+}
+
+.brandposition_companyimage {
+  top: 0;
+  right: 80px;
+}
+
+.brandposition_customerloyalty {
+  top: 120px;
+  left: 140px;
+}
+
+.brandposition_relatable {
+  top: 180px;
+  right: 80px;
+}
+
+.brandposition_omni {
+  bottom: 70px;
+  right: 160px;
+}
+
+.brandposition_center_diamond {
+  bottom: -30px;
+  left: 70px;
+}
+.brandposition_bottom_rect {
+  bottom: -30px;
+  left: 80px;
+}
+
+.brandposition_imagetop_rect {
+  top: 100px;
+  left: 250px;
+}
+
+.brandposition_imagebottom_rect {
+  bottom: 150px;
+  right: 100px;
+}
+
+.brandposition_banner_call::after {
+  z-index: 10 !important;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5vw;
+  width: 5vw;
+  background-color: white;
+  border-radius: 50%;
+  -webkit-animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
+}
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  50% {
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    opacity: 0.2;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .brandposition_first_imageside {
+    margin-right: 20px !important;
+  }
+  .brandposition_companyimage {
+    top: 0;
+    right: 20px;
+  }
+
+  .brandposition_customerloyalty {
+    top: 80px;
+    left: 100px;
+  }
+
+  .brandposition_relatable {
+    top: 130px;
+    right: -30px;
+  }
+
+  .brandposition_omni {
+    bottom: 30px;
+    right: 50px;
+  }
+
+  .brandposition_center_diamond img {
+    width: 80%;
+    height: 80%;
+  }
+
+  .brandposition_center_diamond {
+    bottom: -30px;
+    left: 60px;
+  }
+
+  .brandposition_banner_call {
+    position: absolute;
+    bottom: -30px;
+    right: 30px;
+  }
+
+  .brandposition_bottom_rect {
+    bottom: -30px;
+    left: 60px;
+  }
+
+  .brandposition_imagetop_rect {
+    top: 70px;
+    left: 230px;
+  }
+
+  .brandposition_imagebottom_rect {
+    bottom: 100px;
+    right: 80px;
+  }
+
+  .brandposition_top_rectangle {
+    top: -10px;
+    right: 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .brandposition_main_container {
+    flex-direction: column-reverse;
+  }
+  .brandposition_first_imageside {
+    margin-bottom: 50px !important;
+    margin-right: 30px !important;
+  }
+
+  .brandposition_relatable {
+    top: 150px;
+  }
+
+  .brandposition_first_textside {
+    margin-left: 0 !important;
+  }
+
+  .brandposition_banner_call {
+    position: absolute;
+    top: 400px;
+    right: 60px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .brandposition_companyimage img,
+  .brandposition_customerloyalty img,
+  .brandposition_relatable img,
+  .brandposition_omni img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .brandposition_center_diamond img {
+    width: 70%;
+    height: 70%;
+  }
+
+  .brandposition_companyimage {
+    top: 20px;
+    right: -120px;
+  }
+
+  .brandposition_customerloyalty {
+    top: 60px;
+    left: 150px;
+  }
+
+  .brandposition_relatable {
+    top: 120px;
+    right: -130px;
+  }
+
+  .brandposition_omni {
+    bottom: 40px;
+    right: -20px;
+  }
+
+  .brandposition_center_diamond {
+    bottom: -20px;
+    left: 40px;
+  }
+
+  .brandposition_first_socialicons {
+    right: 16px;
+    top: 15%;
+  }
+
+  .brandposition_first_imageside {
+    margin-right: 70px !important;
+  }
+
+  .brandposition_banner_call {
+    position: absolute;
+    top: 250px;
+    right: 60px;
+  }
+
+  .brandposition_bottom_rect {
+    bottom: -30px;
+    left: 40px;
+  }
+
+  .brandposition_imagetop_rect {
+    top: 70px;
+    left: 260px;
+  }
+
+  .brandposition_imagebottom_rect {
+    bottom: 80px;
+    right: 20px;
+  }
+
+  .brandposition_top_rectangle {
+    top: 30px;
+    right: -40px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .brandposition_first_imageside {
+    margin-right: 100px !important;
+  }
+
+  .brandposition_companyimage {
+    top: 20px;
+    right: -80px;
+  }
+
+  .brandposition_customerloyalty {
+    top: 60px;
+    left: 100px;
+  }
+
+  .brandposition_relatable {
+    top: 150px;
+    right: -60px;
+  }
+
+  .brandposition_omni {
+    bottom: 40px;
+    right: -40px;
+  }
+
+  .brandposition_center_diamond {
+    bottom: 20px;
+    left: 70px;
+  }
+
+  .brandposition_first_backgroundline img {
+    width: 450px;
+    height: 410px;
+  }
+
+  .brandposition_companyimage img,
+  .brandposition_customerloyalty img,
+  .brandposition_relatable img,
+  .brandposition_omni img,
+  .brandposition_top_rectangle img,
+  .brandposition_bottom_rect img,
+  .brandposition_imagetop_rect img,
+  .brandposition_imagebottom_rect img {
+    width: 65%;
+    height: 65%;
+  }
+
+  .brandposition_center_diamond img {
+    width: 60%;
+    height: 60%;
+  }
+
+  .brandposition_first_textside_heading {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  .brandposition_first_textside_description {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .brandposition_banner_call img {
+    width: 100%;
+    height: 30%;
+  }
+
+  .brandposition_banner_call {
+    position: absolute;
+    top: 300px;
+    right: 20px;
+  }
+
+  .brandposition_bottom_rect {
+    bottom: 0px;
+    left: 70px;
+  }
+
+  .brandposition_imagetop_rect {
+    top: 70px;
+    left: 220px;
+  }
+
+  .brandposition_imagebottom_rect {
+    bottom: 120px;
+    right: 20px;
+  }
+
+  .brandposition_top_rectangle {
+    top: -40px;
+    right: 40px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .brandposition_banner_call {
+    position: absolute;
+    top: 350px;
+    right: 10px;
+  }
+
+  .brandposition_imagebottom_rect {
+    bottom: 120px;
+    right: 50px;
+  }
+
+  .brandposition_center_diamond {
+    bottom: 60px;
+    left: 90px;
+  }
+
+  .brandposition_bottom_rect {
+    bottom: 0px;
+    left: 110px;
+  }
+
+  .brandposition_companyimage {
+    top: 5px;
+    right: -80px;
+  }
+}

@@ -13,7 +13,7 @@ export default function BPComp3() {
       <div className="bpcp3FullSection py-4 position-relative vw-100">
         <div className="mx-auto my-2">
           <p
-            className="fw-bold fs-4 py-3 text-center"
+            className="fw-bold fs-3 py-3 text-center"
             style={{ color: "#33657E" }}
           >
             THE PROCESS
@@ -39,7 +39,7 @@ export default function BPComp3() {
               <img
                 src="/img/BrandPositioning/Line-51.png"
                 alt=""
-                className="img-flu bpcp3xAllignid"
+                className="img-fluid bpcp3xAllign"
               />
             </div>
             <div className="position-absolute top-50 translate-middle-y bpcp3Ellipse1">
