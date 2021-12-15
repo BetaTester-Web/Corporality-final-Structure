@@ -1,6 +1,8 @@
 import "./App.css";
 // import { BrowserRouter as Routes, Route } from 'react-router-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useContext } from "react";
+import { Context } from "./context/Context";
 import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer.jsx";
@@ -22,9 +24,10 @@ import DigitalMediaMarketing from "./components/DigitalMediaMarketing/DigitalMed
 import Login from "./components/Login/Login";
 import Register from "./components/Register/Register";
 import Blog from "./components/Blog/Blog";
-
+import Write from "./components/Write/Write";
 
 function App() {
+  const { user } = useContext(Context);
   return (
     <>
       <BrowserRouter>
@@ -33,6 +36,12 @@ function App() {
           <Route path="/" element={<HomePage />} />
 
           <Route path="/about-corporality" element={<AboutCorporality />} />
+
+          <Route path="/register" element={user ? <HomePage /> : <Register />} />
+          
+          <Route path="/login" element={user ? <HomePage /> : <Login />} />
+
+          <Route path="/write" element={user ? <Write /> : <Register />} />
 
           <Route path="/blogs" element={<Blogs />}/>
 
@@ -54,11 +63,7 @@ function App() {
 
           <Route path="/interactive-blueprint" element={<IntractiveBluePrint />} />
 
-          <Route path="/login" element={<Login />} />
-
           <Route path="/partnership-programmes" element={<PartnershipProgrammes />} />
-
-          <Route path="/register" element={<Register />} />
 
           <Route path="/strategy-and-consulting" element={<StrategyAndConsulting />} />
 

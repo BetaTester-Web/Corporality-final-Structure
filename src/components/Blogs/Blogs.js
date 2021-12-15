@@ -30,9 +30,8 @@ function Blogs() {
             setarticles(res.data);
         };
         fetcharticles();
-        console.log("lmao");
-        console.log(articles);
-    }, [search, articles]);
+        // console.log(articles);
+    }, [search]);
 
     // function show() {
     //     state ? setState(false) : setState(true);
