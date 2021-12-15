@@ -2,7 +2,7 @@
   background-color: #6ca0bc;
   overflow: hidden;
   position: relative;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .container-2-text-2-Cs {
@@ -20,7 +20,7 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 22px;
-  margin-right: 180px;
+  margin-right: 220px;
   color: #ffffff;
 }
 
@@ -58,7 +58,7 @@
   width: 155px;
   height: 42px;
   display: flex;
-  margin-left: 15px;
+  margin-left: 0px;
   margin-top: 30px;
   justify-content: center;
   border: 1px white;
@@ -166,7 +166,7 @@
 
 .rect-2-3-Cs {
   position: absolute;
-  top: 90%;
+  top: 80%;
   left: -140%;
 }
 
@@ -200,11 +200,8 @@
 
 @media (max-width: 992px) {
 
-  .interactive_blueprint-row-Cs {
-    flex-direction: column-reverse;
-  }
   .textndlists-Cs {
-    margin-top: 100px;
+    margin-top: 10px;
     left: 15%;
   }
 
@@ -212,24 +209,33 @@
     top: 720px;
   }
 
-  .wall-2-2-Cs {
-    display: none;
-  }
 
   .mainndback-4-Cs {
-    left: 20%;
+    left: 15%;
+    top: 10%;
+  }
+  .second-Cs{
+    padding-bottom: 100px;
+  }
+  .rect-2-1-Cs{
+    top: -100%;
+    left: 40%;
   }
 }
 
 @media (max-width: 768px) {
 
-  .interactive_blueprint-row-Cs {
-    flex-direction: column-reverse;
-  }
+
 
   .textndlists-Cs {
-    margin-top: 100px;
+    margin-top: 10px;
     left: 15%;
+  }
+  .container-2-text-1-Cs{
+    font-size: 16px;
+  }
+  .container-2-text-1-Cs-2{
+    font-size: 12px;
   }
 
   .rect-2-3-Cs {
@@ -242,15 +248,17 @@
 }
 
 @media (max-width: 576px) {
-  .interactive_blueprint-row-Cs {
-    flex-direction: column-reverse;
-  }
+
   .textndlists-Cs {
-    margin-top: 100px;
+    margin-top: 10px;
     left: 15%;
   }
   .rect-2-3-Cs {
-    top: 720px;
+    display: none;
+  }
+  .rect-2-1-Cs{
+    top: -120%;
+    left: 70%;
   }
 }
 
@@ -273,5 +281,8 @@
 
   .container-2-text-1-Cs-2 {
     margin-right: 60px;
+  }
+  .rect-2-4-Cs{
+    display: none;
   }
 }

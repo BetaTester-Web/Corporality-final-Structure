@@ -13,7 +13,7 @@ import wall from '../SecondComponent/wall.png'
 
 const Second = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 });
+        aos.init({ disable: "mobile" });
 
     }, [])
     return (
@@ -23,26 +23,26 @@ const Second = () => {
                 <div className="row interactive_blueprint-row">
                     <div className="col-lg-6 textndlists">
                         <p data-aos="fade-right" className='container-2-text-1'>Eliminating Risks giving you an edge over others</p>
-                        <div className="lists">
+                        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay = "2000" className="lists">
                             <div className="textndimg">
 
 
-                                <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Drafting an accurate project scope and preventing bigger headaches along the road</p>
+                                <span><img  className='polygon-last' src={polygon} alt='' /></span><p className='container-2-text-2'>Drafting an accurate project scope and preventing bigger headaches along the road</p>
                             </div>
                             <div className="textndimg">
 
 
-                                <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Improving team buy-in by ensuring team collaboration and stakeholder participation</p>
+                                <span><img  className='polygon-last' src={polygon} alt='' /></span><p className='container-2-text-2'>Improving team buy-in by ensuring team collaboration and stakeholder participation</p>
                             </div>
                             <div className="textndimg">
 
 
-                                <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Project  breakage to manageable pieces allowing you manage workload and budgets efficiently</p>
+                                <span><img  className='polygon-last' src={polygon} alt='' /></span><p className='container-2-text-2'>Project  breakage to manageable pieces allowing you manage workload and budgets efficiently</p>
                             </div>
                             <div className="textndimg">
 
 
-                                <span><img data-aos="fade-right" className='polygon-last' src={polygon} alt='' /></span><p data-aos="fade-right" className='container-2-text-2'>Written plan along with comprehensive research and expert recommendations</p>
+                                <span><img  className='polygon-last' src={polygon} alt='' /></span><p className='container-2-text-2'>Written plan along with comprehensive research and expert recommendations</p>
                             </div>
                             <a href=''>
                                 <div className="button-5">
