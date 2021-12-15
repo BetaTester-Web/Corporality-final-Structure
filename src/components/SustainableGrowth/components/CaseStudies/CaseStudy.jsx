@@ -11,7 +11,7 @@ import Main from '../CaseStudies/main.png'
 
 const CaseStudy = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 });
+        aos.init({ duration: 3000 , disable: "mobile" });
 
     }, [])
     return (
