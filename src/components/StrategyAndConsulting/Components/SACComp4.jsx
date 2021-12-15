@@ -12,7 +12,7 @@ export default function SACComp4() {
   }, []);
   return (
     <div>
-      <div className="p-0 container-fluid sacc4Container d-flex flex-column justify-content-center">
+      <div className="p-0 container sacc4Container d-flex flex-column justify-content-center">
         <div className="sacc4Top d-flex flex-column align-items-center">
           <p className="sacc4Heading1">
             Leverage the power of a unified approach to marketing innovation
@@ -107,10 +107,10 @@ export default function SACComp4() {
                 </div>
               </div>
             </div>
-            <div className="sacc4DiamondCard sacc4BlankDiamondCard"></div>
+            <div className="sacc4DiamondCard sacc4BlankDiamondCard1 sacc4BlankDiamondCard"></div>
           </div>
           <div className="sacc4Row2 d-flex flex-row justify-content-between">
-            <div className="sacc4DiamondCard sacc4BlankDiamondCard"></div>
+            <div className="sacc4DiamondCard sacc4BlankDiamondCard2 sacc4BlankDiamondCard"></div>
             <div className="sacc4DiamondCard sacc4D3 d-flex justify-content-center align-items-center">
               <div className="sacc4DCContent">
                 <p className="sacc4Heading2">Customer-Centered Design</p>

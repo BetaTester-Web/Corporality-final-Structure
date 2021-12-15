@@ -3,7 +3,6 @@ import aos from "aos";
 import "aos/dist/aos.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-
 import mainStrategy from "./images/firstMain.png";
 import backimgStrategy from "./images/firstBack.png";
 import wallStrategy from "./images/firstWall.png";
@@ -15,7 +14,7 @@ import "../Components/SACComp1.css";
 
 const SACComp1 = () => {
   useEffect(() => {
-    aos.init({ duration: 3000 });
+    aos.init({ duration: 3000 , disable: "mobile" });
   }, []);
   return (
     <div className="SACC1_prev-1-Ib">
