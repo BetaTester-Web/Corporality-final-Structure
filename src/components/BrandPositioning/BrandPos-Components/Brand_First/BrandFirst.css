@@ -35,6 +35,13 @@
 .brandposition_first_textside {
   flex: 0.4;
   margin-left: -20px !important;
+  position: relative;
+}
+
+.brandposition_top_rectangle {
+  position: absolute;
+  top: -80px;
+  right: 0;
 }
 
 .brandposition_first_textside_heading {
@@ -76,7 +83,10 @@
 .brandposition_customerloyalty,
 .brandposition_relatable,
 .brandposition_omni,
-.brandposition_center_diamond {
+.brandposition_center_diamond,
+.brandposition_imagetop_rect,
+.brandposition_imagebottom_rect,
+.brandposition_bottom_rect {
   position: absolute;
 }
 
@@ -104,7 +114,22 @@
   bottom: -30px;
   left: 70px;
 }
-.brandposition_banner_call::after{
+.brandposition_bottom_rect {
+  bottom: -30px;
+  left: 80px;
+}
+
+.brandposition_imagetop_rect {
+  top: 100px;
+  left: 250px;
+}
+
+.brandposition_imagebottom_rect {
+  bottom: 150px;
+  right: 100px;
+}
+
+.brandposition_banner_call::after {
   z-index: 10 !important;
   content: " ";
   position: absolute;
@@ -115,39 +140,39 @@
   background-color: white;
   border-radius: 50%;
   -webkit-animation: pulse 1.5s infinite;
-          animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
 }
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0.8;
   }
   50% {
     -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+    transform: scale(1.3);
     opacity: 0.2;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0;
   }
 }
 @keyframes pulse {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0.8;
   }
   50% {
     -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+    transform: scale(1.3);
     opacity: 0.2;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0;
   }
 }
@@ -191,6 +216,25 @@
     right: 30px;
   }
 
+  .brandposition_bottom_rect {
+    bottom: -30px;
+    left: 60px;
+  }
+
+  .brandposition_imagetop_rect {
+    top: 70px;
+    left: 230px;
+  }
+
+  .brandposition_imagebottom_rect {
+    bottom: 100px;
+    right: 80px;
+  }
+
+  .brandposition_top_rectangle {
+    top: -10px;
+    right: 0;
+  }
 }
 
 @media only screen and (max-width: 991px) {
@@ -270,6 +314,26 @@
     top: 250px;
     right: 60px;
   }
+
+  .brandposition_bottom_rect {
+    bottom: -30px;
+    left: 40px;
+  }
+
+  .brandposition_imagetop_rect {
+    top: 70px;
+    left: 260px;
+  }
+
+  .brandposition_imagebottom_rect {
+    bottom: 80px;
+    right: 20px;
+  }
+
+  .brandposition_top_rectangle {
+    top: 30px;
+    right: -40px;
+  }
 }
 
 @media only screen and (max-width: 575px) {
@@ -310,7 +374,11 @@
   .brandposition_companyimage img,
   .brandposition_customerloyalty img,
   .brandposition_relatable img,
-  .brandposition_omni img {
+  .brandposition_omni img,
+  .brandposition_top_rectangle img,
+  .brandposition_bottom_rect img,
+  .brandposition_imagetop_rect img,
+  .brandposition_imagebottom_rect img {
     width: 65%;
     height: 65%;
   }
@@ -339,5 +407,53 @@
     position: absolute;
     top: 300px;
     right: 20px;
+  }
+
+  .brandposition_bottom_rect {
+    bottom: 0px;
+    left: 70px;
+  }
+
+  .brandposition_imagetop_rect {
+    top: 70px;
+    left: 220px;
+  }
+
+  .brandposition_imagebottom_rect {
+    bottom: 120px;
+    right: 20px;
+  }
+
+  .brandposition_top_rectangle {
+    top: -40px;
+    right: 40px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .brandposition_banner_call {
+    position: absolute;
+    top: 350px;
+    right: 10px;
+  }
+
+  .brandposition_imagebottom_rect {
+    bottom: 120px;
+    right: 50px;
+  }
+
+  .brandposition_center_diamond {
+    bottom: 60px;
+    left: 90px;
+  }
+
+  .brandposition_bottom_rect {
+    bottom: 0px;
+    left: 110px;
+  }
+
+  .brandposition_companyimage {
+    top: 5px;
+    right: -80px;
   }
 }
