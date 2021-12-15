@@ -60,7 +60,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #757575;
-  padding-right: 250px !important;
+  padding-right: 125px !important;
   margin-right: 0px;
 }
 
@@ -91,7 +91,7 @@
   font-weight: bold;
   font-size: 32px;
   line-height: 32px;
-  color: #A06DAF;
+  color: #3c708e;
   margin-right: 0px !important;
 }
 
@@ -306,12 +306,18 @@
   .SACComp6_community_first_heading_text-Invirogating {
     margin-right: -60px !important;
   }
+  .SACComp6_community_first_description-Invirogating{
+    margin-right: -100px;
+  }
 
 }
 
 @media only screen and (max-width: 914px) {
   .SACComp6_text2_Invirogating {
     left: 30% !important;
+  }
+  .SACComp6_community_first_description-Invirogating{
+    margin-right: -60px;
   }
 }
 
