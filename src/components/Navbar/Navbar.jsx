@@ -8,7 +8,7 @@ import About2 from './components/About2';
 import { useMediaQuery } from 'react-responsive';
 import OutsideClickHandler from 'react-outside-click-wrapper';
 import { NavbarContext } from './Context/NavbarContext';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
     const isLargeScreen = useMediaQuery({ query: '(min-width: 1200px)' })
@@ -18,6 +18,7 @@ const Navbar = () => {
     const [navClicked, setNavClicked] = useState(false);
     const [showAbout2, setShowAbout2] = useState(false);
     const [menuId, setMenuId] = useState(1);
+    const navigate = useNavigate();
 
     const providerValue = useMemo(() =>
         ({ isLargeScreen, showAbout, setShowAbout, showAbout2, setShowAbout2, showServices, setShowServices, showIndustries, setShowIndustries, navClicked, setNavClicked, menuId, setMenuId })
@@ -55,12 +56,8 @@ const Navbar = () => {
                                     <div className="industries-a">INDUSTRIES</div>
                                 </div>
                                 <Industries />
-                                <div className="nav-item contact">
-                                <div className="contact-a">
-                                    <a href="/contact" >
-                                       CONTACT
-                                    </a>
-                                       </div>
+                                <div className="nav-item contact" onClick={() => navigate("/contact")}>
+                                    <div className="contact-a">CONTACT</div>
                                 </div>
                                 <div className="nav-item contact-no">
                                     <div className="contact-no-a">+61 2 83794089</div>
