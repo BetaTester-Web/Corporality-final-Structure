@@ -86,30 +86,6 @@
    top: 100px;
 }
 
-.blue_print_overlay {
-    position: relative;
-    height: 80%;
-    width: 477px;
-    margin-top: 140px;
-    bottom: -40%;
-    margin-left: -300px;
-    z-index: -1;
-    background: #fff;
-}
-
-.blue_print_ellipse-1 {
-    position: absolute;
-    width: 477px;
-    left: 290%;
-    bottom: 350px;
-
-    height: 466px;
-    z-index: 10;
-    background: rgba(255, 239, 165, 0.3);
-    filter: blur(100px);
-
-}
-
 .smaller-rect-prev-1 {
     position: absolute;
     left: 61% !important;

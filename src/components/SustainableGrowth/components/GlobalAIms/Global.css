@@ -146,9 +146,24 @@ a {
   }
 }
 
+@media(max-width:568px){
+  .Global-text-1{
+    margin-right: 200px !important;
+  }
+}
+
+@media(max-width:523px){
+  .social_icons2_Sustainable_growth {
+    margin-left: 10px;
+  }
+}
+
 @media (max-width:384px) {
 
   .social_icons2_Sustainable_growth {
     margin-left: 10px;
+  }
+  .Global-text-3{
+    margin-right: 100px;
   }
 }

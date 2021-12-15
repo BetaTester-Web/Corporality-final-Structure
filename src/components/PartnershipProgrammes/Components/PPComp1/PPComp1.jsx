@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/alt-text */
 import "../PPComp1/PPComp1.css";
 import React, { useEffect } from "react";
 import Main from './Main.png'
@@ -10,9 +9,35 @@ import smallerrect from './text-rect.png'
 import aos from 'aos'
 import yellowbackground from './yellowbackground.png'
 
-
-
 export default function PPComp1() {
+// <<<<<<< HEAD
+//     useEffect(() => {
+//         AOS.init();
+//         AOS.refresh();
+//     }, []);
+//     return (
+//         <div>
+//             <div className="p-0 container-fluid ">
+//                 <div className="row d-flex flex-row ppc1RowContainer ">
+//                     <div className="col p-0 d-flex flex-column justify-content-center ppc1ColWrapper ppc1ColTextWrapper">
+//                         <p data-aos="fade-right" data-aos-duration="500" className="ppcHeading">Partnership Programmes</p><br />
+//                         <p className="ppcText" data-aos="fade-right" data-aos-delay="300" data-aos-duration="500">Corporality Global holds extensive strategic strength partnership programmes that extend entrepreneurial reach beyond the ordinary</p><br />
+//                         <a data-aos="fade-right" data-aos-delay="600" data-aos-duration="500" className='ppc1Button' href="/#">Read More</a>
+//                         <img className="ppc1Rec9" src={rec9} alt="" />
+//                     </div>
+//                     <div className="col p-0 d-flex flex-column justify-content-center ppc1ColWrapper">
+//                         <div  data-aos="fade-left" data-aos-duration="1000" className="ppc1ImageWrapper cont">
+//                             <img className="qwerty" src={diamond} />
+//                             <img className="ppc1Rec6" src={rec6} alt="" />
+//                             <div className="ppc1MainImg">
+//                                 <img className="ppc1Img1" src={img1} alt="" />
+//                             </div>
+//                             <img className="ppc1Wall" src={wall} alt="" />
+//                             <img className="ppc1Rec8" src={rec8} alt="" />
+//                         </div>
+//                     </div>
+//                 </div>
+// =======
   useEffect(() => {
     aos.init({ duration: 3000 });
 }, [])
@@ -46,6 +71,7 @@ return (
                     </div>
 
                 </div>
+
             </div>
 
 

@@ -18,7 +18,7 @@ const Page1 = () => {
                     <img src="./img/StrategyConsultancy/hollowDia.png" alt="" className="consult-hollowDia " />
                     <div className="d-md-flex align-items-center justify-content-between consult-pageContent">
                         <div className="consult-page1-content">
-                            <div data-aos="fade-right">
+                            <div data-aos="fade-right" data-aos-duration="1000">
                             <div className="consult-pg1-con">
 
 

@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "../Innovation/Innovation.css";
 import aos from "aos";
-import small from "../Innovation/small2.png";
-import small2 from "../Innovation/small.png";
-import group from "../Innovation/Group.png";
+import smallInnovation from "../Innovation/small2Innovation.png";
+import small2Innovation from "../Innovation/smallInnovation.png";
+import groupInnovation from "../Innovation/GroupInnovation.png";
 
 const Innovation = () => {
   useEffect(() => {
@@ -11,7 +11,7 @@ const Innovation = () => {
   }, []);
   return (
     <div className="fifthcomponent-Innovation effectiveImage-Innovation">
-      <img className="group5-Innovation" src={group} alt="" />
+      <img className="group5-Innovation" src={groupInnovation} alt="" />
       <div className="container">
         <div className="row ">
           <div
@@ -26,8 +26,8 @@ const Innovation = () => {
               Sydney that aims to tread across continents and industries as we
               use next-gen technology to resolve every business challenge.
             </p>
-            <img src={small2} className="small2-5-Innovation" alt="" />
-            <img src={small} className="small-5-Innovation" alt="" />
+            <img src={small2Innovation} className="small2-5-Innovation" alt="" />
+            <img src={smallInnovation} className="small-5-Innovation" alt="" />
 
             <div className="link-Innovation">
               <div className="button-4-Innovation">

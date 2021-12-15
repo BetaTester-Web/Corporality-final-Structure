@@ -18,7 +18,7 @@ function BlogCard(props) {
                     <h2 className="blogHeading">{truncate(props.heading, 120)}</h2>
                     <div className="blogDescription">
                         {truncate(props.description, 300)}
-                        <a href="/">Read more...</a>
+                        <a href={"/blogs/" + props.href}>Read more...</a>
                     </div>
                 </div>
                 <div className="col-12 blogInformation">

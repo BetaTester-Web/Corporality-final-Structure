@@ -272,15 +272,13 @@
 }
 
 @media (max-width:992px) {
-    .wall-2-2-Ns{
+   /*  .wall-2-2-Ns{
         display: none;
-    }
-    .interactive_blueprint-row-Ns {
-        flex-direction: column-reverse;
-    }
+    } */
+
     .textndlists-Ns {
 
-        margin-top: 100px;
+        margin-top: 60px;
         left: 0%;
     }
     .container-2-text-1-Ns {
@@ -294,15 +292,17 @@
 
     .mainndback-4-Ns {
         left: 20%;
+        margin-top: 70px;
+    }
+    .rect-2-1-Ns{
+        top: -100%;
+        left: 30%;
     }
 }
 
 @media (max-width:768px) {
-    .interactive_blueprint-row-Ns {
-        flex-direction: column-reverse;
-    }
     .textndlists-Ns {
-        margin-top: 100px;
+        margin-top: 10px;
         left: 0%;
     }
     .rect-2-3-Ns {
@@ -311,15 +311,19 @@
     .container-2-text-1-Ns-2 {
         margin-right: 150px;
     }
+    .rect-2-1-Ns{
+        top: -100%;
+        left: 30%;
+    }
+    .container-2-text-1-Ns{
+        font-size: 16px;
+        line-height: 22px;
+    }
 }
 
 @media (max-width:576px) {
-
-    .interactive_blueprint-row-Ns {
-        flex-direction: column-reverse;
-    }
     .textndlists-Ns {
-        margin-top: 70px;
+        margin-top: 10px;
         left: 5%;
     }
     .rect-2-3-Ns {
@@ -331,10 +335,7 @@
         display: none;
     }
     .container-2-text-1-Ns {
-        margin-right: 0px;
-        left: -1%;
-        margin-right: 20px;
-        font-size: 24px;
+        margin-right: 60px;
     }
     .rect-2-1-Ns{
         display: none;

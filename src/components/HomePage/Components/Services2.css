@@ -145,6 +145,7 @@
 .right_content_button {
   display: flex;
   align-items: center;
+  margin-left: 40px !important;
 }
 
 .bottom_button_text {
@@ -240,6 +241,10 @@
 
   .right_content_side {
     padding: 10px 20px !important;
+  }
+
+  .right_content_button {
+    margin-left: 20px !important;
   }
 }
 

@@ -1,21 +1,21 @@
 import React, { useEffect } from "react";
 import '../MultiDimensional/MultiDimension.css'
 import aos from 'aos'
-import smaller3 from '../MultiDimensional/smallerrect.png'
-import small3 from '../MultiDimensional/smallrect.png'
-import wall3 from '../MultiDimensional/wall.png'
-import back3 from '../MultiDimensional/Back.png'
-import main3 from '../MultiDimensional/Main.png'
-import favicon0 from '../MultiDimensional/favicon-0.png'
-import favicon1 from '../MultiDimensional/favicon-1.png'
-import favicon2 from '../MultiDimensional/favicon-3.png'
-import favicon3 from '../MultiDimensional/favicon-4.png'
-import explorerect from '../MultiDimensional/arrow.png'
-import explorearrow from '../MultiDimensional/arrow2.png'
+import smaller3MultiDimensional from '../MultiDimensional/smallerrectMultiDimensional.png'
+import small3MultiDimensional from '../MultiDimensional/smallrectMultiDimensional.png'
+import wall3MultiDimensional from '../MultiDimensional/wallMultiDimensional.png'
+import back3MultiDimensional from '../MultiDimensional/BackMultiDimensional.png'
+import main3MultiDimensional from '../MultiDimensional/MainMultiDimensional.png'
+import favicon0MultiDimensional from '../MultiDimensional/favicon-0MultiDimensional.png'
+import favicon1MultiDimensional from '../MultiDimensional/favicon-1MultiDimensional.png'
+import favicon2MultiDimensional from '../MultiDimensional/favicon-3MultiDimensional.png'
+import favicon3MultiDimensional from '../MultiDimensional/favicon-4MultiDimensional.png'
+import explorerectMultiDimensional from '../MultiDimensional/arrowMultiDimensional.png'
+import explorearrowMultiDimensional from '../MultiDimensional/arrow2MultiDimensional.png'
 
 const MultiDimensional = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 });
+        aos.init({ duration: 3000 , disable: "mobile" });
 
     }, [])
     return (
@@ -24,13 +24,13 @@ const MultiDimensional = () => {
                 <div className="row">
                     <div className="col-lg-6 d-flex third-image-Multi justify-content-center flex-column  align-items-center">
                         <div data-aos="fade-right" className='images-prev-3-Multi'>
-                            <img alt='' className='smaller3-Multi' src={smaller3} />
-                            <img alt='' className='small3-Multi' src={small3} />
-                            <img alt='' className='wall3-Multi' src={wall3} />
-                            <img alt='' className='back3-Multi' src={back3} />
+                            <img alt='' className='smaller3-Multi' src={smaller3MultiDimensional} />
+                            <img alt='' className='small3-Multi' src={small3MultiDimensional} />
+                            <img alt='' className='wall3-Multi' src={wall3MultiDimensional} />
+                            <img alt='' className='back3-Multi' src={back3MultiDimensional} />
                             <div className="images-hover-4-Multi">
                                 <div className="bp_iwfc_img-Multi">
-                                    <img className='main3-Multi' src={main3} alt="" />
+                                    <img className='main3-Multi' src={main3MultiDimensional} alt="" />
                                 </div>
                             </div>
 
@@ -40,7 +40,7 @@ const MultiDimensional = () => {
 
                         <div data-aos="fade-up" data-aos-delay="500" className="textndicon-Multi">
                             <div /* className="icon-Multi" */>
-                                <img alt='' className='icon1-Multi' src={favicon0} />
+                                <img alt='' className='icon1-Multi' src={favicon0MultiDimensional} />
                             </div>
                             <div className="text-box-3-Multi">
                                 <p className='container-3_text-1_heading-Multi'>A Multi-dimensional Approach</p>
@@ -48,8 +48,8 @@ const MultiDimensional = () => {
                                 <a className='exploreinit-Multi' href='#'>
                                     <div className="explore-4-Multi">
                                         <div className="explore-link-Multi">
-                                            <img src={explorerect} alt='' className='explore-rect-Multi' />
-                                            <img src={explorearrow} alt='' className='explore-arrow-Multi' />
+                                            <img src={explorerectMultiDimensional} alt='' className='explore-rect-Multi' />
+                                            <img src={explorearrowMultiDimensional} alt='' className='explore-arrow-Multi' />
                                             <span className='explore-text-Multi'>Explore</span>
                                         </div>
                                     </div>
@@ -58,7 +58,7 @@ const MultiDimensional = () => {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1000" className="textndicon-Multi">
                             <div /* className="icon-Multi" */>
-                                <img alt='' className='icon1-Multi' src={favicon1} />
+                                <img alt='' className='icon1-Multi' src={favicon1MultiDimensional} />
                             </div>
                             <div className="text-box-3-Multi">
                                 <p className='container-3_text-2_heading-Multi'>Sustainable Design</p>
@@ -66,8 +66,8 @@ const MultiDimensional = () => {
                                 <a className='exploreinit-Multi' href='#'>
                                     <div className="explore-4-Multi">
                                         <div className="explore-link-Multi">
-                                            <img src={explorerect} alt='' className='explore-rect-Multi' />
-                                            <img src={explorearrow} alt='' className='explore-arrow-Multi' />
+                                            <img src={explorerectMultiDimensional} alt='' className='explore-rect-Multi' />
+                                            <img src={explorearrowMultiDimensional} alt='' className='explore-arrow-Multi' />
                                             <span className='explore-text-Multi'>Explore</span>
                                         </div>
                                     </div>
@@ -77,7 +77,7 @@ const MultiDimensional = () => {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="1500" className="textndicon-Multi">
                             <div /* className="icon-Multi" */>
-                                <img alt='' className='icon1-Multi' src={favicon2} />
+                                <img alt='' className='icon1-Multi' src={favicon2MultiDimensional} />
                             </div>
                             <div className="text-box-3-Multi">
                                 <p className='container-3_text-3_heading-Multi'>Sustainability in Services</p>
@@ -85,8 +85,8 @@ const MultiDimensional = () => {
                                 <a className='exploreinit-Multi' href='#'>
                                     <div className="explore-4-Multi">
                                         <div className="explore-link-Multi">
-                                            <img src={explorerect} alt='' className='explore-rect-Multi' />
-                                            <img src={explorearrow} alt='' className='explore-arrow-Multi' />
+                                            <img src={explorerectMultiDimensional} alt='' className='explore-rect-Multi' />
+                                            <img src={explorearrowMultiDimensional} alt='' className='explore-arrow-Multi' />
                                             <span className='explore-text-Multi'>Explore</span>
                                         </div>
                                     </div>
@@ -95,7 +95,7 @@ const MultiDimensional = () => {
                         </div>
                         <div data-aos="fade-up" data-aos-delay="2000" className="textndicon-Multi">
                             <div /* className="icon-Multi" */>
-                                <img alt='' className='icon1-Multi' src={favicon3} />
+                                <img alt='' className='icon1-Multi' src={favicon3MultiDimensional} />
                             </div>
                             <div className="text-box-3-Multi">
                                 <p className='container-3_text-3_heading-Multi'>CSR sustainability</p>
@@ -103,8 +103,8 @@ const MultiDimensional = () => {
                                 <a className='exploreinit-Multi' href='#'>
                                     <div className="explore-4-Multi">
                                         <div className="explore-link-Multi">
-                                            <img src={explorerect} alt='' className='explore-rect-Multi' />
-                                            <img src={explorearrow} alt='' className='explore-arrow-Multi' />
+                                            <img src={explorerectMultiDimensional} alt='' className='explore-rect-Multi' />
+                                            <img src={explorearrowMultiDimensional} alt='' className='explore-arrow-Multi' />
                                             <span className='explore-text-Multi'>Explore</span>
                                         </div>
                                     </div>
