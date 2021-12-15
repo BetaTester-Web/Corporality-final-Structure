@@ -35,6 +35,8 @@ function App() {
         <Routes>
           <Route path="/register" element={user ? <HomePage /> : <Register />} /> 
 
+          <Route path="/login" element={user ? <HomePage /> : <Login />} /> 
+
           <Route path="/" element={<HomePage />} />
 
           <Route path="/about-corporality" element={<AboutCorporality />} />
@@ -58,8 +60,6 @@ function App() {
           <Route path="/inclusion-and-diversity" element={<InclusionAndDiversity />} />
 
           <Route path="/interactive-blueprint" element={<IntractiveBluePrint />} />
-
-          <Route path="/login" element={<Login />} />
 
           <Route path="/partnership-programmes" element={<PartnershipProgrammes />} />
 
