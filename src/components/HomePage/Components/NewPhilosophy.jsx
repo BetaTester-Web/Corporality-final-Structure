@@ -31,11 +31,11 @@ const NewPhilosophy = () => {
                         </div>
                         <div className="customInput">
                             <label htmlFor="philosophyEmail" className={email && "labelToTop"}>Email Id</label>
-                            <input id="philosophyEmail" className={email && "activeInput"} onClick={email} onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="" />
+                            <input id="philosophyEmail" className={email && "activeInput"} value={email} onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="" />
                         </div>
                         <div className="customInput">
                             <label htmlFor="philosophyMobile" className={mobile && "labelToTop"}>Mobile</label>
-                            <input id="philosophyMobile" className={mobile && "activeInput"} onClick={mobile} onChange={(e)=>setMobile(e.target.value)} type="text" placeholder="" />
+                            <input id="philosophyMobile" className={mobile && "activeInput"} value={mobile} onChange={(e)=>setMobile(e.target.value)} type="text" placeholder="" />
                         </div>
                         <button type="button" class="philosophySubmitButton">
                             Submit

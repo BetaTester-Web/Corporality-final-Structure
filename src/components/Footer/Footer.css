@@ -553,9 +553,6 @@
 }
 
 .footerContainer .footerButton {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -563,7 +560,7 @@
   width: 100%;
   border: 0;
   background: transparent;
-  color: aliceblue;
+  color: white;
   font-size: 16px;
   margin-left: 10px;
   text-align: center;

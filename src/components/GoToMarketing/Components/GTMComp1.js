@@ -28,9 +28,9 @@ function Page1() {
 					<div className="col-lg-5 col-8 ms-lg-0 ms-auto me-auto d-flex flex-column justify-content-center">
 						<div className="mb-1">
 							<div
-								data-aos="fade-right"
-								data-aos-duration="2000"
-								className="aos-init aos-animate"
+								 data-aos="fade-right"
+								 data-aos-duration="2000"
+								 className="aos-init aos-animate"
 							>
 								<h1 className="heading animate two">
 									<span>step</span>

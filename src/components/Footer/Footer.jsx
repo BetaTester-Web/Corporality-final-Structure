@@ -142,15 +142,15 @@ export default function Footer() {
             <div className="column4">
               <h1 className="footer-heading">About</h1>
               <hr size="5" className="line-below-footer-heading" />
-              <p className="text-links" onClick={() => {navigate("/"); topHandle()}}>
+              <p className="text-links" onClick={() => {navigate("/about-corporality"); topHandle()}}>
                 <img className="poligon-image" src={polygon} />
                 Who we are
               </p>
-              <p className="text-links" onClick={() => {navigate("/"); topHandle()}}>
+              <p className="text-links" onClick={() => {navigate("/interactive-blueprint"); topHandle()}}>
                 <img className="poligon-image" src={polygon} />
                 How we’re Organised
               </p>
-              <p className="text-links" onClick={() => {navigate("/"); topHandle()}}>
+              <p className="text-links" onClick={() => {navigate("/about-corporality"); topHandle()}}>
                 <img className="poligon-image" src={polygon} />
                 Careers
               </p>

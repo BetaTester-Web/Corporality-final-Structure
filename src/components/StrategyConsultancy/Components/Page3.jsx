@@ -15,7 +15,7 @@ const Page3 = () => {
 
             <div className="">
                 <div className="d-md-flex justify-content-center Consultancypage-3">
-                <div data-aos="fade-right">
+                <div data-aos="fade-right" data-aos-duration="1200">
 
                 </div>
                     <div className="model-para">

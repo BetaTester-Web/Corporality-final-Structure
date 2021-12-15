@@ -13,13 +13,11 @@ function BPComponent5() {
       </div>
       <div className="container vw=100">
         <div className="row">
-        <img
-              src="..\img\BrandPositioning\Group-750.png"
-              className="bp-cp-5-img img-fluid row align-items-start"
-            />
-          <div className="col-1">
-           
-          </div>
+          <img
+            src="..\img\BrandPositioning\Group-750.png"
+            className="bp-cp-5-img img-fluid row align-items-start"
+          />
+          <div className="col-1"></div>
           <div className="col-10">
             <Accordion className="accordian-main-body bp-cp5-shadowbox">
               {" "}
@@ -44,13 +42,13 @@ function BPComponent5() {
                 <Accordion.Body>
                   <div class="container">
                     <div class="row">
-                      <div class="col-12 col-md-4 col-lg-3 col-xl-2">
+                      <div class="col-12 col-sm-2 col-md-2 col-lg-3 col-xl-2">
                         <img
                           src="../img/BrandPositioning/Rectangle-1.png"
-                          className="img-fluid bp-cp5-listbodyimg"
+                          className="bp-cp5-listbodyimg"
                         />
                       </div>
-                      <div class="col-12 col-md-8 col-lg-9 col-xl-10  bp-cp5-listbody">
+                      <div class="col-12 col-sm-10 col-md-10 col-lg-9 col-lg-9 col-xxl-10  bp-cp5-listbody">
                         Marketing and communication must be disposed of in a way
                         that will stir consumer interest so that you get noticed
                         by all. Therefore, we create a preference that will
@@ -67,7 +65,7 @@ function BPComponent5() {
                   <div class="container">
                     <div class="row">
                       <div class="row">
-                        <div class="col-4 col-md-3 col-xl-2 bp-cp5-tm-div">
+                        <div class="col-4 col-md-3 col-xl-2 bp-cp5-tm-div bp-cp5-topmargin">
                           <img
                             src="../img/BrandPositioning/faviconTM2.png"
                             className="img-fluid img-fav"
@@ -85,13 +83,13 @@ function BPComponent5() {
                 <Accordion.Body>
                   <div class="container">
                     <div class="row">
-                      <div class="col-12 col-md-4 col-xl-2">
+                      <div class="col-12 col-sm-2 col-md-2 col-lg-3 col-xxl-2">
                         <img
                           src="../img/BrandPositioning/Rectangle-2.png"
-                          className="img-fluid bp-cp5-listbodyimg"
+                          className=" bp-cp5-listbodyimg"
                         />
                       </div>
-                      <div class="col-12 col-md-8 col-xl-10  bp-cp5-listbody">
+                      <div class="col-12 col-sm-10 col-md-10 col-lg-9 col-xxl-10  bp-cp5-listbody">
                         While true differentiators are important, compelling the
                         target audience is vital to the success of a brand. At
                         Corporality Global - the top digital marketing
@@ -127,13 +125,13 @@ function BPComponent5() {
                 <Accordion.Body>
                   <div class="container">
                     <div class="row">
-                      <div class="col-12 col-md-4 col-xl-2">
+                      <div class="col-12 col-sm-2 col-md-2 col-lg-3 col-xxl-2">
                         <img
                           src="../img/BrandPositioning/Rectangle-3.png"
-                          className="img-fluid bp-cp5-listbodyimg"
+                          className=" bp-cp5-listbodyimg"
                         />
                       </div>
-                      <div class="col-12 col-md-8 col-xl-10  bp-cp5-listbody">
+                      <div class="col-12 col-sm-10 col-md-10 col-lg-9 col-xxl-10  bp-cp5-listbody">
                         Coherence is essential to engage with your audiences and
                         connect with them in meaningful ways. Our Sydney based
                         professional digital marketing create a unique value
@@ -167,13 +165,13 @@ function BPComponent5() {
                 <Accordion.Body>
                   <div class="container">
                     <div class="row">
-                      <div class="col-12 col-md-4 col-xl-2">
+                      <div class="col-12 col-sm-2 col-md-2 col-lg-3 col-xxl-2">
                         <img
                           src="../img/BrandPositioning/Rectangle-4.png"
-                          className="img-fluid bp-cp5-listbodyimg"
+                          className=" bp-cp5-listbodyimg"
                         />
                       </div>
-                      <div class="col-12 col-md-8 col-xl-10  bp-cp5-listbody">
+                      <div class="col-12 col-sm-10 col-md-10 col-lg-9 col-xxl-10  bp-cp5-listbody">
                         Fulfilling expectations over and over again gives you a
                         reputation of being a committed performer. We add
                         intricate innovations to your brand positioning strategy
@@ -182,21 +180,18 @@ function BPComponent5() {
                     </div>
                   </div>
                 </Accordion.Body>
-               
               </Accordion.Item>
-              <div >
-                <button className="endbutton mx-auto d-block">explore</button>
+              <div>
+                <button className="endbutton mx-auto d-block">Explore</button>
                 <div className="endbuttondiv"></div>
-                </div>
+              </div>
             </Accordion>
           </div>
-          <div className="col-1">
-          
-          </div>
+          <div className="col-1"></div>
           <img
-              src="..\img\BrandPositioning\Vector.png"
-              className="img-fluid bp-cp5-ladderimg"
-            />
+            src="..\img\BrandPositioning\Vector.png"
+            className="img-fluid bp-cp5-ladderimg"
+          />
         </div>
       </div>
     </div>

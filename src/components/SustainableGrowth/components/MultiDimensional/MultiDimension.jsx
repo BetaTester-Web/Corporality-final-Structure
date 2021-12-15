@@ -15,7 +15,7 @@ import explorearrowMultiDimensional from '../MultiDimensional/arrow2MultiDimensi
 
 const MultiDimensional = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 });
+        aos.init({ duration: 3000 , disable: "mobile" });
 
     }, [])
     return (

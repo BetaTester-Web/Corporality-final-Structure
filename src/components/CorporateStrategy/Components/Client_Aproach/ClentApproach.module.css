@@ -222,6 +222,13 @@
   }
   .clientApproach_right {
     width: 100%;
+    margin-bottom: 250px !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .clientApproach_right {
+    margin-bottom: 50px !important;
   }
 }
 
@@ -243,6 +250,9 @@
     /* margin-left: 5%; */
     margin-right: 50px !important;
     text-align: center !important;
+  }
+  .clientApproach_right {
+    margin-bottom: 0px !important;
   }
 }
 @media screen and (max-width: 406px) {

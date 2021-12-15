@@ -1,154 +1,163 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.fullSection{
-  background: linear-gradient(255.47deg, #EEDFF2 2.24%, #E1EDF3 17.92%, #FFFFFF 48.34%);
+.fullSection {
+  background: linear-gradient(
+    255.47deg,
+    #eedff2 2.24%,
+    #e1edf3 17.92%,
+    #ffffff 48.34%
+  );
 }
 
-.landingPage{
+.landingPage {
   height: 45.5em !important;
 }
-.snakes{
+.snakes {
   width: 64.5% !important;
 }
-.flexing{
+.flexing {
   height: 100%;
 }
-.mediumD1{
+.mediumD1 {
   width: 4%;
   margin-top: 10% !important;
   margin-right: 28% !important;
 }
-.mediumD2{
+.mediumD2 {
   width: 4%;
   margin-bottom: 3% !important;
   margin-right: 7% !important;
   /* transform: rotate(360deg);
   transition : all 2s infinite; */
 }
-.mediumD2{
+.mediumD2 {
   animation-name: revolve;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
-@keyframes revolve{
-  from{transform: rotate(0deg);}
-  to{transform: rotate(360deg);}
+@keyframes revolve {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.brandPara{
+.brandPara {
   height: 38% !important;
   width: 28% !important;
   margin-left: -3.5% !important;
 }
-.paraHead{
+.paraHead {
   font-size: 1.3em;
-  color: #33657E;
+  color: #33657e;
 }
-.paraText{
+.paraText {
   font-size: 1em;
   color: #757575;
   text-align: justify;
 }
-.art{
+.art {
   height: 100%;
   width: 58%;
 }
-.imprvdCompBlock{
+.imprvdCompBlock {
   margin-top: 10% !important;
   margin-right: 49% !important;
   width: 20%;
   height: 13%;
 }
-.imprvdCompImg:hover{
+.imprvdCompImg:hover {
   transform: scale(1.04);
   transition-duration: 3s;
 }
-.imprvdCompImg{
+.imprvdCompImg {
   width: 70%;
 }
-.imprvdCompText{
+.imprvdCompText {
   font-size: 0.7em !important;
   padding-left: 12% !important;
   width: 50%;
-  color: #33657E;
+  color: #33657e;
   font-weight: 500;
 }
-.relatableIDBlock{
+.relatableIDBlock {
   margin-bottom: -2% !important;
   margin-right: 45% !important;
   width: 20% !important;
   height: 16% !important;
 }
-.relatableIDImg:hover{
+.relatableIDImg:hover {
   transform: scale(1.04);
   transition-duration: 3s;
 }
-.relatableIDImg{
+.relatableIDImg {
   width: 70%;
 }
-.relatableIDText{
+.relatableIDText {
   font-size: 0.8em !important;
   padding-left: 10% !important;
   width: 51% !important;
-  color: #33657E !important;
+  color: #33657e !important;
   font-weight: 500 !important;
 }
-.custLoyaltyBlock{
+.custLoyaltyBlock {
   margin-bottom: -0.5% !important;
   margin-left: 4% !important;
   width: 22% !important;
   height: 18.5% !important;
 }
-.custLoyaltyImg:hover{
+.custLoyaltyImg:hover {
   transform: scale(1.04);
   transition-duration: 3s;
 }
-.custLoyaltyImg{
+.custLoyaltyImg {
   width: 70%;
 }
-.custLoyaltyText{
+.custLoyaltyText {
   font-size: 0.9em;
   padding-left: 5%;
   width: 51%;
-  color: #33657E;
+  color: #33657e;
   font-weight: 500;
 }
-.omniBlock{
+.omniBlock {
   margin-top: 5% !important;
   margin-left: -29% !important;
   width: 22% !important;
   height: 17% !important;
 }
-.omniImg:hover{
+.omniImg:hover {
   transform: scale(1.04);
   transition-duration: 3s;
 }
-.omniImg{
+.omniImg {
   width: 70%;
 }
-.omniText{
+.omniText {
   font-size: 0.8em;
   padding-left: 7% !important;
   width: 51%;
-  color: #33657E;
+  color: #33657e;
   font-weight: 500;
 }
-.phnbtn{
+.phnbtn {
   width: 5% !important;
   margin-right: 28% !important;
   margin-bottom: 8% !important;
 }
-.phnbtn::after{
+.phnbtn::after {
   z-index: 10 !important;
   content: " ";
   position: absolute;
@@ -159,311 +168,311 @@ code {
   background-color: white;
   border-radius: 50%;
   -webkit-animation: pulse 1.5s infinite;
-          animation: pulse 1.5s infinite;
+  animation: pulse 1.5s infinite;
 }
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0.8;
   }
   50% {
     -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+    transform: scale(1.3);
     opacity: 0.2;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0;
   }
 }
 @keyframes pulse {
   0% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0.8;
   }
   50% {
     -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+    transform: scale(1.3);
     opacity: 0.2;
   }
   100% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     opacity: 0;
   }
 }
-.littleD1{
+.littleD1 {
   width: 5% !important;
   margin-top: 15% !important;
   margin-right: 41% !important;
 }
-.littleD2{
+.littleD2 {
   width: 5% !important;
   margin-left: 17% !important;
   margin-bottom: 17% !important;
 }
-.textD{
+.textD {
   width: 30% !important;
   margin-left: -12% !important;
   margin-bottom: 6.5% !important;
 }
-.social{
+.social {
   width: 6% !important;
   height: 35% !important;
 }
-@media only screen and (max-width :1024px){
-  .landingPage{
+@media only screen and (max-width: 1024px) {
+  .landingPage {
     height: 40em !important;
   }
-  .snakes{
+  .snakes {
     width: 75% !important;
   }
-  .imprvdCompText{
+  .imprvdCompText {
     font-size: 0.7em !important;
     padding-left: 5% !important;
   }
-  .mediumD2{
+  .mediumD2 {
     margin-bottom: 7% !important;
     margin-right: 13% !important;
   }
-  .mediumD1{
+  .mediumD1 {
     margin-right: 17% !important;
     margin-top: 15% !important;
   }
-  .textD{
+  .textD {
     width: 30% !important;
     margin-left: -16% !important;
     margin-bottom: 17% !important;
   }
-  .omniBlock{
+  .omniBlock {
     width: 23% !important;
     margin-left: -25% !important;
     margin-top: 7% !important;
   }
-  .custLoyaltyBlock{
+  .custLoyaltyBlock {
     margin-bottom: 1% !important;
     margin-left: 3% !important;
     width: 21% !important;
     height: 15.5% !important;
   }
-  .imprvdCompBlock{
+  .imprvdCompBlock {
     margin-top: 15% !important;
     margin-right: 43% !important;
     width: 21% !important;
     height: 15% !important;
   }
-  .littleD2{
+  .littleD2 {
     margin-left: 15% !important;
     margin-bottom: 18% !important;
   }
-  .relatableIDBlock{
+  .relatableIDBlock {
     width: 21% !important;
     margin-bottom: -4% !important;
     margin-right: 35% !important;
     height: 16% !important;
   }
-  .social{
+  .social {
     width: 7% !important;
     height: 35% !important;
   }
-  .brandPara{
+  .brandPara {
     margin-top: -1% !important;
     margin-left: 2% !important;
     width: 30% !important;
   }
-  .paraHead{
+  .paraHead {
     font-size: 1.3em !important;
   }
-  .paraText{
+  .paraText {
     font-size: 0.9em !important;
   }
-  .littleD1{
+  .littleD1 {
     margin-right: 30% !important;
     margin-top: 20% !important;
   }
-  .phnbtn{
+  .phnbtn {
     margin-right: 21% !important;
     margin-bottom: 16% !important;
   }
 }
-@media only screen and (max-width :992px){
-  .snakes{
+@media only screen and (max-width: 992px) {
+  .snakes {
     width: 69%;
   }
-  .landingPage{
+  .landingPage {
     height: 31em !important;
   }
-  .brandPara{
+  .brandPara {
     margin-left: 1% !important;
   }
-  .paraHead{
+  .paraHead {
     font-size: 0.85em !important;
   }
-  .paraText{
+  .paraText {
     font-size: 0.65em !important;
   }
-  .imprvdCompBlock{
+  .imprvdCompBlock {
     margin-top: 22% !important;
     margin-right: 44% !important;
     width: 22% !important;
     height: 10% !important;
   }
-  .imprvdCompText{
+  .imprvdCompText {
     font-size: 0.5em !important;
     padding-left: 10% !important;
   }
-  .relatableIDBlock{
+  .relatableIDBlock {
     margin-bottom: 6% !important;
     margin-right: 40% !important;
     width: 21% !important;
     height: 9% !important;
   }
-  .relatableIDText{
+  .relatableIDText {
     font-size: 0.5em !important;
     padding-left: 10% !important;
   }
-  .mediumD2{
+  .mediumD2 {
     margin-bottom: 10% !important;
     margin-right: 13% !important;
   }
-  .textD{
+  .textD {
     margin-left: -17.5% !important;
     margin-bottom: 21% !important;
   }
-  .custLoyaltyBlock{
+  .custLoyaltyBlock {
     margin-bottom: 5% !important;
     margin-left: 2% !important;
     height: 11% !important;
   }
-  .custLoyaltyText{
+  .custLoyaltyText {
     font-size: 0.55em !important;
     padding-left: 9% !important;
   }
-  .littleD2{
+  .littleD2 {
     margin-left: 35% !important;
-  margin-bottom: 39% !important;
+    margin-bottom: 39% !important;
   }
-  .omniText{
+  .omniText {
     font-size: 0.55em !important;
     padding-left: 5% !important;
   }
-  .omniBlock{
+  .omniBlock {
     width: 22%;
     height: 11%;
     margin-left: -25% !important;
     margin-top: 5% !important;
   }
-  .social{
+  .social {
     width: 7% !important;
     height: 50% !important;
     padding-right: 0% !important;
   }
 }
-@media only screen and (max-width :576px){
-  .snakes{
+@media only screen and (max-width: 576px) {
+  .snakes {
     width: 98% !important;
   }
-  .flexing{
+  .flexing {
     flex-direction: column-reverse;
-  }  
-  .brandPara{
+  }
+  .brandPara {
     width: 80% !important;
     position: relative !important;
     margin: 0% auto !important;
   }
-  .art{
+  .art {
     width: 100%;
     height: 35%;
     position: relative !important;
   }
-  .landingPage{
+  .landingPage {
     height: 34.5em !important;
   }
-  .paraHead{
+  .paraHead {
     font-size: 9.5px;
     padding: 0% 10%;
   }
-  .paraText{
+  .paraText {
     font-size: 6.5px;
     padding: 0% 10%;
   }
-  .brandPara{
+  .brandPara {
     width: 39%;
     margin-top: -5%;
   }
-  .mediumD2{
+  .mediumD2 {
     margin-bottom: 80% !important;
     margin-right: 32% !important;
   }
-  .littleD2{
+  .littleD2 {
     margin-left: 35% !important;
     margin-bottom: 45% !important;
   }
-  .textD{
+  .textD {
     width: 23% !important;
     margin-left: 15% !important;
     margin-bottom: 35% !important;
   }
-  .imprvdCompBlock{
+  .imprvdCompBlock {
     width: 18% !important;
     height: 11% !important;
     margin-top: -25% !important;
     margin-right: 33% !important;
   }
-  .imprvdCompText{
+  .imprvdCompText {
     font-size: 0.4em !important;
     padding-left: 10% !important;
     width: 51% !important;
   }
-  .relatableIDBlock{
+  .relatableIDBlock {
     margin-bottom: 34% !important;
     margin-right: 31% !important;
     width: 18% !important;
     height: 11% !important;
   }
-  .relatableIDText{
+  .relatableIDText {
     font-size: 0.4em !important;
     padding-left: 5% !important;
   }
-  .custLoyaltyBlock{
+  .custLoyaltyBlock {
     margin-bottom: 39% !important;
     margin-left: 25.5% !important;
     width: 19% !important;
     height: 12% !important;
   }
-  .custLoyaltyText{
+  .custLoyaltyText {
     font-size: 0.45em !important;
     padding-left: 10% !important;
     width: 51% !important;
   }
-  .omniBlock{
+  .omniBlock {
     margin-top: -24% !important;
     margin-left: -5% !important;
     width: 22% !important;
     height: 11% !important;
   }
-  .omniText{
+  .omniText {
     font-size: 0.4em !important;
     padding-left: 3% !important;
     width: 51% !important;
-    color: #33657E !important;
+    color: #33657e !important;
   }
-  .social{
+  .social {
     width: 13% !important;
     height: 50% !important;
     margin: 0% 0% !important;
   }
-  .socialDiv{
+  .socialDiv {
     margin: 0px 0px !important;
   }
-  .phnbtn{
+  .phnbtn {
     margin-right: 20% !important;
     margin-bottom: 20%;
   }
-  .littleD1{
+  .littleD1 {
     margin-right: 13%;
     margin-top: -4% !important;
   }

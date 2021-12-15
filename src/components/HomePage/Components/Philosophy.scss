@@ -6,7 +6,8 @@
     // height: 100vh;
     background-color: #fff;
     padding: 50px 0px !important;
-    font-size: 1.2vw;
+    // font-size: 1.2vw;
+    font-size: calc(14px + 0.15vw);
     margin: 0px auto;
     max-width: 1920px;
     .philosophyHead{
@@ -24,7 +25,8 @@
         }
         hr{
             margin: 0px 0px 0px 0px !important;
-            width: 6vw;
+            width: 5.5vw;
+            min-width: 40px;
             height: 5px;
             background-color:#A06DAF;
             color:#A06DAF !important;
@@ -53,26 +55,28 @@
         justify-content: space-around;
         img{
             flex: 45%;
-            width: 40% !important;
+            max-width: 45% !important;
         }
         .philosophyFormWrapper{
             flex: 55%;
-            width: 100%;
+            max-width: 55% !important;
             margin: 0 !important;
             padding: 0 !important;
             display: flex;
             flex-direction: row;
             justify-content: center;
-            align-self: center;
+            align-items: center;
         }
         .philosophyForm{
             // flex: 50%;
             height: 50%;
             width: 60%;
+            min-width: 401px;
             display: flex;
             flex-direction: column;
             background-color: #F4F4F4;
             border-radius: 5%;
+            margin: 0;
             padding: 6.5% 8.5% !important;
             input{
                 outline: none;
@@ -160,6 +164,7 @@
                 height: 4% !important;
                 color: #fff;
                 text-align: center;
+                cursor: pointer;
             }
             .philosophySubmitButton::after{
                 content: '';
@@ -190,34 +195,65 @@
 }
 
 @media only screen and (max-width: 1200px) {
-    
+    .philosophyContainer{
+        // font-size: 1.4vw !important;
+        img{
+            flex: 50% !important;
+            max-width: 50% !important;
+        }
+        .philosophyFormWrapper{
+            flex: 50% !important;
+            max-width: 50% !important;
+            .philosophyForm{
+                width: 60% ;
+                min-width: 345px !important;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 992px) {
     .philosophyContainer{
-        font-size: 1.4vw !important;
+        // font-size: 1.4vw !important;
+        img{
+            flex: 40% !important;
+            max-width: 40% !important;
+        }
+        .philosophyFormWrapper{
+            flex: 60% !important;
+            max-width: 60% !important;
+            .philosophyForm{
+                width: 70% ;
+                min-width: 317px;
+            }
+        }
     }
     
 }
-@media only screen and (max-width: 756px) {
+@media only screen and (max-width: 768px) {
     .philosophyContainer{
-        font-size: 1.5vw !important;
+        // font-size: 1.5vw !important;
         hr{
             // width: 7vw !important;
             height: 4px !important;
         }
         .philosophyBody{
             flex-direction: column !important;
+            img{
+                flex: 80% !important;
+                max-width: 80% !important;
+            }
             .philosophyFormWrapper{
                 flex: 100% !important;
                 width: 100% !important;
+                max-width: 100% !important;
             }
             .philosophyForm{
                 margin-top: 5% !important;
-                width: 50% !important;
+                width: 60vw !important;
                 padding: 6% 8% !important;
                 h3{
-                    font-size: 1.4em !important;
+                    // font-size: 1.4em !important;
                 }
                 .customInput{
                     margin-top: 8% !important;
@@ -231,17 +267,28 @@
 }
 @media only screen and (max-width: 576px) {
     .philosophyContainer{
-        font-size: 2.1vw !important;
-        .philosophyForm{
-            font-size: 0.9em !important;
+        font-size: calc(14px + 0.05vw);
+        // font-size: 2.1vw !important;
+
+        .philosophyBody{
+            .philosophyForm{
+                // font-size: 0.9em !important;
+                min-width: 306px !important;
+                width: calc(100% - 2.5vw);
+            }
         }
     }
 }
 @media only screen and (max-width: 360px) {
     .philosophyContainer{
-        font-size: 2.2vw !important;
-        .philosophyForm{
-            font-size: 1em;
+        font-size: calc(12px + 0.05vw);
+        // font-size: 2.2vw !important;
+        .philosophyBody{
+            .philosophyForm{
+                // font-size: 1em;
+                min-width: unset !important;
+                width: 75% !important;
+            }
         }
     }
 }

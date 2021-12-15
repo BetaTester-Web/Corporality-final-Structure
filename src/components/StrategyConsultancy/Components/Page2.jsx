@@ -15,16 +15,16 @@ const Page2 = () => {
         <div className="constrat-2">
             <div className="container-xl">
                 <div className="d-md-flex justify-content-center consultancypage-2">
-                    <div data-aos="fade-right">
+                    <div data-aos="fade-right" data-aos-duration="1200">
 
 
                         <div>
 
-                            <img className="mx-5" src="./img/StrategyConsultancy/page-2.png" alt="" />
+                            <img className="mx-5 img-fluid" src="./img/StrategyConsultancy/page-2.png" alt="" />
                         </div>
                     </div>
 
-                    <div data-aos="fade-left">
+                    <div data-aos="fade-left" data-aos-duration="1200">
 
 
                         <div>
@@ -37,13 +37,13 @@ const Page2 = () => {
                 </div>
             </div>
 
-            <div data-aos="fade-right">
+            <div data-aos="fade-right" data-aos-duration="1200">
                 <div className="consultancygradbox">
                     <img src="./img/StrategyConsultancy/page2-1.png" alt="" className="consultancybox-1" />
                     <img src="./img/StrategyConsultancy/page-2-1.png" alt="" className="consultancybox-2" />
                 </div>
             </div>
-            <div data-aos="fade-down">
+            <div data-aos="fade-down" data-aos-duration="1200">
 
                 <div className="text-center text-wrap pag-cont">
                     <h2>
@@ -55,7 +55,7 @@ const Page2 = () => {
 
             <div className="container consultbusinessbox">
 
-                <div data-aos="fade-up">
+                <div data-aos="fade-up" data-aos-duration="1200">
                     {/* <div className="d-flex justify-content-center start-Box-fl"> */}
 
                     <div className="d-flex justify-content-around flex-wrap m-5">
