@@ -116,10 +116,28 @@ top: 2288px; */
   top: 35.88%;
   bottom: 63.77%;
   transform: translate(850px, -365px);
+  animation: shimmy 2s infinite;
+  animation-direction: alternate;
   
   
   /* background: #A06DAF; */
   /* transform: rotate(41.7deg); */
+}
+
+@keyframes shimmy {
+  0% {
+    transform: translate(50px, 0px);    
+  }
+  50% {
+    transform: translate(850px, -65px);
+  }
+  75% {
+    transform: translate(770px, -365px);
+  }
+  100% {
+    transform: translate(850px, -365px);
+  }
+
 }
 
 @media only screen and (max-width: 800px){

@@ -4,13 +4,12 @@ import './Banner.css'
 export default function Banner() {
 	return (
 		<>
-			<div className="DDMBanner">
+			<div className="DDMBanner d-xl-flex  justify-content-between">
 				
 				<div className="DDMBannerText">
 					<h1>Effective Digital Media
 						Marketing Strategy for Small and Large Business</h1>
 					<p>Head to toe strategy focused Digital Media Marketing</p>
-				</div>
 				<div className="DDMBannerDiscoveryButton">
 					<button>Book Your Discovery Session</button>
 				</div>
@@ -34,7 +33,8 @@ export default function Banner() {
 						<img src='./img/CxoStrategy/img/differentiate/youtube.png' />
 					</a>
 				</div>
-				<div className="DDMBannerImage">
+				</div>
+				<div className="DDMBannerImag d-flex justify-content-end ">
 					<img src="./img/DigitalMediaMarketing/img/Banner/DDMBannerImage.png" />
 				</div>
 				<div className="DDMBannerRectangleBlue">
