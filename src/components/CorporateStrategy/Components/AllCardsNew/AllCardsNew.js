@@ -26,6 +26,7 @@ import timeline from "./images/timeline.png";
 function AllCardsNew() {
   useEffect(() => {
     Aos.init();
+    Aos.init({ disable: "mobile" });
   });
   return (
     <>

@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-export default function SACComp3() {
+const  SACComp3 = () => {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -46,3 +46,4 @@ export default function SACComp3() {
     </div>
   );
 }
+export default SACComp3;
