@@ -3,8 +3,8 @@
     margin-top: 7.5% !important;
 }
 .bpcp3Block{
-    width: 210px;
-    height: 480px;
+    width: 13.5vw;
+    height: 70vh;
 }
 .bpcp3Snake{
     margin-left: 3.2% !important;
@@ -14,58 +14,86 @@
     margin-top: 3%;
 }
 .upArrow{
-    margin-bottom: 29% !important;
+    margin-bottom: 6vw !important;
 }
 .downArrow{
-    margin-top: 23% !important;
+    margin-top: 4vw !important;
 }
 .bpcp3xAllign{
     margin-left: -4% !important;
 }
 .bpcp3CircleText{
-    font-size: 20px;
+    font-size: 1.1vw;
     color: #33657E;
     font-weight: 500;
-    margin-top: -3% !important;
 }
 .bpcp3Description{
     width: 180px;
-    font-size: 0.9em;
+    font-size: 0.9vw;
     color: #757575;
 }
 .bpcp3Ellipse1{
+    width: 100% !important;
+    margin-top: 10px !important;
     animation-name: bounce1;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
+}
+.bpcp3Ellipse1 > img{
+    margin-top: -1vw !important;
+    width: 100% !important;
+}
+.bpcp3Ellipse2 > img{
+    margin-top: -1vw !important;
+    width: 100% !important;
 }
 @keyframes bounce1{
     from{
-        transform: translateY(-100px);
+        transform: translateY(-110px);
     }
     50%{
-        transform: translateY(-105px);
+        transform: translateY(-120px);
     }
     to{
-        transform: translateY(-100px);
+        transform: translateY(-110px);
     }
 }
 .bpcp3Ellipse2{
+    width: 100% !important;
     animation-name: bounce2;
-    animation-duration: 3s;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
 }
 @keyframes bounce2{
     from{
-        transform: translateY(-100px);
+        transform: translateY(-105px);
     }
     50%{
         transform: translateY(-95px);
     }
     to{
-        transform: translateY(-100px);
+        transform: translateY(-105px);
     }
 }
 @media only screen and (max-width :1024px){
+    .bpcp3Description{
+        font-size: 15px !important;
+    }
+    .upArrow{
+        margin-bottom: 29% !important;
+    }
+    .downArrow{
+        margin-top: 23% !important;
+    }
+    .bpcp3CircleText{
+        font-size: 20px;
+        margin-top: -3% !important
+    }
+    .bpcp3Block{
+        width: 210px;
+        height: 480px;
+        background-color: chartreuse;
+    }
     .bpcp3Snake{
         visibility: hidden;
     }
