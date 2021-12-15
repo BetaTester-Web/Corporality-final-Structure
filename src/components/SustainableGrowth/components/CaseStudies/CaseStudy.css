@@ -173,7 +173,7 @@
 .textndlists-Cs {
   position: relative !important;
   left: 7% !important;
-  top: 0% !important;
+  top: 45% !important;
   bottom: 60px !important;
 }
 
@@ -253,6 +253,9 @@
     margin-top: 10px !important;
     left: 15% !important;
   }
+  .container-2-text-1-Cs-2{
+    margin-right: 190px !important;
+  }
   .rect-2-3-Cs {
     display: none !important;
   }
@@ -278,11 +281,13 @@
     height: 290px !important;
     top: -60px !important;
   }
-
-  .container-2-text-1-Cs-2 {
-    margin-right: 60px !important;
-  }
   .rect-2-4-Cs{
     display: none !important;
+  }
+}
+
+@media (max-width:540px){
+  .container-2-text-1-Cs-2{
+    margin-right: 150px !important;
   }
 }
