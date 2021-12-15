@@ -77,6 +77,14 @@
   color: #757575;
 }
 
+.objectives_text {
+  margin-left: -50px !important;
+}
+
+.objectives_image {
+  margin-right: -40px !important;
+}
+
 .objectives_image img {
   height: 400px !important;
   width: 600px !important;
@@ -143,6 +151,16 @@
     height: 300px !important;
     width: 400px !important;
     margin-left: -30px !important;
+  }
+
+  .objectives_heading,
+  .objectives_heading2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .objectives_heading2 {
+    margin-top: 30px !important;
   }
 }
 

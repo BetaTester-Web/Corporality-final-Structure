@@ -6,6 +6,7 @@ import BPComponent2 from "./BrandPos-Components/BP-Component-2/BP-Comp-2";
 import BPComponent4 from "./BrandPos-Components/BP-Component-4/BP-Component-4";
 import BPComponent5 from "./BrandPos-Components/BP-Component-5/BP-Comp-5";
 import BPComp3 from "./BrandPos-Components/BP-Component-3/BPComp3";
+import BrandFirst from "./BrandPos-Components/Brand_First/BrandFirst";
 
 export default function Component1() {
   useEffect(() => {
@@ -14,7 +15,7 @@ export default function Component1() {
   });
   return (
     <>
-      <div className="vw-100 fullSection position-relative">
+      {/* <div className="vw-100 fullSection position-relative">
         <div className="snakes position-absolute end-0 top-0">
           <img
             src="/img/BrandPositioning/Group-1252.png"
@@ -103,7 +104,10 @@ export default function Component1() {
                   Omni effect vs experience
                 </p>
               </div>
-              <div className="phnbtn position-absolute end-0 bottom-0" onClick={() => window.open("tel: +61 2 83794089", "_self")}>
+              <div
+                className="phnbtn position-absolute end-0 bottom-0"
+                onClick={() => window.open("tel: +61 2 83794089", "_self")}
+              >
                 <img
                   src="/img/BrandPositioning/Group-709.png"
                   alt=""
@@ -245,7 +249,8 @@ export default function Component1() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <BrandFirst />
       <div className="vw-100 my-2">
         <BPComponent2 />
       </div>

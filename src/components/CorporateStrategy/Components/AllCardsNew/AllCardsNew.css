@@ -87,6 +87,7 @@
   line-height: 26px;
   text-align: center;
   color: #757575;
+  padding: 10px 80px;
 }
 
 .line_horizontal_1,
@@ -653,6 +654,10 @@
 
   .line_vertical {
     top: 30px !important;
+  }
+
+  .cards_top_description {
+    padding: 10px 10px !important;
   }
 }
 
