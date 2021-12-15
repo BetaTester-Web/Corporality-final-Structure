@@ -92,7 +92,6 @@
     .bpcp3Block{
         width: 210px;
         height: 480px;
-        background-color: chartreuse;
     }
     .bpcp3Snake{
         visibility: hidden;
