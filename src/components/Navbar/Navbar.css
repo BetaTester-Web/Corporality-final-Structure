@@ -41,6 +41,7 @@
   font-weight: 600;
   font-size: 14px;
   padding: 0px !important;
+  transition: all 0.2s ease-in-out;
 }
 
 .nav-item:last-child > div {
@@ -77,6 +78,12 @@
   background-color: #fff;
   border-left: 1px solid #e1e2e2;
   border-top: 1px solid #e1e2e2;
+}
+.nav-item:hover > div{
+  font-weight: 700 !important;
+}
+.contact::after{
+  content: unset !important;
 }
 .nav-item:hover::after {
   display: block;

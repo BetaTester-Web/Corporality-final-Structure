@@ -8,7 +8,8 @@
     background-color: #F2F2F2;
     padding: 3% 0%;
     margin: 0 auto;
-    font-size: 1.2vw;
+    // font-size: 1.2vw;
+    font-size: calc(15px + 0.15vw);
     .portfolioHead{
         max-width: 1920px;
         display: flex;
@@ -27,6 +28,7 @@
         hr{
             margin: 0px 0px 0px 0px !important;
             width: 7vw;
+            min-width: 40px;
             height: 5px;
             background-color:#A06DAF;
             text-align: center;
@@ -45,10 +47,10 @@
         padding: 0px 10px !important;
         margin-top: 3% !important;
         .portfolioSection{
-            max-width: 364px;
+            // max-width: 364px;
             // min-width: 280px;
             // width: 25%;
-            max-height: 431px;
+            // max-height: 431px;
             // min-height: 381px !important;
             height: 431px;
             width: 364px;
@@ -61,12 +63,12 @@
             overflow-y: hidden;
             // transition-delay: 1s;
             img{
-                position: absolute;
-                top: 0;
-                left: 0;
-                max-width: 100%;
+                // position: absolute;
+                // top: 0;
+                // left: 0;
+                // max-width: 100%;
                 width: 100%;
-                height: auto;
+                // height: auto;
                 object-fit: cover ;
                 z-index: 1;
             }
@@ -94,8 +96,8 @@
                     width: 100%;
                     // background-color: red;
                     margin: 0px 0px 0px 0px !important;
-                    // font-size: 1.2em;
-                    font-size: 18px;
+                    font-size: 1.2em;
+                    // font-size: 18px;
                     text-align: center;
                     font-weight: 700;
                     text-transform: uppercase;
@@ -103,7 +105,7 @@
                     transition: all 0.5s ease-in-out;
                 }
                 p{
-                    font-size: 1.1em;
+                    font-size: 0.9em;
                     line-height: 1.5em;
                     text-align: center;
                     font-weight: 600;
@@ -114,7 +116,7 @@
                 }
                 a{
                     margin: 0px 0px 0px 0px !important;
-                    font-size: 1.1em ;
+                    font-size: 0.9em ;
                     text-decoration: none;
                     font-weight: 600;
                     color: #534b53;
@@ -149,7 +151,7 @@
 @media only screen and (min-width: 1920px){
     .portfolioContainer{
         padding: 60px 0px !important;
-        font-size: 17px;
+        // font-size: 17px;
         hr{
             max-width: 95px;
         }
@@ -163,7 +165,7 @@
     .portfolioContainer{
         .portfolioHead{
             h2{
-                font-size: 2.4em;
+                // font-size: 2.4em;
             }
             hr{
                 // width: 10vw;
@@ -171,10 +173,10 @@
             }
         }
         .portfolioSection{
-            font-size: 1.2em;
+            // font-size: 1.2em;
             .portfolioFloatingDiv{
                 &:hover h4{
-                    font-size: 1em;
+                    // font-size: 1em;
                     
                 }
             }
@@ -185,7 +187,7 @@
     .portfolioContainer{
         .portfolioHead{
             h2{
-                font-size: 2.5em;
+                // font-size: 2.5em;
             }
             hr{
                 // width: 12vw;
@@ -193,10 +195,10 @@
             }
         }
         .portfolioSection{
-            font-size: 1.4em;
+            // font-size: 1.4em;
             .portfolioFloatingDiv{
                 &:hover h4{
-                    font-size: 1em;
+                    // font-size: 1em;
                 }
             }
         }
@@ -206,20 +208,16 @@
 @media only screen and (max-width: 756px){
     .portfolioContainer{
         .portfolioHead{
-            h2{
-                font-size: 2.8em;
-            }
             hr{
-                // width: 15vw;
                 height: 4px;
             }
         }
         .portfolioSection{
-            // font-size: 1.6em;
-            font-size: 17px;
             .portfolioFloatingDiv{
+                h4{
+                }
                 &:hover h4{
-                    font-size: 1em;
+                    // font-size: 1em;
                 }
             }
         }
@@ -230,7 +228,7 @@
     .portfolioContainer{
         .portfolioHead{
             h2{
-                font-size: 3.5em;
+                // font-size: 3.5em;
             }
             hr{
                 // width: 20vw;
@@ -239,12 +237,18 @@
         }
         .portfolioSection{
             // font-size: 2em;
-            font-size: 16px;
-            max-width: 85% !important;
+            // font-size: 16px;
+            max-width: 80% !important;
             max-height: 430px !important;
+            width: 60% !important;
+            height: auto !important;
             .portfolioFloatingDiv{
+                h4{
+                    font-size: 1em !important;
+                    // font-size: calc(14px + 0.15vw) !important;
+                }
                 &:hover h4{
-                    font-size: 1em;
+                    // font-size: 1em;
                     // background-color: red !important;
                 }
             }
@@ -254,9 +258,10 @@
 
 @media only screen and (max-width: 360px){
     .portfolioContainer{
+        font-size: calc(12px + 0.15vw);
         .portfolioHead{
             h2{
-                font-size: 3.5em;
+                // font-size: 3.5em;
             }
             hr{
                 // width: 20vw;
@@ -264,13 +269,15 @@
             }
         }
         .portfolioSection{
-            font-size: 3em;
+            // font-size: 3em;
             max-width: 90% !important;
             max-height: 330px !important;
             .portfolioFloatingDiv{
+                h4{
+                }
                 &:hover h4{
                     margin-top: 70% !important;
-                    font-size: 1em;
+                    // font-size: 1em;
                 }
             }
         }
