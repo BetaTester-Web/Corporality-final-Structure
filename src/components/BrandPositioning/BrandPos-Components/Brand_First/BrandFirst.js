@@ -23,44 +23,38 @@ function BrandFirst() {
     <div className="brandposition_background_parent">
       <div className="brandposition_first_socialicons">
         <div className="brandposition_banner_facebook">
-          <a
-            href="https://www.facebook.com/CorporalityG"
-            target="_blank">
+          <a href="https://www.facebook.com/CorporalityG" target="_blank">
             <img src={brandposition_fb} alt="" />
           </a>
         </div>
         <div className="brandposition_banner_twitter">
-          <a
-            href="https://twitter.com/corporalityg"
-            target="_blank">
+          <a href="https://twitter.com/corporalityg" target="_blank">
             <img src={brandposition_twitter} alt="" />
           </a>
         </div>
         <div className="brandposition_banner_instagram">
-          <a
-            href="https://www.instagram.com/corporalityg"
-            target="_blank">
+          <a href="https://www.instagram.com/corporalityg" target="_blank">
             <img src={brandposition_ig} alt="" />
           </a>
         </div>
         <div className="brandposition_banner_linkedin">
           <a
             href="https://www.linkedin.com/company/corporality"
-            target="_blank">
+            target="_blank"
+          >
             <img src={brandposition_linkdin} alt="" />
           </a>
         </div>
         <div className="brandposition_banner_pinterest">
-          <a
-            href="https://in.pinterest.com/CorporalityG"
-            target="_blank">
+          <a href="https://in.pinterest.com/CorporalityG" target="_blank">
             <img src={brandposition_pinterest} alt="" />
           </a>
         </div>
         <div className="brandposition_banner_youtube">
           <a
             href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg"
-            target="_blank">
+            target="_blank"
+          >
             <img src={brandposition_yt} alt="" />
           </a>
         </div>
@@ -71,6 +65,9 @@ function BrandFirst() {
       <div className="container">
         <div className="brandposition_main_container">
           <div className="brandposition_first_textside">
+            <div className="brandposition_top_rectangle">
+              <img src={brandposition_top_rect} alt="" />
+            </div>
             <div className="brandposition_first_textside_heading">
               EVERY BRAND HAS A STORY AND EVERY STORY IS UNIQUE
             </div>
@@ -104,6 +101,15 @@ function BrandFirst() {
               </div>
               <div className="brandposition_center_diamond">
                 <img src={brandposition_center_diamond} alt="" />
+              </div>
+              <div className="brandposition_bottom_rect">
+                <img src={brandposition_bottom_rect} alt="" />
+              </div>
+              <div className="brandposition_imagetop_rect">
+                <img src={brandposition_right_twice_rect} alt="" />
+              </div>
+              <div className="brandposition_imagebottom_rect">
+                <img src={brandposition_right_twice_rect} alt="" />
               </div>
             </div>
           </div>
