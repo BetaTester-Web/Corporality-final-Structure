@@ -42,7 +42,6 @@
   border: black;
   width: 14%;
   height: 42px;
-  font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -50,7 +49,7 @@
   color: white;
   margin-top: 3%;
   margin-bottom: 3% !important;
-  text-align: justify;
+  text-align: center;
 }
 .endbutton:hover {
   background: linear-gradient(95.12deg, #6ca0bc 0%, #e5cd60 83.42%);
@@ -200,14 +199,24 @@
   }
   .bp-cp5-listbody {
     line-height: 15px;
-    padding-right: 3%;
-    margin-top: 2%;
-    width: 80% !important ;
-    padding-left: 10%;
-    margin-bottom: 2%;
+    padding-right: 4%;
+    margin-top: 1%;
+    width: 75% !important ;
+    padding-left: 1%;
+    margin-bottom: 0%;
+    text-align: left;
   }
   .bp-cp5-listbodyimg {
-    width: 200% !important;
+    width: 100% !important;
+  }
+  .endbutton {
+    width: 19%;
+    font-size: 14px;
+    line-height: 16px;
+    color: white;
+    margin-top: 3%;
+    margin-bottom: 3% !important;
+    text-align: center;
   }
 }
 @media screen and (max-width: 630px) {
@@ -241,23 +250,34 @@
   }
 }
 @media screen and (max-width: 360px) {
+  .bp-cp5-bodyspan {
+    line-height: 15px;
+    position: relative;
+    top: 0%;
+    left: 2%;
+  }
   .bp-cp5-shadowbox {
     padding: 0%;
     width: 95% !important;
     margin-left: auto !important;
   }
+  .bp-cp5-tm-div {
+    padding-right: 0% !important;
+    padding-left: 0%;
+  }
   .bp-cp5-listbody {
-    line-height: 20px;
-    padding-right: 4%;
-    margin-top: 2%;
-    width: 80% !important ;
-    padding-left: 7%;
-    margin-bottom: 2%;
+    line-height: 12px;
+    font-size: 10px;
+    padding-right: 2%;
+    margin-top: 0%;
+    width: 65% !important ;
+    padding-left: 0%;
+    margin-bottom: 1%;
+    text-align: left;
   }
   .bp-cp5-listbodyimg {
-    width: 60% !important;
-    align-items: center;
-    padding-left: 30%;
+    width: 110% !important;
+    padding-left: 0%;
   }
   .BP-CP5-h1,
   .bp-cp5-bodyspan {
@@ -265,5 +285,24 @@
   }
   .bp-cp5-listbody {
     font-size: 10px;
+  }
+  .img-fav {
+    width: 130% !important;
+  }
+  .endbutton {
+    width: 27%;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 2%;
+    margin-bottom: 2% !important;
+    text-align: center;
+  }
+  .accordion-button {
+    padding-left: 4%;
+  }
+  .BP-CP5-h1 {
+    height: 30px;
+    font-size: 13px;
+    line-height: 20px;
   }
 }
