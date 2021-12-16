@@ -104,7 +104,7 @@
 
 .gtm-comp8-container .strategy_card {
   display: block;
-  width: 180px;
+  width: 170px;
   height: 210px;
   padding-top: 1px;
 }
@@ -208,9 +208,10 @@
   margin-top: 26px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 15px;
   line-height: 24px;
+  text-align: center;
   text-align: center;
   color: #A06DAF;
 }
@@ -219,8 +220,8 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 25px;
-          column-gap: 25px;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
   min-height: 220px;
   margin-top: 90px;
 }
@@ -286,6 +287,10 @@
   .gtm-comp8-container {
     font-size: 18px;
   }
+  .gtm-comp8-container .strategy_card {
+    width: 170px;
+    height: 200px;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -332,7 +337,7 @@
 
 @media only screen and (max-width: 756px) {
   .gtm-comp8-container {
-    font-size: calc(12px + 0.1vw);
+    font-size: calc(12px + 0.2vw);
   }
   .gtm-comp8-container .main_container_strategy h1 {
     font-size: 2em !important;
@@ -375,7 +380,7 @@
 @media only screen and (max-width: 576px) {
   .gtm-comp8-container {
     margin: 20px auto !important;
-    font-size: calc(10px + 0.2vw);
+    font-size: calc(10px + 0.3vw);
     margin: 50px 0;
   }
   .gtm-comp8-container .main_container_strategy h1 {
