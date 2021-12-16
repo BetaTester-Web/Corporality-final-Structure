@@ -28,6 +28,10 @@
   color: #757575;
 }
 
+.bookcal-Image{
+  /* width: 100%; */
+}
+
 .conmap-detail-head > button{
   margin: 2% !important;
 }
@@ -48,8 +52,16 @@
   }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1200px){
     .contact-map > iframe{
+        width: 600px;
         height: 700px;
     }
+}
+
+@media only screen and (max-width: 1000px){
+  .contact-map > iframe{
+    width: 950px;
+    height: 700px;
+}
 }

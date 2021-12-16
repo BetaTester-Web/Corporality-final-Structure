@@ -1,6 +1,7 @@
 .ppc2RowContainer{
-    height: calc(100vh - 80px); 
-    margin: 0 74px 0 74px !important;
+    /* height: calc(100vh - 80px); 
+    margin: 0 74px 0 74px !important; */
+    margin: 100px;
 }
 .ppc2ColContainer{ 
     display: flex;
@@ -98,10 +99,10 @@
     .ppc2Img2back {
         width: 116px;
         height: 178px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-118%, -104%);
-        display: none;
+        top: 200%;
+        left: 30%;
+        transform: translate(-50%, -104%);
+        /* display: none; */
     }
    
     .ppc2MainImg{
@@ -139,6 +140,9 @@
 @media only screen and (max-width: 512px) {
     .ppc2RowContainer{
         margin-left: -1% !important;
+    }
+    .ppc2Img2back{
+        display: none;
     }
 }
 @media (min-width: 769px) and (max-width: 1199.98px){
