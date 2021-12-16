@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./BrandFirst.css";
 import brandposition_background_lines from "./images/brandposition_background_lines.png";
 import brandposition_bottom_rect from "./images/brandposition_bottom_rect.png";
@@ -19,6 +21,10 @@ import brandposition_twitter from "./images/brandposition_twitter.png";
 import brandposition_yt from "./images/brandposition_yt.png";
 
 function BrandFirst() {
+  useEffect(() => {
+    Aos.init();
+    Aos.init({ disable: "mobile" });
+  });
   return (
     <div className="brandposition_background_parent">
       <div className="brandposition_first_socialicons">
@@ -59,8 +65,8 @@ function BrandFirst() {
           </a>
         </div>
       </div>
-      <div className="brandposition_banner_call">
-        <img src={brandposition_call} alt="" />
+      <div className="brandposition_banner_call" onClick={() => window.open("tel: +61 2 83794089","_self")}>
+        <img src={brandposition_call} alt="" className="img-fluid"/>
       </div>
       <div className="container">
         <div className="brandposition_main_container">
@@ -68,10 +74,14 @@ function BrandFirst() {
             <div className="brandposition_top_rectangle">
               <img src={brandposition_top_rect} alt="" />
             </div>
-            <div className="brandposition_first_textside_heading">
+            <div className="brandposition_first_textside_heading" data-aos="fade-up"
+                data-aos-easing="linear"
+                data-aos-duration="1000">
               EVERY BRAND HAS A STORY AND EVERY STORY IS UNIQUE
             </div>
-            <div className="brandposition_first_textside_description">
+            <div className="brandposition_first_textside_description" data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1500">
               Big brands have one thing in common - they have a solid brand
               positioning strategy. Businesses must invest in a strong brand
               marketing strategy to thrive in a highly competitive market. Why?

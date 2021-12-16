@@ -1,5 +1,4 @@
 .SACC2_prev2 {
-  /*  padding-top: 100px; */
   margin-bottom: 200px;
   margin-top: -400px;
 }
@@ -111,7 +110,7 @@
   }
 
   .SACC2_prev2 {
-    margin-top: 0px;
+    margin-top: -20%;
   }
   .SACC2_text-box {
     width: 100%;
