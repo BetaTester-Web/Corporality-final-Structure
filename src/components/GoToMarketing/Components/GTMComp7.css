@@ -15,7 +15,7 @@
   padding: 0 7%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  font-size: 1.2vw;
+  font-size: calc(14px + 0.1vw);
   margin: 150px auto;
   max-width: 1920px;
 }
@@ -33,7 +33,7 @@
 
 .gtm-comp7-container .comp7-left h2 {
   color: #3C708E;
-  font-size: 2.2em;
+  font-size: 2.2em !important;
   line-height: 2.3em;
   font-weight: bold;
   text-transform: uppercase;
@@ -208,7 +208,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-size: 1.7vw;
+    font-size: calc(14px + 0.1vw);
     margin: 100px 0;
   }
   .gtm-comp7-container .comp7-left {
@@ -238,7 +238,7 @@
 
 @media only screen and (max-width: 992px) {
   .gtm-comp7-container {
-    font-size: 1.6vw;
+    font-size: calc(14px + 0.1vw);
     margin: 70px 0;
   }
   .gtm-comp7-container .comp7-left p {
@@ -252,7 +252,7 @@
 
 @media only screen and (max-width: 756px) {
   .gtm-comp7-container {
-    font-size: 1.7vw;
+    font-size: calc(12px + 0.1vw);
   }
   .gtm-comp7-container .comp7-left p {
     width: 85%;
@@ -271,7 +271,10 @@
 
 @media only screen and (max-width: 576px) {
   .gtm-comp7-container {
-    font-size: 1.9vw;
+    font-size: calc(10px + 0.2vw);
+  }
+  .gtm-comp7-container .comp7-left h2 {
+    font-size: 1.6em !important;
   }
   .gtm-comp7-container .comp7-left p {
     width: 80%;
@@ -293,8 +296,11 @@
 
 @media only screen and (max-width: 360px) {
   .gtm-comp7-container {
-    font-size: 2.2vw;
+    font-size: calc(10px);
     margin: 20px 0;
+  }
+  .gtm-comp7-container .comp7-left h2 {
+    font-size: 1.4em !important;
   }
   .gtm-comp7-container .comp7-left p {
     width: 85%;

@@ -37,6 +37,7 @@ const GTMComp8 = () => {
         })
     })
     useEffect(()=>{
+
         observer.observe(document.querySelector('.gtm-comp8-container .strategy_section'));
     })
     return (
@@ -54,13 +55,13 @@ const GTMComp8 = () => {
                 <div className="strategy_card_wrapper1">
                     <img src={Line23} className="strategy_line23" />
                     <div className="strategy_card_head">
-                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                        <div data-aos="zoom-in" data-aos-duration="1300" data-aos-easing="ease-in-out">
                             <h1>Product Planning</h1>
                             <img src={Group886} />
                         </div>
                     </div>
                     <div className="strategy_card_wrapper_inner">
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out" >
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out" >
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={market_analysis}></img>
@@ -68,7 +69,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='500'>
+                        <div data-aos="flip-right" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='500'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation2">
                                     <img src={creativity}></img>
@@ -76,7 +77,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='1000'>
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='1000'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={profit}></img>
@@ -84,7 +85,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='1500'>
+                        <div data-aos="flip-right" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='1500'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation2">
                                     <img src={box}></img>
@@ -92,7 +93,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='2000'>
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='2000'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={cooperation}></img>
@@ -100,7 +101,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='2500'>
+                        <div data-aos="flip-right" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='2500'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation2">
                                     <img src={onlineshop}></img>
@@ -113,13 +114,13 @@ const GTMComp8 = () => {
                 <div className="strategy_card_wrapper1">
                     <img src={Line26} className="strategy_line26" />
                     <div className="strategy_card_head">
-                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                        <div data-aos="zoom-in" data-aos-duration="1300" data-aos-easing="ease-in-out">
                             <h1>Product Development</h1>
                             <img src={Group886} />
                         </div>
                     </div>
                     <div className="strategy_card_wrapper_inner">
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='500'>
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='500'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={goal}></img>
@@ -127,7 +128,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='1000'>
+                        <div data-aos="flip-right" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='1000'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation2">
                                     <img src={brandawareness}></img>
@@ -135,7 +136,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='1500'>
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='1500'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={test1}></img>
@@ -143,7 +144,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='2000'>
+                        <div data-aos="flip-right" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='2000'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation2">
                                     <img src={received}></img>
@@ -151,7 +152,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='2500'>
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='2500'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={workflow}></img>
@@ -164,13 +165,13 @@ const GTMComp8 = () => {
                 <div className="strategy_card_wrapper1">
                     <img src={Line26} className="strategy_line27" />
                     <div className="strategy_card_head">
-                        <div data-aos="zoom-in" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                        <div data-aos="zoom-in" data-aos-duration="1300" data-aos-easing="ease-in-out">
                             <h1>Product Launch</h1>
                             <img src={Group886} />
                         </div>
                     </div>
                     <div className="strategy_card_wrapper_inner">
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out">
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={processing}></img>
@@ -178,7 +179,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='500'>
+                        <div data-aos="flip-right" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='500'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation2">
                                     <img src={prd}></img>
@@ -186,7 +187,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='1000'>
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='1000'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={sales}></img>
@@ -194,7 +195,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-right" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='1500'>
+                        <div data-aos="flip-right" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='1500'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation2">
                                     <img src={customberservice}></img>
@@ -202,7 +203,7 @@ const GTMComp8 = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-in-out" data-aos-delay='2000'>
+                        <div data-aos="flip-left" data-aos-duration="1300" data-aos-easing="ease-in-out" data-aos-delay='2000'>
                             <div className="strategy_card">
                                 <div className="strategy_card_animation1">
                                     <img src={marketingstrnew}></img>
