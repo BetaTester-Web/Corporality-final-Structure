@@ -107,13 +107,13 @@ function BPComponent5() {
                   <div class="container">
                     <div class="row">
                       <div class="row">
-                        <div class="col-3 col-md-3 col-xl-2 bp-cp5-tm-div">
+                        <div class="col-3 col-sm-3 col-md-3 col-xl-2 bp-cp5-tm-div">
                           <img
                             src="../img/BrandPositioning/faviconTM3.png"
                             className="img-fluid img-fav"
                           />
                         </div>
-                        <div class="col-9 col-md-9 col-xl-10">
+                        <div class="col-9 col-sm-9 col-md-9 col-xl-10">
                           <span className="bp-cp5-bodyspan">
                             Address and engage
                           </span>

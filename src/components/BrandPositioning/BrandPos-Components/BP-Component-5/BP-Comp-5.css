@@ -218,47 +218,84 @@
     margin-bottom: 3% !important;
     text-align: center;
   }
-}
-@media screen and (max-width: 630px) {
   .bp-cp-5-img {
     visibility: hidden;
   }
   .bp-cp5-ladderimg {
     visibility: hidden;
   }
+  .col-10,
+  .col-1 {
+    padding: 0%;
+  }
+  .col-1 {
+    width: 0%;
+  }
+  .bp-cp5-shadowbox {
+    padding: 0%;
+    width: 100% !important;
+    margin-left: 10% !important;
+    margin-top: 3%;
+  }
 }
+
 @media screen and (max-width: 575px) {
   .bp-cp5-shadowbox {
     padding: 0%;
-    width: 95% !important;
-    margin-left: auto !important;
+    width: 100% !important;
+    margin-left: 10% !important;
   }
   .bp-cp5-listbody {
-    line-height: 20px;
+    line-height: 18px;
 
-    margin-top: 2%;
-    width: 100% !important ;
+    margin-top: 3%;
+    width: 65% !important ;
     text-align: justify;
-    padding-right: 4%;
-    padding-left: 4%;
-    margin-bottom: 2%;
+    padding-right: 3%;
+    padding-left: 1%;
+    margin-bottom: 1%;
   }
   .bp-cp5-listbodyimg {
-    width: 60% !important;
-    align-items: center;
-    padding-left: 30%;
+    width: 100% !important;
+  }
+  .BP-CP5-h1,
+  .bp-cp5-bodyspan {
+    font-size: 14px;
+  }
+  .bp-cp5-listbody {
+    font-size: 10px;
+  }
+  .img-fav {
+    width: 130% !important;
+  }
+}
+@media screen and (max-width: 475px) {
+  .bp-cp5-listbody {
+    line-height: 18px;
+
+    margin-top: 3%;
+    width: 65% !important ;
+    text-align: justify;
+    padding-right: 7%;
+    padding-left: 0%;
+    margin-bottom: 1%;
+  }
+  .bp-cp5-shadowbox {
+    padding: 0%;
+    width: 120% !important;
+    margin-left: auto !important;
   }
 }
 @media screen and (max-width: 360px) {
   .bp-cp5-bodyspan {
     line-height: 15px;
     position: relative;
-    top: 0%;
+    top: 25%;
     left: 2%;
   }
   .bp-cp5-shadowbox {
     padding: 0%;
-    width: 95% !important;
+    width: 120% !important;
     margin-left: auto !important;
   }
   .bp-cp5-tm-div {
@@ -266,12 +303,12 @@
     padding-left: 0%;
   }
   .bp-cp5-listbody {
-    line-height: 12px;
+    line-height: 15px;
     font-size: 10px;
-    padding-right: 2%;
-    margin-top: 0%;
+    padding-right: 5%;
+    margin-top: 1%;
     width: 65% !important ;
-    padding-left: 0%;
+    padding-left: 1%;
     margin-bottom: 1%;
     text-align: left;
   }
@@ -304,5 +341,12 @@
     height: 30px;
     font-size: 13px;
     line-height: 20px;
+  }
+  .col-10,
+  .col-1 {
+    padding: 0%;
+  }
+  .col-1 {
+    width: 0%;
   }
 }
