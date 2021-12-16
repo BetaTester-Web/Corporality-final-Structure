@@ -45,8 +45,6 @@ function App() {
 
           <Route path="/blogs" element={<Blogs />}/>
 
-          <Route path="/blog" element={<Blog />}/>
-
           <Route path="/brand-positioning" element={<BrandPositioning />} />
 
           <Route path="/contact" element={<Contact />} />
@@ -72,6 +70,10 @@ function App() {
           <Route path="/sustainable-growth" element={<SustainableGrowth />} />
 
           <Route path="/work-with-clients" element={<WorkWithClient />} />
+
+          <Route path="/articles/:article_name" element={<Blog />}/>
+
+          <Route path="/:article_name" element={<Blog />}/>
 
         </Routes>
         <Footer />
