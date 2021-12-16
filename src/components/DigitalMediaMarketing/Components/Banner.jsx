@@ -11,8 +11,7 @@ export default function Banner() {
 						Marketing Strategy for Small and Large Business</h1>
 					<p>Head to toe strategy focused Digital Media Marketing</p>
 				<div className="DDMBannerDiscoveryButton">
-					{/* <h1>Effective Digital Media
-						Marketing Strategy for Small and Large Business</h1> */}
+					
 						<h1 className="heading animate two">
 									<span>Effective</span>
 									&nbsp;
