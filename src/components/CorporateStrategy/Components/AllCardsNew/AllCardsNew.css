@@ -808,6 +808,10 @@
   }
 
   .all_cards_parent {
+    margin-bottom: 0 !important;
+  }
+
+  .all_cards_parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows:

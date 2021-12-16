@@ -159,6 +159,12 @@
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .understanding_difficulty_main_container {
+    margin-top: -100px !important;
+  }
+}
+
 @media only screen and (max-width: 479px) {
   .understanding_difficulty_first_text_heading,
   .understanding_difficulty_last_text_heading {
@@ -201,5 +207,9 @@
 
   .Background_in_Strategy img {
     margin-top: -120px !important;
+  }
+
+  .understanding_difficulty_main_container {
+    margin-top: -200px !important;
   }
 }

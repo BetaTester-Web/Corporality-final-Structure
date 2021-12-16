@@ -73,9 +73,9 @@
 }
 
 .gotomarketing_line_vertical {
-    top: 121px;
-    left: 119px;
-    z-index: -1;
+  top: 121px;
+  left: 119px;
+  z-index: -1;
 }
 
 .gotomarketing_line_horizontal_1,
@@ -601,150 +601,149 @@
 }
 
 @media only screen and (max-width: 992px) {
-    .gotomarketing_all_cards_parent {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr;
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
-    }
+  .gotomarketing_all_cards_parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr 0.3fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+  }
 
-    .gotomarketing_line_horizontal_1 img,
-    .gotomarketing_line_horizontal_2 img,
-    .gotomarketing_line_horizontal_3 img,
-    .gotomarketing_line_horizontal_4 img,
-    .gotomarketing_line_horizontal_5 img,
-    .gotomarketing_line_horizontal_6 img {
-        width: 100%!important;
-        height: 2px;
-    }
+  .gotomarketing_line_horizontal_1 img,
+  .gotomarketing_line_horizontal_2 img,
+  .gotomarketing_line_horizontal_3 img,
+  .gotomarketing_line_horizontal_4 img,
+  .gotomarketing_line_horizontal_5 img,
+  .gotomarketing_line_horizontal_6 img {
+    width: 100% !important;
+    height: 2px;
+  }
 
-    .gotomarketing_cards_text_side_1 {
-        grid-area: 1 / 1 / 2 / 6;
-    }
-    .gotomarketing_image_side_1_card1 {
-        grid-area: 2 / 1 / 3 / 2;
-    }
-    .gotomarketing_image_side_1_card2 {
-        grid-area: 2 / 2 / 3 / 3;
-    }
-    .gotomarketing_image_side_1_card3 {
-        grid-area: 2 / 3 / 3 / 4;
-    }
-    .gotomarketing_image_side_1_card4 {
-        grid-area: 2 / 4 / 3 / 5;
-    }
-    .gotomarketing_image_side_1_card5 {
-        grid-area: 2 / 5 / 3 / 6;
-    }
+  .gotomarketing_cards_text_side_1 {
+    grid-area: 1 / 1 / 2 / 6;
+  }
+  .gotomarketing_image_side_1_card1 {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .gotomarketing_image_side_1_card2 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+  .gotomarketing_image_side_1_card3 {
+    grid-area: 2 / 3 / 3 / 4;
+  }
+  .gotomarketing_image_side_1_card4 {
+    grid-area: 2 / 4 / 3 / 5;
+  }
+  .gotomarketing_image_side_1_card5 {
+    grid-area: 2 / 5 / 3 / 6;
+  }
 
-    .gotomarketing_cards_text_side_2 {
-        grid-area: 3 / 1 / 4 / 6;
-    }
-    .gotomarketing_image_side_2_card1 {
-        grid-area: 4 / 1 / 5 / 2;
-    }
-    .gotomarketing_image_side_2_card2 {
-        grid-area: 4 / 2 / 5 / 3;
-    }
-    .gotomarketing_image_side_2_card3 {
-        grid-area: 4 / 3 / 5 / 4;
-    }
-    .gotomarketing_image_side_2_card4 {
-        grid-area: 4 / 4 / 5 / 5;
-    }
-    .gotomarketing_image_side_2_card5 {
-        grid-area: 4 / 5 / 5 / 6;
-    }
+  .gotomarketing_cards_text_side_2 {
+    grid-area: 3 / 1 / 4 / 6;
+  }
+  .gotomarketing_image_side_2_card1 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+  .gotomarketing_image_side_2_card2 {
+    grid-area: 4 / 2 / 5 / 3;
+  }
+  .gotomarketing_image_side_2_card3 {
+    grid-area: 4 / 3 / 5 / 4;
+  }
+  .gotomarketing_image_side_2_card4 {
+    grid-area: 4 / 4 / 5 / 5;
+  }
+  .gotomarketing_image_side_2_card5 {
+    grid-area: 4 / 5 / 5 / 6;
+  }
 
-    .gotomarketing_cards_text_side_3 {
-        grid-area: 5 / 1 / 6 / 6;
-    }
-    .gotomarketing_image_side_3_card1 {
-        grid-area: 6 / 1 / 7 / 2;
-    }
-    .gotomarketing_image_side_3_card2 {
-        grid-area: 6 / 2 / 7 / 3;
-    }
-    .gotomarketing_image_side_3_card3 {
-        grid-area: 6 / 3 / 7 / 4;
-    }
-    .gotomarketing_image_side_3_card4 {
-        grid-area: 6 / 4 / 7 / 5;
-    }
-    .gotomarketing_image_side_3_card5 {
-        grid-area: 6 / 5 / 7 / 6;
-    }
+  .gotomarketing_cards_text_side_3 {
+    grid-area: 5 / 1 / 6 / 6;
+  }
+  .gotomarketing_image_side_3_card1 {
+    grid-area: 6 / 1 / 7 / 2;
+  }
+  .gotomarketing_image_side_3_card2 {
+    grid-area: 6 / 2 / 7 / 3;
+  }
+  .gotomarketing_image_side_3_card3 {
+    grid-area: 6 / 3 / 7 / 4;
+  }
+  .gotomarketing_image_side_3_card4 {
+    grid-area: 6 / 4 / 7 / 5;
+  }
+  .gotomarketing_image_side_3_card5 {
+    grid-area: 6 / 5 / 7 / 6;
+  }
 
-    .gotomarketing_cards_text_side_4 {
-        grid-area: 7 / 1 / 8 / 6;
-    }
-    .gotomarketing_image_side_4_card1 {
-        grid-area: 8 / 1 / 9 / 2;
-    }
-    .gotomarketing_image_side_4_card2 {
-        grid-area: 8 / 2 / 9 / 3;
-    }
-    .gotomarketing_image_side_4_card3 {
-        grid-area: 8 / 3 / 9 / 4;
-    }
-    .gotomarketing_image_side_4_card4 {
-        grid-area: 8 / 4 / 9 / 5;
-    }
-    .gotomarketing_image_side_4_card5 {
-        grid-area: 8 / 5 / 9 / 6;
-    }
+  .gotomarketing_cards_text_side_4 {
+    grid-area: 7 / 1 / 8 / 6;
+  }
+  .gotomarketing_image_side_4_card1 {
+    grid-area: 8 / 1 / 9 / 2;
+  }
+  .gotomarketing_image_side_4_card2 {
+    grid-area: 8 / 2 / 9 / 3;
+  }
+  .gotomarketing_image_side_4_card3 {
+    grid-area: 8 / 3 / 9 / 4;
+  }
+  .gotomarketing_image_side_4_card4 {
+    grid-area: 8 / 4 / 9 / 5;
+  }
+  .gotomarketing_image_side_4_card5 {
+    grid-area: 8 / 5 / 9 / 6;
+  }
 
-    .gotomarketing_cards_text_side_5 {
-        grid-area: 9 / 1 / 10 / 6;
-    }
-    .gotomarketing_image_side_5_card1 {
-        grid-area: 10 / 1 / 11 / 2;
-    }
-    .gotomarketing_image_side_5_card2 {
-        grid-area: 10 / 2 / 11 / 3;
-    }
-    .gotomarketing_image_side_5_card3 {
-        grid-area: 10 / 3 / 11 / 4;
-    }
-    .gotomarketing_image_side_5_card4 {
-        grid-area: 10 / 4 / 11 / 5;
-    }
-    .gotomarketing_image_side_5_card5 {
-        grid-area: 10 / 5 / 11 / 6;
-    }
+  .gotomarketing_cards_text_side_5 {
+    grid-area: 9 / 1 / 10 / 6;
+  }
+  .gotomarketing_image_side_5_card1 {
+    grid-area: 10 / 1 / 11 / 2;
+  }
+  .gotomarketing_image_side_5_card2 {
+    grid-area: 10 / 2 / 11 / 3;
+  }
+  .gotomarketing_image_side_5_card3 {
+    grid-area: 10 / 3 / 11 / 4;
+  }
+  .gotomarketing_image_side_5_card4 {
+    grid-area: 10 / 4 / 11 / 5;
+  }
+  .gotomarketing_image_side_5_card5 {
+    grid-area: 10 / 5 / 11 / 6;
+  }
 
-    .gotomarketing_cards_top_text_container {
-        padding: 20px 50px !important;
-    }
+  .gotomarketing_cards_top_text_container {
+    padding: 20px 50px !important;
+  }
 
-    .gotomarketing_image_side_1_card1,
-    .gotomarketing_image_side_1_card2,
-    .gotomarketing_image_side_1_card3,
-    .gotomarketing_image_side_1_card4,
-    .gotomarketing_image_side_2_card1,
-    .gotomarketing_image_side_2_card2,
-    .gotomarketing_image_side_2_card3,
-    .gotomarketing_image_side_2_card4,
-    .gotomarketing_image_side_3_card1,
-    .gotomarketing_image_side_3_card2,
-    .gotomarketing_image_side_3_card3,
-    .gotomarketing_image_side_3_card4,
-    .gotomarketing_image_side_4_card1,
-    .gotomarketing_image_side_4_card2,
-    .gotomarketing_image_side_4_card3,
-    .gotomarketing_image_side_4_card4,
-    .gotomarketing_image_side_5_card1,
-    .gotomarketing_image_side_5_card2,
-    .gotomarketing_image_side_6_card1,
-    .gotomarketing_image_side_6_card2 {
-        padding: 30px 10px !important;
-    }
+  .gotomarketing_image_side_1_card1,
+  .gotomarketing_image_side_1_card2,
+  .gotomarketing_image_side_1_card3,
+  .gotomarketing_image_side_1_card4,
+  .gotomarketing_image_side_2_card1,
+  .gotomarketing_image_side_2_card2,
+  .gotomarketing_image_side_2_card3,
+  .gotomarketing_image_side_2_card4,
+  .gotomarketing_image_side_3_card1,
+  .gotomarketing_image_side_3_card2,
+  .gotomarketing_image_side_3_card3,
+  .gotomarketing_image_side_3_card4,
+  .gotomarketing_image_side_4_card1,
+  .gotomarketing_image_side_4_card2,
+  .gotomarketing_image_side_4_card3,
+  .gotomarketing_image_side_4_card4,
+  .gotomarketing_image_side_5_card1,
+  .gotomarketing_image_side_5_card2,
+  .gotomarketing_image_side_6_card1,
+  .gotomarketing_image_side_6_card2 {
+    padding: 30px 10px !important;
+  }
 
-    .gotomarketing_line_horizontal_2 {
-        top: 70px;
-    }
-
+  .gotomarketing_line_horizontal_2 {
+    top: 70px;
+  }
 }
 
 @media only screen and (max-width: 956px) {
@@ -816,6 +815,7 @@
   }
   .gotomarketing_image_side_2_card5 {
     grid-area: 8 / 1 / 9 / 3;
+    width: 40%;
   }
 
   .gotomarketing_cards_text_side_3 {
@@ -835,6 +835,7 @@
   }
   .gotomarketing_image_side_3_card5 {
     grid-area: 12 / 1 / 13 / 3;
+    width: 40%;
   }
 
   .gotomarketing_cards_text_side_4 {
