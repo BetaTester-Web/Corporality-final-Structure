@@ -1,7 +1,8 @@
 import { useContext, useEffect, useState } from "react";
-// import  CKEditor from "react-ckeditor-component";
 import { CKEditor } from 'ckeditor4-react';
 import "./write.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.min.js";
 import axios from "axios";
 import { Context } from "../../context/Context";
 
@@ -10,24 +11,16 @@ export default function Write() {
     const [desc, setDesc] = useState("");
     const [file, setFile] = useState("");
     const { user } = useContext(Context);
-
-
-
     const handleSubmit = async (e) => {
         e.preventDefault();
-        // const newarticle = {
-        //     username: user.username,
-        //     title,
-        //     desc,
-        // };
         const newarticle = {
-            username: "Userr",
+            username: user.username,
             title,
-            desc,
+            desc
         };
-        // console.log(user.email);
-        // console.log(title);
-        // console.log(desc);
+        console.log(user.email);
+        console.log(title);
+        console.log(desc);
         if (file) {
             const data = new FormData()
             const filename = Date.now() + file.name;
@@ -44,7 +37,7 @@ export default function Write() {
         } catch (err) { console.log(err) }
     };
     return (
-        <div className="write">
+        <div className="write container">
             {file && (
                 <img className="writeImg" src={URL.createObjectURL(file)} alt="" />
             )}

@@ -4,25 +4,26 @@ import commentBubble from "../img/commentBubble.png";
 
 
 function truncate(text, size) {
-    return text?.length > size ? text.substr(0, size - 1) + "..." : text;
+    return text?.length > size ? text.substr(0, size - 1) + '...' : text;
 }
 
 function BlogCard(props) {
+    const PF = "http://localhost:5000/images/";
+
     return (
         <div className="blogCard shadow">
             <div className="row">
                 <div className="col-12 blogThumbnailDiv">
-                    <img src={props.thumbnail} className="blogThumbnail" alt="blog thumbnail" />
+                    {props.thumbnail && <img src={PF + props.thumbnail} className="blogThumbnail" alt="blog thumbnail" />}
                 </div>
                 <div className="col-12 blogContent">
                     <h2 className="blogHeading">{truncate(props.heading, 120)}</h2>
-                    <div className="blogDescription">
-                        {truncate(props.description, 300)}
-                        <a href={"/blogs/" + props.href}>Read more...</a>
+                    <div className="blogDescription" dangerouslySetInnerHTML={{__html: truncate(props.description, 300)}}>
                     </div>
+                    <a href={"/blog/" + props.slug} className="blogReadMore" style={{"color": "#6CA0BC"}}>Read more</a>
                 </div>
                 <div className="col-12 blogInformation">
-                    {props.date} | <img src={commentBubble} alt="" /> ({props.comments}) Comments
+                {new Date(props.date).toDateString()} | <img src={commentBubble} alt="" /> ({props.comments}) Comments
                 </div>
             </div>
         </div>

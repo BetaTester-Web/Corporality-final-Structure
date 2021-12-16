@@ -2,7 +2,7 @@ import "./App.css";
 // import { BrowserRouter as Routes, Route } from 'react-router-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useContext } from "react";
-import { Context } from "./context/Context";
+import { Context, ContextProvider } from "./context/Context";
 import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer.jsx";
@@ -27,57 +27,65 @@ import Blog from "./components/Blog/Blog";
 import Write from "./components/Write/Write";
 
 function App() {
-  const { user } = useContext(Context);
+  const { user, dispatch } = useContext(Context);
+  // const handleLogout = () => {
+    // dispatch({ type: "LOGOUT" });
+  // };
   return (
     <>
-      <BrowserRouter>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<HomePage />} />
+      <ContextProvider>
+        <BrowserRouter>
+          <Navbar />
+          {/* {user && <h1 className="logout" onClick={handleLogout}>logout</h1>} */}
+          <Routes>
+            <Route path="/" element={<HomePage />} />
 
-          <Route path="/about-corporality" element={<AboutCorporality />} />
+            <Route path="/about-corporality" element={<AboutCorporality />} />
 
-          <Route path="/register" element={user ? <HomePage /> : <Register />} />
-          
-          <Route path="/login" element={user ? <HomePage /> : <Login />} />
+            <Route path="/register" element={user ? <HomePage /> : <Register />} />
+            
+            <Route path="/login" element={user ? <HomePage /> : <Login />} />
 
-          <Route path="/write" element={user ? <Write /> : <Register />} />
+            <Route path="/write" element={user ? <Write /> : <Register />} />
 
-          <Route path="/blogs" element={<Blogs />}/>
+            <Route path="/blogs" element={<Blogs />}/>
 
-          <Route path="/brand-positioning" element={<BrandPositioning />} />
+            <Route path="/blog" element={<Blog />}/>
 
-          <Route path="/contact" element={<Contact />} />
+            <Route path="/brand-positioning" element={<BrandPositioning />} />
 
-          <Route path="/corporate-strategy" element={<CorporateStrategy />} />
+            <Route path="/contact" element={<Contact />} />
 
-          <Route path="/cxo-strategy" element={<CxoStrategy />} />
+            <Route path="/corporate-strategy" element={<CorporateStrategy />} />
 
-          <Route path="/digital-media-marketing" element={<DigitalMediaMarketing />} />
+            <Route path="/cxo-strategy" element={<CxoStrategy />} />
 
-          <Route path="/go-to-marketing" element={<GoToMarketing />} />
+            <Route path="/digital-media-marketing" element={<DigitalMediaMarketing />} />
 
-          <Route path="/inclusion-and-diversity" element={<InclusionAndDiversity />} />
+            <Route path="/go-to-marketing" element={<GoToMarketing />} />
 
-          <Route path="/interactive-blueprint" element={<IntractiveBluePrint />} />
+            <Route path="/inclusion-and-diversity" element={<InclusionAndDiversity />} />
 
-          <Route path="/partnership-programmes" element={<PartnershipProgrammes />} />
+            <Route path="/interactive-blueprint" element={<IntractiveBluePrint />} />
 
-          <Route path="/strategy-and-consulting" element={<StrategyAndConsulting />} />
+            <Route path="/partnership-programmes" element={<PartnershipProgrammes />} />
 
-          <Route path="/strategic-consultancy" element={<StrategyConsultancy />} />
+            <Route path="/strategy-and-consulting" element={<StrategyAndConsulting />} />
 
-          <Route path="/sustainable-growth" element={<SustainableGrowth />} />
+            <Route path="/strategic-consultancy" element={<StrategyConsultancy />} />
 
-          <Route path="/work-with-clients" element={<WorkWithClient />} />
+            <Route path="/sustainable-growth" element={<SustainableGrowth />} />
 
-          <Route path="/articles/:article_name" element={<Blog />}/>
+            <Route path="/work-with-clients" element={<WorkWithClient />} />
+              
+            <Route path="/articles/:article_name" element={<Blog />}/>
+ 
+            <Route path="/:article_name" element={<Blog />}/>
 
-          <Route path="/:article_name" element={<Blog />}/>
-
-        </Routes>
-        <Footer />
-      </BrowserRouter>
+          </Routes>
+          <Footer />
+        </BrowserRouter>
+      </ContextProvider>
     </>
   );
 }

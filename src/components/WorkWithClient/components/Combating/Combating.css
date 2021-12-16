@@ -239,11 +239,11 @@
   }
 
   .Image_rect {
-    top: 20px;
+    top: 90px;
   }
 
   .Image_texting_2 {
-    margin-right: -50px !important;
+    margin-right: auto !important;
   }
 
 
@@ -281,17 +281,20 @@
   }
 
   .Image_rect {
-    top: 60px;
+    top: 90px;
   }
 }
 
 @media(max-width:533px) {
   .Image_texting_2 {
-    margin-right: 100px !important;
+    margin-right: auto !important;
   }
   .threeboxes_combat {
     left: 40px !important;
     top: -300px;
+  }
+  .Image_rect{
+    top: 30px;
   }
 }
 
@@ -313,7 +316,7 @@
 
 @media(max-width:426px) {
   .Image_texting_1 {
-    margin-right: -50px !important;
+    margin-right: auto !important;
   }
 }
 

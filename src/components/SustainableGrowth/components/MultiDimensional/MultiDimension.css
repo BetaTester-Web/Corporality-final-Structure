@@ -93,6 +93,7 @@
     left: -2%;
     transition-delay: 0.6s;
     animation: ideation-slide 2s ease-in-out infinite;
+    top: -1px !important;
 }
 .explore-text-Multi{
     padding-left: 10px;
@@ -292,10 +293,22 @@ color: #232323;
         top: -30px;
     }
 }
+@media(max-width:576px){
+    .texting-third-Multi{
+        margin-left: 10px;
+        padding-right: 30px;
+    }
+}
 
 @media(max-width:421px){
     .third-image-Multi{
         position: relative;
         left: 30px;
+    }
+}
+
+@media(max-width:425px){
+    .icon1-Multi{
+        width: 40px;
     }
 }

@@ -1,6 +1,7 @@
 .blogThumbnail {
     width: 100%;
     object-fit: cover;
+    max-height: 300px;
 }
 
 .blogContent {
@@ -36,4 +37,9 @@
     margin-left: 20px!important;
     margin-bottom: 20px!important;
     color: #BFBFBF;
+}
+
+.blogReadMore{
+    margin-right: 20px!important;
+    margin-left: 20px!important;
 }
