@@ -131,11 +131,21 @@
   }
   .prev-2-text-2-Digital {
     font-size: 12px;
-    text-align: justify;
+    text-align: left;
   }
   /* .side2-container-Digital {
     top: 1000px;
   } */
+}
+
+@media(max-width:576px){
+  .texting-2-Digital{
+    margin-left: 10px;
+    padding-right: 30px !important;
+  }
+  .prev-2-text-2-Digital{
+    text-align: justify;
+  }
 }
 
 @media (max-width: 653px) {

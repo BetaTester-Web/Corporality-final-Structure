@@ -261,7 +261,7 @@
     .backimg-Op{
         width: 320px  ;
         height: 322.8px  ;
-        left: 5%  ;
+        left: 2%  ;
         top: 2%  ;
     }
     .image-first-Op{
@@ -276,11 +276,17 @@
     .smallrect-Op{
         position: absolute  ;
         top: 50%  ;
-        left: 33%  ;
-        width: 10%  ;
+        left: 30%  ;
+        width: 9%  ;
     }
 }
 
+@media(max-width:576px){
+    .text-box-1-Op{
+        margin-left: 10px;
+        margin-right: 30PX !important;
+    }
+}
 
 @media (max-width:448px){
     .banner_right_inner-Op{
