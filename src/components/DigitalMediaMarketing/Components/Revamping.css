@@ -132,10 +132,10 @@ top: 2288px; */
     transform: translate(850px, -65px);
   }
   75% {
-    transform: translate(770px, -365px);
+    transform: translate(770px, -265px);
   }
   100% {
-    transform: translate(850px, -365px);
+    transform: translate(1050px, -265px);
   }
 
 }

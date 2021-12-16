@@ -21,9 +21,9 @@ const ConForm = () => {
     return (
         <>
             <div className=" p-lg-0 pt-lg-2">
-                <div className="m-5 px-lg-5">
+                <div className=" ">
 
-                    <div className="d-lg-flex align-items-center justify-content-between ">
+                    <div className="d-lg-flex align-items-center  ">
                         <div className="conform-info-box m-5">
                             <h2 className="conform-info-heading">LET’S TALK</h2>
                             <p className="conform-info-para">Our customer experience experts are always ready to provide you with all the answers. <br /> Call us now!</p>
@@ -37,9 +37,11 @@ const ConForm = () => {
                                 <div className="jhvwwchv">
 
                                     <div className="conform-diamond">
+                                        <a href="tel:+61 2 83794089">
                                         <div className="callconform">
                                             <img className="img-fluid" src="./img/Contact/Group709.png" alt="" />
                                         </div>
+                                        </a>
                                         <p>+61 2 83794089</p>
                                         <div className="conformhollowDia"></div>
                                     </div>
@@ -50,17 +52,17 @@ const ConForm = () => {
                             </div>
                         </div>
                          <div data-aos="fade-left">
-                            <div className="fluid">
+                            <div className="fluid mx-md-5 px-md-4">
                                 <div className="conform-contactForm  p-5 m-4">
                                     <p className="conform-contactHeading text-uppercase fw-bold my-5 fs-4">Contact us</p>
                                 
                                     <div className="row">
-                                        <div className="col" >
+                                        <div className="col mx-3" >
                                             <input type="text" name="fname" placeholder="First Name" className="philosophy-input" id="input" />
                                             <label for="fname" className="philosophy-input-label">First Name</label>
                                         </div>
                                     
-                                        <div className="col ">
+                                        <div className="col mx-3">
                                             <input type="text" name="fname" placeholder="Last Name" className="philosophy-input" id="input" />
                                             <label for="fname" className="philosophy-input-label">Last Name</label>
                                         </div>
@@ -68,33 +70,36 @@ const ConForm = () => {
                                     
                                     
                                     <div className="row my-3">
-                                        <div className="col">
+                                        <div className="col mx-3">
                                             <input type="text" name="fname" placeholder="Email" className="philosophy-input" id="input" />
                                             <label for="fname" className="philosophy-input-label">Email</label>
                                         </div>
-                                        <div className="col">
+                                        <div className="col mx-3">
                                             <input type="text" name="fname" placeholder="Mobile" className="philosophy-input" id="input" />
                                             <label for="fname" className="philosophy-input-label">Mobile</label>
                                         </div>
                                     </div>
                                     
                                     
-                                    <div className="col my-3 px-3">
+                                    <div className="col my-3 ">
                                         <input type="text" name="fname" placeholder="Website URL" className="philosophy-input" id="input" />
                                         <label for="fname" className="philosophy-input-label">Website URL</label>
                                     </div>
                                     
                                     
-                                    <div className="col my-3 px-3">
+                                    <div className="col my-3">
                                         <textarea className="form-control philosophy-input" placeholder="Your Message"  id="input" rows="5"></textarea>
                                         <label for="fname" className="philosophy-input-label">Your Message</label>
                                     </div>
                                     
                                     
                                     <button type="button" className="btn footer-button">
+                                    <a href="mailto:someone@example.com">
+
                                         <div className="footer-button-text">
-                                            Send Request
+                                            Send Request      
                                         </div>
+                                    </a>
                                     </button>
                                     <button type="button" class="btn conformreset-btn">Reset</button>
                                 </div>
