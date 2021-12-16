@@ -108,3 +108,14 @@
         font-size: 10px;
     }
 }
+
+@media only screen and (min-width: 2000px){
+    .GTMComp2a .laptopImage .hyperImage{
+        width: 50%;
+    }
+}
+@media only screen and (min-width: 3000px){
+    .GTMComp2a .laptopImage .hyperImage{
+        width: 30%;
+    }
+}
