@@ -191,8 +191,8 @@
 
 @media only screen and (max-width: 768px) {
     .GTMComp4 .philosophySubmitButton {
-        width: 40% !important;
-        padding: 2% 0% !important;
+        width: fit-content!important;
+        padding: 2% 25px !important;
     }
 }
 /* ---------------------------- */
