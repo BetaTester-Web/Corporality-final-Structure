@@ -64,3 +64,9 @@
 .animate2 span:nth-of-type(6) {
     animation-delay: 2.75s;
 }
+
+@media only screen and (max-width: 992px){
+    .GTMComp5Container .animate{
+        line-height: 0px;
+    }
+}

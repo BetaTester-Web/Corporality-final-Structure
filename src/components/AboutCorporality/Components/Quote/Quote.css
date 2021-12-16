@@ -147,6 +147,18 @@
   }
 }
 
+@media only screen and (max-width: 575px) {
+  .image_left {
+    top: 350px;
+    left: 230px;
+  }
+
+  .box_image {
+    top: 270px;
+    left: 100px;
+  }
+}
+
 @media only screen and (max-width: 480px) {
   .quote_container {
     margin-top: 100px !important;
@@ -184,7 +196,7 @@
   }
 
   .image_left {
-    top: 360px;
+    top: 400px;
     left: 150px;
   }
 }
@@ -196,14 +208,14 @@
   }
 
   .image_left {
-    top: 400px;
+    top: 440px;
     left: 120px;
   }
 }
 
 @media only screen and (max-width: 348px) {
   .quote_container {
-    margin-bottom: 300px !important;
+    margin-bottom: 340px !important;
   }
 
   /* .box_image {

@@ -65,8 +65,8 @@ function BrandFirst() {
           </a>
         </div>
       </div>
-      <div className="brandposition_banner_call" onClick={() => window.open("tel: +61 2 83794089","_self")}>
-        <img src={brandposition_call} alt="" className="img-fluid"/>
+      <div className="brandposition_banner_call" onClick={() => window.open("tel: +61 2 83794089", "_self")}>
+        <img src={brandposition_call} alt="" className="img-fluid" />
       </div>
       <div className="container">
         <div className="brandposition_main_container">
@@ -75,13 +75,13 @@ function BrandFirst() {
               <img src={brandposition_top_rect} alt="" />
             </div>
             <div className="brandposition_first_textside_heading" data-aos="fade-up"
-                data-aos-easing="linear"
-                data-aos-duration="1000">
+              data-aos-easing="linear"
+              data-aos-duration="1000">
               EVERY BRAND HAS A STORY AND EVERY STORY IS UNIQUE
             </div>
             <div className="brandposition_first_textside_description" data-aos="fade-down"
-                data-aos-easing="linear"
-                data-aos-duration="1500">
+              data-aos-easing="linear"
+              data-aos-duration="1500">
               Big brands have one thing in common - they have a solid brand
               positioning strategy. Businesses must invest in a strong brand
               marketing strategy to thrive in a highly competitive market. Why?
@@ -97,19 +97,34 @@ function BrandFirst() {
                 alt=""
                 className="background_line_img"
               />
-              <div className="brandposition_companyimage">
+              <div className="brandposition_companyimage" data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="3000">
                 <img src={brandposition_companyimage} alt="" />
               </div>
-              <div className="brandposition_customerloyalty">
+              <div className="brandposition_customerloyalty" data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="1500">
                 <img src={brandposition_customer_loyalty} alt="" />
               </div>
-              <div className="brandposition_relatable">
+              <div className="brandposition_relatable" data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="2000">
                 <img src={brandposition_relatable} alt="" />
               </div>
-              <div className="brandposition_omni">
+              <div className="brandposition_omni" data-aos="fade-left"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="1000">
                 <img src={brandposition_omni} alt="" />
               </div>
-              <div className="brandposition_center_diamond">
+              <div className="brandposition_center_diamond" data-aos="fade-up"
+                data-aos-anchor="#example-anchor"
+                data-aos-offset="500"
+                data-aos-duration="2000">
                 <img src={brandposition_center_diamond} alt="" />
               </div>
               <div className="brandposition_bottom_rect">
