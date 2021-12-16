@@ -20,7 +20,6 @@ import blogTopLeft from "./img/blog-top-left.png"
 
 function Blogs() {
     const [state, setState] = useState(false);
-    const [posts, setPosts] = useState([]);
     const [articles, setarticles] = useState([]);
     const { search } = useLocation();
     useEffect(() => {
@@ -28,6 +27,7 @@ function Blogs() {
         const fetcharticles = async () => {
             const res = await axios.get("/articles");
             setarticles(res.data);
+            console.log(res.data);
         };
         fetcharticles();
         // console.log(articles);
@@ -39,7 +39,7 @@ function Blogs() {
 
     return (
         <>
-                    <div className="blogContainer">
+            <div className="blogContainer">
             <div className="blogSubscription">
                 <h3>Subscribe to Business Insight?</h3>
                 <input type="email" placeholder="Email Address" />
@@ -73,12 +73,13 @@ function Blogs() {
                     <div className="dividerLine px-0"></div>
                     {articles.map((article) => (
                         <div className="col-lg-5 col-10 mx-lg-0 mx-auto" data-aos="fade-up">
-                            <BlogCard thumbnail={thumbnail}
+                            <BlogCard thumbnail={article.photo}
                                 heading={article.title}
                                 description={article.description}
                                 date={article.date}
-                                href={article.slug}
-                                comments="2" />
+                                slug={article.slug}
+                                comments={article.likes} />
+                            {article.date}
                         </div>
                     ))}
                 </div>
@@ -99,13 +100,6 @@ function Blogs() {
                     </div>
                 </div>
             </div>
-            {posts.map((post) => (
-                <>
-                    <h1>post.title</h1>
-                    <em>post.username</em>
-                    <p>post.desc</p>
-                </>
-            ))}
         </>
     );
 }
