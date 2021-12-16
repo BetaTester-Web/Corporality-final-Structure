@@ -1,6 +1,7 @@
 .brandposition_background_parent {
   position: relative;
   margin-top: 80px !important;
+  background: linear-gradient(255.47deg, #EEDFF2 2.24%, #E1EDF3 17.92%, #FFFFFF 48.34%);
 }
 
 .brandposition_first_socialicons {
@@ -14,7 +15,7 @@
 .brandposition_banner_call {
   position: absolute;
   bottom: 30px;
-  right: 60px;
+  right: 55px;
 }
 
 .brandposition_banner_facebook,
@@ -92,22 +93,22 @@
 
 .brandposition_companyimage {
   top: 0;
-  right: 80px;
+  right: 145px;
 }
 
 .brandposition_customerloyalty {
-  top: 120px;
-  left: 140px;
+  top: 190px;
+  left: 220px;
 }
 
 .brandposition_relatable {
-  top: 180px;
-  right: 80px;
+  top: 230px;
+  right: 100px;
 }
 
 .brandposition_omni {
-  bottom: 70px;
-  right: 160px;
+  bottom: 90px;
+  right: 225px;
 }
 
 .brandposition_center_diamond {
@@ -118,10 +119,18 @@
   bottom: -30px;
   left: 80px;
 }
-
+.brandposition_bottom_rect{
+  animation-name: revolve;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes revolve{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
 .brandposition_imagetop_rect {
-  top: 100px;
-  left: 250px;
+  top: 140px;
+  left: 340px;
 }
 
 .brandposition_imagebottom_rect {
@@ -133,10 +142,10 @@
   z-index: 10 !important;
   content: " ";
   position: absolute;
-  top: 0;
-  left: 0;
-  height: 5vw;
-  width: 5vw;
+  top: 20px;
+  left: 20px;
+  height: 80px;
+  width: 80px;
   background-color: white;
   border-radius: 50%;
   -webkit-animation: pulse 1.5s infinite;
@@ -182,22 +191,30 @@
   }
   .brandposition_companyimage {
     top: 0;
-    right: 20px;
+    right: 40px;
+    width: 220px;
+    height: 100px;
   }
 
   .brandposition_customerloyalty {
-    top: 80px;
-    left: 100px;
+    top: 105px;
+    left: 135px;
+    width: 210px;
+    height: 115px;
   }
 
   .brandposition_relatable {
-    top: 130px;
-    right: -30px;
+    top: 150px;
+    right: 20px;
+    width: 220px;
+    height: 100px;
   }
 
   .brandposition_omni {
-    bottom: 30px;
-    right: 50px;
+    bottom: 40px;
+    right: 95px;
+    width: 210px;
+    height: 115px;
   }
 
   .brandposition_center_diamond img {
@@ -228,7 +245,7 @@
 
   .brandposition_imagebottom_rect {
     bottom: 100px;
-    right: 80px;
+    right: 60px;
   }
 
   .brandposition_top_rectangle {
@@ -245,19 +262,43 @@
     margin-bottom: 50px !important;
     margin-right: 30px !important;
   }
-
-  .brandposition_relatable {
-    top: 150px;
+  .brandposition_first_textside_heading{
+    padding: 0px 15px !important;
   }
-
+  .brandposition_first_textside_description{
+    padding: 0px 15px !important;
+  }
+  .brandposition_relatable {
+    top: 200px;
+    right: 70px;
+  }
+  .brandposition_omni{
+    bottom: 80px;
+    right: 190px;
+  }
+  .brandposition_customerloyalty {
+    top: 155px;
+    left: 175px;
+    width: 200px;
+    height: 105px;
+  }
+  .brandposition_imagetop_rect {
+    top: 100px !important;
+    left: 280px !important;
+  }
   .brandposition_first_textside {
     margin-left: 0 !important;
   }
-
+  .brandposition_companyimage{
+    top: 5;
+    right: 100px;
+  }
   .brandposition_banner_call {
+    width: 90px !important;
+    height: 90px !important;
     position: absolute;
-    top: 400px;
-    right: 60px;
+    top: 420px;
+    right: 50px;
   }
 }
 
@@ -431,29 +472,55 @@
 }
 
 @media only screen and (max-width: 450px) {
-  .brandposition_banner_call {
+  .brandposition_first_backgroundline{
+    width: 365px !important;
+  }
+  .brandposition_banner_call > img{
     position: absolute;
-    top: 350px;
-    right: 10px;
+    bottom: 5px !important;
+    right: 5px !important;
+    height: 60px !important;
+    width: 60px !important;
   }
-
+  .brandposition_first_textside_heading{
+    padding: 0px 15px !important;
+  }
+  .brandposition_first_textside_description{
+    padding: 0px 15px !important;
+  }
   .brandposition_imagebottom_rect {
-    bottom: 120px;
-    right: 50px;
+    bottom: 50px;
+    right: 20px;
   }
-
+  .brandposition_imagetop_rect {
+    top: 90px !important;
+    left: 180px !important;
+  }
+  .brandposition_relatable {
+    top: 180px;
+    right: -100px;
+  }
   .brandposition_center_diamond {
-    bottom: 60px;
-    left: 90px;
+    height: 150px;
+    width: 150px;
+    bottom: 20px;
+    left: 60px;
   }
-
+  .brandposition_center_diamond > img{
+    height: 150px;
+    width: 150px;
+  }
   .brandposition_bottom_rect {
-    bottom: 0px;
-    left: 110px;
+    bottom: -10px;
+    left: 50px;
   }
 
   .brandposition_companyimage {
-    top: 5px;
-    right: -80px;
+    top: 15px;
+    right: -85px;
+  }
+  .brandposition_customerloyalty {
+    top: 150px;
+    left: 110px;
   }
 }

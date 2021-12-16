@@ -77,6 +77,10 @@ function App() {
             <Route path="/sustainable-growth" element={<SustainableGrowth />} />
 
             <Route path="/work-with-clients" element={<WorkWithClient />} />
+              
+            <Route path="/articles/:article_name" element={<Blog />}/>
+ 
+            <Route path="/:article_name" element={<Blog />}/>
 
           </Routes>
           <Footer />

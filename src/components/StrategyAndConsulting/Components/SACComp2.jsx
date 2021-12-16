@@ -11,7 +11,6 @@ const SACComp2 = () => {
   useEffect(() => {
     aos.init({ duration: 3000 });
   }, []);
-
   return (
     <div className="SACC2_prev2">
       <img className="SACC2_side2-container" src={side2Organic} alt="" />

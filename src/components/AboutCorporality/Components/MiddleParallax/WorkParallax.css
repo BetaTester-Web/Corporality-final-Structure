@@ -127,13 +127,13 @@
   }
 
   .parallax_main_heading {
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 14px;
+    line-height: 16px;
   }
 
   .parallax_description {
-    font-size: 13px;
-    line-height: 15px;
+    font-size: 10px;
+    line-height: 14px;
     font-weight: 500;
   }
 
@@ -150,7 +150,7 @@
 
 @media only screen and (max-width: 427px) {
   .box_right {
-    top: 120px;
+    top: 130px;
     right: 50px;
   }
 
