@@ -128,7 +128,7 @@
   }
 }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1030px) {
   .ourimpetus_container {
     flex-direction: column-reverse;
   }
@@ -196,18 +196,18 @@
 
 @media only screen and (max-width: 456px) {
   .ourimpetus_text_side {
-    padding-right: 0 !important;
-    padding-left: 0 !important;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
   }
 
   .ourimpetus_textside_heading {
-    font-size: 26px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   .ourimpetus_textside_description {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 15px;
   }
 
   .ourimpetus_textside_smalltext {
