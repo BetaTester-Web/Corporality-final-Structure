@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import './Navbar.css';
 import logo from './assets/logo.png';
 import About from './components/About';
@@ -9,20 +9,22 @@ import { useMediaQuery } from 'react-responsive';
 import OutsideClickHandler from 'react-outside-click-wrapper';
 import { NavbarContext } from './Context/NavbarContext';
 import { Link, useNavigate } from 'react-router-dom';
+import Insights from './components/Insights';
 
 const Navbar = () => {
     const isLargeScreen = useMediaQuery({ query: '(min-width: 1200px)' })
     const [showAbout, setShowAbout] = useState(false)
     const [showServices, setShowServices] = useState(false);
     const [showIndustries, setShowIndustries] = useState(false);
+    const [showInsights, setShowInsights] = useState(false)
     const [navClicked, setNavClicked] = useState(false);
     const [showAbout2, setShowAbout2] = useState(false);
     const [menuId, setMenuId] = useState(1);
     const navigate = useNavigate();
 
     const providerValue = useMemo(() =>
-        ({ isLargeScreen, showAbout, setShowAbout, showAbout2, setShowAbout2, showServices, setShowServices, showIndustries, setShowIndustries, navClicked, setNavClicked, menuId, setMenuId })
-        , [isLargeScreen, showAbout, setShowAbout, showAbout2, setShowAbout2, showServices, setShowServices, showIndustries, setShowIndustries, navClicked, setNavClicked, menuId, setMenuId])
+        ({ isLargeScreen, showAbout, setShowAbout, showAbout2, setShowAbout2, showServices, setShowServices, showIndustries, setShowIndustries, showInsights, setShowInsights, navClicked, setNavClicked, menuId, setMenuId })
+        , [isLargeScreen, showAbout, setShowAbout, showAbout2, setShowAbout2, showServices, setShowServices, showIndustries, setShowIndustries, showInsights, setShowInsights, navClicked, setNavClicked, menuId, setMenuId])
 
     return (
         <>
@@ -49,10 +51,11 @@ const Navbar = () => {
                                     <div className="services-a">SERVICES</div>
                                 </div>
                                 <Services />
-                                <div className="nav-item insights">
+                                <div className={`nav-item insights ${(showInsights && isLargeScreen) ? "nav-item-hover" : ""}`} onClick={() => setShowInsights(!showInsights)} onMouseOver={() => { if (isLargeScreen) setShowInsights(true)}} onMouseLeave={() => { if (isLargeScreen) setShowInsights(false)}}>
                                     <div className="insights-a">INSIGHTS</div>
                                 </div>
-                                <div className={`nav-item industries ${(showIndustries && isLargeScreen) ? "nav-item-hover" : ""}`} onClick={() => { console.log("set industries"); setShowIndustries(!showIndustries) }} onMouseOver={() => { if (isLargeScreen) setShowIndustries(true) }} onMouseLeave={() => { if (isLargeScreen) setShowIndustries(false) }}>
+                                <Insights />
+                                <div className={`nav-item industries ${(showIndustries && isLargeScreen) ? "nav-item-hover" : ""}`} onClick={() => { console.log("set industries"); setShowIndustries(!showIndustries) }} onMouseOver={() => { if (isLargeScreen) setShowIndustries(true) }} onMouseLeave={() => { if (isLargeScreen) setShowIndustries(false)}}>
                                     <div className="industries-a">INDUSTRIES</div>
                                 </div>
                                 <Industries />

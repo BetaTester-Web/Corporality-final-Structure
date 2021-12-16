@@ -79,7 +79,7 @@
   border-left: 1px solid #e1e2e2;
   border-top: 1px solid #e1e2e2;
 }
-.nav-item:hover > div{
+.nav-item:not(:last-child):hover > div {
   font-weight: 700 !important;
 }
 .contact::after{
