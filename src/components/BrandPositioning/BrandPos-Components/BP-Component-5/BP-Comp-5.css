@@ -131,7 +131,8 @@
   .bp-cp5-listbody {
     line-height: 22px;
     padding-right: 4%;
-    margin-top: 3%;
+    margin-top: 2%;
+    margin-bottom: 1%;
     width: 75% !important ;
   }
   .bp-cp5-listbodyimg {
@@ -198,7 +199,7 @@
     margin-top: 21%;
   }
   .bp-cp5-listbody {
-    line-height: 15px;
+    line-height: 18px;
     padding-right: 4%;
     margin-top: 1%;
     width: 75% !important ;
@@ -271,7 +272,7 @@
 }
 @media screen and (max-width: 475px) {
   .bp-cp5-listbody {
-    line-height: 18px;
+    line-height: 15px;
 
     margin-top: 3%;
     width: 65% !important ;
@@ -284,6 +285,14 @@
     padding: 0%;
     width: 120% !important;
     margin-left: auto !important;
+  }
+  .endbutton {
+    width: 25%;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 4%;
+    margin-bottom: 4% !important;
+    text-align: center;
   }
 }
 @media screen and (max-width: 360px) {
@@ -306,7 +315,7 @@
     line-height: 15px;
     font-size: 10px;
     padding-right: 5%;
-    margin-top: 1%;
+    margin-top: 2%;
     width: 65% !important ;
     padding-left: 1%;
     margin-bottom: 1%;
@@ -330,8 +339,8 @@
     width: 27%;
     font-size: 12px;
     line-height: 16px;
-    margin-top: 2%;
-    margin-bottom: 2% !important;
+    margin-top: 4%;
+    margin-bottom: 4% !important;
     text-align: center;
   }
   .accordion-button {
