@@ -18,7 +18,7 @@ export default function Login() {
                 password: passwordRef.current.value,
             });
             dispatch({ type: "LOGIN_SUCCESS", payload: res.data });
-            window.location.reload();
+            window.location.replace("/write");
         } catch (err) {
             dispatch({ type: "LOGIN_FAILURE" });
         }
