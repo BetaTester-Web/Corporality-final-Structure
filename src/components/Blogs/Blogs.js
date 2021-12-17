@@ -254,7 +254,7 @@ function Blogs() {
     ]
     const [articles, setarticles] = useState(hardCodedPosts);
     const [currentPage, setCurrentPage] = useState(1);
-    const [postsPerPage] = useState(2);
+    const [postsPerPage] = useState(6);
     const { search } = useLocation();
 
     useEffect(() => {

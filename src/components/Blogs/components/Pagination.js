@@ -38,7 +38,7 @@ const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
         } else {
             return (
                 pageNumbers.map(number => (
-                    <div className="paginationNumber" onClick={() => paginate(number)}>{number}</div>
+                    <div className={"paginationNumber" + (currentPage===number ? " active" : "") + ""} onClick={() => paginate(number)}>{number}</div>
                 ))
             );
         }
@@ -60,7 +60,6 @@ const Pagination = ({ postsPerPage, totalPosts, paginate, currentPage }) => {
                     </div>
                 </div>
             </div>
-
         </>
     );
 }
