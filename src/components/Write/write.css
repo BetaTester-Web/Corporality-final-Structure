@@ -1,3 +1,38 @@
 .write{
     margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.writeForm .philosophySubmitButton {
+    all: unset;
+    background: linear-gradient(95.12deg, #eed979 0%, #4f8cad 83.42%);
+    position: relative;
+    z-index: 1 !important;
+    padding: 10px 25px;
+    margin-top: 15px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.writeForm .philosophySubmitButton::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 83.42%);
+    z-index: -1 !important;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.writeForm .philosophySubmitButton:hover::after {
+    opacity: 1;
+}
+
+.writeForm .customInput input{
+    border: 1px solid #e1e1e1;
 }

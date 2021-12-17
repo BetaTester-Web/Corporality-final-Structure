@@ -79,7 +79,7 @@ function Blogs() {
                                 date={article.date}
                                 slug={article.slug}
                                 comments={article.likes} />
-                            {article.date}
+                            {/* {article.date} */}
                         </div>
                     ))}
                 </div>
