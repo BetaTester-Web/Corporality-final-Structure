@@ -8,7 +8,8 @@ function truncate(text, size) {
 }
 
 function BlogCard(props) {
-    const PF = "http://localhost:5000/images/";
+    // const PF = "http://localhost:5000/images/";
+    const PF = "";
 
     return (
         <div className="blogCard shadow">
