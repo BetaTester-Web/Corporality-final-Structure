@@ -7,12 +7,10 @@ export default function Banner() {
 			<div className="DDMBanner d-xl-flex  justify-content-between">
 				
 				<div className="DDMBannerText">
-					<h1>Effective Digital Media
+					{/* <h1>Effective Digital Media
 						Marketing Strategy for Small and Large Business</h1>
-					<p>Head to toe strategy focused Digital Media Marketing</p>
-				<div className="DDMBannerDiscoveryButton">
-					
-						<h1 className="heading animate two">
+					<p>Head to toe strategy focused Digital Media Marketing</p> */}
+					<h1 className="heading animate two">
 									<span>Effective</span>
 									&nbsp;
 									<span>Digital</span>
@@ -32,7 +30,7 @@ export default function Banner() {
 									<span>Business</span>
 								</h1>
 					<p data-aos="fade-right" data-aos-delay="400">Head to toe strategy focused Digital Media Marketing</p>
-				</div>
+				
 				<div className="DDMBannerDiscoveryButton" data-aos="fade-right" data-aos-delay="800">
 					<button>Book Your Discovery Session</button>
 				</div>
@@ -57,7 +55,7 @@ export default function Banner() {
 					</a>
 				</div>
 				</div>
-				<div className="DDMBannerImag d-flex justify-content-end ">
+				<div className="DDMBannerImage d-flex justify-content-end ">
 					<img src="./img/DigitalMediaMarketing/img/Banner/DDMBannerImage.png" />
 				</div>
 				<div className="DDMBannerRectangleBlue">
