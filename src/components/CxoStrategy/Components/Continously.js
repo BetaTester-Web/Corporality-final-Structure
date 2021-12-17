@@ -12,7 +12,7 @@ export default function Continously() {
 
   return (
     <>
-      <div className="CxoContainer">
+      <div className="container">
         <div class="video-box-container ">
           <video
             data-aos="fade-right"

@@ -9,7 +9,7 @@ export default function Differentiate() {
   });
   return (
     <>
-      <div className="CxoContainer">
+      <div className="container">
         <div class="differentiate">
           <div class="row position-relative">
             <div class="" data-aos="fade-right" data-aos-duration="3000" class="col cxo-landing-page">
