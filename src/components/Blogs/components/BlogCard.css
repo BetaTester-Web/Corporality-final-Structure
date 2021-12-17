@@ -17,11 +17,11 @@
     transition: all 0.8s;
     transform: scale(1);
     display: block;
-    /* border: 1px solid red; */
 }
 
 .blogThumbnail:hover{
     transform: scale(1.05);
+    object-position: 0 75%;
 }
 
 .blogContent {
