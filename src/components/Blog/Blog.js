@@ -1,48 +1,147 @@
-import "bootstrap/dist/css/bootstrap.min.css"
-import 'bootstrap/dist/js/bootstrap.min.js'
+import React, { useEffect, useRef, useState } from 'react'
+import BlogTop from './components/BlogTop'
 import "./Blog.css"
-import Input from "./components/Input"
-import Button from "./components/Button";
-import thumbnail from "./img/thumbnail.png";
-import BlogCard from "./components/BlogCard";
-import search from "./img/search.svg"
-import blogTopLeft from "./img/blog-top-left.png"
-import searchIcon from "./img/search-icon.png"
-import DropDown from "./components/DropDown";
+import axios from 'axios';
+import {Navigate, useNavigate, useParams} from 'react-router-dom'
+import InView, { observe, useInView } from 'react-intersection-observer';
 
-function Blog() {
-    return (
-        <div className="blogContainer">
-            <div className="blogSubscription">
-                <h3>Subscribe to Business Insight?</h3>
-                <input type="email" placeholder="Email Address" />
-                <select name="Select Country" id="contrySelect">
-                    <option value="0">Select Country</option>
-                    <option value="1">Australia</option>
-                    <option value="2">India</option>
-                    <option value="3">USA</option>
-                    <option value="4">UK</option>
-                </select>
-                <div className="subscribeButton">Subscribe</div>
-            </div>
-            <div className="blogMarket">
-                <img src={blogTopLeft} alt="" />
-                <div>
-                    <h3>Do you want me to do your marketing for you?</h3>
-                    <div>Yes, I want</div>
-                </div>
-            </div>
-            <div className="blogCustomizer">
-                <DropDown className="blogDropDown" initial="Recent Post" list={['Recent Post']} />
-                <div className="blogSearchInput">
-                    <input type="text" placeholder="Search" />
-                    <img src={searchIcon} alt="" />
-                </div>
-                <DropDown className="blogDropDown" initial="Select Category" list={['Corporate Strategy','Digital Media Marketing', 'Lead Gen and Sales Strategy', 'Marketing Strategy for 2021', 'Product Strategy', 'Professional Practices Strategy', 'Website Blueprint']} />
-            </div>
-        
-        </div>
-    );
+var monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+
+function dateFormat(d){
+  var t = new Date(d);
+  return monthNames[t.getMonth()]+' ' + t.getDate()+', '+t.getFullYear();
 }
 
-export default Blog;
+const Blog = () => {
+    const shareRight = useRef();
+    const blogContent = useRef();
+    const navigate = useNavigate();
+    const params = useParams();
+    const [blog, setBlog] = useState({});
+    const [loading, setLoading] = useState(true);
+    // const {blogContent, entry} = useInView({trackVisibility: true, delay: 100})
+    const [share, setShare] = useState(false)
+    // const blog = {
+    //     title: "What leaders must know about branding and the Vampire Effect | Corporality Global",
+    //     htmlString: htmlString,
+    //     photo: "https://corporality.global/wp-content/uploads/2021/07/Blog-IMG_CEOs-must-strategize-celebrity-endorsements-for-their-brands-2048x1020.jpg",
+    //     likes: "100",
+    //     slug: "what-leaders-must-know-about-branding-and-the-vampire-effect-|-corporality-global",
+    //     date: "2021-12-14 18:18:32"
+    // }
+    const windowSize = "menubar=no,toolbar=no,status=no,width=570,height=570"; // for window
+    useEffect( async() => {
+        console.log(params.article_name)
+        const blogData = await axios.get(`http://localhost:5000/api/articles/${params.article_name}`)
+        if(Object.keys(blogData.data).length === 0){
+            navigate("/");
+            return;
+        }
+        setBlog(blogData.data);
+        setLoading(false)
+        console.log(blogData.data)
+        
+    },[])
+
+    return (
+        <>
+            <BlogTop />
+            {loading? null :
+            <div className='blogContainer'>
+                <div className="blogHead">
+                    <div className='blogImageWrapper'>
+                        <img src={`http://localhost:5000/images/${blog.photo}`} alt="" />
+                    </div>
+                    <div className='likeShare'>
+                        <span>
+                        <i class="fa fa-calendar"></i>
+                            {dateFormat(blog.date.split(' ')[0])}
+                            {/* {new Date(blog.date).toDateString().split(" ").filter((ele, i) => i > 0).join(" ")} */}
+                        </span>
+                        |
+                        <span>
+                            <i className="fa fa-thumbs-up"></i>
+                            {blog.likes} LIKES
+                        </span>
+                    </div>
+                    <h2 className="blogTitle">{blog.title}</h2>
+                </div>
+                
+                <InView onChange={setShare} ref={blogContent} className='blogContent' dangerouslySetInnerHTML={{__html: blog.description}}></InView>
+                
+                <div className="blogBottom">
+                    <h4>
+                        Share this content:
+                    </h4>
+                    <div className="blogShareContainer">
+                        <span onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`, "NewWindow" , windowSize)}>
+                            <i class="fa fa-facebook"></i>
+                            <span className='d-flex flex-row align-items-center justify-content-center'>
+                                Facebook
+                            </span>
+                        </span>
+                        <span onClick={() => window.open(`https://twitter.com/intent/tweet?url=${window.location.href}`, "NewWindow" , windowSize)}>
+                            <i class="fa fa-twitter"></i>
+                            <span className='d-flex flex-row align-items-center justify-content-center'>
+                                Twitter
+                            </span>
+                        </span>
+                        <span onClick={() => null }>
+                            <i class="fa fa-pinterest"></i>
+                            <span className='d-flex flex-row align-items-center justify-content-center'>
+                                Pinterest
+                            </span>
+                        </span>
+                        <span onClick={() => window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`, "NewWindow" , windowSize)}>
+                            <i class="fa fa-linkedin"></i>
+                            <span className='d-flex flex-row align-items-center justify-content-center'>
+                                LinkedIn
+                            </span>
+                        </span>
+                        <span>
+                            <i class="fa fa-envelope"></i>
+                            <span className='d-flex flex-row align-items-center justify-content-center'>
+                                Email
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            }           
+            {share ? <div ref={shareRight} className="blogShareContainer shareRight">
+                <span onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`, "NewWindow" , windowSize)}>
+                    <i class="fa fa-facebook"></i>
+                    <span className='d-flex flex-row align-items-center justify-content-center'>
+                        Facebook
+                    </span>
+                </span>
+                <span onClick={() => window.open(`https://twitter.com/intent/tweet?url=${window.location.href}`, "NewWindow" , windowSize)}>
+                    <i class="fa fa-twitter"></i>
+                    <span className='d-flex flex-row align-items-center justify-content-center'>
+                        Twitter
+                    </span>
+                </span>
+                <span onClick={() => null }>
+                    <i class="fa fa-pinterest"></i>
+                    <span className='d-flex flex-row align-items-center justify-content-center'>
+                        Pinterest
+                    </span>
+                </span>
+                <span onClick={() => window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${window.location.href}`, "NewWindow" , windowSize)}>
+                    <i class="fa fa-linkedin"></i>
+                    <span className='d-flex flex-row align-items-center justify-content-center'>
+                        LinkedIn
+                    </span>
+                </span>
+                <span>
+                    <i class="fa fa-envelope"></i>
+                    <span className='d-flex flex-row align-items-center justify-content-center'>
+                        Email
+                    </span>
+                </span>
+            </div> : null }
+        </>
+    )
+}
+
+export default Blog

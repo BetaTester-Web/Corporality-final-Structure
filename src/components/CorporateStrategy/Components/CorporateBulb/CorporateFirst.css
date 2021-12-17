@@ -312,7 +312,7 @@
   }
 
   .corporatefirst_icontext_container {
-    margin-left: 30px !important;
+    margin-left: 50px !important;
   }
 }
 
@@ -508,7 +508,8 @@
   }
 
   .corporatefirst_small_stars {
-    top: -100px;
+    top: -150px;
+    left: 0;
   }
 
   .bulb_glow {
@@ -520,7 +521,7 @@
   }
 
   .main_bulb_bulb_image {
-    left: 110px;
+    left: 130px;
     top: 150px;
   }
 
@@ -621,5 +622,28 @@
     position: absolute;
     bottom: 155px;
     left: 175px;
+  }
+
+  .corporatefirst_left_text {
+    padding-left: 10px !important;
+    padding-right: 0px !important;
+  }
+
+  .corporatefirst_text_heading {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .corporatefirst_text_description {
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  .corporatefirst_text_button button {
+    padding: 8px 10px !important;
+  }
+
+  .corporatefirst_text_button {
+    font-size: 14px;
   }
 }
