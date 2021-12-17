@@ -14,7 +14,7 @@ function BlogCard(props) {
     return (
         <div className="blogCard shadow">
             <div className="row">
-                <div className="col-12 blogThumbnailDiv">
+                <div className="col-12 blogThumbnailDiv px-0">
                     {props.thumbnail && <img src={PF + props.thumbnail} className="blogThumbnail" alt="blog thumbnail" />}
                 </div>
                 <div className="col-12 blogContent">
@@ -24,7 +24,7 @@ function BlogCard(props) {
                     <a href={"/blog/" + props.slug} className="blogReadMore" style={{"color": "#6CA0BC"}}>Read more</a>
                 </div>
                 <div className="col-12 blogInformation">
-                {new Date(props.date).toDateString()} | <img src={commentBubble} alt="" /> ({props.comments}) Comments
+                {new Date(props.date).toDateString()} | <img src={commentBubble} alt="" /> ({props.likes}) Likes
                 </div>
             </div>
         </div>

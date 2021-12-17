@@ -1,5 +1,5 @@
 .blogContainer {
-    margin: 80px auto 0 auto;
+    margin: 80px auto 0 auto!important;
     width: 100%;
     font-size: calc(14px + 0.15vw);
 }
