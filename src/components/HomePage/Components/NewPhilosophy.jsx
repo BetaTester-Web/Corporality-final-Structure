@@ -85,7 +85,7 @@ const NewPhilosophy = () => {
                 placeholder=""
               />
             </div>
-            <a href="mailto:someone@example.com">
+            <a href="mailto:connect@corporality.global">
               <button type="button" class="philosophySubmitButton">
                 Submit
               </button>

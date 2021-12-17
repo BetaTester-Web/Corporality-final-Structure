@@ -130,7 +130,7 @@ export default function Footer() {
                   analysed by Corporality as outlined in this Privacy Policy.*
                 </p>
               </div>
-              <a href="mailto:someone@example.com">
+              <a href="mailto:connect@corporality.global">
                 <div className="footer-button-wrapper">
                   <button type="button" class="footerButton">
                     Subscribe
