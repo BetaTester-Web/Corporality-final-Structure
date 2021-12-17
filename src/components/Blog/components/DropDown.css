@@ -61,4 +61,17 @@
   all: unset !important;
   font-size: 1em !important;
 }
+
+.customDropDown .recentPostContainer {
+  width: 200%;
+}
+
+.customDropDown .recentPostContainer li img {
+  height: 100% !important;
+  width: 40px;
+}
+
+.customDropDown .recentPostContainer li a {
+  margin-left: 20px !important;
+}
 /*# sourceMappingURL=DropDown.css.map */
