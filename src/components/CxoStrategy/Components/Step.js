@@ -4,7 +4,7 @@ import "./CxoStrategy.css"
 export default function Step() {
   return (
     <>
-      <div className="CxoContainer">
+      <div className="container">
         <div className="">
           <div className="row corporality">
             <div className="col-lg-6 ">

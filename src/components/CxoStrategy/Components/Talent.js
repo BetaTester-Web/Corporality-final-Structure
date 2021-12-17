@@ -53,7 +53,7 @@ export default function Talent() {
 
   return (
     <>
-      <div className="CxoContainer">
+      <div className="container">
         <div className="talent">
           <h1
             className="Talent-heading"

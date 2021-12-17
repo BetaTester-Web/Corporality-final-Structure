@@ -11,7 +11,7 @@ export default function Charge() {
 
   return (
     <>
-      <div className="CxoContainer">
+      <div className="container">
         <div data-aos="fade-up" data-aos-delay="900" className="charge-vertical-strip"></div>
 
         <div className=" charge-horizontal-strip">

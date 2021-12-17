@@ -9,7 +9,7 @@ body {
 
 /*########## Differentiate ############*/
 .differentiate {
-  /* margin-top: 10% !important; */
+  margin-top: 3% !important;
 
   display: flex;
   justify-content: space-between;
@@ -21,7 +21,7 @@ body {
 } */
 
 .cxo-landing-page {
-  padding: 10%;
+  padding-top: 10%;
   margin-left: 0% !important;
   width: 40% !important;
 }
@@ -472,7 +472,7 @@ body {
   z-index: 3;
 
   margin-top: 500px !important;
-  margin-left: 700px !important;
+  margin-left: 530px !important;
 }
 
 .charge-img-2 {
@@ -984,16 +984,16 @@ button:focus {
 .Talent-box-outer-1 {
   border-style: dotted dotted solid solid;
   transform: rotate(-45deg);
-  padding: 12% !important;
-  margin: 13% !important;
+  padding: 11% !important;
+  margin: 14% !important;
   border-color: #33657e;
 }
 
 .Talent-box-outer-2 {
   border-style: solid solid dotted dotted;
   transform: rotate(-45deg);
-  padding: 12% !important;
-  margin: 13% !important;
+  padding: 11% !important;
+  margin: 14% !important;
   border-color: #33657e;
 }
 
@@ -1266,7 +1266,7 @@ button:focus {
   margin-top: 16% !important;
   padding-top: 3% !important;
   /* margin-right: -70% !important; */
-  margin-left: 20% !important;
+  margin-left: 12% !important;
   padding-bottom: 0% !important ;
   margin-bottom: 16% !important;
 
@@ -1281,7 +1281,7 @@ button:focus {
   position: absolute;
   width: fit-content;
   width: 110%;
-  margin-left: -20px !important;
+  margin-left: -120px !important;
 }
 
 .cxo-video-box-container > h1 {
@@ -1531,6 +1531,7 @@ button:focus {
 /*cxo-leverage-top-paragraph*/
 .leverage {
   padding-bottom: 5%;
+  
 }
 
 .cxo-leverage-heading {
@@ -1564,9 +1565,11 @@ button:focus {
 /*cards*/
 .cxo-card-1-col {
   padding-top: 5% !important;
+  padding-left: 8% !important;
 }
 .cxo-card-2-col {
   padding-top: 5% !important;
+  padding-left: 8% !important;
 }
 
 /*cxo-leverage-cards*/

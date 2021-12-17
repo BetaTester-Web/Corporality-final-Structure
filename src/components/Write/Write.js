@@ -33,7 +33,7 @@ export default function Write() {
         }
         try {
             const res = await axios.post("/articles", newarticle);
-            window.location.replace("/articles/" + res.data.slug);
+            window.location.replace("/blog/" + res.data.slug);
         } catch (err) { console.log(err) }
     };
     return (
@@ -43,8 +43,8 @@ export default function Write() {
             )}
             <form className="writeForm" onSubmit={handleSubmit}>
                 <div className="writeFormGroup">
-                    <label htmlFor="fileInput">
-                        <i className="writeIcon fas fa-plus"></i>
+                    <label htmlFor="fileInput" className="philosophySubmitButton mb-2">
+                        Upload blog cover image
                     </label>
                     <input
                         type="file"
@@ -52,13 +52,13 @@ export default function Write() {
                         style={{ display: "none" }}
                         onChange={(e) => setFile(e.target.files[0])}
                     />
-                    <input
-                        type="text"
+                    <div className="customInput mt-3 mb-2">
+                        <label htmlFor="philosophyFirstName" className={title && "labelToTop"}></label>
+                        <input type="text"
                         placeholder="Title"
-                        className="writeInput"
                         autoFocus={true}
-                        onChange={e => setTitle(e.target.value)}
-                    />
+                        onChange={e => setTitle(e.target.value)} className={title && "activeInput"} required />
+                    </div>
                 </div>
                 <div className="writeFormGroup">
                     <CKEditor
@@ -66,7 +66,7 @@ export default function Write() {
                         content={desc}
                         onChange={e => setDesc(e.editor.getData())} />
                 </div>
-                <button className="writeSubmit" type="submit">
+                <button type="submit" class="philosophySubmitButton d-flex align-items-center justify-content-center">
                     Submit
                 </button>
             </form>

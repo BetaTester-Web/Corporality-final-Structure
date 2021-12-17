@@ -140,6 +140,9 @@
         font-size: 12px !important;
         padding-right: 0px !important;
     }
+    .prev2{
+        margin-bottom: 230px !important;
+    }
 }
 
 @media (max-width:677px) {
@@ -156,6 +159,13 @@
 @media (max-width:654px) {
     .side2-container {
         top: 600px !important;
+    }
+}
+
+@media(max-width:576px){
+    .texting-2{
+        margin-left: 10px !important;
+        padding-right: 30px !important;
     }
 }
 

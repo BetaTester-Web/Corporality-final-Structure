@@ -18,7 +18,7 @@ export default function PPComp2() {
                 <img className="ppc2Img2back" src={img2back} alt="" />
                 <div className="row d-flex flex-row ppc2RowContainer">
                     <div className="col p-0">
-                        <div data-aos="fade-right" data-aos-duration="1000" className="ppc2ImgWrapper">
+                        <div data-aos="fade-right" data-aos-duration="2000" className="ppc2ImgWrapper">
                             <div className="ppc2MainImg">
                                 <img className="ppc2Img2" src={img2} alt="" />
                             </div>
@@ -28,9 +28,9 @@ export default function PPComp2() {
                     </div>
                     <div className="col p-0 ppc2ColContainer">
                         <div className="ppc2ColTextWrapper">
-                            <p data-aos="fade-left" data-aos-duration="500"className="ppcHeading">Conversations with more than 100 entrepreneurs across the globe</p><br />
-                            <p className="ppcText" data-aos="fade-left" data-aos-delay="300" data-aos-duration="500">We have spoken to global leaders from manufacturing, to medtech, to hospitality and geospatial initiators.</p><br />
-                            <a data-aos="fade-left" data-aos-delay="600" data-aos-duration="500"className='ppc2Button' href="/#">Check out Our set of Interviews</a>
+                            <p data-aos="fade-left" data-aos-duration="2000"className="ppcHeading">Conversations with more than 100 entrepreneurs across the globe</p><br />
+                            <p className="ppcText" data-aos="fade-left" data-aos-delay="300" data-aos-duration="2000">We have spoken to global leaders from manufacturing, to medtech, to hospitality and geospatial initiators.</p><br />
+                            <a data-aos="fade-left" data-aos-delay="600" data-aos-duration="2000"className='ppc2Button' href="/#">Check out Our set of Interviews</a>
                         </div>
                     </div>
                 </div>
