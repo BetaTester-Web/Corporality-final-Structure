@@ -14,10 +14,10 @@
     margin-top: 3%;
 }
 .upArrow{
-    margin-bottom: 5.5vw !important;
+    margin-bottom: 6vw !important;
 }
 .downArrow{
-    margin-top: 6vw !important;
+    margin-top: 6.5vw !important;
 }
 .bpcp3xAllign{
     margin-left: -4% !important;
@@ -26,6 +26,7 @@
     font-size: 1.1vw;
     color: #33657E;
     font-weight: 500;
+    margin-top: 10px !important;
 }
 .bpcp3Description{
     width: 180px;
