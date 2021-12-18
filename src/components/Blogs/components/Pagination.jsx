@@ -2,7 +2,7 @@ import React from 'react';
 import rightArrow from "../img/rightArrow.png";
 import leftArrow from "../img/leftArrow.png";
 
-const Pagination2 = ({ totalArticles, paginate, currentPage }) => {
+const Pagination = ({ totalArticles, paginate, currentPage }) => {
     const pageNumbers = [];
     const totalPages = Math.ceil(totalArticles / 6);
     console.log(totalPages);
@@ -38,8 +38,8 @@ const Pagination2 = ({ totalArticles, paginate, currentPage }) => {
             }
         } else {
             return (
-                pageNumbers.map(number => (
-                    <div className={"paginationNumber" + (currentPage===number ? " active" : "") + ""} onClick={() => paginate(number)}>{number}</div>
+                pageNumbers.map((number, index) => (
+                    <div key={index} className={"paginationNumber" + (currentPage===number ? " active" : "") + ""} onClick={() => paginate(number)}>{number}</div>
                 ))
             );
         }
@@ -65,4 +65,4 @@ const Pagination2 = ({ totalArticles, paginate, currentPage }) => {
     );
 }
 
-export default Pagination2;
+export default Pagination;

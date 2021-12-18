@@ -12,9 +12,10 @@ import { useParams } from "react-router-dom";
 
 
 function Blogs() {
+    const [loading, setLoading] = useState(true)
     const [articles, setArticles] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
-    const [showArticles, setShowArticles] = useState([articles])
+    const [showArticles, setShowArticles] = useState([])
     const [totalArticles, setTotalArticles] = useState(1);
 
     const params = useParams();
@@ -25,14 +26,18 @@ function Blogs() {
         if(params.search_string){
             console.log("searching")
             const res = await axios.get(`/articles/search/${params.search_string}/1`);
+            console.log(res.data)
             setArticles(res.data);
             setShowArticles(res.data.slice(0, res.data.length-1));
             setTotalArticles(Math.ceil(res.data[res.data.length-1].count));
+            setLoading(false);
         }else{
             const res = await axios.get("/articles/page/1");
+            console.log(res.data)
             setArticles(res.data);
             setShowArticles(res.data.slice(0, res.data.length-1));
             setTotalArticles(Math.ceil(res.data[res.data.length-1].count));
+            setLoading(false);
         }
     }, [params]);
     
@@ -52,7 +57,10 @@ function Blogs() {
     return (
         <>
             <BlogTop blogState={ {articles, showArticles, setShowArticles} } />
-            <div className="container mx-auto blogs-container-4 my-2 mb-5">
+            { loading?
+                null
+                :
+                <div className="container mx-auto blogs-container-4 my-2 mb-5">
                 <div className="row justify-content-between">
                     <div className="dividerLine px-0"></div>
                     {showArticles.map((article) => (
@@ -73,6 +81,7 @@ function Blogs() {
                     setCurrentPage={setCurrentPage}
                 />
             </div>
+           }
         </>
     );
 }
