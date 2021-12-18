@@ -16,7 +16,7 @@ const Insights = () => {
         <OutsideClickHandler className="outside-handler" onOutsideClick={() => setShowInsights(false)}>
             <div className={`insights-container ${showInsights? "" : "hidden"}`} onMouseOver={() => {if(isLargeScreen) setShowInsights(true)}} onMouseLeave={() => {if(isLargeScreen) setShowInsights(false)}}>
                 <div className="insights-container-body">
-                    <div className="insights-container-body-section" onClick={() => {closeOnLink();navigate("/blogs")}}>
+                    <div className="insights-container-body-section" onClick={() => {closeOnLink();navigate("/blog")}}>
                         <h6>Blogs</h6>
                         <div className="diamond-line"></div>
                     </div>

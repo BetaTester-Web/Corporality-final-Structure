@@ -38,6 +38,7 @@ function App() {
           <Navbar />
           {/* {user && <h1 className="logout" onClick={handleLogout}>logout</h1>} */}
           <Routes>
+            
             <Route path="/" element={<HomePage />} />
 
             <Route path="/about-corporality" element={<AboutCorporality />} />
@@ -48,9 +49,7 @@ function App() {
 
             <Route path="/write" element={user ? <Write /> : <Register />} />
 
-            <Route path="/blogs" element={<Blogs />}/>
-
-            <Route path="/blog" element={<Blog />}/>
+            <Route path="/blog" element={<Blogs />}/>
 
             <Route path="/brand-positioning" element={<BrandPositioning />} />
 
@@ -77,7 +76,9 @@ function App() {
             <Route path="/sustainable-growth" element={<SustainableGrowth />} />
 
             <Route path="/work-with-clients" element={<WorkWithClient />} />
-              
+
+            <Route path="/search/:search_string" element={<Blogs />}/>
+            
             <Route path="/articles/:article_name" element={<Blog />}/>
  
             <Route path="/:article_name" element={<Blog />}/>
