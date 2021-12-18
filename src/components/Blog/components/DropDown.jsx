@@ -18,12 +18,15 @@ const DropDown = ({initial, list, className, loading}) => {
                 {select}
             </button>
             {
-                initial !== "Recent Post" && !loading?
-                <ul className={`dropdown-menu${initial=="Recent Post"? " recentPostContainer" : ""}`} aria-labelledby="dropdownMenuButton2">
+                initial !== "Recent Post"?
+                <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton2">
                     {
                         list.map((item, index) => <li key={index} onClick={() => setSelect(item)}><a className="dropdown-item" href="#">{item}</a></li>)
                     }
                 </ul>
+                :
+                loading?
+                null
                 :
                 <ul className={`dropdown-menu${initial=="Recent Post"? " recentPostContainer" : ""}`} aria-labelledby="dropdownMenuButton2">
                     {
