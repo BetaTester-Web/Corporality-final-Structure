@@ -26,13 +26,13 @@ function Blogs() {
             console.log("searching")
             const res = await axios.get(`/articles/search/${params.search_string}/1`);
             setArticles(res.data);
-            setShowArticles(res.data.splice(0, res.data.length-1));
-            setTotalArticles(Math.ceil(res.data[0].count));
+            setShowArticles(res.data.slice(0, res.data.length-1));
+            setTotalArticles(Math.ceil(res.data[res.data.length-1].count));
         }else{
             const res = await axios.get("/articles/page/1");
             setArticles(res.data);
-            setShowArticles(res.data.splice(0, res.data.length-1));
-            setTotalArticles(Math.ceil(res.data[0].count));
+            setShowArticles(res.data.slice(0, res.data.length-1));
+            setTotalArticles(Math.ceil(res.data[res.data.length-1].count));
         }
     }, [params]);
     
