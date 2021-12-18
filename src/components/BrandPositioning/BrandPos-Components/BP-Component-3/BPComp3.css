@@ -17,7 +17,7 @@
     margin-bottom: 6vw !important;
 }
 .downArrow{
-    margin-top: 4vw !important;
+    margin-top: 6.5vw !important;
 }
 .bpcp3xAllign{
     margin-left: -4% !important;
@@ -26,6 +26,7 @@
     font-size: 1.1vw;
     color: #33657E;
     font-weight: 500;
+    margin-top: 5px !important;
 }
 .bpcp3Description{
     width: 180px;
@@ -34,7 +35,7 @@
 }
 .bpcp3Ellipse1{
     width: 100% !important;
-    margin-top: 10px !important;
+    margin-top: 30px !important;
     animation-name: bounce1;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -44,7 +45,7 @@
     width: 100% !important;
 }
 .bpcp3Ellipse2 > img{
-    margin-top: -1vw !important;
+    margin-top: 0px !important;
     width: 100% !important;
 }
 @keyframes bounce1{
@@ -66,13 +67,13 @@
 }
 @keyframes bounce2{
     from{
-        transform: translateY(-105px);
+        transform: translateY(-119px);
     }
     50%{
-        transform: translateY(-95px);
+        transform: translateY(-105px);
     }
     to{
-        transform: translateY(-105px);
+        transform: translateY(-119px);
     }
 }
 @media only screen and (max-width :1024px){
