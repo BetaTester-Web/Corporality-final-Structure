@@ -12,7 +12,7 @@ import yellowbackground from './yellowbackground.png'
 
 const Clients = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 , disable: 'mobile' });
+        aos.init({ duration: 3000 });
 
     }, [])
     return (

@@ -109,3 +109,17 @@
     margin-right: 10px !important;
   }
 }
+
+@media(max-width:768px){
+  .sacc3Right{
+    position: relative !important;
+    left: -15% !important;
+    margin-right: -30px !important;
+    padding-bottom: 30px !important;
+  }
+  .sacc3Button{
+    width: 100px !important;
+    height: 32px !important;
+    font-size: 12px !important;
+  }
+}

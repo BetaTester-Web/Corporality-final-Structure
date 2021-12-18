@@ -5,7 +5,6 @@ import SACComp3 from './Components/SACComp3'
 import SACComp5 from './Components/SACComp5'
 import SACComp4 from './Components/SACComp4'
 import SACComp6 from './Components/SACComp6'
-import PolygonSC from './Components/PolygonSC'
 
 
 const StrategyAndConsulting = () => {
@@ -17,9 +16,6 @@ const StrategyAndConsulting = () => {
             <SACComp4 />
             <SACComp5 />
             <SACComp6 />
-
-            <PolygonSC />
-            
         </div>
     )
 }

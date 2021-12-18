@@ -165,6 +165,14 @@
          
      }
  }
+
+@media(max-width:576px){
+    .texting-2-Faith{
+        margin-left: 10px;
+        padding-right: 30px;
+    }
+}
+
  @media (max-width:509px){
      .Inc_Div_our-faith-main-img-Faith{
          width: 200px !important;

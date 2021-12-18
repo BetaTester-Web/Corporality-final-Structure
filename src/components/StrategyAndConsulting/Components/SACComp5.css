@@ -2,14 +2,17 @@
     overflow: hidden;
     background-color: #F8F8F8;
     padding-bottom: 10px;
-    margin-top: 10px;
-    padding-top: 45px;
+    padding-top: 85px;
     padding-bottom: 100px;
 }
 
 .SACComp5_contoiner-3-Ideation {
     display: flex;
     align-items: center;
+}
+
+.SACComp5_third-image-Ideation{
+    padding-top: 85px;
 }
 
 .SACComp5_heading-text-1-main {
@@ -280,15 +283,18 @@
     }
 
     .SACComp5_container-3_text-1_heading-Ideation {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .SACComp5_container-3_text-2_heading-Ideation {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .SACComp5_container-3_text-3_heading-Ideation {
-        font-size: 18px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .SACComp5_container-3_text-1-Ideation {
@@ -304,6 +310,13 @@
     .SACComp5_container-3_text-3-Ideation {
         font-size: 12px;
         margin-right: 0px;
+    }
+}
+
+@media(max-width:576px){
+    .SACComp5_texting-third-Ideation{
+        margin-left: 10px;
+        padding-right: 30px;
     }
 }
 
@@ -339,6 +352,8 @@
     .SACComp5_third-image-Ideation {
         position: relative;
         left: 75px;
+        margin-bottom: -100px;
+        margin-top: -50px;
     }
 
     .SACComp5_wall3-Ideation {

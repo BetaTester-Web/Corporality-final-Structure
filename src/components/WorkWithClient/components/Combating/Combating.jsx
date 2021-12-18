@@ -8,7 +8,7 @@ import textrectCombating from "./text-rectCombating.png";
 
 const Combating = () => {
   useEffect(() => {
-    aos.init({ disable: 'mobile' });
+    aos.init({ duration:"2000" });
   }, []);
   return (
     <div className="COmbatinG">
@@ -20,7 +20,7 @@ const Combating = () => {
           <div className="col-lg-6 d-flex flex-column justify-content-center align-items-center">
             <div
               data-aos="fade-right"
-              data-aos-duration="2500"
+              data-aos-delay="1000"
               className=" Combating_images_column"
             >
               <div className="MainAndBack_Combating">
@@ -46,7 +46,7 @@ const Combating = () => {
           <div className="col-lg-6 ">
             <div
               data-aos="fade-left"
-              data-aos-duration="2500"
+              data-aos-delay="1000"
               className="Combating_texting_coloumn"
             >
               <p className="Combating_texting_column-1">

@@ -222,6 +222,13 @@ color: #33657E;
   }
 }
 
+@media(max-width:576px){
+  .SACC1_text-box-1{
+    margin-left: 10px !important;
+    padding-right: 30px !important;
+  }
+}
+
 @media (max-width:654px){
   .SACC1_banner_right_inner{
       width: 220px !important;

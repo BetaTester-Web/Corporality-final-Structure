@@ -22,7 +22,7 @@ const Ideation = () => {
             <div className="container contoiner-3-Ideation">
                 <div className="row">
                     <div className="col-lg-6 d-flex third-image-Ideation justify-content-center flex-column  align-items-center">
-                        <div data-aos="fade-right"  className='images-prev-3-Ideation'>
+                        <div data-aos="fade-right" data-aos-delay="3000"  className='images-prev-3-Ideation'>
                             <img alt='' className='smaller3-Ideation' src={smaller3Ideation} />
                             <img alt='' className='small3-Ideation' src={small3Ideation} />
                             <img alt='' className='wall3-Ideation' src={wall3Ideation} />

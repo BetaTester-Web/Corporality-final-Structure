@@ -259,7 +259,7 @@
     .backimg-Clients {
         width: 320px;
         height: 322.8px;
-        left: 5%;
+        left: 2%;
         top: 2%;
     }
 
@@ -295,9 +295,19 @@
     }
 }
 
+@media(max-width:576px){
+    .text-box-1-Clients{
+        margin-left: 10px;
+        padding-right: 30px;
+    }
+    .backimg-Clients{
+        left: 1%;
+    }
+}
+
 @media (max-width:508px) {
     .backimg-Clients {
-        left: 10%;
+        left: 3%;
     }
 }
 
