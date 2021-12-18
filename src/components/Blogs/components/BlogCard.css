@@ -1,7 +1,27 @@
+.blogThumbnailDiv{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: calc(var(--bs-gutter-x) * .5);
+}
+
+.blogCard .row{
+    max-width: 100%;
+}
+
 .blogThumbnail {
     width: 100%;
     object-fit: cover;
     max-height: 300px;
+    transition: all 0.8s;
+    transform: scale(1);
+    display: block;
+}
+
+.blogThumbnail:hover{
+    transform: scale(1.05);
+    object-position: 0 75%;
 }
 
 .blogContent {
@@ -11,6 +31,7 @@
     font-size: 16px;
     line-height: 23px;
     color: #757575;
+    width: 100%;
 }
 
 .blogHeading {

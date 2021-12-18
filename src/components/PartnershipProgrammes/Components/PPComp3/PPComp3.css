@@ -1,7 +1,7 @@
 .ppc3Container{
     position: relative;
     min-height: 378px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url(../images/img3.jpg);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)) ,     url(../images/img3.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .ppc3Heading{
     text-transform: capitalize;
 }

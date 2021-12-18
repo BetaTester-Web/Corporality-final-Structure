@@ -12,18 +12,19 @@
   line-height: 46px;
   text-transform: uppercase;
   color: #33657e;
-  margin-top: 15% !important;
-  margin-left: 5% !important;
+  margin-top: 38% !important;
+  margin-left: 12.5% !important;
 }
 
-.DDMBannerImag{
+.DDMBannerImage{
   /* position: absolute; */
-  right: 0;
-  /* padding-bottom: 100% !important; */
+  /* right: 0; */
+  margin-left: 7% !important;
+  padding-bottom: 0% !important;
 }
 
 .DDMBannerText > p {
-  margin-left: 10% !important;
+  margin-left: 12.5% !important;
   /* position: absolute; */
   width: 400px;
   height: 24px;
