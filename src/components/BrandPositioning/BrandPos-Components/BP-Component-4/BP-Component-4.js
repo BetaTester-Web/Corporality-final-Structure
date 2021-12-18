@@ -14,6 +14,11 @@ function BPComponent4() {
       <div className="BP-CP-4-img-d position-relative">
         <div className="BP-c4-d position-absolute end-0 top-0 translate-middle-y">
           <div data-aos="fade-left" data-aos-duration="1500">
+            <img
+              src="..\img\BrandPositioning\Group-1053srt.png"
+              alt="BP-CP-4"
+              className="BP-CP-4-img2 img-fluid"
+            />
             <h1 className="BP-c4-h">
               Articulating yourself - Creating magic from the basics{" "}
             </h1>
