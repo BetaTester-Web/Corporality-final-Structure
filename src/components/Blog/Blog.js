@@ -38,7 +38,6 @@ const Blog = () => {
         }
         setBlog(blogData.data);
         setLoading(false)
-        console.log(blogData.data)
         
     },[])
 
