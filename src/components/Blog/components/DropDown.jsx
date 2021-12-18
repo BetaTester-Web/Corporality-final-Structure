@@ -5,7 +5,7 @@ import purpc from "../img/purpc.png"
 import bluec from "../img/bluec.png"
 import yc from "../img/yc.png"
 
-const DropDown = ({initial, list, className}) => {
+const DropDown = ({initial, list, className, loading}) => {
     if(!list){
         list = []
     }
@@ -18,7 +18,7 @@ const DropDown = ({initial, list, className}) => {
                 {select}
             </button>
             {
-                initial !== "Recent Post"?
+                initial !== "Recent Post" && !loading?
                 <ul className={`dropdown-menu${initial=="Recent Post"? " recentPostContainer" : ""}`} aria-labelledby="dropdownMenuButton2">
                     {
                         list.map((item, index) => <li key={index} onClick={() => setSelect(item)}><a className="dropdown-item" href="#">{item}</a></li>)

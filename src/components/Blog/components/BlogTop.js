@@ -10,6 +10,7 @@ import { useNavigate } from "react-router-dom"
 
 function BlogTop() {
     const [recentArticles, setRecentArticles] = useState([]);
+    const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
     const searchRef = useRef();
     const search = () => {
@@ -23,6 +24,7 @@ function BlogTop() {
         const res = await axios.get("/articles/page/1");
         console.log(res.data)
         setRecentArticles(res.data.slice(0,6))
+        setLoading(false)
     },[])
     return (
         <div className="blogTopContainer">
@@ -48,7 +50,7 @@ function BlogTop() {
                 </div>
             </div>
             <div className="blogCustomizer">
-                <DropDown className="blogDropDown" initial="Recent Post" list={[...recentArticles]} />
+                <DropDown className="blogDropDown" initial="Recent Post" loading={loading} list={[...recentArticles]} />
                 <div className="blogSearchInput">
                     <input ref={searchRef} type="text" placeholder="Search" onKeyUp={(e) => {
                         console.log(e)
