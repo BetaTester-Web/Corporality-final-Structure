@@ -4,23 +4,26 @@ import "./BlogTop.css"
 import blogTopLeft from "../img/blog-top-left.png"
 import searchIcon from "../img/search-icon.png"
 import DropDown from "./DropDown";
+import { useEffect, useRef, useState } from "react"
+import axios from "axios"
+import { useNavigate } from "react-router-dom"
 
-function BlogTop({blogState}) {
-    const {searchArticles, setSearchArticles, articles} = blogState;
-    console.log(articles);
-    const handleBlogSearch = (e) => {
-        if(e.target.value.length > 0) {
-            let articlesList = articles.filter(article => {
-                let regex = new RegExp(e.target.value, "gi");
-                return article.title.match(regex) || article.description.match(regex);
-            })
-            setSearchArticles(articlesList);
-        }else{
-            setSearchArticles(articles);
+function BlogTop() {
+    const [recentArticles, setRecentArticles] = useState([]);
+    const navigate = useNavigate();
+    const searchRef = useRef();
+    const search = () => {
+        if(searchRef.current.value.length > 0) {
+            navigate(`/search/${searchRef.current.value}`);
+        }else if(searchRef.current.value.length === 0) {
+            navigate("/blog");
         }
     }
-
-
+    useEffect( async () => {
+        const res = await axios.get("/articles/page/1");
+        console.log(res.data)
+        setRecentArticles(res.data.slice(0,6))
+    },[])
     return (
         <div className="blogTopContainer">
             <div className="blogSubscription">
@@ -45,10 +48,18 @@ function BlogTop({blogState}) {
                 </div>
             </div>
             <div className="blogCustomizer">
-                <DropDown className="blogDropDown" initial="Recent Post" list={[...searchArticles]} />
+                <DropDown className="blogDropDown" initial="Recent Post" list={[...recentArticles]} />
                 <div className="blogSearchInput">
-                    <input type="text" placeholder="Search" onChange={(e) => handleBlogSearch(e)} />
-                    <img src={searchIcon} alt="" />
+                    <input ref={searchRef} type="text" placeholder="Search" onKeyUp={(e) => {
+                        console.log(e)
+                        if(e.code === "Enter" && searchRef.current.value !== ""){
+                            search()
+                        }else if(e.code === "Enter" && searchRef.current.value === ""){
+                            navigate("/blog")
+                        }
+
+                    }} />
+                    <img src={searchIcon} alt="search-icon" onClick={search} />
                 </div>
                 <DropDown className="blogDropDown" initial="Select Category" list={['Corporate Strategy','Digital Media Marketing', 'Lead Gen and Sales Strategy', 'Marketing Strategy for 2021', 'Product Strategy', 'Professional Practices Strategy', 'Website Blueprint']} />
             </div>

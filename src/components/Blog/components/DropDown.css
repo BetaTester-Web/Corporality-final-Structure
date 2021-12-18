@@ -62,16 +62,83 @@
   font-size: 1em !important;
 }
 
+.customDropDown .show {
+  display: -ms-grid !important;
+  display: grid !important;
+}
+
 .customDropDown .recentPostContainer {
-  width: 200%;
+  width: auto !important;
+  -ms-grid-columns: 280px 280px !important;
+      grid-template-columns: 280px 280px !important;
+  -ms-grid-rows: 70px 70px 70px !important;
+      grid-template-rows: 70px 70px 70px !important;
+  grid-column-gap: 10px !important;
+  grid-row-gap: 10px !important;
+  padding: 10px !important;
+}
+
+.customDropDown .recentPostContainer li {
+  color: #232323;
+  background-color: #F2F2F2 !important;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 8px !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-transition: all 0.1s ease-in-out !important;
+  transition: all 0.1s ease-in-out !important;
 }
 
 .customDropDown .recentPostContainer li img {
-  height: 100% !important;
-  width: 40px;
+  height: 90% !important;
+  border-radius: 50% !important;
 }
 
 .customDropDown .recentPostContainer li a {
-  margin-left: 20px !important;
+  font-size: 0.95em !important;
+  margin-left: 10px !important;
+  cursor: pointer !important;
+  width: 80% !important;
+  height: 90% !important;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.customDropDown .recentPostContainer li a p {
+  margin: 0 !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical !important;
+  -webkit-box-pack: center !important;
+  -webkit-line-clamp: 2 !important;
+}
+
+.customDropDown .recentPostContainer li:hover {
+  color: #232323 !important;
+  font-weight: 400 !important;
+  background-color: #FFFFFF !important;
+  -webkit-box-shadow: 0px 16px 40px 0px #0000001A;
+          box-shadow: 0px 16px 40px 0px #0000001A;
 }
 /*# sourceMappingURL=DropDown.css.map */

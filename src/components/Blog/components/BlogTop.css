@@ -125,6 +125,14 @@
           box-shadow: 0px 4px 8px 2px #0000000D;
 }
 
+.blogTopContainer .blogTopContainer .blogMarketWrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -webkit-box-shadow: 0px 4px 8px 2px #0000000D;
+  box-shadow: 0px 4px 8px 2px #0000000D;
+}
+
 .blogTopContainer .blogMarket {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,6 +265,22 @@
   color: #31647C;
 }
 
+.blogTopContainer .blogCustomizer .blogSearchInput input::-webkit-input-placeholder {
+  font-size: 1em;
+}
+
+.blogTopContainer .blogCustomizer .blogSearchInput input:-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.blogTopContainer .blogCustomizer .blogSearchInput input::-ms-input-placeholder {
+  font-size: 1em;
+}
+
+.blogTopContainer .blogCustomizer .blogSearchInput input::placeholder {
+  font-size: 1em;
+}
+
 .blogTopContainer .blogCustomizer .blogSearchInput img {
   height: 20px;
   width: 20px;
@@ -274,6 +298,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  .blogTopContainer {
+    font-size: calc(12px + 0.1vw);
+  }
   .blogTopContainer .blogSubscription h3 {
     width: 100%;
     text-align: center;
@@ -307,6 +334,9 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .blogTopContainer {
+    font-size: calc(10px + 0.11vw);
+  }
   .blogTopContainer .blogSubscription {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -333,6 +363,9 @@
 }
 
 @media only screen and (max-width: 360px) {
+  .blogTopContainer {
+    font-size: calc(10px + 0.1vw);
+  }
   .blogTopContainer .blogSubscription div {
     margin: 20px auto 0 auto;
     min-width: 110px;
