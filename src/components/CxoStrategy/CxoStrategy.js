@@ -13,7 +13,7 @@ function HomePage() {
       <Differentiate />
       <Charge />
       <Step />
-      {/* <Talent /> */}
+      <Talent />
       <Continously />
       <Leverage />
     </>
