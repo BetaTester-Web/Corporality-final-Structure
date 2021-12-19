@@ -129,9 +129,6 @@ a {
   .Global-text-1{
     margin-right: 0px !important;
   }
-}
-
-@media(max-width:768px) {
   .Global-text-1 {
     font-size: 16px !important;
     line-height: 25px !important;
@@ -143,6 +140,21 @@ a {
 
   .Global-text-3 {
     font-size: 14px !important;
+  }
+}
+
+@media(max-width:767.814268px) {
+  .Global-text-1 {
+    font-size: 14px !important;
+    line-height: 25px !important;
+  }
+
+  .Global-text-2 {
+    font-size: 12px !important;
+  }
+
+  .Global-text-3 {
+    font-size: 12px !important;
   }
 }
 

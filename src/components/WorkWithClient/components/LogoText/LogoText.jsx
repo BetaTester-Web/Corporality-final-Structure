@@ -4,7 +4,7 @@ import aos from 'aos'
 
 const LogoText = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 , disable: 'mobile' });
+        aos.init({ duration: 3000});
 
     }, [])
     return (

@@ -267,12 +267,39 @@
   }
 }
 
-@media (max-width: 1200px) {
+@media(max-width:1318px){
+  .Duty_image_card_1_top{
+    position: relative;
+    left: 3% !important;
+  }
+  .Duty-images-card-3{
+    position: relative;
+    left: 3% !important;
+  }
+  .Duty-images-card-2{
+    position: relative !important;
+    left: 4% !important;
+  }
+  .Duty-images-card-4{
+    position: relative !important;
+    left: 4% !important;
+  }
+}
+
+@media (max-width: 1199.841684px) {
   .Duty_Four{
     padding-bottom: 50px;
   }
   .Duty-images-card-4 {
     position: relative !important;
+    left: 0% !important;
+  }
+  .Duty_image_card_1_top{
+    position: relative;
+    left: 0% !important;
+  }
+  .Duty-images-card-3{
+    position: relative;
     left: 0% !important;
   }
   .Duty-row1-text-2{
@@ -312,9 +339,16 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.8416482px) {
   .Duty_images_card {
     margin-top: 100px !important;
+  }
+  .Duty-row1-text-1{
+    font-size: 20px !important;
+  }
+  .Duty-row1-text-2{
+    font-size: 16px !important;
+    line-height: 22px !important;
   }
 
   .Duty_card_text {
@@ -340,7 +374,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.814346px) {
   .Duty_images_card {
     position: relative !important;
     left: 10% !important;
@@ -358,7 +392,7 @@
   } */
 
   .Duty_card_text_1_heading {
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
   .Row1_Duty_text_box{
     margin-bottom: 30px !important;
@@ -370,26 +404,26 @@
 
   .Duty_card_text {
     margin-right: -130px !important;
-    left: -27% !important;
+    left: -20% !important;
     padding-bottom: 20px !important;
   }
 
   .Duty_card_text_2 {
     padding-bottom: 28px !important;
     margin-right: -130px !important;
-    left: -27% !important;
+    left: -20% !important;
   }
 
   .Duty_card_text_3 {
     padding-bottom: 18px !important;
     margin-right: -130px !important;
-    left: -27% !important;
+    left: -20% !important;
   }
 
   .Duty_card_text_4 {
     margin-right: -60px !important;
     margin-right: -130px !important;
-    left: -27% !important;
+    left: -20% !important;
   }
 
   .Duty-row1-text-1 {
