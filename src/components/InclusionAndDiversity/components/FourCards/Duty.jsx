@@ -25,7 +25,7 @@ const Duty = () => {
         <div className="row Duty-row-cards">
           <div data-aos="fade-right" data-aos-easing="ease-out-cubic" data-aos-duration="2000"
                             data-aos-delay="1000" className="col-xl-6 justify-content-center align-items-center">
-            <div  className="Duty_images_card">
+            <div  className="Duty_images_card Duty_image_card_1_top">
               <div className="Inc_Div_duty_card_img">
                 <div className="Inc_Div_duty_card_img_inner">
                   <img src={polygon1} alt="" />

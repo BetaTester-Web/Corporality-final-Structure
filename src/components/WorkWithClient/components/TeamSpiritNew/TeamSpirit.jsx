@@ -13,14 +13,14 @@ import heading_2_arrow from "./arrow2.png";
 
 function TeamSpiritNew() {
   useEffect(() => {
-    Aos.init();
+    Aos.init({disable: "mobile"});
   });
 
   return (
     <div className="container">
       <div className="community_support_main-Invirogating">
         <div
-          className="community_support_first-Invirogating"
+          className="community_support_first-Invirogating" data-aos="fade-right" data-aos-delay="500"
 
         >
           <div className="text_1_invirogating">
@@ -47,7 +47,7 @@ function TeamSpiritNew() {
           </div>
         </div>
         <div
-          className="community_support_second-Invirogating"
+          className="community_support_second-Invirogating " data-aos="fade-left" data-aos-delay="1000"
         >
           <div className="text_2_invirogating">
             <div className="community_second_heading-Invirogating">

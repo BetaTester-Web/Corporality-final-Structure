@@ -11,7 +11,7 @@ import wall from "../NewsLetter/wall.png";
 
 const NewsLetter = () => {
   useEffect(() => {
-    aos.init({ duration: 3000, disable: 'mobile' });
+    aos.init({ duration: 3000});
 
   }, [])
   return (

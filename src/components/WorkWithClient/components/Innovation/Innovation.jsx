@@ -7,7 +7,7 @@ import groupInnovation from "../Innovation/GroupInnovation.png";
 
 const Innovation = () => {
   useEffect(() => {
-    aos.init({ duration: 3000 , disable: 'mobile' });
+    aos.init({ duration: 3000 });
   }, []);
   return (
     <div className="fifthcomponent-Innovation effectiveImage-Innovation">

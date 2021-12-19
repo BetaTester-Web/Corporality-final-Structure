@@ -30,12 +30,30 @@
   color: #232323 !important;
 }
 
+@media(max-width:992px){
+  .Partner-program-1-text{
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .Partner-program-2-text{
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
 @media (max-width:768px){
   .Partner-program-1-text{
-    font-size: 20px !important;
+    font-size: 16px !important;
     line-height: 25px;
   }
   .Partner-program-2-text{
     font-size: 14px !important;
+  }
+}
+
+@media(max-width:580px){
+  .Partner-program-2-text{
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }

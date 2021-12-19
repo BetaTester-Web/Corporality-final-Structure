@@ -53,7 +53,7 @@
 .wall-Id {
     position: absolute;
     top: 35%;
-    left: 8%;
+    left: 12%;
 }
 
 .smallrect-Id {
@@ -136,9 +136,12 @@
     }
 }
 
-@media(max-width:1200px) {
+@media(max-width:1199.18798787px) {
     .image-first-Id {
         left: -30%;
+    }
+    .smallrect-Id{
+        left: 49%;
     }
 }
 
@@ -148,13 +151,25 @@
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:991.2987197px) {
     .banner_right_inner-Id {
         position: relative;
         width: 330px;
         height: 332.8px;
         bottom: 410px;
         left: 35%;
+    }
+
+    .container-1_text-Id {
+        font-size: 16px;
+    }
+
+    .container-2_text-Id {
+        font-size: 20px;
+    }
+
+    .container-3_text-Id {
+        font-size: 14px;
     }
 
     .backimg-Id {
@@ -246,7 +261,7 @@
     .smallrect-Id {
         position: absolute;
         top: 50%;
-        left: 38%;
+        left: 32%;
     }
 
     .text-box-1-Id {
@@ -254,11 +269,11 @@
     }
 
     .container-1_text-Id {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .container-2_text-Id {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .container-3_text-Id {
