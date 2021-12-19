@@ -99,7 +99,13 @@
      }
      .side2-container-Faith{
          top: -15% !important;
-         left: -10% !important;
+         left: -7% !important;
+     }
+ }
+
+ @media(max-width:1363px){
+     .side2-container-Faith{
+         left: -9% !important;
      }
  }
 
@@ -142,6 +148,12 @@
         margin-left: 0px !important;
         margin-right: 0px !important;
      }
+     .prev-2-text-2-Faith{
+        font-size: 14px !important;
+    }
+    .prev-2-text-1-Faith{
+        font-size: 16px !important;
+    }
 
  }
 @media (max-width:768px){
@@ -149,7 +161,7 @@
         font-size: 12px !important;
     }
     .prev-2-text-1-Faith{
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .side2-container-Faith{
         left: 0% !important;
