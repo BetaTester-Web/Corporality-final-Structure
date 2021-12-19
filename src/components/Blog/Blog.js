@@ -119,7 +119,9 @@ const Blog = () => {
                         </div>
                         <h2 className="blogTitle">
                             {blog.title}
-                            {blog.username === user.username && (
+                            {
+                            JSON.parse(localStorage.getItem("user")) !== null?
+                            blog.username === user.username && (
                                 <div className="singlearticleEdit">
                                     <i
                                         className="singlearticleIcon fa fa-pencil-square-o "
@@ -130,7 +132,7 @@ const Blog = () => {
                                         onClick={handleDelete}
                                     ></i>
                                 </div>
-                            )}
+                            ):null}
                         </h2>
                     </div>
                     {updateMode ? (
