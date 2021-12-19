@@ -9,7 +9,7 @@ import side2DigitalSg from '../DigitalSg/GroupDigitalSg.png'
 const DigitalSg = () => {
 
     useEffect(() => {
-        aos.init({ duration: 3000 , disable: "mobile" });
+        aos.init({ duration: 3000 });
 
     }, [])
 

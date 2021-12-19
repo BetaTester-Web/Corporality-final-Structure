@@ -1,11 +1,16 @@
-import React from "react";
+import React , {useEffect} from "react";
 import "../GlobalAIms/Global.css";
+import aos from 'aos'
 import circle from "../GlobalAIms/circle1.png";
 import twitter from "../GlobalAIms/twitter.png";
 import arrow from "../GlobalAIms/arrow.png";
 import linkedin from "../GlobalAIms/linkedin.png";
 
 const Global = () => {
+  useEffect(() => {
+    aos.init({ duration: 3000 });
+
+}, [])
   return (
     <div>
       <div className="container container-Global d-flex justify-content-center flex-column align-items-center">
