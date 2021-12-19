@@ -1,6 +1,6 @@
 import React from "react";
 
-// import Talent from "./Components/Talent";
+import Talent from "./Components/Talent";
 import Charge from "./Components/Charge";
 import Step from "./Components/Step";
 import Continously from "./Components/Continously";
