@@ -86,7 +86,7 @@ top: 2288px; */
   height: 500px;
   left: 858px;
   top: 1932px;
-  margin-left: 70% !important;
+  margin-left: 65% !important;
   margin-top: -28% !important;
   margin-bottom: 5% !important;
 }
@@ -135,7 +135,7 @@ top: 2288px; */
     transform: translate(770px, -265px);
   }
   100% {
-    transform: translate(1050px, -265px);
+    transform: translate(900px, -265px);
   }
 
 }
