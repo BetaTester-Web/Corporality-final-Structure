@@ -33,7 +33,7 @@ export default function Write() {
         }
         try {
             const res = await axios.post("/articles", newarticle);
-            window.location.replace("/blog/" + res.data.slug);
+            window.location.replace("/" + res.data.slug);
         } catch (err) { console.log(err) }
     };
     return (

@@ -109,7 +109,8 @@
 .blogContainer .blogContent h1, .blogContainer .blogContent h2, .blogContainer .blogContent h3, .blogContainer .blogContent h4, .blogContainer .blogContent h5, .blogContainer .blogContent h6 {
   color: #534b53 !important;
   font-weight: 600 !important;
-  font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’, ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’ !important;
+  font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’,
+ ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’ !important;
 }
 
 .blogContainer .blogContent h1 {
@@ -131,7 +132,8 @@
 .blogContainer .blogContent p {
   color: #232323 !important;
   font-size: 0.91em !important;
-  font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’, ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’ !important;
+  font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’,
+ ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’ !important;
 }
 
 .blogContainer .blogContent img {
@@ -442,3 +444,7 @@
   }
 }
 /*# sourceMappingURL=Blog.css.map */
+
+.singlearticleIcon{
+  cursor: pointer;
+}

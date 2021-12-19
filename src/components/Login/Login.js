@@ -24,10 +24,10 @@ export default function Login() {
         }
     };
     return (
-        <div className="container">
+        <div className="container login">
             <div className="philosophyForm mx-auto">
                 <form onSubmit={handleSubmit}>
-                    <h3 className="text-center">Login</h3>
+                    <h3 className="text-center loginHeading">Login</h3>
                     <div className="customInput">
                         <label htmlFor="philosophyFirstName" className={username && "labelToTop"}>Username</label>
                         <input ref={userRef} id="philosophyFirstName" className={username && "activeInput"} value={username} onChange={(e) => setUsername(e.target.value)} type="text" placeholder="" required />
