@@ -12,7 +12,7 @@
   width: 100%;
   background-color: #fff;
   padding: 50px 0px !important;
-  font-size: calc(14px + 0.15vw);
+  font-size: calc(14px + 0.15vw) !important;
   margin: 0px auto;
   max-width: 1920px;
 }
@@ -42,7 +42,7 @@
 
 .philosophyContainer .philosophyHead hr {
   margin: 0px 0px 0px 0px !important;
-  width: 5.5vw;
+  width: 5vw;
   min-width: 40px;
   height: 5px;
   background-color: #A06DAF;
@@ -324,7 +324,7 @@
 
 @media only screen and (max-width: 576px) {
   .philosophyContainer {
-    font-size: calc(14px + 0.05vw);
+    font-size: calc(12px + 0.05vw) !important;
   }
   .philosophyContainer .philosophyBody .philosophyForm {
     min-width: 306px !important;
@@ -334,7 +334,7 @@
 
 @media only screen and (max-width: 360px) {
   .philosophyContainer {
-    font-size: calc(12px + 0.05vw);
+    font-size: calc(10px + 0.05vw) !important;
   }
   .philosophyContainer .philosophyBody .philosophyForm {
     min-width: unset !important;
