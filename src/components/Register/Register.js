@@ -25,7 +25,7 @@ export default function Register() {
         }
     };
     return (
-        <div className="container">
+        <div className="container register">
             <div className="philosophyForm mx-auto">
                 <form onSubmit={handleSubmit}>
                     <h3 className="text-center">Register</h3>
