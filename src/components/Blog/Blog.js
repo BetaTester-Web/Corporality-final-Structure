@@ -7,11 +7,18 @@ import InView from 'react-intersection-observer';
 import { CKEditor } from 'ckeditor4-react';
 import { Context } from "../../context/Context";
 
-var monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
+if(!localStorage.getItem('liked')){
+    localStorage.setItem('liked', JSON.stringify([]));
+}
 
 function dateFormat(d) {
-    var t = new Date(d);
-    return monthNames[t.getMonth()] + ' ' + t.getDate() + ', ' + t.getFullYear();
+    var t = new Date(d).toDateString();
+    console.log(t);
+    var dt = t.split(" ");
+    dt.forEach((e,i) => {
+        dt[i] = dt[i].toUpperCase();
+    })
+    return dt[1] + ' ' + dt[2] + ', ' + dt[3];
 }
 
 const Blog = () => {
@@ -21,11 +28,12 @@ const Blog = () => {
     const params = useParams();
     const [blog, setBlog] = useState({});
     const [loading, setLoading] = useState(true);
-    const [share, setShare] = useState(false);
     const [updateMode, setUpdateMode] = useState(false);
     const [desc, setDesc] = useState("");
     const [title, setTitle] = useState("");
     const { user } = useContext(Context);
+    const [share, setShare] = useState(false)
+    const [liked, setLiked] = useState(false)
     // const blog = {
     //     title: "What leaders must know about branding and the Vampire Effect | Corporality Global",
     //     htmlString: htmlString,
@@ -38,15 +46,21 @@ const Blog = () => {
     useEffect(async () => {
         console.log(params.article_name)
         const blogData = await axios.get(`/articles/${params.article_name}`)
-        if (Object.keys(blogData.data).length === 0) {
+        if(Object.keys(blogData.data).length === 0 || !blogData){
             navigate("/");
             return;
+        }
+        document.title = blogData.data.title;
+        if(JSON.parse(localStorage.getItem('liked')).includes(blogData.data.id)){
+            if(!liked){
+                setLiked(true);
+            }
         }
         setBlog(blogData.data);
         setDesc(blogData.description);
         setTitle(blogData.title);
         setLoading(false)
-
+        console.log(blogData.data)
     }, [])
 
     const handleUpdate = async () => {
@@ -69,11 +83,23 @@ const Blog = () => {
             window.location.replace("/");
         } catch (err) { }
     };
-
+    
+    const likePostHandler = async ({slug, id}) => {
+        if(JSON.parse(localStorage.getItem('liked')).includes(id)){
+            return;
+        }
+        const res = await axios.patch(`/articles/${slug}/like`);
+        if(res.data.success){
+            setBlog((blog) => ({...blog, likes: blog.likes+1}));
+            setLiked(true);
+            let liked = JSON.parse(localStorage.getItem("liked"));
+            localStorage.setItem("liked", JSON.stringify([...liked, id]));
+        }
+    }
     return (
         <>
             <BlogTop />
-            {loading ? null :
+            {loading ? console.log("loading") :
                 <div className='blogContainer'>
                     <div className="blogHead">
                         <div className='blogImageWrapper'>
@@ -82,12 +108,12 @@ const Blog = () => {
                         <div className='likeShare'>
                             <span>
                                 <i class="fa fa-calendar"></i>
-                                {dateFormat(blog.date.split(' ')[0])}
+                                {dateFormat(blog.date)}
                                 {/* {new Date(blog.date).toDateString().split(" ").filter((ele, i) => i > 0).join(" ")} */}
                             </span>
                             |
                             <span>
-                                <i className="fa fa-thumbs-up"></i>
+                                <i className={`fa fa-thumbs-up${liked? " liked" : ""}`} onClick={() => likePostHandler({slug: blog.slug, id: blog.id})}></i>
                                 {blog.likes} LIKES
                             </span>
                         </div>
@@ -134,7 +160,7 @@ const Blog = () => {
                         <h4>
                             Share this content:
                         </h4>
-                        <div className="blogShareContainer">
+                        <div className="blogShareContainer blogShareCorporality">
                             <span onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`, "NewWindow", windowSize)}>
                                 <i class="fa fa-facebook"></i>
                                 <span className='d-flex flex-row align-items-center justify-content-center'>
@@ -147,7 +173,7 @@ const Blog = () => {
                                     Twitter
                                 </span>
                             </span>
-                            <span onClick={() => null}>
+                            <span onClick={() => window.open(`http://www.pinterest.com/pin/create/button/?url=${window.location.href}&media=${encodeURIComponent(blog.photo)}>&description=${encodeURIComponent(blog.title)}`, "NewWindow", windowSize)}>
                                 <i class="fa fa-pinterest"></i>
                                 <span className='d-flex flex-row align-items-center justify-content-center'>
                                     Pinterest
@@ -159,7 +185,7 @@ const Blog = () => {
                                     LinkedIn
                                 </span>
                             </span>
-                            <span>
+                            <span onClick={() => window.open(`mailto:%20?body=${encodeURIComponent(window.location.href)},&subject=${encodeURIComponent(blog.title)}`,"NewWindow", windowSize)}>
                                 <i class="fa fa-envelope"></i>
                                 <span className='d-flex flex-row align-items-center justify-content-center'>
                                     Email
@@ -168,9 +194,9 @@ const Blog = () => {
                         </div>
                     </div>
                 </div>
-            }
-            {share ? <div ref={shareRight} className="blogShareContainer shareRight">
-                <span onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`, "NewWindow", windowSize)}>
+            }           
+            {share ? <div ref={shareRight} className="blogShareContainer blogShareCorporality shareRight">
+                <span onClick={() => window.open(`https://www.facebook.com/sharer/sharer.php?u=${window.location.href}`, "NewWindow" , windowSize)}>
                     <i class="fa fa-facebook"></i>
                     <span className='d-flex flex-row align-items-center justify-content-center'>
                         Facebook
@@ -182,7 +208,7 @@ const Blog = () => {
                         Twitter
                     </span>
                 </span>
-                <span onClick={() => null}>
+                <span onClick={() => window.open(`http://www.pinterest.com/pin/create/button/?url=${window.location.href}&media=${encodeURIComponent(blog.photo)}>&description=${encodeURIComponent(blog.title)}`, "NewWindow", windowSize)}>
                     <i class="fa fa-pinterest"></i>
                     <span className='d-flex flex-row align-items-center justify-content-center'>
                         Pinterest
@@ -194,7 +220,7 @@ const Blog = () => {
                         LinkedIn
                     </span>
                 </span>
-                <span>
+                <span onClick={() => window.open(`mailto:%20?body=${encodeURIComponent(window.location.href)}&subject=${encodeURIComponent(blog.title)}`,"NewWindow", windowSize)}>
                     <i class="fa fa-envelope"></i>
                     <span className='d-flex flex-row align-items-center justify-content-center'>
                         Email

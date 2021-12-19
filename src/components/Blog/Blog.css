@@ -89,6 +89,10 @@
   color: #443A44;
 }
 
+.blogContainer .blogHead .likeShare span .liked {
+  color: #443A44 !important;
+}
+
 .blogContainer .blogHead .blogTitle {
   max-width: 809px;
   width: 100%;
@@ -225,6 +229,7 @@
 .shareRight > span {
   width: 35px !important;
   height: 35px !important;
+  margin-bottom: 4px !important;
 }
 
 .shareRight > span i {
@@ -235,8 +240,50 @@
   display: none  !important;
 }
 
+.blogShareCorporality {
+  margin-left: 5px !important;
+}
+
+.blogShareCorporality > span {
+  cursor: pointer;
+  border: none !important;
+  width: auto !important;
+  height: auto !important;
+  margin-right: 8px !important;
+  border-radius: 50% !important;
+  overflow: visible !important;
+  padding: 3px !important;
+}
+
+.blogShareCorporality > span i {
+  width: 35px !important;
+  height: 35px !important;
+  color: #31647C !important;
+  background-color: #F2F2F2 !important;
+  border-radius: 50% !important;
+  -webkit-box-shadow: 0px 2px 4px 0px #0F111F33 !important;
+          box-shadow: 0px 2px 4px 0px #0F111F33 !important;
+  -webkit-box-shadow: 0px -3px 5px 1px #FFFFFFB2 !important;
+          box-shadow: 0px -3px 5px 1px #FFFFFFB2 !important;
+}
+
+.blogShareCorporality > span span {
+  display: none  !important;
+}
+
+.blogShareCorporality > span:hover {
+  border: none !important;
+}
+
 @media only screen and (max-width: 768px) {
+  .shareRight {
+    margin-left: 0px !important;
+  }
   .shareRight > span {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .blogShareCorporality > span i {
     width: 30px !important;
     height: 30px !important;
   }
