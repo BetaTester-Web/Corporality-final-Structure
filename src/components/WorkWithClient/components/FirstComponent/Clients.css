@@ -49,13 +49,13 @@
 .wall-Clients {
     position: absolute;
     top: 35%;
-    left: 8%;
+    left: 12%;
 }
 
 .smallrect-Clients {
     position: absolute;
     top: 50%;
-    left: 47%;
+    left: 45%;
 }
 
 .image-first-Clients {
@@ -120,17 +120,13 @@
     transform: scale(1.03) rotate(-45deg);
 }
 
-@media (max-width:1539px) {
-    .blue_print_overlay {
-        display: none;
+@media(max-width:1456px){
+    .text-box-1-Clients{
+        left: 15%;
     }
 }
 
-@media(max-width:1500px) {
-    .yellow_Work {
-        display: none;
-    }
-}
+
 
 @media (max-width:1300px) {
     .image-first-Clients {
@@ -154,7 +150,16 @@
     }
 }
 
-@media (max-width:992px) {
+@media(max-width: 1012px){
+    .text-box-1-Clients{
+        left: 10%;
+    }
+    .image-first-Clients{
+        left: -140px;
+    }
+}
+
+@media (max-width:991.8px) {
     .banner_right_inner-Clients {
         position: relative;
         width: 330px;
@@ -167,6 +172,18 @@
         height: 482.8px;
         left: 20%;
         top: 2%;
+    }
+    .container-1_text-Clients{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .container-2_text-Clients{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .container-3_text-Clients{
+        font-size: 14px;
+        line-height: 22px;
     }
     .image-first-Clients {
         left: -10%;
@@ -192,6 +209,12 @@
         left: 0%;
     }
 
+}
+
+@media(max-width: 830px){
+    .text-box-1-Clients{
+        left: 3%;
+    }
 }
 
 @media only screen and (max-width:767px) {
@@ -229,7 +252,7 @@
     }
 
     .container-2_text-Clients {
-        font-size: 20px;
+        font-size: 14px;
         margin-right: 60px !important;
         line-height: 20px;
     }

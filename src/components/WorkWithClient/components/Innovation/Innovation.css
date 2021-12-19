@@ -143,6 +143,12 @@
   }
 } */
 
+@media(max-width:1400px){
+  .cont-5-text-2-Innovation {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+}
 
 @media (max-width: 1200px) {
   .cont-5-text-2-Innovation {
@@ -159,6 +165,14 @@
   /* .group5-Innovation {
     top: 3850px;
   } */
+  .cont-5-text-1-Innovation {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .cont-5-text-2-Innovation {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -203,6 +217,8 @@
   .cont-5-text-2-Innovation {
     margin-left: 0px;
     margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .text-Innovation {

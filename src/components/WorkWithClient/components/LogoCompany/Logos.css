@@ -67,7 +67,7 @@
     left: -60%;
 }
 
-@media (max-width:1400px) {
+@media (max-width:1396px) {
     .All_Icons {
         left: -5% !important;
     }
@@ -84,7 +84,7 @@
     }
 }
 
-@media (max-width:1200px) {
+@media (max-width:1198px) {
     .All_Icons {
         left: -5% !important;
     }
@@ -115,7 +115,7 @@
     }
 }
 
-@media (max-width:992px){
+@media (max-width:991.8px){
     .All_Icons{
         left: -7% !important;
     }
