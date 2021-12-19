@@ -117,7 +117,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991.8116354px) {
   .SACC2_wall2-container {
     left: 100%;
     top: 40%;
@@ -135,21 +135,34 @@
     top: -250px;
     left: 50px;
   }
-}
-
-@media(max-width:768px){
   .SACC2_prev-2-text-1{
     font-size: 20px;
     line-height: 22px;
   }
   .SACC2_prev-2-text-2{
-    font-size: 14px;
+    font-size: 16px;
   }
   .SACC2_prev-2-text-2{
-    font-size: 14px;
+    font-size: 16px;
   }
   .SACC2_text-box-content{
+    font-size: 16px;
+  }
+}
+
+@media(max-width:768px){
+  .SACC2_prev-2-text-1{
     font-size: 14px;
+    line-height: 22px;
+  }
+  .SACC2_prev-2-text-2{
+    font-size: 12px;
+  }
+  .SACC2_prev-2-text-2{
+    font-size: 12px;
+  }
+  .SACC2_text-box-content{
+    font-size: 12px;
   }
 }
 

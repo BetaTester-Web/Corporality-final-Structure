@@ -263,7 +263,7 @@
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:991.81465px) {
     .SACComp5_third-Ideation {
         padding-top: 350px;
     }
@@ -274,9 +274,6 @@
     .SACComp5_images-prev-3-Ideation{
         left: 0%;
     }
-}
-
-@media(max-width:768px) {
     .SACComp5_heading-text-1-main {
         font-size: 20px;
         line-height: 20px;
@@ -294,6 +291,43 @@
 
     .SACComp5_container-3_text-3_heading-Ideation {
         font-size: 16px;
+        line-height: 20px;
+    }
+
+    .SACComp5_container-3_text-1-Ideation {
+        font-size: 14px;
+        margin-right: 0px;
+    }
+
+    .SACComp5_container-3_text-2-Ideation {
+        font-size: 14px;
+        margin-right: 0px;
+    }
+
+    .SACComp5_container-3_text-3-Ideation {
+        font-size: 14px;
+        margin-right: 0px;
+    }
+}
+
+@media(max-width:768px) {
+    .SACComp5_heading-text-1-main {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .SACComp5_container-3_text-1_heading-Ideation {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .SACComp5_container-3_text-2_heading-Ideation {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .SACComp5_container-3_text-3_heading-Ideation {
+        font-size: 14px;
         line-height: 20px;
     }
 

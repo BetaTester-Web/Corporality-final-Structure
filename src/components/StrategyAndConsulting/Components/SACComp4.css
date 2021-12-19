@@ -172,13 +172,13 @@
     margin-bottom: 100px !important;
   }
   .sacc4Heading1{
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 14px !important;
+    line-height: 22px !important;
   }
   .sacc4Para1{
-    font-size: 14px;
-    line-height: 22px;
-    width: 90%;
+    font-size: 12px !important;
+    line-height: 22px !important;
+    width: 90% !important;
   }
 }
 
@@ -252,6 +252,16 @@
   }
   .sacc4Bottom {
     margin-top: 0px;
+  }
+}
+
+@media(max-width:991.86412px){
+  .sacc4Heading1{
+    font-size: 20px !important;
+    line-height: 22px !important;
+  }
+  .sacc4Para1{
+    font-size: 16px !important;
   }
 }
 
