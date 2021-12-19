@@ -13,7 +13,7 @@ import wall from '../SecondComponent/wall.png'
 
 const Second = () => {
     useEffect(() => {
-        aos.init({ disable: "mobile" });
+        aos.init({ });
 
     }, [])
     return (

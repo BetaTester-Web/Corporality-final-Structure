@@ -214,7 +214,7 @@
     }
 }
 
-@media (max-width:992px) {
+@media (max-width:991.82465px) {
 
  /*    .interactive_blueprint-row {
         flex-direction: column-reverse !important;
@@ -231,6 +231,14 @@
     .rect-2-1{
         top: -130% !important;
         left: 35% !important;
+    }
+    .container-2-text-1 {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+
+    .container-2-text-2 {
+        font-size: 14px !important;
     }
 
 
@@ -251,7 +259,7 @@
     }
 
     .container-2-text-1 {
-        font-size: 16px !important;
+        font-size: 14px !important;
         line-height: 20px !important;
     }
 

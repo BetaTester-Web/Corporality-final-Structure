@@ -77,10 +77,10 @@ const First = () => {
             </div>
           </div>
           <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" data-aos-delay="3000" className="interactive_card6">
-            <div className="interactive_card_image">
+            <div className="interactive_card_image heading-last-Ib">
               <img src={icon6} alt="" />
             </div>
-            <div className="interactive_card_heading">
+            <div className="interactive_card_heading ">
               Call to Action Analysis
             </div>
             <div className="interactive_card_text interactive_card_6_change">

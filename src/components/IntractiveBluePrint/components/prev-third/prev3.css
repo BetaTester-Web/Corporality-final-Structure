@@ -246,10 +246,10 @@ button-4{
     }
 }
 
-@media (max-width:992px){
+@media (max-width:991.812484px){
   
     .third{
-        padding-top: 230px;
+        padding-top: 360px;
     }
     .texting-third{
         padding-top: 230px;
@@ -263,15 +263,13 @@ button-4{
         position: relative;
         left: 60px;
     }
-}
-@media (max-width:768px){
     .container-3_text-1_heading{
         font-size: 16px;
         line-height: 20px;
     }
     .container-3_text-1{
         margin-right: 0px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .container-3_text-2_heading{
         font-size: 16px;
@@ -280,10 +278,37 @@ button-4{
     }
     .container-3_text-2{
         margin-right: 0px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .container-3_text-3_heading{
         font-size: 16px;
+        line-height: 20px;
+    }
+    .container-3_text-3{
+        margin-right: 0px;
+        font-size: 14px;
+    }
+}
+@media (max-width:768px){
+    .container-3_text-1_heading{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .container-3_text-1{
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .container-3_text-2_heading{
+        font-size: 14px;
+        line-height: 20px;
+        margin-right: 0px;
+    }
+    .container-3_text-2{
+        margin-right: 0px;
+        font-size: 12px;
+    }
+    .container-3_text-3_heading{
+        font-size: 14px;
         line-height: 20px;
     }
     .container-3_text-3{
