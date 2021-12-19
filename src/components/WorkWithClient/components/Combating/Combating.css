@@ -224,6 +224,7 @@
   .Combating_texting_column-1 {
     font-size: 20px;
     margin-right: 0px;
+    line-height: 22px;
   }
 
   .Texting_in_image_Combating {
@@ -282,6 +283,10 @@
 
   .Image_rect {
     top: 90px;
+  }
+  .Combating_texting_coloumn{
+    margin-left: 10px;
+    padding-right: 30px;
   }
 }
 

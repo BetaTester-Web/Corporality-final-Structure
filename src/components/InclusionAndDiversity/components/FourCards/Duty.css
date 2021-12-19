@@ -360,6 +360,9 @@
   .Duty_card_text_1_heading {
     font-size: 16px !important;
   }
+  .Row1_Duty_text_box{
+    margin-bottom: 30px !important;
+  }
 
   .Duty_card_text_2_Description {
     font-size: 12px !important;
@@ -399,13 +402,15 @@
 
   .Row1_Duty_text_box {
     padding-bottom: 0px !important;
-    margin-bottom: -30px !important;
   }
 }
 
 @media (max-width: 576px) {
   .Duty_images_card {
     margin-top: 350px !important;
+  }
+  .Duty_card_text_2_Description{
+    margin-right: -10px;
   }
   .Duty-row-cards{
     left: 2% !important;
@@ -420,32 +425,38 @@
     left: 20% !important;
   }
 
+  .Row1_Duty_text_box{
+    margin-left: 10px;
+    padding-right: 20px;
+    margin-bottom: 30px !important;
+  }
+
 
   .Duty_card_text {
-    margin-right: -100px !important;
+    margin-right: -90px !important;
     padding-left: 30px !important;
-    margin-left: -100px !important;
+    margin-left: -90px !important;
     left: -32% !important;
   }
 
   .Duty_card_text_2 {
-    margin-right: -100px !important;
+    margin-right: -90px !important;
     padding-left: 30px !important;
-    margin-left: -100px !important;
+    margin-left: -90px !important;
     left: -32% !important;
   }
 
   .Duty_card_text_4 {
-    margin-right: -100px !important;
+    margin-right: -90px !important;
     padding-left: 30px !important;
-    margin-left: -100px !important;
+    margin-left: -90px !important;
     left: -32% !important;
   }
 
   .Duty_card_text_3 {
-    margin-right: -100px !important;
+    margin-right: -90px !important;
     padding-left: 30px !important;
-    margin-left: -100px !important;
+    margin-left: -90px !important;
     left: -32% !important;
   }
 }
@@ -460,6 +471,54 @@
   }
 }
 
+@media(max-width:474px){
+  .Duty_images_card{
+    margin-right: -10px !important ;
+    margin-left: -10px !important ;
+  }
+}
+
+@media(max-width:430px){
+  .Duty_images_card{
+    margin-right: 10px !important ;
+    margin-left: -30px !important ;
+  }
+}
+
+@media(max-width: 388px){
+  .Duty_images_card{
+    margin-right: 10px !important ;
+    margin-left: -100px !important ;
+  }
+}
+
+@media(max-width: 408px){
+  .Duty_images_card{
+    position: relative !important;
+    left: 10% !important;
+  }
+}
+
+@media(max-width: 398px){
+  .Duty_images_card{
+    position: relative !important;
+    left: 8.5% !important;
+  }
+}
+@media(max-width: 369px){
+  .Duty_images_card{
+    position: relative !important;
+    left: 8% !important;
+  }
+}
+
+@media(max-width: 445px){
+  .Duty_images_card{
+    margin-right: 0px !important ;
+    margin-left: -20px !important ;
+  }
+}
+/* 
 @media (max-width: 453px) {
   .Duty_card_text {
     left: -36% !important;
@@ -470,7 +529,7 @@
   }
 
   .Duty_card_text_2 {
-    left: -36% !important;
+    left: -32% !important;
   }
 
   .Duty_card_text_4 {
@@ -513,3 +572,4 @@
     left: -40% !important;
   }
 }
+ */

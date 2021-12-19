@@ -6,18 +6,18 @@ import "aos/dist/aos.css";
 
 const  SACComp3 = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({disable: "mobile"});
     AOS.refresh();
   }, []);
   return (
     <div className="sacc3_parent">
       <div className="container">
         <div className="sacc3Container">
-          <div className="sacc3TextContainer">
-            <div
-              data-aos="flip-left"
+          <div data-aos="flip-left"
               data-aos-delay="300"
-              data-aos-duration="3000"
+              data-aos-duration="3000" className="sacc3TextContainer">
+            <div
+              
               className="sacc3TextWrapper d-flex flex-row"
             >
               <div className="sacc3Left">

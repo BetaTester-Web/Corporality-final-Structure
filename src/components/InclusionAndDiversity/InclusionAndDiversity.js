@@ -1,5 +1,4 @@
 import React , {useEffect} from 'react'
-import aos from 'aos'
 import Inclusion from './components/Incl/Inclusion';
 import OurFaith from './components/OurFaith/OurFaith';
 import Hover from './components/HoverInclusion/Hover';
@@ -11,10 +10,6 @@ import Career from './components/CareerImage/Career';
 
 
 const InclusionAndDiversity = () => {
-    useEffect(() => {
-        aos.init({ duration: 3000 ,  disable: 'mobile' });
-
-    }, [])
     return (
         <div>
             <Inclusion />

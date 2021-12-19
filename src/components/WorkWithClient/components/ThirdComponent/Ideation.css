@@ -315,6 +315,12 @@
     }
 }
 
+@media(max-width:576px){
+    .texting-third-Ideation{
+        margin-left: 10px;
+        padding-right: 30px;
+    }
+}
 
 @media (max-width:634px) {
     .bp_iwfc_img-Ideation {

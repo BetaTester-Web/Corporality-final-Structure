@@ -110,7 +110,7 @@
   }
 
   .SACC2_prev2 {
-    margin-top: -20%;
+    margin-top: 10%;
   }
   .SACC2_text-box {
     width: 100%;
@@ -132,21 +132,46 @@
   }
 
   .SACC2_side2-container {
-    top: -200px;
+    top: -250px;
     left: 50px;
   }
 }
+
+@media(max-width:768px){
+  .SACC2_prev-2-text-1{
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .SACC2_prev-2-text-2{
+    font-size: 14px;
+  }
+  .SACC2_prev-2-text-2{
+    font-size: 14px;
+  }
+  .SACC2_text-box-content{
+    font-size: 14px;
+  }
+}
+
 @media (max-width: 677px) {
   .SACC2_side2-container {
-    top: -200px;
+    top: -150px;
     left: 0px;
   }
 }
+
+@media(max-width:576px){
+  .SACC2_texting-2{
+    margin-left: 10px;
+    padding-right: 30px;
+  }
+}
+
 @media (max-width: 590px) {
   .SACC2_side2-container {
     width: 150px;
     height: 220px;
-    top: -100px;
+    top: -150px;
     left: 20px;
   }
   .SACC2_Inc_Div_our-faith-main-img {
@@ -159,7 +184,7 @@
   }
   .SACC2_img-container {
     position: relative;
-    left: 20%;
+    left: 0%;
   }
   .SACC2_wall2-container {
     width: 30%;

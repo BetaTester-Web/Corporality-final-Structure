@@ -32,13 +32,13 @@ const NewsLetter = () => {
               <p data-aos="fade-right" data-aos-delay="1000" className="NewsLetter-Text-2">
                 Change is positive and long-lasting with us.
               </p>
-              <div data-aos="fade-right" data-aos-delay="1000" className="aos-in-button">
+              <div data-aos="fade-right" data-aos-delay="500" className="aos-in-button">
                 <button className="button-seventh">Apply here</button>
               </div>
               <br />
               <br />
 
-              <p data-aos="fade-right" data-aos-delay="1000" className="News_letter-main">
+              <p data-aos="fade-right" data-aos-delay="500" className="News_letter-main">
                 Our newsletter is more than just information Subscribe to see
                 the difference
               </p>
@@ -70,7 +70,7 @@ const NewsLetter = () => {
 
             <div className="Main_back_NewsLetter">
               <div className="Work-newsletter-polygon9">
-                <div data-aos="fade-left" data-aos-delay="1000">
+                <div data-aos="fade-left" data-aos-delay="500">
                   <img src={main} alt="" />
                 </div>
               </div>

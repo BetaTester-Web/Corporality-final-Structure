@@ -1,4 +1,5 @@
-import React from 'react'
+import React , {useEffect} from 'react'
+import aos from 'aos'
 import '../LastComponentINC/NewsLetter.css'
 import rect1 from '../LastComponentINC/rect1.png'
 import wall from '../LastComponentINC/wall.png'
@@ -9,6 +10,9 @@ import Main from '../LastComponentINC/main.png'
 import Back from '../LastComponentINC/back.png'
 
 const Newsletter = () => {
+    useEffect(() => {
+        aos.init( {disable:"mobile"});
+    }, [])
     return (
         <div className="second-Ns">
             <img className='wall-2-2-Ns' src={wall} alt='' />
@@ -16,10 +20,10 @@ const Newsletter = () => {
             <div className='container second-container-Ns' >
                 <div className="row interactive_blueprint-row-Ns">
                     <div className="col-lg-6 textndlists-Ns d-flex flex-column  justify-content-center">
-                        <p data-aos="fade-right" className='container-2-text-1-Ns'>Our newsletter is more than just information
+                        <p data-aos="fade-right" data-aos-duration="2000" data-aos-delay = "1500" className='container-2-text-1-Ns'>Our newsletter is more than just information
                             Subscribe to see the difference
                         </p>
-                        <div className="emailAndNs">
+                        <div data-aos="fade-right" data-aos-duration="2000" data-aos-delay="2000" className="emailAndNs">
                             <input className='emailinput-Ns' type="text" name='' placeholder='Enter your Email' onFocus={(e) => e.target.placeholder = ""}
                                 onBlur={(e) => e.target.placeholder = "Enter your Email"} />
                             <span ><a className='subscribe-Ns' href=''>Subscribe</a></span>
@@ -37,7 +41,7 @@ const Newsletter = () => {
                             <div className="mainndback-4-Ns">
                                 <img className='backimagesecond-fourth-Ns' src={Back} alt='' />
                                 <div className="bp_our-newsletter-polygon9-Ns">
-                                    <div data-aos="fade-down-left" data-aos-duration="2000">
+                                    <div data-aos="fade-down-left" data-aos-duration="2000" data-aos-delay ="2500">
                                         <img className='main-2-2-Ns' src={Main} alt="" />
                                     </div>
                                 </div>
