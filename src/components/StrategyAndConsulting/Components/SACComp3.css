@@ -85,6 +85,35 @@
     width: 70%;
   }
 }
+@media(max-width:992px){
+  .sacc3Heading1 {
+    font-size: 20px;
+    line-height: 16px;
+  }
+  .sacc3Heading2 {
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .sacc3Para {
+    font-size: 14px;
+    line-height: 14px;
+  }
+}
+
+@media(max-width:768px){
+  .sacc3Heading1 {
+    font-size: 16px;
+    line-height: 16px;
+  }
+  .sacc3Heading2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .sacc3Para {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
 
 @media only screen and (max-width: 575px) {
   .sacc3Heading1 {
@@ -92,7 +121,7 @@
     line-height: 16px;
   }
   .sacc3Heading2 {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
   }
   .sacc3Para {
