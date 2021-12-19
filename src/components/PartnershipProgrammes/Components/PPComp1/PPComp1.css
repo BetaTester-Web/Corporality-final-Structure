@@ -227,7 +227,7 @@
     .ppcText {
       text-align: center !important;
       font-size: 15px;
-      width: 130%;
+      width: 100% !important;
       margin-bottom: 3%;
       line-height: 120%;
       margin-left: 6%;
