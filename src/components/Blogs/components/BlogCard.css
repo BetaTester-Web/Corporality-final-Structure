@@ -10,6 +10,12 @@
     max-width: 100%;
 }
 
+.blogCard:hover{
+    transition: all 0.4s ease-in-out;
+    transform: translateY(-3%) !important;
+    /* cursor: pointer; */
+}
+
 .blogThumbnail {
     width: 100%;
     object-fit: cover;
@@ -59,7 +65,10 @@
     margin-bottom: 20px!important;
     color: #BFBFBF;
 }
-
+.blogInformation > i{
+    color: #BFBFBF;
+    /* color: #A16BB8; */
+}
 .blogReadMore{
     margin-right: 20px!important;
     margin-left: 20px!important;

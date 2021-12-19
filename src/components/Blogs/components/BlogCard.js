@@ -24,8 +24,11 @@ function BlogCard(props) {
                     </div>
                     <Link to={`/${props.slug}`} className="blogReadMore" style={{"color": "#6CA0BC"}}>Read more</Link>
                 </div>
-                <div className="col-12 blogInformation">
+                {/* <div className="col-12 blogInformation">
                 {new Date(props.date).toDateString()} | <img src={commentBubble} alt="" /> ({props.likes}) Likes
+                </div> */}
+                <div className="col-12 blogInformation">
+                {new Date(props.date).toDateString()} | <i className="fa fa-thumbs-up"></i> ({props.likes}) Likes
                 </div>
             </div>
         </div>

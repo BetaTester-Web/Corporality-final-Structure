@@ -10,7 +10,6 @@ const DropDown = ({initial, list, className, loading}) => {
         list = []
     }
     const navigate = useNavigate();
-    console.log(list)
     const [select, setSelect] = useState(initial || '')
     return (
         <div className={`dropdown customDropDown ${className || ''}`}>
