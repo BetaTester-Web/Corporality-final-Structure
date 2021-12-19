@@ -33,3 +33,16 @@
   background: #FFFFFF ;
   
 }
+
+/* .DDMcontent-back:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: url("../img/ProcessBack.png");
+  width: 175px;
+  height: 175px;
+  transform: scale();
+  background-position-x: left;
+  background-position-y: bottom;
+} */
