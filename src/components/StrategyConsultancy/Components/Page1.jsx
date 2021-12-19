@@ -50,7 +50,7 @@ const Page1 = () => {
                         <div className="consultimg3">
                         <div data-aos="fade-left">
 
-                            <img className="" src="./img/StrategyConsultancy/page-1.png" alt="" />
+                            <img className="iluilukyah" src="./img/StrategyConsultancy/page-1.png" alt="" />
                         </div>
                         </div>
                     </div>
