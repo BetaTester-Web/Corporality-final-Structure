@@ -9,7 +9,7 @@
     padding: 3% 0%;
     margin: 0 auto;
     // font-size: 1.2vw;
-    font-size: calc(15px + 0.15vw);
+    font-size: calc(14px + 0.15vw) !important;
     .portfolioHead{
         max-width: 1920px;
         display: flex;
@@ -28,7 +28,7 @@
         hr{
             margin: 0px 0px 0px 0px !important;
             width: 7vw;
-            min-width: 40px;
+            max-width: 80px;
             height: 5px;
             background-color:#A06DAF;
             text-align: center;
@@ -185,6 +185,7 @@
 }
 @media only screen and (max-width: 992px){
     .portfolioContainer{
+        font-size: calc(12px + 0.15vw) !important;
         .portfolioHead{
             h2{
                 // font-size: 2.5em;
@@ -205,7 +206,7 @@
     }
     
 }
-@media only screen and (max-width: 756px){
+@media only screen and (max-width: 768px){
     .portfolioContainer{
         .portfolioHead{
             hr{
@@ -226,6 +227,7 @@
 
 @media only screen and (max-width: 576px){
     .portfolioContainer{
+        font-size: calc(11px + 0.1vw) !important;
         .portfolioHead{
             h2{
                 // font-size: 3.5em;
@@ -244,7 +246,7 @@
             height: auto !important;
             .portfolioFloatingDiv{
                 h4{
-                    font-size: 1em !important;
+                    // font-size: 1em !important;
                     // font-size: calc(14px + 0.15vw) !important;
                 }
                 &:hover h4{
@@ -258,7 +260,7 @@
 
 @media only screen and (max-width: 360px){
     .portfolioContainer{
-        font-size: calc(12px + 0.15vw);
+        font-size: calc(10px + 0.04vw) !important;
         .portfolioHead{
             h2{
                 // font-size: 3.5em;
