@@ -156,6 +156,21 @@
   .fearlesscreativity_main {
     padding: 0 !important;
   }
+
+  .fearless_heading {
+    font-size: 18px;
+  }
+
+  .textside_heading {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 10px !important;
+  }
+
+  .textside_content {
+    font-size: 10px;
+    line-height: 14px;
+  }
 }
 
 @media only screen and (max-width: 410px) {
