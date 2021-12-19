@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react'
 import BlogTop from './components/BlogTop'
 import "./Blog.css"
 import axios from 'axios';
-import {Navigate, useNavigate, useParams} from 'react-router-dom'
-import InView, { observe, useInView } from 'react-intersection-observer';
+import { useNavigate, useParams} from 'react-router-dom'
+import InView from 'react-intersection-observer';
 
 var monthNames = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
 
@@ -19,7 +19,6 @@ const Blog = () => {
     const params = useParams();
     const [blog, setBlog] = useState({});
     const [loading, setLoading] = useState(true);
-    // const {blogContent, entry} = useInView({trackVisibility: true, delay: 100})
     const [share, setShare] = useState(false)
     // const blog = {
     //     title: "What leaders must know about branding and the Vampire Effect | Corporality Global",
@@ -32,14 +31,13 @@ const Blog = () => {
     const windowSize = "menubar=no,toolbar=no,status=no,width=570,height=570"; // for window
     useEffect( async() => {
         console.log(params.article_name)
-        const blogData = await axios.get(`http://localhost:5000/api/articles/${params.article_name}`)
+        const blogData = await axios.get(`/articles/${params.article_name}`)
         if(Object.keys(blogData.data).length === 0){
             navigate("/");
             return;
         }
         setBlog(blogData.data);
         setLoading(false)
-        console.log(blogData.data)
         
     },[])
 
@@ -50,7 +48,7 @@ const Blog = () => {
             <div className='blogContainer'>
                 <div className="blogHead">
                     <div className='blogImageWrapper'>
-                        <img src={`http://localhost:5000/images/${blog.photo}`} alt="" />
+                        <img src={`${blog.photo}`} alt="" />
                     </div>
                     <div className='likeShare'>
                         <span>

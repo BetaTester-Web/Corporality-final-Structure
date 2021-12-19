@@ -5,8 +5,10 @@ import img2 from "./images/blog/img2.jpg";
 import img3 from "./images/blog/img3.jpg";
 import img4 from "./images/blog/img4.jpg";
 import { right } from "@popperjs/core";
+import { useNavigate } from "react-router-dom";
 
 function Library() {
+  const navigate = useNavigate()
   const showOneSection = (index) => {
     const classes = [
       "text_active_first",
@@ -129,7 +131,7 @@ function Library() {
               data-aos-offset="0"
               id="image3"
             >
-              <div className="upper_image">
+              <div className="upper_image" onClick={() => navigate("/blog")}>
                 <img src={img3} alt="" />
               </div>
               <div className="lower_text">

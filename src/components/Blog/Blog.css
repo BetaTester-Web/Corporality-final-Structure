@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .blogContainer {
   width: 100%;
   display: -webkit-box;
@@ -90,11 +91,12 @@
 
 .blogContainer .blogHead .blogTitle {
   max-width: 809px;
-  font-size: 1.9em;
+  width: 100%;
+  font-size: 2em;
   line-height: 1.5em;
   font-weight: bold;
   color: #534b53;
-  margin-top: 20px;
+  margin-top: 15px;
   margin-bottom: 20px;
 }
 
@@ -106,7 +108,8 @@
 
 .blogContainer .blogContent h1, .blogContainer .blogContent h2, .blogContainer .blogContent h3, .blogContainer .blogContent h4, .blogContainer .blogContent h5, .blogContainer .blogContent h6 {
   color: #534b53 !important;
-  font-weight: 600;
+  font-weight: 600 !important;
+  font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’, ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’ !important;
 }
 
 .blogContainer .blogContent h1 {
@@ -126,7 +129,9 @@
 }
 
 .blogContainer .blogContent p {
-  color: #333;
+  color: #232323 !important;
+  font-size: 0.91em !important;
+  font-family: ‘-apple-system’, ‘BlinkMacSystemFont’, 'Segoe UI', ‘Roboto’, ‘Oxygen’, ‘Ubuntu’, ‘Cantarell’, 'Open Sans', 'Helvetica Neue', ‘sans-serif’ !important;
 }
 
 .blogContainer .blogContent img {
@@ -143,6 +148,7 @@
   max-width: 809px;
   font-weight: 500;
   letter-spacing: 1px;
+  margin-top: 30px;
 }
 
 .blogContainer .blogBottom h4 {
@@ -151,9 +157,51 @@
   margin-bottom: 20px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .blogContainer {
+    font-size: calc(14px + 0.16vw);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .blogContainer {
+    font-size: calc(12px + 0.16vw);
+  }
+  .blogContainer .blogBottom {
+    margin-top: 20px;
+  }
+}
+
 @media only screen and (max-width: 768px) {
+  .blogContainer {
+    font-size: calc(11px + 0.16vw);
+  }
+  .blogContainer .blogHead .blogTitle {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
   .blogContainer .blogBottom {
     display: none !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .blogContainer {
+    font-size: calc(11px + 0.16vw);
+  }
+  .blogContainer .blogHead .blogTitle {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .blogContainer {
+    font-size: calc(10px + 0.16vw);
+  }
+  .blogContainer .blogHead .blogTitle {
+    margin-top: 0px;
+    margin-bottom: 15px;
   }
 }
 
@@ -183,6 +231,13 @@
 
 .shareRight > span span {
   display: none  !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .shareRight > span {
+    width: 30px !important;
+    height: 30px !important;
+  }
 }
 
 .blogShareContainer {
