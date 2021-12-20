@@ -122,6 +122,13 @@
         display: none;
     }
 }
+
+@media(max-width:1400px){
+    .Inclusion{
+        margin-bottom: -250px;
+    }
+}
+
 @media(max-width:1450px){
     .text-box-1-Id{
         position: relative;
@@ -158,6 +165,9 @@
         height: 332.8px;
         bottom: 410px;
         left: 35%;
+    }
+    .Inclusion{
+        margin-bottom: 80px;
     }
 
     .container-1_text-Id {

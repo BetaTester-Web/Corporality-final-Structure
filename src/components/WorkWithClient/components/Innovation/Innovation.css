@@ -37,6 +37,7 @@
   color: #232323;
   margin-right: 300px;
   margin-left: 300px;
+  margin-bottom: -30px;
 }
 
 .button-4-Innovation {
@@ -44,7 +45,8 @@
   height: 42px;
   display: flex;
   margin-left: 0px;
-  margin-bottom: 85px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   justify-content: center;
   background-image: url("../ThirdComponent/button-5.png");
 }
@@ -143,14 +145,14 @@
   }
 } */
 
-@media(max-width:1400px){
+@media(max-width:1399.811654px){
   .cont-5-text-2-Innovation {
     margin-left: 250px;
     margin-right: 250px;
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199.861444px) {
   .cont-5-text-2-Innovation {
     margin-left: 100px;
     margin-right: 100px;
@@ -175,7 +177,7 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.8164px) {
   .cont-5-text-2-Innovation {
     margin-left: 0px;
     margin-right: 0px;
