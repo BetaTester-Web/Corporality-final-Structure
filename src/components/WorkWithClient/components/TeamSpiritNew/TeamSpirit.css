@@ -200,12 +200,12 @@
   }
   .community_first_heading_arrow-Invirogating{
     position: absolute !important;
-    left: 95% !important;
+    left: 65% !important;
     top: 40px !important;
   }
   .community_second_heading_arrow-Invirogating{
     position: absolute !important;
-    left: 60% !important;
+    left: 30% !important;
     top: 40px !important;
   }
 
@@ -216,7 +216,7 @@
     z-index: 1 !important;
   }
   .text_2_invirogating{
-    left: 0% !important;
+    left: 5% !important;
   }
   .community_second_description-Invirogating{
     margin-right: 0px !important;
@@ -330,6 +330,28 @@
   }
 }
 
+@media(max-width:991.82684){
+  .community_second_heading_text-Invirogating {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .community_second_description-Invirogating {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+
+  .community_first_heading_text-Invirogating {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .community_first_description-Invirogating {
+    font-size: 14px !important;
+    line-height: 20px !important;
+  }
+}
+
 @media only screen and (max-width: 914px) {
   .community_support_main-Invirogating {
     margin-top: 170px !important;
@@ -400,28 +422,29 @@
     position: relative !important;
     left: -15% !important;
   }
-}
-
-@media only screen and (max-width: 734px) {
   .community_second_heading_text-Invirogating {
-    font-size: 18px !important;
+    font-size: 14px !important;
     line-height: 24px !important;
   }
 
   .community_second_description-Invirogating {
-    font-size: 14px !important;
+    font-size: 12px !important;
     line-height: 20px !important;
   }
 
   .community_first_heading_text-Invirogating {
-    font-size: 18px !important;
+    font-size: 14px !important;
     line-height: 24px !important;
   }
 
   .community_first_description-Invirogating {
-    font-size: 14px !important;
+    font-size: 12px !important;
     line-height: 20px !important;
   }
+}
+
+@media only screen and (max-width: 734px) {
+  
   .text_1_invirogating{
     left: -18% !important;
   }
@@ -516,7 +539,7 @@
 }
 
 @media only screen and (max-width: 502px) {
-  .community_second_heading_text-Invirogating {
+/*   .community_second_heading_text-Invirogating {
     font-size: 18px !important;
     line-height: 18px !important;
   }
@@ -537,7 +560,7 @@
   .community_first_description-Invirogating {
     font-size: 14px !important;
     line-height: 17px !important;
-  }
+  } */
 
   .community_top_image-Invirogating {
     top: -85px !important;
@@ -579,7 +602,7 @@
   }
 
   .community_second_description-Invirogating {
-    margin-right: 0px !important;
+    margin-right: 10px !important;
   }
   .text2_Invirogating{
     left: 10% !important;

@@ -171,15 +171,15 @@
     }
 
     .container-1_text-Id {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .container-2_text-Id {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .container-3_text-Id {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .backimg-Id {
@@ -220,7 +220,7 @@
 
 }
 
-@media (max-width:768px) {
+@media (max-width:767.81654px) {
     .banner_right_inner-Id {
         width: 330px;
         height: 332.8px;
@@ -244,7 +244,7 @@
 
 }
 
-@media (max-width:768px) {
+@media (max-width:767.8624px) {
     .banner_right_inner-Id {
         width: 330px;
         height: 332.8px;
@@ -279,15 +279,15 @@
     }
 
     .container-1_text-Id {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .container-2_text-Id {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .container-3_text-Id {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 

@@ -30,7 +30,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  /* line-height: 40px; */
+  line-height: 28px;
   text-transform: uppercase;
   color: #3c708e;
 }
@@ -39,7 +39,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 22px;
-  /* line-height: 30px; */
+  line-height: 32px;
   color: #232323;
 }
 .sacc3Para {
@@ -47,7 +47,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  /* line-height: 26px; */
+  line-height: 26px;
   color: #757575;
 }
 .sacc3Button {
@@ -87,45 +87,45 @@
 }
 @media(max-width:992px){
   .sacc3Heading1 {
-    font-size: 20px;
-    line-height: 16px;
-  }
-  .sacc3Heading2 {
     font-size: 16px;
     line-height: 22px;
   }
-  .sacc3Para {
+  .sacc3Heading2 {
     font-size: 14px;
+    line-height: 22px;
+  }
+  .sacc3Para {
+    font-size: 12px;
     line-height: 14px;
   }
 }
 
 @media(max-width:768px){
   .sacc3Heading1 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
   }
   .sacc3Heading2 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 22px;
   }
   .sacc3Para {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
   }
 }
 
 @media only screen and (max-width: 575px) {
   .sacc3Heading1 {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 16px;
   }
   .sacc3Heading2 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 22px;
   }
   .sacc3Para {
-    font-size: 12px;
+    font-size: 10px;
     line-height: 14px;
   }
 
@@ -149,6 +149,6 @@
   .sacc3Button{
     width: 100px !important;
     height: 32px !important;
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 }

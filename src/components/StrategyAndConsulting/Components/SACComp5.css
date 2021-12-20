@@ -21,7 +21,7 @@
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
-    line-height: 44px;
+    line-height: 42px;
     text-transform: uppercase;
     color: #3C708E;
 }
@@ -33,7 +33,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 5px;
     color: #3C708E;
 
@@ -44,7 +44,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 5px;
     color: #3C708E;
 }
@@ -54,7 +54,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
     margin-bottom: 5px;
     color: #3C708E;
 }
@@ -64,7 +64,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 24px;
     color: #757575;
     margin-right: 60px;
 }
@@ -74,7 +74,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 24px;
     color: #757575;
     margin-right: 60px;
 }
@@ -84,7 +84,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 24px;
     color: #757575;
     margin-right: 60px;
 }
@@ -123,6 +123,7 @@
     left: -2%;
     transition-delay: 0.6s;
     animation: ideation-slide 2s ease-in-out infinite;
+    top: -1px !important;
 }
 
 .SACComp5_explore-text-Ideation {
@@ -132,7 +133,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 24px;
     text-decoration: none !important;
     color: #3C708E;
 }
@@ -142,7 +143,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 32px;
-    line-height: 44px;
+    line-height: 42px;
     text-transform: uppercase;
     color: #3C708E;
 }
@@ -275,74 +276,74 @@
         left: 0%;
     }
     .SACComp5_heading-text-1-main {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 20px;
     }
 
     .SACComp5_container-3_text-1_heading-Ideation {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
 
     .SACComp5_container-3_text-2_heading-Ideation {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
 
     .SACComp5_container-3_text-3_heading-Ideation {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
 
     .SACComp5_container-3_text-1-Ideation {
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 0px;
     }
 
     .SACComp5_container-3_text-2-Ideation {
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 0px;
     }
 
     .SACComp5_container-3_text-3-Ideation {
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 0px;
     }
 }
 
 @media(max-width:768px) {
     .SACComp5_heading-text-1-main {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
 
     .SACComp5_container-3_text-1_heading-Ideation {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
 
     .SACComp5_container-3_text-2_heading-Ideation {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
 
     .SACComp5_container-3_text-3_heading-Ideation {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
 
     .SACComp5_container-3_text-1-Ideation {
-        font-size: 12px;
+        font-size: 10px;
         margin-right: 0px;
     }
 
     .SACComp5_container-3_text-2-Ideation {
-        font-size: 12px;
+        font-size: 10px;
         margin-right: 0px;
     }
 
     .SACComp5_container-3_text-3-Ideation {
-        font-size: 12px;
+        font-size: 10px;
         margin-right: 0px;
     }
 }

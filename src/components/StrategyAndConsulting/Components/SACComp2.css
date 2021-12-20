@@ -67,7 +67,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 42px;
   text-transform: uppercase;
   color: #3c708e;
 }
@@ -99,7 +99,7 @@
   font-style: italic;
   font-weight: 500;
   font-size: 22px;
-  line-height: 30px;
+  line-height: 32px;
   color: #3c708e;
   margin: 0;
 }
@@ -136,33 +136,33 @@
     left: 50px;
   }
   .SACC2_prev-2-text-1{
-    font-size: 20px;
+    font-size: 16px;
     line-height: 22px;
   }
   .SACC2_prev-2-text-2{
-    font-size: 16px;
+    font-size: 14px;
   }
   .SACC2_prev-2-text-2{
-    font-size: 16px;
+    font-size: 14px;
   }
   .SACC2_text-box-content{
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
 @media(max-width:768px){
   .SACC2_prev-2-text-1{
-    font-size: 14px;
+    font-size: 12px;
     line-height: 22px;
   }
   .SACC2_prev-2-text-2{
-    font-size: 12px;
+    font-size: 10px;
   }
   .SACC2_prev-2-text-2{
-    font-size: 12px;
+    font-size: 10px;
   }
   .SACC2_text-box-content{
-    font-size: 12px;
+    font-size: 10px;
   }
 }
 

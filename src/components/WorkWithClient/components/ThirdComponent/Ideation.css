@@ -273,67 +273,67 @@
         left: 0%;
     }
     .container-3_text-1_heading-Ideation {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .container-3_text-2_heading-Ideation {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .container-3_text-3_heading-Ideation {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .container-3_text-1-Ideation {
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 0px;
     }
 
     .container-3_text-2-Ideation {
-        font-size: 14px;
+        font-size: 12px;
         margin-right: 0px;
     }
 
     .container-3_text-3-Ideation {
-        font-size: 14px;
+        font-size: 12x;
         margin-right: 0px;
     }
     .heading-text-1-main {
-        font-size: 20px;
+        font-size: 16px;
         line-height: 20px;
     }
 }
 
 @media(max-width:768px) {
     .heading-text-1-main {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
 
     .container-3_text-1_heading-Ideation {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .container-3_text-2_heading-Ideation {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .container-3_text-3_heading-Ideation {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .container-3_text-1-Ideation {
-        font-size: 12px;
+        font-size: 10px;
         margin-right: 0px;
     }
 
     .container-3_text-2-Ideation {
-        font-size: 12px;
+        font-size: 10px;
         margin-right: 0px;
     }
 
     .container-3_text-3-Ideation {
-        font-size: 12px;
+        font-size: 10px;
         margin-right: 0px;
     }
 }

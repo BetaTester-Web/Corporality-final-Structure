@@ -1,4 +1,4 @@
-.container-1-Op{
+ .container-1-Op{
     display: flex  ;
     align-items: center  ;
 
@@ -17,13 +17,16 @@
     position: absolute  ;
     left:60%  ;
 }
+.OrganisingPrinciple{
+    margin-bottom: -250px;
+}
 
 .container-1_text-Op{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
     font-weight: bold  ;
     font-size: 32px  ;
-    line-height: 40px  ;
+    line-height: 42px  ;
 /* identical to box height, or 125% */
 
     text-transform: uppercase  ;
@@ -36,7 +39,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
     font-weight: normal  ;
     font-size: 16px  ;
-    line-height: 24px  ;
+    line-height: 26px  ;
     /* identical to box height, or 150% */
     width: 110% !important;
     
@@ -49,7 +52,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
     font-weight: normal  ;
     font-size: 16px  ;
-    line-height: 24px  ;
+    line-height: 26px  ;
     /* or 150% */
 
 
@@ -191,6 +194,10 @@
         bottom: 410px  ;
         left: 35%  ;
     }
+    .OrganisingPrinciple{
+        margin-bottom: -5px;
+    }
+    
     .backimg-Op{
         width: 480px  ;
         height: 482.8px  ;
@@ -215,7 +222,7 @@
         left: 20%  ;
     }
     .container-1_text-Op{
-        font-size: 20px  ;
+        font-size: 16px  ;
         line-height: 20px  ;
     }
     .container-2_text-Op{
@@ -252,11 +259,11 @@
         margin-right: 10px  ;
     }
     .container-1_text-Op{
-        font-size: 14px  ;
+        font-size: 12px  ;
         line-height: 20px  ;
     }
     .container-2_text-Op{
-        font-size: 12px  ;
+        font-size: 10px  ;
         margin-right: 20px;
     }
 }

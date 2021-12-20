@@ -31,7 +31,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 22px;
   text-align: center;
   color: #232323;
 }
@@ -42,7 +42,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 14px;
+  line-height: 24px;
   text-align: center;
   color: #757575;
   padding-bottom: 10px;
@@ -74,7 +74,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 14px;
+  line-height: 24px;
   text-decoration: none;
   color: #757575;
   margin-top: 5px;
@@ -130,31 +130,31 @@ a {
     margin-right: 0px !important;
   }
   .Global-text-1 {
-    font-size: 16px !important;
+    font-size: 14px !important;
     line-height: 25px !important;
   }
 
   .Global-text-2 {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
 
   .Global-text-3 {
-    font-size: 14px !important;
+    font-size: 12px !important;
   }
 }
 
 @media(max-width:767.814268px) {
   .Global-text-1 {
-    font-size: 14px !important;
+    font-size: 12px !important;
     line-height: 25px !important;
   }
 
   .Global-text-2 {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 
   .Global-text-3 {
-    font-size: 12px !important;
+    font-size: 10px !important;
   }
 }
 
