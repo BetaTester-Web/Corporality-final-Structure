@@ -48,10 +48,11 @@ export default function BPComp3() {
                 alt=""
                 className="img-fluid"
               />
+              <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
+                Scope the initiative
+              </p>
             </div>
-            <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
-              Scope the initiative
-            </p>
+
             <p className="position-absolute text-center top-0 start-50 translate-middle-x bpcp3xAllign bpcp3Description">
               Assess current brand portfolio of offerings
             </p>
@@ -70,10 +71,11 @@ export default function BPComp3() {
                 alt=""
                 className="img-fluid"
               />
+              <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
+                Prepare a strategy canvas
+              </p>
             </div>
-            <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
-              Prepare a strategy canvas
-            </p>
+
             <p className="position-absolute text-center bottom-0 start-50 translate-middle-x bpcp3xAllign bpcp3Description">
               Where do you stand now against competition?
             </p>
@@ -92,10 +94,11 @@ export default function BPComp3() {
                 alt=""
                 className="img-fluid"
               />
+              <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
+                Discover customer pain points
+              </p>
             </div>
-            <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
-              Discover customer pain points
-            </p>
+
             <p className="position-absolute text-center top-0 start-50 translate-middle-x bpcp3xAllign bpcp3Description">
               Check for problems to be resolve and create new demand
             </p>
@@ -114,10 +117,11 @@ export default function BPComp3() {
                 alt=""
                 className="img-fluid"
               />
+              <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
+                Identify new market space
+              </p>
             </div>
-            <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
-              Identify new market space
-            </p>
+
             <p className="position-absolute text-center bottom-0 start-50 translate-middle-x bpcp3xAllign bpcp3Description">
               Unlock the demand to newer customers
             </p>
@@ -136,10 +140,11 @@ export default function BPComp3() {
                 alt=""
                 className="img-fluid"
               />
+              <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
+                Develop strategic options
+              </p>
             </div>
-            <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
-              Develop strategic options
-            </p>
+
             <p className="position-absolute text-center top-0 start-50 translate-middle-x bpcp3xAllign bpcp3Description">
               Practical,realistic strategies with alternative plans
             </p>
@@ -151,10 +156,11 @@ export default function BPComp3() {
                 alt=""
                 className="img-fluid"
               />
+              <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
+                Launch your brand
+              </p>
             </div>
-            <p className="text-wrap text-center position-absolute top-50 start-50 translate-middle bpcp3xAllign bpcp3CircleText">
-              Launch your brand
-            </p>
+
           </div>
         </div>
       </div>
