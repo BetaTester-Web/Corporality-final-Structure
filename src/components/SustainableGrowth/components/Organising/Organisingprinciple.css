@@ -304,6 +304,9 @@
         font-size: 12px  ;
         padding-right: 20px !important;
     }
+    .OrganisingPrinciple{
+        margin-bottom: -150px !important;
+    }
 }
 
 @media (max-width:448px){
@@ -325,7 +328,7 @@
 }
 @media (max-width:428px) {
     .image-first-Op{
-        left: -10%  ;
+        left: -6%  ;
     }
     .text-box-1-Op{
         margin-right: 50px  ;
