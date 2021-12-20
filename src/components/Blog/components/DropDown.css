@@ -2,6 +2,7 @@
   position: relative !important;
   border: 1px solid #E1E1E1 !important;
   max-width: none !important;
+  font-size: calc(12px + 0.1vw) !important;
 }
 
 .customDropDown:focus-within {
@@ -12,7 +13,7 @@
   padding: 10px !important;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  font-size: 1em !important;
+  font-size: 1.1em !important;
   font-weight: 400 !important;
   line-height: 1.172em !important;
   width: 95% !important;
@@ -41,9 +42,11 @@
 
 .customDropDown ul {
   padding: 0 !important;
+  max-width: 80vw;
 }
 
 .customDropDown ul li {
+  max-width: calc(80vw - 20px) !important;
   padding: 12px 20px !important;
   width: 294px !important;
   text-align: left !important;
@@ -59,7 +62,7 @@
 
 .customDropDown ul li a {
   all: unset !important;
-  font-size: 1em !important;
+  font-size: 0.9em !important;
 }
 
 .customDropDown .show {
@@ -146,23 +149,78 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .customDropDown {
+    font-size: calc(12px + 0.1vw) !important;
+  }
+  .customDropDown ul {
+    max-width: 250px !important;
+  }
+  .customDropDown ul li {
+    padding: 8px 18px !important;
+    max-width: 250px !important;
+  }
   .customDropDown .recentPostContainer {
+    max-width: none !important;
     height: calc(200px + 0.1vw) !important;
     font-size: calc(12px + 0.1vw) !important;
+  }
+  .customDropDown .recentPostContainer li {
+    padding: 0 !important;
+    max-width: none !important;
   }
 }
 
 @media only screen and (max-width: 576px) {
-  .customDropDown .recentPostContainer {
-    height: calc(180px + 0.1vw) !important;
+  .customDropDown {
+    font-size: calc(11px + 0.1vw) !important;
+  }
+  .customDropDown ul {
+    max-width: 100% !important;
     font-size: calc(12px + 0.1vw) !important;
+  }
+  .customDropDown ul li {
+    padding: 8px 18px !important;
+    max-width: calc(100% - 36px) !important;
+  }
+  .customDropDown .recentPostContainer {
+    max-width: none !important;
+    left: 50% !important;
+    -webkit-transform: translate(calc(-50%), 39px) !important;
+            transform: translate(calc(-50%), 39px) !important;
+    -ms-grid-columns: 1fr !important;
+        grid-template-columns: 1fr !important;
+    -ms-grid-rows: (1fr)[6] !important;
+        grid-template-rows: repeat(6, 1fr) !important;
+    grid-row-gap: 2.1% !important;
+    grid-column-gap: 2% !important;
+    height: 330px !important;
+    max-height: none !important;
+    max-width: 350px !important;
+    font-size: calc(12px + 0.1vw) !important;
+  }
+  .customDropDown .recentPostContainer li {
+    padding: 0 !important;
+    max-width: none !important;
   }
 }
 
 @media only screen and (max-width: 360px) {
+  .customDropDown {
+    font-size: calc(11px + 0.1vw) !important;
+  }
+  .customDropDown ul {
+    overflow-x: hidden;
+    font-size: calc(12px + 0.1vw) !important;
+  }
+  .customDropDown ul li {
+    padding: 8px 15px !important;
+    overflow: hidden;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+  }
   .customDropDown .recentPostContainer {
-    height: calc(180px + 0.1vw) !important;
-    font-size: calc(10px + 0.1vw) !important;
+    font-size: calc(12px + 0.1vw) !important;
+    height: 300px !important;
   }
 }
 /*# sourceMappingURL=DropDown.css.map */

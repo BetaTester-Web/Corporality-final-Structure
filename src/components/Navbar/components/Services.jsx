@@ -4,12 +4,14 @@ import servicesImage from '../assets/services-strategies.jpg'
 import OutsideClickHandler from 'react-outside-click-wrapper';
 import { Link } from 'react-router-dom';
 import { NavbarContext } from '../Context/NavbarContext';
+import topHandler from '../../../CommonHandler/TopHandler';
 
 const Services = () => {
     const {setShowServices, showServices, isLargeScreen, setNavClicked} = useContext(NavbarContext);
     const closeOnLink = () => {
         setShowServices(false);
         setNavClicked(false);
+        topHandler();
     }
     return (
         <OutsideClickHandler className="outside-handler" onOutsideClick={() => setShowServices(false)}>

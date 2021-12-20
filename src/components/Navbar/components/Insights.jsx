@@ -1,6 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import OutsideClickHandler from 'react-outside-click-wrapper';
 import { useNavigate } from 'react-router-dom';
+import topHandler from '../../../CommonHandler/TopHandler';
 import { NavbarContext } from '../Context/NavbarContext';
 import "./Insights.css"
 
@@ -11,6 +12,7 @@ const Insights = () => {
     const closeOnLink = () => {
         setShowInsights(false);
         setNavClicked(false);
+        topHandler();
     }
     return (
         <OutsideClickHandler className="outside-handler" onOutsideClick={() => setShowInsights(false)}>

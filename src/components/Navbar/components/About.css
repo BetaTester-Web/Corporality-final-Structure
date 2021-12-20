@@ -108,6 +108,7 @@
     height: 228px;
     right: 110px;
     bottom: 30px;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 1200px) {

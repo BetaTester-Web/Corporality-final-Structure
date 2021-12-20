@@ -89,11 +89,14 @@ const Blog = () => {
             return;
         }
         const res = await axios.patch(`/articles/${slug}/like`);
+        setLiked(true);
         if(res.data.success){
             setBlog((blog) => ({...blog, likes: blog.likes+1}));
             setLiked(true);
             let liked = JSON.parse(localStorage.getItem("liked"));
             localStorage.setItem("liked", JSON.stringify([...liked, id]));
+        }else{
+            setLiked(false);
         }
     }
     return (
