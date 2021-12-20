@@ -1,3 +1,25 @@
+@media only screen and (max-width: 992px) {
+    .content-inner .cf-inner .inner h2 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .GTMComp4 .philosophySubmitButton {
+        font-size: 12px;
+        line-height: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .content-inner .cf-inner .inner h2 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .GTMComp4 .philosophySubmitButton {
+        font-size: 10px;
+        line-height: 16px;
+    }
+}
+
 @-webkit-keyframes bg-scrolling-reverse {
     100% {
         background-position: 105px 105px;
@@ -165,6 +187,8 @@
     position: relative;
     z-index: 1 !important;
     width: 15% !important;
+    font-size: 14px;
+    line-height: 16px;
     height: 4% !important;
     color: #fff;
     text-align: center;
@@ -344,6 +368,7 @@
 .content-inner .cf-inner .inner h2 {
     position: relative;
     font-size: 22px;
+    line-height: 30px;
     font-weight: 800;
     padding-bottom: 20px;
 }

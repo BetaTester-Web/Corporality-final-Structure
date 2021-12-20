@@ -1,3 +1,25 @@
+@media only screen and (max-width: 992px) {
+    .GTMComp3 .text {
+        font-size: 12px!important;
+        line-height: 20px!important;
+    }
+    .GTMComp3 .animate{
+        font-size: 16px!important;
+        line-height: 24px!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .GTMComp3 .text {
+        font-size: 10px!important;
+        line-height: 15px!important;
+    }
+    .GTMComp3 .animate{
+        font-size: 14px!important;
+        line-height: 20px!important;
+    }
+}
+
 .GTMComp3 .text {
     font-family: Roboto;
     font-style: normal;
@@ -6,6 +28,11 @@
     line-height: 26px;
     text-align: center!important;
     color: #757575;
+}
+
+.GTMComp3 .animate{
+    font-size: 32px!important;
+    line-height: 42px!important;
 }
 
 .gotomarketing-card{

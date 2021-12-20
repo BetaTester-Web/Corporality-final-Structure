@@ -1,3 +1,11 @@
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
 .GTMComp5Container {
     background: url(./images/component5Banner.png) no-repeat center center/cover;
     padding-top: 140px;

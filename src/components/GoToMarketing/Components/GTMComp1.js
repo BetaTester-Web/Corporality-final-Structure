@@ -44,7 +44,7 @@ function Page1() {
 							</div>
 						</div>
 						<div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-delay="1000" className="desc mt-2 mb-2 text aos-init aos-animate">
-							<p>Gain competitive advantage, manage time effectively, achieve
+							<p className="gainCompetitive">Gain competitive advantage, manage time effectively, achieve
 							successful product launch with innovative product development and
 							management strategy, address innovation challenges,and ensure a
 							viable path to market success with our GTM strategy.</p>

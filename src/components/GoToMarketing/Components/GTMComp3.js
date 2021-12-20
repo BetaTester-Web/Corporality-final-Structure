@@ -13,7 +13,7 @@ function GTMComp3() {
   });
     return (
         <>
-            <div className="container text-center mx-auto d-flex flex-column align-items-center justify-content-center">
+            <div className="GTMComp3 container text-center mx-auto d-flex flex-column align-items-center justify-content-center">
                 <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" class="aos-init aos-animate">
                     <h1 class="animate two">
                         <span>Delivering</span>&nbsp;<span>unique</span>&nbsp;<span>value</span>&nbsp;<span>propositions</span>
