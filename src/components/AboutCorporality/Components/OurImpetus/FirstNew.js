@@ -22,7 +22,13 @@ function FirstNew() {
       <img src={yellow_back} alt="" className="ourimpetus_yellowback" />
       <div className="container">
         <div className="ourimpetus_container">
-          <div className="ourimpetus_text_side">
+          <div
+            className="ourimpetus_text_side"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+            data-aos-offset="0"
+          >
             <div className="impetus_text_box1">
               <img src={rect} alt="" />
             </div>
@@ -39,7 +45,14 @@ function FirstNew() {
               quickly altering marketing scenarios
             </div>
           </div>
-          <div className="our_impetus_image_side">
+
+          <div
+            className="our_impetus_image_side"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+            data-aos-easing="ease-in-out"
+            data-aos-offset="0"
+          >
             <div className="imageside_maincontainer">
               <div className="imagesidecontainer2">
                 <img src={main2} alt="" className="impetus_mainimage" />

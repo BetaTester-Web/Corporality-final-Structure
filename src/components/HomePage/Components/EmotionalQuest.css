@@ -34,11 +34,11 @@
   filter: drop-shadow(0.6 rem 0.6 rem 1 rem #534b53);
   background: #31647c;
   border-radius: 50%;
-  animation: pulse 1s linear infinite;
+  animation: button_pulse 1s linear infinite;
   cursor: pointer;
 }
 
-@keyframes pulse {
+@keyframes button_pulse {
   0% {
     box-shadow: 0 0 0 0 #fff;
   }
@@ -155,7 +155,7 @@
   .text_description {
     font-size: 12px;
     padding: 15px !important;
-    padding-left: 30px !important;
+    /* padding-left: 30px !important; */
   }
 
   .video_image .first_image {
@@ -180,7 +180,7 @@
   }
 
   .text_side {
-    padding-left: 0 !important;
+    padding-left: 15px !important;
   }
 }
 
@@ -251,6 +251,6 @@
 
 @media only screen and (max-width: 382px) {
   .text_side {
-    padding: 10px !important;
+    /* padding: 10px !important; */
   }
 }

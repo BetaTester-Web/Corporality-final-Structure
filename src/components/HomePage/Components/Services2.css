@@ -1,5 +1,6 @@
 .services_container_parent {
   background: #f4f4f4;
+  margin-bottom: 80px !important;
 }
 
 .main_services_container {
@@ -27,6 +28,7 @@
 }
 
 .services_heading {
+  margin-top: 80px !important;
   position: relative;
   font-family: "Roboto";
   font-style: normal;
