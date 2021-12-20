@@ -21,7 +21,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 22px;
-    line-height: 26px;
+    line-height: 32px;
     text-transform: uppercase;
     color: #3C708E;
 
@@ -33,7 +33,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 32px;
-    line-height: 40px;
+    line-height: 42px;
     text-transform: uppercase;
     color: #232323;
 }
@@ -43,7 +43,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
     margin-right: 130px;
     color: #232323;
 }

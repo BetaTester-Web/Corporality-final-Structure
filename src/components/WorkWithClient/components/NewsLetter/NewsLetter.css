@@ -13,7 +13,7 @@
 .NewsLetter-Text-Heading {
   font-weight: bold;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 42px;
   position: relative;
   z-index: 1;
   color: #ffffff;
@@ -25,7 +25,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 24px;
   position: relative;
   z-index: 3;
   margin-right: 190px;
@@ -38,7 +38,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 24px;
   color: #ffffff;
 }
 
@@ -48,7 +48,7 @@
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
-  line-height: 30px;
+  line-height: 32px;
   color: #ffffff;
 }
 
