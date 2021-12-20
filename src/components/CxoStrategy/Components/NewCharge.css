@@ -1,0 +1,111 @@
+.new-charge {
+  width: 100%;
+  position: relative;
+  margin: 50px auto;
+  height: 40vw;
+  font-size: 1.0vw;
+  z-index: 5;
+  max-height: 731px;
+}
+
+.new-charge-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 50.3%;
+  height: 88.9%;
+  z-index: 6;
+}
+
+.new-charge-left img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.new-charge-middle {
+  height: 100%;
+  z-index: 5;
+  width: 41.7%;
+  position: absolute;
+  left: 40%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
+  background: -webkit-gradient(linear, left top, right top, color-stop(34.47%, #A06DAF), color-stop(110.64%, #6CA0BC));
+  background: linear-gradient(90deg, #A06DAF 34.47%, #6CA0BC 110.64%);
+}
+
+.new-charge-bottom {
+  width: 70%;
+  height: 21.2%;
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(34.47%, #A06DAF), color-stop(110.64%, #6CA0BC));
+  background: linear-gradient(90deg, #A06DAF 34.47%, #6CA0BC 110.64%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-height: 155px;
+}
+
+.new-charge-bottom h1 {
+  height: auto;
+  width: 70%;
+  text-align: center;
+  margin: 0 0 0 30%;
+  font-size: 2em;
+  line-height: 2.2em;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.new-charge-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 61.7%;
+  height: 65.7%;
+  -webkit-transform: translateY(-55%);
+          transform: translateY(-55%);
+  z-index: 6;
+}
+
+.new-charge-right video {
+  z-index: 10 !important;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (min-width: 1200px) {
+  .new-charge {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .new-charge {
+    margin: 30px auto;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .new-charge {
+    margin: 20px auto;
+  }
+}
+/*# sourceMappingURL=NewCharge.css.map */
