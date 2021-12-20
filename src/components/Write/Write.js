@@ -13,7 +13,7 @@ export default function Write() {
     const { user, dispatch } = useContext(Context);
     const handleLogout = () => {
         dispatch({ type: "LOGOUT" });
-        window.location.reload();
+        window.location.replace("/login");
     };
     const handleSubmit = async (e) => {
         e.preventDefault();

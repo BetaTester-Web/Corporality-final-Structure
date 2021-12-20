@@ -70,8 +70,8 @@ const Blog = () => {
                 title: blog.title,
                 desc: desc
             });
-            window.location.replace("/" + res.data.slug)
             setUpdateMode(false)
+            window.location.replace("/" + res.data.slug)
         } catch (err) { }
     };
 
