@@ -216,12 +216,13 @@
   .box_text_4,
   .box_text_5 {
     font-size: 12px;
-    top: 55px;
+    top: 50px;
+    left: 2px;
   }
 
   .box_text_2 {
     font-size: 10px;
-    top: 45px;
+    top: 40px;
   }
 
   .box_top_1 {
@@ -295,7 +296,7 @@
     font-size: 8px;
     line-height: 10px;
     top: 80px;
-    left: 0px;
+    left: 10px;
     font-weight: 500;
     /* padding-left: 80px !important; */
     /* padding-right: 80px !important; */
@@ -316,13 +317,13 @@
   .box_text_5 {
     font-size: 8px;
     top: 40px;
-    left: 5px;
+    left: 4px;
   }
 
   .box_text_2 {
     font-size: 8px;
-    top: 30px;
-    left: 5px;
+    top: 32px;
+    left: 0px;
   }
 
   .box_top_1 {
@@ -365,7 +366,7 @@
     font-size: 14px;
     font-weight: 500;
     top: 30px;
-    left: 10px;
+    left: 13px;
   }
 
   .main_heading::after {
@@ -400,13 +401,31 @@
   .box_text_4,
   .box_text_5 {
     font-size: 6px;
-    top: 28px;
-    left: 2px;
+  }
+
+  .box_text_1 {
+    top: 24px;
+    left: -1px;
   }
 
   .box_text_2 {
-    font-size: 6px;
-    top: 10px;
+    top: 12px;
+    left: -2px;
+  }
+
+  .box_text_3 {
+    top: 26px;
+    left: -2px;
+  }
+
+  .box_text_4 {
+    top: 24px;
+    left: 0px;
+  }
+
+  .box_text_5 {
+    top: 25px;
+    left: -2px;
   }
 
   .box_top_1 {

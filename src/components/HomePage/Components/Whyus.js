@@ -8,7 +8,7 @@ function Whyus() {
         <div className="whyus_container">
           <div className="main_div">
             <div className="main_heading">Why Us</div>
-            <div className="main_content">
+            <div className="main_content main_content_text">
               We are a research-based company that provides a grand omni effect
               that is seldom offered by others. Corporality Global actively
               focuses on sustainability instead of running just after the money.
