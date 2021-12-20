@@ -136,7 +136,7 @@
 
 @media only screen and (max-width: 767px) {
   .Background_in_Strategy {
-    margin-top: 80px !important;
+    margin-top: -30px !important;
   }
 
   .Background_in_Strategy img {
@@ -157,34 +157,23 @@
   .understanding_difficulty_last_text {
     padding: 0 20px !important;
   }
+
+  .understanding_difficulty_first_text_heading,
+  .understanding_difficulty_last_text_heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .understanding_difficulty_first_text_description,
+  .understanding_difficulty_last_text_description {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .understanding_difficulty_main_container {
     margin-top: -100px !important;
-  }
-}
-
-@media only screen and (max-width: 479px) {
-  .understanding_difficulty_first_text_heading,
-  .understanding_difficulty_last_text_heading {
-    font-size: 24px;
-    line-height: 26px;
-  }
-
-  .understanding_difficulty_first_text_description,
-  .understanding_difficulty_last_text_description {
-    font-size: 16px;
-    line-height: 22px;
-  }
-
-  .Background_in_Strategy img {
-    margin-top: -20px !important;
-  }
-
-  .understanding_difficulty_first_text,
-  .understanding_difficulty_last_text {
-    padding: 0 20px !important;
   }
 }
 
@@ -196,17 +185,17 @@
   .understanding_difficulty_first_text_heading,
   .understanding_difficulty_last_text_heading {
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
   }
 
   .understanding_difficulty_first_text_description,
   .understanding_difficulty_last_text_description {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 10px;
+    line-height: 16px;
   }
 
   .Background_in_Strategy img {
-    margin-top: -120px !important;
+    margin-top: -10px !important;
   }
 
   .understanding_difficulty_main_container {

@@ -21,7 +21,7 @@ function WorkParallax() {
         <div className="outer_container">
           <div className="parallax_container">
             <div
-              className="parallax_main_heading aos-init aos-animate"
+              className="parallax_main_heading"
               data-aos="zoom-in"
               data-aos-duration="1000"
             >
@@ -30,7 +30,7 @@ function WorkParallax() {
             </div>
 
             <div
-              className="parallax_description aos-init aos-animate"
+              className="parallax_description"
               data-aos="zoom-in"
               data-aos-duration="1000"
             >
@@ -41,7 +41,7 @@ function WorkParallax() {
             </div>
 
             <div
-              className="bottom_button  aos-init aos-animate"
+              className="bottom_button"
               data-aos="zoom-in"
               data-aos-duration="1000"
             >

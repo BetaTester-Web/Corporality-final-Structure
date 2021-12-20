@@ -24,7 +24,7 @@ function CommunitySupport() {
       <div className="container">
         <div className="community_support_main">
           <div
-            className="community_support_first aos-init aos-animate"
+            className="community_support_first "
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -57,7 +57,7 @@ function CommunitySupport() {
             </div>
           </div>
           <div
-            className="community_support_second  aos-init aos-animate"
+            className="community_support_second  "
             data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"

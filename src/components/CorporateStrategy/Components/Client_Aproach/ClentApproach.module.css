@@ -239,6 +239,18 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .clientApproach_left h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .clientApproach_left p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
 @media screen and (max-width: 644px) {
   .clientApproach {
     margin-top: -100px !important;
@@ -294,14 +306,14 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 425px) {
   .clientApproach_left h1 {
-    font-size: 16px;
-    line-height: 18px;
+    font-size: 14px;
+    line-height: 20px;
   }
+
   .clientApproach_left p {
-    width: 100%;
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 10px;
+    line-height: 16px;
   }
 }

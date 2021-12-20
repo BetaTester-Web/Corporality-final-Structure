@@ -17,7 +17,7 @@ function Leadership() {
       <div className="container">
         <div className="leadership_main">
           <div
-            className="leadership_heading aos-init aos-animate"
+            className="leadership_heading"
             data-aos="fade-down"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
@@ -26,7 +26,7 @@ function Leadership() {
           </div>
 
           <div
-            className="leadership_content aos-init aos-animate"
+            className="leadership_content"
             data-aos="fade-down"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"
@@ -39,7 +39,7 @@ function Leadership() {
 
           <div className="leadership_cards">
             <div
-              className="leadership_card_1 aos-init aos-animate"
+              className="leadership_card_1"
               data-aos="flip-left"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
@@ -59,7 +59,7 @@ function Leadership() {
               </div>
             </div>
             <div
-              className="leadership_card_2 aos-init aos-animate"
+              className="leadership_card_2"
               data-aos="flip-right"
               data-aos-easing="ease-out-cubic"
               data-aos-duration="1000"
@@ -81,7 +81,7 @@ function Leadership() {
             </div>
           </div>
           <div
-            className="leadership_button aos-init aos-animate"
+            className="leadership_button"
             data-aos="fade-up"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="1000"

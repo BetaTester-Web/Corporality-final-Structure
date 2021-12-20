@@ -164,6 +164,25 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .leadership_heading,
+  .card_content_h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .card_content_h2 {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .leadership_content,
+  .card_content_description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
 @media only screen and (max-width: 616px) {
   .leadership_content {
     padding: 0 10px !important;
@@ -227,7 +246,7 @@
   }
 
   .leadership_main {
-    padding: 30px 10px !important;
+    padding: 30px 15px !important;
   }
 
   .leadership_card_1,
@@ -235,13 +254,23 @@
     padding-right: 15px !important;
     padding-left: 15px !important;
   }
+}
 
-  .leadership_heading {
-    font-size: 22px;
+@media only screen and (max-width: 425px) {
+  .leadership_heading,
+  .card_content_h1 {
+    font-size: 14px;
+    line-height: 20px;
   }
 
-  .leadership_content {
+  .card_content_h2 {
     font-size: 12px;
-    line-height: 15px;
+    line-height: 18px;
+  }
+
+  .leadership_content,
+  .card_content_description {
+    font-size: 10px;
+    line-height: 16px;
   }
 }

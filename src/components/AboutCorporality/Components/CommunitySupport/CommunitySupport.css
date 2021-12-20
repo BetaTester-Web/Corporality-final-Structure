@@ -297,24 +297,24 @@
   }
 }
 
-@media only screen and (max-width: 734px) {
+@media only screen and (max-width: 768px) {
   .community_second_heading_text {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 24px;
   }
 
   .community_second_description {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
 
   .community_first_heading_text {
-    font-size: 24px;
+    font-size: 26px;
     line-height: 24px;
   }
 
   .community_first_description {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
 }
@@ -443,5 +443,25 @@
     position: absolute;
     bottom: 0;
     left: 180px;
+  }
+
+  .community_second_heading_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .community_second_description {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .community_first_heading_text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .community_first_description {
+    font-size: 12px;
+    line-height: 16px;
   }
 }

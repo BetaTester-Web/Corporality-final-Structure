@@ -16,7 +16,7 @@ function ThreeBoxes() {
     <div className="container">
       <div className="threeboxes_main">
         <div
-          className="threeboxes_first aos-init aos-animate"
+          className="threeboxes_first"
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
@@ -30,7 +30,7 @@ function ThreeBoxes() {
           </div>
         </div>
         <div
-          className="threeboxes_second aos-init aos-animate"
+          className="threeboxes_second"
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
@@ -46,7 +46,7 @@ function ThreeBoxes() {
           </div>
         </div>
         <div
-          className="threeboxes_third aos-init aos-animate"
+          className="threeboxes_third"
           data-aos="flip-right"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"

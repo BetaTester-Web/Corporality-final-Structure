@@ -109,6 +109,18 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .parallax_main_heading {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  .parallax_description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
 @media only screen and (max-width: 610px) {
   .box_right {
     right: 20px;

@@ -369,6 +369,19 @@
   }
 }
 
+@media only screen and (max-width: 401px) {
+  .caretojoinus_heading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .caretojoinus_description {
+    font-size: 10px;
+    line-height: 16px;
+    margin-right: 15px !important;
+  }
+}
+
 @media only screen and (max-width: 365px) {
   .back_image {
     left: -30px;

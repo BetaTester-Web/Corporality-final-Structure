@@ -685,8 +685,18 @@
   }
 
   .cards_top_heading {
-    font-size: 26px !important;
-    line-height: 28px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+
+  .cards_top_heading span {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .cards_top_description {
+    font-size: 12px;
+    line-height: 20px;
   }
 }
 
@@ -936,14 +946,14 @@
   }
 }
 
-@media only screen and (max-width: 467px) {
-  .cards_top_heading {
-    font-size: 20px !important;
-    line-height: 22px !important;
+@media only screen and (max-width: 425px) {
+  .cards_top_heading span {
+    font-size: 14px !important;
+    line-height: 20x !important;
   }
 
   .cards_top_description {
-    font-size: 14px !important;
-    line-height: 22px !important;
+    font-size: 10px !important;
+    line-height: 16px !important;
   }
 }

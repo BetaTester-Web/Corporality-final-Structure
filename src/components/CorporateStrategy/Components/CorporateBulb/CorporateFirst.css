@@ -437,6 +437,21 @@
   .corporatefirst_bottom_phone {
     right: -20px;
   }
+
+  .corporatefirst_text_heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .corporatefirst_text_description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .corporatefirst_left_text {
+    margin-top: 180px !important;
+    margin-left: 20px !important;
+  }
 }
 
 @media only screen and (max-width: 600px) {
