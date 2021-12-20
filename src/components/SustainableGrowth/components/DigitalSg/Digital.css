@@ -66,7 +66,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 32px;
-  line-height: 44px;
+  line-height: 42px;
   text-transform: uppercase;
   color: #3c708e;
 }
@@ -134,11 +134,11 @@
 }
 @media (max-width: 768px) {
   .prev-2-text-1-Digital {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
   .prev-2-text-2-Digital {
-    font-size: 12px;
+    font-size: 10px;
     text-align: left;
   }
   /* .side2-container-Digital {

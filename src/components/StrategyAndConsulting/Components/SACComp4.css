@@ -12,7 +12,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
-  line-height: 40px;
+  line-height: 42px;
   text-transform: uppercase;
   color: #33657e;
   text-align: center;
@@ -23,7 +23,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 24px;
   text-align: center;
   color: #757575;
   width: 50%;
@@ -76,7 +76,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 24px;
   text-align: center;
   color: #757575;
 }
@@ -167,16 +167,16 @@
   }
 } */
 
-@media(max-width:768px){
+@media(max-width:767.846526px){
   .sacc4Container{
     margin-bottom: 100px !important;
   }
   .sacc4Heading1{
-    font-size: 14px !important;
+    font-size: 12px !important;
     line-height: 22px !important;
   }
   .sacc4Para1{
-    font-size: 12px !important;
+    font-size: 10px !important;
     line-height: 22px !important;
     width: 90% !important;
   }
@@ -209,7 +209,7 @@
     justify-content: space-around !important;
   }
   .sacc4Heading2 {
-    font-size: 10px;
+    font-size: 12px;
   }
   .sacc4Para2,
   .sacc4Button {
@@ -257,11 +257,11 @@
 
 @media(max-width:991.86412px){
   .sacc4Heading1{
-    font-size: 20px !important;
+    font-size: 16px !important;
     line-height: 22px !important;
   }
   .sacc4Para1{
-    font-size: 16px !important;
+    font-size: 14px !important;
   }
 }
 

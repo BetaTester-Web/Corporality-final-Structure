@@ -21,7 +21,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
     /* identical to box height, or 178% */
     margin-bottom: 5px;
     
@@ -37,7 +37,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
     /* identical to box height, or 178% */
     margin-bottom: 5px;
     margin-right: -120px;
@@ -49,7 +49,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 18px;
-    line-height: 32px;
+    line-height: 28px;
     /* identical to box height, or 178% */
     margin-bottom: 5px;
     
@@ -61,7 +61,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 24px;
     /* or 157% */
     
     
@@ -74,7 +74,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: normal;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 24px;
     /* or 157% */
     
     
@@ -88,7 +88,7 @@
 
     font-weight: normal;
     font-size: 14px;
-    line-height: 22px;
+    line-height: 24px;
     /* or 157% */
     
     
@@ -125,7 +125,7 @@
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 32px;
-    line-height: 44px;
+    line-height: 42px;
 /* identical to box height, or 137% */
 
     text-transform: uppercase;
@@ -264,59 +264,59 @@ button-4{
         left: 60px;
     }
     .container-3_text-1_heading{
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
     .container-3_text-1{
         margin-right: 0px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .container-3_text-2_heading{
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
         margin-right: 0px;
     }
     .container-3_text-2{
         margin-right: 0px;
-        font-size: 14px;
+        font-size: 12px;
     }
     .container-3_text-3_heading{
-        font-size: 16px;
+        font-size: 14px;
         line-height: 20px;
     }
     .container-3_text-3{
         margin-right: 0px;
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 @media (max-width:768px){
     .container-3_text-1_heading{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
     .container-3_text-1{
         margin-right: 0px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .container-3_text-2_heading{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
         margin-right: 0px;
     }
     .container-3_text-2{
         margin-right: 0px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .container-3_text-3_heading{
-        font-size: 14px;
+        font-size: 12px;
         line-height: 20px;
     }
     .container-3_text-3{
         margin-right: 0px;
-        font-size: 12px;
+        font-size: 10px;
     }
     .images-prev-3{
-        margin-top: 100px;
+        margin-top: 20px;
     }
 }
 
@@ -350,6 +350,10 @@ button-4{
         left: -190px;
        
     }
+    .images-prev-3{
+        margin-top: 20px;
+        margin-bottom: -60px;
+    }
 }
 
 @media(max-width:576px){
@@ -362,6 +366,11 @@ button-4{
 @media(max-width:425px){
     .icon1-blueprint{
         width: 40px;
+    }
+    .images-prev-3{
+        margin-top: -20px;
+        margin-bottom: -150px;
+        padding-bottom: 0px;
     }
 }
 

@@ -149,19 +149,19 @@
         margin-right: 0px !important;
      }
      .prev-2-text-2-Faith{
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
     .prev-2-text-1-Faith{
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
  }
 @media (max-width:768px){
     .prev-2-text-2-Faith{
-        font-size: 12px !important;
+        font-size: 10px !important;
     }
     .prev-2-text-1-Faith{
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
     .side2-container-Faith{
         left: 0% !important;

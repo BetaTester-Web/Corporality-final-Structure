@@ -70,7 +70,7 @@
         Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
     font-weight: bold !important;
     font-size: 32px !important;
-    line-height: 44px !important;
+    line-height: 42px !important;
     text-transform: uppercase !important;
     color: #3C708E !important;
 }
@@ -130,22 +130,22 @@
         top: -50px;
     }
     .prev-2-text-1 {
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
 
     .prev-2-text-2 {
-        font-size: 14px !important;
+        font-size: 12px !important;
         padding-right: 0px !important;
     }
 }
 
 @media (max-width:768px) {
     .prev-2-text-1 {
-        font-size: 14px !important;
+        font-size: 12px !important;
     }
 
     .prev-2-text-2 {
-        font-size: 12px !important;
+        font-size: 10px !important;
         padding-right: 0px !important;
     }
     .prev2{

@@ -61,7 +61,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   color: #757575;
   padding-right: 250px !important;
   margin-right: -60px;
@@ -91,7 +91,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: bold;
   font-size: 32px;
-  line-height: 32px;
+  line-height: 42px;
   color: #3c708e;
   margin-right: 10px !important;
   position: relative;
@@ -108,7 +108,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 26px;
   color: #757575;
   padding-right: 340px !important;
   margin-right: -180px;
@@ -299,6 +299,25 @@
   .community_first_heading_text-Leaderships {
     margin-right: -60px !important;
   }
+  .community_second_heading_text-Leaderships {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .community_second_description-Leaderships {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .community_first_heading_text-Leaderships {
+    font-size: 16px;
+    line-height: 2.px;
+  }
+
+  .community_first_description-Leaderships {
+    font-size: 14px;
+    line-height: 20px;
+  }
 
 }
 
@@ -374,28 +393,29 @@
   .community_first_description-Leaderships {
     /* margin-right: 0px !important; */
   }
-}
-
-@media only screen and (max-width: 734px) {
   .community_second_heading_text-Leaderships {
-    font-size: 24px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .community_second_description-Leaderships {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
 
   .community_first_heading_text-Leaderships {
-    font-size: 24px;
-    line-height: 24px;
-  }
-
-  .community_first_description-Leaderships {
     font-size: 14px;
     line-height: 20px;
   }
+
+  .community_first_description-Leaderships {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 734px) {
+ 
 }
 
 @media only screen and (max-width: 626px) {
@@ -487,25 +507,6 @@
 }
 
 @media only screen and (max-width: 502px) {
-  .community_second_heading_text-Leaderships {
-    font-size: 18px;
-    line-height: 18px;
-  }
-
-  .community_second_description-Leaderships {
-    font-size: 10px;
-    line-height: 13px;
-  }
-
-  .community_first_heading_text-Leaderships {
-    font-size: 18px;
-    line-height: 18px;
-  }
-
-  .community_first_description-Leaderships {
-    font-size: 10px;
-    line-height: 13px;
-  }
 
   .community_top_image-Leaderships {
     top: -85px;
