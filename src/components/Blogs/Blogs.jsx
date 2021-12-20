@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -9,15 +9,18 @@ import Pagination from "./components/Pagination";
 import axios from "axios";
 import BlogTop from '../Blog/components/BlogTop';
 import { useParams } from "react-router-dom";
-
-
+import { Context } from "../../context/Context";
 function Blogs() {
+    const { user, dispatch } = useContext(Context);
+    const handleLogout = () => {
+        dispatch({ type: "LOGOUT" });
+        window.location.reload();
+    };
     const [loading, setLoading] = useState(true)
     const [articles, setArticles] = useState([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [showArticles, setShowArticles] = useState([])
     const [totalArticles, setTotalArticles] = useState(1);
-
     const params = useParams();
     console.log("blog");
     useEffect( async () => {
@@ -57,6 +60,11 @@ function Blogs() {
     return (
         <>
             <BlogTop blogState={ {articles, showArticles, setShowArticles} } />
+            {user && <div className="blogCustomizer1 d-flex flex-row justify-content-sm-end justify-content-center">
+                <button class="philosophySubmitButton d-flex align-items-center justify-content-center" onClick={handleLogout}>
+                    Logout
+                </button>
+            </div>}
             { loading?
                 null
                 :

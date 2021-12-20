@@ -164,7 +164,7 @@ const Blog = () => {
                         // <p className="singlearticleDesc">{desc}</p>
                     )}
                     {updateMode && (
-                        <button className="singlearticleButton" onClick={handleUpdate}>
+                        <button class="philosophySubmitButton d-flex align-items-center justify-content-center mt-3" onClick={handleUpdate}>
                             Update
                         </button>
                     )}
