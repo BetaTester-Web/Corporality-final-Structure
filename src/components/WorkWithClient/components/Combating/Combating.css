@@ -43,7 +43,7 @@
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 28px;
   margin-right: 130px;
   position: relative;
   left: 10%;
@@ -56,7 +56,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 22px;
+  line-height: 24px;
   margin-right: 130px !important;
   color: #757575;
   position: relative;
@@ -112,7 +112,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 30px;
   text-transform: uppercase;
   color: #232323;
 }
@@ -126,7 +126,7 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: normal;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 30px;
   color: #757575;
 }
 
