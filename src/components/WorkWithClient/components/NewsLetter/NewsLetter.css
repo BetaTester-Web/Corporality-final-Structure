@@ -206,32 +206,32 @@
     margin-top: 70px;
   }
   .NewsLetter-Text-Heading {
-    font-size: 20px;
+    font-size: 16px;
   }
   .NewsLetter-Text-1 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .NewsLetter-Text-2 {
-    font-size: 14px;
+    font-size: 12px;
   }
   .News_letter-main {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
   }
 }
 
 @media (max-width: 767.1878678px) {
   .NewsLetter-Text-Heading {
-    font-size: 16px;
+    font-size: 14px;
   }
   .NewsLetter-Text-1 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .NewsLetter-Text-2 {
-    font-size: 12px;
+    font-size: 10px;
   }
   .News_letter-main {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
   }
   .learnmore_newsletter{

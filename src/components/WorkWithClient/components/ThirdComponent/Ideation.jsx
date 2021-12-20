@@ -36,7 +36,7 @@ const Ideation = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 texting-third-Ideation">
-                        <p data-aos="fade-up" data-aos-delay="500" className='heading-text-1-main'>Ideation with fearless creativity</p>
+                        <p data-aos="zoom-in" data-aos-delay="500" className='heading-text-1-main'>Ideation with fearless creativity</p>
 
                         <div data-aos="fade-up" data-aos-delay="500"  className="textndicon-Ideation">
                             <div /* className="icon-Ideation" */>

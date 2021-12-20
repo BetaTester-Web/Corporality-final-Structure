@@ -30,30 +30,30 @@
   color: #232323 !important;
 }
 
-@media(max-width:992px){
+@media(max-width:991.9124px){
   .Partner-program-1-text{
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 14px !important;
+    line-height: 22px !important;
   }
   .Partner-program-2-text{
-    font-size: 16px;
-    line-height: 22px;
+    font-size: 12px !important;
+    line-height: 22px !important;
   }
 }
 
 @media (max-width:768px){
   .Partner-program-1-text{
-    font-size: 16px !important;
-    line-height: 25px;
+    font-size: 12px !important;
+    line-height: 25px !important;
   }
   .Partner-program-2-text{
-    font-size: 14px !important;
+    font-size: 10px !important;
   }
 }
 
 @media(max-width:580px){
   .Partner-program-2-text{
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
   }
 }

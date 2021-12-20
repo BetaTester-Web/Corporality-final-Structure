@@ -82,7 +82,7 @@
   height: 145%;
   margin-top: -50px;
   margin-left: -52px;
-  transition: all 0.6s linear !important;
+  transition: all 0.4s linear !important;
 }
 
 .Combating_main:hover img {
@@ -199,28 +199,28 @@
     margin-right: 250px;
   }
   .Image_texting_1{
-    font-size: 16px;
-    line-height: 22px;
-  }
-  .Image_texting_2{
     font-size: 14px;
     line-height: 22px;
   }
-  .Combating_texting_column-1{
-    font-size: 20px;
+  .Image_texting_2{
+    font-size: 12px;
     line-height: 22px;
   }
-  .Combating_texting_column-2{
+  .Combating_texting_column-1{
     font-size: 16px;
     line-height: 22px;
   }
+  .Combating_texting_column-2{
+    font-size: 14px;
+    line-height: 22px;
+  }
   .Combating_texting_column-3{
-    font-size-adjust: 14px;
+    font-size-adjust: 12px;
     line-height: 22px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.8131px) {
   .COmbatinG {
     margin-top: 160px;
   }
@@ -230,19 +230,19 @@
   }
 
   .Combating_texting_column-3 {
-    font-size: 12px;
+    font-size: 10px;
     margin-right: 0px;
     line-height: 20px;
   }
 
   .Combating_texting_column-2 {
-    font-size: 14px;
+    font-size: 10px;
     line-height: 20px;
     margin-right: 0px;
   }
 
   .Combating_texting_column-1 {
-    font-size: 16px;
+    font-size: 12px;
     margin-right: 0px;
     line-height: 22px;
   }
@@ -264,7 +264,7 @@
   }
 
   .Image_texting_2 {
-    margin-right: auto !important;
+    margin-right: 60px !important;
   }
 
 
@@ -298,7 +298,7 @@
   }
 
   .Image_texting_2 {
-    margin-right: auto !important;
+    margin-right: 60px!important;
   }
 
   .Image_rect {
@@ -312,7 +312,7 @@
 
 @media(max-width:533px) {
   .Image_texting_2 {
-    margin-right: auto !important;
+    margin-right: 60px !important;
   }
   .threeboxes_combat {
     left: 40px !important;
@@ -343,6 +343,9 @@
   .Image_texting_1 {
     margin-right: auto !important;
   }
+  .Image_rect{
+    top: 90px;
+  }
 }
 
 @media(max-width:397px) {
@@ -351,5 +354,11 @@
   }
   .MainAndBack_Combating{
     left: 15%;
+  }
+}
+
+@media(max-width:387px){
+  .Image_rect{
+    top: 130px;
   }
 }
