@@ -112,8 +112,8 @@
 }
 
 .brandposition_omni {
-  bottom: 90px;
-  right: 225px;
+  bottom: 110px;
+  right: 245px;
   height: 110px !important;
   width: 200px !important;
 }
@@ -190,6 +190,36 @@
     -webkit-transform: scale(1);
     transform: scale(1);
     opacity: 0;
+  }
+}
+@media only screen and (max-width: 1400px){
+  .brandposition_companyimage {
+    top: 10px;
+    right: 120px !important;
+    width: 220px;
+    height: 100px;
+  }
+  .brandposition_customerloyalty {
+    top: 190px;
+    left: 190px;
+    width: 210px;
+    height: 115px;
+  }
+  .brandposition_relatable {
+    top: 215px;
+    right: 75px;
+    width: 220px;
+    height: 100px;
+  }
+  .brandposition_omni {
+    bottom: 90px;
+    right: 195px;
+    width: 210px;
+    height: 115px;
+  }
+  .brandposition_imagetop_rect {
+    top: 130px;
+    left: 290px;
   }
 }
 @media only screen and (max-width: 1199px) {
