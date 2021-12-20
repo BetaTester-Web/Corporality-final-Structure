@@ -3,6 +3,11 @@
     margin: 0 74px 0 74px !important; */
     margin: 100px;
 }
+
+.ppccomp2{
+    margin-top: -500px !important;
+}
+
 .ppc2ColContainer{ 
     display: flex;
     flex-direction: column;
