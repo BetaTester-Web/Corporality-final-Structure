@@ -74,7 +74,7 @@ return (
                         <img alt='' className='smallrect-Op' src={smallrect} />
                         <img alt='' className='backimg-Op' src={Back} />
                         <div className="banner_right_inner-Op" >
-                            <img className='main-prev1-Op' src={Main} />
+                            <img className='main-prev1-Op' src={Main} alt=""/>
                         </div>
 
                     </div>
