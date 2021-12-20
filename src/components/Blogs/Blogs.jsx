@@ -14,7 +14,7 @@ function Blogs() {
     const { user, dispatch } = useContext(Context);
     const handleLogout = () => {
         dispatch({ type: "LOGOUT" });
-        window.location.reload();
+        window.location.replace("/login");
     };
     const [loading, setLoading] = useState(true)
     const [articles, setArticles] = useState([]);
@@ -60,11 +60,11 @@ function Blogs() {
     return (
         <>
             <BlogTop blogState={ {articles, showArticles, setShowArticles} } />
-            {user && <div className="blogCustomizer1 d-flex flex-row justify-content-sm-end justify-content-center">
+            {/* {user && <div className="blogCustomizer1 d-flex flex-row justify-content-sm-end justify-content-center">
                 <button class="philosophySubmitButton d-flex align-items-center justify-content-center" onClick={handleLogout}>
                     Logout
                 </button>
-            </div>}
+            </div>} */}
             { loading?
                 null
                 :
@@ -89,7 +89,7 @@ function Blogs() {
                     setCurrentPage={setCurrentPage}
                 />
             </div>
-           }
+            }
         </>
     );
 }

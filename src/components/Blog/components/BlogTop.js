@@ -4,15 +4,24 @@ import "./BlogTop.css"
 import blogTopLeft from "../img/blog-top-left.png"
 import searchIcon from "../img/search-icon.png"
 import DropDown from "./DropDown";
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef, useState, useContext } from "react"
 import axios from "axios"
 import { useNavigate } from "react-router-dom"
+import { Context } from "../../../context/Context";
+
 
 function BlogTop() {
     const [recentArticles, setRecentArticles] = useState([]);
     const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
     const searchRef = useRef();
+    const { user, dispatch } = useContext(Context);
+    console.log(user);
+    console.log(dispatch);
+    const handlelogout = () => {
+        dispatch({ type: "LOGOUT" });
+        navigate("/login");
+    };
     const search = () => {
         if(searchRef.current.value.length > 0) {
             navigate(`/search/${searchRef.current.value}`);
@@ -63,7 +72,12 @@ function BlogTop() {
                     }} />
                     <img src={searchIcon} alt="search-icon" onClick={search} />
                 </div>
-                <DropDown className="blogDropDown" initial="Select Category" list={['Corporate Strategy','Digital Media Marketing', 'Lead Gen and Sales Strategy', 'Marketing Strategy for 2021', 'Product Strategy', 'Professional Practices Strategy', 'Website Blueprint']} />
+                <DropDown className="blogDropDown selectCategoryDropdown" initial="Select Category" list={['Corporate Strategy','Digital Media Marketing', 'Lead Gen and Sales Strategy', 'Marketing Strategy for 2021', 'Product Strategy', 'Professional Practices Strategy', 'Website Blueprint']} />
+                {user && <div className="blogCustomizer1">
+                <button class="philosophySubmitButton d-flex align-items-center justify-content-center" onClick={handlelogout}>
+                    Logout
+                </button>
+            </div>}
             </div>
         </div>
     );
