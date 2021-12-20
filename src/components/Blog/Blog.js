@@ -80,7 +80,7 @@ const Blog = () => {
             await axios.delete(`/articles/${blog.slug}`, {
                 data: { username: user.username },
             });
-            window.location.replace("/");
+            window.location.replace("/blog");
         } catch (err) { }
     };
     
@@ -102,9 +102,10 @@ const Blog = () => {
             {loading ? console.log("loading") :
                 <div className='blogContainer'>
                     <div className="blogHead">
-                        <div className='blogImageWrapper'>
-                            <img src={`${blog.photo}`} alt="" />
-                        </div>
+                    <div className='blogImageWrapper'>
+                        {/* <img src={`${blog.photo}`} alt="" /> */}
+                        <img src={`http://localhost:5001/images/${blog.photo}`} alt="" />
+                    </div>
                         <div className='likeShare'>
                             <span>
                                 <i class="fa fa-calendar"></i>
@@ -118,21 +119,27 @@ const Blog = () => {
                             </span>
                         </div>
                         <h2 className="blogTitle">
-                            {blog.title}
-                            {
-                            JSON.parse(localStorage.getItem("user")) !== null?
-                            blog.username === user.username && (
-                                <div className="singlearticleEdit">
-                                    <i
-                                        className="singlearticleIcon fa fa-pencil-square-o "
-                                        onClick={() => setUpdateMode(true)}
-                                    ></i>
-                                    <i
-                                        className="ms-3 singlearticleIcon fa fa-trash-o"
-                                        onClick={handleDelete}
-                                    ></i>
+                            <div className="container">
+                                <div className="row">
+                                    <div className="col-lg-10 col-md-10 col-sm-9 col-8"><span>{blog.title}</span></div>
+                                    <div className="col-lg-2 col-md-2 col-sm-3 col-4"><span>{
+                                        JSON.parse(localStorage.getItem("user")) !== null ?
+                                            blog.username === user.username && (
+                                                <span>
+                                                    <i
+                                                        className="singlearticleIcon fa fa-pencil-square-o ms-2 mt-2"
+                                                        onClick={() => setUpdateMode(true)}
+                                                    ></i>
+                                                    <i
+                                                        className="me-3 singlearticleIcon fa fa-trash-o mt-2"
+                                                        onClick={handleDelete}
+                                                    ></i>
+                                                </span>
+                                            ) : null
+                                        }</span>
+                                    </div>
                                 </div>
-                            ):null}
+                            </div>
                         </h2>
                     </div>
                     {updateMode ? (
