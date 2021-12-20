@@ -2,13 +2,15 @@ import React, { useContext } from 'react'
 import './About.css'
 import careersImg from '../assets/careers.png';
 import OutsideClickHandler from 'react-outside-click-wrapper';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { NavbarContext } from '../Context/NavbarContext';
+import topHandler from "../../../CommonHandler/TopHandler"
 // import {withRouter} from 'react-router';
 
 
 const About = () => {
     const {setShowAbout, showAbout, setShowAbout2, setMenuId, isLargeScreen} = useContext(NavbarContext);
+    const navigate = useNavigate();
 
     const show1 = () => {
         setMenuId(1);
@@ -32,23 +34,23 @@ const About = () => {
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <Link to="/about-corporality" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/about-corporality" onClick={() => {setShowAbout(false);topHandler()}} className="section-list-items">
                         <h6>About Corporality</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/work-with-clients" onClick={() => setShowAbout(false)}  className="section-list-items">
+                    <Link to="/work-with-clients" onClick={() => {setShowAbout(false);topHandler()}}  className="section-list-items">
                         <h6>How We Work with Clients</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/inclusion-and-diversity" onClick={() => setShowAbout(false)}  className="section-list-items">
+                    <Link to="/inclusion-and-diversity" onClick={() => {setShowAbout(false);topHandler()}}  className="section-list-items">
                         <h6>Inclusion and Diversity</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/partnership-programmes" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/partnership-programmes" onClick={() => {setShowAbout(false);topHandler()}} className="section-list-items">
                         <h6>Partner Programmes</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/sustainable-growth" onClick={() => setShowAbout(false)}  className="section-list-items">
+                    <Link to="/sustainable-growth" onClick={() => {setShowAbout(false);topHandler()}}  className="section-list-items">
                         <h6>Sustainable Growth</h6>
                         <div className="diamond-line"></div>
                     </Link>
@@ -60,29 +62,29 @@ const About = () => {
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <Link to="/interactive-blueprint" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/interactive-blueprint" onClick={() => {setShowAbout(false);topHandler()}} className="section-list-items">
                         <h6>Interactive Blueprint</h6>
                         <div className="diamond-line"></div>
                     </Link>
-                    <Link to="/strategy-and-consulting" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/strategy-and-consulting" onClick={() => {setShowAbout(false);topHandler()}} className="section-list-items">
                         <h6>Strategy & Consulting</h6>
                         <div className="diamond-line"></div>
                     </Link>
                 </div>
             </div>
             <div className="about-section careers">
-                <div className="about-section-head" onClick={() => { if(!isLargeScreen)show3() }}>
+                <div className="about-section-head" onClick={() => { if(!isLargeScreen)show3()}}>
                     <h3 className="about-section-head-text">Careers</h3>
                     <div className="line"></div>
                 </div>
                 <div className="section-list">
-                    <Link to="/careers" onClick={() => setShowAbout(false)} className="section-list-items">
+                    <Link to="/careers" onClick={() => {setShowAbout(false); topHandler()}} className="section-list-items">
                         <h6>Careers</h6>
                         <div className="diamond-line"></div>
                     </Link>
                 </div>
             </div>
-            <img src={careersImg} alt="" className="careers-img" />
+            <img src={careersImg} onClick={() => navigate("/careers")} alt="" className="careers-img" />
         </div>
         </OutsideClickHandler>
     )

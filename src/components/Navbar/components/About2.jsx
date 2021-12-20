@@ -3,6 +3,7 @@ import './About2.css'
 import OutsideClickHandler from 'react-outside-click-wrapper';
 import { Link } from 'react-router-dom';
 import { NavbarContext } from '../Context/NavbarContext';
+import topHandler from '../../../CommonHandler/TopHandler';
 
 
 const About2 = () => {
@@ -30,7 +31,7 @@ const About2 = () => {
             <div className="about-sub-menu-list">
                 {data[menuId].map((item, index) => {
                     return (
-                        <Link to={item.route} onClick={()=>{setShowAbout2(false);setNavClicked(false)}} className="about-sub-menu-list-items" key={index}>
+                        <Link to={item.route} onClick={()=>{setShowAbout2(false);setNavClicked(false);topHandler()}} className="about-sub-menu-list-items" key={index}>
                             <h6>{item.name}</h6>
                             {/* <div className="diamond-line"></div> */}
                         </Link>

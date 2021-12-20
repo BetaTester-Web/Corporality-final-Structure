@@ -278,7 +278,7 @@
 
 @media only screen and (max-width: 768px) {
   .shareRight {
-    margin-left: 0px !important;
+    margin-left: px !important;
   }
   .shareRight > span {
     width: 30px !important;
@@ -491,16 +491,16 @@
             transform: scale(1.3);
   }
 }
-/*# sourceMappingURL=Blog.css.map */
-
 .singlearticleIcon{
   cursor: pointer;
 }
 
 .singlearticleEdit{
-  width: auto!important;
+  width: auto !important;
 }
 
 .singlearticleIcon{
   float: right;
 }
+
+/*# sourceMappingURL=Blog.css.map */

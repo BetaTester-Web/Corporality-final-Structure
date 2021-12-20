@@ -3,6 +3,7 @@ import "./Industries.css"
 import OutsideClickHandler from 'react-outside-click-wrapper';
 import { Link } from 'react-router-dom';
 import { NavbarContext } from '../Context/NavbarContext';
+import topHandler from '../../../CommonHandler/TopHandler';
 
 
 const Industries = () => {
@@ -10,6 +11,7 @@ const Industries = () => {
     const closeOnLink = () => {
         setShowIndustries(false);
         setNavClicked(false);
+        topHandler();
     }
     return (
         <OutsideClickHandler className="outside-handler"  onOutsideClick={() => setShowIndustries(false)}>
