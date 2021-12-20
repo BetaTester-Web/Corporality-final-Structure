@@ -28,14 +28,15 @@ const Innovation = () => {
             </p>
             <img src={small2Innovation} className="small2-5-Innovation" alt="" />
             <img src={smallInnovation} className="small-5-Innovation" alt="" />
-
-            <div className="link-Innovation">
-              <div className="button-4-Innovation">
-                <a className="button-link-Innovation" href="#">
-                  Explore Our tech start
-                </a>
+            <a href="">
+              <div className="link-Innovation">
+                <div className="button-4-Innovation">
+                  <div className="button-link-Innovation" href="#">
+                    Explore Our tech start
+                  </div>
+                </div>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
