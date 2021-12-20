@@ -65,7 +65,6 @@ function BlogTop() {
                 </div>
                 <DropDown className="blogDropDown" initial="Select Category" list={['Corporate Strategy','Digital Media Marketing', 'Lead Gen and Sales Strategy', 'Marketing Strategy for 2021', 'Product Strategy', 'Professional Practices Strategy', 'Website Blueprint']} />
             </div>
-        
         </div>
     );
 }

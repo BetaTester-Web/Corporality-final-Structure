@@ -10,7 +10,11 @@ export default function Write() {
     const [title, setTitle] = useState("");
     const [desc, setDesc] = useState("");
     const [file, setFile] = useState("");
-    const { user } = useContext(Context);
+    const { user, dispatch } = useContext(Context);
+    const handleLogout = () => {
+        dispatch({ type: "LOGOUT" });
+        window.location.reload();
+    };
     const handleSubmit = async (e) => {
         e.preventDefault();
         const newarticle = {
@@ -43,21 +47,26 @@ export default function Write() {
             )}
             <form className="writeForm" onSubmit={handleSubmit}>
                 <div className="writeFormGroup">
-                    <label htmlFor="fileInput" className="philosophySubmitButton mb-2">
-                        Upload blog cover image
-                    </label>
-                    <input
-                        type="file"
-                        id="fileInput"
-                        style={{ display: "none" }}
-                        onChange={(e) => setFile(e.target.files[0])}
-                    />
+                    <div className="d-flex justify-content-between">
+                        <label htmlFor="fileInput" className="philosophySubmitButton">
+                            Upload blog cover image
+                        </label>
+                        <input
+                            type="file"
+                            id="fileInput"
+                            style={{ display: "none" }}
+                            onChange={(e) => setFile(e.target.files[0])}
+                        />
+                        {user && <div class="philosophySubmitButton d-flex align-items-center justify-content-center float-end" onClick={handleLogout}>
+                            Logout
+                        </div>}
+                    </div>
                     <div className="customInput mt-3 mb-2">
                         <label htmlFor="philosophyFirstName" className={title && "labelToTop"}></label>
                         <input type="text"
-                        placeholder="Title"
-                        autoFocus={true}
-                        onChange={e => setTitle(e.target.value)} className={title && "activeInput"} required />
+                            placeholder="Title"
+                            autoFocus={true}
+                            onChange={e => setTitle(e.target.value)} className={title && "activeInput"} required />
                     </div>
                 </div>
                 <div className="writeFormGroup">
@@ -66,7 +75,7 @@ export default function Write() {
                         content={desc}
                         onChange={e => setDesc(e.editor.getData())} />
                 </div>
-                <button type="submit" class="philosophySubmitButton d-flex align-items-center justify-content-center">
+                <button type="submit" class="philosophySubmitButton d-flex align-items-center justify-content-center mt-3">
                     Submit
                 </button>
             </form>
