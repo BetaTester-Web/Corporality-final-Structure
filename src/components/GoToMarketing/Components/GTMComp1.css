@@ -1,3 +1,37 @@
+@media only screen and (max-width: 992px) {
+    .gtm-page1 .heading{
+        font-size: 16px;
+        line-height: 24px!important;
+    }
+
+    .gtm-page1 .gainCompetitive{
+        font-size: 12px!important;
+        line-height: 20px!important;
+    }
+
+    .gtm-page1 .philosophySubmitButton {
+        font-size: 12px!important;
+        line-height: 20px!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .gtm-page1 .heading{
+        font-size: 14px;
+        line-height: 20px!important;
+    }
+
+    .gtm-page1 .gainCompetitive{
+        font-size: 10px!important;
+        line-height: 16px!important;
+    }
+
+    .gtm-page1 .philosophySubmitButton {
+        font-size: 10px!important;
+        line-height: 16px!important;
+    }
+}
+
 .gtm-page1 {
     margin-top: 80px;
     position: relative;
@@ -127,6 +161,8 @@
     cursor: pointer;
     bottom: 0;
     transition: all 0.5s;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .gtm-page1 .philosophySubmitButton:hover {

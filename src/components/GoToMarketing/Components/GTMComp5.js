@@ -42,7 +42,7 @@ function GTMComp5() {
                     </div>
                 </div>
                 <div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-delay="1000" className="text text-center aos-init aos-animate">
-                    <p>
+                    <p className="GTMComp5text">
                         Corporality comes with a deep understanding of market dynamics that impacts customer behaviour, buying cycles and much more. We evaluate both external and internal factors to overcome gaps and issues to build opportunities for the commercial success of your products and services.
                     </p>
                 </div>
