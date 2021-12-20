@@ -287,8 +287,19 @@
     margin-left: 5px !important;
   }
 
+  .services_heading {
+    font-size: 22px;
+  }
+
+  .services_heading:after {
+    width: 35px;
+    height: 4px;
+    left: 32%;
+    bottom: -8px;
+  }
+
   .right_content_heading {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
   }
 
