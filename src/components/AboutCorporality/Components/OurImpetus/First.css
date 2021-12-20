@@ -154,6 +154,11 @@
     top: 160px;
     left: 350px;
   }
+
+  .ourimpetus_textside_smalltext {
+    font-size: 12px;
+    line-height: 20px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -261,5 +266,10 @@
   .impetus_text_box2 {
     top: 170px;
     left: 280px;
+  }
+
+  .ourimpetus_textside_smalltext {
+    font-size: 10px;
+    line-height: 16px;
   }
 }

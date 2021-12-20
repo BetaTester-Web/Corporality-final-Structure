@@ -125,6 +125,7 @@
 @media only screen and (max-width: 768px) {
   .objectives_main {
     flex-direction: column;
+    padding: 10px 20px !important;
   }
 
   .objectives_image img {
@@ -139,46 +140,57 @@
   .objectives_image {
     margin-right: 0px !important;
   }
-}
-
-@media only screen and (max-width: 576px) {
-  .objectives_heading2 {
-    margin-top: 10px !important;
-  }
-
-  .objectives_image img {
-    margin-top: 50px !important;
-    height: 300px !important;
-    width: 400px !important;
-    margin-left: -30px !important;
-  }
 
   .objectives_heading,
   .objectives_heading2 {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .objectives_description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .objectives_image img {
+    margin-top: 30px !important;
+    height: 300px !important;
+    width: 500px !important;
+    margin-left: -30px !important;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .objectives_heading,
+  .objectives_heading2 {
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .objectives_heading2 {
     margin-top: 30px !important;
   }
-}
-
-@media only screen and (max-width: 360px) {
-  .objectives_heading,
-  .objectives_heading2 {
-    font-size: 25px;
-  }
 
   .objectives_description {
-    font-size: 13px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 16px;
   }
 
   .objectives_image img {
     margin-top: 10px !important;
     margin-left: -30px !important;
     height: 250px !important;
-    width: 350px !important;
+    width: 400px !important;
+  }
+
+  .objectives_button {
+    padding: 10px !important;
+    margin-top: 25px !important;
+  }
+
+  .objectivesbtn_text {
+    font-size: 10px;
   }
 }

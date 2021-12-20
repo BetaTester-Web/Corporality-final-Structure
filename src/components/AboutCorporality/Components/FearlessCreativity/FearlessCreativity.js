@@ -28,7 +28,7 @@ function FearlessCreativity() {
         </div>
         <div className="fearless_content_side">
           <div
-            className="fearless_heading aos-init aos-animate"
+            className="fearless_heading"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -39,7 +39,6 @@ function FearlessCreativity() {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="500"
-              class="aos-init aos-animate"
             >
               <div className="fearless_content_1">
                 <div className="fearless_content_imageside">
@@ -63,7 +62,6 @@ function FearlessCreativity() {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="750"
-              class="aos-init aos-animate"
             >
               <div className="fearless_content_2">
                 <div className="fearless_content_imageside">
@@ -85,7 +83,6 @@ function FearlessCreativity() {
               data-aos="fade-up"
               data-aos-duration="1000"
               data-aos-delay="1000"
-              class="aos-init aos-animate"
             >
               <div className="fearless_content_3">
                 <div className="fearless_content_imageside">

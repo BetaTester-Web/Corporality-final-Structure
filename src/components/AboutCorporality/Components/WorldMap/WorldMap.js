@@ -16,7 +16,7 @@ function WorldMap() {
       <div className="container">
         <div className="worldmap_container">
           <div
-            className="worldmap_left aos-init aos-animate"
+            className="worldmap_left "
             data-aos="fade-right"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"
@@ -24,7 +24,7 @@ function WorldMap() {
             <img src={left} alt="" />
           </div>
           <div
-            className="worldmap_right aos-init aos-animate"
+            className="worldmap_right "
             data-aos="fade-left"
             data-aos-duration="1000"
             data-aos-easing="ease-in-out"

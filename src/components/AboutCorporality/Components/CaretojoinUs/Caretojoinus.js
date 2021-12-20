@@ -25,7 +25,7 @@ function Caretojoinus() {
       <div className="container caretojoinus_container">
         <div className="caretojoinus_main">
           <div
-            className="caretojoinus_text aos-init aos-animate"
+            className="caretojoinus_text"
             data-aos="fade-right"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"
@@ -53,7 +53,7 @@ function Caretojoinus() {
           </div>
 
           <div
-            className="caretojoinus_image aos-init aos-animate"
+            className="caretojoinus_image"
             data-aos="fade-left"
             data-aos-duration="2000"
             data-aos-easing="ease-in-out"

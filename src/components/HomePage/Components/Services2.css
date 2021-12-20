@@ -286,18 +286,6 @@
     padding: 8px 2px !important;
     margin-left: 5px !important;
   }
-
-  .services_heading {
-    font-size: 22px;
-  }
-
-  .services_heading:after {
-    width: 35px;
-    height: 4px;
-    left: 32%;
-    bottom: -8px;
-  }
-
   .right_content_heading {
     font-size: 16px;
     line-height: 22px;
@@ -324,14 +312,30 @@
     margin-left: 2px !important;
   }
 
+  .services_heading {
+    font-size: 14px;
+  }
+
+  .services_heading:after {
+    width: 25px;
+    height: 4px;
+    left: 30%;
+    bottom: -2px;
+  }
+
   .right_content_heading {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 12px;
+    line-height: 18px;
   }
 
   .right_content_info_points {
     font-size: 10px;
-    line-height: 15px;
+    line-height: 16px;
+  }
+
+  .button_main {
+    font-size: 12px;
+    padding: 14px !important;
   }
 
   .right_content_button {

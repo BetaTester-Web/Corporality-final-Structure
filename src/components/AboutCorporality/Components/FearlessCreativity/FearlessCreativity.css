@@ -143,6 +143,23 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .fearless_heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .textside_heading {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .textside_content {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
 @media only screen and (max-width: 514px) {
   .fearless_image_side {
     margin-top: 0 !important;
@@ -156,26 +173,27 @@
   .fearlesscreativity_main {
     padding: 0 !important;
   }
-
-  .fearless_heading {
-    font-size: 18px;
-  }
-
-  .textside_heading {
-    font-size: 14px;
-    line-height: 17px;
-    margin-bottom: 10px !important;
-  }
-
-  .textside_content {
-    font-size: 10px;
-    line-height: 14px;
-  }
 }
 
 @media only screen and (max-width: 410px) {
   .fearless_image_side img {
     height: 220px;
     width: 300px;
+  }
+
+  .fearless_heading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .textside_heading {
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 10px !important;
+  }
+
+  .textside_content {
+    font-size: 10px;
+    line-height: 16px;
   }
 }
