@@ -14,7 +14,7 @@ export default function PPComp2() {
     }, []);
     return (
         <div>
-            <div className="p-0  ">
+            <div className="p-0 ppComp2  ">
                 <img className="ppc2Img2back" src={img2back} alt="" />
                 <div className="row d-flex flex-row ppc2RowContainer">
                     <div className="col p-0">

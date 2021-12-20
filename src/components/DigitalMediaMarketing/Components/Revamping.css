@@ -2,6 +2,10 @@
   justify-content:space-around;
 }
 
+.DDMRevampingText {
+  width: 70% !important;
+}
+
 .DDMRevampingText > h1 {
   width: 60%;
   /* margin-bottom: 8%; */
