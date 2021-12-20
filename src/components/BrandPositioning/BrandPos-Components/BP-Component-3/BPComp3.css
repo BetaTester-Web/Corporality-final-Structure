@@ -88,7 +88,7 @@
     }
     .bpcp3CircleText{
         font-size: 20px;
-        margin-top: -3% !important
+        margin-top: -3% !important;
     }
     .bpcp3Block{
         width: 210px;
@@ -98,11 +98,31 @@
         visibility: hidden;
     }
 }
+@media only screen and (max-width :768px){
+    .bpcp3Heading{
+        font-size: 16px !important;
+    }
+    .bpcp3Description{
+        font-size: 14px !important;
+    }
+    .bpcp3CircleText{
+        font-size: 16px;
+    }
+}
 @media only screen and (max-width :576px){
     .bpcp3BackLogo{
         visibility: hidden;
     }
     .bpcp3Block{
         margin: 0px 0px !important;
+    }
+    .bpcp3CircleText{
+        font-size: 14px;
+    }
+    .bpcp3Description{
+        font-size: 12px !important;
+    }
+    .bpcp3Heading{
+        font-size: 14px !important;
     }
 }

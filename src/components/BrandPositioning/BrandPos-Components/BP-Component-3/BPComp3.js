@@ -13,7 +13,7 @@ export default function BPComp3() {
       <div className="bpcp3FullSection py-4 position-relative vw-100">
         <div className="mx-auto my-2">
           <p
-            className="fw-bold fs-3 py-3 text-center"
+            className="fw-bold fs-3 py-3 text-center bpcp3Heading"
             style={{ color: "#33657E" }}
           >
             THE PROCESS

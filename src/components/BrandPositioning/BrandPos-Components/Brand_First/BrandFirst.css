@@ -95,14 +95,14 @@
   top: 15px;
   right: 165px;
   width: 210px !important;
-
+  height: 110px !important;
 }
 
 .brandposition_customerloyalty {
   top: 230px;
   left: 220px;
-  height: 110px !important;
-  width: 200px !important;
+  height: 120px !important;
+  width: 210px !important;
 }
 
 .brandposition_relatable {
@@ -227,17 +227,17 @@
     margin-right: 20px !important;
   }
   .brandposition_companyimage {
-    top: 0;
-    right: 40px;
-    width: 220px;
-    height: 100px;
+    top: 0px !important;
+    right: 40px !important;
+    width: 200px !important;
+    height: 100px !important;
   }
 
   .brandposition_customerloyalty {
-    top: 105px;
-    left: 135px;
-    width: 210px;
-    height: 115px;
+    top: 115px !important;
+    left: 135px !important;
+    width: 200px !important;
+    height: 105px !important;
   }
 
   .brandposition_relatable {
@@ -248,10 +248,10 @@
   }
 
   .brandposition_omni {
-    bottom: 40px;
-    right: 95px;
-    width: 210px;
-    height: 115px;
+    bottom: 40px !important;
+    right: 120px !important;
+    width: 190px !important;
+    height: 105px !important;
   }
 
   .brandposition_center_diamond img {
@@ -309,25 +309,25 @@
   }
   .brandposition_first_textside_heading{
     padding: 0px 40px !important;
-    font-size: 1.6em;
+    font-size: 16px !important;
   }
   .brandposition_first_textside_description{
     padding: 0px 40px !important;
-    font-size: 1em;
+    font-size: 14px !important;
   }
   .brandposition_relatable {
     top: 200px;
     right: 70px;
   }
   .brandposition_omni{
-    bottom: 80px;
-    right: 190px;
+    bottom: 80px !important;
+    right: 190px !important;
   }
   .brandposition_customerloyalty {
-    top: 155px;
-    left: 175px;
-    width: 200px;
-    height: 105px;
+    top: 155px !important;
+    left: 175px !important;
+    width: 200px !important;
+    height: 105px !important;
   }
   .brandposition_imagetop_rect {
     top: 100px !important;
@@ -485,12 +485,12 @@
   }
 
   .brandposition_first_textside_heading {
-    font-size: 22px;
+    font-size: 14px !important;
     line-height: 24px;
   }
 
   .brandposition_first_textside_description {
-    font-size: 12px;
+    font-size: 12px !important;
     line-height: 15px;
   }
 
