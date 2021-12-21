@@ -97,12 +97,15 @@
   width: 210px !important;
   height: 110px !important;
 }
-
+/* .brandposition_companyimage:hover{
+  transform: scale(1.1);
+  transition: all 2s;
+} */
 .brandposition_customerloyalty {
-  top: 230px;
-  left: 220px;
-  height: 120px !important;
-  width: 210px !important;
+  top: 215px;
+  left: 228px;
+  height: 130px !important;
+  width: 190px !important;
 }
 
 .brandposition_relatable {
@@ -113,8 +116,8 @@
 
 .brandposition_omni {
   bottom: 110px;
-  right: 245px;
-  height: 110px !important;
+  right: 250px;
+  height: 120px !important;
   width: 200px !important;
 }
 

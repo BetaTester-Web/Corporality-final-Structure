@@ -23,7 +23,6 @@ import brandposition_yt from "./images/brandposition_yt.png";
 function BrandFirst() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
   return (
     <div className="brandposition_background_parent">
