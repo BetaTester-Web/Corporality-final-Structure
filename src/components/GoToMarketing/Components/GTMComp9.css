@@ -139,8 +139,8 @@
           align-items: center;
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
-  -webkit-box-shadow: 10px 20px 20px 10px #0F101E1A;
-          box-shadow: 10px 20px 20px 10px #0F101E1A;
+  -webkit-box-shadow: 0px 0px 10px 5px #bbbbbd1a;
+          box-shadow: 0px 0px 10px 5px #bbbbbd1a;
 }
 
 .gtm-comp9-body-vector-img img {
