@@ -79,8 +79,9 @@
         transform: translateY(-119px);
     }
 }
-@media only screen and (max-width :1024px){
+@media only screen and (max-width :1405px){
     .bpcp3Description{
+        width: 180px !important;
         font-size: 15px !important;
     }
     .upArrow{
