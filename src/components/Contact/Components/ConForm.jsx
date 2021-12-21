@@ -57,12 +57,12 @@ const ConForm = () => {
                                     <p className="conform-contactHeading text-uppercase fw-bold my-5 fs-4">Contact us</p>
                                 
                                     <div className="row">
-                                        <div className="col mx-3" >
+                                        <div className="col mx-md-3" >
                                             <input type="text" name="fname" placeholder="First Name" className="philosophy-input" id="input" />
                                             <label for="fname" className="philosophy-input-label">First Name</label>
                                         </div>
                                     
-                                        <div className="col mx-3">
+                                        <div className="col mx-md-3">
                                             <input type="text" name="fname" placeholder="Last Name" className="philosophy-input" id="input" />
                                             <label for="fname" className="philosophy-input-label">Last Name</label>
                                         </div>
@@ -70,11 +70,11 @@ const ConForm = () => {
                                     
                                     
                                     <div className="row my-3">
-                                        <div className="col mx-3">
+                                        <div className="col mx-md-3">
                                             <input type="text" name="fname" placeholder="Email" className="philosophy-input" id="input" />
                                             <label for="fname" className="philosophy-input-label">Email</label>
                                         </div>
-                                        <div className="col mx-3">
+                                        <div className="col mx-md-3">
                                             <input type="text" name="fname" placeholder="Mobile" className="philosophy-input" id="input" />
                                             <label for="fname" className="philosophy-input-label">Mobile</label>
                                         </div>
