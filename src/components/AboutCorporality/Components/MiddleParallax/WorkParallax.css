@@ -147,6 +147,7 @@
     font-size: 10px;
     line-height: 14px;
     font-weight: 500;
+    padding: 0 15px !important;
   }
 
   .box_top {

@@ -5,18 +5,22 @@ import Leverage from "./Components/Leverage";
 import Differentiate from "./Components/Differentiate";
 import NewCharge from "./Components/NewCharge";
 import NewStep from "./Components/NewStep";
+
+import NewLeverage from "./Components/NewLeverage";
+import NewContinously from "./Components/NewContinously";
+
 import NewTalent from "./Components/NewTalent";
+
 
 function HomePage() {
   return (
     <>
-      <Differentiate />
+      {/* <Differentiate /> */}
       <NewCharge />
       <NewStep />
       <NewTalent />
-      {/* <Talent /> */}
-      <Continously />
-      <Leverage />
+      <NewContinously />
+      <NewLeverage />
     </>
   );
 }

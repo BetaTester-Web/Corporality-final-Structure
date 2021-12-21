@@ -1,0 +1,95 @@
+.newcontinously_parent {
+  margin-top: 100px !important;
+  padding: 0 !important;
+}
+
+.newcontinously_video_container {
+  position: relative;
+}
+
+.newcontinously_video {
+  width: 100%;
+  /* height: 600px; */
+}
+
+.newcontinously_gradientbox {
+  background: linear-gradient(107.88deg, #a06daf 8.71%, #6ca0bc 83.77%);
+  z-index: 2;
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+  width: 750px;
+  padding: 40px 50px !important;
+}
+
+.newcontinously_gradheading {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px !important;
+}
+
+.newcontinously_gradtext {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 992px) {
+  .newcontinously_gradientbox {
+    width: 500px;
+  }
+
+  .newcontinously_gradheading {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .newcontinously_gradtext {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .newcontinously_gradientbox {
+    width: 450px;
+    bottom: -150px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .newcontinously_gradientbox {
+    width: 350px;
+    bottom: -200px;
+    padding: 20px 30px !important;
+  }
+
+  .newcontinously_parent {
+    margin-bottom: 280px !important;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .newcontinously_gradientbox {
+    width: 250px;
+    bottom: -200px;
+    padding: 10px 20px !important;
+  }
+  .newcontinously_gradheading {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .newcontinously_gradtext {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
