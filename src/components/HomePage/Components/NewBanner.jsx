@@ -1,5 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import "./NewBanner.css"
+import corp from "./images/corporate.png"
+import banner from "./images/right-banner.gif"
 
 const NewBanner = () => {
     const [indicatorId, setIndicatorId] = useState(1);
@@ -86,7 +88,7 @@ const NewBanner = () => {
                 </div>
             </div>
             <div className="rightBannerContainer"  onClick={rightBannerClickHandler}>
-                {!showYoutube && <img src="/img/HomePage/media/yt-icon-right.png" alt="" />}
+                {!showYoutube && <img src={banner} alt="" />}
                 <iframe ref={youtubeVid} className={showYoutube ? "" : "hidden"} src="https://www.youtube.com/embed/0g9B3ZC5Hvs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div className="twoDiamonds">

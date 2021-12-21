@@ -13,7 +13,7 @@
   min-height: 662px;
   height: auto;
   background-color: #F2F2F2;
-  padding: 3% 0%;
+  padding: 50px 0;
   margin: 0 auto;
   font-size: calc(14px + 0.15vw) !important;
 }
@@ -45,8 +45,9 @@
 
 .portfolioContainer .portfolioHead hr {
   margin: 0px 0px 0px 0px !important;
-  width: 7vw;
+  width: 6vw;
   max-width: 80px;
+  min-width: 30px;
   height: 5px;
   background-color: #A06DAF;
   text-align: center;
@@ -209,6 +210,9 @@
 }
 
 @media only screen and (max-width: 1200px) {
+  .portfolioContainer {
+    padding: 40px 0;
+  }
   .portfolioContainer .portfolioHead hr {
     height: 4px;
   }
@@ -216,7 +220,7 @@
 
 @media only screen and (max-width: 992px) {
   .portfolioContainer {
-    font-size: calc(12px + 0.15vw) !important;
+    padding: 40px 0;
   }
   .portfolioContainer .portfolioHead hr {
     height: 4px;
@@ -224,6 +228,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .portfolioContainer {
+    padding: 30px 0;
+  }
   .portfolioContainer .portfolioHead hr {
     height: 4px;
   }
@@ -232,6 +239,7 @@
 @media only screen and (max-width: 576px) {
   .portfolioContainer {
     font-size: calc(11px + 0.1vw) !important;
+    padding: 30px 0;
   }
   .portfolioContainer .portfolioHead hr {
     height: 4px;
@@ -246,7 +254,8 @@
 
 @media only screen and (max-width: 360px) {
   .portfolioContainer {
-    font-size: calc(10px + 0.04vw) !important;
+    font-size: calc(8px + 0.04vw) !important;
+    padding: 20px 0px;
   }
   .portfolioContainer .portfolioHead hr {
     height: 4px;
