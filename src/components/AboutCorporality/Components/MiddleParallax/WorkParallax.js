@@ -9,7 +9,6 @@ import threeboxes from "./images/threeboxes.png";
 function WorkParallax() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
 
   return (

@@ -10,7 +10,6 @@ import point_3 from "./images/point_3.png";
 function FearlessCreativity() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
   return (
     <div className="container fearless_parent">

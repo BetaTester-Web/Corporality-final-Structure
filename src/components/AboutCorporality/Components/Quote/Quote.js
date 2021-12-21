@@ -9,7 +9,6 @@ import quotation_mark from "../Quote/quotation_mark.png";
 function Quote() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
 
   return (
