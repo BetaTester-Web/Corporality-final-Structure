@@ -9,7 +9,7 @@ const NewCharge = () => {
       <div className="new-charge-left">
         <img
           data-aos="fade-right"
-          data-aos-duration="1200"
+          data-aos-duration="1000"
           src={priya}
           alt=""
         />
@@ -17,17 +17,18 @@ const NewCharge = () => {
       <div
         className="new-charge-middle"
         data-aos="zoom-in-up"
-        data-aos-duration="1500"
+        data-aos-duration="800"
       ></div>
       <div className="new-charge-bottom">
-        <h1 data-aos="fade-left" data-aos-duration="1500">
+        <h1 data-aos="fade-left" data-aos-duration="1200">
           Bring a CXO who can lead the charge
         </h1>
       </div>
       <div className="new-charge-right">
         <video
           data-aos="fade-left"
-          data-aos-duration="1600"
+          data-aos-duration="1200"
+          data-aos-delay="400"
           autoPlay={true}
           muted
           loop
