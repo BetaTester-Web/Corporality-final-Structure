@@ -794,6 +794,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   color: #3c708e;
+  margin-top: 10% !important;
 }
 /*talent-paragraph*/
 .Talent-paragraph-content {
@@ -950,9 +951,17 @@ button:focus {
 }
 
 @media only screen and (max-width: 576px) {
-  .Talent-heading {
+  /* .Talent-heading {
     margin-top: -350px !important;
+  } */
+
+  .Talent-paragraph-content
+  {
+    width: 100% !important;
+    padding-left: 0% !important;
+    margin-left: 0% !important;
   }
+
   .Talent-buttons {
     margin-bottom: 12px !important;
   }
@@ -1044,11 +1053,11 @@ button:focus {
 
 @media only screen and (max-width: 576px) {
   .Talent-box-outer-1 {
-    margin: 0px 60px !important;
+    margin: 20px 75px !important;
     transform: rotate(45deg);
   }
   .Talent-box-outer-2 {
-    margin: 100px 60px !important;
+    margin: 100px 75px !important;
     transform: rotate(45deg);
   }
   .Talent-box-inner-1 {
