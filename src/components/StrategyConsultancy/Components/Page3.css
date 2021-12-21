@@ -92,7 +92,7 @@
   color: #757575;
 }
 
-.Consultancydia{
+/* .Consultancydia{
   animation: skew 2s infinite;
   transform: skew(26deg);
   animation-direction: alternate;
@@ -109,7 +109,7 @@
   100% {
     transform: rotate(20deg);
   }
-}
+} */
 
 
 /* @keyframes shimmy {
@@ -135,7 +135,8 @@
 
   color: #ffffff;
   transform: rotate(-10deg);
-  /* margin-left: -10px; */
+  transform: rotate(-45deg);
+  margin-left: -25px;
   padding-top: 40px !important;
   margin-right: 10px !important;
 }
