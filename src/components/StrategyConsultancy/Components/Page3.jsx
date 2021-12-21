@@ -29,7 +29,7 @@ const Page3 = () => {
                         <div className="centeeeer"><div className="Consultancypage-3-diamond centereeeee Consultancydia Consultancyc"><p>Growth Segmentation</p></div></div>
                         <div className="deg45"><div className="Consultancypage-3-diamond Consultancydia"> <p>Account Segmentation</p></div></div>
                         <div className="deg225"><div className="Consultancypage-3-diamond Consultancydia"><p>Market Segmentation</p></div></div>
-                        <div className="deg135"><div className="Consultancypage-3-diamond Consultancydia"><p>Routes To Market</p></div></div>
+                        <div className="deg135"><div className="Consultancypage-3-diamond Consultancydia"><p>Routes To Marketing</p></div></div>
                         <div className="deg315"><div className="Consultancypage-3-diamond Consultancydia"><p>Buyer Segmentation </p></div></div>
                     </div>
 
