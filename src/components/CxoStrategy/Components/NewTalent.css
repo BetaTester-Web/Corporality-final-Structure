@@ -1,0 +1,366 @@
+.new-talent-container {
+  width: 100%;
+  margin: 80px auto;
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: calc(14px + .15w);
+}
+
+.new-talent-container-head {
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.new-talent-container-head h1 {
+  width: 100%;
+  font-size: 2em;
+  line-height: 1.4em;
+  color: #3C708E;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.new-talent-container-head p {
+  width: 100%;
+  margin: 12px auto 0 auto;
+  padding: 0;
+  max-width: 912px;
+  color: #757575;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.68em;
+  text-align: center;
+}
+
+.new-talent-container-btns {
+  margin: 62px 0 96px 0;
+  width: 100%;
+  max-width: 912px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.new-talent-container-btns .talent-btn-active {
+  color: white;
+  background-color: #3C708E;
+}
+
+.new-talent-container-btns button {
+  width: 198px;
+  width: 20%;
+  height: 60px;
+  height: calc(50px + 0.3vw);
+  border-radius: 40px;
+  font-weight: 700;
+  font-size: 1em;
+  background-color: white;
+  outline: none;
+  border: none;
+  margin: 10px 0px 0 0px;
+  text-transform: uppercase;
+  color: #3C708E;
+  -webkit-transition: all 0.3 ease-in-out;
+  transition: all 0.3 ease-in-out;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.new-talent-container-btns button:hover {
+  color: white;
+  background-color: #3C708E;
+}
+
+.new-talent-container-diamonds {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 98%;
+  margin: 20px 0;
+}
+
+.new-talent-container-diamonds .planning-talent > div {
+  background-color: #3C708E !important;
+}
+
+.new-talent-container-diamonds .planning-talent > div::after {
+  border-color: #3C708E !important;
+}
+
+.new-talent-container-diamonds .strategy-talent > div {
+  background-color: #E5CC5C !important;
+}
+
+.new-talent-container-diamonds .strategy-talent > div::after {
+  border-color: #E5CC5C !important;
+}
+
+.new-talent-container-diamonds .implementation-talent > div {
+  background-color: #A06DAF !important;
+}
+
+.new-talent-container-diamonds .implementation-talent > div::after {
+  border-color: #A06DAF !important;
+}
+
+.new-talent-container-diamonds .outcomes-talent > div {
+  background-color: #3C708E !important;
+}
+
+.new-talent-container-diamonds .outcomes-talent > div::after {
+  border-color: #3C708E !important;
+}
+
+.new-talent-container-diamonds > div {
+  width: 197px;
+  height: 197px;
+  max-width: 197px;
+  max-height: 197px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 25px;
+  position: relative;
+}
+
+.new-talent-container-diamonds > div > div {
+  width: 140px;
+  height: 140px;
+  margin: 0;
+  padding: 0;
+  border-radius: 10px;
+  background-color: #3C708E;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.new-talent-container-diamonds > div > div:after {
+  content: " ";
+  position: absolute;
+  width: 115%;
+  height: 115%;
+  border-color: #3C708E;
+  border-radius: 10px;
+}
+
+.new-talent-container-diamonds > div > div h4 {
+  font-size: 0.9em;
+  color: #FFFFFF;
+  padding: 0;
+  margin: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  text-align: center;
+}
+
+.new-talent-container-diamonds > div:nth-child(even) > div::after {
+  border-top-style: dotted;
+  border-left-style: dotted;
+  border-bottom-style: solid;
+  border-right-style: solid;
+}
+
+.new-talent-container-diamonds > div:nth-child(odd) > div::after {
+  border-top-style: solid;
+  border-left-style: solid;
+  border-bottom-style: dotted;
+  border-right-style: dotted;
+}
+
+.new-talent-container-diamonds > div > img {
+  position: absolute;
+  right: -40px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .new-talent-container-btns {
+    margin: 62px 0 80px 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .new-talent-container {
+    font-size: calc(13px + 0.1vw);
+  }
+  .new-talent-container-btns {
+    margin: 62px 0 85px 0;
+  }
+  .new-talent-container-diamonds > div {
+    height: 183px;
+    width: 183px;
+  }
+  .new-talent-container-diamonds > div > div {
+    height: 130px;
+    width: 130px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .new-talent-container {
+    font-size: calc(12px + 0.1vw);
+  }
+  .new-talent-container-btns {
+    margin: 40px 0 60px 0;
+  }
+  .new-talent-container-btns > button {
+    margin: 8px 10px;
+    min-width: 153px;
+    height: calc(48px + 0.1vw);
+  }
+  .new-talent-container-diamonds {
+    margin: 0;
+  }
+  .new-talent-container-diamonds > div {
+    margin-top: 30px;
+    height: 169px;
+    width: 169px;
+  }
+  .new-talent-container-diamonds > div > div {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .new-talent-container {
+    font-size: calc(10px + 0.2vw);
+  }
+  .new-talent-container-btns {
+    margin: 20px 0 30px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .new-talent-container-btns > button {
+    width: 30%;
+    margin: 8px 0;
+    min-width: 166px;
+    height: calc(40px + 0.1vw);
+  }
+  .new-talent-container-diamonds > div {
+    margin-top: 30px;
+    margin: 30px 20px 0 20px;
+    height: 141px;
+    width: 141px;
+  }
+  .new-talent-container-diamonds > div > div {
+    height: 100px;
+    width: 100px;
+  }
+  .new-talent-container-diamonds > div img {
+    width: 25px;
+    right: -30px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .new-talent-container {
+    font-size: calc(10px + 0.1vw);
+  }
+  .new-talent-container-head p {
+    font-size: 1.1em;
+  }
+  .new-talent-container-btns {
+    margin: 20px 0 10px 0;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .new-talent-container-btns > button {
+    width: 45%;
+    margin: 8px 0;
+    min-width: 153px;
+    height: calc(40px + 0.1vw);
+  }
+  .new-talent-container-diamonds {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+  }
+  .new-talent-container-diamonds > div {
+    margin: 15px 0;
+    height: 127px;
+    width: 127px;
+  }
+  .new-talent-container-diamonds > div > div {
+    height: 90px;
+    width: 90px;
+  }
+  .new-talent-container-diamonds > div > img {
+    bottom: -18px;
+    left: 50%;
+    right: unset;
+    -webkit-transform: translateX(-50%) rotate(90deg);
+            transform: translateX(-50%) rotate(90deg);
+    width: 20px;
+  }
+}
+/*# sourceMappingURL=NewTalent.css.map */
