@@ -11,7 +11,6 @@ import BrandFirst from "./BrandPos-Components/Brand_First/BrandFirst";
 export default function Component1() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
   return (
     <>

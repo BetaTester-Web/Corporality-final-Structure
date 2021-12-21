@@ -188,7 +188,7 @@
         top: 2%;
     }
     .container-1_text-Clients{
-        font-size: 16px;
+        font-size: 16px ;
         line-height: 22px;
     }
     .container-2_text-Clients{
@@ -270,19 +270,19 @@
     }
 
     .container-2_text-Clients {
-        font-size: 12px;
+        font-size: 12px !important;
         margin-right: 60px !important;
         line-height: 20px;
     }
 
     .container-1_text-Clients {
-        font-size: 14px;
+        font-size: 14px !important;
         margin-right: 60px !important;
         line-height: 20px;
     }
 
     .container-3_text-Clients {
-        font-size: 10px;
+        font-size: 10px !important;
         margin-right: 60px !important;
         line-height: 20px;
     }

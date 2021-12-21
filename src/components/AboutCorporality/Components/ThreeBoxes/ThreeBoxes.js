@@ -9,7 +9,6 @@ import projects from "./images/projects.png";
 function ThreeBoxes() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
 
   return (
