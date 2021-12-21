@@ -6,7 +6,6 @@
     max-width: 100vw;
     color: #33657E !important;
     font-size: 1.1vw;
-    // height: 650px;
     height: 41.5vw;
     max-height: 806px;
     margin: 0 auto;
@@ -177,6 +176,7 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+        z-index: 5;
         cursor: pointer;
     }
     .rightBannerContainer > iframe{

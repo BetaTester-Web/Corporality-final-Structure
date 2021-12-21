@@ -16,7 +16,7 @@ export default function Banner2() {
               workflows
             </p>
             <div className="learn-more">
-              Learn More
+              Learn more
               <img src={rightArrow} alt="" />
             </div>
           </div>
@@ -53,7 +53,7 @@ export default function Banner2() {
               environment a reality
             </p>
             <div className="learn-more">
-              Learn More
+              Learn more
               <img src={rightArrow} alt="" />
             </div>
           </div>
@@ -93,7 +93,7 @@ export default function Banner2() {
               and reliable outcomes
             </p>
             <div className="learn-more">
-              Learn More
+              Learn more
               <img src={rightArrow} alt="" />
             </div>
           </div>

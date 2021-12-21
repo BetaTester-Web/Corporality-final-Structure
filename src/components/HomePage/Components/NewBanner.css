@@ -256,6 +256,7 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  z-index: 5;
   cursor: pointer;
 }
 

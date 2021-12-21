@@ -2,7 +2,7 @@
     padding: 60px 0% !important;
     width: 100% !important;
     min-height: 400px;
-    margin: 50px auto !important;
+    margin: 50px auto ;
     max-width: 1920px;
     .box {
         background-color: white;
@@ -110,6 +110,7 @@
 
 @media only screen and (max-width: 992px) {
     .dbanner{
+        margin: 20px auto;
         .sbox {
             height: 270px;
             width: 270px;
@@ -149,6 +150,7 @@
 }
 @media only screen and (max-width: 576px) {
     .dbanner{
+        margin: 10px auto;
         .sbox {
             height: 200px;
             width: 200px;
@@ -171,6 +173,11 @@
             height: 5px !important;
             width: 18px !important;
         }
+    }
+}
+@media only screen and (max-width: 360px){
+    .dbanner{
+        margin: 0px auto;
     }
 }
   
