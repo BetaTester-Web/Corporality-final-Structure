@@ -60,10 +60,10 @@ const Navbar = () => {
                                     <div className="industries-a">INDUSTRIES</div>
                                 </div>
                                 <Industries />
-                                <div className="nav-item contact" onClick={() => {navigate("/contact");topHandler()}}>
+                                <div className="nav-item contact" onClick={() => {navigate("/contact");setNavClicked(!navClicked);topHandler()}}>
                                     <div className="contact-a">CONTACT</div>
                                 </div>
-                                <div className="nav-item contact-no" onClick={() => window.open("tel:+61 2 83794089", "_self")}>
+                                <div className="nav-item contact-no" onClick={() => {window.open("tel:+61 2 83794089", "_self");setNavClicked(!navClicked)}}>
                                     <div className="contact-no-a">+61 2 83794089</div>
                                 </div>
                             </div>
