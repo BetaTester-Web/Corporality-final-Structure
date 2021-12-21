@@ -14,7 +14,6 @@ import "./First.css";
 function FirstNew() {
   useEffect(() => {
     Aos.init({ duration: 3000 });
-    Aos.init({ disable: "mobile" });
   });
 
   return (

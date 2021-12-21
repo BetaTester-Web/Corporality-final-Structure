@@ -14,7 +14,6 @@ import rectangle from "./images/rectangle.png";
 function Caretojoinus() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
 
   return (

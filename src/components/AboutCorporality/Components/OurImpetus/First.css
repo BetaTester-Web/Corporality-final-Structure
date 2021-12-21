@@ -155,6 +155,16 @@
     left: 350px;
   }
 
+  .ourimpetus_textside_heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .ourimpetus_textside_description {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
   .ourimpetus_textside_smalltext {
     font-size: 12px;
     line-height: 20px;
@@ -266,6 +276,17 @@
   .impetus_text_box2 {
     top: 170px;
     left: 280px;
+  }
+
+  .ourimpetus_textside_heading {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px !important;
+  }
+
+  .ourimpetus_textside_description {
+    font-size: 12px;
+    line-height: 18px;
   }
 
   .ourimpetus_textside_smalltext {

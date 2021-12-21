@@ -147,6 +147,18 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .main_upper_text {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .main_bottom_text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
 @media only screen and (max-width: 575px) {
   .image_left {
     top: 350px;
@@ -176,11 +188,13 @@
 
 @media only screen and (max-width: 426px) {
   .main_upper_text {
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 20px;
   }
 
   .main_bottom_text {
-    font-size: 14px;
+    font-size: 10px;
+    line-height: 16px;
   }
 
   .all_contents {
@@ -191,12 +205,12 @@
   }
 
   .box_image {
-    top: 300px;
+    top: 240px;
     left: 30px;
   }
 
   .image_left {
-    top: 400px;
+    top: 340px;
     left: 150px;
   }
 }

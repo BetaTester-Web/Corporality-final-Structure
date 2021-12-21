@@ -16,7 +16,6 @@ import heading_2_arrow from "./images/heading_2_arrow.png";
 function CommunitySupport() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
 
   return (
