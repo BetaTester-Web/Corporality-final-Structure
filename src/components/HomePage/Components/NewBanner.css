@@ -251,15 +251,6 @@
   background-color: #FFFFFFE5;
 }
 
-.bannerContainer .rightBannerContainer::after {
-  content: '';
-  background: url(./images/play-btn-icon.png);
-  width: 100%;
-  height: 100%;
-  z-index: 2;
-  opacity: 1;
-}
-
 .bannerContainer .rightBannerContainer > img {
   width: 100%;
   height: 100%;
