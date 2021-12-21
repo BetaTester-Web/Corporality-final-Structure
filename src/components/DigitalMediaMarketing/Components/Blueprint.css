@@ -1,15 +1,14 @@
-.DDMBlueprintText{
-  flex-direction:column ;
+.DDMBlueprintText {
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   margin: 10%;
   /* padding: auto; */
 }
 
-
 .DDMBlueprintText > h1 {
   /* position: absolute; */
-  
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -27,4 +26,120 @@
   line-height: 26px;
   text-align: center;
   color: #757575;
+}
+
+.blueprint-area {
+  margin-top: -220px;
+  margin-left: 5% !important;
+}
+
+/* .ml10-blueprint {
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #3c708e;
+}
+
+.ml10-blueprint .text-wrapper-blueprint {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.ml10-blueprint .letter-blueprint {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #3c708e;
+  display: inline-block;
+  transform-origin: 0 0;
+}
+
+.blueprint-h4 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #3c708e;
+}
+
+.blueprint-p {
+  width: 1010px;
+  height: 104px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  margin-left: 8%;
+  text-align: center;
+
+  color: #757575;
+} */
+
+/* .blueprint-img {
+  margin-left: 27%;
+  margin-top: 15px;
+}
+
+.blueprint-img {
+  margin-left: 26.5%;
+  margin-top: 89px;
+} */
+
+.sfbp-heading {
+  width: 335px;
+  height: 44px;
+  margin-top: 15% !important;
+  margin-left: 105% !important;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 44px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #3c708e;
+}
+
+.blueprint-img {
+  margin-top: 2.4rem;
+  margin-left: 94% !important;
+}
+
+.blueprint-group-img {
+  text-align: center;
+  margin-top: 3.5rem;
+  margin-bottom: 15rem;
+}
+
+.blueprint-center {
+  text-align: center;
+  position: absolute;
+  transform: translate(27.5rem, 5rem);
+  z-index: 5;
+  /* margin-bottom: 10rem; */
+}
+
+.blueprint-cards {
+  position: absolute;
+  z-index: -5;
+  transform: translate(5.2rem, -26.7rem);
+  /* transform: translate(-45.5rem,1.7rem); */
 }
