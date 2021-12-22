@@ -6,7 +6,6 @@ import "aos/dist/aos.css";
 export default function BPComp3() {
   useEffect(() => {
     Aos.init();
-    Aos.init({ disable: "mobile" });
   });
   return (
     <>

@@ -35,7 +35,7 @@
 
 .brandposition_first_textside {
   flex: 0.4;
-  margin-left: -20px !important;
+  margin-left: 60px !important;
   position: relative;
 }
 
@@ -92,8 +92,8 @@
 }
 
 .brandposition_companyimage {
-  top: 15px;
-  right: 165px;
+  top: 15px !important;
+  right: 150px !important;
   width: 210px !important;
   height: 110px !important;
 }
@@ -102,8 +102,8 @@
   transition: all 2s;
 }
 .brandposition_customerloyalty {
-  top: 215px;
-  left: 228px;
+  top: 180px !important;
+  left: 210px !important;
   height: 135px !important;
   width: 190px !important;
 }
@@ -112,8 +112,8 @@
   transition: all 2s;
 }
 .brandposition_relatable {
-  top: 240px;
-  right: 120px;
+  top: 225px !important;
+  right: 120px !important;
   width: 200px !important;
 }
 .brandposition_relatable>img:hover{
@@ -121,8 +121,8 @@
   transition: all 2s;
 }
 .brandposition_omni {
-  bottom: 110px;
-  right: 250px;
+  bottom: 110px !important;
+  right: 230px !important;
   height: 130px !important;
   width: 200px !important;
 }
@@ -152,8 +152,8 @@
   to{transform: rotate(360deg);}
 }
 .brandposition_imagetop_rect {
-  top: 160px;
-  left: 340px;
+  top: 130px !important;
+  left: 320px !important;
 }
 
 .brandposition_imagebottom_rect {
@@ -209,33 +209,36 @@
   }
 }
 @media only screen and (max-width: 1400px){
+  .brandposition_first_textside {
+    margin-left: 0px !important;
+  }
   .brandposition_companyimage {
-    top: 10px;
-    right: 120px !important;
-    width: 220px;
-    height: 100px;
+    top: 10px !important;
+    right: 100px !important;
+    width: 220px !important;
+    height: 100px !important;
   }
   .brandposition_customerloyalty {
-    top: 190px;
-    left: 190px;
-    width: 210px;
-    height: 115px;
+    top: 150px !important;
+    left: 180px !important;
+    width: 190px !important;
+    height: 120px !important;
   }
   .brandposition_relatable {
-    top: 215px;
-    right: 75px;
-    width: 220px;
-    height: 100px;
+    top: 200px !important;
+    right: 70px !important;
+    width: 220px !important;
+    height: 100px !important;
   }
   .brandposition_omni {
-    bottom: 90px;
-    right: 195px;
-    width: 210px;
-    height: 115px;
+    bottom: 90px !important;
+    right: 180px !important;
+    width: 210px !important;
+    height: 115px !important;
   }
   .brandposition_imagetop_rect {
-    top: 130px;
-    left: 290px;
+    top: 110px !important;
+    left: 290px !important;
   }
 }
 @media only screen and (max-width: 1199px) {
@@ -252,15 +255,15 @@
   .brandposition_customerloyalty {
     top: 115px !important;
     left: 135px !important;
-    width: 200px !important;
-    height: 120px !important;
+    width: 180px !important;
+    height: 110px !important;
   }
 
   .brandposition_relatable {
-    top: 150px;
-    right: 20px;
-    width: 220px;
-    height: 100px;
+    top: 150px !important;
+    right: 20px !important;
+    width: 220px !important;
+    height: 100px !important;
   }
 
   .brandposition_omni {
@@ -292,8 +295,8 @@
   }
 
   .brandposition_imagetop_rect {
-    top: 70px;
-    left: 230px;
+    top: 70px !important;
+    left: 230px !important;
   }
 
   .brandposition_imagebottom_rect {
@@ -332,17 +335,19 @@
     font-size: 14px !important;
   }
   .brandposition_relatable {
-    top: 200px;
-    right: 70px;
+    top: 200px !important;
+    right: 50px !important;
+    width: 200px !important;
   }
   .brandposition_omni{
     bottom: 80px !important;
-    right: 190px !important;
+    right: 200px !important;
+    width: 180px !important;
   }
   .brandposition_customerloyalty {
     top: 155px !important;
-    left: 175px !important;
-    width: 200px !important;
+    left: 185px !important;
+    width: 180px !important;
     height: 115px !important;
   }
   .brandposition_imagetop_rect {
@@ -569,7 +574,7 @@
   }
   .brandposition_relatable {
     top: 180px !important;
-    right: -80px !important;
+    right: -85px !important;
   }
   .brandposition_center_diamond {
     height: 150px;
