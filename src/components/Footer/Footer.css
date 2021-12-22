@@ -660,7 +660,7 @@
 }
 
 .footerContainer .arrow-icon-container {
-  margin-top: 100px !important;
+  margin-top: 100px;
   padding: 0px !important;
   text-align: right;
   width: 0px;
@@ -858,6 +858,25 @@
   }
   .row2 {
     font-size: 12px !important;
+  }
+  .arrow-icon-container {
+    -webkit-box-flex: 100% !important;
+        -ms-flex: 100% !important;
+            flex: 100% !important;
+    height: 40px !important;
+    width: 40px !important;
+    margin: -50px 0px 20px auto !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .dbanner .arrow-icon-container {
+    -webkit-box-flex: 100% !important;
+        -ms-flex: 100% !important;
+            flex: 100% !important;
+    height: 40px !important;
+    width: 40px !important;
+    margin: -50px 0px 20px auto !important;
   }
 }
 /*# sourceMappingURL=Footer.css.map */
