@@ -2,6 +2,7 @@ import React from 'react';
 import "./BlogCard.css";
 import commentBubble from "../img/commentBubble.png";
 import { Link } from 'react-router-dom';
+import topHandler from '../../../CommonHandler/TopHandler';
 
 
 function truncate(text, size) {
@@ -22,13 +23,13 @@ function BlogCard(props) {
                     <h2 className="blogHeading">{truncate(props.heading, 120)}</h2>
                     <div className="blogDescription" dangerouslySetInnerHTML={{__html: truncate(props.description, 300)}}>
                     </div>
-                    <Link to={`/${props.slug}`} className="blogReadMore" style={{"color": "#6CA0BC"}}>Read more</Link>
+                    <Link to={`/${props.slug}`} onClick={topHandler} className="blogReadMore" style={{"color": "#6CA0BC"}}>Read more</Link>
                 </div>
                 {/* <div className="col-12 blogInformation">
                 {new Date(props.date).toDateString()} | <img src={commentBubble} alt="" /> ({props.likes}) Likes
                 </div> */}
                 <div className="col-12 blogInformation">
-                {new Date(props.date).toDateString()} | <i className="fa fa-thumbs-up"></i> ({props.likes}) Likes
+                {new Date(props.date).toDateString()} | <i className={`fa fa-thumbs-up ${props.liked && "blog-liked"}`}></i> ({props.likes}) Likes
                 </div>
             </div>
         </div>

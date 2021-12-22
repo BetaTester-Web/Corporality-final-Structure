@@ -74,7 +74,8 @@ function Blogs() {
                                 description={article.description}
                                 date={article.date}
                                 slug={article.slug}
-                                likes={article.likes} />
+                                likes={article.likes}
+                                liked={JSON.parse(localStorage.getItem("liked").includes(article.id))} />
                         </div>
                     ))}
                 </div>
