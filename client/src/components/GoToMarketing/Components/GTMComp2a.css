@@ -144,11 +144,20 @@
 
 @media only screen and (max-width: 768px) {
     .GTMComp2a .heading{
-        font-size: 14px;
+        font-size: 14px!important;
+        width: 95%;
+        margin-left: 0;
+        margin-right: auto;
+        text-align: center;
+        line-height: 20px!important;
     }
 
     .GTMComp2a .text{
-        font-size: 10px;
+        font-size: 10px!important;
+        width: 90%;
+        margin-left: 0;
+        margin-right: auto;
+        line-height: 16px!important;
     }
 }
 
