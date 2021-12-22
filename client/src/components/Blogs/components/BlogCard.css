@@ -67,9 +67,14 @@
 }
 .blogInformation > i{
     color: #BFBFBF;
+    cursor: pointer;
     /* color: #A16BB8; */
 }
 .blogReadMore{
     margin-right: 20px!important;
     margin-left: 20px!important;
+}
+
+.blog-liked{
+    color: #443A44 !important;
 }

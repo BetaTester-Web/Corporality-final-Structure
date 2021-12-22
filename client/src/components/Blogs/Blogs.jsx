@@ -10,6 +10,7 @@ import axios from "axios";
 import BlogTop from '../Blog/components/BlogTop';
 import { useParams } from "react-router-dom";
 import { Context } from "../../context/Context";
+import topHandler from '../../CommonHandler/TopHandler';
 function Blogs() {
     const { user, dispatch } = useContext(Context);
     const handleLogout = () => {
@@ -26,22 +27,16 @@ function Blogs() {
     useEffect( async () => {
         Aos.init();
         setCurrentPage(1);
+        let res;
         if(params.search_string){
-            console.log("searching")
-            const res = await axios.get(`/articles/search/${params.search_string}/1`);
-            console.log(res.data)
-            setArticles(res.data);
-            setShowArticles(res.data.slice(0, res.data.length-1));
-            setTotalArticles(Math.ceil(res.data[res.data.length-1].count));
-            setLoading(false);
+            res = await axios.get(`/articles/search/${params.search_string}/1`);
         }else{
-            const res = await axios.get("/articles/page/1");
-            console.log(res.data)
-            setArticles(res.data);
-            setShowArticles(res.data.slice(0, res.data.length-1));
-            setTotalArticles(Math.ceil(res.data[res.data.length-1].count));
-            setLoading(false);
+            res = await axios.get("/articles/page/1");
         }
+        setArticles(res.data);
+        setShowArticles(res.data.slice(0, res.data.length-1));
+        setTotalArticles(Math.ceil(res.data[res.data.length-1].count));
+        setLoading(false);
     }, [params]);
     
     const paginate = async (pageNumber) => {
@@ -55,6 +50,26 @@ function Blogs() {
         }
         setArticles(res.data.slice(0, res.data.length-1));
         setShowArticles(res.data.slice(0, res.data.length-1));
+        topHandler();
+    }
+
+    const likePostHandler = async ({slug, id, likes}) => {
+        if(JSON.parse(localStorage.getItem('liked')).includes(id)){
+            return;
+        }
+        setArticles( articles =>{
+            return articles.map(article => { if(article.id === id) article.likes = likes + 1 ; return article});
+        })
+
+        const res = await axios.patch(`/articles/${slug}/like`);
+        if(res.data.success){
+            let liked = JSON.parse(localStorage.getItem("liked"));
+            localStorage.setItem("liked", JSON.stringify([...liked, id]));
+        }else{
+            setArticles( articles =>{
+                return articles.map(article => { if(article.id === id) article.likes = likes ; return article});
+            })
+        }
     }
 
     return (
@@ -78,7 +93,9 @@ function Blogs() {
                                 description={article.description}
                                 date={article.date}
                                 slug={article.slug}
-                                likes={article.likes} />
+                                likes={article.likes}
+                                onLikeBtn = {() => likePostHandler({slug: article.slug, id: article.id, likes: article.likes})}
+                                liked={JSON.parse(localStorage.getItem("liked").includes(article.id))} />
                         </div>
                     ))}
                 </div>
