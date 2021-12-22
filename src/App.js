@@ -3,7 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useContext } from "react";
 import { Context, ContextProvider } from "./context/Context";
-import HomePage from "./components/HomePage/HomePage";
+import HomePage from "./components/HomePage";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer.jsx";
 import StrategyConsultancy from "./components/StrategyConsultancy/StrategyConsultancy";
