@@ -51,7 +51,7 @@ const Navbar = () => {
                             <span className={`nav-icon-line ${navClicked ? "nav-icon-clicked" : ""}`}></span>
                         </div>
                         <div className="navbar-container">
-                            <Link to="/" onClick={() => setNavClicked(false)}>
+                            <Link to="/" onClick={() => {setNavClicked(false);topHandler()}}>
                                 <img src={logo} className="corporality-logo" alt="logo" />
                             </Link>
                             <About2 />
