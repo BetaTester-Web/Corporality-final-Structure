@@ -12,7 +12,9 @@
 @media only screen and (max-width: 768px) {
     .GTMComp3 .text {
         font-size: 10px!important;
-        line-height: 15px!important;
+        line-height: 16px!important;
+        width: 90%;
+        text-align: left!important;
     }
     .GTMComp3 .animate{
         font-size: 14px!important;
@@ -26,13 +28,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
-    text-align: center!important;
+    text-align: center;
     color: #757575;
 }
 
 .GTMComp3 .animate{
-    font-size: 32px!important;
-    line-height: 42px!important;
+    font-size: 32px;
+    line-height: 42px;
 }
 
 .gotomarketing-card{
