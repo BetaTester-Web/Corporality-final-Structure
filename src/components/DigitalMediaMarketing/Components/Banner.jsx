@@ -19,6 +19,8 @@ export default function Banner() {
 									&nbsp;
 									<span>Marketing</span>
 									&nbsp;
+									<span>Strategy</span>
+									&nbsp;
 									<span>for</span>
 									&nbsp;
 									<span>Small</span>
