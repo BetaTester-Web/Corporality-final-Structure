@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useRef, useState } from 'react';
 import './Navbar.css';
 import logo from './assets/logo.png';
 import About from './components/About';
@@ -23,15 +23,27 @@ const Navbar = () => {
     const [menuId, setMenuId] = useState(1);
     const navigate = useNavigate();
 
+    const navbarWrapperRef = useRef();
+
     const providerValue = useMemo(() =>
         ({ isLargeScreen, showAbout, setShowAbout, showAbout2, setShowAbout2, showServices, setShowServices, showIndustries, setShowIndustries, showInsights, setShowInsights, navClicked, setNavClicked, menuId, setMenuId })
         , [isLargeScreen, showAbout, setShowAbout, showAbout2, setShowAbout2, showServices, setShowServices, showIndustries, setShowIndustries, showInsights, setShowInsights, navClicked, setNavClicked, menuId, setMenuId])
+
+    useEffect(() => {
+        window.onscroll = () => {
+            if (window.scrollY > 80) {
+                navbarWrapperRef.current.style.backgroundColor = '#fff';
+            }else{
+                navbarWrapperRef.current.style.backgroundColor = 'unset';
+            }
+        }
+    },[])
 
     return (
         <>
             <NavbarContext.Provider value={providerValue}>
                 <OutsideClickHandler onOutsideClick={() => setNavClicked(false)}>
-                    <div className="navbar-wrapper">
+                    <div ref={navbarWrapperRef} className="navbar-wrapper">
                         {/* nav hamburger */}
                         <div className="nav-icon" onClick={() => setNavClicked(!navClicked)} >
                             <span className={`nav-icon-line ${navClicked ? "nav-icon-clicked" : ""}`}></span>

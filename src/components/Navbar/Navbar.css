@@ -6,7 +6,7 @@
   position: fixed;
   top: 0px;
   height: 80px;
-  background-color: #fff !important;
+  /* background-color: #fff !important; */
   border-bottom: 1px solid #e1e2e2;
   z-index: 1000 !important;
 }
@@ -14,7 +14,7 @@
   margin: 0px auto;
   max-width: 1200px;
   width: 100%;
-  background-color: #fff !important;
+  /* background-color: #fff !important; */
   height: 80px;
   padding: 0px 43px 0px 50px !important;
   display: flex;
@@ -32,7 +32,7 @@
   width: 55% !important;
   height: 100%;
   transition: all 0.3s ease-in-out;
-  background-color: #fff !important;
+  /* background-color: #fff !important; */
   z-index: 100;
 }
 .nav-item > div {
@@ -218,6 +218,7 @@
     left: -300px;
     width: 300px !important;
     height: calc(100vh - 80px) !important;
+    background-color: #fff !important;
     justify-content: start;
     align-items: start;
     border-right: 1px solid #e1e2e2;
