@@ -16,7 +16,8 @@
   width: 100%;
   /* background-color: #fff !important; */
   height: 80px;
-  padding: 0px 43px 0px 50px !important;
+  padding: 0;
+  /* padding: 0px 43px 0px 50px !important; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -281,18 +282,7 @@
 }
 
 @media only screen and (max-width: 576px) {
-  .corporality-logo {
-    /* width: 181.1px;
-        height: 37px; */
-  }
 }
 
 @media only screen and (max-width: 360px) {
-  .corporality-logo {
-    /* width: 146.8px;
-        height: 30px; */
-  }
-  .nav-icon {
-    /* width: ; */
-  }
 }
