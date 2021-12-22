@@ -104,7 +104,7 @@
 .brandposition_customerloyalty {
   top: 215px;
   left: 228px;
-  height: 130px !important;
+  height: 135px !important;
   width: 190px !important;
 }
 .brandposition_customerloyalty>img:hover{
@@ -123,7 +123,7 @@
 .brandposition_omni {
   bottom: 110px;
   right: 250px;
-  height: 120px !important;
+  height: 130px !important;
   width: 200px !important;
 }
 .brandposition_omni>img:hover{
@@ -253,7 +253,7 @@
     top: 115px !important;
     left: 135px !important;
     width: 200px !important;
-    height: 105px !important;
+    height: 120px !important;
   }
 
   .brandposition_relatable {
@@ -343,7 +343,7 @@
     top: 155px !important;
     left: 175px !important;
     width: 200px !important;
-    height: 105px !important;
+    height: 115px !important;
   }
   .brandposition_imagetop_rect {
     top: 100px !important;
@@ -353,8 +353,8 @@
     margin-left: 0 !important;
   }
   .brandposition_companyimage{
-    top: 5;
-    right: 100px;
+    top: 5px !important;
+    right: 105px !important;
   }
   .brandposition_banner_call {
     width: 90px !important;
