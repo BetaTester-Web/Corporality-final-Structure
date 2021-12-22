@@ -1,22 +1,24 @@
 @media only screen and (max-width: 992px) {
     .content-inner .cf-inner .inner h2 {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 12px!important;
+        line-height: 20px!important;
+        padding-bottom: 0!important;
     }
     .GTMComp4 .philosophySubmitButton {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 12px!important;
+        line-height: 20px!important;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .content-inner .cf-inner .inner h2 {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 10px!important;
+        line-height: 16px!important;
+        padding-bottom: 0!important;
     }
     .GTMComp4 .philosophySubmitButton {
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 10px!important;
+        line-height: 16px!important;
     }
 }
 
@@ -368,7 +370,7 @@
 .content-inner .cf-inner .inner h2 {
     position: relative;
     font-size: 22px;
-    line-height: 30px;
+    line-height: 32px;
     font-weight: 800;
     padding-bottom: 20px;
 }

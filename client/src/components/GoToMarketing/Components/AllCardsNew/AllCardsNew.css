@@ -1,7 +1,7 @@
 @media only screen and (max-width: 992px) {
     .gotomarketing_cards_top_heading_text {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 14px!important;
+        line-height: 22px!important;
     }
     .gotomarketing_side1_card1_text,
     .gotomarketing_side1_card2_text,
@@ -27,15 +27,15 @@
     .gotomarketing_side5_card3_text,
     .gotomarketing_side6_card1_text,
     .gotomarketing_side6_card2_text {
-        font-size: 12px;
-        line-height: 20px;
+        font-size: 12px!important;
+        line-height: 20px!important;
     }
 }
 
 @media only screen and (max-width: 768px) {
     .gotomarketing_cards_top_heading_text {
-        font-size: 12px;
-        line-height: 18px;
+        font-size: 12px!important;
+        line-height: 18px!important;
     }
     .gotomarketing_side1_card1_text,
     .gotomarketing_side1_card2_text,
@@ -61,8 +61,8 @@
     .gotomarketing_side5_card3_text,
     .gotomarketing_side6_card1_text,
     .gotomarketing_side6_card2_text {
-        font-size: 10px;
-        line-height: 16px;
+        font-size: 10px!important;
+        line-height: 16px!important;
     }
 }
 
@@ -865,6 +865,7 @@
     }
     .gotomarketing_image_side_1_card5 {
         grid-area: 4 / 1 / 5 / 3;
+        width: 40%;
     }
 
     .gotomarketing_cards_text_side_2 {
