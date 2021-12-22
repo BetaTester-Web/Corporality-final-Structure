@@ -42,7 +42,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_cards_text_side_1 aos-init aos-animate"
             data-aos="zoom-in"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
           >
             <div className="gotomarketing_line_horizontal_1">
               <img src={line_horizontal} alt="" />
@@ -59,7 +59,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_1_card1 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <div className="gotomarketing_side1_card1_image">
@@ -73,7 +73,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_1_card2 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="1000"
           >
             <div className="gotomarketing_side1_card2_image">
@@ -87,8 +87,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_1_card3 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="1500"
+            data-aos-duration="1000"
+            data-aos-delay="300"
           >
             <div className="gotomarketing_side1_card3_image">
               <img src={ac} alt="" />
@@ -101,8 +101,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_1_card4 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="2000"
+            data-aos-duration="1000"
+            data-aos-delay="0"
           >
             <div className="gotomarketing_side1_card4_image">
               <img src={ad} alt="" />
@@ -115,8 +115,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_1_card5 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="2000"
+            data-aos-duration="1000"
+            data-aos-delay="0"
           >
             <div className="gotomarketing_side1_card5_image">
               <img src={ae} alt="" />
@@ -131,7 +131,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_cards_text_side_2 aos-init aos-animate"
             data-aos="zoom-in"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
           >
             <div className="gotomarketing_line_horizontal_2">
               <img src={line_horizontal} alt="" />
@@ -147,7 +147,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_2_card1 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <div className="gotomarketing_side2_card1_image">
@@ -161,7 +161,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_2_card2 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="1000"
           >
             <div className="gotomarketing_side2_card2_image">
@@ -175,8 +175,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_2_card3 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="1500"
+            data-aos-duration="1000"
+            dadata-aos-delay="300"
           >
             <div className="gotomarketing_side2_card3_image">
               <img src={bc} alt="" />
@@ -188,8 +188,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_2_card4 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="1500"
+            data-aos-duration="1000"
+            dadata-aos-delay="300"
           >
             <div className="gotomarketing_side2_card4_image">
               <img src={bd} alt="" />
@@ -201,8 +201,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_2_card5 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="1500"
+            data-aos-duration="1000"
+            dadata-aos-delay="300"
           >
             <div className="gotomarketing_side2_card5_image">
               <img src={be} alt="" />
@@ -217,7 +217,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_cards_text_side_3 aos-init aos-animate"
             data-aos="zoom-in"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
           >
             <div className="gotomarketing_line_horizontal_3">
               <img src={line_horizontal} alt="" />
@@ -233,7 +233,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_3_card1 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <div className="gotomarketing_side3_card1_image">
@@ -247,7 +247,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_3_card2 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="1000"
           >
             <div className="gotomarketing_side3_card2_image">
@@ -261,8 +261,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_3_card3 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="1500"
+            data-aos-duration="1000"
+            dadata-aos-delay="300"
           >
             <div className="gotomarketing_side3_card3_image">
               <img src={cc} alt="" />
@@ -275,8 +275,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_3_card4 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="2000"
+            data-aos-duration="1000"
+            data-aos-delay="0"
           >
             <div className="gotomarketing_side3_card4_image">
               <img src={cd} alt="" />
@@ -289,8 +289,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_3_card5 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="2000"
+            data-aos-duration="1000"
+            data-aos-delay="0"
           >
             <div className="gotomarketing_side3_card5_image">
               <img src={ce} alt="" />
@@ -303,7 +303,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_cards_text_side_4 aos-init aos-animate"
             data-aos="zoom-in"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
           >
             <div className="gotomarketing_line_horizontal_4">
               <img src={line_horizontal} alt="" />
@@ -320,7 +320,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_4_card1 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <div className="gotomarketing_side4_card1_image">
@@ -334,7 +334,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_4_card2 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="1000"
           >
             <div className="gotomarketing_side4_card2_image">
@@ -348,8 +348,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_4_card3 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="1500"
+            data-aos-duration="1000"
+            dadata-aos-delay="300"
           >
             <div className="gotomarketing_side4_card3_image">
               <img src={dc} alt="" />
@@ -362,8 +362,8 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_4_card4 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
-            data-aos-delay="2000"
+            data-aos-duration="1000"
+            data-aos-delay="0"
           >
             <div className="gotomarketing_side4_card4_image">
               <img src={dd} alt="" />
@@ -376,7 +376,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_cards_text_side_5 aos-init aos-animate"
             data-aos="zoom-in"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
           >
             <div className="gotomarketing_line_horizontal_5">
               <img src={line_horizontal} alt="" />
@@ -391,7 +391,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_5_card1 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="500"
           >
             <div className="gotomarketing_side5_card1_image">
@@ -405,7 +405,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_5_card2 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="1000"
           >
             <div className="gotomarketing_side5_card2_image">
@@ -418,7 +418,7 @@ function AllCardsNew() {
           <div
             className="gotomarketing_image_side_5_card3 aos-init aos-animate"
             data-aos="flip-left"
-            data-aos-duration="2500"
+            data-aos-duration="1000"
             data-aos-delay="1000"
           >
             <div className="gotomarketing_side5_card3_image">
