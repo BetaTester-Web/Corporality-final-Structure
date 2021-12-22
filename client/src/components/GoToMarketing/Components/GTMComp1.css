@@ -39,7 +39,7 @@
 
 .gtm-page1 .container {
     height: 600px;
-    max-width: none;
+    /* max-width: none; */
     background: url(./videos/V3.mp4) no-repeat center center/cover;
 }
 
@@ -54,7 +54,7 @@
 
 .gtm-page1 .row {
     /* width: 100%; */
-    position: relative;
+    /* position: relative; */
     height: 100%;
 }
 .gtm-page1 .row .col-lg-5 {
@@ -75,6 +75,9 @@
 .gtm-page1 .sideSocials {
     width: 50px;
     margin-right: 1rem;
+    position: absolute;
+    right: 0;
+    top: 25%;
 }
 .gtm-page1 .sideSocials .socialIcon {
     margin-top: 10px;
@@ -220,6 +223,8 @@
         height: 50px;
         width: 100%;
         margin-top: auto;
+        position: static!important;
+        z-index: 1;
     }
 
     .gtm-page1 .marketing {
