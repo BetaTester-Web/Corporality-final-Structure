@@ -53,6 +53,25 @@ function Blogs() {
         topHandler();
     }
 
+    const likePostHandler = async ({slug, id, likes}) => {
+        if(JSON.parse(localStorage.getItem('liked')).includes(id)){
+            return;
+        }
+        setArticles( articles =>{
+            return articles.map(article => { if(article.id === id) article.likes = likes + 1 ; return article});
+        })
+
+        const res = await axios.patch(`/articles/${slug}/like`);
+        if(res.data.success){
+            let liked = JSON.parse(localStorage.getItem("liked"));
+            localStorage.setItem("liked", JSON.stringify([...liked, id]));
+        }else{
+            setArticles( articles =>{
+                return articles.map(article => { if(article.id === id) article.likes = likes ; return article});
+            })
+        }
+    }
+
     return (
         <>
             <BlogTop blogState={ {articles, showArticles, setShowArticles} } />
@@ -75,6 +94,7 @@ function Blogs() {
                                 date={article.date}
                                 slug={article.slug}
                                 likes={article.likes}
+                                onLikeBtn = {() => likePostHandler({slug: article.slug, id: article.id, likes: article.likes})}
                                 liked={JSON.parse(localStorage.getItem("liked").includes(article.id))} />
                         </div>
                     ))}

@@ -12,7 +12,6 @@ function truncate(text, size) {
 function BlogCard(props) {
     const PF = "http://localhost:5001/images/";
     // const PF = "";
-
     return (
         <div className="blogCard shadow">
             <div className="row">
@@ -29,7 +28,7 @@ function BlogCard(props) {
                 {new Date(props.date).toDateString()} | <img src={commentBubble} alt="" /> ({props.likes}) Likes
                 </div> */}
                 <div className="col-12 blogInformation">
-                {new Date(props.date).toDateString()} | <i className={`fa fa-thumbs-up ${props.liked && "blog-liked"}`}></i> ({props.likes}) Likes
+                {new Date(props.date).toDateString()} | <i onClick={(e) => {props.onLikeBtn();e.target.classList.add('blog-liked')}} className={`fa fa-thumbs-up ${props.liked? "blog-liked" : ""}`}></i> ({props.likes}) Likes
                 </div>
             </div>
         </div>

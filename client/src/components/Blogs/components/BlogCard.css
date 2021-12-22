@@ -67,6 +67,7 @@
 }
 .blogInformation > i{
     color: #BFBFBF;
+    cursor: pointer;
     /* color: #A16BB8; */
 }
 .blogReadMore{
