@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 const  SACComp3 = () => {
   useEffect(() => {
-    AOS.init({disable: "mobile"});
+    AOS.init({});
     AOS.refresh();
   }, []);
   return (

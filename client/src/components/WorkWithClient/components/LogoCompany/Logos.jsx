@@ -11,7 +11,7 @@ import logo7 from '../LogoCompany/logo7.png'
 
 const Logos = () => {
     useEffect(() => {
-        aos.init({ duration: 3000 , disable: 'mobile' });
+        aos.init({ duration: 3000 });
 
     }, [])
     return (

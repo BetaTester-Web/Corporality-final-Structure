@@ -12,7 +12,7 @@ import icon6 from "../Firstcomponent/icon6.png";
 
 const First = () => {
   useEffect(() => {
-    aos.init({ disable: "mobile" });
+    aos.init({});
   }, []);
   return (
     <div className="cards_interactiveBlueprint">
