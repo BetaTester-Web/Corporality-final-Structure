@@ -14,10 +14,10 @@ export default function SACComp4() {
     <div>
       <div className="p-0 container sacc4Container d-flex flex-column justify-content-center">
         <div className="sacc4Top d-flex flex-column align-items-center">
-          <p className="sacc4Heading1">
+          <p data-aos="zoom-in" className="sacc4Heading1">
             Leverage the power of a unified approach to marketing innovation
           </p>
-          <p className="sacc4Para1">
+          <p data-aos="zoom-in" className="sacc4Para1">
             Rely on our global network of people – supported by powerful assets,
             platforms and partnerships – to help you move swiftly from idea to
             execution.
