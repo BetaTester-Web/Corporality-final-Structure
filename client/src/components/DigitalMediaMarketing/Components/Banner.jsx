@@ -59,7 +59,7 @@ export default function Banner() {
 						</div>
 						
 					</div>
-					<div className="col-lg-6 col-12 DMMImgWrapper">
+					<div className="col-lg-6 col-12 DMMImgWrapper ">
 							<div className="DDMBannerImage d-flex justify-content-end ">
 								<img src="./img/DigitalMediaMarketing/img/Banner/DDMBannerImage.png" className="DMMImgBanner" />
 							</div>
