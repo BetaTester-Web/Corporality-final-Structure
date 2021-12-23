@@ -80,8 +80,8 @@ const KeyObject = () => {
                 </div>
 
     </div>
-            <div>
-                <img src="./img/DigitalMediaMarketing/objective.gif" className="img-fluid m-5" alt="" />
+            <div className='keyimg'>
+                <img src="./img/DigitalMediaMarketing/objective.gif" className="img-fluid " alt="" />
             </div>
     </div>
     )

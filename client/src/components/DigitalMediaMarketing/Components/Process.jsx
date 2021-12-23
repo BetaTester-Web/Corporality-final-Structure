@@ -21,7 +21,7 @@ export default function Process() {
 								</div>
 							</div>
 							<div data-aos="fade-down" data-aos-duration="2000" data-aos-easing="ease-in-out" data-aos-delay="100" className="col-lg-7 col-md-8 col-10 aos-init aos-animate text">
-								<div>
+								<div className='ProcessPara'>
 									Making split-second decisions are standard in every business. Establishing a dynamic GTM strategy will help you align your team with the same goals. A GTM strategy will also assist you with:
 								</div>
 							</div>
