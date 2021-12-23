@@ -12,12 +12,12 @@
 }
 .navbar-container {
   margin: 0px auto;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 100%;
   /* background-color: #fff !important; */
   height: 80px;
   padding: 0;
-  /* padding: 0px 43px 0px 50px !important; */
+  padding: 0px 43px 0px 50px !important;
   display: flex;
   align-items: center;
   justify-content: space-between;
