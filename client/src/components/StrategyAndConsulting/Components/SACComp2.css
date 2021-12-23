@@ -182,10 +182,10 @@
 
 @media (max-width: 590px) {
   .SACC2_side2-container {
-    width: 150px;
-    height: 220px;
+    width: 0px;
+    height: 180px;
     top: -150px;
-    left: 20px;
+    left: 5px;
   }
   .SACC2_Inc_Div_our-faith-main-img {
     width: 200px;

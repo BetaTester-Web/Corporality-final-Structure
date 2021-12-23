@@ -525,21 +525,21 @@
   .Duty_card_text_2 {
     margin-right: -90px !important;
     padding-left: 30px !important;
-    margin-left: -90px !important;
+    margin-left: -100px !important;
     left: -32% !important;
   }
 
   .Duty_card_text_4 {
     margin-right: -90px !important;
     padding-left: 30px !important;
-    margin-left: -90px !important;
+    margin-left: -100px !important;
     left: -32% !important;
   }
 
   .Duty_card_text_3 {
     margin-right: -90px !important;
     padding-left: 30px !important;
-    margin-left: -90px !important;
+    margin-left: -100px !important;
     left: -32% !important;
   }
 }
@@ -554,10 +554,10 @@
     left: auto !important;
     right: auto !important;
   }
-  .Duty_images_card{
+/*   .Duty_images_card{
     margin-right: 10px !important ;
     margin-left: 5px !important ;
-  }
+  } */
 }
 
 @media(max-width:474px){
