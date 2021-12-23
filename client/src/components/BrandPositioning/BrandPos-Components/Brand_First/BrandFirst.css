@@ -35,7 +35,7 @@
 
 .brandposition_first_textside {
   flex: 0.4;
-  margin-left: 60px !important;
+  margin-left: 20px !important;
   position: relative;
 }
 
@@ -112,7 +112,7 @@
   transition: all 2s;
 }
 .brandposition_relatable {
-  top: 225px !important;
+  top: 230px !important;
   right: 120px !important;
   width: 200px !important;
 }
