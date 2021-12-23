@@ -8,7 +8,7 @@ import polygon4 from "../FourCards/polygon4.png";
 
 const Duty = () => {
   useEffect(() => {
-    aos.init( {disable:"mobile"});
+    aos.init( {});
 }, [])
   return (
     <div className="Duty_Four">

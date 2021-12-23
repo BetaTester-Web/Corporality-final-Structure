@@ -15,7 +15,7 @@ import readmoreInternal from './images/readmoreInternal.png'
 import "../Components/SACComp5.css"
 const SACComp5 = () => {
     useEffect(() => {
-        aos.init({ duration: 3000, disable: "mobile" });
+        aos.init({ duration: 3000});
 
     }, [])
     return (
