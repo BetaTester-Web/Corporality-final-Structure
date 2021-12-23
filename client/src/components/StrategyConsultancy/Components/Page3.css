@@ -12,6 +12,11 @@
   width: 462px;
   height: 462px;
 }
+
+.sc--vs{
+  font-size: 12px;
+}
+
 .circle-container-consultancy > div {
   display: block;
   position: absolute;
