@@ -19,6 +19,7 @@ function SACComp6() {
     <div className="container">
       <div className="SACComp6_community_support_main-Invirogating">
         <div
+        data-aos = "fade-left"
           className="SACComp6_community_support_first-Invirogating"
 
         >
@@ -46,6 +47,7 @@ function SACComp6() {
           </div>
         </div>
         <div
+        data-aos = "fade-right"
           className="SACComp6_community_support_second-Invirogating"
         >
           <div className="SACComp6_text_2_invirogating">
