@@ -1,0 +1,100 @@
+.DDMBanner {
+    margin-top: 80px;
+}
+
+.DMMImgWrapper {
+    position: relative;
+}
+
+.DMMImgBanner {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blueRectangle {
+    position: absolute;
+    left: 0;
+    top: 45%;
+}
+
+.yellowRectange {
+    position: absolute;
+    left: 34%;
+    bottom: 0%;
+}
+
+.DMMBannerText {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.DDMBanner .DDMBannerDiscoveryButton {
+    all: unset;
+    background: linear-gradient(95.12deg, #eed979 0%, #4f8cad 83.42%);
+    position: relative;
+    z-index: 1 !important;
+    width: fit-content;
+    height: 55% !important;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    bottom: 0;
+    transition: all 0.5s;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.DDMBanner .DDMBannerDiscoveryButton:hover {
+    bottom: 3px;
+}
+
+.DDMBanner .DDMBannerDiscoveryButton::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(95.12deg, #4f8cad 0%, #eed979 83.42%);
+    z-index: -1 !important;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+}
+
+.DDMBanner .DDMBannerDiscoveryButton:hover::after {
+    opacity: 1;
+}
+
+.DDMBanner .DDMBannerText{
+    position: relative;
+}
+.DDMBanner .DDMBannerSocialIcons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: -10%;
+    bottom: 10%;
+    height: 200px;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    .DDMBanner .DDMBannerSocialIcons{
+        bottom: -150%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .DDMBanner .DDMBannerSocialIcons{
+        margin-left: 20px;
+        bottom: -110%;
+        left: -3%;
+    }
+}
