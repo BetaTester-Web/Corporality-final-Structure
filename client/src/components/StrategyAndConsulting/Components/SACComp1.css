@@ -8,7 +8,7 @@
   flex-direction: column !important;
   justify-content: center !important;
   padding-top: 150px !important;
-  left: -40px !important;
+  left: 5% !important;
 
 }
 .SACC1_yellowbackground_Blueprint {
@@ -58,7 +58,7 @@ color: #33657E;
 .SACC1_image-first{
   position: relative !important;
   margin-left: 80px !important;
-  left: -40px !important ;
+  left: -15% !important ;
 }
 
 
