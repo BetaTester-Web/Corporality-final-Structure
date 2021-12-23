@@ -19,10 +19,10 @@ const Page1 = () => {
                     <div className="d-md-flex align-items-center justify-content-between consult-pageContent">
                         <div className="consult-page1-content">
                             <div data-aos="fade-right" data-aos-duration="1000">
-                            <div className="consult-pg1-con">
+                            <div className="consult-pg1-con conmap-detail-head">
 
 
-                            <h3>STRATEGIC GROWTH CONSULTING DRIVEN BY EXPERTISE, ANALYTICS AND EXPERIENCE</h3>
+                            <h2>STRATEGIC GROWTH CONSULTING DRIVEN BY EXPERTISE, ANALYTICS AND EXPERIENCE</h2>
                             <p>Corporality Global is committed to delivering enterprise value in the form of revenue growth and operations that don't just meet expectations but exceed them.</p>
                             </div>
                             </div>
