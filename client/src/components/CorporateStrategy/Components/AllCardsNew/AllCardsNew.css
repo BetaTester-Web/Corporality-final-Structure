@@ -698,6 +698,11 @@
     font-size: 12px;
     line-height: 20px;
   }
+
+  .cards_top_heading_text {
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 @media only screen and (max-width: 750px) {
@@ -955,5 +960,10 @@
   .cards_top_description {
     font-size: 10px !important;
     line-height: 16px !important;
+  }
+
+  .cards_top_heading_text {
+    font-size: 14px;
+    line-height: 20px;
   }
 }

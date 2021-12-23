@@ -134,6 +134,24 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .understanding_difficulty_first_text_heading,
+  .understanding_difficulty_last_text_heading {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .understanding_difficulty_first_text_description,
+  .understanding_difficulty_last_text_description {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .understanding_difficulty_last_text {
+    margin-top: 420px !important;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   .Background_in_Strategy {
     margin-top: -30px !important;
@@ -156,18 +174,6 @@
   .understanding_difficulty_first_text,
   .understanding_difficulty_last_text {
     padding: 0 20px !important;
-  }
-
-  .understanding_difficulty_first_text_heading,
-  .understanding_difficulty_last_text_heading {
-    font-size: 16px;
-    line-height: 24px;
-  }
-
-  .understanding_difficulty_first_text_description,
-  .understanding_difficulty_last_text_description {
-    font-size: 12px;
-    line-height: 20px;
   }
 }
 
