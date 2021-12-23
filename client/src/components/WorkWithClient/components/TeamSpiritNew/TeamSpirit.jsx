@@ -13,7 +13,7 @@ import heading_2_arrow from "./arrow2.png";
 
 function TeamSpiritNew() {
   useEffect(() => {
-    Aos.init({disable: "mobile"});
+    Aos.init({});
   });
 
   return (

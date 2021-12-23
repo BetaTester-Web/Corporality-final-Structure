@@ -14,7 +14,7 @@ import "../Components/SACComp1.css";
 
 const SACComp1 = () => {
   useEffect(() => {
-    aos.init({ duration: 3000 , disable: "mobile" });
+    aos.init({ duration: 3000});
   }, []);
   return (
     <div className="SACC1_prev-1-Ib">
