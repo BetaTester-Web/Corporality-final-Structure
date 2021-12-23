@@ -22,8 +22,8 @@ const Page1 = () => {
                             <div className="consult-pg1-con conmap-detail-head">
 
 
-                            <h2>STRATEGIC GROWTH CONSULTING DRIVEN BY EXPERTISE, ANALYTICS AND EXPERIENCE</h2>
-                            <p>Corporality Global is committed to delivering enterprise value in the form of revenue growth and operations that don't just meet expectations but exceed them.</p>
+                            <h2 className="sconculttttttttt">STRATEGIC GROWTH CONSULTING DRIVEN BY EXPERTISE, ANALYTICS AND EXPERIENCE</h2>
+                            <p className="sconculttttttttt">Corporality Global is committed to delivering enterprise value in the form of revenue growth and operations that don't just meet expectations but exceed them.</p>
                             </div>
                             </div>
                             <div data-aos="fade-left">

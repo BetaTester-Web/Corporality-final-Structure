@@ -25,7 +25,7 @@ const Page3 = () => {
 
 
 
-                    <div class='circle-container-consultancy'>
+                    <div class='circle-container-consultancy sconculttttttttt'>
                         <div className="centeeeer"><div className="Consultancypage-3-diamond centereeeee Consultancydia Consultancyc"><p>Growth Segmentation</p></div></div>
                         <div className="deg45"><div className="Consultancypage-3-diamond Consultancydia"> <p>Account Segmentation</p></div></div>
                         <div className="deg225"><div className="Consultancypage-3-diamond Consultancydia"><p>Market Segmentation</p></div></div>

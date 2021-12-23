@@ -162,7 +162,7 @@
     justify-content: center !important;
     align-items: center !important;
     margin: 10px 15px;
-    text-align: center;
+    text-align: center !important;
 
   }
 }
