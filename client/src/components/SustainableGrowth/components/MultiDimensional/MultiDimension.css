@@ -197,6 +197,13 @@ color: #232323;
 .main3-Multi:hover{
     transform: scale(1.02);
 }
+
+@media(max-width:1400px){
+    .images-prev-3-Multi{
+        left: 10%;
+    }
+}
+
 .button-4-Multi-Multi{
         margin-bottom: 85px;
     }
