@@ -1,4 +1,4 @@
-import React , {useEffect} from 'react'
+import React, { useEffect } from 'react'
 import aos from "aos"
 import '../Incl/Inclusion.css'
 import Main from '../Incl/main.png'
@@ -10,18 +10,21 @@ import smallerrect from '../Incl/smallerrect.png'
 import yellowbackground from './yellowbackground.png'
 const Inclusion = () => {
     useEffect(() => {
-        aos.init();
+        aos.init({ duration: 3000 });
     }, [])
     return (
         <div className="Inclusion">
             <div className="navbar-Id"></div>
             <div className="container container-1-Id">
-            <div className="yellowbackground_Inclusion">
-                <img src={yellowbackground} alt='' />
-            </div>
+                <div className="yellowbackground_Inclusion">
+                    <img src={yellowbackground} alt='' />
+                </div>
                 <div className="row first-image-Id">
                     <div className="col-lg-6">
-                        <div data-aos="fade-right" data-aos-easing="ease" data-aos-duration="2500" className="text-box-1-Id">
+                        <div data-aos="fade-right"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-offset="0" className="text-box-1-Id">
 
                             <p className='container-1_text-Id'>Inclusion and Diversity</p>
                             <p className='container-2_text-Id'>Creating a culture of equality </p>
@@ -30,7 +33,10 @@ const Inclusion = () => {
                         </div>
                     </div>
                     <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
-                        <div data-aos="fade-left" data-aos-easing="ease" data-aos-duration="2500" className="image-first-Id">
+                        <div data-aos="fade-left"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-offset="0" className="image-first-Id">
                             <img alt='' className='rect-Id' src={rect} />
                             <img alt='' className='wall-Id' src={wall} />
                             <img alt='' className='smallrect-Id' src={smallrect} />

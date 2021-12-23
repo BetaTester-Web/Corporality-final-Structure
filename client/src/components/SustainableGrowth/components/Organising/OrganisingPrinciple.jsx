@@ -11,19 +11,22 @@ import yellowbackground from './yellowbackground.png'
 
 const OrganisingPrinciple = () => {
     useEffect(() => {
-        aos.init({ duration: 3000});
+        aos.init({ duration: 3000 });
     }, [])
     return (
         <div className="OrganisingPrinciple">
             <div className="navbar-Op"></div>
             <div className="container container-1-Op">
-            <div className="yellowbackground_Op">
-                <img src = {yellowbackground} alt = '' />
-            </div>
+                <div className="yellowbackground_Op">
+                    <img src={yellowbackground} alt='' />
+                </div>
                 <div className="row first-image-Op">
-                    
+
                     <div className="col-lg-6">
-                        <div data-aos="fade-right" className="text-box-1-Op">
+                        <div data-aos="fade-right"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-offset="0" className="text-box-1-Op">
 
                             <p className='container-1_text-Op'>SUSTAINABLE GROWTH OUR ORGANISING PRINCIPLE</p>
                             <p className='container-2_text-Op'>Corporality Global intends to use ingenuity and technology to enforce sustainable change so that future generations can meet their needs without any hindrances </p>
@@ -31,7 +34,10 @@ const OrganisingPrinciple = () => {
                         </div>
                     </div>
                     <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
-                        <div data-aos="fade-left" className="image-first-Op">
+                        <div data-aos="fade-left"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-offset="0" className="image-first-Op">
                             <img alt='' className='rect-Op' src={rectOrganising} />
                             <img alt='' className='wall-Op' src={wallOrganising} />
                             <img alt='' className='smallrect-Op' src={smallrectOrganising} />

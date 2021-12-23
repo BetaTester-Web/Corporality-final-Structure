@@ -23,12 +23,15 @@ const Prev1 = () => {
         <div className="prev-1-Ib">
             <div className="navbar"></div>
             <div className="container container-1">
-            <div className="yellowbackground_Blueprint">
-                <img src = {yellowbackgroundCustomised} alt='' />
-            </div>
+                <div className="yellowbackground_Blueprint">
+                    <img src={yellowbackgroundCustomised} alt='' />
+                </div>
                 <div className="row first-image">
                     <div className="col-lg-6">
-                        <div data-aos="fade-right" className="text-box-1">
+                        <div data-aos="fade-right"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-offset="0" className="text-box-1">
 
                             <p className='container-1_text'>INTERACTIVE BLUEPRINT</p>
                             <p className='container-2_text'>100% customised plan that reduces risks and gives you an edge</p>
@@ -36,8 +39,11 @@ const Prev1 = () => {
                         </div>
                     </div>
                     <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
-                        <div data-aos="fade-left" className="image-first">
-                           <img alt='' className='rect' src={rectblueprintCustomised} />
+                        <div data-aos="fade-left"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-offset="0" className="image-first">
+                            <img alt='' className='rect' src={rectblueprintCustomised} />
                             <img alt='' className='wall' src={wallCustomised} />
                             <img alt='' className='smallrect' src={smallrectCustomised} />
                             <img alt='' className='backimg' src={backimgCustomised} />
