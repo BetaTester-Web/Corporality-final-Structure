@@ -14,6 +14,14 @@
     width: 68%;
 }
 
+.iluilukyahh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto !important;
+    width: 80%;
+}
+
 .pag-cont > h2{
     font-family: Roboto;
 font-style: normal;
@@ -46,6 +54,8 @@ color: #757575;
 }
 
 .consultancygradbox{
+    /* position: absolute; */
+    /* right: -10px; */
     transform: translate(-470%,100%);
     /* display: flex; */
     /* position: relative;

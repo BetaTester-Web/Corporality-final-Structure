@@ -18,14 +18,14 @@ const Page3 = () => {
                 <div data-aos="fade-right" data-aos-duration="1200">
 
                 </div>
-                    <div className="model-para">
-                        <h2 className="">Business Model vs Value Design</h2>
-                        <p className="">Do your clients truly understand how you charge them? There are various models that you can apply to generate revenue. The objective is to evaluate and present an understandable paradigm that can be used across segments. Then, create a shift in the revenue model and connect it with the strategic business growth strategy to maximise profitability.</p>
+                    <div className="model-para conmap-detail-head">
+                        <h2 className="sconculttttttttt">Business Model <span className="sc--vs">vs</span>  Value Design</h2>
+                        <p className="sconculttttttttt">Do your clients truly understand how you charge them? There are various models that you can apply to generate revenue. The objective is to evaluate and present an understandable paradigm that can be used across segments. Then, create a shift in the revenue model and connect it with the strategic business growth strategy to maximise profitability.</p>
                     </div>
 
 
 
-                    <div class='circle-container-consultancy'>
+                    <div class='circle-container-consultancy sconculttttttttt'>
                         <div className="centeeeer"><div className="Consultancypage-3-diamond centereeeee Consultancydia Consultancyc"><p>Growth Segmentation</p></div></div>
                         <div className="deg45"><div className="Consultancypage-3-diamond Consultancydia"> <p>Account Segmentation</p></div></div>
                         <div className="deg225"><div className="Consultancypage-3-diamond Consultancydia"><p>Market Segmentation</p></div></div>

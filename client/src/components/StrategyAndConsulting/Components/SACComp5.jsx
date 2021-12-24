@@ -39,7 +39,7 @@ const SACComp5 = () => {
                         </div>
                     </div>
                     <div className="col-lg-6 SACComp5_texting-third-Ideation">
-                        <p data-aos="fade-up" data-aos-delay="500" className='SACComp5_heading-text-1-main'>Internal Implementation for External sustenance</p>
+                        <p data-aos="zoom-in" className='SACComp5_heading-text-1-main'>Internal Implementation for External sustenance</p>
 
                         <div data-aos="fade-up" data-aos-delay="500" className="SACComp5_textndicon-Ideation">
                             <div /* className="icon-Ideation" */>

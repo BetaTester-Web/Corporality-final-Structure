@@ -9,7 +9,7 @@
     flex-direction: column !important;
     justify-content: center !important;
     padding-top: 150px !important;
-    left: -40px !important;
+    left: 5% !important;
  
 }
 .yellowbackground_Blueprint {
@@ -136,6 +136,10 @@
     .image-first{
         left: -40px !important;
     }
+    .text-box-1{
+        position: relative;
+        left: 0% !important;
+    }
 }
 
 
@@ -146,6 +150,13 @@
     }
     .yellow_IB{
         display: none !important;
+    }
+}
+
+
+@media (max-width:1267px){
+    .text-box-1{
+        left: 5% !important;
     }
 }
 

@@ -96,47 +96,68 @@
   right: 150px !important;
   width: 210px !important;
   height: 110px !important;
+  animation-delay: 5s !important;
+  animation: zoom-in-zoom-out 3s ease-out infinite;
 }
-.brandposition_companyimage>img:hover{
+/* .brandposition_companyimage>img:hover{
   transform: scale(1.04);
   transition: all 2s;
-}
+} */
 .brandposition_customerloyalty {
   top: 180px !important;
   left: 210px !important;
   height: 135px !important;
   width: 190px !important;
+  animation-delay: 5s !important;
+  animation: zoom-in-zoom-out 3s ease-out infinite;
 }
-.brandposition_customerloyalty>img:hover{
+/* .brandposition_customerloyalty>img:hover{
   transform: scale(1.04);
   transition: all 2s;
-}
+} */
 .brandposition_relatable {
   top: 230px !important;
   right: 120px !important;
   width: 200px !important;
+  animation-delay: 5s !important;
+  animation: zoom-in-zoom-out 3s ease-out infinite;
 }
-.brandposition_relatable>img:hover{
+/* .brandposition_relatable>img:hover{
   transform: scale(1.04);
   transition: all 2s;
-}
+} */
 .brandposition_omni {
   bottom: 110px !important;
   right: 230px !important;
   height: 130px !important;
   width: 200px !important;
+  animation-delay: 5s !important;
+  animation: zoom-in-zoom-out 3s ease-out infinite;
 }
-.brandposition_omni>img:hover{
+/* .brandposition_omni>img:hover{
   transform: scale(1.04);
   transition: all 2s;
-}
+} */
 .brandposition_center_diamond {
   bottom: -30px;
   left: 70px;
+  animation-delay: 5s !important;
+  animation: zoom-in-zoom-out 3s ease-out infinite;
 }
-.brandposition_center_diamond>img:hover{
+/* .brandposition_center_diamond>img:hover{
   transform: scale(1.04);
   transition: all 2s;
+} */
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.03, 1.03);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 .brandposition_bottom_rect {
   bottom: -30px;

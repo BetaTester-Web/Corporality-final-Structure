@@ -24,7 +24,7 @@ const ConForm = () => {
                 <div className=" ">
 
                     <div className="d-lg-flex align-items-center  ">
-                        <div className="conform-info-box m-5">
+                        <div className="conform-info-box conmap-detail-head m-5">
                             <h2 className="conform-info-heading">LET’S TALK</h2>
                             <p className="conform-info-para">Our customer experience experts are always ready to provide you with all the answers. <br /> Call us now!</p>
                             <div data-aos="fade-right">
@@ -53,29 +53,29 @@ const ConForm = () => {
                         </div>
                          <div data-aos="fade-left">
                             <div className="fluid mx-md-5 px-md-4">
-                                <div className="conform-contactForm  p-5 m-4">
-                                    <p className="conform-contactHeading text-uppercase fw-bold my-5 fs-4">Contact us</p>
+                                <div className="conform-contactForm  p-sm-5 m-sm-4">
+                                    <p className="conform-contactHeading text-uppercase fw-bold m-3  fs-4">Contact us</p>
                                 
                                     <div className="row">
-                                        <div className="col mx-md-3" >
-                                            <input type="text" name="fname" placeholder="First Name" className="philosophy-input" id="input" />
+                                        <div className="col mx-sm-3 con-contct-adh" >
+                                            <input type="text" name="fname" placeholder="First Name" className="form-control philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">First Name</label>
                                         </div>
                                     
-                                        <div className="col mx-md-3">
-                                            <input type="text" name="fname" placeholder="Last Name" className="philosophy-input" id="input" />
+                                        <div className="col mx-sm-3 con-contct-aaa">
+                                            <input type="text" name="fname" placeholder="Last Name" className="form-control philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">Last Name</label>
                                         </div>
                                     </div>
                                     
                                     
                                     <div className="row my-3">
-                                        <div className="col mx-md-3">
-                                            <input type="text" name="fname" placeholder="Email" className="philosophy-input" id="input" />
+                                        <div className="col mx-sm-3 con-contct-adh">
+                                            <input type="text" name="fname" placeholder="Email" className="philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">Email</label>
                                         </div>
-                                        <div className="col mx-md-3">
-                                            <input type="text" name="fname" placeholder="Mobile" className="philosophy-input" id="input" />
+                                        <div className="col mx-sm-3 con-contct-aaa">
+                                            <input type="text" name="fname" placeholder="Mobile" className="philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">Mobile</label>
                                         </div>
                                     </div>
@@ -93,7 +93,7 @@ const ConForm = () => {
                                     </div>
                                     
                                     
-                                    <button type="button" className="btn footer-button">
+                                    <button type="button" className="btn footer-button m-3">
                                     <a href="mailto:someone@example.com">
 
                                         <div className="footer-button-text">

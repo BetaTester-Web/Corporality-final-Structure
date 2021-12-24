@@ -13,19 +13,22 @@ import yellow_backStrategy from "./images/firstYellow.png";
 import "../Components/SACComp1.css";
 
 const SACComp1 = () => {
-  useEffect(() => {
-    aos.init({ duration: 3000});
-  }, []);
-  return (
-    <div className="SACC1_prev-1-Ib">
+    useEffect(() => {
+        aos.init({ duration: 3000 });
+    }, []);
+    return (
+        <div className="SACC1_prev-1-Ib">
             <div className="SACC1_navbar"></div>
             <div className="container container-1">
-            <div className="SACC1_yellowbackground_Blueprint">
-                <img src = {yellow_backStrategy} alt='' />
-            </div>
+                <div className="SACC1_yellowbackground_Blueprint">
+                    <img src={yellow_backStrategy} alt='' />
+                </div>
                 <div className="row first-image">
                     <div className="col-lg-6">
-                        <div data-aos="fade-right" className="SACC1_text-box-1">
+                        <div data-aos="fade-right"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-offset="0" className="SACC1_text-box-1">
 
                             <p className='SACC1_container-1_text'>STRATEGY AND CONSULTING</p>
                             <p className='SACC1_container-2_text'>We truly believe in putting customers first.</p>
@@ -33,8 +36,11 @@ const SACComp1 = () => {
                         </div>
                     </div>
                     <div className="col-lg-6  d-flex justify-content-center text-center flex-column ">
-                        <div data-aos="fade-left" className="SACC1_image-first">
-                           <img alt='' className='SACC1_rect' src={rectStrategy} />
+                        <div data-aos="fade-left"
+                            data-aos-duration="2000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-offset="0" className="SACC1_image-first">
+                            <img alt='' className='SACC1_rect' src={rectStrategy} />
                             <img alt='' className='SACC1_wall' src={wallStrategy} />
                             <img alt='' className='SACC1_smallrect' src={smallrectStrategy} />
                             <img alt='' className='SACC1_backimg' src={backimgStrategy} />
@@ -53,7 +59,7 @@ const SACComp1 = () => {
         </div>
 
 
-  );
+    );
 };
 
 export default SACComp1;

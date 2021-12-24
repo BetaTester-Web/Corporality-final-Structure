@@ -1,69 +1,103 @@
+.container-1-PPone{
+  display: flex  ;
+  align-items: center  ;
 
-.ppc1ColWrapper {
+}
+.text-box-1-PPone{
+  position: relative  ;
+  display: flex  ;
+  flex-direction: column  ;
+  justify-content: center  ;
+  padding-top: 150px  ;
+  left: 14%  ;
+  margin-right: 130px  ;
+
+}
+.yellow_Org{
+  position: absolute  ;
+  left:60%  ;
+}
+.OrganisingPrinciple-PPone{
+  margin-bottom: -250px;
+}
+
+.container-1_text-PPone{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+  font-weight: bold  ;
+  font-size: 32px  ;
+  line-height: 42px  ;
+/* identical to box height, or 125% */
+
+  text-transform: uppercase  ;
+
+  color: #33657E  ;
+} 
+
+.container-2_text-PPone{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+  font-weight: normal  ;
+  font-size: 16px  ;
+  line-height: 26px  ;
+  /* identical to box height, or 150% */
+  width: 110% !important;
+  
+  color: #232323  ;
+/*     margin-right: 300px  ; */
+
+}
+.container-3_text-PPone{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  ;
+  font-weight: normal  ;
+  font-size: 16px  ;
+  line-height: 26px  ;
+  /* or 150% */
+
+
+  color: #232323  ;
+}
+.wall-PPone{
+  position: absolute  ;
+  top: 35%  ;
+  left: 12%  ;
+}
+.smallrect-PPone{
+  position: absolute  ;
+  top: 50%  ;
+  left: 43%  ;
+}
+.image-first-PPone{
+  margin-left: 80px  ;
   position: relative;
+  left: -10%;
 }
-.ppcText {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 150%;
-  color: #232323;
-  width: 80%;
-}
-.pp_toprect {
+
+
+.yellowbackground_Op {
   position: absolute;
+  right: 0;
   top: 100px;
-  left: 500px;
-}
-.ppc1Rec9 {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  left: 100%;
-  top: -35px;
-  transform: translateX(-518%) rotate(-25deg) !important;
 }
 
-
-.qwerty{
-    transform: translate(-2500%, 0%);
+.navbar-PPone{
+  margin-bottom: 100px  ;
+}
+.image-first-PPone{
+  position: relative  ;
+}
+.rect-PPone{
+  position: absolute  ;
+  top: 50px  ;
+  left: -50px  ;
+}
+.backimg-PPone{
+  position: relative  ;
+  left: 20%  ;
+  
 }
 
-
-
-/* .ppcHeading{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 40px;
-    
-
-    text-transform: uppercase;
-
-    color: #33657E;
-} */
-/* .ppc1Button{
-    width: 149px;
-    height: 42px;
-    background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4;
-    display: flex;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-} */
-
-.ppcHeading {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 32px;
-  line-height: 40px;
-  text-transform: uppercase;
-  color: #33657e;
-
-}
 .ppc1Button {
   width: 149px;
   height: 42px;
@@ -79,240 +113,265 @@
   color: white;
   background: linear-gradient(95.12deg, #6ca0bc 0%, #e5cd60 83.42%);
 }
-.ppc1Rec6 {
-  position: relative;
-  width: 500px;
-  height: 502.19px;
-  right: 0px;
-  top: 0px;
-}
-.ppc1MainImg {
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  transform: translate(-140%, -50%) rotate(45deg) !important;
-  margin: 0;
-  overflow: hidden;
-  width: 353px;
-  height: 355px;
+
+ .smaller-rect-prev-1-PPone{
+     position: absolute  ;
+     left: 74%  ;
+     top: 92%  ;
+ }
+
+ .first-image-PPone{
+     position: relative  ;
+      left: -5%  ;
+      
+ }
+
+.banner_right_inner-PPone{
+  position: relative  ;
+  width: 350px  ;
+  height: 350.8px  ;
+  top: -50%  ;
+  left: 30%  ;
+  transform: rotate(45deg)  ;
+  overflow: hidden  ;
+ 
+ }
+ .banner_right_inner-PPone .main-prev1-PPone{
+  width: 510px  ;
+  height: 512.19px  ;
+  margin-top: -80px  ;
+  margin-left: -80px  ;
+  transform: rotate(-45deg)  ;
+  transition: all 0.8s ease  ;
+  /* z-index: 100  ; */
+ }
+ .banner_right_inner-PPone:hover .main-prev1-PPone {
+  transform: scale(1.03) rotate(-45deg)  ;
+ }
+ @media (max-width:1539px){
+   .blue_print_overlay{
+       display: none  ;
+   }
 }
 
-.ppc1MainImg {
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  transform: translate(-140%, -50%) rotate(45deg) !important;
-  margin: 0;
-  overflow: hidden;
-  width: 353px;
-  height: 355px;
-  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
-}
-.ppc1Img1 {
-  max-width: 100%;
-  transition: all 0.3s;
-  display: block;
-  width: 100%;
-  height: auto;
-  transform: scale(1);
-}
-.ppc1Img1:hover {
-  transform: scale(1.1);
-}
-.ppc1ImageWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-.ppc1Wall {
-  position: absolute;
-  top: 50%;
-  left: 100%;
-  transform: translate(-534%, 36%);
-  z-index: -1;
-}
-.ppc1Rec8 {
-  position: absolute;
-  width: 45px;
-  top: 50%;
-  left: 100%;
-  z-index: -1;
-  transform: translate(-914%, 384%);
-}
-@media only screen and (max-width: 1024px) {
-  .ppcText {
-    text-align: justify;
-    width: 90%;
+@media(max-width:1500px){
+  .yellow_Org{
+      display: none  ;
   }
 }
-@media only screen and (max-width: 768px) {
-  .pp_toprect {
-    position: absolute;
-    top: 100px;
-    left: 200px;
+
+@media (max-width:1400px){
+  .text-box-1-PPone{
+      left: 10%;
   }
-  .ppc1RowContainer {
-    height: fit-content;
-    display: flex !important;
-    flex-direction: column-reverse !important;
+  .smallrect-PPone{
+      left: 49%;
   }
-  .ppc1ColWrapper {
-    padding: 0 !important;
-    margin-right: 100% !important;
+}
+
+@media (max-width:1300px){
+  .image-first-PPone{
+      position: relative  ;
+      left: -100px  ;
   }
-  .ppc1ImageWrapper {
-    margin-bottom: 20px;
-    align-items: center;
+  .text-box-1-PPone{
+      left: 15%;
   }
-  .ppc1ColTextWrapper {
-    display: flex !important;
-    align-items: center;
-    justify-content: center;
+}
+
+@media(max-width:1200px){
+  .image-first-PPone{
+      left: -30%  ;
   }
-  .ppcText {
-    text-align: justify !important;
-    font-size: 14px;
-    width: 75%;
-    margin-bottom: 3%;
+}
+
+@media (max-width:1144px){
+
+}
+@media (max-width:991.84168px){
+  .banner_right_inner-PPone{
+      position: relative  ;
+      width: 330px  ;
+      height: 332.8px  ;
+      bottom: 410px  ;
+      left: 35%  ;
   }
-  .ppcHeading {
-    text-align: center !important;
-    font-size: 14px;
-    line-height: normal;
+  .OrganisingPrinciple-PPone{
+      margin-bottom: -5px;
   }
-  .ppc1MainImg {
-    width: 176.5px;
-    height: 177.5px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-64%, -38%) rotate(45deg) !important;
+  
+  .backimg-PPone{
+      width: 480px  ;
+      height: 482.8px  ;
+      left: 20%  ;
+      top: 2%  ;
   }
-  .ppc1Rec6 {
-    position: relative;
-    width: 250px;
-    height: 251.095px;
-    right: 0px;
-    top: 0px;
+  .image-first-PPone{
+      left: -10%  ;
   }
-  .ppc1Wall {
-    position: absolute;
-    top: 188px;
-    left: 50%;
-    transform: translateX(-295%);
-    z-index: -1;
-    width: 57px;
-    height: 54px;
+  .first-image-PPone{
+      flex-direction: column-reverse  ;
   }
-  .ppc1ImageWrapper {
-    padding-top: 40px;
+  .text-box-1-PPone{
+      padding-top: 0px  ;
+      bottom: 200px  ;
+      left: 5%  ;
   }
-  .ppc1Rec8 {
-    position: absolute;
-    width: 22.5px;
-    top: 250px;
-    left: 50%;
-    transform: translateX(-335%);
-    z-index: -1;
+  .wall-PPone{
+      left: 20%  ;
   }
-  .ppc1Rec9 {
-    display: none;
+  .rect-PPone{
+      left: 20%  ;
   }
-  .ppc1Button {
-    margin-bottom: 20px;
+  .container-1_text-PPone{
+      font-size: 16px  ;
+      line-height: 20px  ;
   }
-  @media only screen and (max-width: 426px) {
-    .ppcText {
-      text-align: center !important;
-      font-size: 15px;
-      width: 100% !important;
-      margin-bottom: 3%;
-      line-height: 120%;
-      margin-left: 6%;
-    }
+  .container-2_text-PPone{
+      font-size: 14px  ;
   }
-  @media (min-width: 358px) and (max-width: 377px) {
-    .ppc4Partners {
-      align-items: center;
-    }
-    .ppc4PartnerItem3 {
-      margin-right: 0%;
-    }
-    .ppc4PartnerItem4 {
-      margin-left: auto;
-      margin-right: 35%;
-    }
-    .ppc4PartnerItem5 {
-      margin-left: auto;
-      margin-right: auto;
-    }
-    @media (min-width: 355px) and (max-width: 358px) {
-      .ppc4Partners {
-        align-items: center;
-      }
-    }
-    @media (min-width: 769px) and (max-width: 1199.98px) {
-      .qmqmqmqmqmqmqmqmqmqmq{
-        padding: 0%;
-        margin: 0%;
-      }
-      .ppc1RowContainer {
-        height: calc(100vh - 80px);
-        margin: 80px 20px 0 20px !important;
-      }
-      .ppc1MainImg {
-        width: 176.5px;
-        height: 177.5px;
-      }
-      .ppc1Rec6 {
-        width: 250px;
-        height: 251.095px;
-      }
-      .ppc1Wall {
-        width: 57px;
-        height: 54px;
-      }
-      .ppc1Rec8 {
-        width: 22.5px;
-      }
-    }
+
+}
+@media (max-width:767.85126px){
+  .banner_right_inner-PPone{
+      width: 330px  ;
+      height: 332.8px  ;
+      left: 15%  ;
+  }
+  .backimg-PPone{
+      width: 480px  ;
+      height: 482.8px  ;
+      left: 5%  ;
+      top: -5px  ;
+  }
+  .image-first-PPone{
+      left: -10%  ;
+  }
+  .wall-PPone{
+      position: absolute  ;
+      top: 35%  ;
+      left: 0%  ;
+  }
+  .smallrect-PPone{
+      position: absolute  ;
+      top: 50%  ;
+      left: 27%  ;
+  }
+  .text-box-1-PPone{
+      margin-right: 10px  ;
+  }
+  .container-1_text-PPone{
+      font-size: 12px  ;
+      line-height: 20px  ;
+  }
+  .container-2_text-PPone{
+      font-size: 10px  ;
+      margin-right: 30px;
+      line-height: 16px;
+  }
+}
+
+@media (max-width:654px){
+  .banner_right_inner-PPone{
+      width: 220px  ;
+      height: 222.8px  ;
+      left: 20%  ;
+      bottom: 270px  ;
+  }
+  .main-prev1-PPone{
+      width: 430px !important  ;
+      height: 432.19px !important  ;
+  }
+  .backimg-PPone{
+      width: 320px  ;
+      height: 322.8px  ;
+      left: 2%  ;
+      top: 2%  ;
+  }
+  .image-first-PPone{
+      left: 0%  ;
+  }
+  .wall-PPone{
+      position: absolute  ;
+      top: 35%  ;
+      left: 7%  ;
+      width: 20%  ;
+  }
+  .smallrect-PPone{
+      position: absolute  ;
+      top: 50%  ;
+      left: 30%  ;
+      width: 9%  ;
+  }
+  .container-2_text-PPone{
+      font-size: 10px  ;
+      margin-right: 60px;
   }
 }
 
 
-@media only screen and (max-width:512px){
-    .ppc1ColWrapper {
-        margin-left: -17% !important;
-    }
+@media(max-width:576px){
+  .text-box-1-PPone{
+      margin-left: 10px;
+      padding-right: 30px !important;
+  }
+ 
+  .OrganisingPrinciple-PPone{
+      margin-bottom: -150px !important;
+  }
+  
 }
 
-@media (min-width: 769px) and (max-width: 1199.98px){
-    .ppc1RowContainer{
-        height: calc(100vh - 80px);   
-        margin: 80px 20px 0 20px !important; 
-        /* margin-bottom: 50px !important; */
-    }
-    /* .ppc1Img1 {
-        position: absolute;
-        width: 250px;
-        height: 251.095px;
-        left: 100%;
-        top: 50%;
-        transform: translate(-115%, -50%) !important;
-    } */
-    .ppc1MainImg{
-        width: 176.5px;
-        height: 177.5px;
-    }
-    .ppc1Rec6{
-        width: 250px;
-        height: 251.095px;
-    }
-    .ppc1Wall {
-        width: 57px;
-        height: 54px;
-    }
+@media (max-width:448px){
+  .banner_right_inner-PPone{
+      left: 10%  ;
+  }
+  .backimg-PPone{
+      left: 0%  ;
+  }
+  .wall-PPone{
+      left: -5%;
+  }
+  .smallrect-PPone{
 
-    .ppc1Rec8 {
-        width: 22.5px;
-    }
+      left: 26%;
+  }
+  .rect-PPone{
+      left: -10%;
+  }
+}
+@media (max-width:428px) {
+
+  .text-box-1-PPone{
+      margin-right: 50px  ;
+  }
+}
+@media(max-width:390px){
+  .image-first-PPone{
+    margin-right: 20px;
+  }
+  .text-box-1-PPone{
+    margin-right: 50px  ;
+    padding-left: 30px;
+}
+}
+
+@media (max-width:380px) {
+  .text-box-1-PPone{
+      margin-right: 50px  ;
+      padding-left: 30px;
+  }
+}
+
+@media(max-width:386px){
+  .rect-PPone{
+    left: -5%;
+  }
+}
+
+@media(max-width:600px){
+  .container-2_text-PPone{
+      font-size: 10px  ;
+      padding-right: 60px;
+  }
 }

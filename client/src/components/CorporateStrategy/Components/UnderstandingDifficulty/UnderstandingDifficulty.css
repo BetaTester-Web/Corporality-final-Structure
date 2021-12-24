@@ -150,6 +150,12 @@
   .understanding_difficulty_last_text {
     margin-top: 420px !important;
   }
+  .understanding_difficulty_first_text_description,
+  .understanding_difficulty_last_text_description,
+  .understanding_difficulty_last_text_heading {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 767px) {
@@ -159,13 +165,6 @@
 
   .Background_in_Strategy img {
     margin-left: 20px !important;
-  }
-
-  .understanding_difficulty_first_text_description,
-  .understanding_difficulty_last_text_description,
-  .understanding_difficulty_last_text_heading {
-    margin-right: 0 !important;
-    margin-left: 0 !important;
   }
 
   .understanding_difficulty_last_text {

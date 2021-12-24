@@ -14,8 +14,8 @@ export default function PPComp4() {
         AOS.refresh();
     }, []);
     return (
-        <div className="ppc4Container">
-            <p data-aos="fade-down" data-aos-duration="1000" className="ppcHeading">STRATEGIC PARTNERSHIP</p><br />
+        <div className="ppc4Container conmap-detail-head">
+            <h2 data-aos="fade-down" data-aos-duration="1000" className="ppcHeading">STRATEGIC PARTNERSHIP</h2><br />
             <p data-aos="fade-down" data-aos-delay="300" data-aos-duration="1000" className="ppc4Para">Overcome your business fears and widen your resources and expertise, with our strategic partnership programmes. There are several stories and experiences that we share with our partners as well.</p><br />
             <div className="ppc4Partners">
                 <img data-aos="flip-left" data-aos-duration="1000" className="ppc4PartnerItem1" src={partner1} alt="" />
