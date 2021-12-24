@@ -167,9 +167,19 @@
   }
 }
 
+@media only screen and (max-width: 750px) {
+  .consultancysocialmedia{
+    padding: 10% 50% !important;
+    
+    
+  }
+  .consultancysocialmedia > img{
+    /* margin: 4%; */
+  }
+}
 @media only screen and (max-width: 450px) {
   .consultancysocialmedia {
-    transform: translate(-1%, -350%);
+    transform: translate(3%, -670%);
     }
 
   .consult-pg1-con > p{
