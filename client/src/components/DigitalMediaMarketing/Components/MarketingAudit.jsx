@@ -48,27 +48,27 @@ const MarketingAudit = () => {
                     </div>
                         </div>
 
-            <div data-aos="fade-up" data-aos-delay="200">
+            <div className="dmm_points" data-aos="fade-up" data-aos-delay="200">
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
                         Streamline your traditional and digital marketing management processes
                     </p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="400">
+            <div className="dmm_points" data-aos="fade-up" data-aos-delay="400">
 
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
                         Address inefficiencies while augmenting efficacy 
                     </p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="600">
+            <div className="dmm_points" data-aos="fade-up" data-aos-delay="600">
 
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
                         Cut down on unnecessary costs
                     </p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="800">
+            <div className="dmm_points" data-aos="fade-up" data-aos-delay="800">
 
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
@@ -77,7 +77,7 @@ const MarketingAudit = () => {
             </div>
                     </div>
             
-            <div data-aos="fade-left" data-aos-delay="900">
+            <div className="dmm_points" data-aos="fade-left" data-aos-delay="900">
 
 
                     <p>

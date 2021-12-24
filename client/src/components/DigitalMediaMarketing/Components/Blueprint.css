@@ -143,3 +143,15 @@
   transform: translate(5.2rem, -26.7rem);
   /* transform: translate(-45.5rem,1.7rem); */
 }
+
+@media only screen and (max-width: 576px) {
+  .DMMBlueprintText > h1{
+      font-size: 14px !important;
+      line-height: 18px !important;
+  }
+  
+  .DMMBlueprintText > p{
+      font-size: 10px !important;
+      line-height: 18px !important;
+  }
+}

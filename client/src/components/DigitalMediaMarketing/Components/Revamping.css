@@ -166,5 +166,18 @@ top: 2288px; */
     width: 90% !important;
   }
 
+  .DDMRevampingText > h1 {
+    font-size: 14px;
+  }
+
+  .DDMRevampingText > p {
+    font-size: 10px;
+  }
+
+  .DDMRevampingTalkingButton > button{
+    font-size: 10px;
+    width: 30% !important;
+    line-height: 20px !important;
+  }
   
 }

@@ -27,41 +27,41 @@ const KeyObject = () => {
                     <div data-aos="fade-up">
 
 
-            <div data-aos="fade-up" data-aos-delay="200">
+            <div  className="dmm_points" data-aos="fade-up" data-aos-delay="200">
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
                         Augmenting company visibility
                     </p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="400">
+            <div  className="dmm_points" data-aos="fade-up" data-aos-delay="400">
 
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
                         Increasing the size of the audience with corporate or business level strategy
                     </p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="600">
+            <div className="dmm_points"  data-aos="fade-up" data-aos-delay="600">
 
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
                         Differentiating you from competition
                     </p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="800">
+            <div  className="dmm_points" data-aos="fade-up" data-aos-delay="800">
 
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
                         Market share increase and maintenance
                     </p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="1000">
+            <div  className="dmm_points" data-aos="fade-up" data-aos-delay="1000">
 
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
                         Generating qualified leads with effective lead generation strategy
                     </p>
             </div>
-            <div data-aos="fade-up" data-aos-delay="1200">
+            <div  className="dmm_points" data-aos="fade-up" data-aos-delay="1200">
 
                     <p>
                         <img src="./img/DigitalMediaMarketing/ddmdiamo.png" alt="" className=" mx-2" />
@@ -70,7 +70,7 @@ const KeyObject = () => {
             </div>
                     </div>
             
-            <div data-aos="fade-right" data-aos-delay="1300">
+            <div className="dmm_points"data-aos="fade-right" data-aos-delay="1300">
 
 
                     <p>
