@@ -98,23 +98,25 @@
 
 @media only screen and (max-width: 576px) {
     .DDMBannerText > h1 {
-        font-size: 24px !important;
+        font-size: 14px !important;
         line-height: 30px;
     }
 
     .DDMBannerText > P {
-        font-size: 14px !important;
+        font-size: 10px !important;
     }
 
     .DDMBanner .DDMBannerSocialIcons{
         margin-left: 20px;
-        bottom: -85%;
+        bottom: -125%;
         left: -10%;
         display: flex;
-        flex-direction: row;
+        /* flex-direction: row; */
     }
 
     .DDMBanner .DDMBannerSocialIcons > a {
+        padding-top: 80% !important;
         padding-left: 20% !important;
+        z-index: 2;
     }
 }

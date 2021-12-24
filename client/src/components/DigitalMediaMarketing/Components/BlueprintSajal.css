@@ -42,7 +42,12 @@
 }
 @media only screen and (max-width: 576px) {
     .DMMBlueprintText > h1{
-        font-size: 24px !important;
+        font-size: 14px !important;
+        line-height: 18px !important;
+    }
+    
+    .DMMBlueprintText > p{
+        font-size: 10px !important;
         line-height: 18px !important;
     }
 }
