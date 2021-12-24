@@ -53,17 +53,17 @@ const ConForm = () => {
                         </div>
                          <div data-aos="fade-left">
                             <div className="fluid mx-md-5 px-md-4">
-                                <div className="conform-contactForm  p-5 m-4">
+                                <div className="conform-contactForm  p-sm-5 m-sm-4">
                                     <p className="conform-contactHeading text-uppercase fw-bold m-3  fs-4">Contact us</p>
                                 
                                     <div className="row">
                                         <div className="col mx-sm-3 con-contct-adh" >
-                                            <input type="text" name="fname" placeholder="First Name" className="philosophy-input" id="input" />
+                                            <input type="text" name="fname" placeholder="First Name" className="form-control philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">First Name</label>
                                         </div>
                                     
                                         <div className="col mx-sm-3 con-contct-aaa">
-                                            <input type="text" name="fname" placeholder="Last Name" className="philosophy-input" id="input" />
+                                            <input type="text" name="fname" placeholder="Last Name" className="form-control philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">Last Name</label>
                                         </div>
                                     </div>
@@ -71,11 +71,11 @@ const ConForm = () => {
                                     
                                     <div className="row my-3">
                                         <div className="col mx-sm-3 con-contct-adh">
-                                            <input type="text" name="fname" placeholder="Email" className="philosophy-input" id="input" />
+                                            <input type="text" name="fname" placeholder="Email" className="philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">Email</label>
                                         </div>
                                         <div className="col mx-sm-3 con-contct-aaa">
-                                            <input type="text" name="fname" placeholder="Mobile" className="philosophy-input" id="input" />
+                                            <input type="text" name="fname" placeholder="Mobile" className="philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">Mobile</label>
                                         </div>
                                     </div>
