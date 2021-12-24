@@ -20,7 +20,7 @@ const Page2 = () => {
 
                         <div>
 
-                            <img className="mx-md-5 iluilukyah" src="./img/StrategyConsultancy/page-2.png" alt="" />
+                            <img className="mx-md-5 iluilukyahh" src="./img/StrategyConsultancy/page-2.png" alt="" />
                         </div>
                     </div>
 

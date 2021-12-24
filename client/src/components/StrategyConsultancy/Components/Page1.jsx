@@ -58,13 +58,34 @@ const Page1 = () => {
                     <div className="consultgrad-1">
                         <img src="./img/StrategyConsultancy/rectcolor.png" alt="" className="" />
                     </div>
-                <div class="d-flex align-items-end flex-column consultancysocialmedia">
+                <div class="d-flex align-items-end flex-md-column consultancysocialmedia">
+                    <a href="https://www.facebook.com/CorporalityG">
+
                     <img src="./img/StrategyConsultancy/facebook.png" className=" py-1" alt="" />
+                    </a>
+                    <a href="https://twitter.com/corporalityg">
+
                     <img src="./img/StrategyConsultancy/twitter.png" className=" py-1" alt="" />
+                    </a>
+                    <a href="https://www.instagram.com/corporalityg/">
+
                     <img src="./img/StrategyConsultancy/insta.png" className=" py-1" alt="" />
+                    </a>
+
+                    <a href="https://www.linkedin.com/company/corporality/">
+
                     <img src="./img/StrategyConsultancy/linkedIN.png" className=" py-1" alt="" />
+                    </a>
+
+                    <a href="https://in.pinterest.com/CorporalityG/">
+                        
                     <img src="./img/StrategyConsultancy/pinterset.png" className=" py-1" alt="" />
+                    </a>
+
+                    <a href="https://www.youtube.com/channel/UC4EISt8kHI4zzpmbIBMIBbg">
+
                     <img src="./img/StrategyConsultancy/youtube.png" className=" py-1" alt="" />
+                    </a>
                 </div>
                 </div>
             </div>
