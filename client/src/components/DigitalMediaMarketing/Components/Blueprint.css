@@ -1,3 +1,26 @@
+@media only screen and (max-width: 992px) {
+  .DDMBlueprintText > h1{
+    font-size: 16px!important;
+    line-height: 24px!important;
+  }
+
+  .DDMBlueprintText > p{
+    font-size: 12px!important;
+    line-height: 20px!important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .DDMBlueprintText > h1{
+    font-size: 14px!important;
+    line-height: 20px!important;
+  }
+
+  .DDMBlueprintText > p{
+    font-size: 10px!important;
+    line-height: 16px!important;
+  }
+}
+
 .DDMBlueprintText {
   flex-direction: column;
   justify-content: center;
