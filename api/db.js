@@ -2,11 +2,11 @@ const mysql = require('mysql2');
 require('dotenv').config();
 console.log(process.env.MYSQLDATABASE, process.env.MYSQLPASSWORD, process.env.MYSQLUSER, process.env.MYSQLPORT, process.env.MYSQLHOST)
 const con = mysql.createConnection({
-    host: process.env.MYSQLHOST,
-    user: process.env.MYSQLUSER,
-    port: process.env.MYSQLPORT,
-    password: process.env.MYSQLPASSWORD,
-    database: process.env.MYSQLDATABASE,
+    // host: process.env.MYSQLHOST,
+    user: "root",
+    // port: process.env.MYSQLPORT,
+    password: "password",
+    database: "reactBlog",
   });
   
   con.connect((err) => {
@@ -26,16 +26,16 @@ const con = mysql.createConnection({
         clearInterval(inter)
       }
     }, 1000);
-  //   const userTable = "CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(20) NOT NULL, email VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP);";
-  //   const articleTable = "CREATE TABLE articles (id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL UNIQUE, description TEXT NOT NULL, photo VARCHAR(255) NOT NULL, likes INT DEFAULT 0, username VARCHAR(20) NOT NULL, slug VARCHAR(255) NOT NULL, date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP);"
-  //   // con.query(userTable, function (err, result) {
-  //   //   if (err) throw err;
-  //   //   console.log("User table created");
-  //   // });
-  //   con.query(articleTable, function (err, result) {
-  //     if (err) console.log(err);
-  //     else console.log("Article table created");
-  //   });
+    // const userTable = "CREATE TABLE users (id INT AUTO_INCREMENT PRIMARY KEY, username VARCHAR(20) NOT NULL, email VARCHAR(255) NOT NULL, password VARCHAR(255) NOT NULL, `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP);";
+    // const articleTable = "CREATE TABLE articles (id INT AUTO_INCREMENT PRIMARY KEY, title VARCHAR(255) NOT NULL UNIQUE, description TEXT NOT NULL, photo VARCHAR(255) NOT NULL, likes INT DEFAULT 0, username VARCHAR(20) NOT NULL, slug VARCHAR(255) NOT NULL, date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP);"
+    // con.query(userTable, function (err, result) {
+    //   if (err) throw err;
+    //   console.log("User table created");
+    // });
+    // con.query(articleTable, function (err, result) {
+    //   if (err) console.log(err);
+    //   else console.log("Article table created");
+    // });
   });
 
   module.exports = con;
