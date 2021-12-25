@@ -2,11 +2,11 @@ const mysql = require('mysql2');
 require('dotenv').config();
 console.log(process.env.MYSQLDATABASE, process.env.MYSQLPASSWORD, process.env.MYSQLUSER, process.env.MYSQLPORT, process.env.MYSQLHOST)
 const con = mysql.createConnection({
-    // host: process.env.MYSQLHOST,
-    user: "root",
-    // port: process.env.MYSQLPORT,
-    password: "password",
-    database: "reactBlog",
+    host: process.env.MYSQLHOST,
+    user: process.env.MYSQLUSER,
+    port: process.env.MYSQLPORT,
+    password: process.env.MYSQLPASSWORD,
+    database: process.env.MYSQLDATABASE,
   });
   
   con.connect((err) => {
