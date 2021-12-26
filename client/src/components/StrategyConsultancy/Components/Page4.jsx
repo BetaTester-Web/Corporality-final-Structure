@@ -29,7 +29,7 @@ const Page4 = () => {
 
                 <div className="Consultancypage-4-cont conmap-detail-head">
                     <h2 className="head sconculttttttttt">Go to Marketing Strategy</h2>
-                    <p className="sconculttttttttt">Corporality Global offers Go To Marketing strategies that set you in the right direction. While choosing the market differentiators, we help you draw insights from your customers and your competitors to plan your strategy and tactics that will set you up for success</p>
+                    <p className="sconculttttttttt qwewqwewqwewqwe">Corporality Global offers Go To Marketing strategies that set you in the right direction. While choosing the market differentiators, we help you draw insights from your customers and your competitors to plan your strategy and tactics that will set you up for success</p>
 
                     <div className="main-div sconculttttttttt">
                         <img className="" src="./img/StrategyConsultancy/explore.png" alt="" />
@@ -37,7 +37,7 @@ const Page4 = () => {
                         <span className="explore-btn">Explore</span>
                     </div>
                     <h2 className="head head2 sconculttttttttt">Customer Experience</h2>
-                    <p className='sconculttttttttt '>Even the slightest friction can affect customer experiences. CXO initiatives are the best way to regulate and monitor customer satisfaction. Corporality Global takes CXO a notch higher, offering strategies that directly impact consumer gratification and revenue growth.</p>
+                    <p className='sconculttttttttt qwewqwewqwewqwe'>Even the slightest friction can affect customer experiences. CXO initiatives are the best way to regulate and monitor customer satisfaction. Corporality Global takes CXO a notch higher, offering strategies that directly impact consumer gratification and revenue growth.</p>
 
                     <div className="main-div sconculttttttttt">
                         <img className="" src="./img/StrategyConsultancy/explore.png" alt="" />
