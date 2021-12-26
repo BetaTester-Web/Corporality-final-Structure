@@ -24,6 +24,7 @@
   font-size: 14px;
   line-height: 25px;
   /* or 179% */
+  margin-right: 50px;
 
   color: #757575;
 }
@@ -31,6 +32,7 @@
 .bookcal-Image{
   /* width: 100%; */
 }
+
 
 .conmap-detail-head > button{
   margin: 2% !important;

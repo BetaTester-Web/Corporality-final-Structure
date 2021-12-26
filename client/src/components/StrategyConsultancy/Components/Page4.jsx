@@ -1,4 +1,5 @@
-
+import frontarrow_1 from "./Vector-1.png"
+import frontarrow_2 from "./vector-2.png"
 import './Page4.css'
 import React, { useEffect } from 'react';
 import Aos from 'aos';
@@ -32,7 +33,7 @@ const Page4 = () => {
 
                     <div className="main-div sconculttttttttt">
                         <img className="" src="./img/StrategyConsultancy/explore.png" alt="" />
-                        <img className=" front_arrow" src="./img/StrategyConsultancy/vector.png" alt="" />
+                        <img className=" front_arrow" src={frontarrow_1} alt="" />
                         <span className="explore-btn">Explore</span>
                     </div>
                     <h2 className="head head2 sconculttttttttt">Customer Experience</h2>
@@ -40,7 +41,7 @@ const Page4 = () => {
 
                     <div className="main-div sconculttttttttt">
                         <img className="" src="./img/StrategyConsultancy/explore.png" alt="" />
-                        <img className=" front_arrow" src="./img/StrategyConsultancy/vector.png" alt="" />
+                        <img className=" front_arrow" src={frontarrow_2} alt="" />
                         <span className="explore-btn">Explore</span>
                     </div>
                 </div>
