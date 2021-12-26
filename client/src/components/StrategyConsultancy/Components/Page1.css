@@ -199,3 +199,13 @@
     width: 100%;
   }
 }
+
+@media only screen and (max-width: 1200px){
+.consult-page1-img {
+    width: 100%;
+  }
+  .consultancysocialmedia {
+    transform: translate(0%, -700%);
+}
+}
+
