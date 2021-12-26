@@ -1,62 +1,71 @@
-.ppc2RowContainer{
-    /* height: calc(100vh - 80px); 
-    margin: 0 74px 0 74px !important; */
-    width: 100%;
-    margin: 170px 0px;
-    /* justify-content: space-between; */
-}
+.Conversations-Sg {
+    /*  padding-top: 100px; */
+    margin-bottom: 200px;
 
-.Inc_Div_our-faith-main-img-Digital .iiiiimmmmggg{
-    width: 133%;
-    transform: rotate(90deg) !important;
-    height: 133%;
+    position: relative !important;
+  }
+  .conv-sg-pp{
+      position: relative;
+  }
+  
+  .hoverinit-Conversations .main2-Conversations {
+    position: relative;
+    transform: scale(1);
+    transition: all 0.6s linear;
+  }
+  .main2-Conversations {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hoverinit-Conversations {
+    position: relative;
+    z-index: 10;
+  }
+  
+  .Inc_Div_our-faith-main-img-Conversations {
+    position: relative;
+    z-index: 10;
+    width: 298.04px;
+    height: 300px;
+    left: 0px;
+    top: 50px;
+    overflow: hidden;
+    transform: rotate(-45deg) !important;
+  }
+  
+  .Inc_Div_our-faith-main-img-Conversations .main2-Conversations {
+    transform: rotate(45deg) !important;
+    width: 143%;
+    height: 143%;
     margin-top: -21.5%;
     margin-left: -21.5%;
     transition: all 0.6s linear;
-}
-
-.ppc2ColContainer{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.ppc2Img2back {
+  }
+  .hoverinit-Conversations:hover .main2-Conversations {
+    transform: scale(1.03) rotate(45deg) !important;
+  }
+  .images-2-Conversations {
+    position: relative;
+    left: -10%;
+  }
+  .wall2-container-Conversations {
     position: absolute;
-    top: 50%;
-    left: 0%;
-    width: 232px;
-    height: 356px;
-    transform: translate(10%, 150%);
-}
-/* .ppc2Img2 {
-    position: relative;
-    width: 448.04px;
-    height: 450px;
-    left: 0%;
-    transform: translateX(15%) !important;
-} */
-.ppc2MainImg{
-    position: relative;
-    width: 320px;
-    height: 320px;
-    left: 0%;
-    transform: translateX(40%) rotate(45deg) !important;
-    margin: 0;
-    overflow: hidden;
-}
-.ppc2Img2 {
-    max-width: 100%;
-    transition: all 0.3s;
-    display: block;
-    width: 100%;
-    height: auto;
-    transform: scale(1) !important;
-}
-.ppc2Img2:hover{
-    transform: scale(1.1) !important;
-}
-.ppc2Button{
+    left: 100%;
+    top: 70%;
+  }
+  .small2-container-Conversations {
+    position: absolute;
+    left: 70%;
+    top: 110%;
+  }
+  .side2-container-Conversations {
+    position: absolute;
+    top: -160px;
+    left: 30px;
+  }
+
+  .ppc2Button{
     width: 238px;
     height: 42px;
     background: linear-gradient(95.12deg, #EED979 0%, #6CA0BC 83.42%), #C4C4C4;
@@ -71,111 +80,139 @@
     text-decoration: none;
     background: linear-gradient(95.12deg, #6CA0BC  0%, #E5CD60 83.42%);
 }
-.ppc2Wall {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    width: 114px;
-    height: 108px;
-    z-index: -1;
-    transform: translate(394% , 28%) scaleX(-1);
-}
-.ppc2Rec8 {
-    position: absolute;
-    top: 50%;
-    left: 0%;
-    width: 40.32px;
-    height: 40.32px;
-    z-index: -1;
-    transform: translate(842%, 368%) scaleX(-1);
-}
-.ppc2ImgWrapper{
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
 
-/* Media Queries */
-@media only screen and (max-width: 768px){
-    .ppc2RowContainer{
-        display: flex !important;
-        flex-direction: column !important;
-        flex-wrap: wrap;
-        height: fit-content;
+  .prev-2-text-1-Conversations {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #3c708e;
+  }
+  
+  .prev-2-text-2-Conversations {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #757575;
+  }
+  
+  .texting-2-Conversations {
+    position: relative;
+    left: -2%;
+    padding-top: 10%;
+  }
+  
+  @media(max-width:1376px){
+    .images-2-Conversations{
+      left: 0%;
     }
-    .ppc2ImgWrapper{
-        justify-content: center;
-        margin-bottom: 20px;
-        height: 225px;
+  }
+  
+  @media (max-width: 1200px) {
+    .wall2-container-Conversations {
+      left: 80%;
     }
-    .ppc2Img2back {
-        width: 116px;
-        height: 178px;
-        top: 200%;
-        left: 30%;
-        transform: translate(-50%, -104%);
-        /* display: none; */
+    .prev2-Conversations {
+      margin-top: 0px;
     }
-   
-    .ppc2MainImg{
-        width: 160px;
-        height: 160px;
-        transform: rotate(45deg) !important;
+    .texting-2-Conversations {
+      position: relative;
+      left: 0%;
+      padding-top: 10%;
     }
-    .ppc2Wall {
-        width: 57px;
-        height: 54px;
-        top: 50%;
-        left: 50%;
-        transform: translate(130%, 24%) scaleX(-1);
+  }
+  
+  @media (max-width: 991.843654px) {
+    .wall2-container-Conversations {
+      left: 100%;
+      top: 40%;
     }
-    .ppc2Rec8 {
-        width: 20.155px;
-        height: 20.155px;
-        top: 50%;
-        left: 50%;
-        transform: translate(100%, 358%) scaleX(-1);
-    }   
-    .ppc2Button{
-        margin-bottom: 20px;
+    .side2-container-Conversations {
+      top: -290px;
+      left: 10%;
     }
-    .ppc2ColTextWrapper{
-        display: flex !important;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    .img-container-Conversations {
+      position: relative;
+      top: -30%;
     }
-
-    
-}
-
-@media only screen and (max-width: 512px) {
-    .ppc2RowContainer{
-        margin-left: -1% !important;
+    .small2-container-Conversations {
+      top: 80%;
     }
-    .ppc2Img2back{
-        display: none;
+    .Conversations-Sg {
+      margin-top: 150px !important;
     }
-}
-@media (min-width: 769px) and (max-width: 1199.98px){
-    .ppc2RowContainer{ 
-        margin: 0px 20px 0 20px !important; 
-        /* margin-bottom: 50px !important; */
+    .prev-2-text-1-Conversations {
+      font-size: 16px;
+      line-height: 20px;
     }
-    .ppc2Img2back {
-        width: 116px;
-        height: 178px;
+    .prev-2-text-2-Conversations {
+      font-size: 14px;
+      text-align: left;
     }
-    .ppc2MainImg{
-        width: 160px;
-        height: 160px;
+  }
+  @media (max-width: 768px) {
+    .prev-2-text-1-Conversations {
+      font-size: 12px;
+      line-height: 20px;
     }
-    .ppc2Wall {
-        width: 57px;
-        height: 54px;
+    .prev-2-text-2-Conversations {
+      font-size: 10px;
+      text-align: left;
+      line-height: 20px;
     }
-    .ppc2Rec8 {
-        width: 20.155px;
-        height: 20.155px;
-    }    
-}
+    /* .side2-container-Conversations {
+      top: 1000px;
+    } */
+  }
+  
+  @media(max-width:576px){
+    .texting-2-Conversations{
+      margin-left: 10px;
+      padding-right: 30px !important;
+    }
+    .prev-2-text-2-Conversations{
+      text-align: justify;
+    }
+  }
+  
+  @media (max-width: 653px) {
+    .side2-container-Conversations {
+      /* top: 750px; */
+      width: 130px !important;
+      height: 190px !important;
+      top: -150px !important;
+    }
+  }
+  @media (max-width: 509px) {
+    .Inc_Div_our-faith-main-img-Conversations {
+      width: 300px;
+      height: 302.8px;
+    }
+    .Inc_Div_our-faith-main-img-Conversations .main2-Conversations {
+      width: 103%;
+      height: 103%;
+    }
+    .img-container-Conversations {
+      position: relative;
+      left: 20%;
+    }
+    .wall2-container-Conversations {
+      width: 25%;
+      left: 75%;
+      top: 40%;
+    }
+    .small2-container-Conversations {
+      top: 70%;
+      width: 10%;
+      left: 52%;
+    }
+    .side2-container-Conversations {
+      left: 10px;
+      top: -150px;
+    }
+  }
+  

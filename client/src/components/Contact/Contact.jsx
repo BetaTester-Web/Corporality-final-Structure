@@ -4,7 +4,7 @@ import ContactMap from './Components/ContactMap'
 
 const Contact = () => {
     return (
-        <div className="d-flex flex-column justify-content-center ">
+        <div className="">
             <ConForm/>
             <ContactMap/>
         </div>
