@@ -20,7 +20,7 @@ const ConForm = () => {
 
     return (
         <>
-            <div className=" p-lg-0 pt-lg-2">
+            <div className="container p-lg-0 pt-lg-2">
                 <div className=" ">
 
                     <div className="d-lg-flex align-items-center  ">
@@ -58,12 +58,12 @@ const ConForm = () => {
                                 
                                     <div className="row">
                                         <div className="col mx-sm-3 con-contct-adh" >
-                                            <input type="text" name="fname" placeholder="First Name" className="form-control philosophy-input aaathuuuuuuuu" id="input" />
+                                            <input type="text" name="fname" placeholder="First Name" className=" philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">First Name</label>
                                         </div>
                                     
                                         <div className="col mx-sm-3 con-contct-aaa">
-                                            <input type="text" name="fname" placeholder="Last Name" className="form-control philosophy-input aaathuuuuuuuu" id="input" />
+                                            <input type="text" name="fname" placeholder="Last Name" className=" philosophy-input aaathuuuuuuuu" id="input" />
                                             <label for="fname" className="philosophy-input-label">Last Name</label>
                                         </div>
                                     </div>
@@ -88,7 +88,7 @@ const ConForm = () => {
                                     
                                     
                                     <div className="col my-3">
-                                        <textarea className="form-control philosophy-input" placeholder="Your Message"  id="input" rows="5"></textarea>
+                                        <textarea className=" philosophy-input" placeholder="Your Message"  id="input" rows="5"></textarea>
                                         <label for="fname" className="philosophy-input-label">Your Message</label>
                                     </div>
                                     
