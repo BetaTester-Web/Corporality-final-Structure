@@ -185,6 +185,7 @@ margin-right: -40px !important;
 .footer-button-text{
   transform: rotate(-180deg);
   padding-bottom: 4% !important;
+  padding-top: 3% !important;
   font-weight: 500;
   font-size: 14px;
   line-height: 16px;
