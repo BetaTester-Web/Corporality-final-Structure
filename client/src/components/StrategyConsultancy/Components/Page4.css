@@ -85,7 +85,7 @@
 
   .Consultancypage-4-cont {
     width: 90%;
-    margin-left: 0px !important;
+    margin-left: 7% !important;
     margin-top: 100% !important;
   }
 
@@ -189,8 +189,8 @@ color: #6CA0BC;
   }
   .center > img {
     width: 70%;
-    margin-top: -50% !important;
-    margin-left: 35px !important;
+    margin-top: -39% !important;
+    margin-left: 37px !important;
   }
   .Consultpolygon {
     width: 130%;
@@ -219,4 +219,15 @@ color: #6CA0BC;
   .deg90 {
     transform: rotate(90deg) translate(7em) rotate(-90deg);
   }
+}
+
+@media only screen and (max-width: 380px){
+.center > img {
+    width: 70%;
+    margin-top: -50% !important;
+    margin-left: 35px !important;
+}
+.Consultancypage-4-cont{
+  margin-left: 4% !important;
+}
 }

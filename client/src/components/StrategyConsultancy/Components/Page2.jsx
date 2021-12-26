@@ -49,7 +49,7 @@ const Page2 = () => {
                     <h2 className="d-flex justify-content-center align-items-center">
                         Business Experience Strategy
                     </h2>
-                    <p>While using analytics and insights, we clearly understand both inorganic and organic lifters that play crucial roles in organisational elevation. With this combination, you are set to grow faster than most others in your industry.Corporality Global initiates a continued discovery process that helps you succeed in today's marketplace. Gain a grasp of the fundamental principles through an innovation marketing strategy programme that offers fresh means to future-proofing your business.</p>
+                    <p className="qwewqwewqwewqwe">While using analytics and insights, we clearly understand both inorganic and organic lifters that play crucial roles in organisational elevation. With this combination, you are set to grow faster than most others in your industry.Corporality Global initiates a continued discovery process that helps you succeed in today's marketplace. Gain a grasp of the fundamental principles through an innovation marketing strategy programme that offers fresh means to future-proofing your business.</p>
                 </div>
             </div>
 
