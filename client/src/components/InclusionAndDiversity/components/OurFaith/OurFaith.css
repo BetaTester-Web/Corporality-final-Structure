@@ -51,7 +51,7 @@
  }
  .images-2-Faith{
      position: relative !important;
-     left: -19%;
+     left: -10%;
      top: -10%;
  }
  .wall2-container-Faith{
@@ -187,8 +187,8 @@
 
  @media (max-width:509px){
      .Inc_Div_our-faith-main-img-Faith{
-         width: 200px !important;
-        height: 202.8px !important;
+         width: 300px !important;
+        height: 302.8px !important;
      }
      .Inc_Div_our-faith-main-img-Faith .main2-Faith{
          width: 103% !important;
@@ -200,13 +200,13 @@
      }
      .wall2-container-Faith{
          width: 30% !important;
-         left: 80% !important;
-         top: 50% !important;
+         left: 70% !important;
+         top: 40% !important;
      }
      .small2-container-Faith{
-         top: 80% !important;
+         top: 70% !important;
          width: 10% !important;
-         left: 55% !important;
+         left: 52% !important;
          
      }
      .side2-container-Faith{

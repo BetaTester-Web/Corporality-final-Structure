@@ -1,11 +1,18 @@
 .ppc2RowContainer{
     /* height: calc(100vh - 80px); 
     margin: 0 74px 0 74px !important; */
-    margin: 100px;
+    width: 100%;
+    margin: 170px 0px;
+    /* justify-content: space-between; */
 }
 
-.ppccomp2{
-    margin-top: -500px !important;
+.Inc_Div_our-faith-main-img-Digital .iiiiimmmmggg{
+    width: 133%;
+    transform: rotate(90deg) !important;
+    height: 133%;
+    margin-top: -21.5%;
+    margin-left: -21.5%;
+    transition: all 0.6s linear;
 }
 
 .ppc2ColContainer{ 

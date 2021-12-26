@@ -44,11 +44,7 @@ const Second = () => {
 
                                 <span><img  className='polygon-last' src={polygon} alt='' /></span><p className='container-2-text-2'>Written plan along with comprehensive research and expert recommendations</p>
                             </div>
-                            <a href=''>
-                                <div className="button-5">
-                                    <div className='button-link-3' href="#">Explore</div>
-                                </div>
-                            </a>
+                            <button className="button-seventh">Explore</button>
 
 
                         </div>

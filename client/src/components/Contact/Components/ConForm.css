@@ -1,6 +1,6 @@
 .conform-info-box{
   /* position: absolute; */
-  margin-top: 10% !important;
+  margin-top: 12% !important;
   margin-left: 5% !important;
   /* margin-right: 20% !important; */
 }
@@ -26,6 +26,14 @@
   /* or 171% */
 
   color: #757575;
+}
+
+input:focus::placeholder {
+  color: transparent;
+}
+
+textarea:focus::placeholder {
+  color: transparent;
 }
 
 
@@ -73,6 +81,8 @@ color: #C2BDC8;
    /* padding-right: -70px; */
 
 }
+
+
 
 
 .conformhollowDia{
@@ -359,6 +369,19 @@ margin-right: -40px !important;
 }
 
 @media only screen and (max-width: 560px){
+  .aaathuuuuuuuu{
+    padding: 10% !important;
+  }
+  .conform-contactForm{
+    padding: 5%;
+  }
+
+  .conform-info-box {
+    /* position: absolute; */
+    margin-top: 30% !important;
+  }
+}
+@media only screen and (max-width: 560px){
   .conform-diamond {
     position: relative;
     width: 130px;
@@ -367,10 +390,20 @@ margin-right: -40px !important;
   /* margin-left: 20%; */
   /* margin-bottom: 20%; */
   }
-  .conform-info-box{
-    /* position: absolute; */
-    margin-top: 20% !important;
+
+
+  .con-contct-adh{
+    margin-left: 15px;
+    /* margin-right: 15px; */
   }
+  .con-contct-aaa{
+    margin-right: 15px;
+  }
+  
+  .jhvwwchv{
+    margin-left: 50%;
+  }
+  
   
 
 }

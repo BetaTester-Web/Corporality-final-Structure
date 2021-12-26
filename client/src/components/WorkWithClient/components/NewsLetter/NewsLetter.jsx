@@ -32,7 +32,7 @@ const NewsLetter = () => {
               <p data-aos="fade-right" data-aos-delay="1000" className="NewsLetter-Text-2">
                 Change is positive and long-lasting with us.
               </p>
-              <div data-aos="fade-right" data-aos-delay="500" className="aos-in-button">
+              <div data-aos="fade-right" data-aos-delay="500">
                 <button className="button-seventh">Apply here</button>
               </div>
               <br />
